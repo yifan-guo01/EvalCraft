@@ -1,0 +1,10 @@
+container
+drain liquid
+filter material
+liquid product
+conduit filter
+multiple chamber
+flexible membrane
+heat pressure
+bowl portion
+curved sidewall

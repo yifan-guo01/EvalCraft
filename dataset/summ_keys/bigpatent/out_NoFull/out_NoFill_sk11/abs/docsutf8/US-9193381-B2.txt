@@ -1,0 +1,11 @@
+throughout all the figures , same or corresponding elements may generally be indicated by same reference numerals .
+these depicted embodiments are to be understood as illustrative of the invention and not as limiting in any way .
+it should also be understood that the figures are not necessarily to scale and that the embodiments are sometimes illustrated by graphic symbols , phantom lines , diagrammatic representations and fragmentary views .
+in certain instances , details which are not necessary for an understanding of the present invention or which render other details difficult to perceive may have been omitted .
+these are connected with each other by way of a front axle 24 .
+in this way , the vertical lift of each individual wheel can be individually adjusted .
+the abc control device 20 is connected with a control device 22 which controls a semi automatic vehicle guidance system .
+the motor vehicle 10 also includes a sensor 32 configured for measurement of the instantaneous transverse acceleration of the motor vehicle 10 .
+the sensor 32 is connected with the control device 22 and transmits to the control device 22 the measurement information about the transverse acceleration .
+the steering angle b can be adjusted with the steering system 26 .
+in addition to manual steering , the motor vehicle 10 also includes a steering actuator 28 , with which the steering angle b of the wheels 16 a and 16 b can be automatically adjusted .

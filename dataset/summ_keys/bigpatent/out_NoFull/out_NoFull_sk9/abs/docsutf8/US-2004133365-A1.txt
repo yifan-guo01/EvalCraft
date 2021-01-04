@@ -1,0 +1,9 @@
+now referring to fig1 the offset of the center of gravity s from the vehicle center is referred to as s y , the level of the center of gravity above the roadway is designated by the letter h .
+to determine the sums of tire contact forces f lz and f rz and the sum of transverse force f y , the vehicle is looked at as a rigid body in a simplified two dimensional model , onto which body only the contact forces between tire contact area and roadway act beside the gravitational force .
+aerodynamic forces and the movement of vehicle parts relative to a system of coordinates ( x , y , z ) on the vehicle moved along with the vehicle body , such as the rotation and compression of the vehicle wheels , may be ignored in this context .
+a rigid body moves under the effect of applied forces and torques according to generally known mathematical interrelationships , i .
+center of mass law and an extended form of the euler equations for the angular motion of especially rigid bodies giving the spatial angular momentum vector equation .
+after having detected the state of motion of the rigid body , it is possible to use these motion equations to make conclusions with respect to the acting forces and torques .
+it shows in a simplified modeling of the vehicle that is reduced to the plane normal to vehicle & # 39 ; s longitudinal direction that the vertical acceleration u z and transverse acceleration u y , as well as the roll angle velocity φ and roll angle acceleration φ are sufficient as measuring signals to determine the left hand and right hand tire contact forces sought .
+additionally , the sum f y of the transverse forces exerted by the roadway to the tires is achieved .
+the state of motion in the system on the vehicle is measured .

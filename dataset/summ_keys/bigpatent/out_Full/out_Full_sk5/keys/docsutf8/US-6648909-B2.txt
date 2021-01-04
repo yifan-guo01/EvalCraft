@@ -1,0 +1,10 @@
+prefer embodiment
+device
+outer shell
+fluid material
+compartment sheet
+second compartment
+thermal pack
+perineal area
+seal pouch
+provide therapy

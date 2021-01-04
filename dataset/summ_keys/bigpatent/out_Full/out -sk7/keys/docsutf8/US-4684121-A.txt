@@ -1,0 +1,10 @@
+shape frame
+member seat
+leg arm
+opposite end
+leg exercise
+member rail
+member roller
+thread handle
+fix plate
+connect rod

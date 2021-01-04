@@ -1,0 +1,10 @@
+tubular region
+type material
+hole shape
+produce accessory
+produce blade
+produce device
+illustrate embodiment
+bicycle fork
+flat strip
+bicycle wheel

@@ -1,0 +1,10 @@
+channel
+drive voltage
+control signal
+connect transducer
+drive circuit
+present invention
+excitation
+control input
+odd clock
+voltage source

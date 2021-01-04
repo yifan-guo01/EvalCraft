@@ -1,0 +1,10 @@
+furnace chamber
+invention
+mold structure
+furnace floor
+ceramic mold
+duct opening
+inert gas
+chamber wall
+chamber injector
+extinguish wax

@@ -1,0 +1,10 @@
+patient
+ratchet device
+frictional force
+use spring
+piece harness
+harness section
+frame door
+translate displacement
+door frame
+ratchet mechanism

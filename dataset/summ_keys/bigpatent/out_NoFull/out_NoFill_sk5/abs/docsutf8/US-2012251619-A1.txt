@@ -1,0 +1,5 @@
+some embodiments of the invention may consist of or consist essentially of one or more elements , method steps , and / or methods of the invention .
+it is contemplated that any method or composition described herein can be implemented with respect to any other method or composition described herein .
+this is common characteristic of tumor suppressor genes and micrornas .
+from this work , a person having ordinary skill in this art could readily conclude that mir 29a along with its family members mir 29b and mir 29c are strong suppressors of ovarian and other cancers .
+another preferred embodiment of the present invention discloses that mir 29a significantly increases the sensitivity to cisplatin ( which is commonly used to treat ovarian and other cancers ) .

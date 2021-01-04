@@ -1,0 +1,8 @@
+an embodiment of a known apparatus for forming a meltspun web is shown schematically in fig1 and is represented generally by the numeral 10 .
+as is conventional , the apparatus includes a reservoir 11 for supplying a quantity of fiber forming thermoplastic polymer resin to an extruder 12 driven by a motor 13 .
+the fiber forming polymer is provided to a melt die apparatus 14 and heated therein by conventional electric heaters ( not visible in the view shown ) .
+an auxiliary heater 19 may be provided to bring the primary flow of heating air to higher temperatures on the order of the melting temperature of the polymer .
+the fiber forming distance is the distance between the upper surface of the forming wire 22 and the plane of the discharge opening of die 14 .
+die tip 40 is formed generally in the shape of a prism that defines a knife edge 21 .
+the knife edge 21 forms the end of the portion of the die tip 40 .
+die tip 40 is further defined by at least one opposed side surface 42 that intersects in the embodiment shown in fig2 at the horizontal plane perpendicular to knife edge 21 .

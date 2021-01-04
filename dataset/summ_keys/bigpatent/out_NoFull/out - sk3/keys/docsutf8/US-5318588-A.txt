@@ -1,0 +1,10 @@
+device
+tubular element
+profile
+delivery channel
+guidewire
+tubular component
+guide catheter
+side sheath
+shaft configuration
+invention

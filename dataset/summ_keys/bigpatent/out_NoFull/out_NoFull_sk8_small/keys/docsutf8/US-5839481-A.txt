@@ -1,0 +1,10 @@
+hook
+proportional force
+elastic stop
+lower position
+form mechanism
+retain lever
+tension spring
+knife
+guide
+selector device

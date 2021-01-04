@@ -1,0 +1,6 @@
+bicycle sharing has been implemented in many towns and cities to support public transportation .
+most of these bicycle sharing programs encounter problems related to vandalism , theft , and the high cost of maintenance .
+to address these issues , some bicycle sharing programs require the user to leave a deposit or identification to prevent bicycle theft .
+attempts to deter theft include the use of bicycles with non removable parts and unique visual appearances , which limit their utility outside of the bicycle sharing program .
+recent bicycle sharing programs have attempted to eliminate the need for active management by employing “ smart ” terminals that track the status of rented bicycles .
+while current automated systems are an appealing method of bicycle sharing , the system has not been widely implemented due to the high cost of the “ smart ” bicycle terminals .

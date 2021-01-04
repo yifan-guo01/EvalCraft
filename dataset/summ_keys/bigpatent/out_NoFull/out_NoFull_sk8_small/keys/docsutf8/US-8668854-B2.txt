@@ -1,0 +1,10 @@
+fiber
+material
+phase nozzle
+pressurize air
+polymer film
+phase mixture
+attach powder
+collection surface
+preformed sheet
+present disclosure

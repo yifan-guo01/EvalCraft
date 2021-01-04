@@ -1,0 +1,8 @@
+an embodiment of the present invention is explained below with reference to the drawings .
+fig1 is a block diagram of a travel speed limiting apparatus according to the present embodiment .
+in setting the speed limit , first , the set switch 32 is pressed to display a value of the speed limit on an instrument panel or the like mounted on the present vehicle .
+the speed decreasing switch 32 or the speed increasing switch 36 is then pressed to set the speed limit to a desired valued by increasing or decreasing the displayed value .
+based on the speed limit , a speed limit mode is automatically started with the travel speed limiting apparatus 1 .
+the speed limit set in the above operation is recorded on a memory unit 38 ( speed limit memory device ) .
+in the case of returning to a normal travel from the speed limit mode , the stop switch 34 is pressed .
+if it is desired to restart the speed limit mode , the restart switch 36 is then pressed .

@@ -1,0 +1,10 @@
+unit
+gate
+container
+complete batch
+counting head
+detect embodiment
+smart servo
+left channel
+front wall
+accumulate counting

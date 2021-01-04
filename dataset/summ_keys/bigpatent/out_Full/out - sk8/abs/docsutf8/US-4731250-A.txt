@@ -1,0 +1,8 @@
+the invention relates to a method and an arrangement for the continuous heat treatment and packaging of a liquid product with the object of sterilizing the product , the product being heated for a short time together with , and surrounded by , the packing material wherein it is to be enclosed .
+heat is transmitted to the product with the help of the metal bands while the product present between the metal bands is kept under pressure .
+as can be seen from fig1 the arrangement consists of two endless bands 1 which are assumed here to be steel bands but which may also be other , preferably thermally conducting , bands or reinforced plastic bands .
+the parts of the steel bands 1 facing one another form a gap 19 and the size of this gap is determined by supporting or guiding surfaces 11 over which the steel bands 1 are conducted .
+the arrangement is also provided with a pumping device 5 which in the case shown here is a peristaltic pump , that is to say a pump which by means of periodical contractions forces the pumped object to advance through a duct .
+in the example given here , heat is supplied by providing magnetic induction coils 12 in the supporting elements 11 of the steel bands 1 .
+for this reason the supporting elements 11 in the throttling zone 16 should be adjustable so that the gap can be adapted to allow the desired pressure reduction to be obtained .
+l bands 1 will expand and the relative speed between the product and the tube once more will become insignificant owing to the increase in the cross sectional area of the tube .

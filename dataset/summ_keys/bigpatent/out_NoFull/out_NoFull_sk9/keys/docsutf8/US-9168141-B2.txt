@@ -1,0 +1,10 @@
+biomolecule
+example
+molecule
+factor
+cell
+dna
+proteins
+electrolyte
+medical device
+layer

@@ -1,0 +1,9 @@
+the following detailed description should be read with reference to the drawings .
+the drawings , which are not necessarily to scale , depict illustrative embodiments and are not intended to limit the scope of the invention .
+fig3 is a perspective view of a first embodiment of a magnetically supported conveyor system .
+the conveyor belt 54 is at least partly supported by the use of magnetic forces .
+fig4 is a section view of an illustrative embodiment showing greater detail of the supporting framework for a magnetically supported conveyor system .
+as can be seen , the outer magnet housings 70 wrap around the inner magnet housing 72 so that both lateral and vertical support is provided to the conveyor belt 54 .
+if desired or necessary , additional support devices may be used in conjunction with the magnetic support provided by the magnet housings 70 , 72 .
+fig5 is a cross sectional view of an illustrative support framework .
+the cross section shows how the tension members 60 cross from the lower pivot mounts 68 to the upper pivot mounts 66 to provide lateral support to the support arms 62 .

@@ -1,0 +1,10 @@
+syringe reservoir
+tubule
+scale use
+end invention
+content
+prefer means
+dispense material
+tip attachment
+dispense tool
+brush end

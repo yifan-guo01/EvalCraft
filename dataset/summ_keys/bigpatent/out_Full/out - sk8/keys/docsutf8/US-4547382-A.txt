@@ -1,0 +1,10 @@
+grain
+spend material
+malting operation
+separate husk
+high amount
+second microwave
+brewery
+quality protein
+malt barley
+effluent water

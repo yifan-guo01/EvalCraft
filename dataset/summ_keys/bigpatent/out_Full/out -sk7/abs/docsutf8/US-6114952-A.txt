@@ -1,0 +1,7 @@
+a remote fault indicating unit for an electronic system , such as a vehicle adaptive braking system , includes a series of visual indicators , such as light emitting diodes , on one surface of the housing and a computer serial port connector for use when troubleshooting is done with a pc equipped with the appropriate software .
+each of the indicators is activated in response to a predetermined malfunction sensed in the system , such as a defective speed sensor , defective modulator , or a defect in the electronic circuitry .
+the indicators are reset with a switch when the system is repaired .
+when the reset switch is activated , all of the indicators flash on and are then turned off .
+the reset switch can also be activated for a longer period of time changing the ecu configuration .
+referring now to the drawings and to fig1 in particular there is shown a truck antilock diagnostic system 10 using a diagnostic communications interface unit 12 according to the present invention .
+ten of the leds provide a diagnostic check of the abs / atc and the other two leds are used to indicate that the dci has a power source and that a communications link is established .

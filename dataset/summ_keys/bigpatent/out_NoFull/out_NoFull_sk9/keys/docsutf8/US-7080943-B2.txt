@@ -1,0 +1,10 @@
+spherical surface
+spherical body
+spherical section
+surface holder
+bolt
+hollow screw
+frame
+body liner
+gib wedge
+gib cap

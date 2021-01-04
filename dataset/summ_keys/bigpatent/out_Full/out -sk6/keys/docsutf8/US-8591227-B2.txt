@@ -1,0 +1,10 @@
+mouthpiece
+bite surface
+gum tooth
+generate heat
+generate resistor
+open system
+surface edge
+whitening gel
+light source
+free oxygen

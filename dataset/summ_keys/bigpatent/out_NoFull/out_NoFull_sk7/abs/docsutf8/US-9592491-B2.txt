@@ -1,0 +1,7 @@
+the present disclosure will be further explained in conjunction with specific examples , which are not to limit the scope of the present disclosure .
+the α alumina carrier of the present disclosure is modified by the elements of lanthanum and silicon .
+the carrier can be used for producing ethylene oxide by oxidation of ethylene .
+in some embodiments , the mass ratio of the element of lanthanum to the element of silicon in the carrier is in the range from 0 .
+the loading volume of the catalyst is 1 ml filled with an inert filler at a lower portion thereof , so that the catalyst bed is located in a constant temperature zone of the heating jacket .
+the activity and selectivity measurement conditions employed in the present disclosure were as follows .
+when the above reaction conditions were stably obtained , the composition of the gasses at the inlet and outlet of the reactor were constantly measured .

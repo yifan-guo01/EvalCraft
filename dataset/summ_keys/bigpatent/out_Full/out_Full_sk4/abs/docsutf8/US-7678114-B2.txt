@@ -1,0 +1,4 @@
+a surgical installation tool to insert a vertebral implant into a patient includes an elongated handle and a head attached to one end .
+the head may include an engagement member that is movable between engaged and released positions .
+the engagement member may be outwardly biased so that it naturally rests in the released position .
+a reactive force caused by the inward deflection may supply the attachment force between the installation tool and the vertebral implant .

@@ -1,0 +1,8 @@
+the security paper web which is partially shown in fig1 comprises a security paper substrate 1 which has been manufactured in a conventional manner using a papermaking process e .
+where a windowed thread is incorporated the watermark would be normally manufactured by a mould made process .
+the watermarked security paper is then passed through a coater of the form schematically shown in fig4 which lays down three coating stripes 3 5 on the paper web .
+following the coating step , the web is printed in a conventional manner depending upon the security documents which are to be produced and finally the web is cut into separate security documents .
+of course , the cutting step could be carried out before the printing step if desired .
+the printing process may be any conventional process such as gravure , intaglio , offset letterpress and can involve printing a wide variety of inks such as colour changing inks , metallic , pearlescent inks , luminescent and the like .
+a further possibility is the printing of a photoimage , particularly in the case of identity cards .
+furthermore , at least some of the printing may extend over the boundary between the coated and uncoated portions .

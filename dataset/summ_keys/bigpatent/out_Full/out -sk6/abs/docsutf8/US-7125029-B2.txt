@@ -1,0 +1,6 @@
+a wheel assembly is provided , particularly for use with a vehicle , for example a scooter or a bicycle and the like , for operation in both eccentric and concentric modes .
+the wheel rim of the assembly rotatably and concentrically supports a wheel hub thereon .
+an offset axle is supported on the wheel hub radially spaced from the central axis of the wheel for rotation with the wheel hub relative to the wheel rim about the central axis .
+a locking mechanism selectively engages the wheel hub for rotation with the wheel rim in the eccentric mode , while the rim rotates freely about the central axis relative to the rim in the concentric mode .
+in this arrangement , any variety of simple clutch mechanism between the hub and the rim is effective for converting between the eccentric and concentric modes of operation .
+referring to the accompanying drawings , there is illustrated a wheel assembly generally indicated by reference numeral 10 .

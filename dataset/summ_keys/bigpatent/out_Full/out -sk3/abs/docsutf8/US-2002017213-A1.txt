@@ -1,0 +1,3 @@
+a method of printing on a substrate is disclosed .
+the method includes depositing an ink on a membrane , placing the membrane in juxtaposition to the surface of the substrate and applying heat and pressure to produce a high quality color control image on the substrate .
+the ink preferably comprises a thermal transfer dye , a thermal transfer pigment , a protective polymer and a carrier .

@@ -1,0 +1,6 @@
+an apparatus for cleaning a jet engine includes a supply device configured to make cleaning medium available , a nozzle device configured to introduce the cleaning medium into the jet engine , and a line connection between the supply device and the nozzle device .
+the cleaning medium can be solid carbon dioxide .
+a system including a jet engine and the apparatus .
+a method for cleaning a jet engine using solid carbon dioxide .
+moreover , a shaft hub 55 is provided which is connected fixedly in terms of rotation to a turbofan .
+the apparatus 1 according to the invention consists of a supply device 2 comprising a tank for the cleaning medium which is suitable for storing liquid carbon dioxide , of a cooling device for cooling this tank and a pump .

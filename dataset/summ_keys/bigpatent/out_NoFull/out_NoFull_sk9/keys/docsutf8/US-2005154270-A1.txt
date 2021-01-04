@@ -1,0 +1,10 @@
+wound
+use skin
+surface
+peak voltage
+electric field
+probe head
+measurement step
+probe signal
+number value
+function difference

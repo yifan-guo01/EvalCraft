@@ -1,0 +1,10 @@
+apparatus
+surface
+sample member
+member rotor
+pulp filtrate
+outlet connection
+discharge conduit
+discharge opening
+rotate drum
+describe embodiment

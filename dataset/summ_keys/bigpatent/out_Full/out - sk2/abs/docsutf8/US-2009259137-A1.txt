@@ -1,0 +1,2 @@
+an electrode system to capture bioelectric signals from a subject generally should address various requirements including safety needs , cost , power consumption , performance , ease of use and subject comfort .
+however , the relative importance of these factors may be somewhat different in a non clinical application than in a clinical application .

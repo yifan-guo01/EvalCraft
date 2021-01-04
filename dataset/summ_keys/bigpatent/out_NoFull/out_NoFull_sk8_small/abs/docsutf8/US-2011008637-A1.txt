@@ -1,0 +1,8 @@
+for purposes of this application the definition of these terms is as follows : “ binder ” means a composition of matter within a coating formulation that helps to both adhere pigment to the paper substrate and to help bind pigment particles to each other “ brightness ” means a measurement of the ability of a sample to reflect monochromatic ( 457 nm ) light as compared to a known standard , using magnesium oxide ( mgo ) .
+“ co binder ” means a constituent of an oba coating which is present in small amount , less than 10 pph relative to the particulate weight , and is used for the purpose of improving some aspect of the coating formulation or final coated product .
+“ dye ” means a material used in an oba containing coating formulation to alter the optical properties of a substrate .
+“ glycerol based polymers ” means any polymers containing glycerol monomer units such as polyglycerols , polyglycerol derivatives , and a polymer consisting of glycerol monomer units and at least another monomer units to other multiple monomers units .
+“ oba ” means a dye or pigment based optical brightening agent which is a component of a coating formulation commonly applied to a paper substrate .
+fluorescent dyes or pigments that absorb ultraviolet radiation and reemit it at a higher frequency in the visible spectrum ( blue ) , thereby effecting a white , bright appearance .
+“ particulates ” means a finely ground solid powder that may or may not be water soluble .
+“ pigment ” means a solid material used in an oba containing coating formulation to alter the optical properties of a substrate .

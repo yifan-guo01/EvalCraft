@@ -1,0 +1,9 @@
+in the following detailed description , specific details are set forth to provide an understanding of the subject technology .
+in other instances , well known structures and techniques have not been shown in detail so as not to obscure the subject technology .
+in accordance with some embodiments disclosed herein is the realization that detachment of a medical device from a delivery assembly can be improved by enhancing features to focus the electrolytic corrosion activity .
+thus , various embodiments provide for detachment zones that can facilitate electrolytic detachment of a delivery mechanism , making the detachment process faster and more reliable .
+the medical device can be implanted in body cavities or blood vessels .
+in addition to the medical device , the delivery system can comprise a voltage source , a cathode , and a catheter .
+the handle 42 shown provides proximal access to a delivery wire that engages the implant 20 at a distal end .
+or can be constructed using conventional catheter construction techniques and include a liner , braid support and outer jacket ( not shown ) .
+the hub 50 can provide an aperture 54 for receiving engagement and release mechanisms of a delivery system .

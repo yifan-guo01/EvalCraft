@@ -1,0 +1,10 @@
+generate device
+rotate speed
+pattern datum
+device pulse
+presser bar
+curve needle
+feed roller
+start timing
+control signal
+supply number

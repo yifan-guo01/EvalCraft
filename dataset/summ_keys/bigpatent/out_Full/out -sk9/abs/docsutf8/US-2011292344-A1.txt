@@ -1,0 +1,9 @@
+to provide spectral output selectivity and brightness flexibility , a plurality of color light sources are selectively combined to produce an illuminating light having a desired spectral output .
+in this fashion , a clinician may thus not only alter the spectral output for the illumination but also vary ( or keep constant ) the resulting luminous flux despite the spectral augmentation .
+each led associates with a corresponding collimating lens .
+because of the rgb contribution from the sources , combined light beam 140 may nominally be a white light beam .
+to provide spectral variability in addition to white light illumination , the radiant flux ( intensity ) for each light source may be tuned as desired .
+other techniques may also be used to vary or tune the light intensity from each source .
+for example , constant power sources may drive the leds through pulse width modulators .
+in one embodiment , controller 160 automatically adjusts the gain responsive to feedback as sensed through an optical sampler 165 that samples combined beam 140 .
+for example , optical sampler 165 may comprise a beam splitter or a folding mirror to split off a relatively small portion of the combined beam 140 as a sampled beam 170 .

@@ -1,0 +1,11 @@
+with reference first to fig1 there is illustrated a cross sectional view of a conventional blade coater assembly 2 .
+the coating is piped to a distribution header 8 and is applied to the web 4 as it passes underneath blade 10 .
+blade 10 doctors excess coating off of web 4 to leave a thin coating film 12 , the thickness of which is exaggerated in the drawing .
+as paper web 4 passes through the nip , web 4 picks up the coating of film carried on the surface of the metering roll , in a manner analogous to a rotary printing press .
+however , regardless of the coating application method used , a blade is employed to scrape off excess coating as shown in fig1 .
+adjusting screws 16 may be turned by hand wheels 22 or they may be motorized for automatic control via a conventional computer setup .
+preferably , only one positioning rod 124 for every two or three widthwise control zones will be employed in the present invention .
+backing bar 123 is not used for profiling purposes , but is made movable only to enable the installation and control range adjustment of different sized profile tubes 116 .
+any suitable pneumatic fluid or gas can be used , but air is preferred .
+the view of fig3 b also shows chambers 117 being parallelogram shaped and diagonally oriented .
+the control zone width ( the length of the individual chambers 117 ) can be as small as one half of an inch .

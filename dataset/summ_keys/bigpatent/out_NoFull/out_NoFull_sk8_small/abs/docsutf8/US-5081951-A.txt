@@ -1,0 +1,8 @@
+coating 1 is applied in excess to a web 2 of paper or cardboard that travels around a backing roll 3 in the vicinity of a flow control system .
+the flow control system comprises a doctor blade beam 4 accommodating a tensioning beam 5 that can be advanced toward backing roll 3 .
+below the edge of the doctor blade that rests against backing roll 3 , a supporting batten 7 engages doctor blade 6 and travels back and forth to adjust pressure more or less parallel to the direction traveled by tensioning beam 5 .
+supporting batten 7 extends over the operating width and has slits at regular intervals along the side opposite the line of contact or is otherwise elasticized and hence made flexible within limits in order to allow the establishment of a locally differentiated pressure along the width of doctor blade 6 .
+bolts 8 extend radially away from backing roll 3 and are mounted separated from supporting batten 7 in a batten 9 that extends over the operating width .
+a spring 10 that exerts a force away from backing roll 3 is mounted on the projecting end .
+the force of the spring can be varied with a screw 11 .
+the other end of the lever rotates around a point 13 on doctor blade beam 4 .

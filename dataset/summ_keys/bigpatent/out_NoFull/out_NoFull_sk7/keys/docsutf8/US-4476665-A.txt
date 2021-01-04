@@ -1,0 +1,10 @@
+turntable
+receive cell
+cigarette block
+complete package
+block end
+hollow mandrel
+discharge position
+packaging machine
+transfer operation
+comprise rotor

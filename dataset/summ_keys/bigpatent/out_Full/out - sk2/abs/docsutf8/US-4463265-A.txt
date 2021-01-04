@@ -1,0 +1,2 @@
+in electron beam lithography , a beam of incident electrons exposes a preselected circuit pattern in a thin resist layer deposited on top of a substrate to be etched .
+some of the electrons scatter from the substrate back into the resist layer producing an undesired exposure which produces variable resolution of features .

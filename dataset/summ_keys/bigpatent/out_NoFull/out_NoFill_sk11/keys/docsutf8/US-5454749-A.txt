@@ -1,0 +1,10 @@
+barrel
+intermediate gear
+rotary drum
+reference numeral
+grind material
+rotate shaft
+sub chamber
+rotate direction
+possible shape
+inner wall

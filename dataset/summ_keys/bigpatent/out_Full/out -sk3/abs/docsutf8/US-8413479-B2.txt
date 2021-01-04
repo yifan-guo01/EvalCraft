@@ -1,0 +1,3 @@
+a forging die tool set defines a cavity and includes a core rod in the cavity for shaping a void in a work piece .
+the core rod extends in a direction in which the work piece is introduced , compressed , and ejected from the cavity .
+the core rod includes an upper portion and a lower portion .

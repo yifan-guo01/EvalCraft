@@ -1,0 +1,10 @@
+robot
+plurality
+linear actuator
+attach segment
+distal end
+articulated joint
+lead wire
+computer program
+stop motor
+motor set

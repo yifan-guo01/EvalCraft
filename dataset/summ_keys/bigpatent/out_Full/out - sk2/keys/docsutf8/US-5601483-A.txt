@@ -1,0 +1,10 @@
+hollow spindle
+power tool
+pusher element
+clamp position
+link rod
+clamp flange
+clamp lever
+drive housing
+axial direction
+electric motor

@@ -1,0 +1,10 @@
+extinguish chamber
+cast structure
+extinguish wax
+furnace floor
+floor opening
+inert gas
+chamber wall
+process mold
+chamber injector
+typical embodiment

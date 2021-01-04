@@ -1,0 +1,9 @@
+an additive manufacturing process performed by an additive manufacturing machine includes strain gauges that detect stress within a part during fabrication within a defined workspace .
+when the detected stress is exceeds a desired level the fabrication steps are paused and a stress relieving process is performed within the chamber without moving the part .
+the additive manufacturing machine includes heaters and coolers for changing the temperature within the chamber to perform the desired stress relieving process in the same space as fabrication is performed .
+once it is confirmed that stresses within the part are within acceptable limits the part fabrication process is resumed .
+the example material 24 is a metal powder that is applied in a layer over the support 14 and subsequent layers to produce a desired configuration of the part 16 .
+the laser beam 20 emits directs energy that melts the powder material in a configuration that forms the desired part dimensions .
+the additive manufacturing process proceeds by melting subsequent layers of powdered material 24 that are applied to the part 16 to form the desired part configuration .
+as appreciated , the energy focused on the top layer of the part 16 generates the desired heat to melt and then solidify portions of the powdered metal to form the desired part configuration .
+the repeated localized heating and cooling of the powdered material 24 and the part 16 can result in the buildup of undesired stresses within the part 16 .

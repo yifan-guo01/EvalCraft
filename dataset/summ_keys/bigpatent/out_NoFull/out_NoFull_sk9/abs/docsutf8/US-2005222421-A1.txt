@@ -1,0 +1,9 @@
+the present invention is now described in more detail by reference to the following examples .
+the examples are only used for illustrating the present invention without limiting the scope of the present invention .
+6 ) were added into a tube reactor having a diameter of 1 inch and a length of 5 centimeter to obtain a catalyst bed .
+the resultant mixture was continuously fed into the catalyst bed heated at a temperature of 260 ° c .
+the nicotinic acid was first sampled from reactor and rinsed with water , and then injected into hplc and quantified .
+after continuous reacting for 13 days , the catalyst was sampled and analyzed by electronic microscopy .
+the photograph of the catalyst before reaction is shown in fig1 .
+by comparing fig1 to 3 , it is known that the crystal size of the active ingredient ( vanadium oxide ) on the surface of the carrier gradually grow up while time passed .
+the increased crystal size is a possible reason of lowering conversion .

@@ -1,0 +1,10 @@
+length diameter
+average length
+descriptive matter
+plant fruit
+average size
+color name
+stone surface
+colour chart
+flower lenticel
+average number

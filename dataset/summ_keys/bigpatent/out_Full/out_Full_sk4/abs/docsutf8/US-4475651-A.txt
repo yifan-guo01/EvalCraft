@@ -1,0 +1,4 @@
+a roll wrapping apparatus and method where rolls are wrapped with an envelope of heat shrink plastic film with a label positioned between the envelope and roll and electrostatically bonded to the film .
+the bond prevents misalignment of the label prior to heat shrinking of the film onto the roll .
+film feed assembly 22 maintains a taut curtain 23 of thermoplastic film extending across the work zone upstream of the sealing jaws .
+label transfer assembly 26 transfers labels from feeder 24 to the work zone immediately upstream of the film curtain maintained by assembly 22 .

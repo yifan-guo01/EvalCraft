@@ -1,0 +1,2 @@
+the invention relates to a method for allocation of a pipe or several pipes with several pipe parts to be cut for a laser cutting installation , wherein the pipe parts to be cut are selected from an order table .
+fig5 shows the individual method steps s 21 to s 33 of a method for optimizing the allocation of a pipe with several pipe parts to be cut in the form of a flow chart .

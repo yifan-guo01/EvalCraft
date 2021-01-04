@@ -1,0 +1,10 @@
+bead
+housing
+inclined guideway
+space pair
+train sprocket
+support roller
+extend guide
+trip switch
+index chain
+apply talc

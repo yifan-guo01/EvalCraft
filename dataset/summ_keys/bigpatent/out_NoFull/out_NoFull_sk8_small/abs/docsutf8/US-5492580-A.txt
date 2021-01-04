@@ -1,0 +1,8 @@
+in accordance with the process of the present invention , at least two different types of fibers are blended together in preparation for a batt formation process .
+the base or first fiber is a reinforcement fiber , while the second fiber is thermoplastic in nature and will provide the resin utilized to bond the first reinforcement fibers together as discussed below .
+in the preferred embodiment , the first type of fiber is either a non thermoplastic fiber or a thermoplastic fiber having a melting point as explained above .
+due to their very high temperature stability , for purposes of the present invention , polybenzimidazole have been characterized as non thermoplastic .
+if desired , the preferred nonwoven batt may have components in addition to the above described first and second type of fibers .
+such bicomponent fibers include a higher melting point core material surrounded by a lower melting point sheath material .
+in this manner , as heat is applied and the temperature increased , the sheath material melts thereby exposing the higher melting point core material which remains as the reinforcement fiber .
+an example of a usable bicomponent thermoplastic fiber is one made of a polypropylene core and a polyethylene sheath .

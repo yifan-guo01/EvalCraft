@@ -1,0 +1,8 @@
+a system and method is disclosed for obtaining measurements of the electric fields around skin wounds and lesions on mammals noninvasively .
+the system and method is comprised of a vibrating metallic probe tip that is placed close to the skin in the air .
+by applying a series of known voltages to the metal probe tip or to the skin beneath it , the skin & # 39 ; s local surface potential can be measured and the lateral electric field can be calculated from the spatial distribution of surface potential measurements .
+surface artifacts that can affect the measurements are removed and active feedback is used to maintain a constant distance between the probe and the skin surface .
+fig2 depicts the probe vibrator and head that is used in one embodiment of the present invention .
+probe head 201 is comprised of one or many small metal plates that each have a surface area of 0 .
+each plate is connected to a low noise current to voltage ( i / v ) converter housed within the probe head 201 and a copper shield held at the reference potential surrounds the entire head .
+the vibrator unit 209 is designed to move the probe head along a single axis that is perpendicular to the surface of the skin or epithelia under study .

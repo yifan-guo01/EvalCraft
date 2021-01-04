@@ -1,0 +1,10 @@
+axle
+free end
+rear wheel
+wheel hub
+wheel rim
+confront surface
+support bearing
+mating face
+wheel assembly
+free rotation

@@ -1,0 +1,8 @@
+fig1 is a vertical cross section of an assembled melt spinning pack incorporating the invention .
+the screen is in the shape of a top hat and at least partly annular .
+it is preferred that the total radial interference fit imposed upon the rim of the screen be between 0 .
+the square step has a radial depth of about t and a height h .
+the value of h must be less than the value of l .
+it is preferred that t be in the range from 0 .
+it is preferred that the inside face of the lid has a counter bore of diameter d and depth d , and the value of the sum of h and d is equal to l in the assembled state and less than l in the unassembled state .
+while the foregoing , in combination with the drawings , illustrates the broadest and most preferred embodiments of the invention , it will of course be appreciated that other embodiments of the invention come within the scope of the broadest claims .

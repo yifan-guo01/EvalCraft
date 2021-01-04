@@ -1,0 +1,10 @@
+robot
+linear actuator
+attach segment
+distal end
+tuning wire
+computer program
+stop motor
+central cavity
+flexible joint
+plurality channel

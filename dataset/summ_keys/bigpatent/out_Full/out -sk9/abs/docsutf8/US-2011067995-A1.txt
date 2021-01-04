@@ -1,0 +1,9 @@
+an apparatus and method is disclosed which provides for an increased efficiency and reduced waste in an ethanol production facility .
+one aspect involves a burner assembly with a heat moderating material used in heating for distillation .
+yet another aspect involves the utilization of waste products for growing plants in a hydroponics garden .
+referring to the drawings , wherein like components may be indicated by like reference numbers throughout the various figures , fig1 illustrates one embodiment of an ethanol production facility , generally indicated by the reference number 100 .
+the enzymes break down starch in the feedstock into simple sugars and the resulting mixture is referred to herein as a mash .
+once the sugar has been produced , yeast is added to the mash and the mash ferments in the fermentation tank until the sugars in the feedstock are converted to ethanol and carbon dioxide .
+the solids are at least partially dissolved in the water and can include remaining feedstock material along with residual sugars , yeast and yeast waste .
+in this embodiment , the distillant flows into distillation tank 106 where it runs down to the bottom of the tank and collects in pool 112 .
+at this point , the distillant is heated by a heating coil 114 that is submerged in pool 112 and which forms a first portion of a heat transfer tubing 115 .

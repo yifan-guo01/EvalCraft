@@ -1,0 +1,10 @@
+circuit
+nozzle
+head chip
+control line
+head number
+tray side
+connect element
+drive phase
+paper tray
+drive signal

@@ -1,0 +1,10 @@
+secondary absorption
+gas
+primary stage
+section
+outlet
+inlet
+zone vapor
+contact apparatus
+shape downcomer
+limit example

@@ -1,0 +1,10 @@
+roll
+label
+film
+generator bar
+retract position
+upper end
+bond envelope
+feed assembly
+pivot arm
+infeed conveyor

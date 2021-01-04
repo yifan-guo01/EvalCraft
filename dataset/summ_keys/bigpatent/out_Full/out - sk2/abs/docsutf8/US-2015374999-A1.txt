@@ -1,0 +1,2 @@
+a method of applying a neural stimulus with an implanted electrode array involves applying a sequence of stimuli configured to yield a therapeutic effect while suppressing psychophysical side effects .
+the stimuli sequence is configured such that a first stimulus recruits a portion of the fibre population , and a second stimulus is delivered within the refractory period following the first stimulus and the second stimulus being configured to recruit a further portion of the fibre population .

@@ -1,0 +1,10 @@
+process
+detect stress
+strain gauge
+fabrication chamber
+part fabrication
+manufacturing machine
+example
+controller
+stress strain
+part heating

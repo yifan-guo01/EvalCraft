@@ -1,0 +1,10 @@
+numbered channel
+signal
+drive voltage
+drive circuit
+connect transducer
+present invention
+unit
+control input
+odd clock
+excitation

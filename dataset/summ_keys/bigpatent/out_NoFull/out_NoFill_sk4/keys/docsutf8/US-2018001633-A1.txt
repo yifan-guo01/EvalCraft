@@ -1,0 +1,10 @@
+segment
+carrier
+printhead assembly
+wall
+inkjet printhead
+tab film
+section
+slot
+end
+ink

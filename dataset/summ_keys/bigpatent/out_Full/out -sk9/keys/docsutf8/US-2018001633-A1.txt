@@ -1,0 +1,10 @@
+segment
+carrier
+printhead assembly
+wall
+film
+end
+section
+slot
+ink
+mount surface

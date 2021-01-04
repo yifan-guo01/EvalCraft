@@ -1,0 +1,9 @@
+in order to make the structure and characteristics as well as the effectiveness of the present invention to be further understood and recognized , the detailed description of the present invention is provided as follows along with embodiments and accompanying figures .
+the manufacturing method for ahss wheel according to the present invention is used for manufacturing a wheel using the material of the newly developed ahss with a lightweight property .
+according to the initial results , the weight of ahss wheel is similar to that of an aluminum alloy wheel ; the strength and the fatigue lifetime of ahss are higher than those of aluminum alloy .
+the material will play an important role in lightweight applications and has a promising future of development .
+first , use an automatic three axis double side displacement rolling machine ( not shown in the figure ) to perform rolling operation and form a rim 12 .
+place the rim 12 on a welding jig 20 for performing low heat input welding process .
+the top positioning member 23 can be a plate used as a plate pressing jig and designed for preventing deformation induced by thermal expansion and contraction .
+the bottom member 24 has a plurality of air holes 242 on the top surface and a nozzle 241 projecting its bottom surface .
+the nozzle 241 is used for connecting to an air pipe ( not shown in the figures ) , and thus leading external air to spurt from the nozzle 241 and providing back blowing during the welding process for avoiding oxidation .

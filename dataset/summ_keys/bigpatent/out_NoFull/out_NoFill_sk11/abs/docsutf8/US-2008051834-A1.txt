@@ -1,0 +1,11 @@
+referring to fig1 , a scanning electron micrograph of a length of suture 2 according to the present invention is shown .
+due to the transparent nature of the uhmwpe , the suture takes on the color of strands 10 and 12 , and thus appears to be white with a trace in the contrasting color .
+in accordance with the present invention , trace strands 12 are preferably provided in black .
+the black trace assists surgeons in distinguishing between suture lengths with the trace and suture lengths without the trace .
+traces also assist the surgeon in identifying whether the suture is moving .
+the trace can extend the entire length of the suture or only on half of a length of suture , the other half of the suture length remaining plain ( white ) .
+alternatively , the traces can form visibly distinct coding patterns on each half of the suture length .
+as a result , when the suture is threaded through the eyelet of a suture anchor , for example , the two legs ( halves ) of the length of suture are easily distinguished , and their direction of travel will be readily evident when the suture is pulled during surgery .
+the core is formed of three carriers of 144 decitex spectra braided at three to six twists per inch .
+to make various sizes of the inventive suture , different decitex values and different ppi settings can be used to achieve the required size and strength needed .
+the very smallest sizes can be made without a core .

@@ -1,0 +1,3 @@
+a rotary wing aircraft with rotor blades mounted on a rotor head and with reaction drive .
+the rotor blades have hollow interiors and are provided on their trailing edge with at least one outlet opening for compressed air supplied via the rotor head .
+such rotor head may include an air suction region in which there is mounted a suction device having a pressure side connected to the hollow interiors of the rotor blades .

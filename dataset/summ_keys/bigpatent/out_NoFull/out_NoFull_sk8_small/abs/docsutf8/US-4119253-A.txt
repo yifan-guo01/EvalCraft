@@ -1,0 +1,8 @@
+for the production of a texturized yarn of glass filaments , it is preferred that the strand advancing means 10 be of the type described in u .
+as is well known in the art , the core and effect yarns are fed to the texturizing jet at velocities greater than the velocity of the resulting texturized yarn exiting the texturizing jet .
+as shown in fig2 control unit 20 can be energized to delay or retard a portion of the overfeed of strand 14 and accumulate the slack of the strand formed thereby within the control unit 20 .
+strand entrance 50 can be located coaxially with first passageway 24 to provide an unobstructed , substantially straight path for yarn 14 to follow during the times when control unit 20 is not energized .
+the fluid can be supplied to passageway 64 via supply port 68 in communication therewith and located in cap 52 .
+the tip of elongated needle 26 extends partially into the conical section venturi 46 , and the axes of the venturi 46 and passageway 27 are parallel but can be offset or canted with respect to each other if desired .
+when a pressurized fluid , such as air , is delivered to supply port 60 from a suitable source ( not shown ) , member 22 and needle 26 cooperate to direct a stream of air along the length of the strand 14 in contact with the strand in a first direction opposite to the direction of advancement of the strand .
+the stream of air is sufficient to cause the strand to cave the control unit , or first zone , at a second velocity less than the velocity of the yarn entering the control unit , or first velocity .

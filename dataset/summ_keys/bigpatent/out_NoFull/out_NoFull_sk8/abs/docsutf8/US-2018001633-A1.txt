@@ -1,0 +1,8 @@
+the assembly 1 includes a shield plate 5 with which the surface 2 may come into sliding contact during such printing .
+the printing length of each of the two endmost segments 4 overlaps the printing length of its nearest neighbour in the other row at one end only .
+it also serves as an integral ink supply arrangement for the printhead segments 4 , as will become clearer later .
+reference numerals 26 ′ indicate two such smaller apertures , the significance of which is described below , which are present in each aperture row at predetermined aperture intervals .
+the shim is preferably of stainless steel , but a plastics sheet material may also be used .
+carrier 8 is preferably a single micro injection molded part made of a suitable temperature and abrasion resistant and form holding plastics material .
+lines marked “ c ” in fig8 , 11 and 12 together similarly indicate the position of an imaginary plane which lies between two sections of the carrier 8 of different length and whose overall cross sectional shapes are quarter circles .
+this configuration enables carriers 8 to be placed in the slot 21 of profile 10 in such a way that adjoining carriers 8 overlap in the lengthwise direction with the step walls 86 of pairs of neighbouring carriers 8 facing each and overlapping .

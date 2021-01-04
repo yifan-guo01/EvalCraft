@@ -1,0 +1,10 @@
+describe method
+diode system
+junction temperature
+energy detector
+scintillator pixel
+make measurement
+method apparatus
+gain correction
+remove component
+specific embodiment

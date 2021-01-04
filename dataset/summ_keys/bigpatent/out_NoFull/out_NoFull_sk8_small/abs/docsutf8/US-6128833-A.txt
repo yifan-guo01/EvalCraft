@@ -1,0 +1,8 @@
+fig1 shows an example of the specific evaporation produced by the blowing taking place through the wire as a function of the moisture content of the web with wires of different permeabilities .
+it is noticed that the impingement blowing is more efficient when the drying wire is more open .
+by means of bowing through the wire , it is possible to achieve a considerable increase in the evaporation capacity compared with conventional cylinder drying .
+if it is desirable to affect the curling of paper only , impingement units may be installed in the final end of the dryer section only .
+in such a case , evaporation takes place from both faces , and curling is reduced or can be prevented entirely .
+if it is desirable to affect the drying capacity alone in order to increase said capacity , impingement units are placed exclusively in the area in the dryer section in which the dry solids content of the web is in the range of from about 55 % to about 85 % .
+in the group r i , the wire is guided over the upper guide rolls onto the first drying cylinder k 1 in the group , placed below said guide rolls , and from said cylinder onto the lower suction roll / suction cylinder s 1 , and from the suction roll / cylinder s 1 back onto the upper drying cylinder k 2 and further , while proceeding in meander form , forwards in the group .
+the lower suction rolls / cylinders are preferably suction rolls / cylinders of the vac roll type , into whose interior a vacuum is passed , being applied to the entire inner face of the roll and through perforations in the roll to the grooves or equivalent recesses placed on the roll face .

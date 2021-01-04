@@ -1,0 +1,8 @@
+fig1 is a perspective view of one embodiment of a washing machine according to the present invention and fig2 illustrates a cross sectional view of fig1 as seen along ii ii line .
+the pulsator 140 can be formed as a single body with the inner tub 122 ; and at the same time , the pulsator 140 can be formed separately and combined as such therewith .
+an operation method varied according to the structure of the inner tub 122 and the pulsator 140 will be described in detail later .
+a door 123 capable of rotational movement together with the cover is installed at the cover to open and close the opening .
+the driving apparatus 170 comprises a motor including a rotor and a stator and generating rotational force ; a rotation axis delivering rotational force of the motor ; and a clutch delivering rotational force of the motor selectively to at least one of the inner tub and the pulsator 140 .
+with reference to fig3 , a washing machine 100 according to the present invention further comprises an input unit 116 disposed on the control panel and receiving input signals entered by the user ; and a controller 190 controlling the operation of the washing machine 100 according to the input signals entered to the input unit 116 .
+the input signal is formed in various ways and determines a washing step or a method for handling laundry .
+for example , the washing step can include a blue jean step , a bedclothes step , and a wool step .

@@ -1,0 +1,11 @@
+the sliding undercut mechanisms 13 are preferably stainless steel , but could be comprised of another metal material .
+for the purposes of this invention , the magnets 16 used were rare earth magnets .
+the coupling means 17 preferably are aluminum or steel material , however the coupling means 17 may be comprised of any metal , metal alloy , or nonmetal that would provide rigid structural support .
+the second mold section 21 is moved along a forming axis , designated in fig2 as a , in one direction toward the first mold section 10 for urging at least a portion of the heated plastic sheet 26 into the forming cavity 11 of the first mold section 10 to form the plastic article 25 while the undercut forming element 18 is in the forming position .
+the thermoplastic material is initially extruded into sheet form and is then fed into a heating station ( not shown ) where it is heated to the desired forming temperature .
+while not shown in the drawings , conventional means are provided for moving the first mold section 10 and the second mold section 21 toward and away from one another along an axial path designated in fig2 as forming axis a .
+the assist plug is utilized to initially force a portion of the sheet 26 of the thermoplastic material downwardly into the forming cavity 11 of the first mold section 10 .
+at this time , a vacuum source ( not shown ) can be applied to various spaced apart vacuum ports that are present in the first mold section 10 and open into the upper portion of the forming cavity 11 .
+the vacuum is applied to the ports to ensure that the heated plastic is in intimate contact with the side wall of the forming cavity 11 .
+in addition , the heated plastic is also brought into contact with the forming cavity 11 by the simultaneous application of pressurized air through the second mold section 21 .
+the pressurized air is introduced into the second mold section 21 under the assist plug 24 .

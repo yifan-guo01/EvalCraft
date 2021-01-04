@@ -1,0 +1,8 @@
+the present invention relates to gene transfer and gene therapy technology .
+more specifically , the invention provides compositions and methods for targeted virus delivery .
+this simple mixing causes less inactivation than chemically linking the ligand to the virus and therefore results in a more active therapeutic composition than obtained by methods which utilize crosslinking agents .
+the presence of mtp53 and the consequent absence of a g1 block have also been found to correlate with increased radiation resistance in some human tumors and cell lines .
+however , some conflicting reports indicate that the relationship between p53 expression and chemoresistance may have a tissue or cell type specific component .
+the present invention addresses the need to deliver therapeutic molecules systemically with a high degree of target cell specificity and high efficiency .
+specific embodiments of the invention provide pharmaceutically acceptable compositions comprising an admixture of transferrin ligand and viral vector particles capable of delivering a nucleic acid to target host cells .
+moreover , the high number of ligand molecules on the surface may also serve to decrease the immunogenicity of the virus by blocking viral antigens .

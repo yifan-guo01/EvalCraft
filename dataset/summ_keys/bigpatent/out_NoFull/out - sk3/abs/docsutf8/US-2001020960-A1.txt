@@ -1,0 +1,3 @@
+the following described embodiments are preferred working examples of the invention and so are preferably limited in regards to their technical aspects , however unless otherwise stated , the scope of the invention is not limited by the following description and not limited by these aspects of the invention .
+the overall structure of the ink jet printer of the embodiment of this invention is shown in fig1 and fig2 .
+in fig1 and fig2 an ink jet printer 100 is comprised of a line head 120 having thermal elements not shown in the drawing , as drive elements for emitting droplets of ink , and having a pnm ( pulse number modulation ) function for modulating the number of dots form the ink droplets in a recording range having a width largely equal to a paper p .

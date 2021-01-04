@@ -1,0 +1,10 @@
+liquor fabric
+peripheral liquor
+transport tube
+treatment chamber
+peripheral sprayer
+outlet nozzle
+transport section
+bar inlet
+jet apparatus
+flow rate

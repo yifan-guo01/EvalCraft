@@ -1,0 +1,10 @@
+chamber
+outlet air
+flow outlet
+outlet line
+spray system
+toxic chemical
+preferred embodiment
+vacuum pump
+air inlet
+nozzle tip

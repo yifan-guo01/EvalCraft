@@ -1,0 +1,10 @@
+step
+variant
+pipe length
+nesting result
+best allocation
+part order
+optimization method
+final geometry
+calculate sum
+order table

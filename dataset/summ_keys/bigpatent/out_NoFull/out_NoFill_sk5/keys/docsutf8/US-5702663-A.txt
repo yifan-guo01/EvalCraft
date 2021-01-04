@@ -1,0 +1,10 @@
+bag
+sheet
+mold
+master article
+composite structure
+reinforce material
+provide resin
+reinforce fiber
+vacuum conduit
+peel layer

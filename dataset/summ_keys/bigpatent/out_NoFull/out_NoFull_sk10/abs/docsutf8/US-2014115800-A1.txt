@@ -1,0 +1,10 @@
+the following description and drawings are illustrative and are not to be construed as limiting .
+numerous specific details are described to provide a thorough understanding of the disclosure .
+however , in certain instances , well known or conventional details are not described in order to avoid obscuring the description .
+references to one or an embodiment in the present disclosure can be , but not necessarily are references to the same embodiment ; and , such references mean at least one of the embodiments .
+reference in this specification to “ one embodiment ” or “ an embodiment ” means that a particular feature , structure , or characteristic described in connection with the embodiment is included in at least one embodiment of the disclosure .
+the appearances of the phrase “ in one embodiment ” in various places in the specification are not necessarily all referring to the same embodiment , nor are separate or alternative embodiments mutually exclusive of other embodiments .
+moreover , various features are described which may be exhibited by some embodiments and not by others .
+similarly , various requirements are described which may be requirements for some embodiments but not other embodiments .
+the terms used in this specification generally have their ordinary meanings in the art , within the context of the disclosure , and in the specific context where each term is used .
+certain terms that are used to describe the disclosure are discussed below , or elsewhere in the specification , to provide additional guidance to the practitioner regarding the description of the disclosure .

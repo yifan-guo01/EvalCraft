@@ -1,0 +1,6 @@
+this invention relates to load adjustment systems for coater blades .
+such structures of this type , generally , employ the use of an actuator assembly to control cross direction coatweight profiles .
+with reference first to fig1 there is illustrated a cross sectional view of a conventional blade coater assembly 2 .
+the coating is piped to a distribution header 8 and is applied to the web 4 as it passes underneath blade 10 .
+blade 10 doctors excess coating off of web 4 to leave a thin coating film 12 , the thickness of which is exaggerated in the drawing .
+as paper web 4 passes through the nip , web 4 picks up the coating of film carried on the surface of the metering roll , in a manner analogous to a rotary printing press .

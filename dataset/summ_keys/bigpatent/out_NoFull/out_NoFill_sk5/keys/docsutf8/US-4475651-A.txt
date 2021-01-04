@@ -1,0 +1,10 @@
+roll
+label
+generator bar
+film
+retract position
+upper end
+feed assembly
+infeed conveyor
+pivot arm
+work zone

@@ -1,0 +1,4 @@
+the assembly 1 includes a shield plate 5 with which the surface 2 may come into sliding contact during such printing .
+the printing length of each of the two endmost segments 4 overlaps the printing length of its nearest neighbour in the other row at one end only .
+it also serves as an integral ink supply arrangement for the printhead segments 4 , as will become clearer later .
+reference numerals 26 ′ indicate two such smaller apertures , the significance of which is described below , which are present in each aperture row at predetermined aperture intervals .

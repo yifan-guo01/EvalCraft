@@ -1,0 +1,3 @@
+fig5 shows the individual method steps s 21 to s 33 of a method for optimizing the allocation of a pipe with several pipe parts to be cut in the form of a flow chart .
+the first process stage is performed prior to measurement of the length and the second process stage is performed after the measurement of the length of the pipe .
+in a first step s 21 , a parts order for a pipe part to be cut is created and approved in the order table 49 of the fmc software 39 , wherein the parts order also states the quantity of the pipe parts to be cut in addition to the program name of the associated nc parts program .

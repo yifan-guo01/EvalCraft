@@ -1,0 +1,10 @@
+vehicle
+receiver information
+abs fault
+dci microcontroller
+diagnostic system
+particular led
+interrupt signal
+dci connector
+locate abs
+uart receiver

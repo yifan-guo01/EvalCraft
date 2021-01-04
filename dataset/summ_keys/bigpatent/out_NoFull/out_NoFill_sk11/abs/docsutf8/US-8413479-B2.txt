@@ -1,0 +1,11 @@
+the work piece 24 may be an annular powder metal blank such as a helical gear , a spur gear or the like .
+the core rod 22 is located in the central void of the work piece 24 .
+the die 12 and the support shaft 18 may also be moved by independent actuators to reduce cycle time .
+in addition , automatic component insertion and extraction mechanisms may also be used in the system .
+lower core rod portion 38 is preferably made from a material which is resistant to deformation at high temperatures and pressures , such as high temperature steel .
+other materials which are resistant to deformation at high temperatures and pressures may also be used .
+using any such material is advantageous since the work piece 24 transfers a large amount of heat to the lower core rod portion 38 .
+additionally , forging dies are commonly used to create components with internal splines , or the like .
+in this case , the lower core rod portion 38 does not provide the final internal shape to the work piece 24 .
+for example , the distance between a sharp edge and the nearest point on a rounded edge in fig5 should be approximately 0 .
+however , the size of the rounded edges may be increased to further provide resistance to wear and deformation compounded by heat and pressure .

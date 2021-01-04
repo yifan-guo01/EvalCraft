@@ -1,0 +1,6 @@
+the invention relates to a method for allocation of a pipe or several pipes with several pipe parts to be cut for a laser cutting installation , wherein the pipe parts to be cut are selected from an order table .
+fig5 shows the individual method steps s 21 to s 33 of a method for optimizing the allocation of a pipe with several pipe parts to be cut in the form of a flow chart .
+the first process stage is performed prior to measurement of the length and the second process stage is performed after the measurement of the length of the pipe .
+in a first step s 21 , a parts order for a pipe part to be cut is created and approved in the order table 49 of the fmc software 39 , wherein the parts order also states the quantity of the pipe parts to be cut in addition to the program name of the associated nc parts program .
+when the nc parts programs of the pipe part that are required for creating a parts order are not contained in the program management 41 of the control computer 31 , the nc parts programs are imported into the program management 41 when the parts order is created .
+in a second step s 22 , it is checked whether nesting of this pipe part with respect to the other pipe parts of the order table with the status “ approved ” and with respect to the same pipe part was performed and whether the nesting results are already present .

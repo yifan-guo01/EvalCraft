@@ -1,0 +1,10 @@
+ring cam
+jack
+movable part
+raise portion
+pattern selection
+pattern butt
+say profile
+tiltable pattern
+selection slide
+respective needle

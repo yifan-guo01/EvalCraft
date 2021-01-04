@@ -1,0 +1,3 @@
+the example material 24 is a metal powder that is applied in a layer over the support 14 and subsequent layers to produce a desired configuration of the part 16 .
+the laser beam 20 emits directs energy that melts the powder material in a configuration that forms the desired part dimensions .
+the additive manufacturing process proceeds by melting subsequent layers of powdered material 24 that are applied to the part 16 to form the desired part configuration .

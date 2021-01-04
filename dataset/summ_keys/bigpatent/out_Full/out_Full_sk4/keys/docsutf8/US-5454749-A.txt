@@ -1,0 +1,10 @@
+barrel
+grind object
+rotate direction
+intermediate gear
+rotary drum
+ground chamber
+rotate shaft
+grind material
+possible shape
+inner wall

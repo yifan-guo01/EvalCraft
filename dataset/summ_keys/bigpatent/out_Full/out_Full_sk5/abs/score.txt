@@ -1,0 +1,17 @@
+ABS SCORES  : 0.6360616852653159 0.8484462242597169 0.7047823304360771
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.6135294419305763 0.8268908314577126 0.6674791148125104
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.5665717333972239 0.768286514988277 0.6178607119139624
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.6216148386063144 0.8101766367487687 0.6759765068295626
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.5128357862163586 0.2935748227400677 0.3448912588933956
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 5
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False

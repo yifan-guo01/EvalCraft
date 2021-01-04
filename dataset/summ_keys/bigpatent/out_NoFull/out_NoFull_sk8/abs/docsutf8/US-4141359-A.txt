@@ -1,0 +1,8 @@
+this invention pertains to an iontophoresis device for general topical application of ionic drugs to high impedance low mucous tissue such as epidermis .
+circuitry and physical configuration have been developed to ensure safe operation and to provide simplified procedures which require minimal training and technical ability .
+additional convenience circuits are discussed which facilitate simplified procedures of administration .
+inasmuch as the rate of flow of the ionic drug into the tissue is proportional to the current flow , the current should be regulated at the maximum constant level within the limits of safety and comfort in order to minimize treatment time .
+many of the hazards previously experienced by iontophoresis treatments have resulted by reason of this wide range of impedance .
+the exact current density required will depend upon the thickness of the epidermis and the sensitivity of the patient to the applied voltage .
+under certain conditions tissue resistance can be as high as 300k , such as where surface contact between the electrode and tissue is poor and where the tissue is dry and clean .
+by using an ionic gel as the conducting medium , the irregular surface of the epidermis can be fully contacted , thereby increasing the area of exposure and maximizing electrical contact with the tissue .

@@ -1,0 +1,10 @@
+roll
+fiber
+blend opening
+blend arrangement
+current tooth
+inner chamber
+delivery
+feed belt
+compression exit
+raise bar

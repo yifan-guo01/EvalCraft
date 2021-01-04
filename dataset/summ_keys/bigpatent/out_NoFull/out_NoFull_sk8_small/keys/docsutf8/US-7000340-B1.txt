@@ -1,0 +1,10 @@
+collar iron
+provide collar
+iron buck
+receive plate
+iron surface
+iron part
+metallic rod
+coil spring
+longitudinal direction
+reference numeral

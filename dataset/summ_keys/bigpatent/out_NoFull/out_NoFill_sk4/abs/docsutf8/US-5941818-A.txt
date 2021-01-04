@@ -1,0 +1,4 @@
+fig1 shows an endoscope system that comprises a small video camera 20 which may be a monocular camera or a stereo camera .
+the objective lens system is designed to collect or form an image of an area under inspection in front of window 26 and to focus that image on the light receiving surface of the ccd .
+the objective lens system may comprise one or more lenses and its lens or lenses may , but need not , be contained in a protective tubular casing ( not shown ) that fits within and is anchored to inner tube 22 .
+the annular space between the two tubes 22 and 24 is occupied by a plurality of optical fibers 34 which serve the purpose of transmitting light to the region in front of window 26 .

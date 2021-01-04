@@ -1,0 +1,10 @@
+toy snake
+drive wheel
+body head
+body section
+control unit
+electric motor
+bottom surface
+central body
+alternative embodiment
+ripple effect

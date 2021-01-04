@@ -1,0 +1,10 @@
+support batten
+displaceable bolt
+back roll
+available piezotranslator
+employ pressure
+blade beam
+web
+compress spring
+bolt lever
+project end

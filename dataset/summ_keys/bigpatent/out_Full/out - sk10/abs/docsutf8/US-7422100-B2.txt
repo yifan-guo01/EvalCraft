@@ -1,0 +1,10 @@
+apparatuses designed to provide support to a conveyor belt in a new manner .
+in a first illustrative embodiment , a conveyor belt is supported by a number of magnets .
+a first set of magnets are disposed on the edges of the conveyor belt , and a second set of magnets are disposed on a support apparatus for the conveyor belt .
+the first and second sets of magnets interact to create repulsive forces that provide both lateral and vertical support to the conveyor belt .
+tension provided by the lateral forces can help the belt move smoothly and with less wear than the support provided by existing support idlers .
+the following detailed description should be read with reference to the drawings .
+the drawings , which are not necessarily to scale , depict illustrative embodiments and are not intended to limit the scope of the invention .
+fig3 is a perspective view of a first embodiment of a magnetically supported conveyor system .
+the conveyor belt 54 is at least partly supported by the use of magnetic forces .
+fig4 is a section view of an illustrative embodiment showing greater detail of the supporting framework for a magnetically supported conveyor system .

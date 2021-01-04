@@ -1,0 +1,10 @@
+process
+cooler chamber
+measure stress
+strain gauge
+example
+part fabrication
+manufacturing machine
+controller
+cooling heating
+stress strain

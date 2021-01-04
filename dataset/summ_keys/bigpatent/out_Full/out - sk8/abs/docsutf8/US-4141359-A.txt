@@ -1,0 +1,8 @@
+an improved iontophoresis device for topical administration of ionic drugs or chemicals through epidermal tissue for anesthetizing or sterilizing local tissue or for applying various medicaments without mechanical penetration .
+an ionic form of drug is conducted through the epidermal tissue by means of direct current generated from a battery powered current source .
+pulse width modulated dc current is regulated by feedback circuitry which varies the pulse duration and adjusts and stabilizes the average current at a desired level .
+a high voltage capability together with feedback control enables maintenance of a constant current through the highly resistive epidermal tissue .
+to prevent excessive voltage buildup and the accompanying dangers of shock and burns , a comparator circuit monitors current flow and voltage across the electrodes and automatically triggers an scr shutdown circuit when impedance readings are outside predetermined limits .
+the ionic drug is suspended in a conductive gel mixture which acts as the conducting medium in direct communication with the patient & # 39 ; s skin .
+this gel is carried in a receptacle mounted on an electrode pad which uses a conducting foil surface to make electrical contact with the gel .
+this invention pertains to an iontophoresis device for general topical application of ionic drugs to high impedance low mucous tissue such as epidermis .

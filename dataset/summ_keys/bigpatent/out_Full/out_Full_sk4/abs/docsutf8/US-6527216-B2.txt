@@ -1,0 +1,4 @@
+a multi spindle fiber pay out apparatus is provided that allows for fiber tension control .
+the spindle is in rotational supporting relation to the spool of fiber and is operatively engaged with a magnetic particle brake , which is itself in control communication with an electronic controller .
+a fiber take up system is mounted upon the frame in cooperative relation to the spool of fiber and is arranged so as to compensate for changes in the fiber pay out rate from the spool of fiber that are caused by activation / deactivation of the magnetic particle brake .
+a load cell transducer is mounted on the frame adjacent to the fiber take up system .

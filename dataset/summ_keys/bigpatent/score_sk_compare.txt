@@ -1,0 +1,348 @@
+ABS SCORES  : 0.33188055763253427 0.3527511299321017 0.3305593795258833
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.36094124884209783 0.31726625311034423 0.3175669601633842
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.09558988496757417 0.08450183188828893 0.0840350463384368
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.30694254518464176 0.2778486061555594 0.2783049742531114
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.1660056683677801 0.06279452483617555 0.08342919482831787
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 3
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+ABS SCORES  : 0.3121664951969278 0.39941900834370064 0.33911916411045806
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.3373026095144995 0.381153853065066 0.33788385043894975
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.09322708925962093 0.10527789495277498 0.09291404436028436
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.29053948571318305 0.32703851095527364 0.29430225802220483
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.15299324924916796 0.07515833355396942 0.09174785694185564
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 4
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ABS SCORES  : 0.2919588352194074 0.438052210579124 0.3404737626476212
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.3126975994937327 0.4367709696267937 0.3457242406512868
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.08667033645818674 0.12285469481995062 0.09609185371926496
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.2726538318239152 0.368674894306676 0.3006726038693249
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.13927557493801732 0.08505086937870417 0.09616871590485565
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 5
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+
+ABS SCORES  : 0.27514243658326804 0.46439134746764305 0.336447251105003
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.28872075533015157 0.47685800219596813 0.34241666649494823
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.08071105363326904 0.13506369211477984 0.09595175712032823
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.25662369366533905 0.40074471016942803 0.3008433734468053
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.12795292001109154 0.09239951475906436 0.09794961889976414
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 6
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+
+ABS SCORES  : 0.2629839114672491 0.4940926572997419 0.33448977510582284
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.26975926568307984 0.5147290715302545 0.33815457548081834
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.07724282948279948 0.15070503177557903 0.09737007697965942
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.24402058841503352 0.4305751139350855 0.3002967167954585
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.11913659554988501 0.09968021138367082 0.09933722391527863
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 7
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ ABS SCORES  : 0.2503616581599926 0.5155773969948244 0.32882966454325596
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.24795354921785737 0.5401432484748081 0.32523872936822434
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.07299689350086419 0.16168964392173543 0.09606921245631074
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.23034102282946006 0.45377707116682603 0.2949507831271204
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.11079912131294369 0.10536768917838525 0.09897715210365207
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 8
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ ABS SCORES  : 0.24189073968017497 0.5382803381041967 0.32604322072669345
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.2317061557000782 0.5679967979607081 0.3159829603591554
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.06965070116971094 0.17363978437544283 0.09530678065936349
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.2176350483354067 0.47436381972639513 0.2886695704500039
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.10337979092811392 0.11090833124604282 0.0983958674532697
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 9
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ABS SCORES  : 0.23257412323162802 0.5563557500085823 0.3207709381916717
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.21603185640704686 0.5906418056105628 0.3044829428981643
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.06670396616694321 0.18496211937702228 0.09431398361457098
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.2075453413655573 0.494892084616504 0.2834554160657738
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.09761825135843984 0.11655850186837699 0.09796302773284978
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 10
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ABS SCORES  : 0.2254063431082778 0.5733025685056754 0.3166285854548432
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.20459599283349011 0.61170510778373 0.2956198675672521
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.06438675092992849 0.19581162646105174 0.09341298248240637
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.19937690372488626 0.5123658347506611 0.27849465449142136
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.09291155491426652 0.12107551928523057 0.09706750279699815
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 11
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+//full = false above
+
+ //full = true below
+ ABS SCORES  : 0.8663175451347328 0.6511837859844103 0.7159414138221057
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.8618224992870003 0.5550051974561556 0.6262597407631946
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.8262277473320337 0.528797167004584 0.5975747087446468
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.8562852622152243 0.5866174037161033 0.6592975242947176
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.7851954385990881 0.21475445168079518 0.31258629394752757
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 2
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ ABS SCORES  : 0.8003065865636678 0.7661647740595308 0.7588321308973862
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.7913180124741857 0.6961559028320577 0.6965399873703608
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.7499760953490595 0.6588022516992572 0.6592872742877988
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.7885492045264219 0.709616652196676 0.7144495394524594
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.6924047872409069 0.2584789806595663 0.34960292352039
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 3
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ ABS SCORES  : 0.7171169555556024 0.8206661896543889 0.7403621043469301
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.6987535206645015 0.7837310453389031 0.6973619445980789
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.6547861028509616 0.7348999272257015 0.6535620040039644
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.7007662177233654 0.7792164832455956 0.7073205724285406
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.5954242800266263 0.2828811144543097 0.3545984220757126
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 4
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+ ABS SCORES  : 0.6360616852653159 0.8484462242597169 0.7047823304360771
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.6135294419305763 0.8268908314577126 0.6674791148125104
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.5665717333972239 0.768286514988277 0.6178607119139624
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.6216148386063144 0.8101766367487687 0.6759765068295626
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.5128357862163586 0.2935748227400677 0.3448912588933956
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 5
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+ABS SCORES  : 0.5612107534834545 0.8619552781787994 0.6603714211373692
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.5319054684542212 0.8497834303833776 0.6213583905865268
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.48428779710599446 0.7820056769095927 0.5679784998050301
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.5486898684963025 0.8275398051431299 0.6348893384195942
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.43982517735614357 0.2993309320925854 0.3284433444707496
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 6
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+ABS SCORES  : 0.5039582782895983 0.871227921703582 0.6220169024162873
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.4674592060185604 0.8643220107861475 0.578381708057088
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.4200431471032519 0.7889803868247118 0.5225753075333788
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.49002471481309673 0.8368292376011778 0.5961285628497077
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.3836368966021765 0.30274072722881706 0.3123821323128688
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 7
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+ABS SCORES  : 0.4574309125788894 0.8762742166552989 0.5869642151653635
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.41154182723100174 0.8729519893596462 0.5356403306084933
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.36557549778901927 0.7915852079522195 0.4791103850097246
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.4399957071641421 0.843177995137868 0.5593564718390214
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.33601435676073715 0.30454512589857113 0.29587826844995135
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 8
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+
+
+ABS SCORES  : 0.42215503900714746 0.8808315011198182 0.5577578564678951
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.3676277960015815 0.880509743704601 0.4978791485959879
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.3248340425727612 0.795356201878074 0.44285964927383253
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.40049580267788565 0.8492738377320164 0.5271887750291685
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.2995130609190127 0.3062510781931787 0.2805985682747529
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 9
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+
+ABS SCORES  : 0.3926177419459222 0.8855214295600695 0.5321417986461164
+fname: dataset/bigpatent/out/abs/AbsScores.csv
+ABS ROUGE 1 : 0.3329140339589026 0.8860288521141445 0.46580350684615013
+fname: dataset/bigpatent/out/abs/AbsRouge_1.csv
+ABS ROUGE 2 : 0.2929905587998273 0.7975239114290861 0.41259268526030546
+fname: dataset/bigpatent/out/abs/AbsRouge_2.csv
+ABS ROUGE l : 0.36961114858130983 0.8545803985798238 0.5007095617327424
+fname: dataset/bigpatent/out/abs/AbsRouge_l.csv
+ABS ROUGE w : 0.27145483830732275 0.3078377031360834 0.2679759616236575
+fname: dataset/bigpatent/out/abs/AbsRouge_w.csv
+DONE
+SYSTEM : DOCTALK
+wk 10 sk 10
+with_full_text =  False
+ prod_mode =  True
+ max_docs =  0
+ match_sizes =  False
+

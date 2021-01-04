@@ -1,0 +1,8 @@
+a newsprint paper for offset printing that suppresses show through was successfully created by adding a filler or fillers by more than 15 percent by weight but less than 40 percent by weight as ash relative to the paper weight .
+in particular , such newsprint paper for offset printing notably suppresses show through and also reduces generation of paper powder if the filler or fillers have an average grain size of 0 .
+if two or more different fillers are added , the average grain size and zeta potential should be measured as the total values of the filler mixture .
+in general , the surface strength of a paper is mainly determined by the strength of the fibers comprising the paper .
+it is believed that a paper becomes weaker in proportion to the rate of increase in its filler content relative to the fiber content .
+however , the inventors found that the interaction of fibers and fillers has significant impact on the surface strength of paper and that the grain size , electric charge and hydrophilicity of fillers affect the surface strength of paper , as long as the paper contains ash .
+it is widely known that paper has a porous structure .
+because of this porous structure , a filler whose grains are larger produces more irregularities on the paper surface and thereby reduces the surface strength of paper .

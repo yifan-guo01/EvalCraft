@@ -1,0 +1,3 @@
+the packaging of plural articles in a common wrapper is accomplished with the aid of wrapping mandrels into which preformed blocks of the articles are loaded .
+the wrapping mandrels have movable slides which define the effective length of the mandrels and thus insure that first ends of the articles will lie in the plane of the insertion end of the mandrels , the first ends of the articles thus defining a stable base over which a wrapping may be folded .
+the slides are reciprocated in the mandrels to eject packages , open at one end , to a device for closing the open end .

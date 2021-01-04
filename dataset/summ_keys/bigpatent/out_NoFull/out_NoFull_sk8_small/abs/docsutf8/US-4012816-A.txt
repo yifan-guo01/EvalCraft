@@ -1,0 +1,8 @@
+referring to the drawing and specifically to fig1 the invention will be more fully explained in a system in which the length of a yarn plug is monitored .
+continuous filament undrawn yarn 4 is fed from a plurality of packages 2 through eyelet guides 6 and tensioned by tensioning gates 8 to control the yarn coming from the packages 2 .
+the yarn 4 is brought together in guide 10 to form a yarn 12 of the desired total denier and tensioned by tensioning gate 14 to provide better control of the yarn .
+the draw ratio should be the highest ratio consistent with good drawing performance .
+the yarn is then fed to a suitable crimping means generally denoted by reference numeral 20 .
+an adjustable angle idler 22 is used to insert a controllable amount of false twist into the yarn prior to crimping .
+increasing the temperature of the yarn in the crimper causes the yarn to shrink , increasing the denier of the yarn and thus decreasing the yarn plug length .
+temperature controller 40 is set to maintain the surface temperature of the draw roll at or above a preset temperature or set point .

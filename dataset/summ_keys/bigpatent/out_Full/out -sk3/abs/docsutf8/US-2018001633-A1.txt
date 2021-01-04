@@ -1,0 +1,3 @@
+a printhead is provided having an elongate support having a plurality of internal webs protruding from a base section to define a plurality of parallel fluid supply channels , a shim supported by the support and defining a plurality of rows of openings through which fluid from respective supply channels is supplied , and a plurality of elongate printhead modules supported serially on the shim .
+each module defines a plurality of fluid supply passages through which fluid passes to fluid ejection nozzles from respective rows of the openings .
+either end of each module defines complementary formations such that adjacent modules nest together .

@@ -1,0 +1,8 @@
+the following definitions are provided as reference for interpretation of these terms used in the context of this specification and the accompanying claims .
+cabled yarn : is two or more folded yarns twisted together in one or more operations .
+a single yarn twisted together with two folded yarns to build yarn size and impart texture to the resulting yarn .
+conventional twister : a system of producing a folded yarn by twisting together two or more single yarns simultaneously .
+folded yarn or plied yarn : a yarn in which two or more single yarns are twisted together in one operation , e .
+loop pile : the pile of a carpet consisting of loops .
+pile : a surface effect on a fabric formed by tufts or loops of yarn that stand up from the body of the fabric .
+in carpet , pile is the part of the carpet consisting of textile yarns or fibers , cut or looped , projecting from the substrate and acting as the use surface .

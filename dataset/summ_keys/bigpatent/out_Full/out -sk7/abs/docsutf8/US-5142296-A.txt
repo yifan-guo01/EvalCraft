@@ -1,0 +1,7 @@
+fig1 shows a unit according to one preferred embodiment of the invention for driving the transducers , typically piezoelectric elements , of a plurality of ink jet channels each having a nozzle ending in a respective outlet orifice .
+to implement the invention , the channels are divided into a first set composed of odd numbered channels and a second set composed of even numbered channels arranged so that the outlet orifices of the odd numbered channels alternate with those of the even numbered channels .
+all of the transducers are driven by drive circuits 10 13 , each of which is composed of a shift register stage and switches for supplying an excitation voltage to selected transducers .
+in the illustrated embodiment , drive circuits 10 and 13 are each assigned to a respective group of odd numbered channels and drive circuits 11 and 12 are each assigned to a respective group of even numbered channels .
+as shown , the shift registers of each pairs of circuits are connected in series .
+after a complete set of data bits , for controlling all ink channels , have been transferred to circuits 10 13 , a load signal , ld , is issued to transfer these bits to switches for controlling the application of drive voltage to those transducers which are to fired .
+subsequently , the odd numbered channels and the even numbered channels are fired in sequence in an order which depends upon the direction of movement of the print head , i .

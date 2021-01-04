@@ -1,0 +1,11 @@
+the presence of mtp53 and the consequent absence of a g1 block have also been found to correlate with increased radiation resistance in some human tumors and cell lines .
+however , some conflicting reports indicate that the relationship between p53 expression and chemoresistance may have a tissue or cell type specific component .
+the present invention addresses the need to deliver therapeutic molecules systemically with a high degree of target cell specificity and high efficiency .
+specific embodiments of the invention provide pharmaceutically acceptable compositions comprising an admixture of transferrin ligand and viral vector particles capable of delivering a nucleic acid to target host cells .
+a wide variety of human cancer cells contain transferrin receptors .
+moreover , the high number of ligand molecules on the surface may also serve to decrease the immunogenicity of the virus by blocking viral antigens .
+replication competent or oncolytic viruses also can be used in accordance with the invention .
+the invention improves upon existing technology by providing compositions and methods for the systemic administration of viral vectors .
+concentrations of viral particles , ligand and auxiliary agents within the compositions of the invention also will be suitably selected .
+specific embodiments of the invention provide for using the compositions of the invention in conjunction with radiation treatment and / or chemotherapy .
+the invention is not limited to any particular viral vector , or to any particular route or mode of administration of the ligand viral vector admixture compositions .

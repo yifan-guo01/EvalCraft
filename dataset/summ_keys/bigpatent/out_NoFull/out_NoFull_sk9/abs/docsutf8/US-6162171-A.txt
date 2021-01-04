@@ -1,0 +1,9 @@
+they are positioned skewed sideways with respect to the longitudinal axis of the body ( of the robot ) with their distal ends pointing radially away from the main body ( of the robot ) .
+locomotive force is produced as the bellow ( 11 ) extends to push against the internal walls of the organ .
+this collapsible mechanism is a safe guard against puncturing and perforation of the delicate walls .
+the computer program will ensure that the polarity of the input voltage will cause the motor ( 80 ) to turn in the desired direction .
+as shown in fig5 there is shown how alternate sets of bellows ( 11 ) are sequenced to extend and retract simultaneously to bring about forward locomotion .
+if the friction is arranged to be large enough so that the point of contact does not slide , there will be a resultant force that pushes the robot ( 1 ) forward .
+this is to facilitate positioning of surgical tools and more precise inspection activities .
+the greater the displacement of the wires , the greater the bending angle .
+two wires at 180 degrees apart will form an antagonistic pair and is responsible for bending movements in one axis .

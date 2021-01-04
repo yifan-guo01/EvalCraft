@@ -1,0 +1,6 @@
+a system and method for bicycle sharing and rental with a rack and one or more bicycles .
+the rack has a base with one or more locking arm , wherein each locking arm has a first end secured to the base and a second end , further wherein the second end has a fixture attached .
+bicycle sharing has been implemented in many towns and cities to support public transportation .
+most of these bicycle sharing programs encounter problems related to vandalism , theft , and the high cost of maintenance .
+to address these issues , some bicycle sharing programs require the user to leave a deposit or identification to prevent bicycle theft .
+attempts to deter theft include the use of bicycles with non removable parts and unique visual appearances , which limit their utility outside of the bicycle sharing program .

@@ -1,0 +1,10 @@
+iron temperature
+reflector soleplate
+microprocessor
+temperature time
+average power
+control device
+water
+low capacity
+halogen lamp
+temperature sensor

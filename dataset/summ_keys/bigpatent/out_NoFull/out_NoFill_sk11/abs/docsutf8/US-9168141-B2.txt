@@ -1,0 +1,11 @@
+in the present context , the phrase “ medical prosthetic device and implant ” includes within its scope any device intended to be implanted into the body of a vertebrate animal , in particular a mammal such as a human .
+a non limiting list of main groups of and species biomolecules that are contemplated as being suitable for incorporation into a metal hydride layer ( in a stable and / or physiologically reversible manner ) in accordance with the invention is given below .
+cell attachment factors are biomolecules that mediate attachment and spreading of cells onto biological surfaces or other cells and tissues .
+this group of molecules typically contains molecules participating in cell matrix and cell cell interaction during vertebrate development , neogenesis , regeneration and repair .
+this class of proteins typically contains any dissolved or aggregated protein which normally is present whole blood .
+enzymes are any protein or peptide that have a specific catalytic effect on one ore more biological substrates which can be virtually anything from simple sugars to complex macromolecules like dna .
+enzymes are potentially useful for triggering biological responses in the tissue by degradation of matrix molecules , or they could be used to activate or release other bioactive compounds in the implant coating .
+growth factors and hormones are molecules that bind to cellular surface structures ( receptors ) and generate a signal in the target cell to start a specific biological process .
+, hormone ligands and growth factors ) and transmit the signal over the cell membrane and into the internal machinery of cells .
+this makes it possible for the cells to react differentially to external signals by varying the pattern of receptors on their surface .
+by synthesizing such molecules a wide array of chemical and structural modification can be introduced that can stabilize the molecule or make it more bioactive or specific .

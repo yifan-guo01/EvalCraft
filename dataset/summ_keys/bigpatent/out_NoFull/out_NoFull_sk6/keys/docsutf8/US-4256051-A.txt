@@ -1,0 +1,10 @@
+housing
+reference numeral
+deposit bead
+inclined guideway
+train sprocket
+support roller
+side
+extend guide
+space pair
+trip switch

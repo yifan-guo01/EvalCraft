@@ -1,0 +1,2 @@
+the method for portioning discrete articles by feeding the articles and generating signals controlling the gates is suited for a combined plurality of such assemblies to provide high speed continuous container filling operations for simultaneous filling of groups of containers .
+at a top of the assembly , articles received from a feeder enter feed tube 2 and fall through an article detecting unit 10 , preferably a light sensing detector of the type according to the aforementioned u .

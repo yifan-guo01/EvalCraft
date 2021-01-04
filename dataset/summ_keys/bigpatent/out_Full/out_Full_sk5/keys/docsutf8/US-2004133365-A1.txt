@@ -1,0 +1,10 @@
+use signal
+present invention
+acceleration sensor
+vehicle center
+rigid body
+motion equation
+determine sum
+tensor umlaut
+torque
+select point
