@@ -1,8 +1,0 @@
-if the foil already has lip zones applied , any embossing or printing patterns and the hole patterns must be applied as a local function of said lip zones .
-however , in addition if the entire foil has already been treated entirely with a fire retardant substance , any embossing or printing patterns and the hole patterns must be produced at specific points .
-these zones , printing patterns or other markings are detected by a position sensor .
-a positionally accurate arrangement of the surface structure impressed by the embossing unit on the length section of the foil to be supplied in each case corresponds thereto .
-the surface structures can be , for example , one or more logos , which are produced by removing or changing teeth on a roll or multiple rolls .
-the embossing unit 2 can also contain a male female embossing roll pair .
-the detection is carried out on the transport path between the embossing unit 2 and the perforation apparatus 5 .
-the requisite lengthening of the transport path of the foil is absorbed by a buffer unit 7 , which is arranged after the embossing unit 2 .

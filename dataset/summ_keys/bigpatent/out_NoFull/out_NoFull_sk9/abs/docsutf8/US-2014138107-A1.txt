@@ -1,9 +1,0 @@
-reference is made herein to the attached drawings .
-like reference numerals are used throughout the drawings to depict like or similar elements of the christmas tree fire extinguishing and monitoring system .
-for the purposes of presenting a brief and clear description of the present invention , the preferred embodiment will be discussed as used for monitoring and preventing christmas tree fires and for alerting owners and authorities of a fire event .
-the figures are intended for representative purposes only and should not be considered to be limiting in any respect .
-referring now to fig1 , there is shown a view of the fire extinguishing system of the present invention in a working state , whereby the system monitors the condition of the christmas tree 50 and can activate a fire extinguishing agent 13 from within a housing 11 placed below the tree 50 .
-positioned within the tree 50 and along its trunk is a conduit 20 that routes a plurality of hoses 21 and a plurality of electrical connections through the tree 50 .
-the hoses are preferably a heat resistant material that are adapted to carry a pressurized fire extinguishing agent from the agent canister 13 to the tree 50 for dispensing the same therein to combat an open fire .
-the fire extinguishing agent travels through the conduit 20 within a central line and into the individual hoses 21 disposed along the conduit 20 length .
-electrically connected to the housing 11 and extending from the conduit 20 is a plurality of fire sensors 23 and an audible warning means 24 .

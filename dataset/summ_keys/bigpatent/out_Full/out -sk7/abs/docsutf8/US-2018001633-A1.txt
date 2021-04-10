@@ -1,7 +1,0 @@
-a printhead is provided having an elongate support having a plurality of internal webs protruding from a base section to define a plurality of parallel fluid supply channels , a shim supported by the support and defining a plurality of rows of openings through which fluid from respective supply channels is supplied , and a plurality of elongate printhead modules supported serially on the shim .
-each module defines a plurality of fluid supply passages through which fluid passes to fluid ejection nozzles from respective rows of the openings .
-either end of each module defines complementary formations such that adjacent modules nest together .
-the assembly 1 includes a shield plate 5 with which the surface 2 may come into sliding contact during such printing .
-the printing length of each of the two endmost segments 4 overlaps the printing length of its nearest neighbour in the other row at one end only .
-it also serves as an integral ink supply arrangement for the printhead segments 4 , as will become clearer later .
-reference numerals 26 ′ indicate two such smaller apertures , the significance of which is described below , which are present in each aperture row at predetermined aperture intervals .

@@ -1,2 +1,0 @@
-a multi spindle fiber pay out apparatus is provided that allows for fiber tension control .
-the spindle is in rotational supporting relation to the spool of fiber and is operatively engaged with a magnetic particle brake , which is itself in control communication with an electronic controller .

@@ -1,6 +1,0 @@
-the present invention provides an ink jet printer having high resolution and image quality , low power consumption , low cost and containing line heads .
-the following described embodiments are preferred working examples of the invention and so are preferably limited in regards to their technical aspects , however unless otherwise stated , the scope of the invention is not limited by the following description and not limited by these aspects of the invention .
-in fig1 and fig2 an ink jet printer 100 is comprised of a line head 120 having thermal elements not shown in the drawing , as drive elements for emitting droplets of ink , and having a pnm ( pulse number modulation ) function for modulating the number of dots form the ink droplets in a recording range having a width largely equal to a paper p .
-a paper ejection slot 111 for the paper p is formed in one end of the cabinet 150 , and a tray inlet / outlet 112 for the paper tray 150 is formed in the other end of the cabinet 150 .
-the paper feed guide 131 is formed a level plate shape and installed with specified open gaps below the line head 120 .
-the paper feed rollers 132 and 133 form a pair of rollers in mutual contact , and are installed on both sides of the paper feed guide 131 , namely on the side of the tray inlet / outlet 112 and the side of the paper ejection slot 111 .

@@ -1,4 +1,0 @@
-referring now to the drawings and to fig1 in particular there is shown a truck antilock diagnostic system 10 using a diagnostic communications interface unit 12 according to the present invention .
-ten of the leds provide a diagnostic check of the abs / atc and the other two leds are used to indicate that the dci has a power source and that a communications link is established .
-the ecu 14 which comprises a part of the larger electronic diagnostic system 10 is housed within an enclosure which is mounted on the truck chassis .
-the speed sensors are normally wheel speed sensors mounted at the vehicle wheels .

@@ -1,7 +1,0 @@
-the honeycomb substrate monolith can be made from a ceramic material such as cordierite or silicon carbide , or a metal such as fecralloy ™ .
-the arrangement is preferably a so called flow through configuration , in which a plurality of channels extend in parallel from an open inlet end to an open outlet end .
-however , the honeycomb substrate monolith may also take the form of a filtering substrate such as a so called wall flow filter or a ceramic foam .
-in either of the preceding embodiments , the honeycomb substrate monolith has a total length .
-in preferred embodiments , the length of the inlet zone is less than the length of the outlet zone .
-a desirable feature of a low washcoat loading is that its relatively low thermal mass enables it to heat up more quickly and hence to “ light off ” more efficiently following cold start .
-however , because of the lower thermal mass , the catalyst can also cool down more quickly and in this regard “ lighting out ” in the middle of a drive cycle after initially warming up ( i .

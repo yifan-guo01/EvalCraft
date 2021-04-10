@@ -1,6 +1,0 @@
-in electron beam lithography , a beam of incident electrons exposes a preselected circuit pattern in a thin resist layer deposited on top of a substrate to be etched .
-some of the electrons scatter from the substrate back into the resist layer producing an undesired exposure which produces variable resolution of features .
-in accordance with the disclosed technique , the region of the resist which is complementary to the desired circuit pattern is also exposed by an electron beam which has been adjusted to produce an exposure approximating that due to backscattering .
-this additional exposure removes the spatial variability in resolution attainable by the electron beam lithography .
-in an electron beam lithography process the area to be exposed is divided into a two dimensional array of squares , known as pixels , and the electron beam can be controlled to expose only selected pixels to generate a desired circuit pattern .
-because the current density of the beam is approximately gaussian , so too is the forward scattered energy distribution .

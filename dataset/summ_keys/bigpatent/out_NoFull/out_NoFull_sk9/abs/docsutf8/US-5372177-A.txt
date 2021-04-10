@@ -1,9 +1,0 @@
-the invention is a flash fire furnace 10 useful for dewaxing an investment casting ceramic mold structure 12 .
-the invention is useful in flash fire dewaxing a ceramic investment casting mold structure 12 .
-the heatable furnace chamber 14 is a typical heatable furnace chamber having heat resistant walls 28 , floor 30 and a source of heat energy .
-in a typical embodiment , the walls 28 and the floor 30 of the furnace 14 are constructed of steel which is heat protected by appropriate thicknesses of refractory .
-in a typical embodiment , the source of heat energy is one or more gas fired primary burners 32 mounted into the side walls 28 of the furnace chamber 14 .
-this configuration allows the removal of processed mold structures 12 and the installation of unprocessed mold structures 12 outside of the furnace chamber 14 so that the furnace chamber 14 can be continuously maintained at processing temperatures .
-the furnace 14 also has a flue duct 36 which removes smoke and other combustion products from the furnace chamber 14 .
-preferably , the primary burners 32 fire horizontally from an upper corner of one of the horizontal walls 28 of the furnace chamber 14 and a flue duct opening 38 is located in the center bottom of the same furnace chamber wall 28 .
-by this configuration , a circular heating pattern is generated within the furnace chamber 14 .

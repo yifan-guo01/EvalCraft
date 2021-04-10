@@ -1,7 +1,0 @@
-referring now to the drawings , wherein like reference characters designate like or corresponding parts throughout the several views , there is illustrated in fig1 a pictorial depiction of the first stage of deployment of an ice penetrating buoy 22 as it is launched from the buoy launch tube 25 of a submarine ( not shown ) , as is normal procedure in the industry .
-fig2 through 9 all show further details of the tail section and how it functions during buoy launch , then springs open to act as a large net to almost completely stop any forward motion and , finally , how it falls away when no longer needed .
-fins 36 are each constructed in the general shape of an arcuate section of a circle , as can be seen in fig8 .
-the silicone rubber used has a durometer of about 20 .
-tail section 32 and lower electronics package 29 are also bound together by a retainer spring 48 made from spring steel wire .
-as shown in fig1 , a pictorial depiction of the release of the retainer spring holding lower electronics section 29 and tail section 32 to upper electronics section 28 , spring 48 is comprised of a hoop portion 51 , that encircles the outer circumference of the junction of the upper and lower electronic sections , and a pair of elongated fingers 53 .
-the sleeve is removed from buoy 22 as it gets loaded into launch tube 25 , and the tube is securely closed and latched .

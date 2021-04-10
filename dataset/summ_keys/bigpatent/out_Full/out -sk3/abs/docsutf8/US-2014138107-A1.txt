@@ -1,3 +1,0 @@
-a christmas tree fire extinguishing system is provided , wherein an automatically initiated fire extinguishing agent is contained within a housing below the tree and a plurality of smoke and heat sensors communicate to a control unit .
-the control unit controls the trigger and interprets the sensor signals , while also sending signals to a communications system upon a fire event to notify the homeowner and / or the local fire authorities .
-in combination with the fire extinguishing agent , the system can monitor the tree and alert property authorities in the event of a fire to prevent home fires and major property damage .

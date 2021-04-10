@@ -1,7 +1,0 @@
-a forging die tool set defines a cavity and includes a core rod in the cavity for shaping a void in a work piece .
-the core rod extends in a direction in which the work piece is introduced , compressed , and ejected from the cavity .
-the core rod includes an upper portion and a lower portion .
-the upper portion has a cross sectional shape that forms a certain shape in the work piece and a radially tapered section that tapers toward the lower portion of the core rod .
-the work piece 24 may be an annular powder metal blank such as a helical gear , a spur gear or the like .
-the core rod 22 is located in the central void of the work piece 24 .
-the die 12 and the support shaft 18 may also be moved by independent actuators to reduce cycle time .

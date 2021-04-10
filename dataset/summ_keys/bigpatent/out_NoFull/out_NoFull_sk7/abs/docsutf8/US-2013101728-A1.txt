@@ -1,7 +1,0 @@
-the example material 24 is a metal powder that is applied in a layer over the support 14 and subsequent layers to produce a desired configuration of the part 16 .
-the laser beam 20 emits directs energy that melts the powder material in a configuration that forms the desired part dimensions .
-the additive manufacturing process proceeds by melting subsequent layers of powdered material 24 that are applied to the part 16 to form the desired part configuration .
-as appreciated , the energy focused on the top layer of the part 16 generates the desired heat to melt and then solidify portions of the powdered metal to form the desired part configuration .
-the repeated localized heating and cooling of the powdered material 24 and the part 16 can result in the buildup of undesired stresses within the part 16 .
-stresses within the part 16 may result in undesired cracking or weaknesses within the completed part and therefore are to be avoided .
-during operating and fabrication of the part 16 , the strain gauges 26 transmit information to a controller 28 that are indicative of the condition and specifically the stress condition of the part 16 .

@@ -1,3 +1,0 @@
-a toy snake that reproduces the natural movement of a snake as it moves across surface is described .
-the toy snake comprises a head that is pivotally mounted to a tail and a motor unit located within the head .
-in a preferred embodiment a body is employed to pivotally mount the head to the tail .

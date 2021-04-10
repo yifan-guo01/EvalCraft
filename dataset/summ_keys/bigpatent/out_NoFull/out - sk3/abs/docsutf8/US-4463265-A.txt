@@ -1,3 +1,0 @@
-in an electron beam lithography process the area to be exposed is divided into a two dimensional array of squares , known as pixels , and the electron beam can be controlled to expose only selected pixels to generate a desired circuit pattern .
-in a raster scan type of lithography machine , the pixels are scanned a row at a time and the beam is turned on only while pixels which are to be exposed by the electron beam are being scanned .
-because the current density of the beam is approximately gaussian , so too is the forward scattered energy distribution .

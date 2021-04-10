@@ -24,7 +24,7 @@ class Thinker(Talker) :
     super().__init__(**kwargs)
 
     self.svo_graph = self.to_svo_graph()
-
+    self.params=talk_params()
     self.rels= (
       'as_in','is_like','kind_of', 'part_of','has_instance'
       'subject_in', 'object_in', 'verb_in')
@@ -36,8 +36,7 @@ class Thinker(Talker) :
     ''' handler for question q asked from this Thinker'''
 
     # apply BERT pipeline to italk.py answers
-    shortAnswerInTalk=self.get_gist(q, answers)
-
+    self.get_gist(q, answers)
 
     if not answerer:
       return
@@ -61,24 +60,13 @@ class Thinker(Talker) :
 
       if not self.params.answers_by_rank:
         best=sorted(best)
-      
+
       for x in best:
         print(x[0],end=': ')
-        print(niceWithSentId(x[0],self), '\n')
-      
+        print(nice(self.get_sentence(x[0])), '\n')
 
     # apply BERT pipeline to inferred answers
-    shortAnswerInThink = self.get_gist(q,inf_answers)
-
-    
-    if shortAnswerInTalk == shortAnswerInThink:
-      print('\n****talk and think have same answer:', shortAnswerInTalk, '****\n' )
-    else:
-      print('\n****talk and think have different answer, talk answer:', shortAnswerInTalk, '****' )
-      print('****think answer:', shortAnswerInThink, '****\n' )
-    
-    return shortAnswerInTalk, shortAnswerInThink
-
+    self.get_gist(q,inf_answers)
 
   def extract_rels(self,G,good_lemmas):
     depth = self.params.think_depth
@@ -229,58 +217,12 @@ def reason_with(fname,query=True) :
   '''
   t = Thinker(from_file=fname+'.txt')
   show =t.params.show_pics
-  talkAnswer = []
-  thinkAnswer = []
-
 
   t.show_all()
   if query:
-    talkAnswer, thinkAnswer = t.query_with(fname+'_quest.txt')
+    t.query_with(fname+'_quest.txt')
     if show :
       pshow(t,file_name=fname+"_quest.txt",
           cloud_size=t.params.cloud_size,
           show=t.params.show_pics)
-  return talkAnswer, thinkAnswer
-
-
-def reason_with_File(fname, params, query=True) :
-  '''
-  Activates dialog about document in <fname>.txt with questions
-  in <fname>_quests.txt
-  Assumes stanford corenlp server listening on port 9000
-  with annotators listed in params.py  available.
-  '''
-  t = Thinker(from_file=fname+'.txt', params=params)
-  show =t.params.show_pics
-  talkAnswer = []
-  thinkAnswer = []
-
-
-  t.show_all()
-  if query:
-    talkAnswer, thinkAnswer = t.query_with(fname+'_quest.txt')
-    if show :
-      pshow(t,file_name=fname+"_quest.txt",
-          cloud_size=t.params.cloud_size,
-          show=t.params.show_pics)
-  return talkAnswer, thinkAnswer 
-
-
-def reason_with_Text( text, qlist, params, query=True) :
-  '''
-  Activates dialog about document in <fname>.txt with questions
-  in <fname>_quests.txt
-  Assumes stanford corenlp server listening on port 9000
-  with annotators listed in params.py  available.
-  '''
-  t = Thinker(from_text=text, params=params)
-  show =t.params.show_pics
-  talkAnswer = []
-  thinkAnswer = []
-
-
-  t.show_all()
-  if query:
-    talkAnswer, thinkAnswer = t.query_with(qlist)
-  return talkAnswer, thinkAnswer 
 

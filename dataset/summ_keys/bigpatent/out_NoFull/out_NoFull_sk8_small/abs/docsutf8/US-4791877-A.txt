@@ -1,8 +1,0 @@
-a preferred embodiment of the present invention will be described hereinafter with reference to the accompanying drawings .
-this embodiment relates to a feed device and its feed control device of an electronically controlled zigzag sewing machine constituted to drive the fabric directly by a pulse motor in synchronism with the vertical reciprocative motion of the needle , and constituted to control the start timing and end timing of feed on the basis of the speed of main motor and the feed stroke and feed direction .
-a feed device embodying the present invention , for an electronically controlled zigzag sewing machine feeds a work fabric with the members directly driven by a stepping motor .
-the period of command pulses for driving the stepping motor is controlled on the basis of the rotating speed of the main motor of the sewing machine .
-the needle bar reciprocating mechanism and the thread take up lever are driven by the main motor , while the feed mechanism having feed rollers partly projecting from the upper surface of the throat plate is driven directly by the stepping motor .
-since the needle bar reciprocating mechanism and the thread take up lever are substantially the same as those of the ordinary electronically controlled pattern sewing machine , the description thereof will be omitted , and the feed device will be described herein with reference to fig1 to 3 .
-a presser foot holder 2 is fastened with a screw 4 to the lower end of a presser bar 1 extending downward from the top of the arm of a electronically controlled zigzag sewing machine .
-a roller type feed device having the following constitution is disposed in the bed b below the presser bar 1 and the needle bar .

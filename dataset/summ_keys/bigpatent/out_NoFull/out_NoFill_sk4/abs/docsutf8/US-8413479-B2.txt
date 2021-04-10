@@ -1,4 +1,0 @@
-the work piece 24 may be an annular powder metal blank such as a helical gear , a spur gear or the like .
-the core rod 22 is located in the central void of the work piece 24 .
-the die 12 and the support shaft 18 may also be moved by independent actuators to reduce cycle time .
-in addition , automatic component insertion and extraction mechanisms may also be used in the system .

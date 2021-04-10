@@ -1,3 +1,0 @@
-an actuating unit for a hydraulic brake system for automotive vehicles includes a vacuum brake power booster and a master brake cylinder .
-to transmit the reaction forces , developing during actuation in the master brake cylinder , to a vehicle body wall which carries the actuating unit , a centrally positioned force transmitting element is provided , which is arranged between the master brake cylinder and the vehicle body wall in terms of effect .
-the force transmitting element is formed of a continuous bolt which extends in an axial direction through the control housing of the vacuum brake power booster .

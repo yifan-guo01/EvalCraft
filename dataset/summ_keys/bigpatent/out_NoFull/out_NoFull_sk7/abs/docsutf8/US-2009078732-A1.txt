@@ -1,7 +1,0 @@
-the part of the tow bar 1 that joins to the back of the associated vehicle ( not depicted ) is drawn as ragged to distinguish it from the free end which is furthest from the back of the vehicle and has a rounded outline .
-in the following description the term “ front ” applies to being nearer to the vehicle and the term “ rear ” applies to being further away from the vehicle to which the tow bar 1 is attached .
-the bottom face of the anchoring plate 9 is flat to engage the flat upper face of the tow bar 1 .
-the rear of the anchoring plate 9 is shaped to lie within the outline of the rear of the tow bar 1 .
-the dimensions of anchoring plate 9 are therefore set to ensure that when holes 8 and 2 align the front edge of anchoring plate 9 does not extend forward of the place , if any , where the tow bar 1 starts to bend upward .
-if this requirement is not met the flat anchoring plate 9 is distorted when the securing nut 7 is tightened and the flange 4 acts to bend the anchoring plate 9 into a contour that matches the angled section of the tow bar 1 .
-the shape of the lugs 10 and 11 is such that they do not interfere with a spanner tightening the securing nut 7 on the stem 5 after it has passed through the hole 8 and the hole 2 .

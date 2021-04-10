@@ -1,8 +1,0 @@
-the system is consists of an ionic generator with fan 1 attached to ion reservoir 2 .
-temperature manipulation vessel 4 is capable of heating of chilling the ionized air by means of coils within the vessel .
-the system is operated in the following manner .
-at the same time vacuum pump 10 is switched on to draw down vacuum tank 9 .
-the valves on pipes 5 and 8 are closed in order to concentrate the ions in ion reservoir 2 and create the vacuum within the vacuum draw down tank 9 .
-the material is exposed to heat and mechanical rotation by common art .
-when vacuum is achieved in draw down tank 9 the valve on pipe 8 is opened rapidly creating a vacuum in reaction chamber 6 .
-once vacuum is achieved in reaction chamber 6 the valve on pipe 8 is closed .

@@ -1,4 +1,0 @@
-now referring to fig1 the offset of the center of gravity s from the vehicle center is referred to as s y , the level of the center of gravity above the roadway is designated by the letter h .
-to determine the sums of tire contact forces f lz and f rz and the sum of transverse force f y , the vehicle is looked at as a rigid body in a simplified two dimensional model , onto which body only the contact forces between tire contact area and roadway act beside the gravitational force .
-aerodynamic forces and the movement of vehicle parts relative to a system of coordinates ( x , y , z ) on the vehicle moved along with the vehicle body , such as the rotation and compression of the vehicle wheels , may be ignored in this context .
-a rigid body moves under the effect of applied forces and torques according to generally known mathematical interrelationships , i .

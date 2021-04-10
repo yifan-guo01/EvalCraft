@@ -2,13 +2,7 @@
 import json
 from .params import *
 import stanza
-
-corenlp_dir = '/root/corenlp'
-stanza.install_corenlp(dir=corenlp_dir)
-import os
-os.environ["CORENLP_HOME"] = corenlp_dir
-
-
+stanza.install_corenlp()
 def ies_of(sentence):
   if not NLPclient: return
   ts=[]
@@ -41,9 +35,8 @@ def lexs_of(sentence):
     l = cleaned(tok['lemma'])
     t = tok['pos']
     n = tok['ner']
-    b = tok['before']
     l=l.lower()
-    yield (w, l, t, n, b)
+    yield (w, l, t, n)
 
 def to_json(infile,outfile):
   client = NLPclient()
@@ -67,7 +60,8 @@ def cleaned(w) :
 class NLPclient:
   def __init__(self, core_nlp_version = '2018-10-05'):
     from stanza.server import CoreNLPClient
-    self.client = CoreNLPClient(start_server=True, be_quiet=True)
+    self.client = CoreNLPClient(annotators=['tokenize','ssplit','pos',
+    'lemma','ner','parse','coref'])
 
   def __enter__(self): return self
   def __exit__(self, exc_type, exc_val, exc_tb): pass

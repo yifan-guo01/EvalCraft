@@ -1,8 +1,0 @@
-fig1 is a side view of a rotary wing aircraft 10 having a fuselage 12 on the top of which a rotor 14 is arranged .
-as can be noted in particular from fig5 the rotor 14 consists of a rotor head 20 on which four rotor blades 22 are mounted .
-the rotor head 20 is developed as an air suction connection 24 which is open in the upward direction and within which an impeller 26 that is rotatably driven around the axis of the rotor head 20 is mounted and draws air in from above .
-stationary guide vanes 28 arranged on the pressure side of the impeller 26 reduce the twist of the air drawn in to a minimum .
-as shown in fig3 the rotor blade 22 is provided on its trailing edge 42 with outlet slots 44 which are arranged over the length of the blade .
-from fig2 it can be noted that corresponding deflection ribs 46 lead to the outlet slots 44 , the ribs being developed in the rotor blade 22 and their length increasing towards the tip 48 of the rotor blade 22 .
-in this way , part of the air drawn in which flows into the hollow rotor blade 22 is conducted in the region of the first deflection rib 46 to the corresponding outlet slot 44 while a part corresponding to the projection of the following deflection rib 46 is deflected to the next outlet slot 44 , and so on .
-the residual air flow arriving at the tip 48 of the rotor blade 22 passes outward here via the last outlet slot 44 .

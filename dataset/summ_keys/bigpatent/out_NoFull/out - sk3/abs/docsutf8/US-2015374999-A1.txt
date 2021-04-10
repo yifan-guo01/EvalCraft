@@ -1,3 +1,0 @@
-device 100 comprises an implanted control unit 110 , which controls application of a sequence of neural stimuli in accordance with the present invention .
-in this embodiment the unit 110 is also configured to control a measurement process for obtaining a measurement of a neural response evoked by a single stimulus delivered by one or more of the electrodes 122 .
-the activation and simultaneous suppression of different areas of tissue is highly desired for treatment of a number of neurological disorders .

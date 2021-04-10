@@ -1,8 +1,0 @@
-generally described , the present invention provides a web having a pore size gradient within the web structure and a method of making same .
-spunbond processes are known to those skilled in the art and need not be described in detail .
-the fiber draw unit may include an elongate vertical passage through which the filaments are drawn by aspirating air entering the spunbond unit 24 and flowing downwardly through the passage .
-a heater may supply hot air to the fiber draw unit .
-the heated aspirating air draws the fibers and ambient air through the fiber draw unit .
-the fibers are deposited onto an endless wire forming surface 34 moving in the direction of arrow a .
-the surface 34 is preferably a wire mesh structure capable of retaining its shape or assuming the shape of a shaped support surface .
-a three dimensional asymmetrical shape can also be formed to create a web structure having a defined contour .

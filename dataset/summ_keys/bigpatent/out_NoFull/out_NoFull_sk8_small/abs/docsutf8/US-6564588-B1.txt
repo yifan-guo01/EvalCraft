@@ -1,8 +1,0 @@
-fig2 illustrates the method in accordance with the prior art .
-in this method during a first carriage passage , stitches for the rear knitted piece are produced .
-in the second carriage passage stitches for the front knitted piece are produced .
-subsequently in a third carriage passage the front knitted piece narrows at the left and the rear knitted piece narrows at the right .
-in a fourth carriage passage then the front knitted piece is narrowed in the right edge region and the rear knitted piece is narrowed in the left edge region .
-the carriage passages 3 and 4 are therefore such carriage passages during which no stitches are produced and which do not contribute to the production of the knitted piece .
-in contrast , in accordance with the method of the present invention illustrated in fig2 b , in a first carriage passage both the narrowing of the rear knitted piece on the right side , the front knitted piece on the left side and also the stitch formation for the rear knitted piece are performed .
-in a second carriage passage then the rear knitted piece on the left side and the front knitted piece on the right side are narrowed and the stitches for the front narrow piece are formed .

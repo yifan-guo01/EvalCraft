@@ -1,9 +1,0 @@
-referring initially to fig1 , there is illustrated a system 10 constructed according to one preferred embodiment of the invention .
-at this location , the fluid enters the vertical flow tube 18 and proceeds upwardly along the spiral path defined by spiral baffle 24 .
-the spiral shaped path of baffle 24 tends to separate the gas slugs 26 from the liquid medium by centrifugal forces imposed on the liquid , which forces cause the liquid portion to migrate radially outwardly from the center of baffle 24 , as the mix rises and increases in velocity .
-the lighter gas portion will remain closer to the center and enter central gas tube 28 via apertures 30 , to be directed into the annulus 32 defined between flow tube 18 and casing 14 .
-as noted , as the gas / liquid mix rises up the spiral path of the gas / liquid separation baffle 24 , the heavier liquid portion migrates outwardly along the spiral path , and the gaseous portion enters apertures 30 in the center of the spiral baffle 24 and is directed into annulus 32 .
-annular packer 34 is provided with vent valve 36 , which is adapted to vent excess gas to the atmosphere in the event an excessive amount of gas is produced and accumulated in the annulus 32 to form a high pressure zone .
-in particular , as can be seen from the figures , liquid will enter the annulus 32 ; however a reduced flow rate due to a large “ settling area ” will allow the liquid and gas to separate by density differences .
-the separated liquid will be directed to the tubing , the gas will remain in the annulus , captured under the packer until reinjected into the tubing .
-it will be appreciated that the combination of the continuous rotational path of the fluids while traveling upwardly along the spiral path , and the progressively increasing velocity of the fluids as they rise upwardly , will cause radially outward migration of the heavier liquids ( i .

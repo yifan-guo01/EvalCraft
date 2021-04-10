@@ -6,97 +6,8 @@ from doctalk.talk import Talker, nice_keys, exists_file, jload, jsave
 from doctalk.params import talk_params, ropen, wopen
 from doctalk.think import reason_with_File, reason_with_Text
 
-def mergeNewsQA_SQuAD(version):
-  import glob
-  squad_datadir = "dataset/QA/SQuAD/" + version + "/dev/"
-  print('squad_datadir:', squad_datadir)
-  squad_files = sorted(glob.glob(squad_datadir+"*.txt"))
-  newsqa_datadir = "dataset/QA/NewsQA/dev/"
-  print('newsqa_datadir:', newsqa_datadir)
-  newsqa_files = sorted(glob.glob(newsqa_datadir+"*.txt"))
-  print('squad_files, type:', type(squad_files), ', len:', len(squad_files))
-  print('newsqa_files, type:' , type(newsqa_files), ', len:', len(newsqa_files))
-
-  for i, squad_file in enumerate(squad_files) : 
-    with ropen(squad_file) as fs: squad_text = fs.read()
-    fs.close()
-    with ropen(newsqa_files[2*i]) as fn1: newsqa1_text = fn1.read()
-    fn1.close()
-    with ropen(newsqa_files[2*i + 1]) as fn2: newsqa2_text = fn2.read()
-    fn2.close()
-    
-    print('squad_file:', squad_file)
-    print('newsqa1_file:', newsqa_files[2*i])
-    print('newsqa2_file:', newsqa_files[2*i + 1])
-
-    content = squad_text + newsqa1_text  + newsqa2_text
-    squad_merged_datadir = "dataset/QA/SQuAD/" + version + "/dev_merged/" 
-    merge_file = squad_file.replace('dev', 'dev_merged' )
-    print('merge_file name:', merge_file)
-    with wopen(merge_file) as fm:
-      fm.write(content)
-    #if i==10: break
-
-
-
-def createSQuADQuestionIDMap(version):
-  datadir = "dataset/QA/SQuAD/"  + version + "/"
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  #print('data[0]:', dataset['data'][0])
-  qidMap = dict()
-  for article in dataset['data']:
-      for i, paragraph in enumerate(article['paragraphs']):    
-         questions = paragraph['qas']
-         for question in questions:
-             qid = question['id']
-             q=question['question']
-             qidMap[qid] = article['title']  + "_" + str(i) + "_" + q
-  output = json.dumps(qidMap)
-  fname = datadir + "qidMap.json"
-  with wopen(fname) as f:
-    f.write(output + "\n")
-  f.close()
-
-
- # example: answerSQuADByName('dataset/QA/SQuAD/1.1/dev/1973_oil_crisis_0')
-def answerSQuADByName(filename):
-  talkansOrg, talkansYifan, thinkans, bertans = reason_with_pytalk_FromFile(filename)
-  print('talkansOrg:', talkansOrg)
-  print('talkansYifan:', talkansYifan)
-  print('thinkans:', thinkans )
-  print('bertans:', bertans )
-
 
 def saveSQuAD_QuestionContent(version):
-  datadir = "dataset/QA/SQuAD/" + version + "/"
-  os.makedirs(datadir + 'dev',exist_ok=True)
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  #print('data[0]:', dataset['data'][0])
-  for article in dataset['data']: 
-      for i, paragraph in enumerate(article['paragraphs']):
-         fname = datadir + "dev/" + article['title']  + "_" + str(i) + ".txt"
-         context = paragraph['context']
-         with wopen(fname) as fcontext :
-            fcontext.write(context + "\n")
-         fcontext.close()          
-         questions = paragraph['qas']
-         fqname = datadir + "dev/" + article['title']  + "_" + str(i) + "_quest.txt" 
-         with wopen(fqname) as fquest:
-           for question in questions:
-             q=question['question']
-             fquest.write(q + "\n")
-           fquest.close()
-
-
-def saveSQuAD_QuestionContent_wholeArticle(version):
   datadir = "dataset/QA/SQuAD/" + version + "/"
   os.makedirs(datadir + 'dev',exist_ok=True)
   if version == "1.1":
@@ -123,7 +34,37 @@ def saveSQuAD_QuestionContent_wholeArticle(version):
              fquest.write(q + "\n")
            fquest.close()
 
+def createSQuADQuestionIDMap(version):
+  datadir = "dataset/QA/SQuAD/"  + version + "/"
+  if version == "1.1":
+    dataset= jload( datadir + "dev-v1.1.json")
+  else : #version ="2.0"
+    dataset= jload( datadir + "dev-v2.0.json")
+  #data is []
+  #print('data[0]:', dataset['data'][0])
+  qidMap = dict()
+  for article in dataset['data']:
+      for i, paragraph in enumerate(article['paragraphs']):    
+         questions = paragraph['qas']
+         for question in questions:
+             qid = question['id']
+             q=question['question']
+             qidMap[qid] = article['title']  + "_" + str(i) + "_" + q
+  output = json.dumps(qidMap)
+  fname = datadir + "qidMap.json"
+  with wopen(fname) as f:
+    f.write(output + "\n")
+  f.close()
 
+# example: answerSQuADByName('dataset/QA/SQuAD/1.1/dev/1973_oil_crisis_0')
+def answerSQuADByName(filename):
+  talkansOrg, talkansYifan, thinkans, bertans = reason_with_pytalk_FromFile(filename)
+  print('talkansOrg:', talkansOrg)
+  print('talkansYifan:', talkansYifan)
+  print('thinkans:', thinkans )
+  print('bertans:', bertans )
+
+ 
 
 def answerSQuADFromFile(version):
   datadir = "dataset/QA/SQuAD/" + version + "/"
@@ -181,314 +122,6 @@ def answerSQuADFromFile(version):
   with wopen(datadir + 'predictions_bert.json' ) as fbert:
     fbert.write(outputBert + "\n")
   fbert.close() 
-
-
-
-def saveSQuAD_QuestionContent_Paragraphs(version, index):
-  datadir = "dataset/QA/SQuAD/" + version + "/"
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  #print('data[0]:', dataset['data'][0])
-  for count, article in enumerate(dataset['data']):
-      if count < index: continue
-      os.makedirs(datadir + "dev_"  + article['title'],exist_ok=True)
-      context = ''
-      qidMap = dict()
-      questionsArray = []
-      for i, paragraph in enumerate(article['paragraphs']):
-         dir = datadir + "dev_" + article['title'] + '/' + str(i)
-         os.makedirs(dir, exist_ok=True)
-         print( article['title'] )
-         fname = dir + "/" +  article['title']  + ".txt"
-         print('fname:', fname)
-
-         context += paragraph['context']
-         with wopen(fname) as fcontext :
-            fcontext.write(context + "\n")
-         fcontext.close()
-         
-         questions = paragraph['qas']
-         for question in questions:
-             qid = question['id']
-             q=question['question']
-             questionsArray.append(q)
-             qidMap[qid] = article['title']  + "_" + str(i) + "_" + q
-          
-         output = json.dumps(qidMap)
-         fqidname =  dir + "/" +  article['title'] + '_quest_id.json'
-         print('fqidname:', fqidname)
-         with wopen(fqidname) as f:
-           f.write(output + "\n")
-         f.close()
-         
-         fqname = dir + "/" +  article['title']  + "_quest.txt" 
-         print('fqname:', fqname)
-         qtext = '\n'.join(questionsArray)
-         with wopen(fqname) as fquest:
-           fquest.write(qtext + "\n")
-         fquest.close()
-      if count == index: break
-
-
-
-#answerSQuADFromFile_Paragraphs('dataset/QA/SQuAD/1.1/dev_Super_Bowl_50/', 'Super_Bowl_50', 11) 
-def answerSQuADFromFile_Paragraphs(path, filename, start):
-  with os.scandir(path) as it:
-    for entry in it:
-        if not entry.name.startswith('.') and entry.is_dir():
-            print(entry.name)            
-            number = int(entry.name) 
-            if number < start: continue
-            answerSQuADParagraphsFromFile(path, entry.name, filename)
-            
-  
-
-#answerSQuADParagraphsFromFile('dataset/QA/SQuAD/1.1/dev_Warsaw/', '0','Warsaw')
-def answerSQuADParagraphsFromFile(dir, number, fname):
-  
-  datadir = dir + number + "/"
-  fname = datadir + fname
-  fqidname = fname + '_quest_id.json'
-  qids = jload( fqidname)
-  print('qids, len:', len(qids), 'content:\n', qids)
-  talkansOrg, talkansYifan, thinkans, bertans = reason_with_pytalk_FromFile(fname)
-  print('answer, len:', len(talkansOrg))
-  print('\n talkansOrg:', talkansOrg)
-  print('\n talkansYifan:', talkansYifan)
-  print('\n thinkans:', thinkans)
-  print('\n bertans:', bertans)
-  qidTalkAnswerOrgMap = dict()
-  qidTalkAnswerYifanMap = dict()
-  qidThinkAnswerMap = dict()
-  qidBertAnswerMap = dict()
-  
-  for j, qid in enumerate(qids):
-      qidTalkAnswerOrgMap[qid] = talkansOrg[j]
-      qidTalkAnswerYifanMap[qid] = talkansYifan[j]
-      qidThinkAnswerMap[qid] = thinkans[j]
-      qidBertAnswerMap[qid] = bertans[j]
-  print('\nqidTalkAnswerOrgMap:', qidTalkAnswerOrgMap)
-  print('\nqidTalkAnswerYifanMap:', qidTalkAnswerYifanMap)
-  print('\nqidThinkAnswerMap:', qidThinkAnswerMap)
-  print('\nqidBertAnswerMap:', qidBertAnswerMap)  
-  outputTalkOrig = json.dumps(qidTalkAnswerOrgMap)
-  with wopen(datadir + 'predictions_talkOrigin.json' ) as ftalkOrigin:
-    ftalkOrigin.write(outputTalkOrig + "\n")
-  ftalkOrigin.close()
-
-  outputTalkYifan = json.dumps(qidTalkAnswerYifanMap)
-  with wopen(datadir + 'predictions_talkYifan.json' ) as ftalkYifan:
-    ftalkYifan.write(outputTalkYifan + "\n")
-  ftalkYifan.close()
-  
-  outputThink = json.dumps(qidThinkAnswerMap)
-  with wopen(datadir + 'predictions_think.json' ) as fthink:
-    fthink.write(outputThink + "\n")
-  fthink.close() 
-
-  outputBert = json.dumps(qidBertAnswerMap)
-  with wopen(datadir + 'predictions_bert.json' ) as fbert:
-    fbert.write(outputBert + "\n")
-  fbert.close() 
-  
-  with ropen(fname + '.txt') as f: 
-    text = f.read()
-  f.close()
-  
-  words = text.split( )
-  total = len(words)
-  print('\n total words number:', total )
-  with wopen(datadir + 'wordsnumber.txt' ) as f:
-    f.write('total words number: ' + str(total) + "\n")
-  f.close() 
-
-
-
-#put EvalCrafts/dataset/QA/SQuAD/1.1/evaluate-v1.1.py to EvalCrafts/evaluate.py
-def evaluateSQuADParagraphs (index, stop): #dev_Warsaw
-  datadir = "dataset/QA/SQuAD/1.1/"
-  dataset= jload( datadir + "dev-v1.1.json")
-  content = ''
-  dirScore = ''
-  import evaluate as ev
-  for count, article in enumerate(dataset['data']):
-      if count < index: continue
-
-      content = 'article, paragraphs number, total words, talk_origin F1, talk_origin_exact_match,'
-      content += 'talk_yifan_F1, talk_yifan_exact_match, think_F1, think_exact_match, bert_F1, bert_exact_match' + '\n'
-      dirScore = datadir + "dev_" + article['title'] + "/"
-      for i, paragraph in enumerate(article['paragraphs']):
-        dir = datadir + "dev_" + article['title'] + "/" + str(i) + "/"
-        with ropen(dir + article['title'] + ".txt") as f: text = f.read()
-        f.close()
-
-        words = text.split( )
-        total = len(words)
-        print('\n total words number:', total )
-
-	
-        predictions = jload( dir + 'predictions_talkOrigin.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
-        em_talkOrigin = round(score['exact_match'], 2)
-        f1_talkOrigin = round(score['f1'], 2)
-
-        predictions = jload( dir + 'predictions_talkYifan.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
-        em_talkYifan = round(score['exact_match'], 2)
-        f1_talkYifan = round(score['f1'], 2)
-
-        predictions = jload( dir + 'predictions_think.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
-        em_think = round(score['exact_match'], 2)
-        f1_think = round(score['f1'], 2)
-
-
-        predictions = jload( dir + 'predictions_bert.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
-        em_bert = round(score['exact_match'], 2)
-        f1_bert = round(score['f1'], 2)
-
-        content += article['title'] + ',' + str(i) + ',' + str(total) + ','
-        content += str(f1_talkOrigin) + ',' + str(em_talkOrigin) + ','
-        content += str(f1_talkYifan) + ',' + str(em_talkYifan) + ','
-        content += str(f1_think) + ',' + str(em_think) + ','
-        content += str(f1_bert) + ',' + str(em_bert) + '\n' 
-        
-        if i == stop: break
-      if count == index: 
-        break
-
-  toFile = dirScore + "score.csv"
-  print('save score to file:', toFile)
-  with wopen(toFile) as fscore:
-    fscore.write(content + "\n")
-  fscore.close()
-
-
-
-def saveSQuAD_QuestionContentOnArticle(version, number):
-  datadir = "dataset/QA/SQuAD/" + version + "/"
-  os.makedirs(datadir + 'dev',exist_ok=True)
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  #print('data[0]:', dataset['data'][0])
-  contextlist = []
-  questionlist = []
-  for count, article in enumerate(dataset['data']):
-      if count%number == 0:
-        if len(contextlist) >0:
-          print('\narticle file name:', fname)
-          print('question file name:', fqname)
-          print('contextlist, len:', len(contextlist))
-          print('questionlist, len:', len(questionlist))
-          with wopen(fname) as fcontext :
-            context = '\n'.join(contextlist)
-            words = context.split()
-            totalwordsNum = len(words) 
-            print('total words number:', totalwordsNum)
-            fcontext.write(context)
-          fcontext.close()
-          with wopen(fqname) as fquest:
-             qcontext = '\n'.join(questionlist)
-             fquest.write(qcontext)
-          fquest.close()           
-        fname = datadir + "dev/" + article['title'] + ".txt"
-        fqname = datadir + "dev/" + article['title']  + "_quest.txt"        
-        contextlist = []
-        questionlist = []            
-      
-      for i, paragraph in enumerate(article['paragraphs']):
-         contextlist.append(paragraph['context'])
-         questions = paragraph['qas']
-         for question in questions:
-           q=question['question']
-           questionlist.append(q)
-
-
-
-
-def answerSQuADFromFileOnArticle(version, number):
-  datadir = "dataset/QA/SQuAD/" + version + "/"
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  qidTalkAnswerOrgMap = dict()
-  qidTalkAnswerYifanMap = dict()
-  qidThinkAnswerMap = dict()
-  qidBertAnswerMap = dict()
-  qids = []
-  talkansOrg = []
-  talkansYifan = []
-  thinkans = []
-  bertans = []
-  for count, article in enumerate(dataset['data']):
-
-      if count%number == 0: 
-        print('qids length:', len(qids))
-        if len(qids) > 0:
-          for j, qid in enumerate(qids):
-            qidTalkAnswerOrgMap[qid] = talkansOrg[j]
-            qidTalkAnswerYifanMap[qid] = talkansYifan[j]
-            qidThinkAnswerMap[qid] = thinkans[j]
-            qidBertAnswerMap[qid] = bertans[j]
-          print('\nqidTalkAnswerOrgMap:', qidTalkAnswerOrgMap)
-          print('\nqidTalkAnswerYifanMap:', qidTalkAnswerYifanMap)
-          print('\nqidThinkAnswerMap:', qidThinkAnswerMap)
-          print('\nqidBertAnswerMap:', qidBertAnswerMap)  
-          outputTalkOrig = json.dumps(qidTalkAnswerOrgMap)
-          with wopen(datadir + 'predictions_talkOrigin' + shortFname + '.json' ) as ftalkOrigin:
-            ftalkOrigin.write(outputTalkOrig + "\n")
-          ftalkOrigin.close()
-
-          outputTalkYifan = json.dumps(qidTalkAnswerYifanMap)
-          with wopen(datadir + 'predictions_talkYifan_' + shortFname + '.json' ) as ftalkYifan:
-            ftalkYifan.write(outputTalkYifan + "\n")
-          ftalkYifan.close()
-  
-          outputThink = json.dumps(qidThinkAnswerMap)
-          with wopen(datadir + 'predictions_think_' + shortFname + '.json' ) as fthink:
-            fthink.write(outputThink + "\n")
-          fthink.close() 
-
-          outputBert = json.dumps(qidBertAnswerMap)
-          with wopen(datadir + 'predictions_bert_' + shortFname + '.json' ) as fbert:
-            fbert.write(outputBert + "\n")
-          fbert.close()
-        
-        #clearup
-        qids = [] 
-        qidTalkAnswerOrgMap = dict()
-        qidTalkAnswerYifanMap = dict()
-        qidThinkAnswerMap = dict()
-        qidBertAnswerMap = dict()
-        talkansOrg = []
-        talkansYifan = []
-        thinkans = []
-        bertans = []
-        shortFname = article['title']
-        fname = datadir + "dev/" + article['title']
-        print('read file:', fname)
-        talkansOrg, talkansYifan, thinkans, bertans = reason_with_pytalk_FromFile(fname)
-        print('answerSQuAD, talkansOrg:', talkansOrg)
-        print('answerSQuAD, talkansYifan:', talkansYifan)
-        print('answerSQuAD, thinkans:', thinkans)
-        print('answerSQuAD, bertans:', bertans)
-
-      for i, paragraph in enumerate(article['paragraphs']):
-        for qa in paragraph['qas']:
-          qid = qa['id']
-          qids.append(qid)
-
-
-        
 
 
 def reason_with_pytalk_FromFile(fname) :  
@@ -875,23 +508,23 @@ def reason_with_pytalk_FromFile(fname) :
   return talkOriginAns, talkYifanAns, thinkans, bertans
 
   
-'''
+
 if __name__ == "__main__":
 
 
      
-   #saveSQuAD_QuestionContent("1.1" )
-    #answerSQuADFromFile("1.1")
+    #saveSQuAD_QuestionContent("1.1" )
+    answerSQuADFromFile("1.1")
      
     #answerSQuADFromText("1.1")
 
-    answerNewsQA()
+    #answerNewsQA()
     print('DONE')
-'''
-    
+
+'''    
  
 if __name__ == '__main__' :
   pass
-
+'''
 
 

@@ -1,8 +1,0 @@
-the stator disc 11 and the rotor disc 12 define a peripheral grinding zone between them .
-the peripheral grinding zone includes a pre grinding zone and a main grinding zone .
-in this description the term chips is used to denote all possible lignocellulose materials that may be fed by the feed screw .
-the present invention is , however , not limited to the feeding of a specific material .
-another possible design of the connectors is to use plates that may be arranged alongside the shaft .
-the arrangement with a partly hollow interior between the axial shaft 20 and the peripheral thread 23 allows fluid , such as gas or steam , to pass opposite the feeding direction in which the lignocellulose material is conveyed .
-this relatively high rotational speed contributes to the formation of centrifugal forces that assures that the chips will be kept close to the inside wall of the cylindrical pipe 19 , such they will not end up inside of the width of the peripheral thread 23 .
-hence , the chips will be conveyed into the grinding zone by the feed screw 18 in close contact with both the peripheral thread 23 and the inside of the cylindrical pipe 19 .

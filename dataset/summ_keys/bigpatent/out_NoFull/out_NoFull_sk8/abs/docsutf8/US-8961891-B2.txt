@@ -1,8 +1,0 @@
-although the following detailed description contains many specific details for purposes of illustration , one of ordinary skill in the art will appreciate that many variations and alterations to the following details are within the scope and spirit of the invention .
-accordingly , any exemplary embodiments of the invention described herein are set forth without any loss of generality to , and without imposing limitations thereon , the present invention .
-alcohols are generally classified into primary , secondary and tertiary , based upon the number of carbon atoms connected to the carbon atom that bears the hydroxyl group .
-ethanol and n propyl alcohol are primary alcohols , and isopropyl alcohol is a secondary alcohol .
-in a typical dehydrogenation reaction of alcohol , the alcohol combines with heat in the presence of a suitable catalyst to yield hydrogen gas and either a ketone or an aldehyde .
-when the ipa reaches this temperature and is in the presence of an acceptable catalyst , the ipa converts to acetone and hydrogen while also absorbing energy , thereby lowering the temperature .
-exemplary catalyst include , for example , an activated metal of rhodium or ruthenium on a support of alumina or activated carbon .
-preferred catalyst include ruthenium on carbon and rhodium on alumina , with rhodium on alumina being most preferred .

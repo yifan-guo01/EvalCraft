@@ -1,8 +1,0 @@
-a catheter for facilitating intracardiac atrial defibrillation that includes an elongated flexible member that has a proximal end and a distal end is disclosed .
-three spaced apart electrode arrays are secured around the periphery of the flexible member in a predetermined pattern so that a first electrode array is positioned within the superior vena cava , a second electrode array is positioned within the right atrium , and a third electrode array is positioned within the coronary sinus .
-alternatively , the third electrode array may be positioned in the right ventricle rather than the coronary sinus .
-electrical leads extend through the proximal end of the flexible member to supply electrical current to the electrode arrays , thereby defibrillating or cardioverting the heart .
-in other embodiments , a balloon envelope is also secured to the periphery of the flexible member adjacent the distal end .
-referring now to the drawings in detail wherein like reference numerals have been used throughout the various figures to designate like elements , there is shown in fig1 a catheter constructed in accordance with the principles of the present invention and designated generally as 10 .
-as should be readily apparent to those skilled in the art , only the working portion of the catheter 10 is shown in the drawings .
-electrical wires ( not shown ) from the electrode arrays pass through the interior of the flexible member 12 to a manifold secured to the remote end of the flexible member 12 for connecting the catheter 10 to appropriate electronic equipment .

@@ -68,7 +68,7 @@ class NatTalker(Talker) :
      top_ids=list(take(self.params.top_answers, ids))
      for i, r in top_ids:
        print(i, r, end=': ')
-       self.say(niceWithSentId(i, self))
+       self.say(nice(self.get_sentence(i)))
      print('')
      print('NEW INFERRED ANSWERS:')
      top_ids={i for i,_ in top_ids}
@@ -77,5 +77,5 @@ class NatTalker(Talker) :
        if i in top_ids : continue
        if k>self.params.top_answers : break
        print(i, r, end=': ')
-       self.say(niceWithSentId(i, self))
+       self.say(nice(self.get_sentence(i)))
      print('-----------------------\n')

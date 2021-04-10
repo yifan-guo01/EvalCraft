@@ -1,8 +1,0 @@
-the subject technology overcomes many of the prior art problems associated with hazardous conditions in clothes dryers .
-in brief overview , the subject technology relates to appliance safety such as clothes dryer safety mechanisms that disable the appliance ( e .
-the control panel 104 may have a selector dial , a plurality of selector buttons , switches and the like ( not explicitly shown ) as necessary to accomplish operation in accordance with the subject technology .
-a led display 106 also mounts on the housing to provide visual indication to users of the status of the clothes dryer .
-once clothes are placed in the drum 110 and a dry cycle is started , a heating element 112 raises the temperature inside the drum 110 to facilitate drying of the clothes .
-the clothes are placed and secured in the drum through a latching door mechanism ( not shown ) .
-the heating element 112 may use electricity or natural gas to generate the heat .
-by the lint being in close proximity to the heating element 112 , a fire hazard exists .

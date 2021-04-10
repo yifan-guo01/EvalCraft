@@ -1,8 +1,0 @@
-melt film fibrillation nozzles described in the prior art differ from the fiber forming nozzles in the current disclosure in how the fibers are made and the starting melt geometry from which a fibrous web is produced .
-melt film fibrillation processes of the prior art start with a single phase polymer flow that is impinged by a separate working air stream .
-the polymer melt film tube is thinned to a polymer film from the shearing action of the air stream .
-the polymer stream and the working air streams are combined externally to the nozzle at the nozzle exit .
-the shearing action of the inner gas stream and the effect of the outer gas stream produces a multiplicity of fibers .
-in contrast , the process of the current disclosure utilizes a mixing chamber to produce a two phase polymer gas mixture within the fiber forming nozzle .
-the two phase flow under pressure is then uniformly distributed to and forced through a film forming channel of high length to width ratio .
-the long narrow channel geometry and control of the magnitude and ratio of polymer melt and gas flows determine the thickness and other attributes of the polymer film .

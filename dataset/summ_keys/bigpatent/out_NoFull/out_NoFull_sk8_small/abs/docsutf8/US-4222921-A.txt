@@ -1,8 +1,0 @@
-the following examples are illustrative of the invention only and are not intended to imply any limitation or restriction thereof .
-example 1 describes the test method used to evaluate acids which may be used to form the amine salts before polymerization .
-the other examples describe the production of polyamine adducts and the performance of such adducts as wet strength additives when applied to cellulosic substrates .
-the fundamental discovery underlying this invention is that halide ions react much more rapidly with epihalohydrin than do anions derived from other strong acids .
-this example describes a method by which the various anions can be compared under readily reproducible conditions .
-it is based on the fact that the reaction between the epihalohydrin and the anion releases hydroxyl ions which therefore raise the ph of the reaction mixture .
-the extent to which the ph rises is therefore an indication of the extent of the reaction ; the rapidity with which the ph rises is indicative of the rate of the forward reaction .
-of the sodium salts of each of the anions to be evaluated were prepared and 20 ml .

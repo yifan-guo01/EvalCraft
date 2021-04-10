@@ -1,8 +1,0 @@
-this invention simplifies what has been attempted before in a very elegant aerodynamic execution of a device which not only distributes the fibers uniformly in the cross machine direction , but also allows them to be formed into a web when injected onto a forming zone and can be expanded laterally to accommodate any width of the forming zone .
-the key aerodynamic parameters for conveying solid particles or fibers in an air stream are well known and published in the art .
-the difficulty has been in developing a forming head that can maintain these conditions continuously and distribute fibers onto a forming zone at the uniformity levels and the forming zone widths desired .
-a forming zone in most air laid machines is a foraminous screen supported over a vacuum box to consolidate the individual fibers into a web after the air is removed .
-other types of forming zones are rotary vacuum drums or condensers into which the air is blown into and the fibers are condensed into a web on its surface later to be removed from the forming screen and transferred to another process operation .
-other forming zones are composed by air conveying and injecting the individual cellulose fibers into a curtain of molten polymeric fibers as they are extruded from the die and later consolidated in a blended form onto a forming screen or secondary forming zone .
-fibers or particles , because they are denser and consequently heavier than air , tend to follow their own trajectories due to the iso kinetic forces exhibited in the air stream .
-fibers , especially cellulose fluff fibers , need to be well defibrated into individual fibers and the conveying air well conditioned to prevent static and clumping .

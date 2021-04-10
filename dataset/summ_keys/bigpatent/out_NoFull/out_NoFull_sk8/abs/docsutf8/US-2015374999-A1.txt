@@ -1,8 +1,0 @@
-device 100 comprises an implanted control unit 110 , which controls application of a sequence of neural stimuli in accordance with the present invention .
-in this embodiment the unit 110 is also configured to control a measurement process for obtaining a measurement of a neural response evoked by a single stimulus delivered by one or more of the electrodes 122 .
-the activation and simultaneous suppression of different areas of tissue is highly desired for treatment of a number of neurological disorders .
-the goal of stimulation of the spinal cord is to block transmission of pain signals from aδ and c fibres , via the inhibitory effect of the activation of aβ fibres .
-it has been reported that burst mode stimulation or continuous stimulation at high frequencies can produce pain relief without accompanying paraesthesia , however the mechanisms are not clear .
-one possible explanation is that the high frequency stimulation results in a highly uncorrelated neural firing pattern in the ascending aβ tracts .
-high frequency stimulation results in the continuous activation of the fibres and produces a randomised firing pattern .
-the net result is a randomisation of the firing pattern and a return of the stochastic response in the fibre .

@@ -1,8 +1,0 @@
-a toy snake that reproduces the natural movement of a snake as it moves across surface is described .
-the toy snake comprises a head that is pivotally mounted to a tail and a motor unit located within the head .
-in a preferred embodiment a body is employed to pivotally mount the head to the tail .
-the motor unit comprises at least two independently driven wheels located towards opposite sides of the head and the motor unit is configured to introduce a periodic oscillation between the operation of the independently driven wheels .
-the motor unit may also be configured to operate a tongue that extends out from the head to further increase the realistic nature of the toy .
-embodiments of the snake may be adapted for use on land or water .
-in a similar manner , a further nine body sections 5 are longitudinally arranged between the central body section 3 and the tail 4 , each body section 5 again being pivotally attached to their adjacent segments .
-this representation may be applied by engraving , embossing or printing on the top surface of these sections .

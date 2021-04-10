@@ -80,31 +80,6 @@ def saveSQuAD_QuestionContent(version):
     dataset= jload( datadir + "dev-v2.0.json")
   #data is []
   #print('data[0]:', dataset['data'][0])
-  for article in dataset['data']: 
-      for i, paragraph in enumerate(article['paragraphs']):
-         fname = datadir + "dev/" + article['title']  + "_" + str(i) + ".txt"
-         context = paragraph['context']
-         with wopen(fname) as fcontext :
-            fcontext.write(context + "\n")
-         fcontext.close()          
-         questions = paragraph['qas']
-         fqname = datadir + "dev/" + article['title']  + "_" + str(i) + "_quest.txt" 
-         with wopen(fqname) as fquest:
-           for question in questions:
-             q=question['question']
-             fquest.write(q + "\n")
-           fquest.close()
-
-
-def saveSQuAD_QuestionContent_wholeArticle(version):
-  datadir = "dataset/QA/SQuAD/" + version + "/"
-  os.makedirs(datadir + 'dev',exist_ok=True)
-  if version == "1.1":
-    dataset= jload( datadir + "dev-v1.1.json")
-  else : #version ="2.0"
-    dataset= jload( datadir + "dev-v2.0.json")
-  #data is []
-  #print('data[0]:', dataset['data'][0])
   for article in dataset['data']:
       context = ''
       for paragraph in article['paragraphs']:
@@ -122,6 +97,8 @@ def saveSQuAD_QuestionContent_wholeArticle(version):
              q=question['question']
              fquest.write(q + "\n")
            fquest.close()
+
+
 
 
 
@@ -184,8 +161,9 @@ def answerSQuADFromFile(version):
 
 
 
-def saveSQuAD_QuestionContent_Paragraphs(version, index):
+def saveSQuAD_QuestionContent_Paragraphs(version):
   datadir = "dataset/QA/SQuAD/" + version + "/"
+  os.makedirs(datadir + 'dev_Warsaw',exist_ok=True)
   if version == "1.1":
     dataset= jload( datadir + "dev-v1.1.json")
   else : #version ="2.0"
@@ -193,13 +171,12 @@ def saveSQuAD_QuestionContent_Paragraphs(version, index):
   #data is []
   #print('data[0]:', dataset['data'][0])
   for count, article in enumerate(dataset['data']):
-      if count < index: continue
-      os.makedirs(datadir + "dev_"  + article['title'],exist_ok=True)
+      if count < 1: continue
       context = ''
       qidMap = dict()
       questionsArray = []
       for i, paragraph in enumerate(article['paragraphs']):
-         dir = datadir + "dev_" + article['title'] + '/' + str(i)
+         dir = datadir + 'dev_Warsaw/' + str(i)
          os.makedirs(dir, exist_ok=True)
          print( article['title'] )
          fname = dir + "/" +  article['title']  + ".txt"
@@ -230,23 +207,25 @@ def saveSQuAD_QuestionContent_Paragraphs(version, index):
          with wopen(fqname) as fquest:
            fquest.write(qtext + "\n")
          fquest.close()
-      if count == index: break
+      if count == 1: break
 
 
 
-#answerSQuADFromFile_Paragraphs('dataset/QA/SQuAD/1.1/dev_Super_Bowl_50/', 'Super_Bowl_50', 11) 
-def answerSQuADFromFile_Paragraphs(path, filename, start):
+#answerSQuADFromFile_Paragraphs('dataset/QA/SQuAD/1.1/dev_Warsaw/')
+ 
+def answerSQuADFromFile_Paragraphs(path):
   with os.scandir(path) as it:
     for entry in it:
         if not entry.name.startswith('.') and entry.is_dir():
             print(entry.name)            
             number = int(entry.name) 
-            if number < start: continue
-            answerSQuADParagraphsFromFile(path, entry.name, filename)
+            if number < 28: continue
+            answerSQuADParagraphsFromFile('dataset/QA/SQuAD/1.1/dev_Warsaw/', entry.name,'Warsaw')
             
   
 
 #answerSQuADParagraphsFromFile('dataset/QA/SQuAD/1.1/dev_Warsaw/', '0','Warsaw')
+
 def answerSQuADParagraphsFromFile(dir, number, fname):
   
   datadir = dir + number + "/"
@@ -308,21 +287,20 @@ def answerSQuADParagraphsFromFile(dir, number, fname):
 
 
 #put EvalCrafts/dataset/QA/SQuAD/1.1/evaluate-v1.1.py to EvalCrafts/evaluate.py
-def evaluateSQuADParagraphs (index, stop): #dev_Warsaw
+def evaluateSQuADParagraphs (): #dev_Warsaw
   datadir = "dataset/QA/SQuAD/1.1/"
   dataset= jload( datadir + "dev-v1.1.json")
   content = ''
-  dirScore = ''
   import evaluate as ev
   for count, article in enumerate(dataset['data']):
-      if count < index: continue
+      if count < 1: continue
 
       content = 'article, paragraphs number, total words, talk_origin F1, talk_origin_exact_match,'
       content += 'talk_yifan_F1, talk_yifan_exact_match, think_F1, think_exact_match, bert_F1, bert_exact_match' + '\n'
-      dirScore = datadir + "dev_" + article['title'] + "/"
+
       for i, paragraph in enumerate(article['paragraphs']):
-        dir = datadir + "dev_" + article['title'] + "/" + str(i) + "/"
-        with ropen(dir + article['title'] + ".txt") as f: text = f.read()
+        dir = datadir + 'dev_Warsaw/' + str(i) + "/"
+        with ropen(dir + 'Warsaw.txt') as f: text = f.read()
         f.close()
 
         words = text.split( )
@@ -331,37 +309,37 @@ def evaluateSQuADParagraphs (index, stop): #dev_Warsaw
 
 	
         predictions = jload( dir + 'predictions_talkOrigin.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
+        score =ev.evaluate(dataset['data'], predictions, i)
         em_talkOrigin = round(score['exact_match'], 2)
         f1_talkOrigin = round(score['f1'], 2)
 
         predictions = jload( dir + 'predictions_talkYifan.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
+        score =ev.evaluate(dataset['data'], predictions, i)
         em_talkYifan = round(score['exact_match'], 2)
         f1_talkYifan = round(score['f1'], 2)
 
         predictions = jload( dir + 'predictions_think.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
+        score =ev.evaluate(dataset['data'], predictions, i)
         em_think = round(score['exact_match'], 2)
         f1_think = round(score['f1'], 2)
 
 
         predictions = jload( dir + 'predictions_bert.json')
-        score =ev.evaluate(dataset['data'], predictions, index, i)
+        score =ev.evaluate(dataset['data'], predictions, i)
         em_bert = round(score['exact_match'], 2)
         f1_bert = round(score['f1'], 2)
 
-        content += article['title'] + ',' + str(i) + ',' + str(total) + ','
+        content += 'Warsaw' + ',' + str(i) + ',' + str(total) + ','
         content += str(f1_talkOrigin) + ',' + str(em_talkOrigin) + ','
         content += str(f1_talkYifan) + ',' + str(em_talkYifan) + ','
         content += str(f1_think) + ',' + str(em_think) + ','
         content += str(f1_bert) + ',' + str(em_bert) + '\n' 
         
-        if i == stop: break
-      if count == index: 
+        if i == 32: break
+      if count == 1: 
         break
 
-  toFile = dirScore + "score.csv"
+  toFile = datadir + 'dev_Warsaw/' + "score.csv"
   print('save score to file:', toFile)
   with wopen(toFile) as fscore:
     fscore.write(content + "\n")

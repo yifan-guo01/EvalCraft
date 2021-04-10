@@ -1,5 +1,0 @@
-a method of applying a neural stimulus with an implanted electrode array involves applying a sequence of stimuli configured to yield a therapeutic effect while suppressing psychophysical side effects .
-the stimuli sequence is configured such that a first stimulus recruits a portion of the fibre population , and a second stimulus is delivered within the refractory period following the first stimulus and the second stimulus being configured to recruit a further portion of the fibre population .
-using an electrode array and suitable relative timing of the stimuli , ascending or descending volleys of evoked responses can be selectively synchronised or desynchronised to give directional control over responses evoked .
-device 100 comprises an implanted control unit 110 , which controls application of a sequence of neural stimuli in accordance with the present invention .
-the activation and simultaneous suppression of different areas of tissue is highly desired for treatment of a number of neurological disorders .

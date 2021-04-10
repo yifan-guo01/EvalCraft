@@ -1,7 +1,0 @@
-a mailer assembly which can be supplied to a user in intermediate form and which , when assembled and sealed , has an enhanced ability to shield confidential information from unauthorized view is provided .
-the mailer assembly may also include an integral return envelope and also may be designed so that variable information can be printed on the sheets making up the mailer prior to assembly using nonimpact printers such as laser printers which use heat and pressure to fuse toner to paper .
-the mailer assembly includes first and second sheets in superimposed relation , with each of the first and second sheets having a pair of marginal side edges and a pair of end edges .
-the mailer further includes removable marginal side and end strips for opening the mailer .
-the first and second sheets are secured together parallel to their respective marginal side and end edges to form a subassembly .
-the subassembly is v folded along a suitable axis thereof and secured together along its marginal and end strips to form the mailer assembly .
-referring to fig1 2 , a preferred construction of one embodiment of the mailer assembly of the present invention is illustrated .

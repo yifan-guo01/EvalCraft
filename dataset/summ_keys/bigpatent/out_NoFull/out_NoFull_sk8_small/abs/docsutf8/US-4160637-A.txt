@@ -1,8 +1,0 @@
-fig1 shows the spinning head of a machine used for the extrusion of polymer material in the manufacture of synthetic fibers .
-in contrast , the spinneret plate is made of expensive alloy steel .
-the spinneret plate is made to high precision standards .
-the spinneret plate is the most important single part for the manufacture of synthetic fiber ; it is costly and therefore , should not be wasted .
-it has a long life provided it is kept clean from time to time in order to be effective at the outlet of the spinning head .
-thus , when it is time to replace the spinneret plate 3 , the operator in fact takes away from production the entire spinneret pack including outer ring and filtration assembly as well as spinneret plate .
-referring to fig3 apparatus is shown for implementing the method according to the invention and for automatically separating the elements of the spinneret pack and placing the spinneret plate in suitable condition for a final step consisting of ultrasonic cleaning .
-the filtration assembly detached in the process can be wasted and is thrown away .

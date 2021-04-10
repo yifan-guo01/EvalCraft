@@ -94,7 +94,7 @@ def show_ranks(rank_dict,file_name="cloud.pdf",show=1) :
   f=plt.figure()
   plt.imshow(cloud, interpolation='bilinear')
   plt.axis("off")
-  if show>1 : plt.show()
+  #if show>1 : plt.show()
   f.savefig(file_name,bbox_inches='tight')
   plt.close('all')
 

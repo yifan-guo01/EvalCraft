@@ -1,5 +1,0 @@
-in fig1 an exemplary embodiment of the invention is labeled in its entirety with the number 10 .
-one end of the hollow spindle 24 projects outward from the gear drive housing 12 and is configured as a counterflange 26 with which is associated an external clamping flange 28 to clamp a tool 29 located between them , which in the example shown is a grinding disk .
-a quick clamping device which has a tension spindle 36 , coaxial with the hollow spindle 24 , that is joined integrally to the clamping flange 28 is provided in order to allow manual clamping and unclamping of the tool 29 .
-the tension spindle 36 can be displaced in the axial direction by means of a displacement unit via a clamping lever 74 that can pivot about an axis 80 .
-the pusher element 42 has internal threads 35 into which the tension spindle 36 can be threaded with external threads 33 provided at its upper end .

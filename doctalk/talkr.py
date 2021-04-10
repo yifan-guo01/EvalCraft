@@ -10,15 +10,13 @@ import os.path as osp
 import os
 #from pprint import pprint
 import json
-import langid
-from .stanza_nlp import *
 
 from .nlp import *
 from .sim import *
 from .refiner import refine, ask_bert
 from .vis import pshow,gshow
 
-client=None
+client = NLPclient()
 
 def my_path() :
   '''
@@ -128,35 +126,11 @@ def get_quests(qs) :
       qs = list(l.strip() for l in f)
   return qs
 
-
-
-def extract_from_stanza(from_file=None, from_text=None) :
-  def file2text(fname) :
-    with open(fname,'r') as f:
-      return f.read()
-  if from_file:
-    text = file2text(from_file)
-  if from_text:
-    text = from_text
-  if len(text) > 200: 
-    short = text[ :200]
-  else:
-     short = text
-  lang = langid.classify(short)
-  print('lang:', lang[0])
-  global client
-  client=stanzaNLPClient(lang[0]) # initializes the NLP class with a certain language
-  client.from_text(text) #runs stanza nlp on the file and stores the result in self.doc
-  return client.map2db()
-
-
 def digest(text) :
   ''' process text with the NLP toolkit'''
   l2occ = defaultdict(list)
   sent_data=[]
   # calls server here
-  global client
-  client = NLPclient()  
   for i,xss in enumerate(client.extract(text)) :
     lexs,deps,ies=xss
     sent,lemma,tag,ner=[],[],[],[]
@@ -193,9 +167,9 @@ def rel_from(d):
       for u in range(*ux):
         yield lemma[u],tag[u]
   def lems(xs) : return tuple(x[0] for x in xs)
-  rs,svos=set(),set()  
+  rs,svos=set(),set()
   for ts in d[IE] :
-    for t in ts :      
+    for t in ts :
       sx, vx, ox = t
       lemma = d[LEMMA]
       tag=d[TAG]
@@ -350,61 +324,7 @@ def e2rel(e) :
   if e=='MISC' : return 'entity'
   return e.lower()
 
-
-def answer_quest_nonenglish(q,talker) :
-  '''
-  given question q, interacts with talker and returns
-  its best answers
-  '''
-  max_answers = talker.params.max_answers
-  db = talker.db
-  sent_data, l2occ = db
-  matches = defaultdict(set)
-  
-  q_lemmas=[]
-  answerer = Talker(from_text=q)
-  q_sent_data,_=answerer.db
-  for j, q_lemma in enumerate(q_sent_data[0][LEMMA]):
-    q_sent_data, q_l2occ = answerer.db
-    q_tag = q_sent_data[0][TAG][j]
-    if q_tag not in ['NOUN','PROPN', 'VERB', 'ADJ'] : continue  # ppp(q_lemma,q_tag)
-    q_lemmas.append((q_lemma, q_tag))
-
-    #  actual QA starts here
-    ys = l2occ.get(q_lemma)
-    if ys:
-      for sent, _pos in ys:
-        matches[sent].add(q_lemma)
-
-
-  best = []
-  ''' crash
-  d = {x: r for x, r in answerer.pr.items()}
-  print('answer_quest_nonenglish, d:\n', d)
-  talker.pr = nx.pagerank(talker.g, personalization=d)
-  '''
-
-  for (id, shared) in matches.items():
-    sent = sent_data[id][SENT]
-    r = answer_rank(id, shared, sent, talker, expanded=0)
-    # ppp(id,r,shared)
-    best.append((r, id, shared, sent))
-    # ppp('MATCH', id,shared, r)
-
-  best.sort(reverse=True)
-
-  answers = []
-  for i, b in enumerate(best):
-    if i >= max_answers: break
-    #ppp(i,b)
-    rank, id, shared, sent = b
-    answers.append((id, sent, round(rank, 4), shared))
-
-  return answers, answerer
-
-
-
-def answer_quest(q,talker) :
+def answer_quest_org(q,talker) :
   '''
   given question q, interacts with talker and returns
   its best answers
@@ -525,6 +445,142 @@ def refine_wss(wss,talker):
 
 def sigmoid(x): return 1 / (1 + math.exp(-x))
 
+
+
+import networkx.algorithms as nxAlg
+def answer_quest(q,talker) :
+  '''
+  given question q, interacts with talker and returns
+  its best answers
+  '''
+  max_answers = talker.params.max_answers
+  db = talker.db
+  sent_data, l2occ = db
+
+  unknowns = []
+  q_lemmas=[]
+  if talker.params.with_answerer:
+    answerer = Talker(from_text=q)
+    q_sent_data,_=answerer.db
+    for j, q_lemma in enumerate(q_sent_data[0][LEMMA]):
+      q_sent_data, q_l2occ = answerer.db
+      q_tag = q_sent_data[0][TAG][j]
+      if q_tag[0] not in "NVJ": continue  # ppp(q_lemma,q_tag)
+      q_lemmas.append((q_lemma,wn_tag(q_tag)))
+  else:
+    answerer = None
+    from nltk.tokenize import word_tokenize
+    from nltk.stem import WordNetLemmatizer
+    wnl = WordNetLemmatizer()
+    toks=word_tokenize(q)
+    tag=None
+    for t in toks:
+      tag='n'
+      l = wnl.lemmatize(t,tag)
+      if l==t :
+        tag='v'
+        l=wnl.lemmatize(t,tag)
+      if l==t :
+        tag='a'
+        l = wnl.lemmatize(t, tag)
+      l=l.lower()
+      q_lemmas.append((l,tag))
+
+  matches = []
+  nears = []
+  sharesDict = defaultdict(set)  
+  count = defaultdict(int)
+
+  for q_lemma,wn_q_tag in q_lemmas:
+    if not good_word(q_lemma) or q_lemma in ".?": continue
+
+    #  actual QA starts here
+    ys = l2occ.get(q_lemma)
+
+    if ys:
+      matches.append(q_lemma)
+      for sent, _pos in ys:
+        sharesDict[sent].add(q_lemma)
+        count[q_lemma] += 1 
+    else:
+      if talker.params.expand_query > 0:
+        related = wn_all(talker.params.expand_query, 3, q_lemma, wn_q_tag)
+        for r_lemma in related:
+          if not good_word(q_lemma): continue
+          zs = l2occ.get(r_lemma)
+          if not zs: 
+            tprint("UNKNOWNS:", q_lemma, '\n')
+            continue
+          nears.append(r_lemma)
+          tprint('EXPANDED:', q_lemma, '-->', r_lemma)
+          sharesDict[sent].add(r_lemma)
+          count[r_lemma] +=1 
+
+  print('count:',count )
+  
+  ignored = []
+  for lemma in count:
+    if(count[lemma] > 3):
+      ignored.append(lemma)
+
+  print('ignored:', ignored)
+  
+  lavg=talker.avg_len
+  
+  best = []
+  for id in sharesDict:
+    sent = sent_data[id][SENT]
+    lsent = len(sent)
+    if lsent > 2*lavg :
+      sharedNum = len(sharesDict[id])
+      if sharedNum ==1 : 
+        shares = list(sharesDict[id])
+        if shares[0] in ignored : 
+          continue
+    r = 0
+    for key in matches:
+      if (key in ignored ): 
+        if (key in sharesDict[id]):
+          r += 1.0
+        continue
+        
+      if (nxAlg.has_path(talker.g, key, id)):
+        nodes = nxAlg.shortest_path(talker.g, key, id)
+        if(len(nodes)<6):
+          n = math.pow(2, len(nodes)-1)
+          r += 16.0/n
+
+    
+    for key in nears:
+      if (key in ignored ): 
+        if (key in sharesDict[id]):
+          r += 0.5
+        continue
+
+      if(nxAlg.has_path(talker.g, key, id)):
+        nodes = nxAlg.shortest_path(talker.g, key, id)
+        print('****************nears, key:id=', key, ':', id, ', get nodes, length:', len(nodes), 'nodes:', nodes)
+        if(len(nodes)<6):
+          n = math.pow(2, len(nodes)-1)
+          r += 8.0/n      
+    best.append((r, id, sharesDict[id], sent))
+  
+  best.sort(reverse=True)
+
+  answers = []
+  last_rank = 0
+  for i, b in enumerate(best):
+    if i >= max_answers: break
+    #ppp(i,b)
+    rank, id, shared, sent = b
+    if last_rank != 0:
+      if rank/last_rank <0.70: break
+    last_rank = rank
+    answers.append((id, sent, round(rank, 4), shared))
+  return answers, answerer
+
+  
+
 def answer_rank(id,shared,sent,talker,expanded=0) :
   '''ranks answer sentence id using several parameters'''
 
@@ -580,23 +636,15 @@ def query_with(talker,qs_or_fname)     :
 def interact(q,talker):
   ''' prints/says query and answers'''
   tprint('----- QUERY ----\n')
-  print("QUESTION: ",end='')
+  print("===========>QUESTION: ",end='')
   talker.say(q)
   print('')
   ### answer is computed here ###
-  print('talker.params.stanza_parsing:', talker.params.stanza_parsing, ',lang:', talker.client.lang)
-  if talker.params.stanza_parsing == True and talker.client.lang != 'en':
-    print('call answer_quest_nonenglish\n')
-    answers,answerer=answer_quest_nonenglish(q, talker)
-  else:
-    print('call answer_quest\n')
-    answers,answerer=answer_quest(q, talker)
-  sentences = show_answers(talker,answers)
-  shortened = talker.distill(q,answers,answerer)
-  return sentences, shortened
+  answers,answerer=answer_quest(q, talker)
+  show_answers(talker,answers)
+  talker.distill(q,answers,answerer)
 
 def show_answers(talker,answers) :
-  results = []
   ''' prints out/says answers'''
   print('ANSWERS:\n')
   if not talker.params.with_refiner :
@@ -605,14 +653,12 @@ def show_answers(talker,answers) :
       answers=sorted(answers)
   for info, sent, rank, shared in answers:
     if not talker.params.with_refiner :
-       print(info,end=': ')
+       print(info, ',rank=' , rank, end=': ')
     talker.say(nice(sent))
-    results.append(nice(sent))
     if not talker.params.with_refiner:
       tprint('  ', shared, rank)
     print('')
   tprint('------END-------', '\n')
-  return results
 
 class Talker :
   '''
@@ -636,18 +682,10 @@ class Talker :
        self.from_file=from_pdf+".txt"
        self.db = load(self.from_file, self.params.force)
     elif from_file:
-       self.from_file=from_file 
-       if params.stanza_parsing == True:
-         self.db=extract_from_stanza(from_file=from_file)
-         print("XXXXXXXXXXXXXXX")
-       else:
-         self.db=load(from_file,self.params.force)
-   
+       self.db=load(from_file,self.params.force)
+       self.from_file=from_file
     elif from_text :
-      if params.stanza_parsing == True:
-        self.db=extract_from_stanza(from_text=from_text)
-      else :
-        self.db=digest(from_text)
+       self.db=digest(from_text)
     elif from_json :
       xs=json.loads(from_json)
       assert isinstance(xs,list) and len(xs)==1
@@ -656,84 +694,27 @@ class Talker :
     else :
       assert from_file or from_text or from_json
 
-    self.client = client
     self.avg_len = get_avg_len(self.db)
 
-    if params.stanza_parsing == True:
-      self.svos=self.to_svos_stanza()
-    else:
-      self.svos=self.to_svos()
-  
+    self.svos=self.to_svos()
     self.svo_graph=None
 
     self.g,self.pr=self.to_graph()
-    '''
-    size=self.g.number_of_edges()
-    nsize=self.g.number_of_nodes()
-    print('g node size:', nsize)
-    print('Nodes of graph: ')
-    print(self.g.nodes())
 
-    print('g edge size:', size)
-    print("Edges of graph: ")
-    print(self.g.edges())     
-    print('self.pr:', self.pr)
-    '''
-    if params.stanza_parsing == True:
-      self.summary, self.keywords = \
-        self.extract_content_stanza(self.params.max_sum, self.params.max_keys)
-    else:
-      self.summary, self.keywords = \
-        self.extract_content(self.params.max_sum, self.params.max_keys)
+    self.summary, self.keywords = \
+      self.extract_content(self.params.max_sum, self.params.max_keys)
     assert self.by_rank != None
-
-
-
 
   def get_summary(self):
     '''
-    extracting highest ranked sentences as summary
+    function  extracting highest ranked sentences as summary
     '''
-    sents = self.summary # sort by ID    
-    sents.sort(key=lambda x: x[0], reverse=True) # sort by Rank  
-    summary=sents[ :self.params.top_sum]    
+    sents = self.summary # sort by ID
+    sents.sort(key=lambda x: x[0], reverse=True) # sort by Rank
+    summary=sents[ :self.params.top_sum]
+    summary.sort(key=lambda x: x[1])  # sort by ID
+    return summary
 
-    model = self.params.thirdparty_model
-    print('use model:', model)
-    if model == '': 
-      summary.sort(key=lambda x: x[1])  # sort by ID
-      return summary
-    
-    # get summary from bart-large-cnn or t5-large
-    # bart-large-cnn, maximum sequence length for this model is 1024
-    lt = 0
-    for i, sent in enumerate(summary):
-      _,_, ws=sent
-      willLen = lt + len(ws)
-      if willLen > 850:
-        summary = sents[ :i] 
-        break
-      lt += len(ws)
- 
-    summary.sort(key=lambda x: x[1])  # sort by ID  
-    text = ''
-    for r,x,ws in summary :
-      text += nice(ws) + ' '
-    
-    from transformers import pipeline
-    if model == 'facebook/bart-large-cnn': #default, bart-large-cnn, maximum sequence length for this model 1024        
-        summarizer = pipeline("summarization") 
-    else:
-        summarizer = pipeline(task="summarization", model=model, framework="pt") #google t5-large,  maximum sequence length for this model 512
-    sm = summarizer(text, max_length=1024, min_length=30)#2000 crash
-    text = sm[0]['summary_text']
-    ws = text.split(' ')
-    sents = list()
-    sents.append((1.0,0,ws))
-    return sents
-
-
- 
   def get_keys(self):
     '''
        function for extracting highest ranked keywords
@@ -862,34 +843,6 @@ class Talker :
     if ner=='O' : return None
     return ner
 
-  def extract_content_stanza(self,sk,wk):
-    sents,words=list(),list()
-    # ordering all by rank here
-    by_rank=rank_sort(self.pr)
-    self.by_rank = by_rank
-    print('extract_content_stanza, client:', client)
-    keyNouns = client.keynouns()
-    print('extract_content_stanza, get keynouns:\n', keyNouns)
-    # collect best by rank, but adjusting some
-    for i  in range(len(by_rank)):
-      x,r=by_rank[i]
-      if sk and isinstance(x,int) :
-        sk-=1
-        ws=self.db[0][x][SENT]
-        sents.append((r,x,ws))
-      elif wk and x in keyNouns: #and good_word(x) :
-        wk -= 1
-        words.append(x)
-
-    # ordering sentences by id, not rank here
-    sents.sort(key=lambda x: x[1])
-    #for sss in sents : ppp(sss)
-    summary=sents
-    return summary, words
-
-
- 
-
   def extract_content(self,sk,wk):
     '''extracts summaries and keywords'''
 
@@ -988,24 +941,6 @@ class Talker :
       summary = xss
 
     return summary,list(clean_words)
-
-
-  def to_svos_stanza(self):
-    '''
-    returns SVO relations as a dict associating to each
-    SVO tuple the set of the sentences it comes from
-    '''
-    sent_data, l2occ = self.db
-    d = defaultdict(set)
-    for i, data in enumerate(sent_data):
-      svos = data[IE]
-      ners = ners_from(data)
-      for s, v, o in svos: #ok
-        d[(s, v, o)].add(i)
-      for x, e in ners: #ok
-        d[(e, 'has_instance', x)].add(i)
-
-    return d
 
   def to_svos(self):
     '''
@@ -1314,7 +1249,7 @@ class Talker :
     r = ask_bert(txt, q)
 
     if not r :
-      print('NO ANSWER from BERT.\n')
+      print('===========>NO ANSWER from BERT.\n')
       return
 
     print('\n==============>ASKING BERT WITH:\n',
@@ -1322,15 +1257,14 @@ class Talker :
           ', sentence lengths:', lens,
           ',tokens:', token_count,'\n')
 
-    print("==============>BERT's SHORT ANSWER:\n",r+'\n')
-    return r
+    print("===========>BERT's SHORT ANSWER:\n",r+'<===========\n')
 
 
   def distill(self,q,answers,answerer):
     '''
     overridable answer distillation opertation
     '''
-    return self.get_gist(q,answers)
+    self.get_gist(q,answers)
 
 
   def say(self,what):
@@ -1342,15 +1276,11 @@ class Talker :
   def show_summary(self):
     ''' prints/says summary'''
     self.say('SUMMARY:')
-    summary = []
     for r,x,ws in self.get_summary() :
       if not self.params.with_refiner :
         print(x,end=': ')
       self.say(nice(ws))
-      summary.append(nice(ws))
       print('')
-    return summary
-
 
   def show_keywords(self):
     ''' prints keywords'''
@@ -1393,6 +1323,7 @@ class Talker :
     g = g.subgraph(seeds)
     self.show_svo_graph(g,file_name=self.from_file)
 
+  
   def show_all(self):
     ''' prints out sevaral results'''
     if self.from_file :
@@ -1400,12 +1331,13 @@ class Talker :
     show = self.params.show_pics
     self.show_summary()
     self.show_keywords()
-    self.show_stats()
+    #self.show_stats()
     if self.params.show_rels:
       self.show_rels()
     if self.params.to_prolog :
       self.to_prolog()
     if show and self.from_file:
+      print('**********show:', show, ', filename:', self.from_file)
       pshow(self, file_name=self.from_file)
       self.show_svos()
 
@@ -1428,6 +1360,25 @@ class Talker :
       g = g.subgraph(best)
     fname = file_name[:-4] + "_svo.gv"
     gshow(g, file_name=fname, attr='rel', show=show)
+
+
+  def show_talk_graph(self):
+    ''' depicts whole graph of talk'''
+    file_name = self.from_file
+    fname = file_name[:-4] + "_whole.gv"
+    '''
+    size=self.g.number_of_edges()
+    nsize=self.g.number_of_nodes()
+    print('g node size:', nsize)
+    print('Nodes of graph: ')
+    print(self.g.nodes())
+
+    print('g edge size:', size)
+    print("Edges of graph: ")
+    print(self.g.edges())
+    '''
+    show = self.params.show_pics
+    gshow(self.g, file_name=fname, attr='rel', show=show)
 
 
 # helpers
@@ -1549,7 +1500,6 @@ def pdf2txt(fname) :
   '''
     pdf to txt conversion with external tool - optional
     make sure you install "poppler tools" for this to work!
-    linux: yum install -y poppler-utils
   '''
   subprocess.run(["pdftotext", fname+".pdf"])
   clean_text_file(fname+".txt")

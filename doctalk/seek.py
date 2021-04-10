@@ -55,4 +55,4 @@ class Seeker(Talker) :
     pr = sorted(d.items(), key=lambda x: x[1], reverse=True)
 
     for id,r in take(3,pr) :
-      print(id,niceWithSentId(id, self))
+      print(id,nice(self.get_sentence(id)))

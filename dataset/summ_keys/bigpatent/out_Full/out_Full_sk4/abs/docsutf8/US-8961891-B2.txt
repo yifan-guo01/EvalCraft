@@ -1,4 +1,0 @@
-a heat sink is used to absorb heat produced by a vehicle .
-the heat sink uses an endothermic catalytic alcohol dehydrogenation reaction to assist with the absorption of excess heat produced in the electronics of the vehicle .
-in some embodiments , the alcohol can be pre heated by absorbing heat from various components of the vehicle .
-excess heat from the various components or from the vehicle engine can be used to vaporize the reaction fluids in order to further absorb additional heat .

@@ -1,6 +1,0 @@
-apparatuses designed to provide support to a conveyor belt in a new manner .
-in a first illustrative embodiment , a conveyor belt is supported by a number of magnets .
-a first set of magnets are disposed on the edges of the conveyor belt , and a second set of magnets are disposed on a support apparatus for the conveyor belt .
-the first and second sets of magnets interact to create repulsive forces that provide both lateral and vertical support to the conveyor belt .
-tension provided by the lateral forces can help the belt move smoothly and with less wear than the support provided by existing support idlers .
-the following detailed description should be read with reference to the drawings .

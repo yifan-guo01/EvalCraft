@@ -46,27 +46,12 @@ def try_to_ask_bert(txt,q,confid) :
   global nlp
   if not nlp :
     from transformers import pipeline
-    '''
-    from transformers import AutoTokenizer, AutoModelForQuestionAnswering
-	model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
-    nlp = pipeline("question-answering", model=model_name,  tokenizer=model_name)
-    '''
-    # for local disk
-    ''' 
-    path = "/root/squadModel"
-    model = AutoModelForQuestionAnswering.from_pretrained(path)
-    tokenizer = AutoTokenizer.from_pretrained(path)
-    nlp = pipeline('question-answering', model=model, tokenizer=tokenizer)
-    '''
     nlp = pipeline("question-answering")
   r = nlp(question=q, context=txt)
   if r==None : return r
-  return r['answer']
-  '''
   if confid == 0:
     return r['answer']+', with confidence ='+str(round(r['score'],3))
-  elif r['score'] > confid :  
+  elif r['score'] > confid :
     return r['answer']
   else:
     return None
-  '''

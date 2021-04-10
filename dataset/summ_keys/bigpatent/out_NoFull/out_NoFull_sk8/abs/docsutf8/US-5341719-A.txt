@@ -1,8 +1,0 @@
-the jacket / liner portions are formed from a tubular coextrusion cylinder of concentric material layers carefully selected to include compatible materials , such as nickel , iron and cobalt base superalloys .
-the boreliner portion 20 can be fabricated of a more expensive high density refractory metal alloy which can withstand the very high breech temperature .
-25720 ) with an inco in 909 iron based alloy jacket 16 surrounding and metallurgically joined to an inco in 718 nickel based alloy liner 18 , with both the inside and outside of the tube being formed within one coextrusion die , to provide a high degree of concentricity of the interface diameter d i to both the liner bore surface 18c and the od of the jacket portion 16 .
-the in 718 liner alloy has sufficiently high chromium content to offer good erosion resistance to hot gun gasses .
-the in 909 jacket was selected for its low thermal expansion and good elevated temperature strength .
-this particular combination of materials was also selected , in part , because of the relatively good compatibility of these two alloys regarding deformation at elevated temperature , facilitating coextrusion , and heat treatment .
-while presently preferred embodiments of our novel multilayer composite gun barrel are described herein , many variations and modifications will now become apparent to those skilled in the art .
-it is our intent , therefore , to be limited only by the scope of the appending claims , and not by the specific details and instrumentalities included herein by way of explanation .

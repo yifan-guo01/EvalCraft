@@ -1,4 +1,0 @@
-a vehicle light assembly includes a reflector having a plurality of depressions , each depression having interruptions on a reflective surface thereof to maximize reflection .
-one or more light emitting diodes are disposed within each depression so as to be generally surrounded by the depression .
-a lens is disposed over the reflector for allowing light to pass therethrough .
-the lens may include a plurality of domes , each dome disposable over a light emitting diode or cluster of light emitting diodes .

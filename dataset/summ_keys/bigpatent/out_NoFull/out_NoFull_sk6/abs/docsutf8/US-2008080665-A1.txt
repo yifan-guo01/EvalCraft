@@ -1,6 +1,0 @@
-there are herein described methods and apparatus useful for imaging systems such as , for example , but not limited to an x ray system .
-the apparatus and methods are illustrated with reference to the figures wherein similar numbers indicate the same elements in all figures .
-such figures are intended to be illustrative rather than limiting and are included herewith to facilitate explanation of an exemplary embodiment of the apparatus and methods of the invention .
-in this disclosure , methods and apparatus are described that will enable the measurement of the absolute temperature seen by each pixel in an array of diodes used in a multislice ct detector .
-the measurement setup can however be extended to any diode system .
-this becomes even more critical when more than 64 slices are used , and when thinner slices are built .

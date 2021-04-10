@@ -1,3 +1,0 @@
-fig2 depicts the probe vibrator and head that is used in one embodiment of the present invention .
-probe head 201 is comprised of one or many small metal plates that each have a surface area of 0 .
-each plate is connected to a low noise current to voltage ( i / v ) converter housed within the probe head 201 and a copper shield held at the reference potential surrounds the entire head .

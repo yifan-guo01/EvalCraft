@@ -1,2 +1,0 @@
-a remote fault indicating unit for an electronic system , such as a vehicle adaptive braking system , includes a series of visual indicators , such as light emitting diodes , on one surface of the housing and a computer serial port connector for use when troubleshooting is done with a pc equipped with the appropriate software .
-each of the indicators is activated in response to a predetermined malfunction sensed in the system , such as a defective speed sensor , defective modulator , or a defect in the electronic circuitry .

@@ -1,4 +1,0 @@
-with reference to the accompanying drawings , the invention will now be described with regard for the best mode and the preferred embodiment .
-in general , the invention is an inflatable vehicle passenger protection apparatus or device known as an air bag , and comprises an inflatable air bag 30 , gas delivery means 10 to inflate the air bag 30 , and a housing 20 to retain the air bag 30 in a folded configuration in the passive state .
-such devices are well known in the vehicle art , and many different and adequate mechanisms for sensing a vehicle impact of predetermined force and inflating the air bag 30 in an almost instantaneous manner are known .
-upon sensing an impact , pressurized gas contained or created within a reservoir 11 is delivered through a conduit or nozzle means 12 into the air bag 30 , which expands from its housing 20 mounted within the dashboard , steering wheel or side doors of the vehicle .

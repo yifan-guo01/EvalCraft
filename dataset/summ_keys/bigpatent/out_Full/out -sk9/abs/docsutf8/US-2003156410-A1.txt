@@ -1,9 +1,0 @@
-a vehicle light assembly includes a reflector having a plurality of depressions , each depression having interruptions on a reflective surface thereof to maximize reflection .
-one or more light emitting diodes are disposed within each depression so as to be generally surrounded by the depression .
-a lens is disposed over the reflector for allowing light to pass therethrough .
-the lens may include a plurality of domes , each dome disposable over a light emitting diode or cluster of light emitting diodes .
-preferably , each dome includes a central dimple lens and spaced apart ridges encircling the central dimple lens which serve to direct light in a selected manner .
-the design of the present invention is so effective that in some models , the number of led & # 39 ; s required for each assembly is only one quarter of those required in existing led cluster models .
-the inner reflective surface of these conical depressions 24 have interruptions 26 , so as to form a non uniform reflective surface .
-although the depressions 24 are illustrated as being generally conical , it will be understood by those skilled in the art that the depressions can have other configurations as well .
-the important aspect of the present invention is that the depressions 24 have such interruptions 26 so as to maximize the reflective surface thereof .

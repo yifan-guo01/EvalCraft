@@ -1,8 +1,0 @@
-moreover , the ink container holds unsaturated ink , which provides the capability of absorbing some quantity of air within the printing system and therefore preventing or reducing the harmful buildup of air bubbles within the system .
-in an exemplary embodiment , the chassis member is a unitary element , fabricated of polyethylene by injection molding .
-the collapsible bag is typically fabricated of multiple layers including a metalized or other layer providing very low air diffusion .
-this air path is illustrated in fig2 a simplified cross sectional view of the chassis 56 .
-in accordance with an aspect of the invention , substantial improvements in the supply shelf life and quantity of delivered air to the printhead is achieved by improving the air barrier properties of the chassis .
-ultrasonic insertion , spin welding or heat could also be employed to improve the chassis to insert sealing and assembly force .
-fig4 illustrates the lower portion of the insert 100 which is inserted into the chassis opening .
-circumferential areas 100 a , 100 b of the insert are enlarged relative to the inner diameter of the tapered chassis opening .
