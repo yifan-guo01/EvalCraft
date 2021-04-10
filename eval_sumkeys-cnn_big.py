@@ -42,14 +42,14 @@ force=1
 # number of keyphrases and summary sentences
 #wk,sk=6,6
 #wk,sk=10,9
-wk,sk=10,8 #best
-#wk,sk=20,40 ##bart and t5
+#wk,sk=10,8 #best for summary_model=''
+wk,sk=20,40 ##bart and t5
 
 #summarization model for DOCTALK, both bart and t5 have no keys summary, only sentences summary
 # '' return docltalk summary by rank
 # 'facebook/bart-large-cnn',  send summary to facebook bart-large-cnn, get final answer from bart-large-cnn
 # 't5-large', send summary to google t5-large, get final answer from google t5-large
-summary_model='' 
+summary_model='facebook/bart-large-cnn' # bart is best
 
 
 # if true abstracts are not trimmed out from documents
@@ -59,7 +59,7 @@ with_full_text = False
 match_sizes = False
 
 # sets max number of documents to be processed, all if None or 0
-max_docs = 50
+max_docs = 3
 
 # resource directories, for production and testing at small scale
 prod_mode=False
