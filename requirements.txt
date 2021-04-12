@@ -1,0 +1,2 @@
+py-rouge>=1.1
+textcrafts>=0.1.2
