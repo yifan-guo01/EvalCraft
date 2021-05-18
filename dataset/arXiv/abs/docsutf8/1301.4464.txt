@@ -1,0 +1,6 @@
+the compressive yield stress of particle gels shows a highly nonlinear dependence on the packing fraction .
+we have studied continuous compression processes , and discussed the packing fraction dependence with the particle scale rearrangements .
+the 2d simulation of uniaxial compression was applied to fractal networks , and the required compressive stresses were evaluated for a wide range of packing fractions that approached close packing . the compression acts to reduce the size of the characteristic structural entities ( i.e. the correlation length of the structure ) .
+we observed three stages of compression : ( i ) elastic - dominant regime ; ( ii ) single - mode plastic regime , where the network strengths are determined by the typical length scale and the rolling mode ; and ( iii ) multi - mode plastic regime , where sliding mode and connection breaks are important .
+we also investigated the way of losing the fractal correlation under compression .
+it turns out that both fractal dimension @xmath0 and correlation length @xmath1 start to change from the early stage of compression , which is different from the usual assumption in theoretical models .

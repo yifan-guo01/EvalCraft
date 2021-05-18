@@ -1,0 +1,198 @@
+air bubbles can be entrapped in a wide variety of flows with a free surface @xcite .
+such entrapped bubbles can have large effects on phenomena such as bulk gas concentrations and sound emission @xcite .
+in addition , bubbles can be a nuisance for industrial processes , where they cause defects , obstructions or noise @xcite .
+various different mechanisms for air entrapment have been proposed in the literature .
+for example , it is well known that the impact of a drop on a free surface ( e.g. rain ) can induce an inertial cavity collapse that results in an oscillating bubble @xcite . at lower impact speeds
+, air films can be trapped between a liquid drop and a liquid or a solid wall , by lubricating effects of the medium .
+such a lubricating film can delay or completely avoid coalescence . in the extreme case
+such an air film can even cause a droplet to float on the liquid surface @xcite . depending on whether this film simply drains or becomes unstable , air entrainment might occur @xcite .
+however , it has been predicted that bubbles can also be entrapped during a coalescence with zero impact velocity , for which no lubricating film develops . in this case
+the bubbles form by reconnecting capillary waves that result in toroidal bubble rings as described theoretically @xcite .
+in this paper we focus on entrapment of air bubbles that form when a sessile drop impacts with a moving meniscus .
+this is relevant for applications such as dip   coating and immersion lithography ( fig .
+[ fig : chap4_problemsketch ] ) .
+dip   coating is a very common setup both for applications and fundamental studies , where a solid plate is plunged into or withdrawn from a liquid reservoir .
+a very similar geometry is present in immersion lithography , a technology used in semi   conductor industry : replacing the air in between a lens and the silicon wafer by a liquid leads to an increase in the numerical aperture of the system , allowing for the projection of smaller structures .
+a simplified version of the flow geometry for immersion lithography is sketched in figure  [ fig : chap4_problemsketch ]  c   d ) .
+the `` meniscus '' consists of a liquid bridge held between the hydrophilic glass plate and a wafer which is usually made partially wetting by a coating . the water will preferably remain in the gap , due to the contact with the hydrophilic glass plate , even when the substrate is in motion .
+a first mechanism for bubble entrapment is that at high velocities , the contact line can become unstable resulting in entrainment of a thin air film @xcite or bubbles @xcite .
+a second mechanism that leads to bubbles in these applications is due to residual drops , which are left on the substrate .
+these drops move along with the substrate and collide with the reservoir ( dip   coating ) or liquid bridge ( immersion lithography ) .
+air bubbles are generically entrapped during a collision of such a sessile drop with the meniscus .
+we present an experimental study on the formation of bubbles resulting from the impact of a sessile drop with a meniscus close to a moving contact line .
+the sessile drop always coalesces with the meniscus . as summarized in fig .
+[ fig : chap4_overview ] , however , we identified two scenarios for bubble entrapment .
+first , when the contact takes place at or very close to the moving contact line ( i.e. at @xmath0 , with @xmath1 the impact height with respect to the moving substrate ) we observe `` floating bubbles '' .
+these bubbles are spherical and float in the bulk of the liquid bridge .
+second , when the first contact between the sessile drop and the meniscus takes place above the moving contact line ( @xmath2 ) also a `` sticking bubble '' can be formed .
+this bubble is attached to the substrate and moves with the wafer .
+it should be noted that apart from these two cases , the coalescence can also result into no bubble formation , or a combination of floating bubbles and sticking bubbles . as summarized in fig .
+[ fig : chap4_overview ] , this depends on whether or not the airsheet breaks up during the coalescence .    the paper is organized as follows .
+we first introduce the experimental setup ( sec .
+[ sec : chap4_setup ] ) .
+then we will discuss the formation mechanism of the two possible types of bubbles appearing during the drop   meniscus collision ( sec  [ sec : chap4observations ] ) , and quantify the size of the entrapped bubbles , as a function of the impact velocity and the size of the sessile drop ( sec .
+[ sec : chap4bubblesizes ] ) .
+the latter section also includes explanations for the size of the two types of bubbles .
+the paper ends with a discussion ( section  [ sec : chap4_discussion ] ) .
+the experimental setup consists of a coated glass wafer ( @xmath3 mm ) clamped to a turntable that is rotated with controlled angular velocity @xmath4 @xmath5 .
+the rotational motion of the wafer approximates a linear motion in the camera reference frame , due to the small droplet size compared to the radial position on the wafer ( @xmath6 mm ) .
+a detailed description of a similar setup is given in winkels et al .
+@xcite . the geometry in which the collision between a sessile drop and a meniscus is realized is sketched in fig .  [ fig : chap4_setup ]
+. a small glass plate ( @xmath7 mm ) is fixed in the camera reference frame at a height @xmath8 mm above the substrate and close ( @xmath9 mm ) to the edge of the wafer . the gap between the wafer and the glass plate is filled with water ( millipore , milli   q , advantage a10 ) resulting in a liquid bridge with a pinned contact line at the hydrophilic glass plate and a mobile contact line at the coated wafer ( @xmath10 ) . with this construction ,
+the liquid is held fixed in the camera reference frame also when the wafer is rotated .
+the liquid bridge then slides over the wafer , such that at the front and at the rear of the bridge there is a moving contact line . within the experimental range of velocities , we observe no air entrainment unless there is a collision with an incoming sessile drop .
+the two main control parameters in the experiment are the size and velocity of the impacting drop . before each measurement a sessile droplet is created on the wafer with multiple drops from a micro   drop generator ( microdrop technologies , md   e 3000 in combination with a md   k 130 dispenser head , single drop diameter @xmath11 @xmath12 ) .
+we achieve drop sizes in the range @xmath13 mm .
+the sizes are determined from side view recordings .
+the wafer velocity , and hence the impact velocity of the sessile drop , is varied over the range @xmath14 m / s .
+the process of impact and the subsequent bubble formation is recorded simultaneously with two high speed cameras . for the top view a shimadzu hpv1 or photron sa1.1 ( framerates @xmath15 kfps )
+is used , connected to a long distance microscope ( navitar 12x zoom with 1.5x front lens ) obtaining a maximum resolving power of 2 @xmath16 .
+the side view is captured simultaneously with a pco1200s camera ( used at @xmath17 kfps ) attached to a lens ( jenoptik , jenmetar 1x/12 ld ) . to image the formation of the bubbles
+, the meniscus is viewed from above through the top glass plate , as shown in fig .
+[ fig : chap4_setup]a . in combination with backlit illumination
+the meniscus turns black , while the wetted area inside the liquid bridge turns bright .
+typical image recordings are shown in fig .
+[ fig : chap4_setup]b .
+the contact line of the sessile drop is marked with the yellow line : prior to impact , the drop is hidden behind the meniscus in the top view recordings . during the coalescence
+, the region where the drop and meniscus have merged will actually turn bright and can thus be monitored very accurately .
+note that the white ring that appears in the bright part of the image is an optical artefact without fluid mechanical meaning ( see fig .
+[ fig : chap4_floating]a ) .
+finally , we note that the liquid bridge can exhibit a rather complex geometry .
+the meniscus can be convex or concave depending on the gap height , volume of liquid and the dynamic contact angle . throughout our experiments
+we have tuned these parameters in order to keep the impacting meniscus as `` flat '' as possible in the side view . by avoiding strongly concave or convex menisci ,
+we have been able to obtain conditions where the bubble formation is highly reproducible .
+namely , the geometry of impact is then a spherical cap with angle @xmath18 , colliding with a meniscus that can be approximated by a `` plane '' with dynamic contact angle @xmath19 .
+then a simple geometrical argument suggests that if @xmath20 , @xmath21 , while if @xmath22 , @xmath23 .
+the combination with for example the dynamic contact angle as a function of velocity , would give a possible predictive tool for the impact height @xmath1 as a function of velocity  provided that meniscus profile can be kept perfectly flat .
+in our experiments we observe the impact height from the top view measurements and investigate the resulting coalescence dynamics and possible bubble formation process .
+we first consider the case where the coalescence is initiated at the contact line , with impact height @xmath0 within experimental accuracy .
+the subsequent coalescence is directed upwards , away from the substrate .
+the outcome of the experiment is that either a floating bubble is formed inside the liquid , or no bubble is formed .
+figure  [ fig : chap4_floating ] shows a typical image sequence in the case a floating bubble is entrapped .
+below the experimental stills we provide sketches of the side view , to clarify the various stages of the bubble formation .
+these sketches serve as illustration and do not provide a fully accurate description of the deformation .    a sessile droplet with size @xmath24 , moves from left to right with velocity @xmath25 ( fig.[fig : chap4_floating]i ) .
+the yellow solid line indicates the contact line of the sessile drop which is hidden behind the black meniscus prior to impact .
+the white dashed line denotes the moving contact line of the meniscus .
+interestingly , a small deformation of the contact line can be observed at time @xmath26 @xmath27 before impact ( white arrow , fig .
+[ fig : chap4_floating ] , @xmath28 @xmath27 ) .
+this deformation is due to the lubrication pressure building up in the air between the drop and the meniscus .
+subsequently , the coalescence process starts at , or at least very close to , the contact line ( fig .
+[ fig : chap4_floating]ii ) . during the upward motion of the coalescing bridge a pocket of air is enclosed , resulting into a floating bubble ( fig .
+[ fig : chap4_floating]iii ) .
+the coalescence continues while the spherical bubble floats inside the liquid bridge ( @xmath29 @xmath27 , fig.[fig : chap4_floating ] ) .
+the floating bubble is stable and remains inside the liquid bridge also after drop collision ( fig .
+[ fig : chap4_floating]iv ) .
+another type of bubble that can be entrapped is a sticking bubble , attached to the substrate after its formation .
+these sticking bubbles form a spherical cap with a finite contact angle , and arise when the initial contact between the drop and the substrate occurs at a finite height above the substrate , @xmath2 .
+the process of sticking bubble formation is clearly revealed in the top view recordings as shown in figure  [ fig : chap4_cl ] .
+once more , we complement the still images with side view sketches to clarify the process of bubble formation ( i   iv ) .
+it should be noted that in comparison with fig .  [
+fig : chap4_floating ] , besides the impact height @xmath2 also the drop size @xmath24 is different .
+however as will be shown later this does not affect the phenomenon .    at very short time before impact ( @xmath30 @xmath31s , fig .
+[ fig : chap4_cl]i ) , the drop   meniscus separation distance is very small and the sessile drop is indicated by the yellow circle . once again , the meniscus is completely black and the drop moves in from the left with velocity @xmath25 , hidden behind the meniscus in this top view .
+the moving contact line of the meniscus is slightly curved and indicated by the white dashed line .
+after several microseconds , @xmath32 @xmath27 , one clearly observes that contact has occurred at a finite height above the substrate .
+the bridge connecting the drop and the meniscus appears as a bright ellipsoidal area ( fig .
+[ fig : chap4_cl]ii ) .
+coalescence is initiated in all directions , and the downward part of the bridge approaches the substrate ( fig .
+[ fig : chap4_cl ] , @xmath33 @xmath27 ) . during this rapid motion ,
+the air is confined in a cylindrical cap that is squeezed between the wafer and the downward coalescing front . at the final stage of bubble formation
+, this cylindrical shape pinches off symmetrically along the wafer ( up  and downwards in the image ) , leaving a small `` satellite '' bubble at the substrate . this sticking bubble ( fig .
+[ fig : chap4_cl]iii , @xmath34 @xmath27 , red dashed circle ) , moves with the substrate .
+the coalescence also proceeds in the upward direction , away from the contact line . in some experiments
+we have seen that this can also result into a floating bubble , in analogy to those described in sec .
+[ subsec : chap4er_floating ] .
+we now investigate the size of the entrapped bubbles , characterized by the radius @xmath35 , for different impact conditions .
+in particular , we vary the size of the sessile drop , @xmath24 , and the impact velocity , @xmath25 .
+our measurements are summarized in fig .
+[ fig : chap4_expdata ] .
+the triangles ( @xmath36 , , ) show data obtained for floating bubbles , for @xmath37   @xmath38 m / s and @xmath39 @xmath40 mm in radius .
+the blue squares ( ) are results for sticking bubbles , for the impact velocities @xmath41 m / s and @xmath42 mm .
+each data point corresponds to a single collision , and the error bars represent the accuracy of resolution .
+one clearly observes that the two different types of bubbles display very different sizes , originating from the different mechanisms of their formation . for floating bubbles ,
+the general trend is that @xmath35 increases with impact velocity .
+however , for a given velocity there is a rather large spread of the data .
+we show below that this can be attributed to the different sizes of impacting drops .
+this is also why @xmath35 is lower for the largest impact velocities , which were obtained for relatively small drops .
+the results for sticking bubbles are very different : within our experimental resolution , the bubble size is independent of both the impact velocity and of the radius of impacting drop .
+the size of sticking bubbles is approximately @xmath43 m , which is much smaller than the floating bubbles .      as observed in sec .
+[ subsec : chap4er_floating ] , the meniscus is weakly distorted already before the coalescence starts ( arrow fig .
+[ fig : chap4_floating ] , @xmath28 @xmath27 ) .
+this suggests that a pressure builds up inside the air layer in between the drop and meniscus , which is sufficiently strong to deform the liquid interfaces prior to impact .
+in fact , this effect is well   known for drop impact on a solid or on a liquid reservoir @xcite .
+as the air is squeezed out of the narrow gap , the viscous air flow leads to a lubrication pressure inside the layer .
+the volume of the entrapped air sheet ultimately determines the size of the air bubble .
+we therefore propose that the lubrication pressure is responsible for the velocity dependence of @xmath35 . as the pressure originates from the dynamical viscosity of the gas , @xmath44 , it is natural to re   plot the experimental data in terms of the capillary number @xmath45 , where @xmath46 is the surface tension ( even though we did not explicitly vary the gas viscosity @xmath44 and surface tension @xmath46 ) .
+figure  [ fig : chap4_floatingratio ] shows the data in dimensionless form , where we scaled the bubble radius by the radius of the impacting drop . in comparison to fig .
+[ fig : chap4_expdata ] , we indeed observe that the rescaled bubble sizes are nicely aligned , and display a monotonic increase with @xmath47 .
+the scatter is comparable to the experimental error in determining the bubble radius .
+the data are reasonably described by a power   law over more than a decade in @xmath47 .
+we now rationalize this dependence on @xmath47 by drawing the analogy with drop impact on a solid substrate @xcite .
+the geometry of this impact is sketched in fig .
+[ fig : fig_chap4_dropdeformation ] , and is actually much simpler than the geometry of fig .
+[ fig : chap4_problemsketch ] .
+while the drop approaches the substrate with velocity @xmath25 , the thickness of the air layer reduces and air is squeezed out . as long as the lubrication pressure , @xmath48 , is significantly smaller than the capillary pressure inside the drop , @xmath49 , the drop remains spherical . in this regime
+the drop is undeformed and the shape of the air layer is described by @xmath50 .
+then , the lubrication pressure can be computed exactly @xcite .    @xmath51    where @xmath52 is the gap thickness at @xmath53 .
+from this equation , it is clear that the typical lateral length scale of the lubricating pressure is , @xmath54 .    to estimate at what distance @xmath52 the drop will start to deform , we balance @xmath55 . note that this is different from @xcite , in which @xmath56 is balanced with the inertial pressure inside the liquid .
+in the experiments presented in this paper the impact velocities and drop impact size are smaller than @xcite , such that the inertial pressure is in fact sub   dominant compared to the capillary pressure . for the smallest drop size and lowest velocities ,
+it is relevant to question whether viscous effects inside the drop come into play  @xcite .
+however , an estimation of the smallest reynolds number , re @xmath57 , shows that viscous effects in the liquid are comparable to inertia , and therefore are sub   dominant as well .
+the visco   capillary balance yields a characteristic height for the dimple below the drop @xmath58 ( fig .
+[ fig : fig_chap4_dropdeformation ] ) :    @xmath59    this determines the distance at which the drop first deforms , and provides the natural length scale for the dimple size in the direction normal to the wall . in a very short time ( @xmath60 ms ) the deformation finally leads to very fast coalescence during which the lubricating air sheet is trapped and forms a bubble .
+the volume of the air pocket , and hence of the bubble , is expected to scale as    @xmath61    despite the obvious difference in impact geometry , this scaling argument is consistent with the experimental data for the floating bubbles that form during the impact of a sessile drop with a meniscus .
+this suggests that the bubble volume is indeed governed by the lubrication effect of the squeezed gas layer .
+clearly , a much more detailed modelling of the impact geometry , and the subsequent drainage of air , is required to confirm this scenario .
+how can we understand that the size of sticking bubbles is independent of @xmath25 ?
+the key is that the coalescence of the meniscus and drop in fig .
+[ fig : chap4_cl ] , leading to the air confinement at the substrate , is much faster than the impact velocity @xmath25 .
+this is quantified in fig .
+[ fig : fig_chap4_coalescence ] , where we plot the growth of the coalescing bridge in time .
+the bridge radius @xmath62 approximately grows as @xmath63 ( best fit : @xmath64 ) , which is comparable to the standard inertia   dominated coalescence of two free droplets @xcite .
+the fact that the exponent is slightly larger than 1/2 is consistent with recent measurements on water drops , signalling a crossover to a viscosity   dominated coalescence @xcite . a power   law with exponent smaller than unity implies a very rapid dynamics at the initial stages .
+from the perspective of bubble entrapment , this means that speed with which the cylindrical cap of air is squeezed ( fig .
+[ fig : chap4_cl ] ) , is much faster than the actual impact velocity of the sessile drop . this explains why @xmath25 is irrelevant for the size of the sticking bubbles .
+it still remains a question why the size of sticking bubbles is also independent of the drop radius @xmath24 .
+a closer look at the sticking bubble formation , reveals a striking analogy with the pinch   off process of a buoyant air bubble from a nozzle in water , such as visualized by burton et al  @xcite and shown in a time sequence in fig .
+[ fig : chap4_pinchoff]b .
+the first image per row is a three dimensional sketch of the liquid gas interface in each configuration .
+apart from the presence of the substrate , the geometry of the liquid   gas meniscus is very similar in case of the sticking bubble formation . for the buoyant bubble
+, the detachment of the large bubble occurs by the breakup of a slender cylindrical neck . during this breakup ,
+small satellite bubbles of approximately @xmath65 microns diameter are formed at the middle of the neck . according to @xcite ,
+the size of these satellites can be attributed to the inertia in the gas phase , which becomes relevant during the final stages of pinch   off .
+indeed , we observe a very similar breakup of the cylindrical cap in figure  [ fig : chap4_pinchoff]a .
+the main difference with respect to burton et al .
+@xcite is that in our case the cylinder of air is attached to the surface . however ,
+the time scale for breakup and the size of the satellite bubble are almost the same in both experiments .
+clearly , the size of the impacting drop is completely irrelevant during this final stage of the bubble formation .
+in conclusion , the sticking bubbles display a universal size due to a combination of two classical singularities : coalescence and breakup .
+first , the growth of the coalescing bridge is extremely fast , making the impact velocity of the sessile drop irrelevant .
+it confines the air between the coalescing bridge and the substrate into a cylindrical air pocket .
+this cylinder of air undergoes a pinch   off , similar to @xcite .
+what remains is a small bubble that is completely independent of impact conditions .
+we have identified two types of bubbles that form during the impact of a sessile drop with a meniscus . as summarized in fig .  [
+fig : chap4_overview ] , the formation crucially depends on the height of the initial contact . when the first contact occurs at @xmath0 the resulting bubbles are `` floating '' inside the liquid .
+these bubbles appear due to the entrapment of a lubricating air film , in analogy for bubble entrapment below drops falling on a solid surface .
+the bubble sizes increase in size with increasing impact velocity , consistent with a scaling argument @xmath66 .
+by contrast at finite impact height , @xmath2 , the entrapped bubbles are `` sticking '' to the substrate .
+their size is a few microns and their formation is completely independent of the size and velocity of the impacting drops .
+the reason for this is that the formation process is dominated by the very fast coalescence , followed by the very fast pinchoff of an air cylinder .
+our findings will be of interest for applications such as coating and immersion lithography .
+collisions between drops and the meniscus can occur in these geometries , but bubbles are usually not desired .
+we have shown that bubble sizes are strongly reduced when the initial contact occurs at a finite height above the substrate , which can be achieved by tuning the wettability of the substrate .
+however , we emphasize here that the geometry of impact can be much more complicated than the conditions studied in this paper . in our experiments
+we avoided strongly convex or concave menisci , such that the small sessile drops always impact a nearly flat meniscus .
+meniscus curvature indeed has a strong influence , in particular on the drainage dynamics of the air film . as mentioned in fig .
+[ fig : chap4_overview ] , the upward coalescence does not always lead to the entrapment of a bubble .
+we have not been able to quantify the parameters that determine whether or not a floating bubble will form .
+this remains an important open question , which needs to be answered to verify the validity of simple geometric arguments as a predictive tool .
+the importance of geometry is illustrated in fig .
+[ fig : fig_chap4_discussion ] , reporting the impact of a relatively large drop , with a drop size comparable to the height of the liquid bridge . in that case , the shape of the air sheet and the subsequent drainage dynamics is strongly affected ( @xmath24 becomes comparable with the radius of curvature of the meniscus ) .
+one can clearly observe the destabilization of the air sheet , and how this results into multiple small bubbles .
+this is very different from the impact of small drops , for which we always observed break   up of a single filament .
+we speculate that the relevant parameter is the drop size in relation to the relevant dimensions of the meniscus , such as its curvature or its height , but this remains to be investigated .
+also , in the theoretical approach we have focused on the cases where the impact is normal to the contact line of the meniscus .
+an inclined impact , could of course have an effect on the symmetry and build up of the lubricating air film , and the subsequent coalescence process .
+it would be interesting to investigate these effects in more detail , both experimentally and numerically .
+this work is part of the research programme contact line control during wetting and dewetting ( clc ) of the stichting voor fundamenteel onderzoek der materie ( fom) , which is financially supported by the nederlandse organisatie voor wetenschappelijk onderzoek ( nwo). the clc programme is cofinanced by asml and oce.                                                                    wilco bouwhuis , roeland c.  a. van  der veen , tuan tran , diederik  l. keij , koen  g. winkels , ivo  r. peters , devaraj van  der meer , chao sun , jacco  h. snoeijer , and detlef lohse .
+maximal air bubble entrainment at liquid drop impact . ,

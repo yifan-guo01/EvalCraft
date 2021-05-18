@@ -1,0 +1,9 @@
+transposable elements of about 300 bp , termed
+short interspersed nucleotide elements or sines are common in eukaryotes .
+however , alu elements , sines containing restriction sites for the alui enzyme , have been known only from primates . here
+i report the first sine found in the genome of the cephalochordate , amphioxus .
+it is an alu element of 375 bp that does not share substantial identity with any genomic sequences in vertebrates .
+it was identified because it was located in the foxd regulatory region in a cosmid derived from one individual , but absent from the two foxd alleles of bacs from a second individual .
+however , searches of sequences of bacs and genomic traces from this second individual gave an estimate of 50 - 100 copies in the amphioxus genome .
+the finding of an alu element in amphioxus raises the question of whether alu elements in amphioxus and primates arose by convergent evolution or by inheritance from a common ancestor .
+genome - wide analyses of transposable elements in amphioxus and other chordates such as tunicates , agnathans and cartilaginous fishes could well provide the answer .

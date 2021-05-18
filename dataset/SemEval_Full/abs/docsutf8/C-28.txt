@@ -1,0 +1,27 @@
+PackageBLAST: An Adaptive Multi-Policy Grid Service for
+Biological Sequence Comparison
+∗
+Marcelo S. Sousa
+University of Brasilia
+Campus UNB - ICC Norte, sub-solo
+Brasilia, Brazil
+msousa@unb.br
+Alba Cristina M. A. Melo
+University of Brasilia
+Campus UNB - ICC Norte, sub-solo
+Brasilia, Brazil
+alves@unb.br
+ABSTRACT
+In this paper, we propose an adaptive task allocation 
+framework to perform BLAST searches in a grid environment
+against sequence database segments. The framework, called
+PackageBLAST, provides an infrastructure to choose or 
+incorporate task allocation strategies. Furthermore, we 
+propose a mechanism to compute grid nodes execution weight,
+adapting the chosen allocation policy to the current 
+computational power of the nodes. Our results present very good
+speedups and also show that no single allocation strategy is
+able to achieve the lowest execution times for all scenarios.
+Categories and Subject Descriptors
+C.2.4 [Distributed Systems]: Distributed Applications;
+J.3 [Life and Medical Sciences]: Biology and Genetics

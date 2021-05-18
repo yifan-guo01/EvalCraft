@@ -698,39 +698,9 @@ class Talker :
     sents.sort(key=lambda x: x[0], reverse=True) # sort by Rank  
     summary=sents[ :self.params.top_sum]    
 
-    model = self.params.thirdparty_model
-    print('use model:', model)
-    if model == '': 
-      summary.sort(key=lambda x: x[1])  # sort by ID
-      return summary
-    
-    # get summary from bart-large-cnn or t5-large
-    # bart-large-cnn, maximum sequence length for this model is 1024
-    lt = 0
-    for i, sent in enumerate(summary):
-      _,_, ws=sent
-      willLen = lt + len(ws)
-      if willLen > 850:
-        summary = sents[ :i] 
-        break
-      lt += len(ws)
- 
-    summary.sort(key=lambda x: x[1])  # sort by ID  
-    text = ''
-    for r,x,ws in summary :
-      text += nice(ws) + ' '
-    
-    from transformers import pipeline
-    if model == 'facebook/bart-large-cnn': #default, bart-large-cnn, maximum sequence length for this model 1024        
-        summarizer = pipeline("summarization") 
-    else:
-        summarizer = pipeline(task="summarization", model=model, framework="pt") #google t5-large,  maximum sequence length for this model 512
-    sm = summarizer(text, max_length=1024, min_length=30)#2000 crash
-    text = sm[0]['summary_text']
-    ws = text.split(' ')
-    sents = list()
-    sents.append((1.0,0,ws))
-    return sents
+    summary.sort(key=lambda x: x[1])  # sort by ID
+    return summary
+
 
 
  

@@ -1,0 +1,31 @@
+EDAS: Providing an Environment for Decentralized
+Adaptive Services
+Rüdiger Kapitza
+Dept. of Comp. Sciences, Informatik 4
+University of Erlangen-Nürnberg
+rrkapitz@cs.fau.de
+Franz J. Hauck
+Distributed Systems Laboratory
+University of Ulm
+franz.hauck@uni-ulm.de
+ABSTRACT
+As the idea of virtualisation of compute power, storage and
+bandwidth becomes more and more important, grid 
+computing evolves and is applied to a rising number of applications.
+The environment for decentralized adaptive services (EDAS)
+provides a grid-like infrastructure for user-accessed, 
+longterm services (e.g. webserver, source-code repository etc.).
+It aims at supporting the autonomous execution and 
+evolution of services in terms of scalability and resource-aware
+distribution. EDAS offers flexible service models based on
+distributed mobile objects ranging from a traditional 
+clientserver scenario to a fully peer-to-peer based approach. 
+Automatic, dynamic resource management allows optimized use
+of available resources while minimizing the administrative
+complexity.
+Categories and Subject Descriptors
+C.2.4 [Computer Communication Networks]: Distributed
+Systems-Distributed applications; D.2.12b [Software]: 
+Software Engineering Interoperability[Distributed objects]
+General Terms
+Design, Management

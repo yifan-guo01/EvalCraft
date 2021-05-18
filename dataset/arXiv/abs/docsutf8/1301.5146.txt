@@ -1,0 +1,6 @@
+we have studied the high - frequency properties of the non - equilibrium electron gas in gan samples subjected to electric and magnetic fields .
+spectra of the complex tensor of the dynamical mobility have been calculated for thz frequency range . for the
+compensated gan and low temperatures , in the intervals of electric fields of the few @xmath0 and magnetic fields of the few @xmath1 the existence of the cyclotron and optical phonon transit - time resonances has been identified .
+we have shown that interplay of two resonances gives rise to specific spectra of thz transmission and absorption ( or gain ) .
+we suggest that experimental investigation of these effects will facilitate elaboration of field controlled devices for thz optoelectronics .
+accepted for publication in

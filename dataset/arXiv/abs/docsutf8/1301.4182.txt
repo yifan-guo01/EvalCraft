@@ -1,0 +1,5 @@
+we analyze the transport properties of a semiconductor based bilayer system under non - equilibrium conditions with special emphasis on the charge transfer statistics in the regime dominated by the exciton transport .
+we consider two different models . in one of them
+the transport occurs incoherently and is dominated by incoherent tunneling processes of individual excitons , while in the other system no disorder is present and transport processes are fully coherent .
+we find that the strength of cross correlations of currents in different layers is only insignificantly affected by the disorder and shows up similar behaviour in both systems .
+we discuss possible experimental realizations and make predictions for measurable quantities .

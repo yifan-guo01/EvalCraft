@@ -1,0 +1,6 @@
+here we introduce evacon , an automated web service that evaluates the performance of contact prediction servers .
+currently , evacon is monitoring nine servers , four of which are specialized in contact prediction and five are general structure prediction servers .
+results are compared for all newly determined experimental structures deposited into pdb ( 550 per week ) .
+evacon allows for a precise comparison of the results based on a system of common protein subsets and the commonly accepted evaluation criteria that are also used in the corresponding category of the casp assessment .
+evacon is a new service added to the functionality of the eva system for the continuous evaluation of protein structure prediction servers .
+the new service is accesible from any of the three eva mirrors : pdg ( cnb - csic , madrid ) ( ) ; cubic ( columbia university , nyc ) ( ) ; and sali lab ( ucsf , san francisco ) ( ) .

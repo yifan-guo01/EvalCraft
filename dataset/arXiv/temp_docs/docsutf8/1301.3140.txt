@@ -1,0 +1,227 @@
+lyman @xmath0 line emission is an increasingly important tool for identifying actively star forming galaxies in the distant universe .
+first proposed as a potential signpost for primitive galaxies @xcite , lyman @xmath0  emission has now been used to identify thousands of galaxies at redshifts @xmath5 , along with smaller samples at @xmath6 and several candidates at @xmath7 .    while no galaxy yet identified by any means is demonstrably primordial , lyman @xmath0  selected samples
+do have several properties suggestive of youth .
+their starlight is dominated by young populations with characteristically low stellar masses @xcite and small sizes @xcite . yet , the correlation properties of these objects suggest that they are associated with moderately large halos ( mass @xmath8 ; @xcite ) . combining these results
+suggests that a lyman @xmath0  galaxy contains only a small fraction of the baryons that should be associated with its host dark matter halo
+. it would be interesting to know whether the `` missing '' baryons are present , either as old stellar populations , or in the interstellar medium of the lyman @xmath0  galaxy .
+dynamical mass estimates for lyman @xmath0  galaxies could potentially address this question , providing a standard for comparison with both the stellar masses and the dark halo masses .
+however , such dynamical mass estimates require an accurate measurement of the galaxy s velocity dispersion .
+the easiest approach to kinematics would be to use the lyman @xmath0  line width , which is measured for most spectroscopically confirmed lyman @xmath0  galaxies .
+unfortunately , this does not lead to useful velocity dispersion information : the lyman @xmath0  line profile can be dramatically affected by the interplay of resonant scattering and gas kinematics in the emitting galaxy .
+we therefore turn in this paper to studying lyman @xmath0  galaxy kinematics using the strong rest   frame optical emission lines of [ oiii ] @xmath9  and h@xmath0 @xmath10 .
+we build on the first detections of such lines in lyman @xmath0  selected galaxies at redshifts @xmath11 @xcite . in section  [ sec : samp_dat ] , we describe the sample and the key data . in section  [ sec : dynmass1 ] we estimate dynamical masses based on the observed line widths . in section  [ sec : popsynth ] , we analyze the stellar populations and dust reddening in these galaxies , using deep archival photometry . in section  [ sec : tf ] , we combine the rest   optical line width measurements with the stellar masses from population synthesis modelling to compare these lyman @xmath0  galaxies with expectations from the stellar mass tully   fisher relation . in section
+[ sec : sfr_scale ] , we examine the relation between gas mass surface density and star formation surface density to show lyman @xmath0  galaxies lie on the same sequence as starburst galaxies .
+finally , in section  [ sec : density ] , we explore the mass densities of the sample and the implications for the future evolution of lyman @xmath0  galaxies .    throughout the paper ,
+we adopt a @xmath12 cdm `` concordance cosmology '' with @xmath13 , @xmath14 , and @xmath15 .
+our sample consists of lyman @xmath0  emitting galaxies that were selected from four surveys .
+all are selected directly by the presence of a strong lyman @xmath0  emission line in the survey data .
+for the analysis in this paper , we make use of ( a ) velocity dispersions @xmath16 , derived from spectra of rest frame optical emission lines ; ( b ) sizes , as measured by the half   light radius @xmath17 in broad   band optical hubble space telescope images ; ( c ) stellar masses and dust extinctions , derived from spectral energy distribution ( sed ) fits ; and ( d ) star formation rates ( sfr ) , determined from h@xmath0 line flux measurements where available ( and from spectral energy distribution fitting otherwise ) , and corrected for dust using the results of the sed fits . in this section
+we summarize the sources for various galaxies in the sample , along with the measurements of @xmath16 , @xmath17 , and sfr .
+the stellar mass derivations are discussed later , in section  [ sec : popsynth ] .
+the properties of the sample are also summarized in tables 13 .
+first , we select two lyman @xmath0  galaxies from a 5020  narrowband survey using the steward observatory s 90 inch bok telescope on kitt peak , arizona
+. the objects we study here were spectroscopically confirmed as lyman @xmath0  emitters at @xmath19 using the 6.5 m mmt on mt .
+hopkins , arizona .
+this survey was introduced in @xcite , and further details will be presented in a forthcoming paper @xcite .
+we have followed up galaxies from this sample with three near   infrared spectrographs : lucifer , on the large binocular telescope @xcite ; nifs , on gemini north @xcite ; and nirspec , on the keck ii telescope @xcite .
+the objects studied here are lae40844 and lae27878 ( following the numbering in @xcite ) .
+the primary source of line widths for these objects is our gemini nifs data @xcite , since our keck observations of 40844 were primarily aimed at the ( still undetected )  lines , while the kinematic line width is not well resolved in the lucifer observations .
+these gemini observations yielded line widths of @xmath20  for object 40844 and 8.6  for object 27878 . the instrumental resolution was about 5 . subtracting this instrumental resolution in quadrature from the measured line widths yields 13.0and 7.0  respectively .
+the corresponding line   of   sight velocity dispersions become @xmath21 and @xmath22 respectively .
+the half   light radii for these objects are 1.1 kpc for lae40844 and 1.3 kpc for lae27878 @xcite .
+we estimated their star formation rates from sed fitting ( section  [ sec : popsynth ] ) , since their h@xmath0 line falls at @xmath23 and can not be easily observed .
+we obtained @xmath24 for lae40844 , and @xmath25 for lae27878 .
+we estimate the uncertainties in these star formation rates from the range of sfr in models yielding acceptable fits to the data ( see section  [ sec : popsynth ] ) .
+second , we use two lyman @xmath0  galaxies selected using a blind spectroscopic search with an integral field spectrograph as part of the hetdex pilot survey . these are objects hps194 ( @xmath26 ) and hps256 ( @xmath27 ) . for these
+, we base our kinematic line widths on keck+nirspec h@xmath0 line measurements from @xcite .
+these used low   resolution mode with the nspec 7 blocking filter .
+the measured line widths were @xmath28  ( fwhm ) for hps 194 , and @xmath29  ( fwhm ) for hps 256 .
+the instrumental resolving power is @xmath30 with the @xmath31 slit , corresponding to 1415   fwhm , and direct measurements of sky lines in the two spectra yield resolutions of @xmath32  and @xmath33  ( fwhm ) respectively . subtracting these in quadrature yields line widths of @xmath34  and @xmath35 , respectively .
+the corresponding line   of   sight velocity dispersions become @xmath36 and @xmath37 respectively .
+the half   light radii , as reported in the cosmos acs i   band catalog @xcite , are @xmath38 for hps194 , and @xmath39 for hps256 .
+( hps 194 in fact corresponds to a pair of continuum sources separated by @xmath40 in the cosmos survey s hst+acs images .
+we assume that the strong lyman @xmath0  and h@xmath0 emission come from the brighter and more compact source .
+the other source has a @xmath41 half   light radius , which would raise our dynamical mass for this object by about 60% . )
+the h@xmath0 line fluxes @xcite yield star formation rates of @xmath42 and @xmath43 , respectively , before dust correction .
+this is based on the conversion @xmath44 , which is appropriate for a chabrier ( 2003 ) initial mass function [ imf ] @xcite .
+the inferred sfr would be @xmath45 greater for a kroupa ( 2003 ) imf , and @xmath46 greater for the imf assumed in kennicutt ( 1998 ) .
+we correct these star formation rates for dust extinction within the emitting galaxy .
+the uncertainty in the star formation rate is dominated by the uncertainty in this dust correction , which we estimate by considering the full range of extinction among models with @xmath47 , and further allowing the possibility that the extinction of h@xmath0 could exceed the extinction of continuum starlight by up to a factor of 2 .
+third , we use four lyman @xmath0  galaxies from a narrowband survey described by @xcite and @xcite .
+these objects are drawn from two fields cosmos ( objects cosmos13636 and cosmos30679 ) and the chandra deep field south ( objects cdfs3865 and cdfs6482 ) .
+we obtained line widths for all sources by measuring the plotted fwhm of emission line profiles in figures  1 , 2 , and 5 of @xcite .
+in general , the lines in this sample appear marginally resolved . in our analysis
+we regard the line width measurements as upper limits where appropriate .
+the cosmos field spectra were from keck + nirspec spectroscopy .
+here we obtained directly measured fwhm of @xmath48 and @xmath49  for cosmos13636 and cosmos30679 , respectively . with a resolving power of @xmath50 , the instrumental resolution corresponds to @xmath51 , which we subtract in quadrature to yield nominal velocity dispersions @xmath52 and @xmath53 , respectively . in each case , the measurement remains consistent with a fairly broad range , @xmath54 .    for these cosmos field sources , we base the half light radii on the cosmos acs i   band catalog , obtaining @xmath55 and @xmath56 respectively .
+finally , their star formation rates as inferred from their h@xmath0 fluxes are @xmath57 and @xmath58 respectively .
+the cdfs field source spectra @xcite were obtained with magellan + mmirs , and have a somewhat lower resolving power ( @xmath59 , corresponding to 18 ) .
+the measured fwhm are 23  for cdfs3865 and 20  for cdfs6482 . subtracting the instrumental resolution in quadrature yields velocity dispersions of @xmath60 and @xmath61 , respectively , where again there is considerable uncertainty for the narrower , semi   resolved line ( consistent with @xmath62 ) .
+the star formation rates for these sources , based on their h@xmath0 line fluxes , are @xmath63 and @xmath64 respectively .    for the physical sizes of the cdfs sources , we downloaded archival hst imaging from the gems survey @xcite and measured the half light radii .
+we used the sextractor @xcite half light radius , and as a consistency check also measured the fluxes in a series of circular apertures and interpolated the resulting photometric growth curve .
+both methods gave consistent answers , with half light radii of @xmath65 for cdfs3865 , and @xmath66 for cdfs6482 .
+finally , we use one lyman @xmath0  galaxy , lae   cosmos 47 , from a narrowband   selected @xmath67 cosmos field sample obtained by @xcite using the eso 2.2 m telescope , with followup observations obtained by fynbo and collaborators using the x   shooter spectrograph @xcite on the vlt . the x   shooter spectrum provided a well constrained velocity dispersion measurement of @xmath68 .
+the star formation rate , derived from the h@xmath0 line flux , is @xmath69 . the half   light radius , from the cosmos acs catalog @xcite , is @xmath70 .
+the measured velocity dispersions @xmath16 from the rest   optical emission lines are a good estimate of the total luminosity   weighted kinematics of the gas .
+the galaxies we are studying are spatially unresolved even in @xmath40 seeing , meaning that the ground   based spectra we use effectively sample the integrated light , with no important dependence on slit width .
+the precise conversion from velocity width to mass will depend on the kinematic structure of these galaxies . for a pure rotation   supported model with a flat rotation curve , we expect @xmath71 , where @xmath72 is the inclination angle of the disk ( with @xmath73 corresponding to an edge   on system ) .    the simplest dynamical mass estimate from these measurements , which is a lower bound to the true gravitating mass , is @xmath74 , where @xmath75 is the maximum radius at which we observe light from the galaxy .
+a more practical choice of radius is the effective radius @xmath17 , defined as the radius that encloses half of the galaxy s light in projection . if we presume that the half   light radius is also the half   mass radius , our revised estimate of the dynamical mass becomes @xmath76 .
+the resulting mass estimates range from @xmath1 to @xmath2 , and are summarized in table  [ tab : masses ] .
+several circumstances could affect our estimated mass .
+a rotating disk with @xmath77 would reduce the measured @xmath16 ( relative to the edge   on case ) .
+also , in our spatially unresolved spectroscopy , the observed @xmath78 reflects the luminosity   weighted average kinematics .
+if a significant fraction of the galaxy s light is emitted from regions where the local circular speed @xmath79 is below the maximum circular speed ( @xmath80 ) , we should expect the weighted average @xmath78 to underestimate @xmath80 and hence the mass .
+the precise magnitude of this effect depends on the galaxy s light profile and rotation curve .
+also , like any dynamical mass based on luminous tracers , our estimate is insensitive to mass located outside the luminous matter distribution of the galaxies .
+if the galaxies are embedded in extended dark matter halos , the total mass of the halo could be many times the mass estimates derived from the observed @xmath17 and @xmath78 .
+turbulence in the galaxy s gas would contribute to the measured @xmath16 , though in virial equilibrium , that turbulence would constitute a source of pressure support and the ordered rotation of the galaxy would be correspondingly reduced .
+most interestingly , if the galaxy is not in equilibrium at all , our assumed relations between kinematics and mass could be substantially wrong .
+our mass estimate implicitly assumes that the virial theorem is fulfilled , that is , that the kinetic energy @xmath81 and potential energy @xmath82 of the galaxy are related by @xmath83 .
+on the other hand , in a cold accretion scenario , new material falling into a galaxy for the first time should have @xmath84 , i.e. , the motions are faster for the same gravitating mass under these conditions , and the mass inferred from gas motions would be correspondingly over   estimated by a factor up to @xmath85 .    given these uncertainties , it is best to regard our direct dynamical mass estimates as approximate numbers , good to a factor of perhaps 2 when regarded as lower bounds to the true dynamical mass .
+other dynamical mass estimates in the literature consider a more general scaling coefficient so that @xmath86 ( see @xcite and references therein , esp . @xcite and @xcite ) .
+these works favor @xmath87 for early   type galaxies with sersic index @xmath88 , and find that despite theoretical expectations for some increase of @xmath89 with decreasing sersic @xmath90 , the observational evidence favors @xmath91 for a wide range of @xmath90 .
+thus , the simple arguments that led us to use @xmath92 likely come fairly close to the correct dynamical masses .
+a complementary approach to interpreting the kinematic data on these galaxies is to use their linewidths to place them on some form of the tully   fisher relation , and so to compare them on an equal footing to other galaxy populations .
+such an approch avoids the difficulties associated with identifying the right radius to use in estimators of the form @xmath93 . for high redshift galaxy populations ,
+a small scatter with weak redshift evolution has been demonstrated for the stellar mass tully   fisher relation , and we place our galaxies on such a relation in section  [ sec : tf ] below . to do so ,
+we first need their stellar masses .
+all of the galaxies we study have extensive multiband photometry in the literature , generally including multiband optical data , some deep ground   based near   infrared photometry , and spitzer irac @xcite observations that are deep enough to be constraining in at least the 3.6@xmath94 channel .
+we have used these data to derive stellar mass estimates for the full sample .
+stellar mass estimates are also available in the published literature for many of these galaxies @xcite .
+while these are mostly consistent with our estimates where samples overlap , we opted to fit the entire sample using a single procedure to avoid potential difficulties comparing masses derived using different methodologies .
+\(1 ) the strong lyman @xmath0  emission in these objects requires the presence of a young stellar population , whose ultraviolet light ionizes interstellar hydrogen that then recombines to produce the observed lyman @xmath0  radiation .
+( 2 ) the amount of dust in the fitting is essentially determined by the uv spectral slope ( cf .
+( 3 ) in some objects , no stars older than @xmath95 years are _ required _ to explain the observed light .
+( 4 ) a considerable mass in old stars is _ permitted .
+_ ( 5 ) the ionizing photon production for the best   fit stellar populations can be converted to a lyman @xmath0  luminosity by assuming that @xmath96 of the ionizing photons are ultimately converted to lyman @xmath0 radiation ( as expected under case b recombination with a negligible escape fraction for ionizing photons ) . combining this line luminosity estimate with the directly measured lyman @xmath0
+line flux gives an estimate of the escape fraction for the lyman @xmath0  photons .
+these escape fractions are sensitive to the details of the star formation history over the last @xmath97 myr .
+we can say with reasonable confidence that the resulting escape fraction is of order half for the most plausible models , and that lyman @xmath0  escape fractions below 2030% are ruled out unless we change the stellar population in some way that dramatically increases the ionizing photon production .
+( 6 ) the estimated stellar population ages and masses would increase dramatically if we did not account for the  line fluxes . in this case , the stellar population fitting code attempts to interpret the red h@xmath98k color and the bright flux in the rest   frame 5000  range as due to older stellar populations .
+this effect can exceed an order of magnitude in both age and mass when the filter containing the   lines is the reddest filter considered , while it is usually smaller when an additional filter redward of the 4000  break is included ( meaning , in our case , the irac photometry ) .
+we measured stellar masses for our sample using the starburst99 population synthesis code @xcite . for each galaxy
+we started with publically available broad band photometry .
+for the seven objects in the cosmos field , we used cosmos project broad band photometry @xcite , either directly from the cosmos archive , or as quoted in the papers defining the samples @xcite .
+for the two cdfs objects , we used musyc survey photometry @xcite ( again as quoted in @xcite ) . in all cases ,
+our final model fitting used at least 9 photometric bands spanning at least the wavelength range @xmath99 .    to interpret the photometry in terms of stellar population parameters
+, we first ran starburst99 to generate a grid of model spectra for stellar populations at a range of ages , from @xmath100 years ( which is so young that no star has yet left the main sequence ) , up to @xmath101 years ( which is the age of the universe at @xmath102 ) , and using a kroupa ( 2003 ) imf .
+we then assumed a star formation history ( as described below ) and generated a model spectrum by a linear combination of the spectra for particular age steps from the starburst99 output .
+we account for the mean opacity of the intergalactic medium using the prescription of @xcite .
+we do not treat the variance in the igm opacity in the present work .
+( doing so would effectively add uncertainty to the expected fluxes in the @xmath103 , b@xmath104 , and @xmath105 bands , and so would improve the model @xmath106 , but would not likely change the best fit model parameters much . )
+we model dust in our sample galaxies using the small magellanic cloud ( smc ) extinction law from @xcite , and treating the extinction as a thin screen .
+the smc law is a reasonable choice since its metallicity corresponds approximately to the few metallicity constraints so far available for lyman @xmath0  emitters @xcite .
+we next added the directly measured spectroscopic line fluxes to the model spectrum at the appropriate wavelengths , since these emission lines are not included in the model output .
+this step follows the application of igm and dust opacity , since nature has already applied these effects to the observed line fluxes .    at this point
+, we have a full model spectrum accounting for stellar populations , emission lines , dust , and intergalactic hydrogen absorption .
+we multiply this spectrum by the bandpass of each filter in the photometric data set , integrate , and normalize appropriately to obtain model fluxes in each observed filter for the model under consideration .
+these can be compared to the observed data to obtain a goodness   of   fit parameter @xmath107 .    to optimize the model
+, we fitted the observed spectral energy distribution of the sample galaxies by a simple monte carlo approach that randomly varies the amount of dust and the mass in stars in each of 13 logarithmically spaced age bins , and accepts a change to the model parameters using @xmath106 minimization .
+this approach allows a more general star formation history than a single burst or an exponentially decaying star formation rate . while the resulting sampling of stellar ages is somewhat coarse compared to a typical single burst model , the associated uncertainty is not a dominant factor in our stellar mass estimates .
+the model fits usually converge to a case where 13 of the 13 mass bins dominate the luminosity at all observed wavebands .
+we therefore `` trim '' the parameter list by fixing the stellar mass to zero in bins that are clearly of minor importance , and rerun the fit with only the important mass bins .
+this `` trimming '' step generally has a negligible effect on the final @xmath106 , confirming that 13 simple stellar populations can explain the observed spectrum as well as a more complex star formation history .    to further explore the parameter space of acceptable fits
+, we modified our code to optimize for either minima or maxima of either stellar mass or dust extinction , subject to the constraint that the model @xmath106 remain close to the @xmath106 of the best fitting model for each object .
+we explored models with @xmath108 and @xmath109 .
+this corresponds approximately to the @xmath110 and @xmath111 error regions in the parameter space .
+the stellar mass tully   fisher ( smtf ) relation is a correlation between the kinematic line widths of galaxies and their stellar masses .
+the smtf relation is more robust to differences in stellar population mass   to   light ratio than the original tully   fisher relation ( which correlates luminosity with line width ; @xcite ) .
+the relation is further generalized by @xcite , who demonstrated that replacing the circular speed @xmath112 with the kinematic estimator @xmath113 results in an smtf that is both tighter and more applicable to the wide range of galaxy properties seen at high redshift .
+@xmath114 has an additional advantage : for spatially unresolved galaxies ( like those we study here ) , @xmath114 can be measured reasonably accurately regardless of whether the width is dominated by ordered rotation or by random motions .
+our actual measurement is a single number , the line width , characterized by the observed line   of   sight velocity dispersion @xmath115 .
+we then use @xmath116 for our galaxies . consider pure circular motion with a flat rotation curve of velocity @xmath117 , viewed edge   on : we will find @xmath118 , so that @xmath116 . if instead the motion is entirely random , with @xmath119 , we expect @xmath120 , and again , @xmath121 . only for
+ordered rotation in a face   on configuration do we expect @xmath115 to be a significant under   estimate of @xmath114 . while we can not rule out this possiblity with our data ,
+it is likely that these galaxies are dynamically hot ( @xmath122 ) , since the stellar populations dominating the observed light are at most @xmath123 dynamical time old .
+our results are shown in figure  [ fig : smtf ] , both for stellar masses from sed fitting and for dynamical masses from line width and spatial extent .
+the error bars for the stellar masses show the ranges of stellar mass permitted by models with @xmath124 , and with @xmath125 .
+the error bars for dynamical mass are determined by the uncertainties in @xmath16 , and are diagonal since the x   axis of the plot _ is _ @xmath16 . for three objects from the @xcite sample , @xmath16 and @xmath126
+are plotted as upper bounds .
+comparing our lyman @xmath0  sample to the stellar mass tully   fisher relation that @xcite reported for @xmath127 star   forming galaxies , we find that both the stellar masses and dynamical masses of laes generally follow the established relation .
+dynamical mass estimates show less scatter than stellar masses , as might be expected given the vagaries of star formation histories .    about half the galaxies are consistent with stellar masses falling a factor of two or more below their dynamical masses , when we account for the range of acceptable estimates for both . for these galaxies , it is possible that the dynamical mass within the central 12 kpc is dominated not by the young stars that power the observed lyman @xmath0  emission , but by some other unseen component .
+collisionless dark matter should not be so strongly concentrated in the central kpc of a dark matter halo .
+old stars ( formed from centrally concentrated gas @xmath128 years ago ) are a possible alternative .
+the dynamical mass estimates we present are in fact a tighter limit on the total mass in old stars within the inner @xmath129 than are the photometric limits . given the actively star   forming nature of these lyman @xmath0  emitting galaxies , a reservoir of gas is the most intriguing possibility for the `` excess '' dynamical mass .
+overall , though , such excess mass is merely permitted and not required by the data so , overall , the lyman @xmath0  galaxy sample shows consistency with the stellar mass tully   fisher relation for other samples .
+whatever physical properties allow lyman @xmath0  to escape these particular star forming galaxies , they do not strongly affect the mass   linewidth relation .
+the tight correlation observed between @xmath126 and line width is related to the small and nearly constant physical sizes of the lyman @xmath0  galaxy sample @xcite .
+a fixed physical size , combined with variable ( and sometimes uncertain ) line widths , can generate the observed slope of the @xmath126   @xmath114 relation .
+the @xmath130   @xmath114 relation from @xcite has a somewhat steeper slope . presuming that stars form a fairly large and fairly constant fraction of the dynamical mass , this slope could be interpreted as evidence for size   linewidth relation in the @xcite sample , with @xmath131 for @xmath132 .
+we now take the dynamical mass as an upper bound on the gas mass in these galaxies , and compare their properties to the scaling relations that describe star formation in other galaxy classes .
+we use the gas surface mass density limit @xmath133 .
+we can improve this bound by subtracting our stellar mass estimates . in practice , our _ maximum _ stellar mass always exceeds the dynamical mass , allowing the possiblity that there is no gas mass . in most cases ,
+though , our _ minimum _ stellar masses are below the dynamical masses , and we can subtract them to yield refined estimates of the gas mass surface density ( @xmath134 ) .    the star formation rate and gas surface density can be related according to scaling laws of the form @xmath135 ( where @xmath136 is in @xmath137 , and @xmath138 is in @xmath139 ) . for nearby spirals , and for distant star   forming bzk galaxies ,
+@xcite find @xmath140 and @xmath141 for our choice of units . for submillimeter galaxies and ( u)lirgs , daddi et al find a parallel but offset `` starburst '' sequence , with @xmath142 ( corresponding to @xmath143 more star formation for the same gas surface density ) .
+we determined @xmath136 for our sample using the sfr estimates and half   light radius measurements discussed in [ sec : samp_dat ] .
+we have selected a chabrier imf for consistency with @xcite .
+these values of @xmath136 exceed the expectations for `` normal '' star forming galaxies by a median factor of 4 , based on @xmath144 alone ( i.e. assuming that _ all _ the gravitating mass is gas ) .
+the disagreement is significant at the @xmath145 level , relative to the 0.33 dex scatter in the scaling relation reported by @xcite .
+a factor of 4 would place the lyman @xmath0  galaxies in between the normal and starburst sequences , though closer to the starburst sequence .
+if we use @xmath146 in the scaling relations , we find that the median galaxy in our sample is forming stars at _ twice _ the rate expected even under the starburst scaling .
+the bottom line from this comparison is that lyman @xmath0  galaxies likely belong to a family of starbursting objects that includes ulirgs and submillimeter galaxies , despite order   of   magnitude differences in mass and star formation rates .    while the `` normal '' and starburst
+galaxies follow distinct @xmath136   @xmath147 relations , they obey a single relation when @xmath138 is replaced with the quantity @xmath148 , where @xmath149 is the dynamical time .
+we use @xmath150 to place our lyman @xmath0  galaxy sample on this relation also . while the lyman @xmath0  galaxies appear
+_ less _ unusual when measured against this relation , they remain systematically above the trend line found by @xcite .
+the difference is suggestive , rather than significant , being a @xmath111 effect .
+the median offset is a factor of @xmath151 in @xmath136 at fixed @xmath148 .
+this is comparable to the @xmath152 scatter in the relation as reported by @xcite ) .
+this possible deviation should be explored using a larger sample .
+the range of gas surface densities plotted in figure  [ fig : sfr_law ] is from @xmath153 to @xmath154 .
+based on a standard ratio of dust to gas column density , @xmath155 @xcite , this corresponds to @xmath156@xmath157 magnitudes of extinction . yet ,
+our sed fits suggest modest extinctions , @xmath158 , in all cases .
+there are a few possible explanations .
+first , the gas surface density could be much lower than one would expect for the observed level of star formation activity . in this case
+, the star formation vs. gas surface density scaling must be more extreme than even the starburst relation .
+second , the dust   to   gas ratio could be about 12 orders of magnitude lower than in the milky way .
+this would be most easily accommodated if the dust   to   gas ratio scales as the square of metal abundance .
+third , the extinctions inferred from sed fitting could be dramatic under   estimates .
+if so , these objects bolometric luminosity would mostly emerge in the rest   frame far infrared , making them readily detectible with submillimeter imaging ( cf .
+given our estimates of the dynamical mass , it is straightforward to determine the mean density within the effective radius for our sample .
+we find @xmath159 where we have used @xmath160 and @xmath161 .
+hierarchical structure formation models suggest that most collapsed galaxies at @xmath162 should be incorporated into early   type galaxies or disk galaxy bulges by the present epoch .
+we therefore compare the density measurements for lyman @xmath0  galaxies to corresponding densities for early   type galaxies and bulges in figure  [ fig : dense ] .
+the lyman @xmath0  galaxy densities are the mean density within the effective radius , derived dynamically and therefore inclusive of all gravitating mass . for disk galaxy bulges , we take an intermediate   redshift sample from @xcite . here
+we use the published effective radii and velocity dispersions to obtain dynamical estimates of density .
+we use two nearby elliptical galaxy samples ( one from @xcite , and one compiled by @xcite from earlier work by @xcite ) . for the @xcite sample , we determine densities from published @xmath16 and @xmath17 measurements ; while for the @xcite sample , we use plotted values of @xmath17 and @xmath163 .
+the lyman @xmath0galaxies are smaller at fixed density , and less dense at fixed radius , than are the nearby ellipticals and spiral bulges .
+on the other hand they tend to be smaller and denser than the handful of local ellipticals that have similar dynamical masses .
+we also compare to a sample of early type galaxies at @xmath164 @xcite , which overlaps our lyman @xmath0  sample in redshift . here , the lyman @xmath0  galaxies are of considerably lower density . in the samples from @xcite
+, we are using _
+stellar _ mass rather than dynamical mass , since @xmath16 is generally unavailable for the high   redshift early type galaxies .
+were dynamical masses available , we might expect these two samples to shift upwards in figure  [ fig : dense ] , but the effect would be modest , since the central regions of early type galaxies are likely dominated by mass in stars .
+the relation between initial overdensity and epoch of collapse ensures that bound galaxies at @xmath165 will , by the present epoch , be parts of more massive structures .
+we expect that the lyman @xmath0  galaxies we observe will grow through some combination of merging and smooth accretion .
+merging can proceed either without dissipation , as expected for pure mergers of stellar systems ( `` dry mergers '' ) ; or with dissipation , as generally expected for gas   rich objects .
+conservation of energy and the virial theorem can be combined to infer the expected evolution of radius with mass for dry mergers , both in the limit of equal   mass ( `` major '' ) mergers , and in the limit of large mass ratio ( `` minor '' ) mergers . for major mergers ,
+we expect @xmath166 , while for minor , we expect @xmath167 ( e.g. , * ? ? ? * ) . in figure
+[ fig : dense ] , these correspond to @xmath168 for major mergers , and @xmath169 for minor .
+we plot vectors for both scalings .
+these show that the lyman @xmath0  galaxies we observe can not grow to reproduce the observed masses , sizes , and densities of modern elliptical galaxies through simple dry merging . instead , dissipational
+( `` wet '' ) merging is required , in order to grow the galaxies at approximately constant mass density .
+we have performed the first study of dynamical masses for high redshift lyman @xmath0  galaxies , using a sample of nine objects assembled from four samples @xcite .
+such studies have been previously impractical , given small sizes that require hst imaging for size measurements @xcite , faint continuum that precludes absorption line measurements , and redshifts that require near   infrared spectroscopy to access those emission lines most useful for kinematic line width measurements .
+we measure dynamical masses ranging from @xmath170 to @xmath171 .
+we combine these dynamical masses with stellar masses , to study the position of lyman @xmath0  galaxies on a version of the stellar mass tully   fisher relation between mass and line width . to derive stellar masses consistently for the full sample
+, we fitted population models to extensive multiband photometry covering rest wavelengths from lyman @xmath0to beyond the 4000  break .
+this affords constraints on young stars , older stars , and dust .
+we find that the lyman @xmath0  galaxies are broadly consistent with the stellar mass tully   fisher relation established at lower redshift .
+thus , whatever physical conditions allow the production and escape of significant lyman @xmath0 , they do not result in strong departures from the linewidth   mass relation .
+on the other hand , about half the sample galaxies are consistent with stellar masses significantly below their dynamical masses . in these cases
+, there is a possibility of a dynamically significant reservoir of gas that is present in the inner kpc region and provides fuel for ongoing star formation .
+the dynamical mass measurements are in fact the most powerful constraint we have on the presence of old stars in the sample galaxies . in most cases ,
+the stellar population fits allow up to @xmath172 of old stars before the resulting light appreciably degrades the quality of the sed fit .
+however , dynamical constraints place a tighter limit of @xmath173 on the total mass for the galaxies in our sample .    by using the dynamical masses as an upper bound on the gas mass , and using the h@xmath0 line measurements and/or stellar population fits to infer star formation rates , we have examined the way the lyman @xmath0galaxies fall on the scaling relations for star formation .
+we conclude that they form stars more actively than the `` normal '' star forming galaxy population at comparable gas mass surface density .
+their behavior is consistent with that observed in starburst galaxies , despite the typically smaller masses and sizes of the lyman @xmath0  galaxy population .
+the dynamical masses we infer remain 12 orders of magnitude below the characteristic dark halo masses inferred from the clustering of lyman @xmath0  galaxies .
+since the ratio of baryonic to dark mass should be globally uniform at around 14% , we infer that a significant part of the baryonic matter associated with these halos has not yet accreted to the central , where the active star formation is observed .    finally , we examined densities of these objects . while hierarchical structure formation models suggest that small galaxies at @xmath1743 should become parts of early type galaxies or spiral bulges by @xmath175 , the lyman @xmath0  galaxies are of smaller size and comparable density to present day elliptical galaxies , and of comparable size but smaller density than present day spiral galaxy bulges .
+if the lyman @xmath0  galaxies are to evolve into either , they must do so through dissipational merging .
+this is consistent with the picture of lyman @xmath0  galaxies as young , starbursting galaxies , whose present properties and future evolution include a large role for gas physics .
+we thank the dark cosmology centre and the nordea fonden in copenhagen , denmark , for hospitality during the completion of this work .
+we thank ignacio ferreras and sune toft for helpful discussions .
+this work has been supported by the us national science foundation through nsf grant ast 0808165 . based in part on observations obtained at the gemini observatory , which is operated by the association of universities for research in astronomy , inc .
+, under a cooperative agreement with the nsf on behalf of the gemini partnership : the national science foundation ( united states ) , the science and technology facilities council ( united kingdom ) , the national research council ( canada ) , conicyt ( chile ) , the australian research council ( australia ) , ministrio da cincia , tecnologia e inovao ( brazil ) and ministerio de ciencia , tecnologa e innovacin productiva ( argentina ) .
+this work was supported in part by a nasa keck pi data award , administered by the nasa exoplanet science institute .
+some data presented herein were obtained at the w. m. keck observatory from telescope time allocated to the national aeronautics and space administration through the agency s scientific partnership with the california institute of technology and the university of california .
+the observatory was made possible by the generous financial support of the w. m. keck foundation .
+the authors wish to recognize and acknowledge the very significant cultural role and reverence that the summit of mauna kea has always had within the indigenous hawaiian community .
+we are most fortunate to have the opportunity to conduct observations from this mountain .

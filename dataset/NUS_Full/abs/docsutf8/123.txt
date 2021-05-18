@@ -1,0 +1,33 @@
+Learning Concepts from Large Scale Imbalanced Data Sets Using Support Cluster Machines
+ABSTRACT
+This paper considers the problem of using Support Vector
+Machines (SVMs) to learn concepts from large scale imbalanced
+data sets.
+The objective of this paper is twofold.
+Firstly, we investigate the effects of large scale and imbalance
+on SVMs.
+We highlight the role of linear non-separability
+in this problem. Secondly, we develop a both
+practical and theoretical guaranteed meta-algorithm to handle
+the trouble of scale and imbalance.
+The approach is
+named Support Cluster Machines (SCMs). It incorporates
+the informative and the representative under-sampling mechanisms
+to speedup the training procedure. The SCMs differs
+from the previous similar ideas in two ways, (a) the theoretical
+foundation has been provided, and (b) the clustering
+is performed in the feature space rather than in the input
+space. The theoretical analysis not only provides justification
+, but also guides the technical choices of the proposed
+approach. Finally, experiments on both the synthetic and
+the TRECVID data are carried out. The results support
+the previous analysis and show that the SCMs are efficient
+and effective while dealing with large scale imbalanced data
+sets.
+Categories and Subject Descriptors
+H.3.1 [Information Storage and Retrieval]: Content
+Analysis and Indexing--Abstracting methods,Indexing methods
+; I.5.2 [Pattern Recognition]: Design Methodology-Classifier
+design and evaluation
+General Terms
+Algorithms, Theory, Experimentation

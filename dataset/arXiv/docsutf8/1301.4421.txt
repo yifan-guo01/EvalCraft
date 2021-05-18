@@ -1,0 +1,359 @@
+the main goal of this paper is to develop a general theory of flag bicolorings and the related concepts of coverings and pseudo - orientations .
+the idea of consistent colorings of the flags of a map with two colors has appeared previously in literature in different contexts .
+for instance , when the automorphism group of a map which is a polytope has two orbits on the flags , we may color the flags with two colors in such a way that flags in different orbits have different colors .
+these are called 2-orbit maps in @xcite , but this investigation requires the extra property that the maps be abstract .
+specific @xmath0-colorings of flags are equivalent to the concept of @xmath1-_compatible _ maps introduced in @xcite , where @xmath1 is a class of @xmath0-orbit maps .
+this concept , generalized to hypermaps is called @xmath1-_conservative _ in @xcite . in all these instances ,
+the colorings are used as a tool to work with automorphisms of maps .
+although some of the motivations behind the bicoloring of flags come from maps admitting symmetries , the ideas can be applied to general maps . in this work
+we shall not make assumptions on the automorphism groups of the maps in consideration .
+maps admitting a bicoloring of flags in which adjacent flags have different colors are precisely maps on orientable surfaces ( see proposition [ oble012 ] ) .
+although the other types of bicolorings of flags that we consider in this paper do not have a known topological equivalence , some results on orientability do translate directly to analogous results on bicolorability . in this sense
+we may think of bicolorings of flags as a generalization of orientability of maps .
+the paper is organized as follows .
+sections [ sec : maps ] , [ sec : ori ] , [ sec : col ] introduce the concepts of maps , pseudo - orientations and bicolorings , respectively . a relationship between pseudo - orientability and bicolorings
+is provided in section [ sec : colori ] .
+section [ sec : op ] explores the impact on bicolorability of operations on maps . in section [ sec : doubles ] , we discuss a natural double cover of every map which is not bicolorable .
+the set of bicolorings of any map can be given a natural group structure . in section
+[ sec : everygroup ] we determine , for each possible group , which surfaces admit maps with the given group of bicolorings .
+finally , in section [ sec : mpx ] , we generalize some of the results about maps to higher dimensional structures .
+a map @xmath2 is , first and foremost , an embedding of a graph ( or pseudograph ) on a ( compact , connected ) surface so that the components of the complement of the embedding ( called _ faces _ ) are topologically open disks .
+we can , for example , regard the cube as an embedding of the graph @xmath3 on the sphere .
+the graph @xmath3 is an example of a graph which is _ bipartite _ ,
+i.e. , its vertices can be colored with two colors so that every edge joins vertices of opposite colors . when speaking about maps , we will use the term _ vertex - bipartite _ to describe a map @xmath2 whose underlying graph is bipartite .
+similarly , we will call @xmath2 _ face - bipartite _ provided its faces can be colored with two colors so that each edge separates faces of opposite colors .
+we will call @xmath2 _ edge - bipartite _ provided that the edges can be colored with two colors so that edges which are consecutive around a face ( and hence around a vertex ) have different colors .    to look more closely at the structure of a map , we find the following subdivision useful : choose a point in the interior of each face to call its _ center _ and a point in the relative interior of each edge to be its _
+midpoint_. draw dotted lines to connect each face - center with each incidence with the surrounding vertices and edge - midpoints .
+the original edges and these dotted lines divide the surface into triangles called _ flags_. figure [ fig : cubeflags ] shows the subdivision of the cube into flags .        if a face meets a vertex ( or an edge ) more than once , we emphasize that the face center is connected to each incidence  each appearance  of the vertex or midpoint .
+for instance , consider the map @xmath4 shown in the left of figure [ fig : m4 ] .
+this map has only one face , an octagon , four edges and only one vertex .
+nonetheless , the dissection into flags draws 16 dotted lines , dividing the octagon , and the map , into 16 flags , as shown on the right .    ,
+title="fig:",height=113 ] , title="fig:",height=113 ]    each flag corresponds to a mutual incidence of face , edge , and vertex , though different flags may correspond to the same triple .
+let @xmath5 be the set of flags .
+then let @xmath6 be the permutations on @xmath5 which match each flag @xmath7 with its three immediate neighbors , as in figure [ fig : flags ] .        in that figure
+, we see that @xmath7 and @xmath8 are adjacent along a face - center - to - edge - midpoint line .
+thus @xmath7 and @xmath9 differ only in their incidences to a vertex , a 0-dimensional face of @xmath2 . similarly , @xmath7 and
+@xmath10 differ only in their incidences to an edge , a 1-dimensional face , while @xmath7 and @xmath11 differ only in their incidences to a 2-dimensional face .
+notice from figure [ fig : flags ] that the flag @xmath12-adjacent to @xmath8 is also @xmath13-adjacent to @xmath14 .
+in other words , as permutations on @xmath15 and @xmath12 commute .    we can take a slightly more abstract point of view by defining a map to be a pair @xmath16)$ ] where @xmath5 is a set of things called _ flags _ , the @xmath17 s and @xmath18 are fixed point free permutations of order 2 on @xmath5 , the _ connection group _
+@xmath19 is transitive on @xmath5 , and @xmath13 and @xmath12 commute .
+this @xmath20 is often called the _ monodromy group _ of the map .
+we can then think of vertices in @xmath2 as orbits of @xmath21 in @xmath20 .
+similarly , edges correspond to orbits of @xmath22 and faces to orbits of @xmath23 .
+we will use the word _
+kite _ or _
+corner _ for the area within a face where two consecutive edges meet .
+more formally , a kite is the union of two flags which are @xmath24-adjacent .    if @xmath2 and @xmath25 are maps on surfaces @xmath26 and @xmath27 , a _ projection _ from @xmath25 to @xmath2 is a function @xmath28 mapping @xmath27 to @xmath26 which is locally a homeomorphism at all points of @xmath25 except perhaps at vertices and/or face - centers , and which sends faces to faces , edges to edges , and vertices to vertices .    in combinatorial terms , if @xmath29)$ ] and @xmath30)$ ] , a projection of @xmath25 to @xmath2 is a function @xmath28 mapping @xmath31 to @xmath5 such that @xmath32 for all @xmath33 .
+we call such an @xmath25 a _ cover _ of @xmath2 . notice that if @xmath25 is a cover of @xmath2 , and the pre - image of some one flag in @xmath2 has size @xmath0 , then the projection @xmath28 is @xmath0-to-1 onto every flag of @xmath2 .
+we say then that @xmath25 is a _
+@xmath0-fold _ cover of @xmath2 .
+we call a map _ orientable _ provided that the surface on which it is embedded is itself orientable .
+we check that a map is orientable by giving it a _ face orientation _ ; this is an assignment of a circular arrow to each face of @xmath2 such that at every edge , the arrows on the faces joined by the edge point along the edge in _ opposite _ directions , as in figure [ fig : faceori ] .
+we can define a _
+vertex orientation _
+similarly , and it is clear that @xmath2 has a vertex - orientation if and only if it has a face - orientation , and this happens if and only if @xmath2 is orientable .        the word _
+pseudo - orientation _ has been used in two different ways .
+we will use the term _ vertex pseudo - orientation _ ( vpso for short ) for what is called in @xcite simply a pseudo - orientation . here , we mean an assignment of one circular arrow to each vertex so that at each edge the two arrows cross in the _ same _ direction , as in figure [ fig : pso ] .
+if we visualize a gear wheel at each vertex so that cogs on the wheels of adjacent vertices mesh , the map is vpso if we can turn one wheel , causing all wheels to turn at the same time .    in @xcite ,
+the idea is used to make an important distinction about @xmath0-fold rotary covers of a rotary map @xmath2 for which the branching is totally ramified at vertices . if @xmath2 is non - orientable , @xmath0 can be larger than 2 only if @xmath2 is vertex pseudo - orientable .
+similarly , a _
+face pseudo - orientation _ ( or fpso ) is an assignment of one circular arrow to each face , as in figure [ fig : pso ] , so that at each edge , the arrows in adjacent faces flow along the edge in the _ same _ direction
+. we can simplify this by orienting each edge so that the cycle of edges around each face is consistently oriented .    in @xcite this
+is called a pseudo - orientation , and the result in that paper is that the _ dart graph _ of @xmath2 is connected if and only if @xmath2 is not face pseudo - orientable .
+finally , we may define an _ edge pseudo - orientation _ ( or epso ) to be an orientation of the edges such that in every face the direction of the arrows in adjacent edges flows in the _ same _ direction ( either into or out of the face ) as in figure [ fig : pso ] .
+in this paper , the word ` coloring ' will be used to describe what might be more fully notated as a ` consistent flag 2-coloring ' .
+if @xmath34 is any subset of @xmath35 , then an @xmath34-coloring of a map @xmath2 is a function @xmath36 such that for every flag @xmath7 , if @xmath37 , then @xmath38 , while if @xmath39 , then @xmath40 . to say that in another way ,    @xmath41 figure [ fig : cubecols ] shows a @xmath42-coloring , a @xmath43-coloring , and an @xmath44-coloring of the cube .
+the reader should check that the colorings extend unambiguously to the unseen faces of the cube as well .
+let us first notice that if @xmath45 is an @xmath34-coloring of @xmath2 , then so is @xmath46 , and these are , in fact , the only @xmath34-colorings of the map
+.    give the name _ sub - edge _ to the segments forming sides of the flags .
+these are of three types :    type 0 : :    : midpoint - of - edge to face - center , type 1 : :    : face - center to vertex , type 2 : :    : vertex to midpoint - of - edge .
+each flag @xmath7 is adjacent to flag @xmath47 along their mutual sub - edges of type @xmath48 . if @xmath2 is @xmath34-colorable , therefore , the sub - edges bounding each color are the sub - edges of types in @xmath34 .    note that when considering maps in class @xmath49 as defined in @xcite , the subset @xmath34 is used to indicate that @xmath48-adjacent flags belong to the _ same _ orbit
+this means that maps in class @xmath49 admit an @xmath50-coloring . in the context of colorings
+it turns out to be more practical to define @xmath34-coloring requiring @xmath48-adjacent flags to be a different color rather than requiring @xmath48-adjacent flags to be the same color if and only if @xmath51 .
+let @xmath52 stand for the symmetric difference operation : @xmath53 .
+let @xmath54 be the power set of @xmath44 .
+it is well - known that @xmath54 is a group under @xmath52 and it is an elementary abelian group of order eight whose identity element is @xmath55 .    [ delta ] if a map @xmath2 admits an @xmath34-coloring and a @xmath56-coloring , then it admits an @xmath57-coloring .
+proof : it is easy to verify that the sum of an @xmath34-coloring and a @xmath56-coloring is an @xmath57-coloring    ' '' ''    from this proposition we see that , for each map @xmath2 , the sets @xmath34 for which @xmath2 has an @xmath34-coloring form a set @xmath58 which is a subgroup of @xmath54 .      whenever @xmath34 is a subset of size 1 , @xmath34-colorable maps have a nice characterization .
+[ vbip ] a map @xmath2 is vertex - bipartite if and only if @xmath2 has a @xmath42-coloring .
+proof : given such a coloring , all the flags incident with one vertex will be the same color , while those at an adjacent vertex will be the other color . this is a bipartite coloring of the vertices .
+conversely , given a bipartition of the vertices , color all flags incident with black vertices with color 1 and all those incident with white vertices with color 0 .
+this is then a @xmath42-coloring of @xmath2 .    ' '' ''
+similar proofs lead us to these :    [ fbip ] a map @xmath2 is face - bipartite if and only if @xmath2 has a @xmath59-coloring .
+( _ i.e. _ a @xmath59-coloring corresponds to a bipartite coloring of the faces of @xmath2 . )    [ ebip ] a map @xmath2 is edge - bipartite if and only if @xmath2 has a @xmath60-coloring .
+( _ i.e. _ a @xmath60-coloring corresponds to a bipartite coloring of the edges of @xmath2 . )
+consider a _
+@xmath61 of flags in a map @xmath2 .
+we abbreviate that @xmath62 , where @xmath63 is the string @xmath64 .
+write @xmath65 for @xmath66 .
+we call a cycle @xmath62 _ @xmath34-consistent _ if the number of occurrences in @xmath63 of indices which are in @xmath34 is even .
+if @xmath62 is @xmath34-consistent , this says that , at least along the cycle , we can color flags from two colors so that flags which are @xmath48-connected for @xmath67 are the same color and those for which @xmath51 are not . a cycle which is not @xmath34-consistent is _ @xmath34-inconsistent_. it follows , then that @xmath2 is @xmath34-colorable if and only if every cycle in @xmath2 is @xmath34-consistent .
+consider this quite general fact : for any function @xmath68 from a set @xmath69 to @xmath70 , extend @xmath68 to the power set of @xmath69 by @xmath71 for each subset @xmath72 of @xmath69 .
+then for any subsets @xmath73 of @xmath69 , it is clear that @xmath74 .
+[ lemma13 ] for any subsets @xmath75 of @xmath44 , if @xmath76 , then every cycle in @xmath77 is consistent either for exactly one of @xmath78 or for all three .
+proof : fix a cycle @xmath62 of @xmath2 , and define @xmath68 on @xmath44 with @xmath79 being the parity of the number of occurrences in @xmath63 of @xmath17 ; furthermore , consider @xmath68 extended to @xmath54 .
+the cycle is @xmath34-consistent , then , provided that @xmath80 .
+now consider @xmath81 .
+these are elements of @xmath70 , and so we can rephrase that in this form : @xmath82 .
+the number of zeros in @xmath83 must be 1 or 3 ; the conclusion follows directly .    ' '' ''
+we will have use for this lemma in section [ sec : doubles ] .
+a natural operator in topology is the _ connected sum _ of two surfaces , which is defined to be the surface formed by cutting a small disk from each of the two surfaces and attaching them along the newly created border .
+we extend this definition to maps by causing the attachment sets to be the boundaries of two suitably chosen faces .
+formally , let @xmath29)$ ] and @xmath30)$ ] be maps and suppose @xmath84 and @xmath85 are flags of these maps for which their respective faces @xmath86 and @xmath87 have the same number @xmath0 of sides . furthermore
+, suppose that no flag of @xmath86 is @xmath12-connected to any of the flags of @xmath86 , and similarly for @xmath87 .
+then we define the _ connected sum _
+@xmath88 with respect to @xmath89 to be the map whose flag set is @xmath90 , with connections @xmath91 , where @xmath92 and @xmath93 are the restrictions of @xmath94to this set , and @xmath95 is the same except that , for each @xmath96 is @xmath95-connected to @xmath97 and @xmath98 is @xmath95-connected to @xmath99 . because of the restriction on the faces , these flags are both in the new flag set , and it is easy to check that @xmath100 .
+the following figure illustrates this construction :        [ th : oplus ] suppose @xmath2 and @xmath25 are @xmath34-colorable maps for some @xmath101 and suppose @xmath88 exists for some flags @xmath84 and @xmath85 .
+then @xmath88 is @xmath34-colorable .
+proof : choose an @xmath34-coloring for @xmath2 and one for @xmath25 in such a way that @xmath84 and @xmath85 have opposite colors if @xmath102 and the same color if @xmath103 . then the induced coloring provides the desired coloring on @xmath104 .    ' '' ''    as we ll see in the following theorem , it is almost always the case that the group @xmath105 is equal to @xmath106 .
+this can fail , roughly , when for some @xmath107 , @xmath108 is @xmath34-colorable but @xmath2 is not , or similarly for @xmath25 .
+[ t : plus ] suppose @xmath2 and @xmath25 are maps and suppose @xmath88 exists for some flags @xmath84 and @xmath85 .
+furthermore , suppose that for each @xmath109 there exists an @xmath34-inconsistent cycle that does nt include any of the flags of face @xmath86 , and similarly for @xmath25
+. then @xmath110 .
+proof : for @xmath107 , if @xmath111 , then @xmath112 by proposition [ th : oplus ] . if @xmath113 , then without loss of generality , assume that @xmath2 is not @xmath34-colorable
+. then @xmath2 has cycles which are @xmath34-inconsistent , and by the hypothesis , at least one of them includes none of the flags in @xmath86 .
+this cycle , then , occurs in @xmath88 , and is still @xmath34-inconsistent .
+thus @xmath114 .    ' '' ''
+we now offer and prove a series of propositions connecting the ideas of orientations and colorings .
+first , we show a collection of easy facts to embody our belief that colorings generalize orientations .
+we then generalize these facts in theorem [ thm : super ] .
+[ oble012 ] a map is orientable if and only if it has an @xmath44-coloring .
+proof : if @xmath2 has an @xmath44-coloring , orient each face so that , along each edge , the orientation points from the flag with color 0 to the flag with color 1 .
+this is consistent within the face and faces that meet along an edge have orientations which meet correctly .
+conversely , given the orientation , assign colors so that along each edge within a face , the orientation points from the flag with color 0 to the flag with color 1 .
+this causes colors to alternate within each face . because the orientation opposes the orientation in each adjacent face , the colors alternate at each edge , giving an @xmath44-coloring .    ' '' ''    similar arguments give us the following two propositions :    [ th : fpso01 ] a map @xmath2 has a face pseudo - orientation if and only if @xmath2 admits a @xmath115-coloring .
+[ vpso12 ] a map @xmath2 has a vertex pseudo - orientation if and only if @xmath2 admits a @xmath43-coloring .
+our aim in this subsection is to generalize the definition of pseudo - orientability and the previous results . for any subset @xmath34 of @xmath44 ( except @xmath55 )
+, we form the map @xmath116 whose faces are the regions formed by conjoining flags which are connected by each @xmath17 for which @xmath67 . for example , if @xmath2 is the cube , then @xmath117 and @xmath118 are shown below .     and
+@xmath118 ]    notice that the boundaries of the faces in @xmath120 are the sub - edges of types that are _ in _ @xmath34 .
+thus @xmath2 is @xmath34-colorable if and only if @xmath120 is face - bipartite .
+however , the map @xmath120 can be constructed even if @xmath2 is not @xmath34-colorable .
+we call @xmath2 _ @xmath34-pseudo - orientable _ provided that @xmath121 is face pseudo - orientable
+. if this happens , we can orient the edges of @xmath69 so that around each face of @xmath69 , the arrows all point the same way .
+we say a map is @xmath55-pseudo - orientable when it is orientable .
+it is clear that @xmath122 and so @xmath59-pso is equivalent to fpso .
+observation [ th : fpso01 ] shows that this happens exactly when @xmath2 is @xmath115-colorable .
+similarly , @xmath2 is @xmath42-pso when it is vpso , and this happens exactly when @xmath2 is @xmath43-colorable .
+surprisingly , this generalizes completely :    [ thm : super ] let @xmath2 be a map .
+then @xmath2 is @xmath34-pseudo - orientable if and only if @xmath2 is @xmath123-colorable .
+proof : first , recall that the sub - edges of @xmath2 are of three different types :    type 0 : :    : midpoint - of - edge to face - center , type 1 : :    : face - center to vertex , type 2 : :    : vertex to midpoint - of - edge .
+furthermore , let us think of the sub - edges as directed .
+call the directions above the ` standard ' orientations for the sub - edges , and the reverse of these are the non - standard orientations .    in order to form @xmath121 ,
+we delete or ignore sub - edges of each type @xmath124 , so we only consider sub - edges of type in @xmath34 .
+suppose @xmath2 is already @xmath123-colored .
+then in @xmath120 , both flags around each sub - edge have the same color
+. then we may assign this as the color of the sub - edge .
+now give every sub - edge with color 0 the standard orientation , and each sub - edge with color 1 the non - standard direction .
+if @xmath34 has 2 elements , then consecutive sub - edges around a face of @xmath69 of different types are the same color , while those of the same type are opposite colors .
+this causes the directions to be consistent about a face . on the other hand ,
+if @xmath34 has only one element , then the sub - edges around a face of @xmath69 alternate in color and are all of the same type ; again , this forces the orientation to be consistent .
+the following examples show how this works :    1 .   if @xmath125 , then by definition the map is @xmath34-pseudo - orientable if and only if it is orientable , and this happens if and only if it is @xmath44-colorable .
+2 .   if @xmath126 , then @xmath127 , which is face pseudo - orientable if and only if it is @xmath115-colorable . in this case , we orient black type 2 sub - edges from vertex to midpoint - of - edge but white type 2 sub - edges from midpoint - of - edge to vertex .
+if @xmath128 , we orient black type 1 sub - edges from vertex to face - center and black type 2 sub - edges from midpoint - of - edge to vertex .
+we orient the opposite colors in the opposite direction : +    4 .   if @xmath129 , the @xmath55-coloration colors all sub - edges the same and so the faces of @xmath69 , the flags of @xmath2 , are all oriented consistently .
+every map is @xmath55-colorable and every map is @xmath44-pso .
++     for the converse we may use the orientation to color in the way prescribed to match the previous list .    ' '' ''      we summarize here the results of previous sections relating to the question of which maps have @xmath34-colorings for a given @xmath34 .    [ cols=">,<,^",options="header " , ]     proof : the medial of any map always admits a @xmath59-coloring ( face - bipartition ) , since we have two types of faces : those that surround vertices of @xmath2 , and those that surround face - centers of @xmath2 . for the first row ,
+if the map is edge - bipartite , then we may color each vertex of the medial with the color corresponding to the color of the edge it was the midpoint of and vice - versa . for the second ,
+note that an edge of the medial corresponds to a kite of the original .
+finally , the medial maps lies on the same surface as the original .    ' '' ''
+given a map @xmath29)$ ] and a subset @xmath34 of @xmath35 , we define the _ @xmath34-double _ of @xmath2 , denoted @xmath130 , to be the map @xmath131)$ ] , where    @xmath132 here , we write `` @xmath133 '' for @xmath134 .
+notice that the function sending @xmath133 to @xmath7 is a projection of @xmath25 onto @xmath2 , and so @xmath130 is a covering of @xmath2 . also notice that the function which sends @xmath133 to @xmath135 , is an @xmath34-coloring of @xmath130 .
+now , if @xmath2 has an @xmath34-coloring , then @xmath130 consists of two disjoint copies of @xmath2 ; in this case we discard one copy and say that @xmath130 is isomorphic to @xmath2 . if @xmath2 does not have an @xmath34-coloring then @xmath130 truly is a double cover ( i.e. , a 2-fold topological covering which may or may not be branched at vertices and/or face - centers ) of @xmath2 . in this case , for every cycle @xmath62 in @xmath2 , if it is @xmath34-consistent , then @xmath136 , and @xmath137 , and so the cycle is covered by two cycles of the same length . and if @xmath62 is @xmath34-inconsistent , then @xmath138 , and @xmath139 .
+then the cycle @xmath62 is covered by a single cycle of twice the length of @xmath62 . in that case the covering cycle is @xmath140 , which is consistent for any subset of @xmath44 .
+we have remarked above that the map @xmath130 always has an @xmath34-coloring .
+moreover , we claim , it is universal minimal in the sense of the following proposition :    [ th : mindub ] if @xmath25 is any map that is a covering of @xmath2 and which is @xmath34-colorable , then @xmath25 must itself cover @xmath130 .
+proof : let @xmath45 be an @xmath34-coloring of @xmath25 and let @xmath28 be a projection of @xmath25 onto @xmath2 . define @xmath141 mapping @xmath25 onto @xmath130 to send the flag @xmath7 of @xmath25 to the flag @xmath142 of @xmath130 . because @xmath45 is an i - coloring of @xmath25 , this @xmath141 is a projection , as required .    ' '' ''    an example of a double covering is @xmath143 when @xmath2 is a non - orientable map . because @xmath2 does not have an @xmath44-coloring
+, @xmath25 is truly a double cover of it , and since @xmath25 then _ does _ have an @xmath44-coloring , it must be orientable and so @xmath25 is the orientable twofold cover ( some say the _ canonical _ cover ) of @xmath2 .
+another example of the double construction in the literature comes from sherk s 1962 paper @xcite . at that time few non - toroidal chiral maps were known .
+sherk constructed an infinite family of such maps on an infinite number of different surfaces , using a simple and clever technique .
+starting with a chiral map @xmath2 on the torus , with triangles as faces and six of them incident to each vertex , he made a new map @xmath25 in the following way .
+for each vertex @xmath144 of @xmath2 , he created vertices @xmath145 ; for each edge @xmath146 , he made edges @xmath147 and @xmath148 ; and each triangular face @xmath149 $ ] became a hexagonal face @xmath150 $ ] .
+this map has hexagonal faces , still meeting 6 at a vertex .
+thus if @xmath2 had @xmath151 vertices , @xmath152 faces and @xmath153 edges , then @xmath25 has @xmath152 vertices , @xmath152 faces and @xmath154 edges .
+it follows that @xmath25 must lie on the orientable surface of characteristic @xmath155 , i.e. , of genus @xmath156 . from our point of view
+, we can construct @xmath25 as @xmath157 .    as a final example
+, the reader might like to verify that if @xmath158 is the tetrahedron then @xmath159 is the orientable map with hexagonal faces , six of them around each vertex , shown in figure [ fig:1yt ] .    ,
+height=170 ]      we present here some of the facts about @xmath34-doubles :    [ th : jup ] if @xmath2 has a @xmath34-coloring then so does any @xmath160
+.    proof : in fact , by definition _ any _ covering of @xmath2 inherits an @xmath34-coloring from that of @xmath2 .    ' '' ''    [ t : idj ] if @xmath2 has a @xmath56-coloring then any @xmath130 is isomorphic to @xmath161 .
+proof : for any map @xmath2 , @xmath130 is the smallest covering of @xmath2 which admits an @xmath34-coloring . if @xmath2 has a @xmath56-coloring , then @xmath130 has a @xmath56-coloring as well .
+thus , by proposition [ delta ] , @xmath130 admits an @xmath162-coloring , and whether @xmath2 has an @xmath34-coloring or not , this covering of @xmath2 must be minimal of those admitting an @xmath162-coloring .
+thus @xmath163 .    ' '' ''    the following two results summarize the examples given above .    if @xmath2 is non - orientable , then @xmath164 is isomorphic to the orientable double covering of @xmath2 .
+we say that a map @xmath25 is the _ sherk double cover _ of a non - vertex - bipartite map
+@xmath2 whenever @xmath25 can be obtained from @xmath2 by the above procedure used by sherk to obtain the chiral maps with hexagonal faces
+.    if @xmath2 is not vertex - bipartite , then @xmath157 is isomorphic to its sherk double cover .
+note that @xmath42 , @xmath60 , @xmath59 generate @xmath54 under @xmath52 , and so if @xmath2 is any map , then @xmath165 has @xmath166 , and so @xmath25 is an un - double - able map in our context .
+[ th : dubgp ] for any map @xmath2 and any subset @xmath34 of @xmath44 , @xmath167    proof : this is obvious if @xmath168 .
+if not , it is clear that @xmath169 is contained in @xmath170 , and so we need only to show that the opposite containment holds .
+this is equivalent to showing that if @xmath171 and @xmath172 , then @xmath173 ( see proposition [ t : idj ] ) .
+let @xmath174 and note that , if @xmath175 , then @xmath25 is a @xmath56-colorable double cover of @xmath2 ; by proposition [ th : mindub ] , @xmath25 must be isomorphic to @xmath176 . because @xmath172 , there is some cycle @xmath62 which is @xmath56-inconsistent . if any such cycle is @xmath34-consistent , then in @xmath25 , the cycle @xmath177 has the same length as @xmath62 , and so is
+also @xmath56-inconsistent , contradicting @xmath175 .
+thus every cycle which is @xmath56-inconsistent is also @xmath34-inconsistent .
+a similar argument in @xmath178 shows that every cycle in @xmath2 which is @xmath34-inconsistent is also @xmath56-inconsistent .
+therefore every cycle is either consistent for both , or inconsistent for both . by lemma [ lemma13 ] ,
+every cycle in @xmath2 is @xmath76-consistent , and then @xmath179 , as required .    ' '' ''
+we want to generalize the result from @xcite which says , loosely speaking , that a reflexible map is a 2-fold orientable cover of a non - orientable reflexible map if and only if its rotation group contains an involutory element which conjugates each of the generators to its inverse .
+to re - phrase that in our context , a reflexible map @xmath25 which has an @xmath44-coloring is an @xmath44-double of some reflexible map @xmath2 which does not have such a coloring if and only if the subgroup of @xmath180 which preserves colors in the coloring contains an involutory element which conjugates each of the generators ( of the color - preserving group ) to its inverse .
+if @xmath25 is @xmath34-colorable , let @xmath45 be either of the @xmath34-colorings of @xmath25 and define @xmath181 to be the subgroup of @xmath182 consisting of all @xmath183 such that @xmath184 for all @xmath185 . because @xmath25 is @xmath34-colorable , this group has index 2 , and so is normal , in @xmath182 .
+note that theorem [ t : isdouble ] generalizes the result from @xcite not only to all @xmath34-colorings , but also to maps with no assumption on their automorphism group .
+[ t : isdouble ] a map @xmath186)$ ] is @xmath130 for some non-@xmath34-colorable map @xmath187)$ ] if and only if @xmath25 is @xmath34-colorable and there exists @xmath51 and @xmath188 of order 2 such that for every element @xmath189 , @xmath190 .
+* proof * : first , assume @xmath174 with @xmath2 a non-@xmath34-colorable map .
+we will prove the existence of @xmath183 .
+the group @xmath191 has index 2 in @xmath182 , and there is an isomorphism @xmath192 which is the letter - to - letter projection , @xmath193 whenever the word @xmath194 is in @xmath191 and so has an even number of indices in @xmath34 .    because @xmath77 is not @xmath34-colorable , @xmath34 is not empty .
+so consider any @xmath51 and let @xmath195 .
+note that @xmath183 is an involution since @xmath7 is an isomorphism .
+this @xmath183 is not @xmath17 , since @xmath196 ; it is , instead , expressible as some longer product of @xmath197 s .
+then for any @xmath198 we have @xmath199 , while @xmath200 , since @xmath201 is in @xmath202 , and @xmath7 acts there as letter - to - letter projection .
+since @xmath7 is an isomorphism and hence one - to - one , we conclude that @xmath203 .    now assume we have @xmath188 of order 2 and @xmath204 such that for every element @xmath205 , @xmath190 .
+in particular , with @xmath206 , we have @xmath207 . from this
+we see that @xmath208 .
+we then construct @xmath2 by identifying flags in the following consistent way : let @xmath209 , so that @xmath210 is an involution .
+we shall identify flag @xmath185 with @xmath211 . because @xmath210 is an involution
+, this identification is unambiguous , and each flag is identified with exactly one other . since @xmath183 preserves coloring and @xmath17 changes it , we are identifying a white flag with a black flag .
+these equivalence classes are the flags of @xmath2
+.    then we have to define the connectors @xmath212 and @xmath213 of @xmath2 .
+notice that for every @xmath214 we have @xmath215 , so @xmath210 commutes with all of @xmath191 .
+but @xmath191 has index 2 , and @xmath216 so @xmath210 commutes with all of @xmath182
+. then we define @xmath217)s_j = [ f r_j , f u r_j = f r_j u]$ ] .
+the @xmath218 s are well defined and we can easily see @xmath219 and @xmath213 commute , since @xmath13 commutes with @xmath12 .
+to see that @xmath25 is the @xmath34-double cover of @xmath2 , identify each black flag @xmath7 of @xmath25 with the flag @xmath220_1 $ ] of @xmath130 , and each white flag @xmath7 with the flag @xmath220_0 $ ] .    ' '' ''    in order to use this theorem we would , in theory , need to prove the existence of @xmath183 and observe that under conjugation , @xmath183 acts in the same way as some @xmath17 on _ every _ element of @xmath221 . but in practice , we only need to find @xmath183 that acts in such a way for the _ generators _ of @xmath221 . the element @xmath17 must not be in @xmath202 and so we will refer to it as an _ external generator_. table i below summarizes information about each subset @xmath34 of @xmath44 . the second column ( adapted from @xcite )
+gives generators for @xmath221 as a subgroup of @xmath182 .
+the third column gives the @xmath222 which are not in @xmath202 , and the last column shows the actions on the generators of @xmath202 under conjugation by this external generator .
+the purpose of this section is to prove that every subgroup @xmath223 of @xmath54 occurs on every surface on which it _ can _ appear . to clarify that statement
+, we call a group which includes @xmath44 an _ orientable _ subgroup of @xmath54 , and subgroups which do not contain @xmath44 are _ non - orientable_. so we want @xmath223 to appear on @xmath224 when they are both orientable or both non - orientable .
+this is almost true , as explained by the following theorem :    [ thm : everygroup ] for every subgroup @xmath223 of @xmath54 and every surface @xmath224 , there is a map @xmath2 on @xmath224 such that @xmath225 if and only if @xmath224 and @xmath223 are both orientable or both non - orientable , with the following exceptions :    1 .
+the group @xmath226 does not appear on the sphere .
+2 .   the group @xmath227 does not appear on the projective plane .
+3 .   the group @xmath228 does not appear on the projective plane .
+[ allgp ]    the proof of this claim is contained in and scattered through the remaining parts of this section .
+we will consider the 16 possible groups subgroups of @xmath54 individually and in dual pairs .
+such a proof would appear to require 16 constructions , but we can use lemma [ di ] and proposition [ th : jup ] for some simplification .
+moreover , the insertion techniques that we will introduce and the connected sum construction of subsection [ sec : connectedsum ] allow even more simplification .
+we consider the non - orientable cases first ; then a simple argument , using the results of section [ sec : doubles ] , takes care of the orientable ones .
+consider any triangulation of a non - orientable surface @xmath224 .
+refine the triangulation slightly by placing one new vertex inside some triangular face and connect it to the three vertices on its boundary so as to have one vertex of degree 3 . call this map @xmath2 . because of the triangular faces and the the degree-3 vertex , the cheat sheet of section [ sec : colori ] shows us that none of the sets of size 1 or 2 are in the group , and because @xmath224 is non - orientable
+, it can not contain @xmath44 either .
+thus @xmath58 must be the trivial group .      in this subsection
+, we introduce the technique of _
+insertion_. we shall prove that any map @xmath2 can be easily modified to produce a map which is face or vertex bipartite and also face or vertex pseudo - orientable .
+let us assume , for example , that we wish to modify @xmath2 to construct a vertex - bipartite map .
+color the vertices of @xmath2 at random . for the edges for which both vertices are the same color ,
+add a vertex ( of degree 2 ) to split the edge in two .
+the same idea can be applied if we wish vertex pseudo - orientability .
+we may assign orientations to the vertices at random and then split the edges whose endpoints do nt match into two edges . call this process _ vertex - insertion_. this
+can also be used to turn a map which _ is _ vertex - bipartite or vpso into one that is _
+not_. note that vertex - insertion does not modify the status of either face - bipartiteness of fpso of @xmath2 .
+dually , we may replace an edge by a face bounded by two edges to get either face - bipartition or fpso .
+the following picture illustrates this for face pseudo - orientation :        we begin with an arbitrary map on a surface @xmath224 , and an arbitrary orientation of each face .
+if there is an edge , as in figure [ fig : otopso]a , where the assigned arrows flow in opposite directions along the edge , replace the edge with a face bounded by a pair of edges as shown in [ fig : otopso]b .
+orient the resulting lune with an arrow as shown .
+this gives a map on the same surface with one fewer edge for which the given arrows fail to give a face pseudo - orientation .
+continuing this process eventually gives us a map on @xmath224 admitting a face pseudo - orientation .
+let s call this process _ face - insertion_. here , we used it to produce a fpso map on any surface .
+we can use it equally well to turn any map into a face - bipartite map on the same surface . as with vertex insertion
+, this same process can also be used to convert a map which _ is _ face bipartite or fpso to one which is _ not_.    for many groups we can use these two operations to produce maps with that group on any non - orientable surface .
+we will show one of these in detail and summarize the rest .
+consider the non - orientable group @xmath229 .
+for any non - orientable surface @xmath224 , we choose any map on @xmath224 , and , using face - insertion as above , construct a map which is fpso .
+now we must be certain that the group of the map is no bigger than @xmath223 .
+the other cosets of @xmath223 in @xmath54 are @xmath230 . by inserting one vertex on one edge , if necessary
+, we can cause the map to have a face with odd degree , eliminating @xmath42 and @xmath43 and hence all @xmath231 from the group .
+the non - orientability of the surface eliminates @xmath35 and hence all of @xmath232 .
+thus the final form @xmath2 of the map has @xmath233 , as required .
+notice that the group @xmath234 is then @xmath235 .
+we produce maps having most of the other non - orientable groups in a similar way . starting with an arbitrary map on a non - orientable surface
+we perform insertions in the following ways :    * use face - insertion to force fpso and vertex - insertion to force vpso .
+the result is a map whose group is @xmath236 . *
+use face - insertion to force fpso and then vertex - insertion to force it to be vertex - bipartite .
+the resulting map has group @xmath237 .
+its dual has group @xmath238 .
+* use face - insertion to force the map to be face - bipartite and vertex - insertion to force it to be vertex - bipartite .
+the resulting map has group @xmath239 .
+* use face - insertion to force face - bipartiteness and vertex - insertion in order to force some face to have an odd number of sides .
+the group must be just @xmath240 .
+its dual then has group @xmath241 .
+these constructions take care of all non - orientable groups except for two : @xmath242 and @xmath243 .      in order to cope with the two non - orientable exceptional groups , we apply the technique of connected sums of maps , developed in subsection [ sec : connectedsum ] , as well as by giving constructions of parameterized families of suitable maps in order to have explicit constructions .    for each group
+@xmath244 with @xmath245 and @xmath246 , there exists a map @xmath2 on every non - orientable surface such that all the following hold :    * @xmath225 .
+* there is a face @xmath68 with exactly 2 sides and exactly 2 vertices .
+* @xmath247 . that is , the flags of @xmath2 that are not in @xmath68 are _ not _
+@xmath34-colorable for every @xmath248 .
+proof : let @xmath224 be an arbitrary non - orientable surface . to construct a map on @xmath224 with the desired properties , first consider any map for which no face shares a vertex with itself . because the surface is non - orientable , we may choose an arbitrarily fine subdivision for which there is a mbius band of faces which does not use all the faces or edges .
+then apply the operations described in subsection [ insert ] to make the map @xmath249-colorable for each @xmath249 in @xmath223 .
+this is possible since any group @xmath223 with 4 elements with @xmath245 must contain two of the following : vertex - bipartite , face - bipartite , fpso or vpso , with the other non trivial element being the symmetric difference of the other two .
+now consider an edge that is not in any of the faces of the chosen mbius band and convert it into three edges , as with face - insertion but with three edges instead of two .
+this operation does _ not _ change the status of vertex - bipartition , face - bipartition , vpso or fpso as required . now pick either of the two newly created faces and call it @xmath68 . since we still have a mbius strip , @xmath250 , but every @xmath251 is in @xmath252 . therefore ,
+@xmath247 .    ' '' ''    for @xmath253 and @xmath254 we have that for every surface ( except the projective plane ) there exists a map @xmath2 on that surface with @xmath255 .
+proof : let @xmath224 be a surface with non - orientable genus @xmath256 .
+consider maps as in the previous lemma @xmath257 and @xmath258 such that @xmath257 lies on a surface with non - orientable genus @xmath259 and @xmath258 lies on the projective plane and such that :    * if @xmath254 , then @xmath260 * if @xmath261 , then @xmath262    then @xmath263 ( along the 2-sided faces as in the previous lemma ) lives on the non - orientable surface with genus @xmath0 and @xmath264 ( see theorem [ t : plus ] ) .    ' '' ''
+we give explicit constructions for these last two groups :    let @xmath265 , and consider the map @xmath266 where @xmath267 .
+this map has @xmath268 faces , each one a square .
+they are arranged in an @xmath269 rectangle .
+the top @xmath270 edges are identified with the bottom @xmath270 directly and orientably .
+each vertical edge is identified with the one diametrically across from it ; the first @xmath0 orientably , the rest non - orientably .
+figure [ fig : g573 ] shows @xmath271 .    ,
+height=226 ]    because vertical and horizontal edges alternate around every face and every vertex , this map is always edge - bipartite , i.e.,@xmath60-colorable , and lies on the non - orientable surface of genus @xmath272 .
+( @xmath273 , then , is on the klein bottle ) if @xmath274 is odd and @xmath275 , then the map is neither face - bipartite nor vertex - bipartite , and so its group is @xmath227 .    for @xmath276 consider the maps shown in figure [ fig : one ] :         in general we have a rectangle one unit wide , having any height .
+the maps shown in figure [ fig : one ] have characteristic 0 and 1 respectively . in the left picture , by making the strip long enough , we may switch enough pairs of adjacent labels on the right side ( for example , switch labels 3 and 4 on the right ) to make any even genus non - orientable surface .
+similarly , for the picture on the right we may switch enough pairs of adjacent labels in a sufficiently long strip to construct any odd genus non - orientable surface .    to see that the group is indeed @xmath277 , we see that neither map is face - bipartite , since some faces are glued to themselves , or face pseudo - orientable , since both contain faces that are glued to themselves in an orientable way .
+similarly , neither are vertex - bipartite or vertex pseudo - orientable .
+this concludes the proof for the non - orientable case .
+if the subgroup @xmath223 contains @xmath44 , then it is generated by @xmath44 and some subgroup @xmath278 not containing @xmath44 .
+each orientable surface @xmath224 is the orientable twofold cover of some non - orientable surface @xmath279 . by the preceding subsections
+, @xmath279 has a map @xmath280 whose group is @xmath278 ( unless s is the sphere , @xmath279 is the projective plane and @xmath223 is @xmath281 ) . then @xmath282 is a map on @xmath224 whose group is @xmath223 . by proposition [ th : dubgp ]
+, @xmath58 is exactly @xmath223 .
+thus , with the one exception , for each subgroup @xmath223 containing @xmath44 , every orientable surface admits a map whose group is @xmath223 .    ' '' ''
+all that is left to prove now is that the three exceptions mentioned in the theorem are in fact exceptions  namely that there is no map on the specified surfaces with the specified group .
+we shall prove this first for the group @xmath226 on the sphere .
+[ l : nosphere ] there is no map on the sphere with group @xmath226 .    proof : suppose @xmath2 is one such map . since @xmath283 ,
+the underlying graph of @xmath2 is not bipartite , which means it has an odd cycle @xmath284 .
+by jordan s closed curve theorem , this divides the sphere into two connected components .
+choose either and erase every edge and vertex exterior to it in order to form the deleted part into a single face whose boundary is @xmath284 .
+this gives a new map @xmath280 , also on the sphere .
+since @xmath285 , every face of @xmath2 must have an even number of sides .
+therefore @xmath280 has exactly one face with an odd number of sides .
+then the underlying graph of @xmath286 has exactly one vertex of odd degree , a well - known impossibility .    ' '' ''
+no map @xmath2 on the projective plane has @xmath287 or @xmath288 .
+proof : if such a map were to exist , its orientable double cover would violate lemma [ l : nosphere ] .    ' '' ''    the proof of theorem [ allgp ] is now complete .
+no map on a non - orientable surface has an @xmath44-coloring . in all other cases , for any subset @xmath34 of @xmath44 , and any surface @xmath224 ,
+there is a map @xmath2 on @xmath224 which is @xmath34-colorable .
+to generalize the results of this paper to higher - dimensional objects , we use the idea of a _ maniplex _ , first introduced in @xcite . we summarize the definitions here : an _
+@xmath274-maniplex _ is a pair @xmath289)$ ] , where @xmath5 is a set of things called _ flags _ , and each @xmath17 is a fixed - point - free involution on @xmath5 such that @xmath290 is transitive on @xmath5 , and for every @xmath48 , @xmath291 such that @xmath292 , the permutations @xmath17 and @xmath197 commute and are disjoint .
+maniplexes clearly generalize maps and slightly generalize ( the flag - graphs of ) abstract polytopes .
+in particular , every map is a 2-maniplex and every 2-maniplex is a map .
+the language of maniplexes is the language of polytopes : an @xmath48-face is an orbit under the group @xmath293 , generated by all of the @xmath197 s except @xmath17 .
+a 0-face is a vertex , a 1-face is an edge , an @xmath274-face is a _
+facet_.    the definitions of _ coloring , projection , cover _ generalize easily .
+there is no notion of surface or manifold which applies to maniplexes ; nevertheless , we describe a maniplex which has an @xmath294-coloring as being orientable . in view of theorem [ thm :
+super ] , one may define a maniplex to be @xmath34-pseudo - orientable if and only if it is @xmath295-colorable .
+we may give a definition of fpso that is more in the spirit of our intuition : first , we need each facet to be orientable and second , orientations can be assigned to the facets so that they agree on every subfacet .
+it is easy to see that this is equivalent to an @xmath296-coloring of @xmath2 .
+the idea of an @xmath34-coloring , for any @xmath107 , comes forward easily , as does the fact that the set of @xmath34 s for which a given maniplex @xmath2 is @xmath34-colorable forms a subgroup @xmath58 of the power set @xmath54 of @xmath44 under @xmath52
+. we can define @xmath48-face bipartiteness : an @xmath48-face is a connected component under all of the @xmath197 s except @xmath17 .
+make these the vertices of a graph , and join two of them by an edge is some flag of one is @xmath17 adjacent to some flag of the other .
+if this graph is bipartite , we say that @xmath2 is @xmath48-face bipartite .
+then , it is easy to show then that @xmath2 is @xmath48-face bipartite if an only if it is @xmath297-colorable .
+we can define connected sum of two @xmath274-maniplexes , removing isomorphic facets , one from each maniplex and adjusting the @xmath298 connections to form the sum .
+the theorem that the sum has any coloring common to both still holds .
+the operators generalize with a little care .
+we form @xmath299 from @xmath2 by replacing @xmath12 with the product @xmath300 .
+we form @xmath301 from @xmath2 by reversing the order of the generators .
+and then @xmath302 .
+similar facts hold about how colorings of @xmath2 are inherited by its direct derivates .
+the medial operation is more difficult to generalize .
+the construction of @xmath34-doubles is straightforward to generalize , and all of the facts about the doubles do as well .
+the fact that maps have rank 3 plays no role in any of these proofs .
+again , because there is no notion equivalent to that of ` surface ' , there is no natural way to generalize the results of section [ sec : everygroup ] .
+the constructions in section [ sec : everygroup ] lead to quite general maps , although some of them may be somewhat degenerate in the viewpoint of other previous work
+. it may be the case that more exceptions in theorem [ allgp ] are needed if we ask the extra requirement that the maps are polyhedral maps ( that is , the intersection of the closure of two distinct faces is either empty , a single vertex , or a single edge .
+see @xcite ) .
+however , this is beyond the scope of this paper .    in previous sections we considered colorings of the flags of maps insisting that we use only two colors . in doing so ,
+we ensure that if a given flag is @xmath48-adjacent to another flag with the same color then all flags are the same color as their @xmath48-adjacent flags .
+consistent colorings with @xmath0 colors can be defined following the idea of @xcite and @xcite , that is , each flag is assigned a color in @xmath303 with the restriction that for every @xmath304 and @xmath305 , the color of the @xmath48-adjacent flag to a flag @xmath7 colored @xmath291 depends on @xmath291 but not on @xmath7 .    when @xmath0-coloring a map consistently for @xmath306 then it may not be true that a flag is @xmath48-adjacent to another flag with the same color if and only if each flag is @xmath48-adjacent to another flag with the same color .
+for example , we can color the flags of the pentagons of a pentagonal prism with color @xmath307 , the flags of the edges shared by two squares with color @xmath308 , and the remaining flags with color @xmath309 , as in figure [ fig:3orb ] .
+the reader can easily verify that this is a consistent 3-coloring , however , flags colored @xmath307 are @xmath307-adjacent to flags colored @xmath307 , and flags colored @xmath308 are @xmath307-adjacent to flags colored @xmath309 .
+it is unlikely that the concept of pseudo - orientability admits a generalization that preserves the connections between 2-colorings and pseudo - orientations of maps .
+however , @xmath0-colorings may still keep an interesting relation with @xmath0-fold covers of maps and maniplexes as well .      *
+acknowledgements : * the authors , particularly the last , would like to thank the organizers of the workshop on abstract polytopes ( this set of organizers overlaps the set of authors ) for bringing us together . without that meeting
+, this research might not have happened .
+the first author was partially supported by agencija za raziskovalno dejavnost republike slovenije under the research project mu - prom/11 - 010 .
+the second and fourth authors were partially supported by papiit
+mexico under grant in112512 .
+the third author was supported supported by dgapa postdoctoral scholarship and additionally by papiit grant ib100312 .

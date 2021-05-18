@@ -1,0 +1,5 @@
+chemically induced dynamic nuclear polarization is a signature of spin order appearing in many photosynthetic reaction centers . such polarization , significantly enhanced above thermal equilibrium ,
+is known to result from the nuclear spin sorting inherent in the radical pair mechanism underlying long - lived charge - separated states in photosynthetic reaction centers .
+we will here show that the recently understood fundamental quantum dynamics of radical - ion - pair reactions open up a new and completely unexpected venue towards obtaining cidnp signals .
+the fundamental decoherence mechanism inherent in the recombination process of radical pairs is shown to produce nuclear spin polarizations on the order of @xmath0 times or more higher than the thermal equilibrium value at earth s magnetic field relevant to natural photosynthesis .
+this opens up the possibility of a fundamentally new exploration of the biological significance of high nuclear polarizations in photosynthesis .

@@ -1,0 +1,33 @@
+Addressing Strategic Behavior in a Deployed
+Microeconomic Resource Allocator
+Chaki Ng†
+, Philip Buonadonna∗
+, Brent N. Chun∗
+, Alex C. Snoeren‡
+, Amin Vahdat‡
+†
+Harvard ∗
+Intel Research Berkeley ‡
+UC San Diego
+markets@eecs.harvard.edu
+ABSTRACT
+While market-based systems have long been proposed as 
+solutions for distributed resource allocation, few have been
+deployed for production use in real computer systems. 
+Towards this end, we present our initial experience using 
+Mirage, a microeconomic resource allocation system based on
+a repeated combinatorial auction. Mirage allocates time on
+a heavily-used 148-node wireless sensor network testbed. In
+particular, we focus on observed strategic user behavior over
+a four-month period in which 312,148 node hours were 
+allocated across 11 research projects. Based on these results, we
+present a set of key challenges for market-based resource 
+allocation systems based on repeated combinatorial auctions.
+Finally, we propose refinements to the system"s current 
+auction scheme to mitigate the strategies observed to date and
+also comment on some initial steps toward building an 
+approximately strategyproof repeated combinatorial auction.
+Categories and Subject Descriptors
+C.2.4 [Distributed Systems]: Distributed Applications
+General Terms
+Measurement, Design, Economics, Experimentation

@@ -1,0 +1,8 @@
+we consider the problem of consumption of stars by a supermassive black hole ( sbh ) at the center of an axisymmetric galaxy . inside the sbh  sphere of influence , motion of stars in the mean field
+is regular and can be described analytically in terms of three integrals of motion : the energy @xmath0 , the @xmath1-component of angular momentum @xmath2 , and the secular hamiltonian @xmath3 .
+there exist two classes of orbits , tubes and saucers ; saucers occupy the low - angular - momentum parts of phase space and their fraction is proportional to the degree of flattening of the nucleus .
+perturbations due to gravitational encounters lead to diffusion of stars in integral space , which can be described using the fokker - planck equation .
+we calculate the diffusion coefficients and solve this equation in the two - dimensional phase space ( @xmath4 ) , for various values of the capture radius and the degree of flattening .
+capture rates are found to be modestly higher than in the spherical case , up to a factor of a few , and most captures take place from saucer orbits .
+we also carry out a set of collisional @xmath5-body simulations to confirm the predictions of the fokker - planck models .
+we discuss the implications of our results for rates of tidal disruption and capture in the milky way and external galaxies .

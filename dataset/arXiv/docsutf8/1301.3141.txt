@@ -1,0 +1,115 @@
+the heating of the sun s chromosphere requires more than an order of magnitude more mechanical energy flux than the corona and heliosphere combined @xcite .
+nevertheless , the heating mechanism powering the chromosphere remains elusive , especially in the magnetic chromosphere in and around network and plage regions ( e.g. , * ? ? ?
+this is in part because most studies have focused on quiet - sun internetwork regions ( e.g. , * ? ? ?
+* ; * ? ? ?
+in addition , most theoretical studies have avoided detailed comparisons with chromospheric diagnostics , which are most often formed under non - lte and non - equilibrium conditions and thus difficult to model , instead focusing on simply comparing the energy flux associated with specific physical heating mechanisms ( e.g. * ? ? ?
+* ) to the canonical values derived from semi - empirical 1d hydrostatic models of the chromosphere @xcite .
+such a limited comparison does not properly capture the chromospheric conditions , which are significantly different from the 1d val and fal models ( in terms of dynamics and structuring , see , e.g. , * ? ? ?
+* ) .        here we report on new observational constraints on chromospheric heating derived from the  @xmath0 spectral line . during the past decade ,
+the infrared ( ir ) triplet lines ( @xmath2 , @xmath0 , @xmath3 ) have become popular chromospheric diagnostics in solar studies .
+in particular , the  @xmath0 line has been used in a variety of different chromospheric studies , for example , to determine the disk counterpart of spicules @xcite , analyze the energy flux carried by acoustic waves into the lower atmosphere @xcite , study torsional motions in the atmosphere @xcite , or to carry out spectropolarimetric studies in sunspots @xcite .
+@xcite suggested a connection between chromospheric heating and the width of the  @xmath4 ( h@xmath5 ) line , which is found to be strongly sensitive to changes in temperature .
+furthermore , their maps of the line core intensity of  @xmath0 show strong similarities with their h@xmath5 line - width maps .
+further support for a relationship between core brightness of ca lines and elevated temperatures is provided by @xcite , who used the intensity of  @xmath6 as a measurement of the upper - photospheric temperature .
+although the velocity field and temperature stratification in the solar atmosphere produce an imprint in the spatially - resolved profiles from the  ir lines , they usually remain absorption lines with a conspicuous line core .
+interestingly , @xcite report some examples of reversals in the nlte core of the  @xmath0 line , which are later associated with elevated chromospheric temperatures in @xcite .
+however the mechanism producing this increase in temperature or the spatio - temporal properties are not investigated . these raised - core ( rc hereafter ) profiles are found in pixels with _ intermediate _ magnetic flux in their observations .    in this letter , we use full - stokes  @xmath0 data to show the ubiquity of such rc profiles in the vicinity of strong magnetic fields .
+we report on the peculiar spatial distribution of the rc profiles , and analyze their spatial and temporal properties to provide constraints on chromospheric heating models .
+finally , we propose a scenario that explains the profile shapes , using synthetic spectral line profiles from a 3d radiative mhd simulation .
+the observations are of a bipolar active region ( ar10998 ) at approximately @xmath7 heliocentric distance .
+the datasets were acquired at the swedish 1-m solar telescope ( sst ) using the crisp imaging spectropolarimeter ( crisp , * ? ? ?
+* ) on 14 jun 2008 at 08:36:54 .
+our data consists of a 41 minute time - series including 225 full - stokes line - scans ( time steps ) of the  @xmath0 line , with a temporal cadence of 11 seconds .
+the line was sampled at 29 line positions across the range @xmath8    from the line center , with a spectral sampling of 97  min the core up to @xmath9   , and 194  m  in the outer wings .
+the data are processed using the image restoration technique multi - object - multi - frame - blind- deconvolution ( momfbd , * ? ? ?
+* ) , which allows to achieve a spatial resolution of @xmath10018 .
+instrumental polarization is compensated using the 2d calibration described in @xcite and the sst model at 854  nm from @xcite .
+we have made extensive use of crispex @xcite a tool for the exploration of crisp datasets .
+the observed field - of - view ( fov ) contains two patches of network with opposite polarities . in the photosphere , observed in the wings of the @xmath0 line , the images show granulation with two concentrations of bright - points . in the chromosphere ,
+visible in the core of the line , the images show a landscape of dark elongated fibrils that extend outwards from the network patches .
+a section of our fov is enlarged for clarity in fig .
+[ fig : f1 ] .
+this patch of mostly unipolar plage shows strong magnetic field concentrations ( stokes  @xmath11 , top middle panel ) that are tightly correlated with the locations of bright - points ( stokes  @xmath12 , top left panel ) .
+the line core image ( top right panel ) , which is sensitive to chromospheric plasma , shows fibrils extending from the plage region .
+the plage region is generally very bright compared with the fibrils .
+we distinguish three different `` typical '' line profiles and give examples from three different locations for each profile type : quiet ( locations and spectra marked with green symbols ) , bright - point ( blue symbols ) and rc profiles ( orange symbols ) .
+the quiet profiles show a `` classical ''  @xmath0 profile with bright photospheric wings and a chromospheric absorption core ( green profiles in bottom row of fig .  [ fig : f1 ] ) .
+the shape of the bright - point profiles ( blue in bottom row ) is very similar to that of the quiet - sun profiles but with enhanced intensity for all wavelengths .
+the rc profiles look markedly different .
+the photospheric wings of rc profiles are virtually identical in brightness and shape to those of quiet profiles .
+however , the chromospheric core of rc profiles is very different : it is almost flat , and much brighter than the core of the quiet profiles .
+the chromospheric core of rc profiles actually has an intensity that is similar to that of the core of the bright - point profiles .    in a large fraction of the rc profiles , we have also noticed two weak emission lobes at approximately @xmath13  m  from line center .
+these lobes are further discussed in
+[ sec : temporal ] and [ sec : simulation ] .
+one clue to the cause of the rc profiles comes from investigating their spatial distribution and ubiquity in the plage region .
+clearly not all locations show rc profiles . to determine , in an automated fashion , the location of rc profiles we tried several approaches .
+we found that the ratio between core and wing intensities reveals many locations of raised core profiles , but visual inspection shows that it also flags many `` false positive '' locations ( usually narrow absorbing cores that are strongly doppler - shifted ) .
+a better method exploits the fact that around the core of these profiles the intensity is relatively flat with wavelength , so that the derivative of intensity with wavelength @xmath14 hovers around 0 , with frequent changes of the sign of the derivative .
+we thus developed an algorithm that calculates the number of zero - crossings of @xmath14 around the core of the line . both bright - point and quiet profiles have values of 1 , whereas rc profiles almost always have larger values .    by overplotting contours of the number of zero - crossings of @xmath14 ( red and blue contours in fig .
+[ fig : f2 ] ) , we find that the rc profiles are located in the proximity of photospheric bright - points and in extended patches of photospheric granulation , which are embedded in patches of plage . in fact , they are quite rare outside this configuration .
+this is quite clear from the enlarged regions shown in the right column of fig .
+[ fig : f2 ] . the rc profiles are preferentially located inside the ring of bright - points , with only a few exceptions found outside .
+our analysis also shows that these rc profiles are ubiquitous and occur wherever there is plage ( or network ) , with their frequency increasing in more complex regions .
+the spatial extent of seemingly coherent or contiguous regions with rc profiles is of order a fraction of an arcsecond up to an arcsecond .
+the temporal behavior of the rc profiles is very different from that of a more typical profile , as can be seen by comparing the three top - right panels with the second panel from the left in the top row of fig .
+[ fig : f3 ] .
+the latter shows the temporal evolution of the @xmath158542 line profile in a location that does not show strong rc behavior .
+it is dominated by a succession of magneto - acoustic shocks , visible as strongly absorbing features and similar to those described by @xcite .
+two brief moments of rc profiles occur in between shocks .
+the three rc locations ( rightmost panels , top row ) on the other hand show raised core emission for much of the time - series , with only occasional shock - induced absorption .
+the rc profiles are not constant in time but show significant variability .
+we find that the imprint from the red emission lobe at @xmath16  m   is often noticeable throughout the timeseries , which is not always the case for the blue lobe .
+the online movie of fig .  [ fig : f2 ] shows evidence of contiguous and/or coherent spatial regions that contain rc profiles with typical spatial and temporal scales of order 0.5and 12 minutes .
+these regions change shape and move about within the plage region . to determine the typical timescales over which rc profiles change , we computed , for each rc location , the auto - covariance function of a timeseries that is equal to 1 when the number of zero - crossings is larger than 1 , and otherwise 0 .
+the auto - covariance timescale for that location is then the full width half max of this function .    to make sure
+our timescale reflects the intrinsic lifetime and is not dominated by either seeing - induced or proper motion of the coherent rc region within the fov , we calculated the auto - covariance timescale for data that was rebinned with a range of different parameters ( from @xmath17 to @xmath18 pixels ) .
+the timescales increase as the rebinning parameters are increased from @xmath19 to @xmath18 ( fig .
+[ fig : f3 ] , lower right panel ) .
+this is because the timescales of the data at the original resolution are dominated by seeing deformations , jitter and proper motions leading to short lifetimes .
+once we rebin the data @xmath20 ( solid - black ) we no longer see a difference in timescale compared to @xmath18 ( dotted - blue ) rebinned data , with both showing median values of about 80 seconds .
+this means that the intrinsic dominant lifetime of these coherent rc regions is about 1.5 minutes .
+it also implies that the typical spatial scales are less than 8 pixels , i.e. , @xmath21 .
+we use a snapshot from a 3d mhd simulation calculated with the bifrost code @xcite .
+the simulation has an extent of @xmath22  mm , encompassing the upper convection zone , photosphere , chromosphere and corona . in the vertical direction
+, the simulation extends from 2.4  mm below to 14.4  mm above average optical depth unity at @xmath23  nm .
+the grid spacing is 48  km horizontally and non - equidistant vertically with a spacing of 19  km between @xmath24 and 5  mm and increasing towards the upper and lower boundaries .
+the simulation includes optically thick radiative transfer including scattering in the photosphere and low chromosphere , parametrized non - lte radiative losses in the upper chromosphere , transition region and corona , thermal conduction along magnetic field lines and an eos that includes the effects of non - equilibrium ionization of hydrogen , see @xcite and @xcite for details .
+the magnetic field in the simulation consists of two patches of different polarity separated by 8  mm ( fig .  [ fig : f4 ] , top middle panel ) .
+the field is rather weak compared with the plage - like regions of the observations ; the average unsigned flux in the photosphere is 50  g. the same snapshot was used in @xcite .
+the synthetic @xmath0 profiles are computed using the code multi @xcite , assuming each vertical column in the 3d snapshot to be an independent 1d plane - parallel atmosphere .
+the profiles have been convolved with the crisp spectral psf ( fwhm of 111  m ) .
+our synthetic profiles show evidence of quiet , bright - point and rc profiles ( fig .
+[ fig : f4 ] ) that are very similar to the observations . by comparing the physical variables and radiative transfer properties for various locations and profiles
+, we can investigate the physical cause for the shape of the latter .    at each wavelength , the intensity is approximately equal to the source function at monochromatic optical depth unity ( the eddington - barbier relation ) .
+the lower middle panel of fig  [ fig : f4 ] shows the source function at the three chosen locations with optical depth unity marked for the continuum and for the line center .
+the intensity in the wings of the bright - point profile is high because the strong magnetic flux regions are evacuated compared to their surroundings to stay in horizontal total pressure balance . as a result
+, we find lower densities and therefore a deeper formation @xcite where the temperature is higher ( plus - signs in the lower - middle panel ) .
+both the bright - point and quiet - sun locations have monotonically decreasing source functions with height , giving pure absorption lines , because the source function decouples from the planck function lower in the atmosphere than the temperature increase . at the rc location
+we go from a quiet - sun temperature to an increased temperature typical of a magnetic region when we cross the expanding magnetic field at about 0.5  mm height ( see also lower - right panel ) .
+the density is still high enough to ensure a coupling between the planck function and the source function and we get a local maximum of the latter , leading to two weak emission peaks in the rc profile at roughly @xmath25  m .
+therefore , non - lte effects and chromospheric heating can explain the presence of those emission peaks .
+the line core is formed above the local source function maximum and there is therefore a central reversal .
+the optical depth unity at line center is at equal heights for the bright - point location and the rc location ( because both locations are basically magnetic above the canopy height ) and the source functions are also almost the same , giving similar line core intensity at the two locations .
+what makes rc profiles special is that they reveal the locations of a sharp temperature gradient with height between a relatively quiet photosphere and high temperature chromosphere . in the simulations this occurs in the immediate vicinity of bright - points where we see the hot canopy of magnetic field that expands with height from its roots in the bright - points ( lower - right panel , fig .
+[ fig : f4 ] ) .
+our simulations also help explain why our detection method of zero - crossings works well in identifying rc profiles , given that the two emission lobes are naturally produced by a hot canopy overlying the quiet photosphere .
+in this letter we characterize the observational properties of profiles of the @xmath158542 line in which the core emission is raised compared to typical , quiet , profiles .
+these rc profiles have photospheric wings similar to those of quiet profiles , but line - core intensities that are as strong as in the profiles from photospheric bright - points .
+the rc profiles are ubiquitous throughout plage and network regions and predominantly located in the surroundings of bright - points , usually on the inside of the plage region .
+we find that regions of rc profiles show coherent spatial and temporal behavior on scales of 0.5and 1.5 minutes , respectively .
+we use rc profiles in synthetic observations computed from a 3d radiative mhd simulation to determine what causes the peculiar line profile .
+the simulation shows that rc profiles occur for locations with a steep increase in the temperature stratification of about 1500  k , between @xmath26  mm and @xmath27  mm .
+the reduced line opacity ( due to the vacuum effect of magnetic pressure ) has a contributive effect to the line core brightening .    in the simulations the strong temperature gradient occurs because the line of sight jumps from a quiet photosphere dominated by granulation to the hot chromospheric canopy associated with flux concentrations .
+these concentrations expand with height from their photospheric bright - point roots to a volume filling field higher up .
+chromospheric heating is caused by strong field gradients and currents ( and associated dissipation ) in the vicinity of flux concentrations .
+this scenario is fully compatible with our observations that show rc profiles in the immediate vicinity ( but not on top ) of bright - points , and can explain the enhanced line core intensity over the entire plage region .
+our observations provide strict constraints on the location and spatio - temporal properties of chromospheric heating in magnetic regions .
+the observations fit well with the chromospheric heating present in our simulations , which is dominated by current dissipation .
+while the spatial scale of the dissipation is mostly set by numerical resistivity in the simulation , recent work suggests that ion - neutral interactions lead to a pedersen resistivity that has the same order of magnitude as the numerical resistivity , thus rendering these simulations surprisingly close to solar conditions @xcite .
+our observations of apparently strong heating at the interface of interacting flux tubes are also compatible with the current - driven heating in the bifrost models .
+future work will have to clarify which of the several other physical mechanisms proposed to drive heating in the magnetic chromosphere is compatible with the observed properties , whether it is high frequency wave heating @xcite , reconnection related to weak granular fields @xcite , or a turbulent cascade of alfvn waves @xcite .
+finally , we note that the rather flat line core of the rc profiles means that the weak - field approximation ( where the field strength is inversely proportional to @xmath14 ) breaks down , leading to strong noise in the derived magnetic field values .
+the swedish 1-m solar telescope is operated by the institute for solar physics of the royal swedish academy of sciences in the spanish observatorio del roque de los muchachos of the instituto de astrofsica de canarias .
+the research has received funding from the research council of norway and from the european research council under the european union s seventh framework programme ( fp7/2007 - 2013)/erc grant agreement n@xmath28 291058 .
+b.d.p . was supported through nasa grants nnx08ba99 g , nnx08ah45 g and nnx11an98 g .
+the authors gratefully acknowledge support from the international space science institute .

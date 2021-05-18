@@ -1,0 +1,22 @@
+Use of Contextualized Attention Metadata for Ranking and Recommending Learning Objects
+ABSTRACT
+The tools used to search and find Learning Objects in different 
+systems do not provide a meaningful and scalable way to rank or 
+recommend learning material.  This work propose and detail the 
+use of  Contextual Attention Metadata, gathered from the 
+different tools used in the lifecycle of the Learning Object, to 
+create ranking and recommending metrics to improve the user 
+experience.  Four types of metrics are detailed:  Link Analysis 
+Ranking, Similarity Recommendation, Personalized Ranking and 
+Contextual Recommendation. While designed for Learning 
+Objects, it is shown that these metrics could also be applied to 
+rank and recommend other types of reusable components like 
+software libraries.
+
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information Search 
+and Retrieval  information filtering, relevance feedback.
+
+General Terms
+Algorithms, Measurement, Design, Human Factors, 
+Standardization

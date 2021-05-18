@@ -1,0 +1,37 @@
+A Formal Road from Institutional Norms
+to Organizational Structures
+Davide Grossi
+Utrecht University
+PO Box 80.089, 3508TB
+Utrecht, The Netherlands
+davide@cs.uu.nl
+Frank Dignum
+Utrecht University
+PO Box 80.089, 3508TB
+Utrecht, The Netherlands
+dignum@cs.uu.nl
+John-Jules Ch. Meyer
+Utrecht University
+PO Box 80.089, 3508TB
+Utrecht, The Netherlands
+jj@cs.uu.nl
+ABSTRACT
+Up to now, the way institutions and organizations have been used in
+the development of open systems has not often gone further than a
+useful heuristics. In order to develop systems actually 
+implementing institutions and organizations, formal methods should take the
+place of heuristic ones. The paper presents a formal semantics for
+the notion of institution and its components (abstract and concrete
+norms, empowerment of agents, roles) and defines a formal 
+relation between institutions and organizational structures. As a result,
+it is shown how institutional norms can be refined to 
+constructsorganizational structures-which are closer to an implemented 
+system. It is also shown how such a refinement process can be fully
+formalized and it is therefore amenable to rigorous verification.
+Categories and Subject Descriptors
+F.4.1 [Mathematical Logic and Formal Languages]: Modal Logic;
+I.2.11 [Distributed Artificial Intelligence]: Multiagent Systems;
+F.2.11 [Distributed Artificial Intelligence]: Coherence and 
+Coordination
+General Terms
+Theory.

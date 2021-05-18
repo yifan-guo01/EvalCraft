@@ -1,0 +1,27 @@
+in the search for new agents to protect the lung from injury , kuklin and colleagues   report that tezosentan , a non - selective endothelin-1 receptor antagonist , reduces pulmonary edema in endotoxemic sheep , in parallel with a prevention of protein kinase c- activation .
+acute lung injury ( ali ) and its more severe form , acute respiratory distress syndrome ( ards ) , are syndromes of acute respiratory failure secondary to permeability , non - cardiogenic , pulmonary edema .
+ali / ards is a major cause of morbidity , death and cost in intensive care units .
+alveolar edema accumulates in ali / ards mainly because the permeability of the capillary ( endothelium)alveolar ( epithelium ) barrier is increased .
+this mechanism allows edema formation at normal capillary pressures and greatly increases the rate of edema formation at elevated capillary pressures .
+in addition , pressure elevation in the pulmonary circulation and mechanical stresses applied to the lung ( during mechanical ventilation , for example ) may cause " stress failure " in lung capillaries and alveoli , as evident in the formation of breaks and discontinuities in the endothelial and epithelial membranes of the blood  gas barrier . the american
+european consensus conference on ards defined ali / ards as a " syndrome of inflammation and increased permeability " .
+hence , it is now widely accepted that the pathophysiology of ali / ards is driven by an aggressive inflammatory reaction that damages the alveolocapillary unit .
+after rapid recruitment of leukocytes to the inflamed site , there is activation of mediator cascades including the production of cytokines , chemokines , acute phase proteins , free radicals , complement , coagulation pathway components and focal upregulation of adhesion molecule expression units .
+several cytokines , such as tumor necrosis factor alpha ( tnf- ) , interleukin ( il)-1 , il-6 and il-8 , have been found in bronchoalveolar lavage fluid and plasma of patients with ards .
+inflammatory mediators amplify endothelial injury directly or by recruiting inflammatory cells into the vascular , interstitial and alveolar spaces .
+in addition , some mediators may also alter endothelial permeability by disturbing intracellular signaling pathways . tnf- and -thrombin
+have been shown to activate protein kinase c - mediated mechanisms that participate in the pulmonary endothelial response to agents involved in lung injury .
+protein kinase c is a ubiquitously expressed family of kinases that have a key role in regulating multiple cellular activities .
+activation of specific protein kinase c isoforms , most probably protein kinase c- , may cause lung endothelial dysfunction through several mechanisms .
+endothelins are a family of 21-amino - acid isopeptides . initially described as strong vasoconstrictors ,
+for example , transgenic mice overexpressing endothelin-1 release increased amounts of tnf- , interferon- , il-1 and il-6 .
+the endothelin system is activated in clinical lung injury and in various types of experimental lung injury , and several endothelin receptor antagonists have been reported to exert protective effects in some models of ali / ards .
+endothelins may thus play a pathophysiologic role in ali / ards and promote pulmonary edema by increasing the filtration pressure ( as postcapillary vasoconstrictors ) , and also by increasing capillary permeability ( as inflammatory mediators ) .
+the results of kuklin and colleagues   are in accordance with this hypothesis and provide further insight into an intracellular effect of endothelin receptor antagonists ( i.e. prevention of protein kinase c- activation ) .
+endothelin receptor antagonists have been made available recently for clinical use in the treatment of pulmonary arterial hypertension .
+these drugs may therefore offer new and attractive opportunities for the management of patients with ali / ards , especially because , to date , no pharmacologic agent has been convincingly shown to improve the prognosis of these patients .
+the data of kuklin and colleagues   suggest that endothelin receptor antagonists might benefit patients with ali / ards .
+as expected from the use of a receptor antagonist , the level of the ligand increased ; that is , the plasma concentration of endothelin-1 was elevated after tezosentan treatment . as also expected from the proinflammatory properties of endothelin-1 , plasma levels of tnf- and il-8 increased after tezosentan treatment .
+the clinical relevance of these observations is unknown , but production of these cytokines might counteract the benefits expected from endothelin blockade . in other experimental models of ali / ards , endothelin receptor antagonists did not decrease intrapulmonary shunt , lung lymph flow or the histologically evaluated degree of parenchymal injury , despite a reduction in pulmonary vascular resistance .
+the work of kuklin and colleagues   provides important information on the complex effects of endothelin blockers on inflammatory processes . from a clinical point of view , given the prolific nature of the inflammatory cascade causing ali / ards and the angel / devil effects of endothelin receptor antagonists on inflammatory mechanisms , it is unlikely that these single agents could reverse or terminate such a complex process .
+ali = acute lung injury ; ards = acute respiratory distress syndrome ; il = interleukin ; tnf- = tumor necrosis factor alpha .

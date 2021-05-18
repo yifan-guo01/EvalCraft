@@ -1,0 +1,20 @@
+Integration of Information Assurance and Security into the IT2005 Model Curriculum
+ABSTRACT
+In this paper we present the context of the work of the Curriculum 
+Committee on IT2005, the IT curriculum volume described in the 
+Overview Draft document of the Joint Task Force for Computing 
+Curriculum 2004.  We also provide a brief introduction to the 
+history and work of the Information Assurance Education 
+community. These two perspectives provide the foundation for the 
+main thrust of the paper, which is a description of the Information 
+Assurance and Security (IAS) component of the IT2005 
+document.  Finally, we end the paper with an example of how IAS 
+is being implemented at BYU as a "pervasive theme" that is 
+woven throughout the curriculum and conclude with some 
+observations about the first year's experience.
+
+Categories and Subject Descriptors
+K.3.2 [Computer and Information Science Education] 
+Accreditation
+General Terms:
+Management, Security

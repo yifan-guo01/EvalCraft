@@ -1,0 +1,72 @@
+until the 1980s , most of our knowledge about drugs , drug mechanisms and drug receptors could fit in a few encyclopedic books and a couple dozen schematic figures .
+however , with the recent explosion in biological and chemical knowledge , this is no longer the case .
+there is simply too much data ( images , models , structures and sequences ) from too many sources .
+the limited drug or drug receptor data that is electronically available is either inaccessible ( except through expensive subscriptions ) , inadequate or widely scattered among many different public databases .
+, the wealth of electronic sequence / structure data that exists today has never been well linked to the enormous body of drug or chemical knowledge that has accumulated over the past half century . recently
+informatics gap. the therapeutic target database or ttd is one such example ( 1 ) .
+this very useful web   based resource contains linked lists of names for > 1100 small molecule drugs and drug targets ( i.e. proteins ) .
+in addition to the ttd , a number of more comprehensive small molecule databases have also emerged including kegg ( 2 ) , chebi ( 3 ) and pubchem ( ) .
+each contains tens of thousands of chemical entries  including hundreds of small molecule drugs .
+all three databases provide names , synonyms , images , structure files and hyperlinks to other databases . furthermore ,
+unfortunately , these databases were not specifically designed to be drug databases , and so they do not provide specific pharmaceutical information or links to specific drug targets ( i.e. sequences ) . furthermore , because these databases were designed to be synoptic ( containing < 15 fields per compound entry ) they do not provide a comprehensive molecular summary of any given drug or its corresponding protein target .
+more specialized drug databases such as pharmgkb ( 4 ) or on   line pharmaceutical encyclopedias such as rxlist ( 5 ) tend to offer much more detailed clinical information about many drugs ( their pharmacology , metabolism and indications ) but they were not designed to contain structural , chemical or physico   chemical information .
+ideally , what is needed is something that combines the strengths of , say , pharmgkb , pubchem and swiss   prot to create a single , fully searchable in silico drug resource that links sequence , structure and mechanistic data about drug molecules ( including biotech drugs ) with sequence , structure and mechanistic data about their drug targets . beyond its obvious educational value
+, this kind of database could potentially allow researchers to easily visualize and explore 3d drug interactions , compare drug similarities or perform in silico drug ( or drug target ) discovery . here
+fundamentally , drugbank is a dual purpose bioinformatics  cheminformatics database with a strong focus on quantitative , analytic or molecular   scale information about both drugs and drug targets . in many respects
+it combines the data   rich molecular biology content normally found in curated sequence databases such as swiss   prot and uniprot ( 6 ) with the equally rich data found in medicinal chemistry textbooks and chemical reference handbooks . by bringing these two disparate types of information together into one unified and freely available resource
+, we wanted to allow educators and researchers from diverse disciplines and backgrounds ( academic , industrial , clinical , non   clinical ) to conduct the type of in silico learning and discovery that is now routine in the world of genomics and proteomics .
+the diversity of data types and the required breadth of domain knowledge , combined with the fact that the data were mostly  paper   bound made the assembly of drugbank both difficult and time   consuming .
+to compile , confirm and validate this comprehensive collection of data , more than a dozen textbooks , several hundred journal articles , nearly 30 different electronic databases , and at least 20 in   house or web   based programs were individually searched , accessed , compared , written or run over the course of four years .
+the team of drugbank archivists and annotators included two accredited pharmacists , a physician and three bioinformaticians with dual training in computing science and molecular biology / chemistry .
+drugbank currently contains > 4100 drug entries , corresponding to > 12  000 different trade names and synonyms .
+these drug entries were chosen according to the following rules : the molecule must contain more than one type of atom , be non   redundant , have a known chemical structure and be identified as a drug or drug   like molecule by at least one reputable data source . to facilitate more targeted research and exploration , drugbank
+is divided into four major categories : ( i ) fda   approved small molecule drugs ( > 700 entries ) , ( ii ) fda   approved biotech ( protein / peptide ) drugs ( > 100 entries ) , ( iii ) nutraceuticals or micronutrients such as vitamins and metabolites ( > 60 entries ) and ( iv ) experimental drugs , including unapproved drugs , de   listed drugs , illicit drugs , enzyme inhibitors and potential toxins ( 3200 entries ) . these individual
+drug types are also bundled into two larger categories including all fda drugs ( approved drugs ) and all compounds ( experimental + fda + nutraceuticals ) .
+in addition , > 14  000 protein ( i.e. drug target ) sequences are linked to these drug entries .
+more complete information about the numbers of drugs , drug targets and non   redundant drug targets ( including their sequences ) is available in the drugbank
+the entire database , including text , sequence , structure and image data occupies nearly 16 gigabytes of data  most of which can be freely downloaded .
+drugbank is a fully searchable web   enabled resource with many built   in tools and features for viewing , sorting and extracting drug or drug target data .
+detailed instructions on where to locate and how to use these browsing / search tools are provided on the drugbank homepage . as with any web   enabled database
+, drugbank supports standard text queries ( through the text search box located on the home page ) .
+it also offers general database browsing using the  browse and  pharmabrowse buttons located at the top of each drugbank page . to facilitate general browsing ,
+drugbank is divided into synoptic summary tables which , in turn , are linked to more detailed
+all of drugbank 's summary tables can be rapidly browsed , sorted or reformatted ( using up to six different criteria ) in a manner similar to the way pubmed abstracts may be viewed .
+clicking on the drugcard button found in the leftmost column of any given drugbank summary table opens a webpage describing the drug of interest in much greater detail .
+each drugcard entry contains > 80 data fields with half of the information being devoted to drug / chemical data and the other half devoted to drug target or protein data ( see table 1 ) .
+in addition to providing comprehensive numeric , sequence and textual data , each drugcard also contains hyperlinks to other databases , abstracts , digital images and interactive applets for viewing molecular structures ( figure 1 ) .
+in addition to the general browsing features , drugbank also provides a more specialized  pharmbrowse feature .
+this is designed for pharmacists , physicians and medicinal chemists who tend to think of drugs in clusters of indications or drug classes .
+this particular browsing tool provides navigation hyperlinks to > 70 drug classes , which in turn list the fda   approved drugs associated with the drugs .
+a key distinguishing feature of drugbank from other on   line drug resources is its extensive support for higher level database searching and selecting functions .
+in addition to the data viewing and sorting features already described , drugbank also offers a local blast ( 8) search that supports both single and multiple sequence queries , a boolean text search [ using glimpse ; ( 9 ) ] , a chemical structure search utility and a relational data extraction tool ( 10 ) .
+these can all be accessed via the database navigation bar located at the top of every drugbank page .
+the blast search ( seqsearch ) is particularly useful as it can potentially allow users to quickly and simply identify drug leads from newly sequenced pathogens .
+specifically , a new sequence , a group of sequences or even an entire proteome can be searched against drugbank 's database of known drug target sequences by pasting the fasta formatted sequence ( or sequences ) into the seqsearch query box and pressing the  submit button . a significant hit reveals , through the associated drugcard hyperlink , the name(s ) or chemical structure(s ) of potential drug leads that may act on that query protein ( or proteome ) .
+drugbank 's structure similarity search tool ( chemquery ) can be used in a similar manner to its sequence search tools .
+users may sketch ( through acd 's freely available chemical sketching applet ) or paste a smiles string ( 11 ) of a possible lead compound into the chemquery window . submitting the query launches a structure similarity search tool that looks for common substructures from the query compound that match drugbank 's database of known drug or drug   like compounds .
+high scoring hits are presented in a tabular format with hyperlinks to the corresponding drugcards ( which in turn links to the protein target ) .
+the chemquery tool allows users to quickly determine whether their compound of interest acts on the desired protein target .
+this kind of chemical structure search may also reveal whether the compound of interest may unexpectedly interact with unintended protein targets .
+in addition to these structure similarity searches , the chemquery utility also supports compound searches on the basis of chemical formula and molecular weight ranges .
+drugbank 's data extraction utility ( data extractor ) employs a simple relational database system that allows users to select one or more data fields and to search for ranges , occurrences or partial occurrences of words , strings or numbers .
+the data extractor uses clickable web forms so that users may intuitively construct sql   like queries .
+using a few mouse clicks , it is relatively simple to construct very complex queries (  find all drugs less than 600 daltons with logps less than 3.2 that are antihistamines ) or to build a series of highly customized tables .
+the output from these queries is provided as an html format with hyperlinks to all associated drugcards .
+every effort is made to ensure that drugbank is as complete , correct and current as possible .
+each drugcard is entered or prepared by one member of the curation team and separately validated by second member of the curation team .
+additional spot checks are routinely performed on each entry by senior members of the curation group , including a physician , an accredited pharmacist and two phd   level biochemists .
+several software packages including text mining tools , chemical parameter calculators and protein annotation tools ( 10 ) have been modified or specifically developed to aid in drugbank 's data entry and data validation .
+these tools collate and display text ( and images ) from multiple sources allowing the curators to compare , assess , enter and correct drug or drug target information .
+in addition to using a cvs ( current versioning system ) , all changes and edits to the central database are monitored , dated and displayed on the drugbank
+a second text tracking system has been implemented to monitor the completeness ( 0100% ) of each field ( for all approved drugs ) and to display up   to   date statistics on the number of drugs , drug targets and non   redundant sequences in various drug categories .
+to ensure drugbank is current , new drugs ( approved and experimental ) are identified using continuously running screen   scraping tools linked to the fda , the pdb and rxlist websites .
+drug targets are identified and confirmed using multiple sources ( pubmed , ttd , fda labels , rxlist , pharmgkb , textbooks ) as are all drug structures ( kegg , pubchem , images from fda labels ) .
+in summary , drugbank is a comprehensive , web   accessible database that brings together quantitative chemical , physical , pharmaceutical and biological data about thousands of well   studied drugs and drug targets .
+drugbank is primarily focused on providing the kind of detailed molecular data needed to facilitate drug discovery and drug development .
+this includes physical property data , structure and image files , pharmacological and physiological data about thousands of drug products as well as extensive molecular biological information about their corresponding drug targets .
+drugbank is unique , not only in the type of data it provides but also in the level of integration and depth of coverage it achieves .
+in addition to its extensive small molecule drug coverage , drugbank is certainly the only public database we are aware of that provides any significant information about the 110 + approved biotech drugs .
+drugbank also supports an extensive array of visualizing , querying and search options including a structure similarity search tool and an easy   to   use relational data extraction system .
+it is hoped that drugbank will serve as a useful resource to not only members of the pharmaceutical research community but to educators , students , clinicians and the general public .
+a screenshot montage of the drugbank database showing several possible views of information describing the drug ramipril .
+summary of the data fields or data types found in each drugcard a more complete listing is provided on the drugbank home page .

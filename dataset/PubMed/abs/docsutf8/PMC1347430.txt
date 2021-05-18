@@ -1,0 +1,8 @@
+drugbank is a unique bioinformatics / cheminformatics resource that combines detailed drug ( i.e. chemical ) data with comprehensive drug target ( i.e. protein ) information .
+the database contains > 4100 drug entries including > 800 fda approved small molecule and biotech drugs as well as > 3200 experimental drugs .
+additionally , > 14  000 protein or drug target sequences are linked to these drug entries .
+each drugcard entry contains > 80 data fields with half of the information being devoted to drug / chemical data and the other half devoted to drug target or protein data .
+many data fields are hyperlinked to other databases ( kegg , pubchem , chebi , pdb , swiss - prot and genbank ) and a variety of structure viewing applets .
+the database is fully searchable supporting extensive text , sequence , chemical structure and relational query searches .
+potential applications of drugbank include in silico drug target discovery , drug design , drug docking or screening , drug metabolism prediction , drug interaction prediction and general pharmaceutical education .
+drugbank is available at .

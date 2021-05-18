@@ -1,0 +1,126 @@
+recent neutrino oscillation experiments have provided significant amount of evidence which confirms the existence of the non   zero yet tiny neutrino masses @xcite . the smallness of neutrino masses compared to electroweak scale can naturally be explained by seesaw mechanism @xcite , the simplest version of which corresponds to the inclusion of three singlet right handed neutrinos into the standard model .
+although these seesaw models can naturally explain the smallness of neutrino mass compared to the electroweak scale , we still do not have a complete understanding of the origin of neutrino mass hierarchies as suggested by experiments .
+recent neutrino oscillation experiments t2k @xcite , double chooz @xcite , daya   bay @xcite and reno @xcite have not only made the earlier predictions for neutrino parameters more precise , but also predicted non   zero value of the reactor mixing angle @xmath0 . the latest global fit value for @xmath1 range of neutrino oscillation parameters @xcite are as follows : @xmath2 @xmath3 @xmath4 @xmath5 @xmath6 @xmath7 where nh and ih refers to normal and inverted hierarchy respectively .
+although the next generation neutrino oscillation experiments are expected to shed light on the origin of mass hierarchies as well as the dirac cp phase , it is worth exploring if there exists an alternate experimentally verifiable way to understand some of the yet unresolved issues in neutrino physics
+. it will be even more exciting if such alternate ways can also confirm or rule out some of the well motivated beyond standard model frameworks which may or may not be seen in collider experiments .
+it turns out that the neutrino telescopes which have been designed to observe high energy cosmic rays , can be a promising setup to search for new physics .
+the consequences of many such well motivated new physics scenarios on the observations of neutrino flux observed by neutrino telescopes have been studied by several groups @xcite .
+motivated by these , here we pursue a similar study on the possibility of observing new physics at neutrino telescopes .
+in particular , we focus on high energy neutrinos coming from gamma ray bursts ( grbs ) and present an analysis of how the expected total flux of neutrinos at neutrino telescopes can change significantly by the presence of new physics . among new physics scenarios ,
+we consider neutrino decay , presence of one light sterile neutrino and pseudo dirac nature of neutrinos .    inside a grb , shock accelerated protons may interact with low energy photons leading to the production of high energy mesons @xmath8 and these pions subsequently decay to high energy neutrinos @xmath9 .
+this flux has already calculated in @xcite .
+recently icecube collaboration has claimed to reach the sensitivity of detecting neutrino flux from grbs at tev energy @xcite .
+the combined operation of icecube 40 and 59 string for the time period of april 5 , 2008 to may 2010 for grb neutrinos has placed a tighter upper bound , 3.7 times below the theoretical predictions @xcite .
+@xcite have recalculated the neutrino flux from the 215 grbs used by icecube during their period of detection , and concluded that the neutrino flux predicted theoretically in the papers by icecube collaborations is an overestimation .
+however @xmath10 in grbs can also produce high energy neutrons , and they will decay as @xmath11 to antineutrinos @xcite .
+the other secondary products in @xmath10 interactions are @xmath12 where x can be either @xmath13 , @xmath14 or @xmath15 .
+kaons decay to lighter mesons , leptons and neutrinos @xcite . in @xcite the dominant decay channel kaon to neutrino
+, @xmath16 was taken while we have considered all the channels of @xmath17 decaying to neutrinos @xcite .
+so one can find the total neutrino flux from grbs has a contribution from these processes too .
+using the above mentioned possible origin of high energy neutrino flux from grbs and the best fit values of neutrino oscillation parameters ( [ globalfit ] ) , we show that the individual neutrino flux can change significantly from the ones expected from standard oscillation paradigm .
+more specifically , the scenario of neutrino decay can change the expected flux to a great extent , wheareas the changes in the scenario of sterile neutrino and pseudo   dirac neutrino are somewhat moderate and should be detectable in future neutrino telescopes .
+this paper is organized as follows : in section [ sec2 ] , we discuss the possible ways high energy neutrinos can originate in grbs .
+then we discuss the change in neutrino flux due to standard as well as non   standard oscillations in section [ sec3 ] and finally conclude in section [ sec4 ] .
+in calculating the high energy neutrino flux from individual grbs we have used the method as in ref .
+frames of references are assigned as `` c '' for comoving or wind rest frame , `` p '' for proton rest frame .
+quantities measured in the source rest frame are written without any subscript .
+shock accelerated high energy protons interacting with low enrgy photons will produce high energetic muons , pions , neutrons and kaons .
+we have used the low energy photon flux typically observed by @xmath18 in the energy range of 1 kev to 10 mev to calculate the neutrino flux from individual grbs with break at @xmath19 in the source rest frame related to the break energy in the comoving frame @xmath20 as @xmath21 .
+@xmath22 @xmath23 , and @xmath24 .
+the normalization constant @xmath25 is related to the internal energy density @xmath26 by , @xmath27 } \label{a_g}\ ] ] the maximum energy of the shock accelerated protons in the grb fireball can be calculated by comparing the minimum of the @xmath10 interaction time scale ( @xmath28 ) , p   synchrotron cooling time scale ( @xmath29 ) and dynamical time scale ( @xmath30 ) of a grb with the acceleration time scale ( @xmath31 ) of the protons as discussed in @xcite .
+@xmath32    we have considered production of pions in @xmath10 interactions with two particle final states through the decay of resonant particle @xmath33 . at the delta resonance both @xmath34 and @xmath35 have been assumed to be produced with equal probabilities .
+@xmath35 gets on the average @xmath36 of the proton s energy . the charged pions decay to muons and neutrinos .
+finally the muons decay to electrons and neutrinos , antineutrinos .
+each pion decay followed by muon decay gives two neutrinos , one antineutrino and one positron .
+if the final state leptons share the pion energy equally then each neutrino carries @xmath37 of the initial proton s energy .
+the specific parameters of grbs can be denoted as the following way , the fireball lorentz factor @xmath38 , photon luminosity @xmath39 , variability time @xmath40 are the important parameters of a grb .
+the internal energy density @xmath26 relates to photon luminosity , @xmath41 .
+@xmath42 is the internal shock radius .
+the total energy to be emitted by neutrinos of energy @xmath43 from photo   pion decay ( considering muon and pion decay neutrinos together ) in the source rest frame of a grb is @xcite , @xmath44 where @xmath45 is the total isotropic energy of the emitted gamma   ray photons in the energy range of 1kev to 10mev , which is available from observations .
+it is the product of @xmath46 with the duration of the prompt emission from the grb . @xmath47 and @xmath48 are the energy fractions carried by electrons and the magnetic field respectively .
+the maximum energy of neutrinos from pion decay is approximately @xmath37 of the maximum energy of protons ( @xmath49 ) .
+@xmath50 presents the neutrino energy where muon synchrotron cooling starts .
+ultrahigh energy neutrons are also produced in @xmath10 interactions along with pions and kaons .
+these neutrons ( with lorentz factor @xmath51 ) decay ( @xmath11 ) to @xmath52 with a decay mean free path @xmath53 kpc .
+@xmath54 seconds is the lifetime of a neutron in its rest frame and @xmath55 is its energy in the source rest frame . assuming the probability of production of neutrons in resonant @xmath10 interactions to be half one would be able to calculate the fraction of a proton s energy lost to neutron production in the process @xmath56 at the @xmath57resonance @xcite as , @xmath58 where @xmath59}$ ] and @xmath60 . and the energy flux of antineutrinos of energy @xmath61 can be estimated with the neutron flux @xmath62 at the source rest frame travelling a distance @xmath63 @xcite as
+, @xmath64 \times \epsilon_{\bar{\nu},n}^2 .
+\label{nu}\ ] ] @xmath65 is the mean energy of an antineutrino in the neutron rest frame .    in @xmath10 interactions charged kaons ( @xmath66 )
+are produced through the following interactions @xmath67 and @xmath68 .
+although the cross   sections of these interactions are lower compared to photo   pion production @xcite , at very high energy the total neutrino flux produced through kaon decay becomes higher than that from photo   pion decay @xcite .
+the fractional energy transferred from shock accelerated protons to kaons has been calculated for all the channels of @xmath66 from both resonant and multiparticle production from p@xmath69 interaction as @xcite .
+@xmath66 decay to secondary neutrinos by the following channels , @xmath16 , @xmath70 , @xmath71 , @xmath72 , @xmath73 and @xmath74 . due to
+their heavier mass @xmath66 cools at higher energy compared to muon and pion .
+the synchrotron cooling break energy in the kaon spectrum is at @xmath75 it is derived by comparing the decay and cooling time scales of kaons . although the cross   section of kaon production is much less than that of pion production , the neutrino flux from kaon channel exceeds the flux from pion channel at very high energy due to the slower rate of cooling of kaons .
+neutral kaons are produced in @xmath10 interactions with a cross   section @xmath76 @xmath77 @xcite at the peak energy @xmath78 gev and width @xmath79 = 0.7 gev .
+half of the neutral kaons are assumed to be long lived kaons ( @xmath80 ) .
+@xmath81 can be produced in @xmath10 interactions with multiparticle final states ( @xmath82 , @xmath83 and @xmath84 ) .
+the cross   sections of these interactions are measured as @xmath85 , @xmath85 and @xmath86 respectively @xcite .
+@xmath80 decays through the following channels @xmath87 , @xmath88 , @xmath89 , and @xmath90 .
+@xmath91 decays to two charged pions through this channel @xmath92 .
+the pions finally decay to neutrinos and antineutrinos .
+the total neutrino flux from @xmath80 and @xmath91 can be calculated in the same way as @xmath66 .
++ the observed total neutrino flux with energy @xmath93 on earth is , @xmath94 where @xmath95 is the redshift of the grb .
+our calculations are based on the standard internal shock model of grbs . in internal shocks
+the shock radius @xmath96 is related to the bulk lorentz factor @xmath97 and variability time @xmath98 , @xmath99 , where @xmath100 is the speed of light .
+we have not assumed any relation among the grb parameters @xmath97 and isotropic energy @xcite or peak luminosity and observed break energy in the low energy photon spectrum @xcite .
+we have taken the following 4 set of grb parameters to calculate the neutrino flux .
+1 .   @xmath101 , @xmath102 , @xmath103 erg / sec , @xmath104 , @xmath105 msec , @xmath106 , @xmath48/ @xmath107 , @xmath108 and @xmath109 cm .
+@xmath110 , @xmath111 , @xmath103 erg / sec , @xmath104 , @xmath105 msec , @xmath106 , @xmath48/ @xmath112 , @xmath113 and @xmath109 cm .
+@xmath114 , @xmath115 , @xmath116 erg / sec , @xmath117 , @xmath118 msec , @xmath106 , @xmath48/ @xmath107 , @xmath119 and @xmath120 cm .
+@xmath110 , @xmath102 , @xmath121 erg / sec , @xmath122 , @xmath105 msec , @xmath106 , @xmath48/ @xmath107 , @xmath123 and @xmath124 cm .
+electron , muon and tau neutrino flavor composition for standard oscillation ( wod ) and for neutrino decay scenario ( wd ) for @xmath125 for grb 1 .
+@xmath126 neutrino flavor flux ratio for the grb 1 ]
+neutrino oscillation data clearly indicate the smallness of three standard model neutrino masses @xcite which can be naturally explained via see   saw mechanism @xcite . without using any particular type of seesaw , here we use the most general neutrino mixing mns matrix @xcite and the standard vacuum oscillation probability given by @xmath127 where @xmath128 is an element of the the mns matrix , @xmath129 denoting flavor and mass eigenstates respectively . for cosmological distances like the typical distance of a grb from earth we can assume the limit @xmath130 which simplifies the above expression for probability to @xmath131 the role of standard neutrino oscillation on ultra high energy neutrino flux from grb s were studied earlier in @xcite .
+these studies concluded that the neutrino flavor ratio @xmath132 at source would reduce to @xmath133 at earth due to oscillations .
+the neutrinos while coming from a distance of z will undergo oscillation .
+we have taken the standard oscillation parameters along with the recent calculated value of @xmath134 , where @xmath0 is the neutrino mixing angle measured by double chooz @xcite , daya   bay @xcite and reno @xcite collaborations and other oscillation parameters from global fit data @xcite .
+if the neutrino mass eigenstates are hierarchical , then a higher mass eigenstate can decay into a lower mass eigenstate .
+the role of such neutrino decay on neutrino flavor flux was studied in @xcite .
+here we consider the simplest possible situation where the heavier mass eigenstate completely decays into the lightest mass eigenstate which is kinematically stable . thus in case of normal hierarchy ( nh)@xmath135 , the mass eigenstate ratio at earth will be @xmath136 .
+hence the flavor ratio at earth will be @xmath137 for nh .    for incomplete decay , we have to include the decay factor in the expression for probability of oscillation .
+this decay factor which accounts for the depletion in neutrino flux due to the decay of mass eigenstate @xmath138 with rest   frame lifetime @xmath139 and energy @xmath140 propagating over a distance @xmath141 , is @xmath142 .
+the expression for neutrino flux at earth in this case becomes @xmath143 where @xmath144 denotes the flux of neutrino flavor @xmath145 at source .
+taking the flavor ratio at source to be @xmath146 and using the oscillation parameters as in @xcite , we compute the flux for different neutrino flavors at earth . for the purpose of our calculation
+we consider three cases @xmath147 respectively as shown in figure [ fig1 ] .
+also , the electron , muon and tau flavor composition of neutrino flux on earth is shown for one specific choice of grb parameters as well as @xmath148 in figure [ fig2 ] @xmath149 .
+we also show the flavor ratio of muon type to electrom plus tau type neutrinos in figure [ fig2 ] @xmath126 for the same choice of grb parameters .
+electron , muon and tau flavor composition of neutrino flux on earth for standard oscillation ( so ) and for pseudo dirac neutrino scenario ( pd ) @xmath150 for grb 1 .
+@xmath126 neutrino flavor flux ratio for the grb 1 ]         electron and muon flavor composition of neutrino flux on earth for normal oscillation ( so ) and for one extra sterile neutrino ( sn ) case for @xmath151 for grb 1 .
+@xmath126 neutrino flavor flux ratio for the grb 1 ]      instead of a being purely dirac with a mass @xmath152 , neutrino can be a mixture of two almost degenerate majorana neutrinos .
+please see @xcite for the role of pseudo dirac neutrinos in ultra high energy neutrino flux and references therein for earlier works on pseudo dirac neutrinos .
+in such a case the majorana mass terms @xmath153 and the the mass splitting is @xmath154 .
+thus the neutrino mass and flavor basis become @xmath155 and @xmath156 respectively .
+as shown in @xcite , the neutrino flavor conversion probability can have a form as simple as @xmath157 the new constribution coming from pseudo dirac nature of neutrinos will be negligible until @xmath158 becomes of the order of @xmath159 .
+@xmath160 can be as large as @xmath161 for @xmath162 and as large as @xmath163 for @xmath164 .
+taking the initial neutrino flavor ratio at source to be @xmath146 and using the same neutrino oscillation parameters as in @xcite we find the probability of detecting individual flavors on earth . here
+we use @xmath165 for the purpose of our calculation .
+@xmath141 can be taken to be @xmath166 which is the typical distance of a grb from earth .
+the consequences of this pseudo   dirac nature of neutrinos on the muon neutrino flux on earth is shown in figure [ fig3 ] .
+the electron , muon and tau flavor composition of neutrino flux for one specific grb parameter and @xmath160 is shown in figure [ fig4 ] @xmath149 .
+we also show the flavor ratio of muon type to electrom plus tau type neutrinos in figure [ fig4 ] @xmath126 .
+precision measurement of the z boson decay width restricts the number of standard model neutrinos to three .
+however we can still have an ev scale neutrino which has no coupling to the z boson and hence called sterile .
+the presence of such a sterile neutrino is also compatible with the recent wilkinson microwave anisotropy probe ( wmap ) collaboration data @xcite with @xmath167 allowed mass range @xmath168 @xcite .
+the effect of sterile neutrino on ultra high energy neutrino flux was studied earlier in @xcite .
+we follow their approach and use the recent oscillation data @xcite to see the effect of such sterile neutrinos on the neutrino flux coming from grbs .
+as considered in @xcite , we also consider the presence of a sterile neutrino which is almost degenerate with the lightest active neutrino mass eigenstate .
+interestingly , if the mass difference is @xmath169 then there is no experimental constraint on the mixing angles of this sterile neutrino with the three active ones .
+as outlined in @xcite , the simplified oscillation probability for @xmath170 neutrino scheme is @xmath171 where @xmath172 and @xmath173 is the mixing angle between the active neutrino mass eigenstate @xmath174 and the sterile state @xmath175 . in general @xmath176 factors
+can vary in the range @xmath177 .
+taking the flavor ratio at source to be @xmath146 and using the neutrino oscillation data from @xcite we find the probability of individual neutrino flavors at earth . for zero mixings that is , @xmath178
+, the flavor ratios correspond to the standard oscillation as discussed earlier . to show the extent to which the presence of sterile neutrino can affect the flavor fluxes we plot the total muon neutrino flux on earth for two different cases @xmath179 and compare with the standard predictions as shown in figure [ fig5 ] .
+the maximum value of this parameter @xmath180 reproduces the standard oscillation results as seen from figure [ fig5 ] .
+we also show the electron , muon and tau flavor composition of neutrino flux on earth in figure [ fig6 ] @xmath149 .
+we also show the flavor ratio of muon type to electrom plus tau type neutrinos in figure [ fig6 ] @xmath126 . it should be noted that a larger @xmath181 mass difference between the active and the sterile mass eigenstate has other interesting motivations like explaining the anomalies found in miniboone @xcite and lsnd @xcite which we do not attempt to explain here . in case of larger mass difference ,
+the mixing angles between active and sterile neutrinos will be tightly constrained and hence will not affect the flavor ratios of ultra high energy neutrinos .
+we have presented an analysis of the effect of three different new physics scenarios namely , neutrino decay , pseudo dirac nature and presence of one light sterile neutrino on the flux of high energy neutrinos coming from grb s .
+we first calculate the grb neutrino flux from various sources like pion , muon , neutron and kaon decays by choosing four sets of grb parameters .
+we then incorporate the standard neutrino oscillation between all three flavors ( electron , muon and tau ) and calculate the total muon flux on earth as well as the flavor composition .
+we show that different choices of grb parameters can give rise to different neutrino flux on earth .    after calculating the neutrino flux on earth using standard neutrino oscillation physics
+, we then incorporate the three beyond standard model frameworks mentioned above to calculate the total muon flux on earth as well as the flavor composition .
+we find that for neutrino decay scenario , the changes in neutrino flux from the standard oscillation case can be very significant and could give rise to an explanation of the present non   detection of grb neutrinos at icecube experinet .
+however for other two beyond standard model physics scenarios we consider namely , for pseudo dirac and sterile neutrino cases , the changes are moderate .    for the standard oscillation case , we get three plateau regions in the flavor ratio plot as can be seen in part ( b ) of figure [ fig2 ] , [ fig4 ] and [ fig6 ] . at lower energy ,
+the neutron decay channel dominates while the muon damping corresponds to the transition to the second plateau region . as can be seen from the same figures , for the three beyond standard model scenarios the flavor ratio plot changes from the standard oscillation case .
+we would like to thank prof .
+nayantara gupta , rri bangalore and prof .
+s. umasankar , iit bombay for comments and suggestions .

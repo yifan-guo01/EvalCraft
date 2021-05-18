@@ -1,0 +1,126 @@
+a major effort in the nucleocytoplasmic transport field has been directed towards the analysis of all members of the importin  family , in particular with the aim of identifying specific transport cargoes .
+this has led to the characterization of a large number of related proteins ( both importins and exportins ) in all eukaryotic species analyzed .
+new members have primarily been identified by sequence homology or biochemically via their interaction with the small gtpase ran .
+strikingly , the roles of many of these receptors is conserved from yeast to humans .
+there are 14 putative members of the importin  family in the completed saccharomyces cerevisiae genome , nine of which have been shown to function as importins and four as exportins .
+the genes encoding yeast transport receptors are dispersed throughout the genome and none of them contains introns .
+little is known about the gross structure of the genes encoding these nuclear transport receptors , and our knowledge of the chromosomal localization or the organization of the individual genes encoding members of this family is very poor .
+the relative molecular masses of members of importin  like proteins vary between 90 kda and 130 kda , but all are characterized by an acidic isoelectric point .
+the overall sequence similarity between various transport receptors is low ( less than 20% amino acid identity ) and , in many cases , is restricted to the amino   terminal domain .
+work mainly on importin  has demonstrated that these receptors bind rangtp via the amino   terminal domain and cargo via the carboxy   terminal domain . to permit shuttling through the nuclear pore complex ( npc )
+, transport receptors also contain one or multiple binding domains for components of the npcs , called nucleoporins .
+truncation studies using importin  indicate that the binding site for nucleoporins containing fxfg repeats ( in the single   letter amino acid code , where x is , in many cases , a small polar residue or glycine ) is located in an amino   terminal / central region of importin  ( residues 152   352 ) .
+this was recently confirmed in the crystal structure of an amino   terminal fragment of importin  in a complex with five fxfg nucleoporin repeats .
+additional information comes from the crystal structures of importin  and of transportin 1 ( also known as karyopherin 2 ) , which were solved either in a complex with rangtp , with a cargo , or in the free form .
+overall , the structures of importin  like receptors are characterized by a very similar series of helical heat repeats ( 19 in importin  and 18 in transportin 1 ; figure 1 ) .
+heat repeats are approximately 40 residues in length and are found in many eukaryotic proteins such as the pr65/a subunit of protein phosphatase 2a .
+the fundamental repeat unit is a right   handed superhelical structure consisting of a hairpin made up of two  helices , named a and b , separated by a sharp turn .
+each hairpin is connected to the next by a linker region . in transportin 1 ,
+almost all linkers contain a third helix , but there are very few linker helices in importin . in both receptors , one turn is extended into a long acidic loop , which has been suggested to be important for rangtp   mediated cargo release .
+full   length importin  complexed with the importin  binding domain of importin  ( ibb ) forms a snail   like superhelical structure wrapping tightly around the ibb domain .
+the structure of the uncomplexed amino terminus of importin  reveals a different superhelical architecture with a much steeper helical pitch than the cargo   bound or rangtp   bound forms .
+this suggests that importin  undergoes twisted conformational changes in its heat   repeat helix stacking , which could be essential for the regulation of cargo binding and release and/or for protein interactions during the translocation through the npc .
+although the sequence homology is limited , it is expected that exportins will fold in a similar way to the reported importin structures .
+it still remains unclear , however , why rangtp is required for binding of cargo to exportins but causes cargo dissociation from importins .
+structure of importin . ( a ) importin  is composed of 19 helical   repeat motifs ( heat repeats ) .
+each consists of an a and a b helix connected by a short turn , which in heat 8 is replaced by an acidic loop critical for the regulation of substrate binding and release .
+the heat repeats 1   8 are required for high   affinity binding to rangtp .
+the importin  binding ( ibb ) domain of importin  interacts mainly with residues located in repeats 7   19 of importin  .
+the binding site for nucleoporins of the npc is located between residues 152 and 352 , corresponding to repeats 4   8 . on the basis of the crystal structure ,
+the a helices of heat repeats 5 and 6 and a region between heat repeats 6 and 7 are thought to be critical for recognition of the fxfg motif .
+( b ) structure of importin  bound to the ibb domain of importin  ( adapted from ) .
+importin  ( yellow ) forms a superhelical structure that wraps like a snail around the ibb domain ( blue ) .
+the 19 heat repeats share a common core of 21 residues , comprising the a helix with about three turns and the b helix with about four turns .
+the helices critical for the interaction with fxfg   repeat nucleoporins   are in green .
+note the acidic loop , which contacts both rangtp and the ibb domain ( white arrow ) .
+a major function of transport factors of the importin  family is to mediate the transport between the nucleus and cytoplasm of macromolecules that contain nuclear import or export signals . to this end ,
+, they can be found in the nucleus , at the npc or in the cytoplasm . at present , very little is known about the tissue distribution of this family of proteins .
+all members have the ability to recognize and bind specific cargoes , either directly or via adaptor molecules , to bind rangtp and to interact with nucleoporins at the npc .
+interactions between the proteins of the importin  family and nucleoporin repeats have been shown both in vitro   and in vivo .
+these interactions contribute to the import or export of importin  family members and their cargoes through the central transporter of the npc .
+import and export are multistep processes that are initiated by the recognition of nuclear localization signals ( nlss ) and nuclear export signals ( ness ) .
+the most thoroughly studied import signals are the ' classical ' and the bipartite nlss , first identified in sv40 large t antigen and nucleoplasmin , respectively .
+their transport is mediated by importin  , the first   characterized member of this protein family .
+additional importin  dependent adaptors in vertebrates include snurportin 1 ( involved in import of m3g   capped small nuclear ribonucleoproteins , snrnps ) and xrip , ( involved in the import of replication protein a , rpa ) .
+importin  can also form a complex with another importin  like factor , importin 7 , in order to transport the linker histone h1 into the nucleus .
+in addition , importin  is able to interact directly with a large variety of different cargoes , including the t   cell protein tyrosine phosphatase , the human immunodeficency virus ( hiv ) tat and rev proteins , human t   cell leukemia virus rex protein , ribosomal proteins l23a , s7 , and l5 , cyclin b1 , smad   and the parathyroid   hormone   related protein .
+table 1 details known importins , exportins and their cargoes and adaptors . proteins in the importin  like family and their cargoes abbreviations : h.s .
+, homo sapiens ; s.c . , saccharomyces cerevisiae ; x.l . , xenopus laevis .
+genbank accession numbers are given in square brackets for each protein , and alternative names are in parenthesis .
+the import of ribosomal proteins seems to rely on at least partially redundant mechanisms . in yeast ,
+/ yrb4p has been shown to be an important mediator of ribosomal   protein import , but the related protein kap121p
+/ pse1p can functionally substitute for kap123p in vivo . in mammalian cells , at least four importin  like transport factors are able to mediate import of ribosomal proteins .
+interestingly , both the  like importin receptor binding ( bib ) domain and some ribosomal proteins can be imported by any of the four receptors importin  , transportin 1 , importin 5 or importin 7 .
+the yeast importin kap104p mediates nuclear import of the mrna   binding proteins nab2p and nab4p .
+its vertebrate homolog , transportin 1 ( kap2 ) , also mediates import of the rna   binding proteins hnrnp a1 and hnrnp f , but also of ribosomal proteins .
+mammalian transportin   sr mediates nuclear import of a group of abundant arginine / serine   rich proteins , which are essential pre   mrna splicing factors . in yeast ,
+the tata   binding protein ( tbp ) is imported into the nucleus by kap114p .
+exportin 1 ( crm1p , xpo1p ) has been identified in both yeast and higher eukaryotes as an export receptor for leucine   rich nes   containing proteins .
+human exportin 1 has been found to export protein kinase inhibitor  ( pki ) and hiv rev , ib , snurportin 1 , htlv rex , the small nuclear rna , cyclin b1   and the transcription factor nf   at4 .
+targets for exportin in s. cerevisiae include the transcription factors yap1p , and ace2p , the mitogen   activated protein kinase hog1p , and the heat   shock protein ssb1p .
+msn5p was first identified as a yeast exportin that exports the phosphorylated form of the transcription factor pho4p .
+interestingly , msn5p was recently shown to function as an import receptor for the trimeric rpa , suggesting that individual members of the importin  like protein family can function both as import and export receptors .
+the first cellular rna export receptor to be discovered , named exportin   t in higher eukaryotes or los1p in yeast , mediates nuclear export of trnas . many of the nuclear transport factors identified in s. cerevisiae are not essential for viability , even though they transport essential cargoes .
+this phenomenon can be explained by the fact that cargoes can use alternative transport pathways .
+this is probably best exemplified in the import pathway of ribosomal proteins , which is mediated by at least four different import receptors ( see above ) .
+nuclear transport mediated by importins and exportins is strongly directional in vivo : importins bind their cargo in the cytoplasm and transfer it to the nucleus , whereas exportins interact with their substrates in the nucleus and mediate their export to the cytoplasm ( figure 2 ) .
+protein translocation through the npc is thought to occur by an essentially similar mechanism for all importin  related receptors , except for the fact that , in some situations , additional adaptors are required to bridge the cargo   receptor interaction .
+this is mediated by importin  together with its adaptor importin  , which binds both the nls   containing cargo and importin  in the cytoplasm . after a trimeric importin  importin  nls complex is formed , importin  mediates docking at the npc .
+in the presence of rangdp and free gtp , this trimeric complex translocates through the npc .
+translocation is terminated by binding of rangtp to importin  , which releases the complex from the npc and dissociates importin  from importin  ( reviewed in ) .
+free importin  has a lower affinity for the nls cargo , and release from importin  is therefore believed to trigger release of the nls cargo as well .
+thereafter , the importin  rangtp complex , and importin  bound to its exportin ( cas ) and rangtp , are re   exported to the cytoplasm for another round of import . a schematic representation of nuclear import and export cycles through the npc .
+the cargo   loaded importin translocates through the npc into the nucleus , where the cargo is dissociated from the importin by binding of importin to rangtp .
+the importin   rangtp complex recycles back to the cytoplasm , where rangtp hydrolysis is stimulated by rangap and ranbp1 ; this frees the importin for the next round of import .
+exportins bind their export substrates in the nucleus , forming a trimeric cargo   exportin   rangtp complex .
+this complex is exported from the nucleus and dissociated in the cytoplasm by hydrolysis of rangtp to rangdp and inorganic phosphate ( pi ) .
+this releases the export substrate , and the exportin is recycled back into the nucleus . for details , see text .
+transport in the reverse direction , mediated by exportins , is regulated in a converse manner ( figure 2 ) .
+a paradigm for transport out of the nucleus is the export of leucine   rich nes   containing proteins .
+exportin 1 binds to substrates containing a leucine   rich nes in the nucleus , forming a trimeric complex with rangtp .
+this complex is then transferred to the cytoplasm by a mechanism involving binding of exportin 1 to the npc . once in the cytoplasm ,
+gtp hydrolysis results in dissociation of ran from the complex , allowing exportin 1 to release its cargo .
+free exportin 1 re   enters the nucleus to bind and export additional cargo molecules .
+as illustrated in these examples , the rangtp cycle plays a key role in conferring directionality to nucleocytoplasmic transport events   and rangtp acts as a marker of the nuclear compartment for both nuclear import and export ( figure 2 ; reviewed in ) .
+remarkably , this model predicts that only a single molecule of gtp is hydrolyzed per import / export cycle ; it strictly requires that rangtp is highly enriched in the nucleus .
+it is thought that a steep rangtp   rangdp gradient is generated by the cellular compartmentalization of regulators of the ran cycle .
+specifically , the guanine   nucleotide exchange factor of ran ( rangef or rcc1 ) , which regenerates rangtp is nuclear and bound to chromatin . in contrast , the main gtpase   activating protein ( rangap ) , and the ran   binding proteins , ranbp1 and ranbp2 , which stimulate gtp hydrolysis by ran , are found in the cytoplasm .
+this asymmetric distribution predicts that ran is present mainly in the gtp   bound form in the nucleus , whereas ran is immediately converted to a gdp   bound state in the cytoplasm .
+recently , it was suggested that in addition to the ran cycle , the npc itself could provide an additional mechanism to ensure transport directionality .
+given that several nucleoporins implicated in binding to importins and exportins have distinctive locations in the structure of the npc , the asymmetric design of the npc may also be important to efficiently drive nuclear import and export .
+nuclear transport mediated by importins and exportins is strongly directional in vivo : importins bind their cargo in the cytoplasm and transfer it to the nucleus , whereas exportins interact with their substrates in the nucleus and mediate their export to the cytoplasm ( figure 2 ) .
+protein translocation through the npc is thought to occur by an essentially similar mechanism for all importin  related receptors , except for the fact that , in some situations , additional adaptors are required to bridge the cargo   receptor interaction .
+this is mediated by importin  together with its adaptor importin  , which binds both the nls   containing cargo and importin  in the cytoplasm . after a trimeric importin  importin  nls complex is formed , importin  mediates docking at the npc . in the presence of rangdp and free gtp ,
+translocation is terminated by binding of rangtp to importin  , which releases the complex from the npc and dissociates importin  from importin  ( reviewed in ) .
+free importin  has a lower affinity for the nls cargo , and release from importin  is therefore believed to trigger release of the nls cargo as well .
+thereafter , the importin  rangtp complex , and importin  bound to its exportin ( cas ) and rangtp , are re   exported to the cytoplasm for another round of import . a schematic representation of nuclear import and export cycles through the npc .
+the cargo   loaded importin translocates through the npc into the nucleus , where the cargo is dissociated from the importin by binding of importin to rangtp .
+the importin   rangtp complex recycles back to the cytoplasm , where rangtp hydrolysis is stimulated by rangap and ranbp1 ; this frees the importin for the next round of import .
+exportins bind their export substrates in the nucleus , forming a trimeric cargo   exportin   rangtp complex .
+this complex is exported from the nucleus and dissociated in the cytoplasm by hydrolysis of rangtp to rangdp and inorganic phosphate ( pi ) .
+this releases the export substrate , and the exportin is recycled back into the nucleus . for details , see text .
+transport in the reverse direction , mediated by exportins , is regulated in a converse manner ( figure 2 ) .
+a paradigm for transport out of the nucleus is the export of leucine   rich nes   containing proteins .
+exportin 1 binds to substrates containing a leucine   rich nes in the nucleus , forming a trimeric complex with rangtp .
+this complex is then transferred to the cytoplasm by a mechanism involving binding of exportin 1 to the npc .
+once in the cytoplasm , gtp hydrolysis results in dissociation of ran from the complex , allowing exportin 1 to release its cargo .
+free exportin 1 re   enters the nucleus to bind and export additional cargo molecules .
+as illustrated in these examples , the rangtp cycle plays a key role in conferring directionality to nucleocytoplasmic transport events   and rangtp acts as a marker of the nuclear compartment for both nuclear import and export ( figure 2 ; reviewed in ) .
+remarkably , this model predicts that only a single molecule of gtp is hydrolyzed per import / export cycle ; it strictly requires that rangtp is highly enriched in the nucleus .
+it is thought that a steep rangtp   rangdp gradient is generated by the cellular compartmentalization of regulators of the ran cycle .
+specifically , the guanine   nucleotide exchange factor of ran ( rangef or rcc1 ) , which regenerates rangtp is nuclear and bound to chromatin . in contrast , the main gtpase   activating protein ( rangap ) , and the ran   binding proteins , ranbp1 and ranbp2 , which stimulate gtp hydrolysis by ran , are found in the cytoplasm .
+this asymmetric distribution predicts that ran is present mainly in the gtp   bound form in the nucleus , whereas ran is immediately converted to a gdp   bound state in the cytoplasm .
+recently , it was suggested that in addition to the ran cycle , the npc itself could provide an additional mechanism to ensure transport directionality .
+given that several nucleoporins implicated in binding to importins and exportins have distinctive locations in the structure of the npc , the asymmetric design of the npc may also be important to efficiently drive nuclear import and export .
+despite the large amount of progress that has been made in the nucleocytoplasmic transport field in recent years , many important questions remain unsolved .
+many import and export receptors have now been characterized and their first cargoes have been identified .
+the further characterization of new transport receptors and adaptors , and the identification of new import and export substrates , will lead to a more complete picture of nucleocytoplasmic transport .
+a big challenge for the future will be to understand how translocation through the npc occurs , and how nucleocytoplasmic transport is regulated .
+to gain insight into these questions , a quantitative analysis of interactions between transport receptors and nucleoporins will be required .
+it will be also interesting to see whether an increasing affinity gradient of receptors for nucleoporins along the npc exists and , if so , whether it makes an important contribution towards the direction of transport .
+other issues that remain to be solved include the structural differences between members of the importin and exportin family .
+how does rangtp dissociate import complexes in the nucleus but promote binding of export cargoes to exportins ?
+a key mechanistic topic that is poorly understood is the export of rnas and rnps .
+although a trna   export factor has been identified , the mechanism of rrna or mrna export is still poorly understood .
+several proteins in s. cerevisiae , such as mex67p and yra1p , and their metazoan counterparts tap and aly , have been indicated to play an important role in mrna export .
+mex67p / tap does not belong to the family of importin  like proteins , suggesting that there are alternative translocation pathways through the npc .

@@ -1,0 +1,11 @@
+pike ( pi 3-kinase enhancer ) is a recently identified brain specific nuclear gtpase , which binds pi 3-kinase and stimulates its lipid kinase activity .
+nerve growth factor treatment leads to pike activation by triggering the nuclear translocation of phospholipase c-1 ( plc-1 ) , which acts as a physiologic guanine nucleotide exchange factor ( gef ) for pike through its sh3 domain . to date , three forms of pike have been characterized : pike - s , pike - l and pike - a .
+pike - s is initially identified shorter isoform .
+pike - l , a longer isoform of pike gene , differs from pike - s by c - terminal extension containing arf - gap ( adp ribosylation factor - gtpase activating protein ) and two ankyrin repeats domains .
+in contrast to the exclusive nuclear localization of pike - s , pike - l occurs in both the nucleus and the cytoplasm .
+pike - l physiologically associates with homer 1 , an mglur i binding adaptor protein .
+the homer / pike - l complex couples pi 3-kinase to mglur i and regulates a major action of group i mglurs , prevention of neuronal apoptosis .
+more recently , a third pike isoform , pike - a was identified in human glioblastoma multiforme brain cancers . unlike the brain specific pike - l and -s isoforms , pike - a distributes in various tissues .
+pike - a contains the same domains present in pike - l but lacks n - terminal proline - rich domain ( prd ) , which binds pi 3-kinase and plc-1 .
+instead , pike - a specifically binds to active akt and upregulates its activity in a gtp - dependent manner , mediating human cancer cell invasion and preventing apoptosis .
+thus , pike extends its roles from the nucleus to the cytoplasm , mediating cellular processes from cell invasion to programmed cell death .

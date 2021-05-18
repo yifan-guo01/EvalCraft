@@ -1,0 +1,37 @@
+An Adversarial Environment Model for Bounded Rational
+Agents in Zero-Sum Interactions
+Inon Zuckerman1
+, Sarit Kraus1
+, Jeffrey S. Rosenschein2
+, Gal Kaminka1
+1
+Department of Computer Science 2
+The School of Engineering
+Bar-Ilan University and Computer Science
+Ramat-Gan, Israel Hebrew University, Jerusalem, Israel
+{zukermi,sarit,galk}@cs.biu.ac.il jeff@cs.huji.ac.il
+ABSTRACT
+Multiagent environments are often not cooperative nor 
+collaborative; in many cases, agents have conflicting interests,
+leading to adversarial interactions. This paper presents a
+formal Adversarial Environment model for bounded 
+rational agents operating in a zero-sum environment. In such
+environments, attempts to use classical utility-based search
+methods can raise a variety of difficulties (e.g., implicitly
+modeling the opponent as an omniscient utility maximizer,
+rather than leveraging a more nuanced, explicit opponent
+model).
+We define an Adversarial Environment by describing the
+mental states of an agent in such an environment. We then
+present behavioral axioms that are intended to serve as 
+design principles for building such adversarial agents. We 
+explore the application of our approach by analyzing log files
+of completed Connect-Four games, and present an empirical
+analysis of the axioms" appropriateness.
+Categories and Subject Descriptors
+I.2.11 [Artificial Intelligence]: Distributed Artificial 
+Intelligence-Intelligent agents,Multiagent Systems;
+I.2.4 [Artificial Intelligence]: Knowledge Representation
+Formalisms and Methods -Modal logic
+General Terms
+Design, Theory

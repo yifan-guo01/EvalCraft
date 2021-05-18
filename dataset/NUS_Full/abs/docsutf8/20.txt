@@ -1,0 +1,22 @@
+A Survey of Collaborative Information Seeking Practices of Academic Researchers
+ABSTRACT
+Information seeking and management practices are an 
+integral aspect of people's daily work. However, we still 
+have little understanding of collaboration in the 
+information seeking process. Through a survey of 
+collaborative information seeking practices of academic 
+researchers, we found that researchers reported that (1) the 
+lack of expertise is the primary reason that they collaborate 
+when seeking information; (2) traditional methods, 
+including face-to-face, phone, and email are the preferred 
+communication mediums for collaboration; and (3) 
+collaborative information seeking activities are usually 
+successful and more useful than individually seeking 
+information. These results begin to highlight the important 
+role that collaborative information seeking plays in daily 
+work.
+Categories and Subject Descriptors:
+H.3.3
+Information search and retrieval
+General Terms:
+Human Factors

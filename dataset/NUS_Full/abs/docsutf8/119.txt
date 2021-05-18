@@ -1,0 +1,22 @@
+Is a Picture Worth a Thousand Words?
+Abstract
+What makes a peripheral or ambient display more effective
+at presenting awareness information than another
+?  Presently, little is known in this regard and 
+techniques for evaluating these types of displays are 
+just beginning to be developed. In this article, we focus 
+on one aspect of a peripheral display's effectiveness-its
+ability to communicate information at a glance.  We 
+conducted an evaluation of the InfoCanvas, a peripheral 
+display that conveys awareness information graphically 
+as a form of information art, by assessing how well 
+people recall information when it is presented for a 
+brief period of time.  We compare performance of the 
+InfoCanvas to two other electronic information displays
+, a Web portal style and a text-based display, when 
+each display was viewed for a short period of time.  We 
+found that participants noted and recalled significantly 
+more information when presented by the InfoCanvas 
+than by either of the other displays despite having to 
+learn the additional graphical representations employed 
+by the InfoCanvas.

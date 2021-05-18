@@ -1,0 +1,88 @@
+simulations of radio emission from cosmic ray air showers based on corsika @xcite have a long history .
+reas2 @xcite calculated the radio emission with the geosynchrotron approach on the basis of corsika   derived multi   dimensional histograms describing the electron  and positron   distributions in air showers .
+later , it became clear that the emission model in reas2 ( and almost all other time   domain models ) was incomplete @xcite .
+we developed the endpoint formalism @xcite and implemented it in reas3 @xcite to provide a complete and model   free calculation of air shower radio emission .
+the air shower model , however , was unchanged between reas2 and reas3 in that it still rested on the histogrammed particle distributions .
+with reas3.1 , we included the effects of a realistic refractive index in air @xcite .
+while reas3.1 already provided a very detailed calculation of air shower radio emission , the histogramming step between the air shower and radio simulations had some drawbacks .
+correlations between parameters stored in the same four   dimensional histograms were retained , but correlations between parameters stored in different histograms were lost .
+this affected in particular correlations between the lateral distance of particles from the shower axis and their momentum angle with respect to the shower axis .
+other characteristics that were lost during histogramming were the predominant outward drift of particles from the shower axis and the systematic offset of the electron and positron distributions ( i.e. , a dipolar component ) .
+also , histogramming always smoothed the distributions and thus suppressed local over  and underdensities arising from sub   showers .
+finally , the histogramming step consumed computation time and made the handling somewhat cumbersome .
+while histogramming was a very valuable tool during the diagnosis and development stage , it is clear that now that the fundamentals are well   understood , this intermediate step should be eliminated .
+for this reason , we have built the endpoint formalism directly into corsika .
+this new , integrated code is named coreas and currently is available in version 1.0 .
+the integration is very natural because corsika provides the position , time and energy of each tracked particle at the start  and endpoint of individual track segments .
+these are then used directly to calculate the radio emission with the endpoint formalism .
+refractive index effects are taken into account correctly .
+special care has to be taken near the cherenkov angle where the endpoint formalism can diverge @xcite . in these situations
+, we have to explicitly take into account the finite time resolution of our detector by smearing out contributions on the sampling time   scale and reverting to the same far   field approximation as employed in the zhs algorithm @xcite .
+the calculation speed of coreas is much faster than that of reas3 , up to a factor of 10 depending on the configuration of observer positions .
+coreas 1.0 is a mature code that has been tested thoroughly and is already in use in many experiments ( lopes , lofar , aera , rasta , anita , crome ) .
+comparisons with lopes data have been presented at this conference @xcite .
+we plan to openly release the coreas source code as part of the pending release of corsika version 7 . in the following , we present some results derived with coreas at low frequencies ( tens of mhz as typical for lopes , lofar , aera ) , high frequencies ( hundreds of mhz as typical for anita ) and very high frequencies ( ghz frequencies as typical for crome ) .
+as the performance of the code is much better than that of reas3 , we can do calculations on very fine grids and thus produce some particularly instructive plots .
+the main motivation for the development of modern radio emission theory were the pioneering experiments lopes and codalema working at frequency ranges of tens of mhz .
+a lot of progress has been made in recent years in the study of the air shower radio emission , and simulations have always been a fundamental guideline for interpreting the measurements .
+one of the most important goals for radio detection is to reliably reconstruct the energy and mass of the primary cosmic rays .
+figure [ fig : lopesprotoniron ] illustrates two important aspects that such analyses have to take into account : first , the footprint of the radio signal total field strength exhibits significant asymmetries .
+they result from the well   understood superposition of the dominant geomagnetic and sub   leading charge excess components of the radiation .
+in particular when fitting a lateral distribution function to radio measurements , these asymmetries have to be taken into account .
+second , it becomes obvious immediately that there can be very significant differences between the lateral distribution functions of radio signals emitted by proton   induced air showers ( deeper shower maximum ) and iron   induced air showers ( shallower shower maximum ) .
+naturally , shower   to   shower fluctuations wash out these signatures , yet they can still be exploited in practice @xcite .    ev air showers induced at the lopes site by a proton ( left ) and an iron ( right ) primary . please note the different absolute scaling .
+both the asymmetry of the footprint and the systematically different slope of the lateral distribution caused by the different depths of shower maximum are obvious.,title="fig : " ]  ev air showers induced at the lopes site by a proton ( left ) and an iron ( right ) primary .
+please note the different absolute scaling .
+both the asymmetry of the footprint and the systematically different slope of the lateral distribution caused by the different depths of shower maximum are obvious.,title="fig : " ]    the interaction of the geomagnetic and charge excess components of the radio emission from a vertical air shower are illustrated in some more depth in figure [ fig : lopespolarisation ] . in the middle , the inner 100  m radius of the radio footprint are shown . at the outside , scatter plots of the north   south component versus the east   west component of the electric field vector as a function of time as observed at various observer positions at 100  m radius illustrate the polarisation characteristics of the radio signal .
+for observers in the east , the geomagnetic and charge excess components superpose constructively , the resulting polarisation is purely linear east   west .
+similarly , for observers in the west , the two components interfere destructively .
+this is the reason for the asymmetry already observed in figure [ fig : lopesprotoniron ] . at the other observer positions , the situation is more complex .
+the geomagnetic component is still east   west   polarized , yet the charge excess component has a linear polarization with the electric field vector aligned radially .
+in addition , the pulses caused by the two components are not completely in synch . therefore , the superposition of the two components leads to an ellipse in the scatter plots ( rather than a line ) .
+in other words , the total polarisation has a certain amount of circular polarization , and the resulting total polarisation is elliptical .
+these subtleties have to be kept in mind when analyzing measurements with respect to polarisation characteristics .    ev air shower induced by an iron nucleus at the lopes site .
+the map in the center shows the total amplitude footprint.,scaledwidth=75.0% ]
+with the inclusion of a realistic refractive index in the air shower radio emission simulations , cherenkov effects arise for suitable geometries .
+this means that signals emitted at different times arrive simultaneously at an observer , or putting it differently , the emission is compressed in time .
+the time   compression of the signal means that the frequency spectrum expands to much higher frequencies than for a calculation with a refractive index of unity . at frequencies well above 100  mhz
+this can have dramatic effects .
+an example illustrating these effects is given in figure [ fig : anitaprotoniron ] .
+while for the proton shower ( left panel ) the footprint looks similar as for low frequencies , for the iron shower ( right panel ) a prominent ring apppears .
+the ring appears for observers for which cherenkov   like compression of the radio pulses occurs , leading to a strong signal even in the frequency range of 300   1200  mhz .
+the difference between the proton and iron case is the depth of shower maximum , and consequently the distance of the `` radio source '' from the observer .
+the proton shower penetrated deeply , and the shower maximum was close to the ground , whereas the iron shower reached its maximum earlier in the atmosphere , allowing for the cherenkov condition to be fulfilled for observers at the adequate lateral distance .
+it is obvious that the diameter of the ring thus provides information on the depth of shower maximum , although it should be kept in mind that it probes the geometrical distance from source to observer , not the atmospheric depth traversed .
+closer inspection of the ring also illustrates that the well   known east   west asymmetry is still present . in other words , also at these high frequencies the superposition of geomagnetic and charge excess emission is present .
+overall , the polarization of the signal is analogous to the one observed at lower frequencies . for inclined air showers , the ring will become elliptical , and as for inclined air showers the source moves geometrically farther away , the ring diameter will increase .
+the frequency range illustrated here is the one probed by the anita experiment .
+comparisons have shown that the cosmic   ray events observed by anita can be plausibly explained by cherenkov   compressed air shower radio emission , and studies to determine the energy scale from coreas simulations are ongoing @xcite .
+ev air shower induced by a proton ( left ) and an iron ( right ) primary at the lopes site as seen at 300   1200  mhz.,title="fig : " ]  ev air shower induced by a proton ( left ) and an iron ( right ) primary at the lopes site as seen at 300   1200  mhz.,title="fig : " ]
+if one goes to yet higher frequencies such as 3.4   4.2  ghz as probed by the crome experiment , the emission characteristics change .
+this is illustrated in figure [ fig : crome ] .
+while the cherenkov ring is still clearly visible , and also an east   west asymmetry is still present , the ring for the total electric field ( left panel ) now has a gap for the north and south observer locations .
+this is in strong contrast to the emission pattern at mhz and hundreds of mhz frequencies . likewise ,
+if one looks at the north   south component of the electric field vector ( right panel ) , the emission pattern shows four distinct quadrants . at lower frequencies ,
+the footprint shows emission in the northern and southern region of the footprint , but there is no gap along the north   south axis .
+another difference is that for observers in these four quadrants , the electric field vector is aligned radially with respect to the shower axis , unlike at lower frequencies ( cf .
+figure [ fig : lopespolarisation ] ) .
+the `` clover   leaf '' emission pattern is related to the geomagnetic emission   if the magnetic field is switched off , the amplitude drops to a level of only 15   20  @xmath0v / m , and the resulting footprint of the charge excess emission is circularly symmetric .
+another interesting feature is the presence of `` ripples '' in the footprint .
+these are not numerical artifacts , but are indeed interference minima and maxima appearing in the simulated signal .
+the `` clover   leaf '' pattern visible for the north   south component of the emission at ghz frequencies is reminiscent of the patterns observed for calculations based on the geosynchrotron approach @xcite .
+geosynchrotron emission in this context relates to the radiation associated with the direct acceleration of the particles in the geomagnetic field rather than the emission associated with the effective drift of particles in the time   varying transverse currents arising from an equilibrium of acceleration by the magnetic field and deceleration due to interactions .
+a hypothesis that is still to be tested is that the geosynchrotron component actually could be relevant at such high frequencies , while it is insignificant at lower frequencies .
+a first comparison of coreas simulations with crome measurements @xcite shows a general agreement , so that also at these very high frequencies radio emission from cosmic ray air showers seems to be observable .
+ev air shower induced by a proton at the lopes site as seen at 3400   4200  mhz.,title="fig : " ]  ev air shower induced by a proton at the lopes site as seen at 3400   4200  mhz.,title="fig : " ]
+with coreas 1.0 , a full   fledged , parameter  and model   free monte carlo simulation code for radio emission from air showers on the basis of the endpoint formalism implemented in corsika is available .
+it is more precise , much faster and much easier to handle than its predecessor reas3.1 , and since it uses identical input and output formats , transition to coreas will be easy for users who have previously used reas for simulations .
+open publication of the source code is planned for the release of corsika version 7 .
+while the simulation code has initially been developed for application at frequencies of tens of mhz , it can also be applied at much higher frequencies .
+the cherenkov effects arising from the varying refractive index of the atmosphere lead to cherenkov compression of the emitted radio pulses and thus the appearance of cherenkov rings in the footprints , at which emission can be observed at frequencies of several hundreds of mhz and even at ghz frequencies .
+the diameter of these cherenkov rings is related to the geometrical distance of radio source and observer , and thus contains information on the depth of shower maximum .
+the emission at frequencies of hundreds of mhz shows the same polarization characteristics and symmetries as it does at tens of mhz .
+comparisons with measurements of the anita experiment are ongoing , and cherenkov   compressed air shower radio emission is a very plausible candidate to explain the observed events .    at ghz frequencies ,
+the radio emission from air showers shows qualitatively different polarization characteristics than at lower frequencies . along the north   south axis from the core , the emission is attenuated , both in the total signal and in the north   south electric field component .
+the latter exhibits a distinct `` clover   leaf '' pattern which is associated with the magnetic field , and which was previously observed in geosynchrotron simulations .
+further studies should clarify the source and nature of this pattern .
+n.  palmieri , et al .
+, `` reconstructing energy and xmax of cosmic ray air showers using the radio lateral distribution measured with lopes , '' in _ proc . arena 2012 workshop ( erlangen , germany ) _ , aip conference proceedings , to be published .

@@ -1,0 +1,20 @@
+A Geometric Constraint Library for 3D Graphical Applications
+ABSTRACT
+Recent computer technologies have enabled fast high-quality
+3D graphics on personal computers, and also have made
+the development of 3D graphical applications easier. However
+, most of such technologies do not sufficiently support
+layout and behavior aspects of 3D graphics. Geometric constraints
+are, in general, a powerful tool for specifying layouts
+and behaviors of graphical objects, and have been applied
+to 2D graphical user interfaces and specialized 3D graphics
+packages. In this paper, we present Chorus3D, a geometric
+constraint library for 3D graphical applications. It
+enables programmers to use geometric constraints for various
+purposes such as geometric layout, constrained dragging,
+and inverse kinematics. Its novel feature is to handle scene
+graphs by processing coordinate transformations in geometric
+constraint satisfaction. We demonstrate the usefulness of
+Chorus3D by presenting sample constraint-based 3D graphical
+applications.
+

@@ -1,0 +1,28 @@
+Towards Self-organising Agent-based Resource Allocation
+in a Multi-Server Environment
+Tino Schlegel1
+, Ryszard Kowalczyk2
+Swinburne University of Technology
+Faculty of Information and Communication Technologies
+Hawthorn, 3122 Victoria, Australia
+{tschlegel1
+,rkowalczyk2
+}@ict.swin.edu.au
+ABSTRACT
+Distributed applications require distributed techniques for
+efficient resource allocation. These techniques need to take
+into account the heterogeneity and potential unreliability of
+resources and resource consumers in a distributed 
+environments. In this paper we propose a distributed algorithm that
+solves the resource allocation problem in distributed 
+multiagent systems. Our solution is based on the self-organisation
+of agents, which does not require any facilitator or 
+management layer. The resource allocation in the system is a purely
+emergent effect. We present results of the proposed resource
+allocation mechanism in the simulated static and dynamic
+multi-server environment.
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence]: Coherence
+and coordination
+General Terms
+Algorithms

@@ -1,0 +1,65 @@
+the nuclear receptor corepressors were initially identified as nuclear proteins recruited by the thyroid hormone receptor ( tr ) and retinoic acid receptor ( rar ) isoforms to mediate ligand   independent repression .
+more recently , they have been shown to modulate the transcriptional activity of a wide variety of transcription factors .
+the two main nuclear receptor corepressors are the nuclear receptor corepressor protein ( ncor ) [ horlein et al . ,
+1995 ] and the silencing mediator of retinoid and thyroid hormone receptors ( smrt ) [ chen and evans , 1995 ] .   nuclear hormone receptors ( nhrs ) generally bind ncor and smrt in the absence of ligand or the presence of antagonists .
+these interactions are mediated by cornr box sequences ( i / l   x   x   i / v   i ) in the interacting domains of ncor and smrt [ hu and lazar , 1999 ; nagy et al . , 1999 ;
+perissi et al . , 1999 ] .   sequences within and outside these cornr box motifs
+the binding of ligand to the nhr results in a conformational change in the receptor , leading to loss of corepressor binding and subsequent recruitment of coactivators .
+ncor and smrt are expressed ubiquitously , and they function in vitro as corepressors of gene transcription .
+however , their exact physiologic roles in distinct tissues remain relatively undefined , in part due to a lack of suitable animal models .   an ncor knock   out mouse has been developed , but ncor deficiency was found to cause embryonic lethality [ jepsen et al . , 2000 ] .
+the use of cortical progenitor cells from ncor  /  mice showed that ncor was important in inhibiting the differentiation of neural stem cells into astrocytes [ hermanson et al . ,
+however , the ability of ncor and smrt to modulate differentiation in other tissues remains relatively unexplored .
+recently , we and other groups have found that ncor and smrt play an important role in the adipocyte .
+we have focused on the role of these corepressors in inhibiting adipocyte differentiation , which appears to occur via repression of peroxisome proliferator   activated receptor  ( ppar ) activity .
+ppar is a member of the nuclear hormone receptor ( nhr ) superfamily of transcription , and exists as two isoforms which differ only in their a / b domains : ppar1 and ppar2 .
+ppar2 is specifically expressed in adipocytes , and ppar response elements are found in a number of adipocyte   specific genes , including ap2 , phosphoenolpyruvate carboxykinase , acyl   coa synthetase , and lipoprotein lipase .
+similar to other nhrs , the ppar ligand   binding domain binds multiple classes of coactivators .
+ppar , particularly the ppar2 isoform , is considered to be the key regulator of adipocyte differentiation [ rosen et al . ,
+knock   out of ppar in adipose tissue results in decreased adipocyte number , and decreased plasma levels of leptin and adiponectin [ he et al .
+interestingly , these mice exhibit insulin resistance in fat and liver , but not in muscle , and have normal glucose tolerance and systemic insulin sensitivity in the basal state .
+mice develop excess adiposity and systemic insulin resistance [ hevener et al . , 2003 ; norris et al . ,
+these data suggest that ppar action is more complex than previously understood , and that ppar plays important roles in tissues other than the adipocyte .
+however , the adipocyte represents a target tissue that is uniquely dependent on ppar action ; ppar is required for adipogenesis , and the differentiated adipocyte appears to depend on ppar for its survival [ imai et al . ,
+there have been limited studies of corepressor recruitment by ppar , and early results were conflicting .
+some studies suggested that ppar might not recruit ncor or smrt in the presence of dna response elements [ zamir et al . ,
+another report suggested that ppar could recruit the corepressor smrt , but mainly in the presence of epidermal growth factor ( egf ) [ lavinsky et al . ,
+later work showed that ppar was able to recruit nuclear receptor corepressors in cells [ gurnell et al . , 2000 ;
+wang et al . , 2004 ] and that overexpression of ncor or smrt repressed ppar mediated gene transcription in certain cell types [ krogsdam et al . ,
+interestingly , mutant ppar receptors have been found in patients with ppar resistance that release corepressors aberrantly in the presence of exogenous ligands [ agostini et al . ,
+recently , we have shown that ncor and smrt down   regulate ppar mediated transcriptional activity in 3t3 l1 cells , a fibroblast cell line that retains the ability to differentiate into adipocytes in the appropriate hormone milieu [ yu et al . , 2005 ] .
+we used rna interference to down   regulate ncor or smrt levels in 3t3 l1 cells , and examined the ability of these cells to undergo adipogenesis .
+interestingly , when stimulated with insulin , dexamethasone , and isobutylmethylxanthine , these cells exhibited increased expression of adipocyte   specific proteins as compared to wild   type cells .
+moreover , these cells exhibited enhanced lipid droplet formation , as measured by oil red o staining .
+the cells were next stimulated to differerentiate in a thiazolidinedione ( tzd) dependent differentiation cocktail .
+tzds serve as ligands for ppar , and are used clinically to increase insulin sensitivity in the treatment of type 2 diabetes mellitus [ olefsky , 2000 ] .
+interestingly , cells deficient in ncor or smrt expressed an increased level of adipocyte   specific proteins when stimulated by tzds [ yu et al . , 2005 ] .
+thus , these data show that ncor and smrt modulate adipogenesis , most likely via their ability to repress ppar action .
+moreover , the relative cellular levels of corepressors and coactivators affect the ability of ppar ligands to induce adipocyte differentiation .
+other groups have also recently examined the ability of ncor and smrt to repress ppar transcriptional activity in 3t3 l1 cells .
+guan et al . , showed that ncor and smrt are both recruited to ppar , but this process is promoter   specific [ guan et al . ,
+when ppar is recruited to the ap2 promoter , it does not recruit corepressors ; instead ppar is bound to coactivators even in the absence of ligand .
+in contrast , when ppar is recruited to the glycerol kinase promoter , it recruits nuclear receptor corepressors and represses gene transcription in the absence of ligand .   while the presence of ligand does not cause a shift in cofactor recruitment by ppar on the ap2 promoter , ligand results in release of corepressors and recruitment of coactivators on the glycerol kinase promoter .
+these data suggest that corepressors affect only a fraction of ppar responsive genes .   an area of active research is to identify which ppar responsive genes are corepressor   dependent and which are not .
+the standard view of ppar mediated transcription involves an increase in gene transcription in the presence of ligands such as tzds .   however , there are many genes that are negatively regulated by ppar ligands .
+negative regulation by ppar and other nhrs is poorly understood .   early work into negative regulation by ppar focused on leptin gene regulation , as it is known that ppar agonists down   regulate leptin mrna levels [ zhang et al . ,
+interestingly , it was found that the putative ppar response element in the leptin promoter was not involved in negative regulation and it was hypothesized that ppar functionally antagonized c / ebp to decrease transcription in response to tzds [ hollenberg et al . ,
+more recently , pascual et al . , investigated the ability of ppar to down   regulate the inducible nitric oxide synthase ( inos ) gene in macrophages [ pascual et al . , 2005 ] .
+these authors found that ppar ligands cause sumoylation of the ppar ligand   binding domain .   this process targets ppar to ncor   containing complexes , and decreases the ability of p50 and p65 complexes to recruit coactivators .
+thus , dna   associated ncor may recruit sumoylated ppar to down   regulate gene transcription in response to tzds on promoters that do not contain classical ppar / rxr binding sites .
+interestingly , while ncor was important in negative regulation of the inos promoter , smrt was ineffective , suggesting there may be corepressor specificity in terms of negative regulation by ppar [ pascual et al . , 2005 ] .
+while this work was performed in macrophages , these results shed insight into potential ways that corepressors might also influence ppar mediated negative regulation in adipocytes .
+tzds serve as high affinity ligands for ppar receptors , and their effects on insulin sensitivity are thought to be dependent on this activity .   since ppar  / 
+tzds might increase insulin sensitivity via the recruitment of coactivators , whereas a decrease in ppar number would increase insulin sensitivity via a decrease in corepressor action [ miles et al . ,
+as noted above , knock   out of ppar in adipose tissue results in decreased adipocyte number [ he et al .
+interestingly , adipocyte   specific ppar knock   out mice exhibit normal systemic insulin sensitivity in the basal state , but are susceptible to insulin resistance induced by high   fat feeding [ he et al .
+mice exhibit systemic insulin resistance even in the basal state [ hevener et al . , 2003 ; norris et al . ,
+the in vivo function of ppar is complex , and further work will clarify the role of ppar in distinct tissues , including its relationship with ncor and smrt .
+increasing evidence suggests that the corepressors ncor and smrt play an important role in adipocyte differentiation and ppar transcriptional activity .
+it appears that only a subset of ppar responsive genes is corepressor   dependent ( see figure 1 ) .
+in addition , corepressors may also mediate negative regulation by ppar.   future work will delineate the roles of ncor and smrt in the adipocyte and determine which genes are regulated by corepressor activity .
+currently , modulation of ppar transcriptional activity by tzds is used as a mainstay of treatment for type 2 diabetes mellitus [ olefsky , 2000 ] .
+however , tzds are associated with side effects such as weight gain and edema .
+we hypothesize that alterations in corepressor activity might also allow for the modulation of ppar activity in the adipocyte and may represent an alternative or complementary therapeutic approach to the tzd class of medication .
+nuclear receptor corepressors ( cors ) are recruited to ppar on a subset of ppar responsive positively   regulated genes ( a ) .   on these genes ,
+corepressors repress ppar activity in the absence of ligand .   the presence of ligands such as tzds causes release of corepressors and recruitment of coactivators ( coas ) .   on other genes
+( b ) , ppar does not recruit corepressors , and these genes are transcriptionally active even in the absence of ligand .   still other genes are negatively regulated by ppar ligands ( c ) .   on these genes ppar

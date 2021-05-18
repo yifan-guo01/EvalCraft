@@ -1,0 +1,24 @@
+Translating Unknown Cross-Lingual Queries in Digital Libraries Using a Web-based Approach
+ABSTRACT
+Users' cross-lingual queries to a digital library system might be 
+short and not included in a common translation dictionary 
+(unknown terms). In this paper, we investigate the feasibility of 
+exploiting the Web as the corpus source to translate unknown 
+query terms for cross-language information retrieval (CLIR) in 
+digital libraries. We propose a Web-based term translation 
+approach to determine effective translations for unknown query 
+terms by mining bilingual search-result pages obtained from a real 
+Web search engine. This approach can enhance the construction of 
+a domain-specific bilingual lexicon and benefit CLIR services in a 
+digital library that only has monolingual document collections. 
+Very promising results have been obtained in generating effective 
+translation equivalents for many unknown terms, including proper 
+nouns, technical terms and Web query terms.
+
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information Search 
+and Retrieval; H.3.7 [Information Storage and Retrieval]: 
+Digital Libraries.
+
+General Terms
+Algorithms, Experimentation, Performance

@@ -1,0 +1,216 @@
+quantum chromodynamics ( qcd ) allows for various types of hadrons .
+first , the meson and baryon spectra computed from either constituent models @xcite or lattice simulations @xcite in @xmath3-dimensions were found to be in very good agreement with the experimental spectra @xcite . beside these conventional hadrons , qcd does not forbid the existence of other exotic resonances like glueballs , hybrid mesons , tetra- and penta - quarks , etc .
+it is worth commenting a bit the current situation concerning glueballs , since the present works is devoted to that peculiar kind of exotic hadrons .
+the lightest glueballs are expected to mix significantly with conventional states @xcite ; hence their experimental identification is a challenging task and no firm glueball candidate is known yet @xcite .
+constituent and other effective models can in principle drive experimental searches by providing calculations of the glueball mass spectrum and of their preferred decay channels , while lattice qcd , being formulated in euclidean space - time can only provide the mass spectrum @xcite . in
+that sense constituent models are more powerful that numerical simulations , but they rely on the rather strong hypothesis that a relativistic bound state can be approximated by a fixed number of constituents ( quark and/or gluons ) interacting through an instantaneous potential .    the main assumption of constituent approaches is readily justified for quarks : the heavy quarks are heavy enough for an expansion in @xmath4 to be relevant @xcite , while light quarks are known to develop an effective mass @xmath5 mev at low energy @xcite .
+the situation is different for glueballs .
+the gluon mass generation was postulated long time ago @xcite but received support from numerical simulations only recently @xcite .
+after @xcite , it has been claimed that glueballs could be described by a constituent picture thanks to this dynamically generated gluon mass @xcite . in the @xmath3-dimensional case
+, it turned out that the constituent model spectrum matches the lattice one provided that the glueball wave function is built from the transverse degrees of freedom of the constituent gluons only @xcite . the gluonic longitudinal component inherent to massive vector particles actually decouples for physical observables thanks to current conservation @xcite .    because of the obvious connection with experimental data , glueball properties have mostly been studied within a @xmath3-dimensional spacetime
+however , some results are known in @xmath0-dimensions , a case that is particularly relevant mostly for two reasons .
+first , decreasing the number of spatial dimensions can significantly reduce the computational effort in lattice calculations and serve as a toy model for the @xmath3-dimensional theory .
+second , the spectrum of a yang - mills gauge theory with two spatial dimensions exhibits peculiar features , that will be detailed below , and whose understanding is intrinsically challenging .
+the glueball spectrum in @xmath0-dimensions has been computed in @xcite for the gauge group su(@xmath1 ) , and the lowest - lying states have been studied with so(@xmath2 ) in @xcite .    to our knowledge
+, the structure of the @xmath0-@xmath6 glueball spectrum has not been studied yet by resorting to constituent approaches . as shown by lattice computations ,
+the gluon propagator reaches a finite value in the infrared in @xmath0-@xmath6 as well @xcite .
+a constituent model should then be also appropriate to describe the glueball spectrum obtained in numerical simulations .
+this study aims precisely at this and is organized as follows : the basic features of a constituent picture are presented in sec .
+[ sec : cons ] with the numerical technique used to solve the eigenequations associated .
+the two- , three- and four - gluon bound states are then studied in the su(@xmath1 ) case in secs .
+[ sec:2 ] , [ sec:3 ] and [ sec:4 ] respectively .
+the extension of our formalism to arbitrary gauge groups is presented in sec .
+[ sec : gauge ] while gluelumps are discussed in sec .
+[ sec:1 ] .
+concluding comments are given in sec .
+[ sec : conclu ] .
+in @xmath7 dimensions , the gauge field has @xmath8 independent components because of gauge invariance and transversality . in @xmath9 ,
+only one component is left .
+so , at the level of our model , a constituent gluon will be seen as a  scalar " particle in the adjoint representation of the gauge group , with an intrinsic parity equal to @xmath10 . as explained in the introduction
+, gluon mass generation suggests that a constituent description of glueball states may be relevant .
+any glueball state can then be interpreted as a bound state of a given number ( @xmath11 ) of interacting constituent gluons .
+the interaction being confining , one should in a first approximation be able to label the various states by a harmonic oscillator band number related to some jacobi coordinates : @xmath12 and assume that , for the lightest states at least , the mass @xmath13 is @xmath14 . in the above definition , @xmath15 is the eigenvalue of the two - dimensional angular momentum related to the @xmath16th jacobi coordinate , namely @xmath17 .
+physical states are then characterized by a spin @xmath18 such that @xmath19 , where @xmath20 .
+the parity @xmath21 is defined as the operation @xmath22 @xcite : it is crucial to note that @xmath23 .
+therefore , the state @xmath24 has the parity @xmath25 , with @xmath26 . the case @xmath27 needs to be separately considered . under the reasonable assumption that the hamiltonian of the theory commutes with the parity operator ,
+the states @xmath28 have the same mass .
+this is a characteristic signature of @xmath0-dimensional quantum mechanics .
+note that , in @xmath0-@xmath6 , it is in general convenient to use the complex coordinates @xmath29 instead of the cartesian ones .
+the spin operator then reads @xmath30 ( @xmath31 ) , and the parity acts as a complex conjugation , _
+i.e. _ @xmath32 .    in the following
+, we will need to solve two- and three - body relativistic @xmath0-@xmath6 eigenequations . a full numerical three - body calculation in this case
+is out of the scope of this exploratory work , but one can nevertheless resort to a semiclassical mass formula in order to get a correct estimate of the mass spectrum .
+we will use an extended version of the dominantly orbital state ( dos ) method developed at the origin for two - body @xmath3-@xmath6 hadronic systems @xcite .
+it can be generalized to treat three - body system with an arbitrary kinetic part for any number of dimensions @xcite .
+the idea is to quantize the radial excitations around classical circular orbits with quantized angular momentum . in principle ,
+accurate results can only be computed for small radial excitations and high orbital excitation , but it can be shown that very good results can be obtained for the whole spectra in the cases of two- and three - body relativistic systems with linear interactions @xcite . a particularity for @xmath0-@xmath6 systems is the impossibility to use the dos method to treat states with a vanishing total orbital momentum , but then a wkb computation can be used instead @xcite .
+the charge conjugation of a color - singlet bound state of two constituent gluons is always positive : a color wave function like @xmath33 is such that @xmath34 .
+note that this is valid whatever the gauge group since one can always construct the invariant tensor @xmath35 .    to establish the allowed @xmath36 , we recall that the various glueball wave functions can be expressed in a harmonic oscillator basis , for which analytical computations are particularly straightforward .
+let @xmath37 be the relative ( spatial ) coordinate between the two constituent gluons .
+then , in a harmonic oscillator basis , the spatial wave function of any two gluon state has the form @xmath38 , where @xmath39 is a polynomial in @xmath40 , whose degree is related to the energy level of the considered state .
+the spin is given by the eigenvalue of @xmath41 , so @xmath27 states must be functions of the product @xmath42 only . since @xmath21 interchanges @xmath43 and @xmath44 , the parity of these scalar states is positive .
+the pauli principle has finally to be imposed and the state must be symmetrized  constituent gluons are indeed bosons . by definition ,
+@xmath45 , so the scalar states are symmetric .
+one sees that @xmath46 generates a tower of @xmath47 glueballs at the energy level @xmath48 . in the following
+, @xmath49 will always denote the term with the highest degree in the corresponding polynomial and the dots , denoting the terms with lower degrees , will be dropped .
+higher spin states can be built by using @xmath50 , generating a glueball at energy level @xmath51 .
+however , only even values of @xmath52 ensure a totally symmetric state : the allowed two - gluon glueball quantum numbers are finally @xmath47 , @xmath53 , @xmath54 ,  as observed on the lattice @xcite , the scalar and tensor glueballs are indeed the lightest states , which is natural in view of the present approach : they are made of a minimal number of constituent gluons . as observed in table
+[ tab ] , the mass hierarchy of the lightest sates observed on the lattice fits in the classification developed above .
+the harmonic oscillator degeneracy is broken since the underlying dynamical model is not expected to be a nonrelativistic harmonic oscillator .
+we remark that no @xmath55 two - gluon bound state can be formed ; this was not the case in @xmath3-@xmath6 .
+the pseudoscalar glueball is thus expected to be well heavier than the scalar one , as observed in table [ tab2 ] .
+let us first compare our approach to the large-@xmath1 limit of the lattice results since the coupling between states with different number of gluons is expected to vanish at large @xmath1 @xcite .
+the simplest model able to describe a bound state of two constituent gluons is the hamiltonian @xmath56 where we allow for a gluon mass @xmath57 and where we assume the casimir scaling of the string tension , @xmath58 in the above equation , @xmath59 ( @xmath60 ) is the quadratic casimir operator for the gluon ( quark ) and @xmath61 is the fundamental string tension .
+the one - gluon - exchange potential has been neglected : in @xmath0-@xmath6 , it is proportional to @xmath62 , where @xmath63 is some constant .
+such a potential being weakly confining , its influence is expected to be similar to that of the linearly confining term .
+so it should not be as crucial as the coulomb form in @xmath3-@xmath6 .
+the large-@xmath1 limit of our model reads @xmath64 where @xmath65 and @xmath66 are dimensionless conjugate variables .
+the free parameter is @xmath67 , that we set equal to @xmath68 .
+the agreement between our model and the lattice data of @xcite can be appraised in table [ tab ] : it is very satisfactory with respect to the simplicity of our approach . as mentioned before , the numerical results have been obtained thanks the dos method @xcite .
+they have been checked by the use of lagrange - mesh method @xcite which can be easily extended to @xmath0-@xmath6 systems while preserving its high accuracy .
+a fit of the mass spectrum in the large-@xmath1 limit shows that the masses of the @xmath69 states , that have @xmath70 quantum numbers , are located on the regge trajectory @xmath71 , with @xmath72 and @xmath73 .
+this compares favorably with the lattice result @xmath74 , @xmath75 , found in @xcite .
+such a regge trajectory may be seen as the two - dimensional equivalent of the pomeron .
+with any gauge group , a totally antisymmetric color singlet can be made from three constituent gluons , which has a positive charge conjugation : it is realized through a coupling involving the structure constants @xmath76 . in the special case of su(@xmath77 ) , the totally symmetric invariant tensors @xmath78 can be used to build a totally symmetric color singlet from three constituent gluons , with a negative charge conjugation @xcite .
+the pauli principle demands the spatial wave function to be totally ( anti)symmetrized for @xmath79 three - gluon glueballs .
+if the problem of writing correctly symmetrized quantum three - gluon states is not fully solved yet in @xmath3-@xmath6 ( a formal procedure can be found in @xcite ) , the reduction of gluonic degrees of freedom will allow an explicit determination of these states in @xmath0-@xmath6 .
+we closely follow here ref .
+@xcite , where a straightforward method to generate two - dimensional harmonic oscillator states is presented and applied to explicitly build all states with a well - defined permutation symmetry up to the @xmath80 band in our notation .
+one first defines the jacobi coordinates @xmath81 , @xmath82 , and then works with the coordinates @xmath83 .
+this is convenient because the action of the parity operator and of the permutation operators on these four coordinates is straightforwardly computed @xcite .    in a harmonic oscillator basis ,
+the spatial wave function of any three gluon state has the form @xmath84 , where @xmath85 is a polynomial in @xmath86 .
+totally symmetric or totally antisymmetric polynomials can then be built and , by linear combination , one can obtain polynomials that are also eigenstates of @xmath87 and of the parity ( @xmath88 ) . for the parity
+, one has to recall that the intrinsic negative parity of the constituent gluons adds a global minus sign to the result .
+the terms with the highest degree of the functions @xmath85 leading to given glueball states are listed in table [ tab2 ] . as expected ,
+selection rules arise because of symmetrization , and the allowed quantum numbers we find perfectly match those found on the lattice .
+a first observation is that the lightest state is a @xmath89 one , such that @xmath90 , in agreement with a constituent gluon picture .
+a second observation is that a @xmath55 state is at first present in the @xmath91 band : this is an indication that the splitting between the scalar and pseudoscalar states has to be large , as observed on the lattice .
+a last observation is that no @xmath92 state can be formed with three constituent gluons .
+indeed , the negative charge conjugation asks for a totally symmetric state for color and space .
+as can be observed from @xcite , any @xmath93 three - body state must have a negative parity .
+so this glueball is at least a four - gluon one .
+notice that @xmath94 , as suggested by a constituent gluon picture .
+our two - body model can be generalized to a three - body case . in a flux - tube picture
+, the static potential describing three adjoint sources has a @xmath95-shape as far as su(@xmath1 ) is chosen @xcite : the gluons are linked by fundamental strings , and the hamiltonian reads @xmath96 , whose large-@xmath1 limit is @xmath97 where @xmath98 and @xmath99 are dimensionless conjugate variables .    the mass spectrum of hamiltonian  ( [ h3b ] ) is given in table  [ tab2 ] .
+masses of three - gluon glueballs have been computed with the dos method .
+the mass of the @xmath89 states can also be straightforwardly obtained by performing variational computations with gaussian trial wave functions of the type @xmath100 . applying techniques similar to those of @xcite in the case of two spatial dimensions , one obtains for example the upper bound @xmath101 , with a size @xmath102 .
+this value is actually close to our semiclassical estimates , as are the masses found for the @xmath103 and @xmath104 glueballs .
+this is another check of the validity of the dos approximation scheme .
+it can be observed that , although a quantitative agreement is not reached , the trend of the spectrum is correctly reproduced .
+remark that the @xmath55 glueball is the only state for which our estimate is clearly incompatible with the lattice result .
+its overestimation might be the result of a lack of precision in the prediction of the three - body radial slope , which affects more severely this @xmath105 state .
+the masses of the @xmath69 eigenstates of ( [ h3b ] ) with @xmath106 are located on the regge trajectory @xmath71 , with @xmath107 and @xmath108 .
+such a low intercept , together with a slope similar to but lower than the two - gluon case , has also been pointed out in @xcite .
+as previously said , the @xmath92 glueball has to be made of at least four gluons . to estimate its mass , we follow a procedure similar to what has been done in @xcite . according to the results of this last reference ( that have been obtained for su(3 ) but that are valid for su(@xmath1 ) too ) ,
+a color singlet four gluon state with @xmath109 should have a spatial symmetry of the form @xmath110 .
+there are thus two totally antisymmetric two - gluon clusters : this can be reached by a @xmath111 two - gluon wave function of the form @xmath112 . in the flux tube picture , where two fundamental strings originate from each constituent gluon , the mass of such a cluster is equal to @xmath113 in units of @xmath114 .
+the quantum state of the clusters being known , we can couple them in order to obtain a @xmath92 state . in order to satisfy at best the mixed symmetry of the four - gluon state ,
+we ask for the two clusters to be identical and for the two - cluster state to be the lightest @xmath27 state . the glueball mass computed this way
+is 10.11 in units of @xmath114 : although being a seemingly rough estimate , it is in good agreement with the lattice result 9.47(116 ) @xcite .
+the behavior of thelightest glueballs with respect to a change of gauge group can be straightforwardly found . up to a rescaling of the relative coordinates , hamiltonian ( [ h2b ] )
+can be written as @xmath115 $ ] , with @xmath116 . according to the pinch technique study @xcite ,
+nonperturbative effects generate a nonzero gluon mass in @xmath0-@xmath6 yang - mills theory , which is computed from the zero - momentum limit of the gluon propagator .
+a fit to lattice results in landau gauge leads to @xmath117 @xcite .
+moreover , in @xmath0-@xmath6 , one can compute that the string tension is given by @xmath118 @xcite . combining both results
+leads to @xmath119 , or @xmath120 .
+note that , in the large-@xmath1 limit , @xmath121 and we get @xmath122 , a value perfectly matching the one we used to reproduce at best the low - lying glueball spectrum .    from this discussion we can conclude that @xmath123 should be a gauge - group independent quantity and that the masses of the two - gluon glueballs should obey a simple scaling law .
+in particular , we expect @xmath124 with @xmath125 a gauge - group - independent constant that we compute to be equal to @xmath126 for the lightest @xmath47 glueball .
+equivalently , we expect the glueball masses normalized to @xmath127 to be gauge - group independent .
+the recent lattice work @xcite provides us a way to check this last equation since the behavior of the scalar glueball in @xmath0-@xmath6 versus @xmath1 has been computed for both su(@xmath1 ) and so(@xmath2 ) .
+knowing that @xmath128 for su(@xmath1 ) and @xmath129 for so(@xmath2 ) , one can plot the evolution of the scalar glueball mass versus @xmath1 .
+this is done in fig .
+[ fig ] , where it can be seen that the lattice behavior is well reproduced by our scaling argument .
+glueball mass versus @xmath1 for the gauge groups su(@xmath1 ) ( in black ) and so(@xmath2 ) ( in gray ) . our model ( solid lines )
+is compared to the lattice data ( points ) of @xcite for su(@xmath1 ) and of @xcite for so(@xmath2 ) .
+, scaledwidth=45.0% ]    the masses of some @xmath70 glueballs , including highly excited ones , have been computed in @xmath0-@xmath6 lattice qcd with gauge group su(2 ) in @xcite .
+the proposed scaling rule allows to compute the corresponding masses within our model ; they compare very well with the lattice data as shown in table [ tab ] .
+gluelumps are bound states of the gluonic field when a static , color adjoint , source , is added .
+only one constituent gluon is then necessary to form a color singlet . in this case , the hamiltonian is @xmath130 , whose lightest eigenstate ( a @xmath89 one ) has a mass equal to @xmath131 for su(2 ) , still with @xmath68 , while we find the lightest glueball to have a mass @xmath132 for su(2 ) .
+this can be compared to the lattice study @xcite , where is has been found that , in su(2 ) computations , the link between the adjoint string breaking length scale and the lightest glueball mass is @xmath133 .
+however , the adjoint string breaking energy is expected to be twice the lightest gluelump mass : @xmath134 . using ( [ sadj ] ) , the result of @xcite can be rewritten as @xmath135 we find 14.6 for the l.h.s .  of this relation , which is in good agreement with the lattice results .
+we have analyzed the structure of the glueball spectrum in @xmath0-@xmath6 by resorting to a constituent picture : each glueball is described as a bound state of a given number of transverse , massive , constituent gluons .
+pauli s principle leads to selection rules : the allowed @xmath136 states match the corresponding lattice results @xcite .
+a simple dynamical model  relativistic kinematics plus linear confinement  leads to a satisfactory , although not fully quantitative , agreement with the glueball and glue lump masses found in @xcite . a summary plot is given in fig .  [ fig2 ] .
+our model leads moreover to a simple prediction concerning the modification of the glueball masses with respect to a change of gauge group .
+this prediction compares favorably with the recent data @xcite .    , given by ( [ sadj ] ) , for some @xmath136 .
+all data are taken from tables  [ tab ] and [ tab2 ] ; lattice data from @xcite ( filled squares ) and @xcite ( empty square ) are compared to our model s results ( gray dot ) .
+, scaledwidth=45.0% ]    a useful but quite technical task that we leave for future work will be a more accurate computation of the mass spectrum by using _
+e.g. _ a large harmonic oscillator basis or a large gaussian expansion .
+finally , we remark that a lattice computation of the glueball spectrum with other gauge groups than su(@xmath1 ) would be very interesting in view of checking further the predictions of our model .
+c.s . thanks gwendolyn lacroix for a useful suggestion .      s.  godfrey and n.  isgur , phys .
+d * 32 * , 189 ( 1985 ) .
+s.  capstick and n.  isgur , phys .
+d * 34 * , 2809 ( 1986 ) .
+r.  g.  edwards , j.  j.  dudek , d.  g.  richards , and s.  j.  wallace , phys .
+d * 84 * , 074508 ( 2011 ) [ arxiv:1104.5152 ]
+. j.  j.  dudek , r.  g.  edwards , b.  joo , m.  j.  peardon , d.  g.  richards , and c.  e.  thomas , phys .
+d * 83 * , 111502 ( 2011 ) [ arxiv:1102.4299 ] .
+j. beringer _
+( particle data group ) , phys .
+d * 86 * , 010001 ( 2012 ) .
+v.  mathieu , n.  kochelev , and v.  vento , int .
+j.  mod .
+e * 18 * , 1 ( 2009 ) [ arxiv:0810.4453 ] .
+v.  crede and c.  a.  meyer , prog .
+phys .   * 63 * , 74 ( 2009 ) [ arxiv:0812.0600 ] .
+c.  j.  morningstar and m.  j.  peardon , phys .
+d * 60 * , 034509 ( 1999 ) [ hep - lat/9901004 ] ; y.  chen _ et al .
+_ , phys .
+d * 73 * , 014516 ( 2006 ) [ hep - lat/0510074 ] .
+n. brambilla _
+et al . _ ,
+j. c * 71 * , 1534 ( 2011 ) [ arxiv : 1010.5827 ] .
+j. r. finger and j. e. mandula , nucl .
+b * 199 * , 168 ( 1982 ) ; a. p. szczepaniak and e. s. swanson , phys .
+lett . * 87 * , 072001 ( 2001 ) [ hep - ph/0006306 ] .
+j.  m.  cornwall , phys .
+d * 26 * , 1453 ( 1982 ) .
+i.  l.  bogolubsky , e.  m.  ilgenfritz , m.  muller - preussker , and a.  sternbeck , pos lat 2007 , 290 ( 2007 ) [ arxiv:0710.1968 ] . j.  m.  cornwall and a.  soni , phys .
+b * 120 * , 431 ( 1983 ) .
+a.  szczepaniak , e.  s.  swanson , c .- r .
+ji , and s.  r.  cotanch , phys .
+lett .   * 76 * , 2011 ( 1996 ) [ hep - ph/9511422 ] .
+v.  mathieu , f.  buisseret , and c.  semay , phys .
+d * 77 * , 114022 ( 2008 ) [ arxiv:0802.0088 ] .
+v.  mathieu , pos qcd - tnt09 , 024 ( 2009 ) [ arxiv:0910.4855 ] . v.  mathieu , c.  semay , and b.  silvestre - brac , phys .  rev .
+d * 77 * , 094009 ( 2008 ) [ arxiv:0803.0815 ] ; v.  mathieu , c.  semay , and b.  silvestre - brac , phys .
+d * 74 * , 054002 ( 2006 ) [ hep - ph/0605205 ] .
+a.  c.  aguilar , d.  ibez , v.  mathieu , and j.  papavassiliou , phys .  rev .
+d * 85 * , 014018 ( 2012 ) [ arxiv:1110.2633 ] .
+m.  j.  teper , phys .
+d * 59 * , 014512 ( 1998 ) [ hep - lat/9804008 ] .
+h.  b.  meyer and m.  j.  teper , nucl .
+b * 668 * , 111 ( 2003 ) [ hep - lat/0306019 ] .
+f.  bursa , r.  lau , and m.  teper , arxiv:1208.4547 .
+a.  cucchieri , t.  mendes , and a.  r.  taurines , phys .  rev .
+d * 67 * , 091502 ( 2003 ) [ hep - lat/0302022 ] ; a.  maas , jhep * 1102 * , 076 ( 2011 ) [ arxiv:1012.4284 ] .
+m. g. olsson , phys .
+d * 55 * , 5479 ( 1997 ) .
+f.  brau , c.  semay , and b.  silvestre - brac , phys .
+d * 62 * , 117501 ( 2000 ) .
+c. semay and f. buisseret , arxiv:1301.1850 . c.  liu , eur .
+j.  c * 53 * , 413 ( 2008 ) [ arxiv:0710.4185 ] .
+c. semay , d. baye , m. hesse , and b. silvestre - brac , phys .
+e * 64 * , 016703 ( 2001 ) .
+a.  c.  aguilar , d.  binosi , and j.  papavassiliou , phys .
+d * 81 * , 125025 ( 2010 ) [ arxiv:1004.2011 ] .
+d.  karabali , c.  kim , and v.  p.  nair , phys .
+b * 434 * , 103 ( 1998 ) [ hep - th/9804132 ] .
+h.  b.  meyer and m.  j.  teper , phys .
+b * 605 * , 344 ( 2005 ) [ hep - ph/0409183 ] .
+n.  boulanger , f.  buisseret , v.  mathieu , and c.  semay , eur .
+phys .  j.  a * 38 * , 317 ( 2008 ) [ arxiv:0806.3174 ] .
+d.  r. giebink , phys .
+c * 32 * , 502 ( 1985 ) .
+m.  v.  n.  murthy , j.  law , m.  brack , and r.  k.  bhaduri , phys .
+* 67 * , 1817 ( 1991 ) ; phys . rev .
+b * 45 * , 4289 ( 1992 ) .
+p.  bicudo , m.  cardoso , and o.  oliveira , phys .
+d * 77 * , 091504 ( 2008 ) [ arxiv:0704.2156 ] .
+b.  silvestre - brac and v.  mathieu , phys .
+e * 76 * , 046702 ( 2007 ) [ arxiv:0706.2300 ] .
+o.  philipsen and h.  wittig , phys .
+b * 451 * , 146 ( 1999 ) [ hep - lat/9902003 ] .
+.glueball masses ( in units of @xmath114 ) classified by band number @xmath137 for the different allowed @xmath136 in two - gluon states .
+the highest degree term , @xmath49 , in the harmonic oscillator wave functions is shown , together with the large-@xmath1 lattice results @xcite or the su(2 ) results @xcite when available .
+results of our model are shown , first computed with the dos approximation @xcite , then with the lagrange mesh method ( lmm ) @xcite . [ cols="^,<,<,^,^,^,^,^,^ " , ]

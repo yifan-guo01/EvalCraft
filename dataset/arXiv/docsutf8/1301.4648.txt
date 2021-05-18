@@ -1,0 +1,104 @@
+in petroleum reservoirs in order to find the lithology , the well - logging technique has proved adequate for oil exploration and production .
+parallel to the research of oil and gas fields , some features of petrophysical quantities obtained by well - logging could be analyzed and described in terms of the kind and content of the fluids within the pores .
+the quantities investigated in this research includes gamma emission ( gr ) , which is a measure of the natural radiation of the formation ; sonic transient time ( dt ) , which is a recording of the time required for a sound wave to travel through a formation ; neutron porosity ( nphi ) , which uses high - energy neutrons that collide with various atoms of both the formation material and fluids , reporting the existence of hydrogen in the pore space @xcite .
+these help us insight into the spatial heterogeneity of the properties of the large scale porous media , such as porosity , density , and the lithology at distinct length scales @xcite .    in geological systems
+external forces besides internal instabilities cause the system to become a complex system . in order to analyze geological systems the theory of complex systems
+needs to be implemented . in this theory
+the probability density function ( pdf ) , entropy , and the degree of non - gaussianity is used .
+however the working parameter in this study is the entropy which is an important bases in thermodynamics .
+entropy was introduced in @xmath2 by rudolf julius emmanuel clausius @xcite .
+later boltzmann showed that entropy could be expressed in terms of the probabilities related to the microscopic structures of the system @xcite .
+when a system is in contact with a large reservoir , the boltzmann - gibbs entropy is obtained as : @xmath3 where @xmath4 is the probability of the microscopic configuration @xmath5 @xcite , and @xmath6 is the boltzmann constant .
+so one can conclude that entropy is subject to the probabilities of possibilities in system , reflecting the information upon the physical system @xcite .
+it is well - known in the classical boltzmann - gibbs ( bg ) statistical mechanics that the gaussian pdf under appropriate constraints , maximizes the bg entropy .
+bg statistics has been successful in explaining the behavior of systems in which short spatial / temporal interactions are significant @xcite .
+tsallis in @xmath7 proposed an entropy for systems that may have a multifractal , scale - free or hierarchical structure in the occupancy of their phase space as in the form @xcite @xmath8 which generalizes @xmath9 @xcite .
+where @xmath10 is nonnegative , concave , experimentally robust ( or lesche - stable @xcite ) and yield a finite entropy production per unit time @xcite .
+note that the applicability of tsalis entropy becomes important for systems with long - ranged correlations which involve strong interactions , glassy systems , fractal processes , some types of dissipative dynamics and other systems that in some way violate ergodicity .
+the entropy of expression @xmath11 has been applied to a wide range of science such as physics , biology , chemistry , economics , geophysics @xcite and medicines @xcite and references therein .     at depth @xmath12 to @xmath13 of a gas well in southwest of iran.,width=377,height=207 ]    we use well log data from a gas well in southwest of iran .
+these data are gamma ray radioactivity ( gr ) , sonic transient time ( dt ) and neutron porosity ( nphi ) taken every @xmath14 at the depth interval of @xmath15 meters
+. the logged interval includes asmari formation which is one of the main oil producer formations in iran reservoirs and consists mainly of fractured carbonate , sand stone , shaly sand and a trace of anhydrate .
+@xmath16 shows gr , dt and nphi data sets from the depth , @xmath17 , of @xmath12 to @xmath18 .
+our analysis is based on the increment of the petrophysical quantities shown by @xmath19 in various scales , @xmath20 , which @xmath21 .    in this article
+we describe the petrophysical quantities using the pdf and non - gaussian degree , @xmath0 , based on tsallis entropy in section @xmath22 .
+we explain the connection between entropy ( less of information ) and the non - gaussian factor @xmath23 ( intermittency ) for these data sets in section @xmath24 and the conclusions are stated in section @xmath25 .    .
+these estimations are fulfilled on petrophysical quantities such as gamma emission ( gr ) , sonic transient time ( dt ) and neutron porosity ( nphi ) that measured in space interval @xmath14 from a gas well in southwest of iran .
+solid lines are theoretical estimation achieved by fitting data sets to eq .
+since the shannon entropy is the logarithm of the probability , the entropy is extensive .
+as known the shannon entropy is considering all phenomenon based on the boltzmanian probability distribution function ( pdf ) . while , in general the experimental systems have no reason to obey the boltzmanian distribution .
+tsallis added a power of @xmath0 to the probability to be able to generalize the shannon entropy to all phenomenon , this causes the entropy not to be extensive . as the value of @xmath0 increases , the effects of the tails become more pronounced . hence , in systems where @xmath0 is greater than unity the minority is more pronounced compared a gaussian ( @xmath28 ) system .
+in other words having the value of @xmath0 greater than unity , non - gaussianity appears .    in order to determine the non - gaussian degree of the system , @xmath0
+, it is essential to determine the probability distribution function analytically . following the formalism of @xcite
+, we obtain the probability distribution function .
+since the most probable distribution corresponds to the maximum entropy , the variational principle is applied to @xmath27 .
+the continuous version of @xmath27 is stated as : @xmath29^{q } dx } } { q-1},\ ] ] where @xmath30 is the natural constraint corresponding to the normalization of eq . @xmath31 and @xmath32^{q } } { \int{[p(x)]^{q } dx } } dx}\equiv \langle x \rangle_{q } = \overline{\mu}_{q } , \,\,\,\,\
+\int{(x-\overline{\mu}_{q})^{2 } \frac { [ p(x)]^{q } } { \int{[p(x)]^{q } dx } } dx}\equiv \langle ( x-\overline{\mu}_{q})^{2 } \rangle_{q } = \overline{\sigma}_{q},\ ] ] are the natural constraints corresponding to the generalized and mean variance of @xmath33 respectively , see @xcite .    , for the @xmath24 data sets .
+this estimation has been made by determining the pdf based on tsallis entropy then exert @xmath34 test method .
+right panel : representation of entropy vs. the scales by employing the definition of tsallis entropy eq .
+@xmath31 for gr ( square ) , dt ( delta ) and nphi ( right triangle).,width=491,height=207 ]    implementing the lagrange method in order to find the optimizing distribution under the constraints , we obtain @xcite @xmath35^{\frac { 1 } { 1-q } } \ , \ ( q<3),\ ] ] where @xmath36^{-1}.\ ] ]    in order to characterize the non - gaussian degree of the system , @xmath0 , the @xmath34 test method is employed .
+if @xmath0 is close to @xmath16 , the pdf tends to be gaussian , hence , an uncorrelated series is expected . on the other hand ,
+the large value of the non - gaussian factor @xmath0 , illustrates strong correlations and similarity of neighbors in data sets which affects the behavior of the system .
+therefore it can be concluded that high @xmath0 is a hallmark of having information about the system . for any @xmath0 a pdf
+could be plotted as shown in fig .
+@xmath22 . in fig . @xmath22
+the pdf is plotted using eq .
+@xmath26 ( solid curves ) and the data sets ( symbols ) , showing a satisfactory consistency . to state more specifically , in order to estimate @xmath0 , we use the likelihood method which works by minimizing the parameter @xmath37 which defined as : @xmath38^{2}}{\sigma^{2}_{emperical}(x)+\sigma^{2}_{q}(x)},\ ] ] where @xmath39 is computed directly from the empirical series and @xmath40 is given by eq .
+@xmath41 is the mean standard deviation of @xmath39 and @xmath42 is associated with the probability density function derived by eq .
+the global minimum value of @xmath37 corresponds to the best value of @xmath0 . the best estimation of @xmath0 , corresponding to eq .
+( 5 ) , yields the pdf which fits well to the empirical pdf .    the entropy index @xmath0 versus the scales is shown in fig .
+@xmath24 ( left panel ) for any specific petrophysical series . note that the system is described by a specific @xmath0 for any scale .
+taking a close look at fig . @xmath22 and fig .
+@xmath24 we deduce that the non - gaussian pdf corresponds to large @xmath0 , specially at small scales .
+this means that @xmath0 is showing the efficiency of non - guassianity . as seen in the three panels of fig .
+@xmath22 , non - gaussianity of gr is more pronounced in comparison to dt and nphi .
+hence , powerful correlations and large fluctuations in the series are observed which influence the other quantities and gives an insight to the formation of the system .
+however , it could be seen in the third panel which is for nphi , that the pdf is non - gaussian at small scales but tends to be gaussian at large scales which corresponds to large and small values of @xmath0 respectively . as the values of @xmath0 in nphi tends to @xmath16 ,
+no correlation exists , hence no information about the porosity would be available @xcite .
+in the right panel of fig .
+@xmath24 , the entropy of the data sets are plotted vs. the scales .
+it is shown that the entropy of gr has its least value at all scales , meaning that we have fine information about the existence of shaly layers detected by gamma ray .
+hence , the entropy decreases as the scale increases .
+also it is shown that the entropy of nphi is small at small scales which proves the existence of local correlation , but increases for large scales .
+this expresses the separated and uncorrelated porosity . comparing fig.@xmath22 and fig .
+@xmath24 we deduce that small entropy corresponds to non - gaussian pdf . note that this result is always true specially when the scale is small .    .
+solid lines display linear fitting corresponding to the mentioned quantities.,width=340,height=264 ]    in order to show the multifractal characteristic of the data sets the tsalis difference information needs to be calculated @xcite @xmath43,\ ] ] where transition is performed between states @xmath44 and @xmath45 . since the generalized entropy @xmath10 ( eq .
+@xmath11 ) has been introduced based on the concept of multifractals , so the degree of multifractality corresponds to the information evolution . actually ,
+because the phase space of a multifractal geometry is occupied heterogeneously , we expect high information rate in this system . in fig.@xmath25
+, it is shown that the difference information received from gr is high and increasing when the scale becomes greater , that is a hallmark of strong multifractality across the scales . on the other hand ,
+the difference information for nphi is rapidly descending , meaning that the information at large scales is lost .
+note that weak difference information for dt suggests that dt may be nearly monofractal @xcite .
+to describe the pdf of the velocity difference between two points in fully developed turbulent flows , castaing et al .
+@xcite introduced the following equation based on a log - normal cascade model @xcite :    @xmath46    where @xmath47 , @xmath48 are positive parameters . by taking the limit @xmath49 in eq .
+@xmath50 , a gaussian distribution is obtained . as verified in @xcite , the shape of @xmath51
+is mainly determined by @xmath52 .
+in fact @xmath23 quantifies how fatal the non - gaussianity of data sets are @xcite . as in the case where @xmath0 determined the non - gaussian property ,
+@xmath53 .    in fig.@xmath54 the behavior of the entropy for data sets
+is plotted vs. @xmath0 and @xmath23 in the left and right panels , respectively .
+since entropy is a measure of lack of information , the system with low entropy is eager to receive more information potential .
+this reveals that the non - gaussian factor @xmath23 is a sign of a sudden phase transient in the system .
+meaning that the system has two phases which is a logical reason to get close to a petroleum reservoir .
+as seen for gamma ray series in fig.@xmath54 , at high @xmath23 the entropy tends to decrease to show the existence of global correlation with a strong interaction with environment .
+in fact the increase in the @xmath23 leads to a non - gaussian pdf .
+this confirms a high @xmath0 which results in having valuable information about the quantity . in contrast
+, there is high value of entropy at low @xmath23 for nphi which may be due to the gaussian behavior and loss of the information of porosity .
+there are systems in which long - ranged correlations give rise to strong interactions with environment and violate ergodicity .
+these systems can not be described by classical bg statistics .
+thus another definition for entropy which is the basis of statistical mechanics was defined by tsallis in @xmath7 . in this research
+the statistical mechanics based on the approach introduced by tsallis was applied for analyzing petrophysical quantities which contain gamma emission ( gr ) , sonic transient time ( dt ) and neutron porosity ( nphi ) .
+based on the tsallis entropy , we fitted the data sets to the probability density function ( pdf ) in order to obtain the non - gaussian degree , @xmath0 of each series which is able to describe any system at any scale .    there
+exist various indicators to analysis the petroleum reservoirs . in this article
+, we have investigated the non- gaussianity ( uncertainly ) in some indicators which could be appeared near the interface by two environments .
+then , compared this effect in some indicators in various scales and measures the information contained in each indicators .    in fig .
+@xmath24 we showed that large degree of @xmath0 relates to a fat - tailed pdf in fig .
+@xmath22 which exhibits global correlation in the formation of the system . for the gr the fat tailed pdf was shown , however , for nphi the fat tailed pdf was observed at small scales .
+this is due to the fact that the local correlation in nphi exists .
+hence , for dt and nphi , @xmath0 and the efficiency of non - gaussianity decreases .
+non - gaussian pdf at large scales gives us information about the criticality in the system which results in the entropy decreases .
+the extremely increase of entropy for nphi at large scales is due to the gaussian behavior of pdf which causes separated and uncorrelated porosity .
+the non - gaussian factor ( intermittency ) @xmath23 , which is also another important quantity is obtained from the castaing equation .
+high @xmath23 is a sign of two phases in the system which corresponds to a fat - tailed pdf or in other words a large @xmath0 .
+this means that high @xmath23 for gr at all scales gives us valuable information about the existence of global correlation and a sudden phase transition in this series .
+the difference information of the data sets was shown in fig .
+we showed that gr has a high difference information specially at large scales .
+in addition , it was shown that gr exhibits a multifractal property , which is due to the fact that a high information rate in a system is present . while for dt , a monofractal property was exhibited which is due to the low information rate .    ) ) for the data sets : gr ( square ) , dt ( delta ) , nphi ( right triangle ) vs. non - gaussian degree , @xmath0 in the right panel and the intermittency @xmath23 defined by castaing equation in log - normal cascade model ( eq .
+( @xmath55))in the left panel.,width=472,height=207 ]

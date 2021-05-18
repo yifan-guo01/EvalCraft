@@ -1,1 +1,0 @@
-a method includes creating a lookup table for thermal correction of a x - ray detector on a pixel by pixel basis .

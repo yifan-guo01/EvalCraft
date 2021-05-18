@@ -1,0 +1,10 @@
+permanent electric dipole moments ( edms ) of elementary particles violate two fundamental symmetries : time reversal invariance ( @xmath0 ) and parity ( @xmath1 ) . assuming the @xmath2 theorem this implies @xmath3 violation .
+the @xmath3 violation of the standard model is orders of magnitude too small to be observed experimentally in edms in the foreseeable future .
+it is also way too small to explain the asymmetry in abundance of matter and anti - matter in our universe .
+hence , other mechanisms of @xmath3 violation outside the realm of the standard model are searched for and could result in measurable edms .
+up to now most of the edm measurements were done with neutral particles . with new techniques
+it is now possible to perform dedicated edm experiments with charged hadrons at storage rings where polarized particles are exposed to an electric field .
+if an edm exists the spin vector will experience a torque resulting in change of the original spin direction which can be determined with the help of a polarimeter .
+although the principle of the measurement is simple , the smallness of the expected effect makes this a challenging experiment requiring new developments in various experimental areas .
+complementary efforts to measure edms of proton , deuteron and light nuclei are pursued at brookhaven national laboratory and at forschungszentrum jlich with an ultimate goal to reach a sensitivity of @xmath4 cm .
+example.eps gsave newpath 20 20 moveto 20 220 lineto 220 220 lineto 220 20 lineto closepath 2 setlinewidth gsave .4 setgray fill grestore stroke grestore
