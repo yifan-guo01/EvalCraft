@@ -1,0 +1,10 @@
+sequential pattern
+original database
+frequent sequence
+pattern mining
+semi frequent pattern
+mining algorithm
+database update
+minimum support threshold
+frequent item
+Zhang

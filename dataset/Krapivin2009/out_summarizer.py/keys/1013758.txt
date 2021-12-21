@@ -1,0 +1,10 @@
+successor function
+semantic proof
+follow
+only morphism
+term rewriting
+resource variable x
+resource polynomial
+realizability set
+additional rule weak
+algorithm e

@@ -1,0 +1,21 @@
+Notice
+that P (T
+i
+|d
+j
+) = 1   P (T
+i
+|d
+j
+) and P (R|d
+j
+) = 1   P (R|d
+j
+).
+Ubiquitous advertising on the www:
+merging advertisement on the browser.
+Comput.
+Netw.
+ISDN
+Syst., 28(7 11):1493 1499, 1996.
+Comput.

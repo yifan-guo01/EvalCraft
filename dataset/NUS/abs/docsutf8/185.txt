@@ -1,0 +1,14 @@
+Tactons: Structured Tactile Messages for Non-Visual Information Display
+Abstract
+Tactile displays are now becoming available in a form 
+that can be easily used in a user interface. This paper describes
+a new form of tactile output. Tactons, or tactile 
+icons, are structured, abstract messages that can be used 
+to communicate messages non-visually. A range of different
+parameters can be used for Tacton construction including
+: frequency, amplitude and duration of a tactile 
+pulse, plus other parameters such as rhythm and location. 
+Tactons have the potential to improve interaction in a 
+range of different areas, particularly where the visual display
+is overloaded, limited in size or not available, such as 
+interfaces for blind people or in mobile and wearable devices

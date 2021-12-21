@@ -1,0 +1,24 @@
+Database Security Curriculum in InfoSec Program
+ABSTRACT
+Database Security course is an important part of the InfoSec 
+curriculum.  In many institutions this is not taught as an 
+independent course.  Parts of the contents presented in this paper 
+are usually incorporated in other courses such as Network 
+Security.  The importance of database security concepts stems 
+from the fact that a compromise of data at rest could expose an 
+organization to a greater security threat than otherwise.
+
+Database vulnerabilities exposed recently in several high profile 
+incidents would be a good reason to dedicate a full course to this 
+important topic.  In this paper we present key topics such as 
+technologies for database protection, access control, multilevel 
+security, database vulnerabilities and defenses, privacy and legal 
+issues, impact of policies and some well known secure database 
+models.
+
+
+Categories and Subject Descriptors
+H.2.0 [General] Security, Integrity and protection 
+D.4.6 [Security and Protection] Access controls, Authentication 
+K.6.5 [Security and Protection] Physical security
+

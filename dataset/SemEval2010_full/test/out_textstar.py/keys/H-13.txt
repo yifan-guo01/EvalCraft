@@ -1,0 +1,10 @@
+result
+caption
+query
+term
+pair
+snippet
+feature
+clickthroughs
+experiment
+set

@@ -1,0 +1,95 @@
+In particular
+, our work analyzes a particular digital library  the
+website of the Bureau of Labor Statistics
+2
+(BLS)  in efforts
+to discover a small number of linguistically meaningful concepts
+, or "bins," that collectively summarize the semantic
+domain of the site.
+Altogether, the link structure of this classificatory
+system contains 65 documents; that is, excluding
+navigational links, there are 65 documents linked from the
+BLS home page, where each hyperlink connects a document
+to a topic (pages can be linked to multiple topics).
+Specif ically
+, using k means, we clustered each of the 1279 documents
+into one of k clusters, with the number of clusters
+chosen by analyzing the within cluster mean squared distance
+at different values of k (see Section 6.1).
+Topics based on full text documents were derived by application
+of k means clustering to the 1279 Editor's Desk documents
+, where each document was represented by a 1908 dimensional
+vector.
+Comparing the proportion right and
+Table 3: Keyword Based Clusters
+benefits
+costs
+international
+jobs
+plans
+compensation
+import
+employment
+benefits
+costs
+prices
+jobs
+employees
+benefits
+petroleum
+youth
+occupations
+prices
+productivity
+safety
+workers
+prices
+productivity
+safety
+earnings
+index
+output
+health
+operators
+inflation
+nonfarm
+occupational
+spending
+unemployment
+expenditures
+unemployment
+consumer
+mass
+spending
+jobless
+wrong achieved by keyword and title based clustering led to
+p
+0.001.
+In particular
+, the augmented model is significantly inferior to the
+model trained solely on Editor's Desk documents if we concern
+ourselves only with documents selected by the majority
+of human reviewers  i.e. only first choice classes.
+Based
+jobs
+prices
+spending
+costs
+Human Classifications
+0.00
+0.15
+jobs
+prices
+spending
+costs
+Machine Classifications
+0.00
+0.10
+Figure 5: Distribution of Classes Across Documents
+on a statistical model of these topics, the second phase of
+our approach uses supervised learning (in particular, a naive
+Bayes classifier, trained on individual words), to assign topical
+relations to the remaining documents in the collection.
+In W. B. Frakes
+and R. Baeza Yates, editors, Information Retrieval:
+Data Structures and Algorithms, pages 419 442.

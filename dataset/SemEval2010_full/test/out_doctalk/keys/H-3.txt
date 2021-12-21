@@ -1,0 +1,10 @@
+query
+model
+document
+term
+relation
+user
+context
+avgp
+contextual factor
+modeling approach

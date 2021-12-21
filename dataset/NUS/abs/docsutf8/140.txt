@@ -1,0 +1,23 @@
+Modeling Node Compromise Spread in Wireless Sensor Networks Using Epidemic Theory
+Abstract
+Motivated by recent surfacing viruses that can spread
+over the air interfaces, in this paper, we investigate the
+potential disastrous threat of node compromise spreading
+in wireless sensor networks. Originating from a single
+infected node, we assume such a compromise can propagate
+to other sensor nodes via communication and preestablished
+mutual trust. We focus on the possible epidemic
+breakout of such propagations where the whole network
+may fall victim to the attack. Based on epidemic theory, we
+model and analyze this spreading process and identify key
+factors determining potential outbreaks. In particular, we
+perform our study on random graphs precisely constructed
+according to the parameters of the network, such as
+distance, key sharing constrained communication and node
+recovery, thereby reflecting the true characteristics therein.
+The analytical results provide deep insights in designing
+potential defense strategies against this threat. Furthermore
+, through extensive simulations, we validate our model
+and perform investigations on the system dynamics.
+Index Terms-- Sensor Networks, Epidemiology, Random Key
+Predistribution, Random Graph.

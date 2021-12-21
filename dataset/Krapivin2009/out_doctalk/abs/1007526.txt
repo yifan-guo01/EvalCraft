@@ -1,0 +1,8 @@
+The contributions of our work are : A powerful and exible test input generation frame - work for unit testing .
+The framework uses an ecient approach to the symbolic execution of code manipulating complex data structures , that takes into account preconditions to stop the analysis of infeasible paths as soon as possible .
+We illustrate the exibility of model checking as a tool for test input creation by comparing straight model checking of the code under test , a black - box approach and a white - box approach .
+Round lled nodes represent entries colored black and empty nodes represent entries colored red ; null nodes are not represented .
+For each of the input trees all possible node deletions and one new insertion were then executed ( Tests ) and the code coverage measured .
+We believe that for more complicated structural invariants the dierence in test input size for the black and white box approach would be even more pronounced .
+We are considering techniques such as automatic invariant generation [ 38 ] and the use of shape - predicates and abstraction to address this problem .
+While static analysis of program properties is a promising approach for ensuring program correctness in the long run , the current static analysis techniques can only verify limited program properties .

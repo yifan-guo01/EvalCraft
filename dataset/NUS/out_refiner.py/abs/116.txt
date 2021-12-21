@@ -1,0 +1,28 @@
+Machine learning allows automatic creation of classifiers, 
+however, the classical models are generally slow to train, and 
+not interactive.
+The classical machine learning (CML) model 
+is summarized in Figure 1.
+The user can then refine the classifier 
+by adding more manual classification or, if the classifier is 
+satisfactory, the user can export the classifier.
+The 
+sequence of images in Figure 5 shows the process of creating 
+a classifier using Crayons.
+As stated before, 
+classification creation time for CWSS is longer than MSSS, 
+but the center weighted algorithms tend to generalize better 
+than the mean split algorithms.
+It is clear from our 
+evaluations that a classification algorithm must get under the 
+10 20 second barrier in producing a new classification, but 
+that once under that barrier, the designer's time begins to 
+dominate.
+Once the designer's time begins to dominate the 
+total time, then the classifier with better generalization wins.
+In actuality, 
+because of the poor generalization of the mean split 
+algorithm, even though the classifier generation time for 
+MSSS was quicker than CWSS, the users felt it necessary to 
+paint more using the MSSS, so the overall time increased 
+using MSSS.

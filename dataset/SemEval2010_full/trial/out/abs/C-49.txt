@@ -1,0 +1,8 @@
+Opportunistic networking is one promising approach for those children to exchange information .
+In this paper , we study protocols for routing messages between wireless networking devices carried by people .
+Each device represents a unique person ( it is out of the scope of this paper when a device maybe carried by multiple people ) .
+The PRoPHET protocol exchanges index messages as well as delivery probabilities .
+Notice that our protocol replicates the message whenever a good looking relay comes along .
+All protocols show similar delivery delays in both mean and median measures for medium TTLs , but differ for long and short TTLs .
+Pocket switched networks and human mobility in conference environments .
+Knowledge based opportunistic forwarding in vehicular wireless ad hoc networks .

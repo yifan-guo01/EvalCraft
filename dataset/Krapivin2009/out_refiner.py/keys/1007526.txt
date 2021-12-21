@@ -1,0 +1,7 @@
+input generation
+execution tree
+infeasible structure
+method precondition
+test input
+sequential code
+high coverage

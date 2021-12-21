@@ -1,0 +1,10 @@
+topic type
+answer nugget
+Machine system
+relevant sentence
+question set
+correct answer nugget
+General term algorithm
+sufficient number
+similarity score
+retrieval model

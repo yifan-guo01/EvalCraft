@@ -1,0 +1,19 @@
+Real-world Oriented Information Sharing Using Social Networks
+ABSTRACT
+While users disseminate various information in the open and
+widely distributed environment of the Semantic Web, determination
+of who shares access to particular information is at
+the center of looming privacy concerns. We propose a real-world
+-oriented information sharing system that uses social
+networks. The system automatically obtains users' social
+relationships by mining various external sources. It also enables
+users to analyze their social networks to provide awareness
+of the information dissemination process. Users can determine
+who has access to particular information based on
+the social relationships and network analysis.
+Categories and Subject Descriptors
+H.5.3 [Information Interfaces AND Presentation]:
+Group and Organizational Interfaces--collaborative computing
+, computer-supported cooperative work, web-based interaction
+General Terms
+Design, Human Factors

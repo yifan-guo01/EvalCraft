@@ -1,0 +1,8 @@
+With this model, the retrieval task involves estimating a query language model θq from a given query, a document language model θd from each document, and calculating their KL divergence D(θq||θd), which is then used to score the documents. [25] treats relevance feedback as a query model re estimation problem, i.e., computing an updated query model θq given the original query text and the extra evidence carried by the judged relevant documents.
+Intuitively, the more terms are marked relevant in a cluster, the closer the cluster is to the query topic, and the more the cluster should participate in query modification.
+CFB remedies TFB"s problem by treating the terms in a cluster collectively, so that unchecked/unpresented terms receive weights when presented terms in their clusters are judged as relevant, but it does not distinguish which terms in a cluster are presented or judged.
+Because the presentation terms within each cluster are generated in decreasing order of their frequencies, the presentation list forms a subset of the original one if its size is reduced2 .
+We adopt the Simplified KL Divergence metric used in [24] to decide query expansion terms as our term relevance measure: σKLD(w) = p(w|R) log p(w|R) p(w|¬R) where p(w|R) is the probability that a relevant document contains term w, and p(w|¬R) is the probability that an irrelevant document contains w, both of which can be easily computed via maximum likelihood estimate given document level relevance judgment.
+Similar pattern holds for relevant terms and relevant checked terms.
+D. Kelly, V. D. Dollu, and X. Fu.
+D. Kelly and X. Fu. Elicitation of term relevance feedback: an investigation of term source and context.

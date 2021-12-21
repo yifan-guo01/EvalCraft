@@ -1,0 +1,9 @@
+Physically-Based Visual Simulation on Graphics Hardware
+Abstract
+In this paper, we present a method for real-time visual simulation of diverse dynamic phenomena using programmable graphics 
+hardware.  The simulations we implement use an extension of cellular automata known as the coupled map lattice (CML).  CML 
+represents the state of a dynamic system as continuous values on a discrete lattice.  In our implementation we store the lattice 
+values in a texture, and use pixel-level programming to implement simple next-state computations on lattice nodes and their 
+neighbors.  We apply these computations successively to produce interactive visual simulations of convection, reaction-diffusion, 
+and boiling.  We have built an interactive framework for building and experimenting with CML simulations running on graphics 
+hardware, and have integrated them into interactive 3D graphics applications.

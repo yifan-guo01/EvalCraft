@@ -1,0 +1,15 @@
+The Use of Mediation and Ontology Technologies for Software Component Information Retrieval
+Abstract
+Component Based Development aims at constructing software 
+through the inter-relationship between pre-existing components. 
+However, these components should be bound to a specific 
+application domain in order to be effectively reused. Reusable 
+domain components and their related documentation are usually 
+stored in a great variety of data sources. Thus, a possible solution 
+for accessing this information is to use a software layer that 
+integrates different component information sources. We present a 
+component information integration data layer, based on mediators. 
+Through mediators, domain ontology acts as a 
+technique/formalism for specifying ontological commitments or 
+agreements between component users and providers, enabling 
+more accurate software component information search.

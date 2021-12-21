@@ -1,0 +1,9 @@
+event size
+windowing system
+beacon node
+localization error
+localization scheme
+location awareness
+different code placement
+display device
+time it

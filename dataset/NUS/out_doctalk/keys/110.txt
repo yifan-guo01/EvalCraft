@@ -1,0 +1,10 @@
+mbr
+trajectory
+similarity
+estimate
+query
+index
+datum
+sequence
+lcss
+distance

@@ -1,0 +1,7 @@
+[8] Pastry: Scalable, distributed object location and routing for large scale peer to peer systems.
+A. Rowstron and P. Druschel.
+In Proc.
+Journal of Computing and Informatics (Special issue on Grid Computing), Ed: Domenico LaForenza, Vol.
+4, pp.
+[21] Chen Zhou, Liang Tien Chia, Bilhanan Silverajan, Bu Sung Lee: UX   An Architecture Providing QoS Aware and Federated Support for UDDI.
+ICWS 2003: 171 176.

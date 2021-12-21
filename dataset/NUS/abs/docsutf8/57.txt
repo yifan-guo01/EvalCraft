@@ -1,0 +1,16 @@
+Contour-based Partial Object Recognition using Symmetry in Image Databases
+ABSTRACT
+This paper discusses the problem of partial object recognition in 
+image databases. We propose the method to reconstruct and estimate 
+partially occluded shapes and regions of objects in images from 
+overlapping and cutting.  We present the robust method for 
+recognizing partially occluded objects based on symmetry properties, 
+which is based on the contours of objects. Our method provides 
+simple techniques to reconstruct occluded regions via a region copy 
+using the symmetry axis within an object.  Based on the estimated 
+parameters for partially occluded objects, we perform object 
+recognition on the classification tree. Since our method relies on 
+reconstruction of the object based on the symmetry rather than 
+statistical estimates, it has proven to be remarkably robust in 
+recognizing partially occluded objects in the presence of scale 
+changes, rotation, and viewpoint changes.

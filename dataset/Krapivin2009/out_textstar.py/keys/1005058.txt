@@ -1,0 +1,10 @@
+system
+rule
+product
+customer
+network
+mining
+data
+profile
+recommendation
+similarity

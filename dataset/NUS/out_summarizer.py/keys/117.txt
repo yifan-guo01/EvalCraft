@@ -1,0 +1,10 @@
+topological interestingness
+attribute set
+Bayesian network
+marginal distribution
+background knowledge
+itemset interestingness
+large number
+original algorithm
+bucket elimination
+notice

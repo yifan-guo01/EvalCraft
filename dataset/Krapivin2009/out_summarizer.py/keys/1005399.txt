@@ -1,0 +1,10 @@
+planning layer
+control theory
+mobile robot
+theorem prover
+robot system
+turn module
+sensory input
+robot object
+level layer
+ai architecture

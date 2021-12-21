@@ -1,4 +1,0 @@
-coreas is a monte carlo code for the simulation of radio emission from extensive air showers .
-it implements the endpoint formalism for the calculation of electromagnetic radiation directly in corsika . as such
-, it is parameter - free , makes no assumptions on the emission mechanism for the radio signals , and takes into account the complete complexity of the electron and positron distributions as simulated by corsika . in this article
-, we illustrate the capabilities of coreas with simulations carried out in different frequency ranges from tens of mhz up to ghz frequencies , and describe in particular the emission characteristics at high frequencies due to cherenkov effects arising from the varying refractive index of the atmosphere .

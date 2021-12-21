@@ -1,0 +1,10 @@
+function
+resource variable
+lambda term
+value morphism
+set realizability
+bll formula
+realizability model
+polynomial resource
+Introduction
+storage rule

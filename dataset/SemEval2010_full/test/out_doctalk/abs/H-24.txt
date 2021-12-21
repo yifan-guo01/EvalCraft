@@ -1,0 +1,8 @@
+Query suggestions offered based on query logs have the potential to improve retrieval performance with limited user burden .
+Each cell in the table contains the Pearson " s correlation coefficient between the two features for a given row column pair .
+There are several ways in which a commercial search engine system might benefit from a quantitative indication of searcher expertise .
+ACKNOWLEDGEMENTS The authors are grateful to Susan Dumais for her thoughtful and constructive comments on a draft of this paper .
+Where should the person stop and the information search interface start ?
+Domain specific search strategies for the effective retrieval of healthcare and shopping information .
+Real life , real users , and real needs : A study and analysis of user queries on the Web .
+Information filtering based on user behavior analysis and best match text retrieval .

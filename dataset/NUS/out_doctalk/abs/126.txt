@@ -1,0 +1,8 @@
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+INTRODUCTION Classification is a core data mining technique and has been actively studied in the past decades .
+In general , the goal of classification is to assign unlabeled testing examples with a set of predefined categories .
+Traditional classification methods are usually conducted in a supervised learning way , in which only labeled data are used to train a predefined classification model .
+In literature , a variety of statistical models have been proposed for classification in the machine learning and data mining communities .
+While promising results have been popularly reported in this research topic , there is so far few comprehensive semi supervised learning scheme applicable for large scale classification problems .
+For multi class classification , we perform one against all binary training and testing and then pick the class with the maximum class probability .
+From the experimental results , we found that the two order constrained based graph kernels perform well in the Ionosphere and Wine datasets , but they do not achieve important improvements on the Heart and Sonar datasets .

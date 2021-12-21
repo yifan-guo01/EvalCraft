@@ -1,0 +1,10 @@
+structure
+model
+object
+knowledge
+visualization
+representation
+information interface
+spatial relation
+Figure
+Illustrative shadow

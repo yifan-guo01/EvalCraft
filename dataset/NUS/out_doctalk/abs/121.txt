@@ -1,0 +1,8 @@
+INTRODUCTION Topic detection and tracking ( TDT ) is a research area concerned with organizing a multilingual stream of news broadcasts as it arrives over time .
+Although these researchers normalize scores for the source language , all story comparisons are done within the base language .
+To copy otherwise , or republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+EXPERIMENTAL SETUP Experiments are replicated with two different data sets , TDT3 and TDT4 , and two very different similarity functions cosine similarity , and another based on relevance modeling , described in the following two sections .
+Cosine similarity can be seen as a basic default approach , which performs adequately , and relevance modeling is a state of the art approach which yields top rated performance .
+Arabic and Mandarin appear to show a native language advantage for all cosine similarity conditions and most relevance model conditions .
+It can be clearly seen that English tracking remains about the same but the Arabic and Mandarin native tracking show a large native language advantage .
+Weights were summed across all the occurrences of each Arabic word , and the resulting Arabic term vector was truncated to retain only terms above a threshold weight .

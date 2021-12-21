@@ -1,0 +1,29 @@
+ResearchExplorer: Gaining Insights through Exploration in Multimedia Scientific Data
+ABSTRACT
+An increasing amount of heterogeneous information about 
+scientific research is becoming available on-line. This potentially 
+allows users to explore the information from multiple perspectives 
+and derive insights and not just raw data about a topic of interest.  
+However, most current scientific information search systems lag 
+behind this trend; being text-based, they are fundamentally 
+incapable of dealing with multimedia data. An even more 
+important limitation is that their information environments are 
+information-centric and therefore are not suitable if insights are 
+desired. Towards this goal, in this paper, we describe the design 
+of a system, called ResearchExplorer, which facilitates exploring 
+multimedia scientific data to gain insights. This is accomplished 
+by providing an interaction environment for insights where users 
+can explore multimedia scientific information sources. The 
+multimedia information is united around the notion of research 
+event and can be accessed in a unified way. Experiments are 
+conducted to show how ResearchExplorer works and how it 
+cardinally differs from other search systems.
+
+Categories and Subject Descriptors
+H.5.2 [Information Interfaces and Presentation]: User 
+Interfaces - graphical user interfaces; H.2.8 [Database 
+Management]: Database Applications - scientific databases; 
+H.3.1 [Information Storage and Retrieval]: Content Analysis 
+and Indexing - indexing methods; H.3.3 [Information Storage 
+and Retrieval]: Information Search and Retrieval - query 
+formulation, search process.

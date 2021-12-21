@@ -1,4 +1,0 @@
-the source - coding problem with side information at the decoder is studied subject to a constraint that the encoder  to whom the side information is unavailable  be able to compute the decoder s reconstruction sequence to within some distortion . for discrete memoryless sources and finite single - letter distortion measures ,
-an expression is given for the minimal description rate as a function of the joint law of the source and side information and of the allowed distortions at the encoder and at the decoder .
-the minimal description rate is also computed for a memoryless gaussian source with squared - error distortion measures .
-a solution is also provided to a more general problem where there are more than two distortion constraints and each distortion function may be a function of three arguments : the source symbol , the encoder s reconstruction symbol , and the decoder s reconstruction symbol .

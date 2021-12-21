@@ -1,0 +1,8 @@
+However, in the REC4 case, when we added one flow to the set of replica servers, the performance did not increase.
+On the contrary, it decreased.
+The Anatomy of the Grid: Enabling Scalable Virtual Organizations.
+Int.
+of Fourth International Workshop on Grid Computing, pp.
+41 51, November 2003.
+of 11th IEEE International Symposium on High Performance Distributed Computing (HPDC 11 ‘02), pp.
+188 196, July 2002.

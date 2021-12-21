@@ -1,0 +1,10 @@
+document
+user
+UCAIR
+query
+model
+information
+result
+search
+retrieval
+based

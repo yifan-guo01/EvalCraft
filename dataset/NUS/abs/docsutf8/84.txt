@@ -1,0 +1,26 @@
+Entropy-based Sensor Selection Heuristic for Target Localization
+ABSTRACT
+We propose an entropy-based sensor selection heuristic for
+localization. Given 1) a prior probability distribution of the
+target location, and 2) the locations and the sensing models
+of a set of candidate sensors for selection, the heuristic
+selects an informative sensor such that the fusion of the
+selected sensor observation with the prior target location
+distribution would yield on average the greatest or nearly
+the greatest reduction in the entropy of the target location
+distribution.
+The heuristic greedily selects one sensor in
+each step without retrieving any actual sensor observations.
+The heuristic is also computationally much simpler than the
+mutual-information-based approaches. The effectiveness of
+the heuristic is evaluated using localization simulations in
+which Gaussian sensing models are assumed for simplicity.
+The heuristic is more effective when the optimal candidate
+sensor is more informative.
+Categories and Subject Descriptors
+H.1.1 [MODELS AND PRINCIPLES]: Systems and Information
+Theory--Information theory; C.2.4 [COMPUTER-COMMUNICATION
+NETWORKS]: Distributed Systems
+--Distributed applications
+General Terms
+Algorithms, Management, Theory

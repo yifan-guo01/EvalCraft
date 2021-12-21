@@ -1,0 +1,26 @@
+A Flexible and Extensible Object Middleware: CORBA and Beyond
+ABSTRACT
+This paper presents a CORBA-compliant middleware architecture
+that is more flexible and extensible compared to standard CORBA.
+The portable design of this architecture is easily integrated in any
+standard CORBA middleware; for this purpose, mainly the handling
+of object references (IORs) has to be changed. To encapsulate
+those changes, we introduce the concept of a generic reference
+manager with portable profile managers. Profile managers are
+pluggable and in extreme can be downloaded on demand. To illustrate
+the use of this approach, we present a profile manager implementation
+for fragmented objects and another one for bridging
+CORBA to the Jini world. The first profile manager supports truly
+distributed objects, which allow seamless integration of partitioning
+, scalability, fault tolerance, end-to-end quality of service, and
+many more implementation aspects into a distributed object without
+losing distribution and location transparency. The second profile
+manager illustrates how our architecture enables fully transparent
+access from CORBA applications to services on non-CORBA platforms
+Categories and Subject Descriptors
+D.1.5 [Programming Techniques]: Object-oriented Programming
+; D.2.7 [Software Engineering]: Distribution, Maintenance,
+and Enhancement - extensibility, portability; D.2.12 [Software Engineering
+]: Interoperability - distributed objects;
+General Terms
+Design, Management, Standardization

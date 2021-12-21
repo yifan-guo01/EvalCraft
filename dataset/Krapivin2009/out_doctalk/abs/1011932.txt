@@ -1,0 +1,8 @@
+Introduction Any computational model of human visual information processing must reconcile two apparently contradictory observations .
+First , computations in primary visual cortex are largely Euclidean invariant | an arbitrary rotation and translation of the input pattern of light falling on the retina produces an identical rotation and translation of the output of the computa - tion .
+The apparent contradiction becomes clear when we ask the following questions : How is this remarkable invariance achieved in computations performed by populations of cortical neurons with broadly tuned receptive elds centered at so few locations ?
+This topographical arrangement allows closely spaced objects with dierent orientations to interact .
+Apart from underscoring the limitations of the classical ( linear ) model , they suggest a function for the long - range connections which have been observed between simple cells .
+Shiftable - twistable bases Many visual and image processing tasks are most naturally formulated in the continuum and are invariant under a group of symmetries of the continuum .
+This problem is often skirted by researchers in this area by choosing input patterns which match their choice of sampling rate and phase .
+An important initial stage in the analysis of a scene requires completion of the boundaries of partially occluded objects .

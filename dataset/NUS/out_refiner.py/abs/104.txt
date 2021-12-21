@@ -1,0 +1,43 @@
+Finally, the introductory IT course must also provide 
+a basic coverage of SQL, because the web design course, which 
+covers n tier architectures and requires a basic knowledge of SQL, 
+is taught before the data management course in which SQL is 
+normally presented.
+Section 2 provides 
+more details about the IT fundamentals knowledge area, while 
+section 3 discusses the introduction to IT course offered at 
+Georgia Southern University.
+For reasons explained in ([4]), the IT model curriculum 
+differs from the computer science model curriculum in that it 
+distinguishes between core learning outcomes, which every 
+graduate from an IT program is expected to achieve, and elective 
+learning outcomes, which only graduates specializing in this area 
+are expected to achieve.
+Table 1 provides a breakdown of the topics covered 
+in the remaining 33 hours of instruction, the number of lecture 
+hours spent on that topic, as well as the learning outcome in the 
+IT fundamentals knowledge area of the model curriculum to 
+which the topic corresponds.
+One fortunate 
+side effect of the need to introduce a second discipline is that 
+it gives the program an excellent opportunity to make 
+students aware of the broad range of areas in which IT can be 
+applied and, hence, cover ITF5 (application domains); 
+however, since the number of second disciplines is large 
+(currently, 26), adequate coverage requires 4.5 hours more 
+than the minimum recommend coverage for ITF 5 
+(application domains)
+3.  One lecture hour is missing in ITF3 (history of IT) due to
+lack of coverage in the IT 1130 course of significant changes 
+in HCI (ITF3.3).
+Second, to support the teaching of Topics 3 (components of IT 
+systems), 4 (core technologies) and 7 (history of IT), we use 
+Discovering Computers 2005 ([9]).
+The IT Fundamentals knowledge area in the IT model curriculum 
+is of central importance to the design of an introductory IT course; 
+however, since institutions will have to include additional 
+materials in their introductory IT courses, depending on the nature 
+of their program, the minimum requirement of 33 lecture hours to 
+cover this material is likely to lead to problems.
+Shelley, G., Vermaat, M. and Cashman, T. Discovering
+Computers 2005: A Gateway to Information.

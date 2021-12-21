@@ -1,0 +1,8 @@
+In data clustering, we usually require that the cluster assignments of the data points should be sufficiently smooth with respect to the underlying data manifold, which implies (1) the nearby points tend to have the same cluster assignments; (2) the points on the same structure (e.g. submanifold or cluster) tend to have the same cluster assignments [31].
+There are mainly two approaches to achieve this goal: 1. As in [20], we can treat the i th row of Q as the embedding of xi in a C dimensional space, and apply some traditional clustering methods like kmeans to clustering these embeddings into C clusters.
+In this section, experiments are conducted to empirically compare the clustering results of CLGR with other 8 representitive document clustering algorithms on 5 datasets.
+Given a clustering result, the NMI in Eq.(30) is estimated as NMI = C k=1 C m=1 nk,mlog n·nk,m nk ˆnm C k=1 nklog nk n C m=1 ˆnmlog ˆnm n , (31) where nk denotes the number of data contained in the cluster Ck (1 k C), ˆnm is the number of data belonging to the m th class (1 m C), and nk,m denotes the number of data that are in the intersection between the cluster Ck and the m th class.
+In this method we just minimize Jl (defined in Eq.(24)), and the clustering results can be obtained by doing eigenvalue decomposition on matrix (I − P)T (I − P) with some proper discretization methods.
+E. Han, D. Boley, M. Gini, R. Gross, K. Hastings, G. Karypis, V. Kumar, B. Mobasher, and J. Moore.
+On Spectral Clustering: Analysis and an algorithm.
+Self Tuning Spectral Clustering.

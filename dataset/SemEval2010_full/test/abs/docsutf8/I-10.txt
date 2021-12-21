@@ -1,0 +1,38 @@
+SMILE: Sound Multi-agent Incremental LEarning ;-)∗
+Gauvain Bourgne
+LAMSADE, UMR 7024 CNRS,
+University Paris-Dauphine,
+75775 Paris Cedex 16
+Amal El Fallah
+Segrouchni
+LIP6, UMR 7606 CNRS,
+University Paris 6, 104, Av. du
+pr´esident Kennedy, 75116
+Paris
+Henry Soldano
+LIPN, UMR 7030 CNRS,
+University Paris-Nord, 99 Av.
+J-B Clement, 93430,
+Villetaneuse
+ABSTRACT
+This article deals with the problem of collaborative 
+learning in a multi-agent system. Here each agent can update
+incrementally its beliefs B (the concept representation) so
+that it is in a way kept consistent with the whole set of
+information K (the examples) that he has received from
+the environment or other agents. We extend this notion
+of consistency (or soundness) to the whole MAS and 
+discuss how to obtain that, at any moment, a same consistent
+concept representation is present in each agent. The 
+corresponding protocol is applied to supervised concept learning.
+The resulting method SMILE (standing for Sound 
+Multiagent Incremental LEarning) is described and experimented
+here. Surprisingly some difficult boolean formulas are 
+better learned, given the same learning set, by a Multi agent
+system than by a single agent.
+Categories and Subject Descriptors
+I.2.6 [Artificial Intelligence]: Learning-Concept 
+learning; I.2.11 [Artificial Intelligence]: Distributed Artificial
+Intelligence-Multiagent system
+General Terms
+Experimentation, Algorithms, Measurement, Performance

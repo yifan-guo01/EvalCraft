@@ -1,7 +1,0 @@
-we test the hemispherical power asymmetry of the wmap 7-year low - resolution temperature and polarization maps .
-we consider two natural estimators for such an asymmetry and exploit our implementation of an optimal angular power spectrum estimator for all the six cmb spectra . by scanning the whole sky through a sample of 24 directions , we search for asymmetries in the power spectra of the two hemispheres , comparing the results with monte carlo simulations drawn from the wmap 7-year best - fit model .
-our analysis extends previous results to the polarization sector .
-the level of asymmetry on the ilc temperature map is found to be compatible with previous results , whereas no significant asymmetry on the polarized spectra is detected .
-we show that our results are only weakly affected by the _ a posteriori _ choice of the maximum multipole considered for the analysis .
-we also forecast the capability to detect dipole modulation by our methodology at planck sensitivity .
-[ firstpage ]    cosmic microwave background - cosmology : theory - methods : numerical - methods : statistical - cosmology : observations

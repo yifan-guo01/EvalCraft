@@ -1,0 +1,15 @@
+Entropy and Self-Organization in Multi-Agent Systems
+ABSTRACT
+Emergent self-organization in multi-agent systems appears to 
+contradict the second law of thermodynamics. This paradox has 
+been explained in terms of a coupling between the macro level 
+that hosts self-organization (and an apparent reduction in 
+entropy), and the micro level (where random processes greatly 
+increase entropy). Metaphorically, the micro level serves as an 
+entropy "sink," permitting overall system entropy to increase 
+while sequestering this increase from the interactions where self-organization
+is desired. We make this metaphor precise by 
+constructing a simple example of pheromone-based coordination, 
+defining a way to measure the Shannon entropy at the macro 
+(agent) and micro (pheromone) levels, and exhibiting an entropy-based
+view of the coordination.

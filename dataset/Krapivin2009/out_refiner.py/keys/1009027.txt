@@ -1,0 +1,10 @@
+document language
+probabilistic cluster
+lm algorithm
+language model
+cluster information
+good result
+average precision
+document rank
+corpus structure
+smoothing method

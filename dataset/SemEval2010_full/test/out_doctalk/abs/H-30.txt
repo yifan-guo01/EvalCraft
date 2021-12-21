@@ -1,0 +1,8 @@
+Such techniques are used to augment the original query to produce a representation that better reflects the underlying information need .
+Finally , our proposed approach seamlessly provides a mechanism for generating both single and multi term concepts .
+Results showed that combining single term and large window multi term concepts significantly improved effectiveness .
+The nodes in the graph represent the random variables and the edges define the independence semantics of the distribution .
+The correct choice of features depends largely on the retrieval task and the evaluation metric .
+This distributional assumption locks the model into the bag of words representation and the implicit use of term occurrence features .
+Automatic phrase indexing for document retrieval : An examination of syntactic and non syntactic methods .
+Direct maximization of average precision by hill climbing with a comparison to a maximum entropy approach .

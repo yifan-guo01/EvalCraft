@@ -1,0 +1,15 @@
+A
+ABSTRACT
+Prolonging the network lifetime is one of the
+most important designing objectives in wireless sensor networks
+(WSN). We consider a heterogeneous cluster-based WSN, which
+consists of two types of nodes: powerful cluster-heads and
+basic sensor nodes. All the nodes are randomly deployed in a
+specific area. To better balance the energy dissipation, we use a
+simple mixed communication modes where the sensor nodes can
+communicate with cluster-heads in either single-hop or multi-hop
+mode. Given the initial energy of the basic sensor nodes, we derive
+the optimal communication range and identify the optimal mixed
+communication mode to maximize the WSN's lifetime through
+optimizations. Moreover, we also extend our model from 2-D
+space to 3-D space.

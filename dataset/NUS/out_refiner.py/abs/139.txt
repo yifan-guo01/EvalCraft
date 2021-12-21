@@ -1,0 +1,29 @@
+To model concurrent object behavioral design patterns with 
+CPNs, our approach starts with a concurrent software 
+architecture model captured in UML.
+Objects are broadly divided into application objects, which 
+perform the work, and connector objects, which provide the 
+means of communicating between application objects.
+For each state dependent object, a UML 
+statechart is used to capture the state behavior for that object.
+The 
+connections provided by each template are consistent across the 
+set of templates and allow concurrent objects to be connected to 
+passive objects (entities or message communication) in any 
+order.
+Since each of these templates captures a 
+generic behavioral design pattern, when a template is assigned 
+to a specific object, we then augment that template with the 
+information captured in the tagged values for the object.
+Looking at the periodic algorithm template from Figure 3, you 
+should notice that, like the previous concurrent object template, 
+there is Ready place with a control token that indicates when the 
+object is ready to start its next processing cycle and models the 
+thread of execution.
+As opposed to concurrent objects, all passive objects and 
+message connectors will use CPN places for their interface, 
+allowing concurrent objects to be connected through their 
+transition interfaces.
+Secondly, we performed validation to 
+determine if the resulting CPN models provided a correct model 
+of the concurrent software architecture.

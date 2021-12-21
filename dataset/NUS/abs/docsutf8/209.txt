@@ -1,0 +1,25 @@
+Using Roles and Business Objects to Model and Understand Business Processes
+ABSTRACT
+Business process modeling focus on describing how activities interact
+with other business objects while sustaining the organization's
+strategy. Business objects are object-oriented representations
+of organizational concepts, such as resources and actors, which
+collaborate with one another in order to achieve business goals.
+These objects exhibit different behavior according to each specific
+collaboration context. This means the perception of a business
+object depends on its collaborations with other objects. Business
+process modeling techniques do not clearly separate the multiple
+collaborative aspects of a business object from its internal aspects,
+making it difficult to understand objects which are used in different
+contexts, thus hindering reuse. To cope with such issues, this
+paper proposes using role modeling as a separation of concerns
+mechanism to increase the understandability and reusability of
+business process models. The approach divides a business process
+model into a business object model and a role model. The business
+object models deals with specifying the structure and intrinsic behavior
+of business objects while the role model specifies its collaborative
+aspects.
+Categories and Subject Descriptors
+D.2.9 [Management]: Software Process Models
+D.2.10 [Design]: Methodologies
+H.1.0 [Models and Principles]: General

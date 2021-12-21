@@ -1,0 +1,24 @@
+A Similarity Measure for Motion Stream Segmentation and Recognition
+ABSTRACT
+Recognition of motion streams such as data streams generated
+by different sign languages or various captured human
+body motions requires a high performance similarity measure
+. The motion streams have multiple attributes, and motion
+patterns in the streams can have different lengths from
+those of isolated motion patterns and different attributes
+can have different temporal shifts and variations. To address
+these issues, this paper proposes a similarity measure
+based on singular value decomposition (SVD) of motion matrices
+. Eigenvector differences weighed by the corresponding
+eigenvalues are considered for the proposed similarity measure
+. Experiments with general hand gestures and human
+motion streams show that the proposed similarity measure
+gives good performance for recognizing motion patterns in
+the motion streams in real time.
+Categories and Subject Descriptors
+H.2.8 [Database
+Management]: Database Applications - Data Mining
+
+General Terms
+Algorithm
+

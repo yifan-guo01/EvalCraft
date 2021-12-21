@@ -1,0 +1,18 @@
+Handoff Trigger Table for Integrated 3G/WLAN Networks
+ABSTRACT
+Vertical handoff is a switching process between heterogeneous
+wireless networks in a hybrid 3G/WLAN network.
+Vertical handoffs fromWLAN to 3G network often fail due
+to the abrupt degrade of the WLAN signal strength in the
+transition areas. In this paper, a Handoff Trigger Table is
+introduced to improve the performance of vertical handoff.
+Based on this table, a proactive handoff scheme is proposed.
+Simulation results show that with the proposed scheme, the
+vertical handoff decisions will be more efficient so that dropping
+probability can be decreased dramatically.
+Categories and Subject Descriptors
+C.4 [Performance of Systems]: Design Studies; C.2.1
+[Network Architecture and Design]: Wireless Communications
+--Integrated 3G/WLAN Networks
+General Terms
+Performance

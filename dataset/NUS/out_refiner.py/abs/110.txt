@@ -1,0 +1,125 @@
+We present the first external memory index for multidimensional
+trajectories, that supports multiple distance
+functions (such as LCSS, DTW and Euclidean), without the
+need to rebuild the index.
+The flexibility provided by DTW is very important, however
+its efficiency deteriorates for noisy data, since by matching
+all the points, it also matches the outliers distorting the
+true distance between the sequences.
+The basic idea is
+to match two sequences by allowing them to stretch, without
+rearranging the order of the elements but allowing some
+elements to be unmatched.
+We describe an extension in 2D of the original DTW function
+as described by Berndt and Clifford [4].
+A
+similar greedy split algorithm is also used for splitting the
+MBE of the query trajectory Q.
+221
+(a)
+Equi Split, 8 MBRs, Gain = 5.992
+(b)
+Equi Split, 9 MBRs, Gain = 5.004
+(c)
+Greedy Split, 8MBRs, Gain = 9.157
+(d)
+Greedy Split, 9MBRs, Gain = 10.595
+Figure 7: (a): 8 MBRs produced using equi Split.
+The equi split
+offers slightly better results, than producing MBRs at random
+positions.
+We demonstrate the index performance relative to
+223
+1024
+2048
+4096
+8192
+16384
+32768
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+Dataset size
+Time Ratio Compared to Linear Scan
+=5%
+Optimistic
+Pessimistic
+Linear Scan
+1024
+2048
+4096
+8192
+16384
+32768
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+Dataset size
+Time Ratio Compared to Linear Scan
+=10%
+Optimistic
+Pessimistic
+Linear Scan
+1024
+2048
+4096
+8192
+16384
+32768
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+Dataset size
+Time Ratio Compared to Linear Scan
+=20%
+Optimistic
+Pessimistic
+Linear Scan
+Figure 13: Index performance.
+Here we present the index performance when the volume
+intersections of the MBRs are used as estimates of the sim 224
+1024
+2048
+4096
+8192
+16384
+32768
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+Dataset size
+Ratio of LCSS performed by the index
+Pruning Power compared to Linear Scan
+5% splits
+10% splits
+20% splits
+Linear Scan
+=5%
+=10%
+=20%
+Figure 15: Each gray band indicates
+(for a certain warping window
+) the percentage of LCSS
+computations conducted by the index
+compared to linear scan.

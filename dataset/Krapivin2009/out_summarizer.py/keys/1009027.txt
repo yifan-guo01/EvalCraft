@@ -1,0 +1,10 @@
+component document
+document cluster
+interpolation algorithm
+language model pc
+average precision
+good result
+cluster information
+document rank
+corpus structure
+induction method

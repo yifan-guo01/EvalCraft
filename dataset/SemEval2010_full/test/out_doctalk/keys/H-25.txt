@@ -1,0 +1,10 @@
+feedback
+user
+document
+cluster
+performance
+judge relevance
+information
+query topic
+check number
+retrieval method

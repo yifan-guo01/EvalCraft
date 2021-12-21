@@ -1,0 +1,86 @@
+Currently some search engines provide rudimentary personalization
+, such as Google Personalized web search [6], which allows
+users to explicitly describe their interests by selecting from predefined
+topics, so that those results that match their interests are
+brought to the top, and My Yahoo! search [16], which gives users
+the option to save web sites they like and block those they dislike
+.
+For example, if a user has viewed some documents on
+the first page of search results, when the user clicks on the "Next"
+link to fetch more results, an existing retrieval system would still
+return the next page of results retrieved based on the original query
+without considering the new evidence that a particular result has
+been viewed by the user.
+For example, if the user does not want to see
+redundant documents, the loss function should include some redundancy
+measure on r based on the already seen documents S.
+Of course, when the response is not to choose a ranked list of
+documents, we would need a different loss function.
+When a user is presented with a
+list of summaries of top ranked documents, if the user chooses to
+skip the first n documents and to view the (n + 1) th document, we
+may infer that the user is not interested in the displayed summaries
+for the first n documents, but is attracted by the displayed summary
+of the (n + 1) th document.
+Currently, UCAIR
+only uses the immediate preceding query for query expansion; in
+principle, we could exploit all related past queries.
+Rocchio computes
+the centroid vector of all the summaries and interpolates it with the
+original query vector to obtain an updated term vector.
+In this case, the initial retrieval results using "jaguar" (shown
+on the left side) contain two results about the Jaguar cars followed
+by two results about the Jaguar software.
+Experiments on web
+search show that our search agent can improve search accuracy over
+830
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+UCAIR prec@20
+Google prec@20
+Scatterplot of Precision at Top 20 documents
+Figure 5: Precision at top 20 documents of UCAIR and Google
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+0.4
+0.45
+0.5
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+0.85
+0.9
+recall
+precision
+Precision Recall curves
+Google Result
+UCAIR Result
+Figure 6: Precision at top 20 result of UCAIR and Google
+Google.

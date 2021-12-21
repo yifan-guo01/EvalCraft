@@ -1,0 +1,5 @@
+[4] OmniRPC Project.
+http://www.omni.hpcc.jp/omnirpc/.
+http://ninf.apgrid.org/.
+http://www.omg.org/.
+http://setiathome.ssl.berkeley.edu/.

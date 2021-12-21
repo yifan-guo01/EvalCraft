@@ -1,0 +1,62 @@
+Conferences in Research and Practice in Information
+Technology, Vol. 48. Vladimir Estivill Castro and Gill
+Dobbie, Ed. Reproduction for academic, not for profit purposes
+permitted provided this text is included.
+The experimental
+results also show that the optimal number
+does not depend on the number of objects.
+If the
+inequality
+d
+min
++ r
+t
+&lt; d(q, p
+t
+)
+(6)
+is satisfied, we can see that no object exists in S
+t
+which is closer to q than p
+min
+and the traversal to
+node t is not necessary.
+On
+the other hand, the proposed method can reduce the
+number of distance computations to some extent with
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+0
+0.2
+0.4
+0.6
+0.8
+Distance to the
+k
+ th Approximate Solution
+Distance to the k th Optimal Solution
+Figure 17: The distribution of the approximate solution
+by Ak LAESA to the optimal solution.
+From these viewpoints, the method presented in this
+paper is very effective when the distance computations
+are time consuming.
+Hjaltason, G. R. & Samet, H. (2003), `Index driven
+similarity search in metric spaces', ACM Transactions
+on Database Systems 28(4), 517 580.
+Mic'o, M. L., Oncina, J. & Vidal, E. (1994), `A new
+version of the nearest neighbour approximating
+and eliminating search algorithm (AESA) with
+linear preprocessing time and memory require ments'
+, Pattern Recognition Letters 15(1), 9 17.
+Moreno Seco, F., Mic'o, L. & Oncina, J. (2002),
+`Extending LAESA fast nearest neighbour algorithm
+to find the k nearest neighbours', Lecture
+Notes in Computer Science   Lecture Notes in
+Artificial Intelligence 2396, 691 699.

@@ -1,0 +1,73 @@
+It is widely
+recognized that constraints facilitate describing geometric
+layouts and behaviors of diagrams in 2D graphical user interfaces
+such as drawing editors, and therefore constraint
+solvers for this purpose have been extensively studied [3, 7,
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+It is,
+however, insufficient in reality because of the essential difference
+between the ways of specifying 2D and 3D graphics;
+typical 2D graphics handles only simple coordinate systems,
+whereas most 3D graphics requires multiple coordinate systems
+with complex relations such as rotations to treat scene
+graphs.
+Solutions to constraint systems are defined as follows: let
+e
+i,j
+(x) be the error function of the j th constraint (1  j
+m
+i
+) at strength level i (0  i  l); then solutions v are
+determined with the optimization problem
+minimize
+v
+E(v) subject to e
+0,j
+(v) = 0 (1  j  m
+0
+)
+95
+where E is an objective function defined as
+E(x) =
+l
+i=1
+m
+i
+j=1
+w
+i
+e
+i,j
+(x)
+in which w
+i
+indicates the weight associated with strength i,
+and the relation w
+1
+w
+2
+ . . .
+w
+l
+holds.
+However, this method requires an optimization routine
+supporting required nonlinear constraints, which limits
+the availability of actual techniques (in fact, we cannot
+use the quasi Newton method for this purpose).
+The application programming interface of Chorus3D is a
+natural extension to that of Chorus, which provides a certain
+compatibility with a recent linear solver called Cassowary
+[3]; in a similar way to Cassowary and Chorus, Chorus3D
+allows programmers to process constraint systems by creating
+variables and constraints as objects, and by adding/
+removing constraint objects to/from the solver object.
+One possible direction is to extend
+VRML [4] to support geometric constraints.
+Kamada, T., and Kawai, S. An algorithm for drawing
+general undirected graphs.
+Zhao, J., and Badler, N. I. Inverse kinematics
+positioning using nonlinear programming for highly
+articulated figures.

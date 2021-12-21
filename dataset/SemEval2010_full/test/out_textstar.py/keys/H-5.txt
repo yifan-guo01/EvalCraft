@@ -1,0 +1,10 @@
+pi
+passage
+system
+respect
+utility
+query
+information
+score
+document
+relevance

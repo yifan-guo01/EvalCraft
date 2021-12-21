@@ -1,0 +1,8 @@
+Also, we propose an adaptive mechanism to assign weights to the grid nodes, taking into account their current workload.
+If so, it is selected.
+Morgan Kauffman, 1999.
+[6] W. Gish.
+Washington university blast.
+http://blast.wustl.edu, 1996 2002.
+Processor self scheduling for multiple nested parallel loops.
+In Int.

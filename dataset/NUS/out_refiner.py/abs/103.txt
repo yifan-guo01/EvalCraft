@@ -1,0 +1,85 @@
+In this technique, keywords
+extracted from the user's search query are matched against
+keywords associated with ads provided by advertisers.
+Our results indicate that a strategy that
+matches the ad plus its keywords to a Web page, requiring
+the keywords to appear in the Web page, provides improvements
+in average precision figures of roughly 60% relative
+to a strategy that simply matches the ads to the Web page.
+Given our triggering page p and a set A of ads, a simple
+way of ranking a
+i
+A with regard to p is by matching the
+contents of p to the contents of a
+i
+.
+Let
+w
+iq
+be the weight associated with term t
+i
+in the query q
+and w
+ij
+be the weight associated with term t
+i
+in the document
+d
+j
+.
+Given that (a
+i
+, h
+i
+)  H and (a
+i
+, k
+i
+)  K, we have our
+last two methods:
+AAK H(p, a
+i
+) =
+sim(p, a
+i
+h
+i
+k
+i
+)
+if k
+i
+p
+0
+if otherwise
+AAK EXP H(p, a
+i
+) =
+sim(p  r, a
+i
+h
+i
+k
+i
+)
+if k
+i
+(p  r)
+0
+if otherwise
+where AAK H stands for "match ads and keywords also considering
+the page pointed by the ad" and AAH EXP H stands
+for "match ads and keywords with expanded triggering page,
+also considering the page pointed by the ad".
+We expand triggering pages with terms extracted from the
+Web collection and then we match these expanded pages to
+the ads from the advertisement collection.
+In Proceedings of
+the 2002 annual research conference of the South African
+institute of computer scientists and information technologists
+on Enablement through technology, pages 258 258.
+In W. B.
+Croft and e. C. J. van Rijsbergen, editors, Proceedings of the
+17rd annual international ACM SIGIR conference on
+Research and development in information retrieval, pages
+13 22.

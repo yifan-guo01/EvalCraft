@@ -1,0 +1,8 @@
+search algorithm
+distance computation
+p minute
+optimal number
+k object
+Figure
+access method
+approximate solution distance

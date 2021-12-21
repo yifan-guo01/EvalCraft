@@ -1,0 +1,10 @@
+model
+query
+document
+using
+term
+feedback
+QV
+distribution
+sampling
+set

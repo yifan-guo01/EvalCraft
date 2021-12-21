@@ -1,0 +1,10 @@
+singular value
+matrix c
+singular vector
+straightforward shift strategy
+large eigenvalue value
+previous case
+sparse matrice
+qr step
+few restart
+condition number

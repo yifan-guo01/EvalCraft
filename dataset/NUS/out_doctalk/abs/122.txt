@@ -1,0 +1,8 @@
+We define lazy preservation as the collective digital preservation performed by web archives and search engines on behalf of the Web at large .
+Lazy preservation requires no individual effort or cost for Web publishers , but it also provides no quality of service guarantees .
+We compare the downloaded versions of the sites with the reconstructed versions to measure how successful we were at reconstructing the websites .
+BACKGROUND AND RELATED WORK The ephemeral nature of the Web has been widely ac knowledged .
+Other researchers have developed tools for archiving individual websites and web pages .
+WEB CRAWLING AND CACHING There are many SEs and web archives that index and store Web content .
+The SEs have proprietary cache replacement and removal policies which can only be inferred from observed behavior .
+CONCLUSIONS Lazy preservation is a best effort , wide coverage digital preservation service that may be used as a last resort when 73 website backups are unavailable .

@@ -1,0 +1,10 @@
+Alice
+covertext distribution
+distribution covertext
+passive adversary
+message stegosystem
+observe datum
+introduction steganography
+type probability
+stegotext Bob
+adversary Eve

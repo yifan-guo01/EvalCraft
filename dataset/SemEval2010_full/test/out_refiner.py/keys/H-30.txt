@@ -1,0 +1,10 @@
+language model
+latent concept expansion
+query model
+General term algorithm
+concept expansion
+document model
+relevance feedback
+document retrieval
+feature set
+Field

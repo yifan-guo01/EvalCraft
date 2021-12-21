@@ -1,0 +1,8 @@
+INTRODUCTION As is well known , a basic problem in information retrieval is to determine how relevant a particular document is to a query .
+Given this absence of explicit relevance evidence , it is important to consider what other information sources can be exploited .
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+Clustering at retrieval time can be very expensive , but o - line clustering seems , by denition , query - independent and therefore may be based on factors that are irrelevant to user information need .
+Also , a focus in the latent - variable work has been on sophisticated cluster induction , whereas we nd that a very simple clustering scheme works rather well in practice .
+outcome of relative insensitivity to choice of parameter value for the underlying smoothing method employed .
+Another interesting observation is that eective incorporation of cluster information somewhat obviates the need for feature selection .
+An interesting direction for future work is to explore the eect of using alternative clustering algorithms .

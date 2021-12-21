@@ -1,0 +1,10 @@
+sensor node
+same energy
+sensor network
+basic sensor node
+cluster head
+analytical model
+energy consumption e
+communication mode
+network lifetime
+Poisson density

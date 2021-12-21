@@ -1,0 +1,37 @@
+A Support Vector Method for Optimizing Average Precision
+Yisong Yue
+Cornell University
+Ithaca, NY, USA
+yyue@cs.cornell.edu
+Thomas Finley
+Cornell University
+Ithaca, NY, USA
+tomf@cs.cornell.edu
+Filip Radlinski
+Cornell University
+Ithaca, NY, USA
+filip@cs.cornell.edu
+Thorsten Joachims
+Cornell University
+Ithaca, NY, USA
+tj@cs.cornell.edu
+ABSTRACT
+Machine learning is commonly used to improve ranked 
+retrieval systems. Due to computational difficulties, few 
+learning techniques have been developed to directly optimize for
+mean average precision (MAP), despite its widespread use
+in evaluating such systems. Existing approaches 
+optimizing MAP either do not find a globally optimal solution,
+or are computationally expensive. In contrast, we present
+a general SVM learning algorithm that efficiently finds a
+globally optimal solution to a straightforward relaxation of
+MAP. We evaluate our approach using the TREC 9 and
+TREC 10 Web Track corpora (WT10g), comparing against
+SVMs optimized for accuracy and ROCArea. In most cases
+we show our method to produce statistically significant 
+improvements in MAP scores.
+Categories and Subject Descriptors
+H.3.3 [Information Search and Retrieval]: Retrieval
+Models
+General Terms
+Algorithm, Theory, Experimentation

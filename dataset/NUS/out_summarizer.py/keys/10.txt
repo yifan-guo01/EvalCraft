@@ -1,0 +1,9 @@
+noise probability
+document specific
+specific term permission
+document frequency
+tf definition
+document containment
+base
+occurrence probability
+Poisson distribution

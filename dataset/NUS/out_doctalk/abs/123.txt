@@ -1,0 +1,8 @@
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+The first one is relevance feedback which attempts to capture the user 's precise needs through iterative feedback and query refinement .
+The automated image annotation methods for CBIR and the high level feature extraction methods in CBVR are all the efforts to model the first mapping .
+The second objective of this paper is to provide a practical as well as theoretical guaranteed approach to addressing the problem .
+1.3 Organization The structure of this paper is as follows .
+PRELIMINARIES Here , we present a sketch introduction to the soft margin SVMs for the convenience of the deduction in Section 4 .
+Another obstacle caused by large scale is the increased classification difficulty , that is , the more probable data overlapping .
+A possible drawback of this type approach is its high computational costs .

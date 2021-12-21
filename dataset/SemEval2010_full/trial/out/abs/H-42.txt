@@ -1,0 +1,8 @@
+We define two normalized versions of average precision , that we use to construct a weighted bipartite graph of TREC systems and topics .
+We analyze the meaning of well known and somewhat generalized indicators from social network analysis on the Systems Topics graph .
+After the lists have been submitted and pooled , the TREC organizers employ human assessors to provide relevance judgements on the pooled set .
+Current search engines use link analysis techniques to help rank the retrieved documents .
+We then apply analysis methods originally developed for search applications to the resulting network .
+We seek methods of building and analysing a matrix of system topic normalised performances , with a view to giving insight into the issue and confirming or refuting the third and fourth hypotheses .
+Acknowledgments We would like to thank Nick Craswell for insightful discussions and the anonymous referees for useful remarks .
+Part of this research has been carried on while the first author was visiting Microsoft Research Cambridge , whose financial support is acknowledged .

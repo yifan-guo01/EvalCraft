@@ -1,0 +1,9 @@
+interval k
+request sequence
+same seat
+on-line algorithm
+next group
+reservation problem
+last part
+contract number ist
+case early

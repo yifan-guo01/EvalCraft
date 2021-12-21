@@ -1,0 +1,10 @@
+consecutive target candidate
+decision time
+competitive ratio
+n signal
+on-line player
+available strategy
+weak adversary
+target probability
+clinical case
+problem version

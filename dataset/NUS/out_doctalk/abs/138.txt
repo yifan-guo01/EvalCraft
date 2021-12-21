@@ -1,0 +1,8 @@
+A social network , the graph of relationships and interactions within a group of individuals , plays a fundamental role as a medium for the spread of information , ideas , and influence .
+Since Max Weber first studied modern bureaucracy structures in the 1920s , decades of related social scientific researches have been mainly relying on questionnaires and interviews to understand individuals ' thoughts and behaviors for sensing informal networks .
+To copy otherwise , or republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+479 Industry / Government Track Paper person 's personal social network with context dependent and temporal evolution information from personal communications .
+Afterwards , these personal CommunityNets can be applied for inferring organizational informal networks and predicting personal behaviors to help users manage their social capitals .
+Contextual , relational , and temporal information are three key factors for current data mining and knowledge management models .
+The distance of nodes represents the closeness ( measured by the communication frequencies ) of a person to the center person .
+We establish personal CommunityNet profiles based on a novel Content Time Relation algorithm , which incorporates contact , content , and time information simultaneously from personal communication .

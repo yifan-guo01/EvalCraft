@@ -1,0 +1,33 @@
+The LBS application would interact with 
+other location technology components or use the mobile user's 
+input to determine the user's location and download the 
+information about the restaurants in proximity to the user by 
+tuning into the wireless channel which is disseminating LDD.
+Tuning time refers to the time 
+during which the mobile unit (MU) remains in active state to tune 
+the channel and download its required data.
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that copies 
+bear this notice and the full citation on the first page.
+Chen et al. [2] and 
+Shivakumar et al. [8] considered unbalanced tree structures to 
+optimize energy consumption for non uniform data access.
+If these applications are coupled with location information, 
+then the search will be fast and highly cost effective.
+Also, for a query including range of locations of 
+Starbucks, a single query requesting locations for the entire 
+region of Kansas City, as shown in Figure 2, will suffice.
+As the 
+number of internal locations vary for item to item (for example, 
+Weather is generally associated with a City whereas traffic is 
+granulated up to major and minor roads of a city), we argue that 
+the structure of the location mapped information may be 
+visualized as a forest which is a collection of general trees, the 
+number of general trees depending on the types of information 
+broadcasted and depth of a tree depending on the granularity of 
+the location information associated with the information.
+Figure 8, in contrast, shows us that the tuning time in 
+LBIS, though less than the other two schemes, tends to increase 
+sharply as the broadcast length becomes greater than the 15000 
+pages.

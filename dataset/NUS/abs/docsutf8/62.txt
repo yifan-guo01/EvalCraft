@@ -1,0 +1,23 @@
+Creating a Massive Master Index for HTML and Print
+ABSTRACT
+An index connects readers with information. Creating an index for 
+a single book is a time-honored craft. Creating an index for a 
+massive library of HTML topics is a modern craft that has largely 
+been discarded in favor of robust search engines. The authors 
+show how they optimized a single-sourced index for collections of 
+HTML topics, printed books, and PDF books. With examples 
+from a recent index of 24,000 entries for 7,000 distinct HTML 
+topics also published as 40 different PDF books, the authors 
+discuss the connections between modern technology and 
+traditional information retrieval methods that made the index 
+possible, usable, and efficient to create and maintain.
+
+Categories and Subject Descriptors
+I.7.2 [Document and Text Processing]: Index Generation, 
+Document Preparation--Index generation; H.3.1 [Information 
+Storage and Retrieval]: Content Analysis and Indexing--Indexing 
+methods; H3.7: Digital Libraries: User issues; H.5.4 [Information 
+Interfaces and Presentation]: Hypertext/ Hypermedia-Navigation
+General Terms
+: Documentation, Design, Human factors
+

@@ -1,0 +1,29 @@
+On the Computational Power of Iterative Auctions∗
+[Extended Abstract]
+Liad Blumrosen
+School of Engineering and Computer Science
+The Hebrew University of Jerusalem
+Jerusalem, Israel
+liad@cs.huji.ac.il
+Noam Nisan
+School of Engineering and Computer Science
+The Hebrew University of Jerusalem
+Jerusalem, Israel
+noam@cs.huji.ac.il
+ABSTRACT
+We embark on a systematic analysis of the power and 
+limitations of iterative combinatorial auctions. Most existing
+iterative combinatorial auctions are based on repeatedly 
+suggesting prices for bundles of items, and querying the bidders
+for their demand under these prices. We prove a large
+number of results showing the boundaries of what can be
+achieved by auctions of this kind. We first focus on auctions
+that use a polynomial number of demand queries, and then
+we analyze the power of different kinds of ascending-price
+auctions.
+Categories and Subject Descriptors
+F.2 [Theory of Computation]: Analysis of Algorithms
+and Problem Complexity; J.4 [Computer Applications]:
+Social and Behavioral Sciences-Economics
+General Terms
+Algorithms, Economics, Theory

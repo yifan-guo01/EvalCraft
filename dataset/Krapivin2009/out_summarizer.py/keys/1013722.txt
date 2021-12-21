@@ -1,0 +1,10 @@
+above model
+covertext distribution
+information hiding
+secure stegosystem
+m-bit message
+introduction steganography
+active adversary
+probability distribution
+Alice
+block Y

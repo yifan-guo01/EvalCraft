@@ -1,0 +1,30 @@
+An expressive aspect language for system applications with Arachne
+ABSTRACT
+C applications, in particular those using operating system
+level services, frequently comprise multiple crosscutting concerns
+: network protocols and security are typical examples
+of such concerns. While these concerns can partially be addressed
+during design and implementation of an application,
+they frequently become an issue at runtime, e.g., to avoid
+server downtime. A deployed network protocol might not be
+efficient enough and may thus need to be replaced. Buffer
+overflows might be discovered that imply critical breaches in
+the security model of an application. A prefetching strategy
+may be required to enhance performance.
+While aspect-oriented programming seems attractive in
+this context, none of the current aspect systems is expressive
+and efficient enough to address such concerns. This
+paper presents a new aspect system to provide a solution to
+this problem. While efficiency considerations have played
+an important part in the design of the aspect language, the
+language allows aspects to be expressed more concisely than
+previous approaches. In particular, it allows aspect programmers
+to quantify over sequences of execution points as
+well as over accesses through variable aliases. We show how
+the former can be used to modularize the replacement of network
+protocols and the latter to prevent buffer overflows.
+We also present an implementation of the language as an
+extension of Arachne, a dynamic weaver for C applications.
+Finally, we present performance evaluations supporting that
+Arachne is fast enough to extend high performance applications
+, such as the Squid web cache.

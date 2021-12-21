@@ -1,0 +1,10 @@
+software metric
+mobile object
+metric criterion
+application behaviour
+method execution
+engine push criterion
+adaptation engine
+metric container
+Container
+metric collection overhead

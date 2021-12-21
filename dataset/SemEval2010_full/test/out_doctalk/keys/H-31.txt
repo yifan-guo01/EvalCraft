@@ -1,0 +1,10 @@
+information retrieval
+term
+document
+poisson language
+method
+multinomial distribution
+useful information
+smooth parameter
+page
+retrieval performance

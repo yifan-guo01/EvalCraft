@@ -1,0 +1,10 @@
+containment probability p
+document d
+term t
+term frequency
+noise probability
+tf definition
+containment probability
+base
+document work
+Poisson informativeness

@@ -1,0 +1,8 @@
+4 The relationship between shift-twist transformations and computations in V1 was described by Williams and Jacobs in [30] and more recently by Kalitzin et al.
+[16] and Cowan [3].
+This paper is concerned with visual computations whose input and output are functions on the continuum, R 2  S 1 , and which are shift-twist invariant.
+We propose the following general framework for performing such computations in a shift-twist invariant manner in a discrete network.
+Since the transformation, A  D, will only involve interactions between functions, (~x), at dierent positions ~ k, and not at dierent scales or orientations, the basis functions and coecients will be denoted by ~ k;!
+(t) respectively.
+11 The be used to refer to the ner scale basis.
+Set e 2, e 2, e 2K and e .

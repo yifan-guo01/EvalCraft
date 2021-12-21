@@ -1,0 +1,8 @@
+Grid discovery services provide the ability to monitor and discover resources and services on grids .
+However , the fundamental problem is the need to be scalable to handle huge amounts of data from multiple sources .
+This crucial design choice is motivated by two factors .
+BACKGROUND 2.1 Grid Service Discovery Grid computing is based on standards which use web services technology .
+A UDDI registry enables a business to enter three types of information in a UDDI registry white pages , yellow pages and green pages .
+Organization can also decide what information is available from the local registries by implementing policies at the proxy registry .
+Discovering services meeting QoS and price requirements has been studied in the context of a grid economy , so that grid schedulers can use various market models such as commodity markets and auctions .
+The clients are oblivious to the transparent proxy approach we have adopted and get richer and more complete response to their queries .

@@ -1,0 +1,8 @@
+A(s, N, S) = max N 1 − 1 S s−1 S , 1 , s > 0 (8) 3.7 Factoring (FAC2) FAC2 allocates work units in cycles consisting of S allocation sequences.
+It distributes sequences among the grid nodes using two allocation policies: FCFS and minmax.
+Having decided which sequences will be compared by each node, GridBlast sends the sequences, the executable files and the whole database to the chosen node.
+We also propose a strategy to compute grid nodes execution weight which distributes work units (database segments) to grid nodes according to their current computational power.
+Φ(m, pi, P ) = P ∗ P i=1 Γ(m,pi,Ω) Γ(m,pi,Ω) P i=1 P i=1 Γ(m,pi,Ω) Γ(m,pi,Ω) (12) Γ(m, pi, Ω) (equation 13) specifies the average computing time of a segment in a node pi, considering the last Ω notifications of TE(m, pi, τ), which is the average computation time of τ work units (database segments) assigned by the master m to a slave pi.
+BLAST receives MASTER Strategies Allocation Work units Generate Work Units Distribute Reports Generate work units (to slaves)reports searches Figure 3: PackageBLAST architecture.
+To evaluate PSS, we executed PackageBLAST with 16 grid nodes, introducing local workload in nodes L01, L02, P01 and P02.
+S. F. Altschul, W. Gish, W. Miller, E. W. Myers, and D. J. Lipman.

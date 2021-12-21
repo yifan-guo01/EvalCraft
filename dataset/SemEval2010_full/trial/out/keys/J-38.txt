@@ -1,0 +1,20 @@
+game
+agent
+function
+aggregator
+core
+coalitional concept
+Computing Shapley
+representation result
+attribute player
+macg
+exponential number
+problem complexity
+win coalition
+coalitional theory
+formal definition
+aggregate vector
+limited work
+missing proof
+multi issue
+simple example

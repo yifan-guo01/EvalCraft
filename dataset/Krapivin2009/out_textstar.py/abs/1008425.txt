@@ -1,0 +1,6 @@
+Therefore, the minimum term contributed by a node in the right subtree of x will equal Based on these formulas, we can conclude that jobs can be inserted into or deleted from set Q in O(log jQj) time.
+Furthermore, the value of latest stored at the root represents the latest possible starting time for a feasible schedule containing all the jobs stored in the structure.
+Lemma 11 For the given charging scheme, a job J i 2 oe pays out at most p i units of charge.
+Proof: A small job S 2 oe can pay out at most 1from Rule 1, and at most 1from Rule 2, as S can block at most one job.
+For a large job L 2 oe, we only need to consider Rules 3-6, as Rule 7 will never cause an overpayment.
+It arrives strictly after time and has a deadline strictly less than t Therefore it cannot fit in oe   either before or after job L which we already know runs throughout the interval [t; t \Delta).

@@ -1,0 +1,18 @@
+Coupling and Cohesion Measures for Evaluation of Component Reusability
+ABSTRACT
+This paper provides an account of new measures of coupling and 
+cohesion developed to assess the reusability of Java components 
+retrieved from the internet by a search engine. These measures 
+differ from the majority of established metrics in two respects: 
+they reflect the degree to which entities are coupled or resemble 
+each other, and they take account of indirect couplings or 
+similarities. An empirical comparison of the new measures with 
+eight established metrics shows the new measures are consistently 
+superior at ranking components according to their reusability.
+
+Categories and Subject Descriptors
+D.2.8.3 [Metrics]: Complexity measures.
+
+General Terms
+Measurement, Experimentation.
+

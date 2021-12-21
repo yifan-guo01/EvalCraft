@@ -1,0 +1,7 @@
+The scaling factors for the QoC attributes are s = (s1, s2 .
+sn).
+In addition, different QoC attributes may have different weights: w = (w1, w2 .
+wn).
+When dA−dB 500  approximates to dA−dB 1000 (i.e.
+Context is key.
+Commun.

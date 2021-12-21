@@ -1,0 +1,29 @@
+Very Low Complexity MPEG-2 to H.264 Transcoding Using Machine Learning
+ABSTRACT
+This paper presents a novel macroblock mode decision algorithm 
+for inter-frame prediction based on machine learning techniques 
+to be used as part of a very low complexity MPEG-2 to H.264 
+video transcoder. Since coding mode decisions take up the most 
+resources in video transcoding, a fast macro block (MB) mode 
+estimation would lead to reduced complexity. The proposed 
+approach is based on the hypothesis that MB coding mode 
+decisions in H.264 video have a correlation with the distribution 
+of the motion compensated residual in MPEG-2 video. We use 
+machine learning tools to exploit the correlation and derive 
+decision trees to classify the incoming MPEG-2 MBs into one of 
+the 11 coding modes in H.264. The proposed approach reduces 
+the H.264 MB mode computation process into a decision tree 
+lookup with very low complexity. The proposed transcoder is 
+compared with a reference transcoder comprised of a MPEG-2 
+decoder and an H.264 encoder. Our results show that the proposed 
+transcoder reduces the H.264 encoding time by over 95% with 
+negligible loss in quality and bitrate.
+
+Categories and Subject Descriptors
+I.4.2 [Image Processing 
+and Computer Vision]: Compression (Coding) - Approximate 
+methods.
+
+
+General Terms
+Algorithms, Performance, Design.

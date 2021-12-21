@@ -1,0 +1,23 @@
+Modular Interpreted Systems
+Wojciech Jamroga
+Department of Informatics
+Clausthal University of Technology, Germany
+wjamroga@in.tu-clausthal.de
+Thomas Ågotnes
+Department of Computer Engineering
+Bergen University College, Norway
+tag@hib.no
+ABSTRACT
+We propose a new class of representations that can be used for 
+modeling (and model checking) temporal, strategic and epistemic 
+properties of agents and their teams. Our representations borrow the
+main ideas from interpreted systems of Halpern, Fagin et al.; 
+however, they are also modular and compact in the way concurrent 
+programs are. We also mention preliminary results on model checking
+alternating-time temporal logic for this natural class of models.
+Categories and Subject Descriptors
+I.2.11 [Artificial Intelligence]: Distributed Artificial 
+IntelligenceMultiagent Systems; I.2.4 [Artificial Intelligence]: Knowledge 
+Representation Formalisms and Methods-Modal logic
+General Terms
+Theory

@@ -1,0 +1,27 @@
+An Integrated Environment to Visually Construct 3D Animations
+ABSTRACT
+In this paper, we present an expressive 3D animation environment
+that enables users to rapidly and visually prototype animated
+worlds with a fully 3D user-interface. A 3D device allows the
+specification of complex 3D motion, while virtual tools are visible
+mediators that live in the same 3D space as application objects and
+supply the interaction metaphors to control them.  In our
+environment, there is no intrinsic difference between user interface
+and application objects. Multi-way constraints provide
+the necessary tight coupling among components that makes it
+possible to seamlessly compose animated and interactive
+behaviors. By recording the effects of manipulations, all the
+expressive power of the 3D user interface is exploited to define
+animations. Effective editing of recorded manipulations is made
+possible by compacting all continuous parameter evolutions with
+an incremental data-reduction algorithm, designed to preserve
+both geometry and timing. The automatic generation of editable
+representations of interactive performances overcomes one of the
+major limitations of current performance animation systems.
+Novel interactive solutions to animation problems are made
+possible by the tight integration of all system components. In
+particular, animations can be synchronized by using constrained
+manipulation during playback. The accompanying video-tape
+illustrates our approach with interactive sequences showing the
+visual construction of 3D animated worlds. All the demonstrations
+in the video were recorded live and were not edited.

@@ -1,0 +1,8 @@
+Due to their storage constraints , the presence of a storage hot spot leads to increasing the dropping rate of events by overloaded sensors .
+Increased death of sensors results in decreasing the coverage area and causes the formation of coverage gaps within such area .
+We are mindful of the time , message complexity , and node storage requirements , in the design and implementation of all of our algorithms .
+Sensor nodes are assumed to have the capacity for wireless communication , basic processing and storage , and they are associated with the standard energy limitations .
+5.1 Selection of Subtrees to be Re Balanced The main idea is to find the highest unbalanced node in the KD tree .
+As each sensor has a limited storage capacity , it is assumed to follow a FIFO storage approach to handle its cache .
+The interesting result that these figures show is that both KDDCS and DIM result in fairly close average energy consumption among the sensors .
+On data aggregation quality and energy efficiency of wireless sensor network protocols .

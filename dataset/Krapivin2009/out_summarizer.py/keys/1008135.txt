@@ -1,0 +1,10 @@
+cgls method
+vector with
+consistent case
+rounding error analysis
+tridiagonal matrix T
+term recurrence
+previous section
+iteration k
+square problem
+new implementation

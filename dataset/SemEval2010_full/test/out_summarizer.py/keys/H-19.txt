@@ -1,0 +1,10 @@
+bursty feature
+periodic event
+event detection
+feature trajectory
+word feature
+weekly soccer match
+greedy algorithm
+feature burst
+stopword feature
+Kleinberg

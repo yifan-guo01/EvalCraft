@@ -1,0 +1,30 @@
+Multi-Attribute Coalitional Games∗
+Samuel Ieong
+†
+Computer Science Department
+Stanford University
+Stanford, CA 94305
+sieong@cs.stanford.edu
+Yoav Shoham
+Computer Science Department
+Stanford University
+Stanford, CA 94305
+shoham@cs.stanford.edu
+ABSTRACT
+We study coalitional games where the value of cooperation
+among the agents are solely determined by the attributes
+the agents possess, with no assumption as to how these 
+attributes jointly determine this value. This framework 
+allows us to model diverse economic interactions by picking
+the right attributes. We study the computational 
+complexity of two coalitional solution concepts for these 
+gamesthe Shapley value and the core. We show how the positive
+results obtained in this paper imply comparable results for
+other games studied in the literature.
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence]: Multiagent
+systems; J.4 [Social and Behavioral Sciences]: 
+Economics; F.2 [Analysis of Algorithms and Problem 
+Complexity]
+General Terms
+Algorithms, Economics

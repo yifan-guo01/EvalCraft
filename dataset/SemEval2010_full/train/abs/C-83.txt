@@ -1,0 +1,24 @@
+Concept and Architecture of a Pervasive Document Editing
+and Managing System
+Stefania Leone Thomas B. Hodel Harald Gall
+University of Zurich, Switzerland University of Zurich, Switzerland University of Zurich, Switzerland
+Department of Informatics Department of Informatics Department of Informatics
+leone@ifi.unizh.ch hodel@ifi.unizh.ch gall@ifi.unizh.ch
+ABSTRACT
+Collaborative document processing has been addressed by many
+approaches so far, most of which focus on document versioning
+and collaborative editing. We address this issue from a different
+angle and describe the concept and architecture of a pervasive
+document editing and managing system. It exploits database
+techniques and real-time updating for sophisticated collaboration
+scenarios on multiple devices. Each user is always served with 
+upto-date documents and can organize his work based on document
+meta data. For this, we present our conceptual architecture for
+such a system and discuss it with an example.
+Categories and Subject Descriptors
+C.2.4 Distributed Systems [Computer-Communication
+Networks]: Computer System Organization, Distributed Systems,
+Distributed Applications
+General Terms
+Management, Measurement, Documentation, Economics, Human
+Factors

@@ -1,0 +1,10 @@
+logic
+theory
+none
+rule
+term
+subsort
+strategy
+module
+using
+induction

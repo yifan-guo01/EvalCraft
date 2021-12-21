@@ -1,0 +1,31 @@
+117
+systems in promoting greater flexibility of information 
+monitored and its subsequent visual representation, as 
+well as allowing for greater user control in specifying 
+those mappings.
+Although many types of displays exist and new ones
+are being developed, little is known about what makes a 
+particular peripheral/ambient display more successful at 
+presenting information than another [10].
+Pilot testing, 
+however, revealed that participants were able to quickly 
+learn the information mappings.
+To further ensure that 
+we would be testing information comprehension and 
+recall but not mapping recall with respect to the InfoCanvas
+, participants were asked to point out the different
+objects on a sample display and say aloud what information
+each object represented.
+Therefore, 
+we speculate that if individuals create their own mappings
+, leveraging their personal experiences, recall with 
+InfoCanvas will benefit even more.
+This study examined the information conveyance 
+abilities of three specific examples of displays involving
+a sample population consisting mainly of academic related
+, relatively young individuals.
+Generalizing its 
+findings too much would be unwise.
+Nevertheless, we 
+speculate that the results would extend to other similar 
+types of displays and people of different demographics.

@@ -1,0 +1,31 @@
+Applying Learning Algorithms to Preference Elicitation
+Sebastien M. Lahaie
+Division of Engineering and Applied Sciences
+Harvard University
+Cambridge, MA 02138
+slahaie@eecs.harvard.edu
+David C. Parkes
+Division of Engineering and Applied Sciences
+Harvard University
+Cambridge, MA 02138
+parkes@eecs.harvard.edu
+ABSTRACT
+We consider the parallels between the preference elicitation
+problem in combinatorial auctions and the problem of 
+learning an unknown function from learning theory. We show
+that learning algorithms can be used as a basis for 
+preference elicitation algorithms. The resulting elicitation 
+algorithms perform a polynomial number of queries. We also
+give conditions under which the resulting algorithms have
+polynomial communication. Our conversion procedure 
+allows us to generate combinatorial auction protocols from
+learning algorithms for polynomials, monotone DNF, and
+linear-threshold functions. In particular, we obtain an 
+algorithm that elicits XOR bids with polynomial 
+communication.
+Categories and Subject Descriptors
+F.2.0 [Analysis of Algorithms and Problem 
+Complexity]: General; J.4 [Social and Behavioral Sciences]:
+Economics; I.2.6 [Artificial Intelligence]: Learning
+General Terms
+Algorithms, Economics, Theory

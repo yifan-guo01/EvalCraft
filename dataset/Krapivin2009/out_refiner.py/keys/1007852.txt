@@ -1,0 +1,9 @@
+simulation mesh
+invalid element
+mesh vertex
+objective function
+optimization procedure
+mesh untangling
+set method
+Jacobian
+element area

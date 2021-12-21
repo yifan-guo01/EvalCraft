@@ -1,0 +1,31 @@
+It is assumed the user has already taken digital 
+pictures and saved them as files to import into the system, or 
+that a camera is set up on the machine running Crayons, so it 
+can capture images from it.
+The user can then refine the classifier 
+by adding more manual classification or, if the classifier is 
+satisfactory, the user can export the classifier.
+Although the IML and the machine learning component of 
+Crayons are the primary discussion of this paper it is notable 
+to mention that Crayons has profited from work done by 
+Viola and Jones [19] and Jaimes and Chang [5,6,7].
+These differences are important; as our 
+hypothesis was that faster classifier creation times can 
+overcome poorer inductive strength and thus reduce overall 
+designer time.
+In order to test the amount of time a designer takes to create a 
+good classifier, we need a standard to define "good 
+classifier".
+It is clear from our 
+evaluations that a classification algorithm must get under the 
+10 20 second barrier in producing a new classification, but 
+that once under that barrier, the designer's time begins to 
+dominate.
+Once the designer's time begins to dominate the 
+total time, then the classifier with better generalization wins.
+In actuality, 
+because of the poor generalization of the mean split 
+algorithm, even though the classifier generation time for 
+MSSS was quicker than CWSS, the users felt it necessary to 
+paint more using the MSSS, so the overall time increased 
+using MSSS.

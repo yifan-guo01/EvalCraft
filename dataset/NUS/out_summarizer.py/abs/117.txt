@@ -1,0 +1,33 @@
+Tuzhilin et. al. [23, 22, 29] worked on applying background
+knowledge to finding interesting rules.
+Even though applying the above definition and sorting
+attribute sets on their interestingness works well in practice,
+there might still be a large number of patterns retained,
+especially if the background knowledge is not well developed
+and large number of attribute sets have high interestingness
+values.
+Notice that topological interestingness is stricter than hierarchical
+interestingness.
+The problem
+has been addressed in literature mainly in the context
+of finding marginals for every attribute [25, 15], while here
+we have to find marginals for multiple, overlapping sets of
+attributes.
+The UCI Machine Learning repository contains a
+few datasets with background knowledge (Japanese credit,
+molecular biology), but they are aimed primarily at Inductive
+Logic Programming: the relationships are logical rather
+than probabilistic, only relationships involving the class attribute
+are included.
+All continuous
+attributes have been discretized into 3 levels using
+the equal weight method.
+Indeed, it is known (see [8]) that women's lungs are on average
+20%   25% smaller than men's lungs, so sex influences
+the forced ejection volume (FEV) much more than smoking
+does (which we thought was the primary influence).
+This
+fact, although not new in general, was overlooked by the
+authors, and we suspect that, due to large amount of literature
+on harmful effects of smoking, it might have been
+overlooked by many domain experts.

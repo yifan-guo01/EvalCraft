@@ -1,0 +1,28 @@
+Ranking Flows from Sampled Traffic
+ABSTRACT
+Most of the theoretical work on sampling has addressed the
+inversion of general traffic properties such as flow size distribution
+, average flow size, or total number of flows. In
+this paper, we make a step towards understanding the impact
+of packet sampling on individual flow properties. We
+study how to detect and rank the largest flows on a link. To
+this end, we develop an analytical model that we validate
+on real traces from two networks. First we study a blind
+ranking method where only the number of sampled packets
+from each flow is known. Then, we propose a new method,
+protocol-aware ranking, where we make use of the packet
+sequence number (when available in transport header) to
+infer the number of non-sampled packets from a flow, and
+hence to improve the ranking. Surprisingly, our analytical
+and experimental results indicate that a high sampling rate
+(10% and even more depending on the number of top flows
+to be ranked) is required for a correct blind ranking of the
+largest flows. The sampling rate can be reduced by an order
+of magnitude if one just aims at detecting these flows or by
+using the protocol-aware method.
+Categories and Subject Descriptors
+C.4 [Computer Systems Organization]: PERFORMANCE
+OF SYSTEMS--Measurement techniques
+
+General Terms
+Measurement, Performance, Experimentation

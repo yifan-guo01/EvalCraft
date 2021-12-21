@@ -1,0 +1,85 @@
+Google combines link based ranking
+with page text and anchor text in undisclosed ways, and
+keeps tweaking the combination, but suffers an occasional
+embarrassment
+1
+.
+Distillation has always been observed to work well for
+"broad" topics (for which there exist well connected relevant
+Web subgraphs and "pure" hubs) and not too well for
+"narrow" topics, because w.r.t. narrow topics most hubs are
+mixed and have too many irrelevant links.
+The returned set of pages
+R
+q
+was fetched from the Web, together with any pages having a
+link to any page in
+R
+q
+, as well as any page cited in some page
+of
+R
+q
+using a hyperlink.
+Pages with large
+a are popular or
+authoritative sources of information; pages with large
+h are
+good collections of links.
+Our
+work establishes the value of a bipartite model like HITS,
+and indeed, the value of an asymmetric model where hubs
+Expanded graph
+Rootset
+Keyword
+Search
+engine
+Query
+a = Eh
+h = E
+T
+a
+h
+a
+h
+h
+h
+a
+a
+a
+hello
+world
+stdio
+Centroid of
+rootset
+Similarity
+cone
+Distant
+vectors
+pruned
+Figure 3: (a) HITS, a macroscopic topic distillation algorithm
+with uniform edge weights; (b) The B&H algorithm, apart from
+using non uniform edge weights, discards pages in the expanded
+set which are too dissimilar to the rootset pages to prevent topic
+drift.
+In our experience
+small subtrees with small number of leaves dominate the
+top ranks, again under aggregating hub scores and pitting
+ancestor scores against descendant scores.
+The set of HREF leaf nodes in the subtree rooted at
+node
+w is denoted L
+w
+, and the set of hub scores at these
+leaves is denoted
+H
+w
+.
+Figure 8: The part of this HTML page that contains the query
+affirmative action is not very popular, but adjoining DOM
+subtrees (upper right corner) create a dense network of software
+sites and mislead macroscopic distillation algorithms.
+In 21st
+International ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 104 111, Aug.
+1998.

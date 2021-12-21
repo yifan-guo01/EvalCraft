@@ -1,0 +1,38 @@
+Accelerated Focused Crawling through Online Relevance Feedback
+Abstract
+The organization of HTML into a tag tree structure, which
+is rendered by browsers as roughly rectangular regions with
+embedded text and HREF links, greatly helps surfers locate
+and click on links that best satisfy their information need.
+Can an automatic program emulate this human behavior
+and thereby learn to predict the relevance of an unseen
+HREF target page w.r.t. an information need, based on
+information limited to the HREF source page?
+Such a
+capability would be of great interest in focused crawling and
+resource discovery, because it can fine-tune the priority of
+unvisited URLs in the crawl frontier, and reduce the number
+of irrelevant pages which are fetched and discarded.
+We show that there is indeed a great deal of usable
+information on a HREF source page about the relevance
+of the target page. This information, encoded suitably, can
+be exploited by a supervised apprentice which takes online
+lessons from a traditional focused crawler by observing
+a carefully designed set of features and events associated
+with the crawler.
+Once the apprentice gets a sufficient
+number of examples, the crawler starts consulting it to
+better prioritize URLs in the crawl frontier. Experiments on
+a dozen topics using a 482-topic taxonomy from the Open
+Directory (Dmoz) show that online relevance feedback can
+reduce false positives by 30% to 90%.
+Categories and subject descriptors:
+H.5.4 [Information interfaces and presentation]:
+Hypertext/hypermedia; I.5.4 [Pattern recognition]:
+Applications, Text processing; I.2.6 [Artificial
+intelligence]: Learning; I.2.8 [Artificial intelligence]:
+Problem Solving, Control Methods, and Search.
+General terms:
+Algorithms, performance,
+measurements, experimentation.
+

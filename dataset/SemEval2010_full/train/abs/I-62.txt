@@ -1,0 +1,36 @@
+A Q-decomposition and Bounded RTDP Approach to
+Resource Allocation
+Pierrick Plamondon and Brahim
+Chaib-draa
+Computer Science & Software Engineering Dept
+Laval University
+Québec, Canada
+{plamon, chaib}@damas.ift.ulaval.ca
+Abder Rezak Benaskeur
+Decision Support Systems Section
+Defence R&D Canada - Valcartier
+Québec, Canada
+abderrezak.benaskeur@drdc-rddc.gc.ca
+ABSTRACT
+This paper contributes to solve effectively stochastic 
+resource allocation problems known to be NP-Complete. To
+address this complex resource management problem, a 
+Qdecomposition approach is proposed when the resources
+which are already shared among the agents, but the actions
+made by an agent may influence the reward obtained by
+at least another agent. The Q-decomposition allows to 
+coordinate these reward separated agents and thus permits to
+reduce the set of states and actions to consider. On the other
+hand, when the resources are available to all agents, no 
+Qdecomposition is possible and we use heuristic search. In
+particular, the bounded Real-time Dynamic Programming
+(bounded rtdp) is used. Bounded rtdp concentrates the
+planning on significant states only and prunes the action
+space. The pruning is accomplished by proposing tight 
+upper and lower bounds on the value function.
+Categories and Subject Descriptors
+I.2.8 [Artificial Intelligence]: Problem Solving, Control
+Methods, and Search; I.2.11 [Artificial Intelligence]: 
+Distributed Artificial Intelligence.
+General Terms
+Algorithms, Performance, Experimentation.

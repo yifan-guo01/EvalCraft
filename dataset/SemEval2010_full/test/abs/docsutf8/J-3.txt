@@ -1,0 +1,43 @@
+Budget Optimization in Search-Based Advertising
+Auctions
+Jon Feldman
+Google, Inc.
+New York, NY
+jonfeld@google.com
+S. Muthukrishnan
+Google, Inc.
+New York, NY
+muthu@google.com
+Martin P´al
+Google, Inc.
+New York, NY
+mpal@google.com
+Cliff Stein
+∗
+Department of IEOR
+Columbia University
+cliff@ieor.columbia.edu
+ABSTRACT
+Internet search companies sell advertisement slots based on
+users" search queries via an auction. While there has been
+previous work on the auction process and its game-theoretic
+aspects, most of it focuses on the Internet company. In this
+work, we focus on the advertisers, who must solve a complex
+optimization problem to decide how to place bids on 
+keywords to maximize their return (the number of user clicks on
+their ads) for a given budget. We model the entire process
+and study this budget optimization problem. While most
+variants are NP-hard, we show, perhaps surprisingly, that
+simply randomizing between two uniform strategies that bid
+equally on all the keywords works well. More precisely, this
+strategy gets at least a 1 − 1/e fraction of the maximum
+clicks possible. As our preliminary experiments show, such
+uniform strategies are likely to be practical. We also present
+inapproximability results, and optimal algorithms for 
+variants of the budget optimization problem.
+Categories and Subject Descriptors
+F.2 [Theory of Computation]: Analysis of Algorithms
+and Problem Complexity; J.4 [Computer Applications]:
+Social and Behavioral Sciences -Economics
+General Terms
+Algorithms, Economics, Theory.

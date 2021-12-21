@@ -1,0 +1,8 @@
+ITF is intended to provide students with a set of foundation skills and provide an overview of the discipline of IT and its relationship to other computing disciplines .
+It is also intended to help students understand the diverse contexts in which IT is used and the challenges inherent in the diffusion of innovative technology .
+The intent of this paper is to describe how this particular dilemma was resolved at Georgia Southern University .
+Explain why life long learning and continued professional development is critical for an IT professional .
+Describe significant impacts of computing on society .
+Describe the basic data analysis concepts and methods used in IT applications .
+Identify areas in which IT has significantly impacted individuals , organizations and / or societies .
+The next section , Section 3.3 , discusses the discrepancies between the recommended number of hours and the actual number of hours taught .

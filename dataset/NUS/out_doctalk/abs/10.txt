@@ -1,0 +1,8 @@
+The non linear scaling of the Poisson function showed significant improvement compared to a linear frequency based probability .
+This motivation matches the motivation of our paper : We investigate theoretically the assumptions of classical idf and Poisson for a better understanding of parameter estimation and combination .
+The implementation for this paper exploits the nature of the Poisson density : The Poisson density yields only values significantly greater than zero in an interval around .
+The indepence based and frequency based informativeness functions do not differ as much as the noise functions do .
+The framework presented in this paper raises the awareness about the probabilistic and information theoretic meanings of the parameters .
+In addition to the collection wide parameter setting , the framework presented here allows for document dependent settings , as explained for the independence probability .
+The explicit and mathematical formulation of idf and Poisson assumptions is the main result of this paper .
+This theoretical framework is useful for understanding and deciding the parameter estimation and combination in probabilistic retrieval models .

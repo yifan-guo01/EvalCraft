@@ -1,0 +1,59 @@
+In this paper, we propose some improvements
+of the search algorithm and the data structures of
+TLAESA in order to reduce the number of distance
+computations.
+The search algorithm follows the best
+first algorithm.
+Then, the traversal of the search tree T starts
+at the root node.
+If the
+inequality
+d
+min
++ r
+t
+&lt; d(q, p
+t
+)
+(6)
+is satisfied, we can see that no object exists in S
+t
+which is closer to q than p
+min
+and the traversal to
+node t is not necessary.
+In the
+proposed structure, we treat such nodes as one node.
+On
+the other hand, the proposed method can reduce the
+number of distance computations to some extent with
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+0
+0.2
+0.4
+0.6
+0.8
+Distance to the
+k
+ th Approximate Solution
+Distance to the k th Optimal Solution
+Figure 17: The distribution of the approximate solution
+by Ak LAESA to the optimal solution.
+Mic'o, M. L., Oncina, J. & Vidal, E. (1994), `A new
+version of the nearest neighbour approximating
+and eliminating search algorithm (AESA) with
+linear preprocessing time and memory require ments'
+, Pattern Recognition Letters 15(1), 9 17.
+Moreno Seco, F., Mic'o, L. & Oncina, J. (2002),
+`Extending LAESA fast nearest neighbour algorithm
+to find the k nearest neighbours', Lecture
+Notes in Computer Science   Lecture Notes in
+Artificial Intelligence 2396, 691 699.

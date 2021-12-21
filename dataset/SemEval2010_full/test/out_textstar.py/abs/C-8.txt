@@ -1,0 +1,7 @@
+Based on the document state representation, the context of an original normal operation should be the same as the representation of the document state from which this operation was generated.
+Inside transform(O2, {O1}), since C(O1) = C(O2), we have O2 := IT(O2, O1), and C(O2) = {O1}.
+In Proc.
+In Proc.
+In Proc.
+ACM.
+In Proc.

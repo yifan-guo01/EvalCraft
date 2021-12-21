@@ -1,0 +1,8 @@
+We present an abstract architecture that enables agents to exchange models of their local learning processes and introduces a number of different methods for integrating these processes .
+This allows us to apply existing agent interaction mechanisms to distributed machine learning tasks , thus leveraging the powerful coordination methods available in agent based computing , and enables agents to engage in meta reasoning about their own learning decisions .
+We apply this architecture to a real world distributed clustering application to illustrate how the conceptual framework can be used in practical systems in which different learners may be using different datasets , hypotheses and learning algorithms .
+We report on experimental results obtained using this system , review related work on the subject , and discuss potential future extensions to the framework .
+An example for this is that of fraudulent agents on eBay which may try to prevent reputationlearning agents from the construction of useful models for detecting fraud .
+To support this automated pre processing task , software used by these agencies applies clustering methods in order to identify outliers and flag those as potentially suspicious entities to the human user .
+This nicely illustrates how different learning or data mining algorithms can specialise on different parts of the problem space and then integrate their local results to achieve better individual performance .
+Finally , more sophisticated evaluation criteria for such distributed learning architectures have to be developed to shed some light on what the right measures of optimality for autonomously reasoning and communicating agents should be .

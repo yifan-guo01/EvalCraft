@@ -1,0 +1,10 @@
+WLAN
+Bluetooth
+packet
+model
+power
+interference
+result
+consider
+data
+traffic

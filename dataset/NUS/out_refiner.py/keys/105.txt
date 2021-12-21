@@ -1,0 +1,10 @@
+original query
+user query
+search result
+user model
+redundant document
+first page
+information need model
+user information
+retrieval system
+UCAIR

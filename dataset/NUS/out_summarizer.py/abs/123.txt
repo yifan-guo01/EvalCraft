@@ -1,0 +1,55 @@
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+As noted by Hauptmann
+[14], this splits the semantic gap between low level features
+and user information needs into two, hopefully smaller gaps:
+(a) mapping the low level features into the intermediate semantic
+concepts and (b) mapping these concepts into user
+needs.
+With this result,
+we can develop some techniques to handle the difficulty of
+storing the large kernel matrix for kernel k means.
+With large scale labelled data, active learning
+can also be used to reduce the scale of training data [21].
+Using different penalty constants C
++
+and C
+for
+the positive and negative examples have been reported to
+be effective [27, 17].
+The multilevel
+kernel graph partitioning code graclus [9] is adopted for
+data clustering and the well known LibSVM software [15] is
+used in our experiments.
+The
+current implementation of SCMs involves the following parameter
+settings: (a) Gaussian kernel is adopted and the parameters
+are selected via cross validation, furthermore, the
+kernel function of kernel k means clustering is adopted the
+same as that of SVMs, (b) the threshold for transforming
+dense graphs to sparse ones is experimentally determined
+as
+= 0.6, (c) the parameter of shrinking technique is experimentally
+chosen as  = 1.3, (d) for SCMs, the data are
+imbalanced for each concept, we only carry out data clustering
+for negative classes, therefore, k
++
+always equals
+|D
++
+|
+and k
+is
+always chosen as
+|D
+|
+10
+, (e) we stop the iteration
+of SCMs when the number of the negative examples are not
+more than the five times of that of the positive examples.
+We
+can see that both the Random and Active methods use
+fewer time than the others, but their performances are not
+as good as the others.

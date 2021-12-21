@@ -1,0 +1,10 @@
+constraint
+transformation
+variable
+graphical object
+graphical application
+method
+system
+geometric solver
+geometric layout
+geometric library

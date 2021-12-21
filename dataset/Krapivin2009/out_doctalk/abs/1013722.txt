@@ -1,0 +1,8 @@
+Introduction Steganography is the art and science of hiding information such that its presence can not be detected .
+Steganography with active adversaries can be divided into watermarking and fingerprinting .
+Fingerprinting , conversely , attempts to identify individual copies of an object by means of embedding a unique marker in every copy that is distributed .
+Since most objects to be protected by watermarking or fingerprinting consist of audio or image data , these data types have received most attention so far .
+This is the problem of distinguishing two different explanations for the observed data that is investigated in statistics and in information theory as " hypothesis testing . "
+Thus , the crucial issue for the validity of a formal treatment of steganography is the accuracy of the model for real data .
+A first extension would be to model the covertext source as a stochastic process and consider statistical estimation and decision techniques .
+Another idea would be to value the possible decisions and use the methods of statistical decision theory [ Ber85 ] .

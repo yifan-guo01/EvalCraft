@@ -1,0 +1,35 @@
+Knowledge-intensive Conceptual Retrieval and Passage
+Extraction of Biomedical Literature
+Wei Zhou, Clement Yu
+Department of Computer Science
+University of Illinois at Chicago
+wzhou8@uic.edu,
+yu@cs.uic.edu
+Neil Smalheiser, Vetle Torvik
+Department of Psychiatry and
+Psychiatric Institute (MC912)
+University of Illinois at Chicago
+{neils, vtorvik}@uic.edu
+Jie Hong
+Division of Epidemiology and
+Biostatistics, School of Public health
+University of Illinois at Chicago
+jhong20@uic.edu
+ABSTRACT
+This paper presents a study of incorporating domain-specific
+knowledge (i.e., information about concepts and relationships
+between concepts in a certain domain) in an information retrieval
+(IR) system to improve its effectiveness in retrieving biomedical
+literature. The effects of different types of domain-specific
+knowledge in performance contribution are examined. Based on
+the TREC platform, we show that appropriate use of 
+domainspecific knowledge in a proposed conceptual retrieval model
+yields about 23% improvement over the best reported result in
+passage retrieval in the Genomics Track of TREC 2006.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information Search
+and Retrieval - retrieval models, query formulation, information
+filtering. H.3.1 [Information Storage and Retrieval]: Content
+Analysis and Indexing - thesauruses.
+General Terms
+Algorithms, Performance, Experimentation.

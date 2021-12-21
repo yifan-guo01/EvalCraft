@@ -1,0 +1,10 @@
+dissimilarity measure
+means algorithm
+dynamic cluster
+weight such
+accuracy measure
+datum set
+document x
+value j
+with j
+accuracy result

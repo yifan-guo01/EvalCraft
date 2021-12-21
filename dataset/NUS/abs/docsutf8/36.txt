@@ -1,0 +1,24 @@
+Analysis of Soft Handover Measurements in 3G Network
+ABSTRACT
+A neural network based clustering method for the analysis
+of soft handovers in 3G network is introduced. The method
+is highly visual and it could be utilized in explorative analysis
+of mobile networks. In this paper, the method is used
+to find groups of similar mobile cell pairs in the sense of
+handover measurements. The groups or clusters found by
+the method are characterized by the rate of successful handovers
+as well as the causes of failing handover attempts.
+The most interesting clusters are those which represent certain
+type of problems in handover attempts. By comparing
+variable histograms of a selected cluster to histograms of
+the whole data set an application domain expert may find
+some explanations on problems. Two clusters are investigated
+further and causes of failing handover attempts are
+discussed.
+Categories and Subject Descriptors
+H.4.3 [Information Systems Applications]: Communications
+Applications--Information browsers; I.5.3 [Pattern
+Recognition]: Clustering
+General Terms
+Algorithms, Management, Performance
+

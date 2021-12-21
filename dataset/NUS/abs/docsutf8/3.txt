@@ -1,0 +1,32 @@
+A Computational Approach to Reflective Meta-Reasoning about Languages with Bindings
+Abstract
+We present a foundation for a computational meta-theory of languages
+with bindings implemented in a computer-aided formal reasoning
+environment. Our theory provides the ability to reason abstractly
+about operators, languages, open-ended languages, classes
+of languages, etc. The theory is based on the ideas of higher-order
+abstract syntax, with an appropriate induction principle parameterized
+over the language (i.e. a set of operators) being used. In our approach
+, both the bound and free variables are treated uniformly and
+this uniform treatment extends naturally to variable-length bindings
+. The implementation is reflective, namely there is a natural
+mapping between the meta-language of the theorem-prover and the
+object language of our theory. The object language substitution operation
+is mapped to the meta-language substitution and does not
+need to be defined recursively. Our approach does not require designing
+a custom type theory; in this paper we describe the implementation
+of this foundational theory within a general-purpose
+type theory. This work is fully implemented in the MetaPRL theorem
+prover, using the pre-existing NuPRL-like Martin-L -f-style
+computational type theory. Based on this implementation, we lay
+out an outline for a framework for programming language experimentation
+and exploration as well as a general reflective reasoning
+framework. This paper also includes a short survey of the existing
+approaches to syntactic reflection.
+Categories and Subject Descriptors
+D.3.1 [Programming Languages
+]: Formal Definitions and Theory--Syntax; F.4.3 [Mathematical
+Logic and Formal Languages]: Formal Languages-Operations
+on languages
+General Terms
+Languages, Theory, Verification

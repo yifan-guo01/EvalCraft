@@ -1,0 +1,10 @@
+operation o
+operation context
+recursive transform
+prior work
+ot system design
+cot algorithm
+transformation function
+ot condition
+Proc.
+Inverse procedure

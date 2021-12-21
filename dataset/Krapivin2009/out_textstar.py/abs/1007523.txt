@@ -1,0 +1,8 @@
+We compared the performance of students who tested more frequently with those who tested less frequently and with those who had a continuous testing tool.
+Any effect of easy or fast testing was unimpor- tant, since all students could run the tests in five seconds with a single keypress.
+(c) Demographics.
+Mean Dev.
+Min.
+Max.
+His continuous compilation occurs while the program is running to amortize or reduce compilation costs and speed execution, not while the program is being edited in order to assist development.
+Childers et al.

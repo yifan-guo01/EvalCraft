@@ -1,0 +1,10 @@
+engine
+query
+awseem
+value
+page
+document
+number
+study
+relevance judgment
+search evaluation

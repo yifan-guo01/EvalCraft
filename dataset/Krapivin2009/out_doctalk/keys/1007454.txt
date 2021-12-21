@@ -1,0 +1,10 @@
+method
+example
+pivot
+column
+value
+introduce variable
+objective row
+necessary condition
+degenerate problem
+variable constraint

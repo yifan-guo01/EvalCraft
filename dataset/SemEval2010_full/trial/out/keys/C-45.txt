@@ -1,0 +1,20 @@
+node
+custom sensor
+sensor network
+system
+location
+algorithm
+color
+range
+technique
+label
+figure
+relaxation
+number
+connectivity
+sensor deployment
+set
+localization error
+match component
+time constraint
+localization accuracy

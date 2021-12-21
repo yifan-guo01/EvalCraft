@@ -1,0 +1,9 @@
+query expansion
+query term weight
+query keyword
+term algorithm
+document frequency
+web search query
+user query
+information retrieval
+information search

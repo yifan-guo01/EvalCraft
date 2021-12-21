@@ -1,0 +1,8 @@
+Graph coloring abstracts the problem of assigning registers to live ranges in a program into the problem of assigning colors to nodes in the interference graph .
+Section briefly reviews the graph - coloring register allocation and Section 3 describes previous coalescing heuristics on the graph - coloring framework .
+Build Simplify Chaitin - style Renumber Potential Renumber Build Coalesce Select Actual Spill Select Aggressive Conservative Coalesce ( a ) ( b ) Simplify any spill no spill any spill graph is empty significant every node is any coalesce any coalesce Figure 1 .
+Build Freeze Potential Renumber Actual Spill Conservative Coalesce Select Simplify Chaitin - style no coalesce no freeze any freeze any copy to coalesce any spill empty graph is coalesce any Figure 3 .
+A long live range is split into shorter ones by copies and load / stores inserted at carefully selected places .
+Renumber Build Select Actual Spill Coalesce Aggressive ( Split Live Range ) Undo Coalesce Simplify Chaitin - style Potential any spill graph is empty significant every node is any coalesce Figure 6 .
+The register allocation problem in this context is highly challenging because aggressive code scheduling in the presence of complex control flows generates many copies and increases the register pressure .
+The machine has general - purpose registers and 16 condition registers which are targeted for both scheduling and register allocation For aggressive scheduling , the compiler re

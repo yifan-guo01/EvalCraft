@@ -1,0 +1,10 @@
+Classic
+symmetric
+Note
+value
+weight
+measure
+define
+EsGini experiments
+experiment
+class

@@ -1,0 +1,8 @@
+Apocrita: A Distributed Peer to Peer File Sharing System for Intranets Joshua J. Reynolds, Robbie McLeod, Qusay H. Mahmoud Distributed Computing and Wireless & Telecommunications Technology University of Guelph Humber Toronto, ON, M9W 5L7 Canada {jreyno04,rmcleo01,qmahmoud}@uoguelph.ca  C.2.4 [Computer Communication Networks]: Distributed Systems   Distributed applications.
+In the case of the initiating node sending the index files, the indexing node will complete the transfer with the SEND COMPLETE command indicating to the initiating node that there are no more index files to be sent and the initiating node can then assemble those index files into the main index.
+A distinct advantage of using the JXTA PDP is that Apocrita does not have to be sensitive to particular networking nuances such as Maximum Transmission Unit (MTU).
+This also means that the time to return query results is very fast   much faster than protocols that rely on nodes in the network to pass the query throughout the network and then wait for results.
+For example, a node attempting to find an idle node to participate in indexing will query nodes via the message facility.
+In the case of index transfer, a socket must be created between all nodes in the network in order to pass the index, which allows for all nodes to have a full and complete index of the entire network.
+The evaluation was completed on standard lab computers on a 100Mb/s Ethernet LAN; the machines run Windows XP with a Pentium 4 CPU running at 2.4GHz with 512 MB of RAM.
+Chawathe, Y., Ratnasamy, S., Breslau, L., Lanham, N., and Chenker, S.: Making Gnutella like P2P Systems Scalable.

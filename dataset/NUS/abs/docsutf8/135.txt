@@ -1,0 +1,18 @@
+Measuring Cohesion of Packages in Ada95
+ABSTRACT
+Ada95 is an object-oriented programming language. Pack-ages 
+are basic program units in Ada 95 to support OO programming, 
+which allow the specification of groups of logically related 
+entities. Thus, the cohesion of a package is mainly about how 
+tightly the entities are encapsulated in the package. This paper 
+discusses the relationships among these entities based on 
+dependence analysis and presents the properties to obtain these 
+dependencies. Based on these, the paper proposes an approach to 
+measure the package cohesion, which satisfies the properties that 
+a good measure should have.
+
+Categories and Subject Descriptors
+D.2.8 [Software Engineering]: Metrics - performance measures.
+
+General Terms
+Measurement.

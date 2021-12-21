@@ -1,0 +1,107 @@
+While extensive work has focused on designing schemes
+that can either defend and delay node capture or timely
+identify and revoke compromised nodes themselves [5],
+little attention has been paid to the node compromise
+process itself.
+In particular, due to security schemes employed by
+the sensor networks, we assume that communication can
+only be performed when neighboring nodes can establish
+mutual trust by authenticating a common key.
+Therefore,
+node compromise is not only determined by the deployment
+of sensor nodes which in turn affects node density,
+but also determined by the pairwise key scheme employed
+therein.
+Of particular interest is the phase transition of the
+spreading process that is dependent on an epidemic threshold
+: if the epidemic parameter is above the threshold, the
+infection will spread out and become persistent; on the
+contrary, if the parameter is below the threshold, the virus
+will die out.
+A. Network Model as Random Graph
+Assume that sensor nodes are uniformly deployed in
+a disc area with radius
+R. Let  =
+N
+R
+2
+denote the node
+density of the network where
+N is the total number of
+the nodes.
+We remark that both the analytical and experimental
+results have significant implication for security scheme
+design in terms of revoking/immunizing compromised
+nodes in wireless sensor networks: it dictates the speed at
+which the network must react in order to contain/prevent
+the effect of network wide epidemic.
+The simulation
+results for the case without recovery are shown
+5
+Proceedings of the 2006 International Symposium on a World of Wireless, Mobile and Multimedia 
+Networks (WoWMoM'06) 
+0 7695 2593 8/06 $20.00 @ 2006
+IEEE
+0
+100
+200
+300
+400
+500
+600
+700
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Time(t)
+Fraction of compromised nodes
+Growth of infected nodes with time
+= 0.05
+ = 0.1
+ = 0.2
+ = 0.3
+N = 1000
+z = 5
+(a) Average node degree = 5
+0
+100
+200
+300
+400
+500
+600
+700
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Time(t)
+Fraction of compromised nodes
+Growth of infected nodes with time
+= 0.05
+ = 0.1
+ = 0.2
+ = 0.3
+N = 1000
+Avg Degree z = 10
+ = Infection Prob
+(b) Average node degree = 10
+Fig.
+Furthermore, we introduce the effect of node recovery after
+compromise and adapt our model to accommodate this
+effect.

@@ -1,0 +1,3 @@
+In IEEE INFOCOM, 1999.
+PALS: Peer to Peer Adaptive Layered Streaming.
+In NOSSDAV, 2003.

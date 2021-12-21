@@ -1,0 +1,8 @@
+Finally, note that there are more efficient Promela translations than the one presented in Fig.
+Hence, we introduce two data structures which will be used in the translation algorithm: a type tree structure which represents the MSL types and a statement macro which represents (partially) generated Promela code segments.
+4) for Equation 2, the attribute var for the boolean expressions in predicates "[int()>5]" and "[position()=last()]" are bRes1 and bRes2 respectively.
+Finally, note that outTree is not used in the syntax rules for expressions.
+For example, to handle the right hand side of Equation 2, the type tree in Fig.
+5 is gener- ated.
+For example, when pre-calculating the value of last() (line 11 to 28), another type tree is generated for XML variable register, and the index of node 5 is i4 (instead of the i1 in Fig.
+Rule 6 handles the absolute location paths, where the inherited attribute inTree is handled differently for XPath operator "/" and "//" respectively.

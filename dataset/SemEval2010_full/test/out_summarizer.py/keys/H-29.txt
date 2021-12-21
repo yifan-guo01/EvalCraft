@@ -1,0 +1,9 @@
+relevance model
+final term weight
+query expansion
+multinomial feedback model
+document side
+feedback method
+topic set
+model distribution
+trec topic

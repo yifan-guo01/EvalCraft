@@ -1,0 +1,8 @@
+This is a totally misleading view : the result only states that it is highly unlikely to find any proof , under just the one - wayness assumption .
+Section 2 recalls the basic notions of asymmetric encryption and the various security notions .
+Public - Key Encryption The aim of public - key encryption is to allow anybody who knows the public key of Alice to send her a message that only she will be able to recover it through her private key .
+In the third case , there is an obvious additional restriction on this range from the fact that A outputs sets with ' elements .
+The theorem follows from the inequalities of the previous section together with the lemma stated below .
+The second shows that the decryption oracle simulation employed in this reduction works correctly with overwhelming probability under the partial - domain one - wayness of f .
+Note that the Fail event is limited to the situation in which the plaintext - extractor rejects a ciphertext whereas it would be accepted by the actual decryption oracle .
+Before presenting the final reduction , let us consider the problem of finding small solutions for a linear modular equation .

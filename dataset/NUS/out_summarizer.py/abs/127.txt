@@ -1,0 +1,130 @@
+Like some other systems, Leo supports a generalized form of triangle
+strip (see Figure 3), where vertex header bits within a strip specify
+how the incoming vertex should be combined with previous vertices
+to form the next triangle.
+Restart corresponds to a "move" operation in
+polylines, and allows multiple unconnected variable length triangle
+strips to be described by a single data structure passed in by the user,
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+21
+1 Restart
+  2 RO
+  3 RO
+  4 RO
+  5 RO
+  6 RO
+  7 Restart
+  8 RO
+  9 RO
+10 RM
+11 RM
+12 RM
+13 RM
+14 RM
+15 Restart
+16 RO
+17 RO
+18 Restart
+19 RO
+20 RO
+21 RO
+22 Restart
+23 RO
+24 RO
+25 RO
+26 RO
+27 RO
+28 RO
+29 RM
+30 RM
+31 RM
+32 RM
+33 RO
+Triangle Strip
+Triangle Star
+Independent
+Triangle
+Independent
+Quad
+Mixed Strip
+Figure 3: A Generalized Triangle Strip
+Vertex Codes
+RO = Replace Oldest
+RM = Replace Middle
+103
+reducing the overhead.
+I0  I31
+I0' I31'
+*
+*
++
++
++
+IALU
+1/X
+FALU
+FMULT
+Input from off chip
+Off chip output
+P0  P31
+P32 P63
+P64 P91
+R0  R31
+R32 R63
+O0  O31
+O0' O31'
+104
+illusion that individual instructions are executed in one shot.
+LeoFloat
+avoided all this hardware by using more direct control fields,
+like horizontal microprogrammable machines, and leaving it to the
+assembler (and occasionally the programmer) to skew one logical
+instruction across several physical instructions.
+Mathematically, each chip thinks it is rasterizing the triangle
+into an image memory with valid pixel centers only every five original
+pixels horizontally, with each chip starting off biased one more
+pixel to the right.
+But an examination of the relative
+amounts of data flow between rendering pipeline stages shows that
+the overall peak data transfer bandwidth demand occurs between
+the edge walk and span interpolate sections, induced by long thin
+triangles, which commonly occur in tessellated geometry.
+Leo's stereo resolution was chosen to support square pixels, so
+that lines and antialiased lines are displayed properly in stereo, and
+standard window system applications can co exist with stereo.
+The
+dynamic tessellation technique involves reducing trimmed NURBS
+surfaces into properly sized triangles according to a display/pixel
+space approximation criteria [1]; i.e. the fineness of tessellation is
+view dependent.

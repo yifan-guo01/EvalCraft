@@ -1,0 +1,8 @@
+Scalable Grid Service Discovery Based on UDDI* * Authors are listed in alphabetical order.
+The standardization of grids based on web services has resulted in the need for scalable web service Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.
+The information gathered needs to be provided to variety of systems for the purpose of either utilizing the grid or proving summary information.
+The second motivating factor stems from the fact that DHTs are relatively new tool for building distributed applications and we would like to test its potential by applying it to the problem of distributing UDDI.
+However, today we find that UDDI has not been widely deployed in the Internet.
+In this section, we demonstrate what the sequence of operations should be for three crucial scenarios   adding a new local registry, inserting a new service and querying a service.
+Every PlanetLab host machine is connected to the Internet and runs a common software package including a Linux based operating system that supports server virtualization.
+GridVine [2] builds a logical semantic overlay on top of a physical layer consisting of P Grid [1], a structured overlay based on distributed search tree that uses prefix based routing and changes the overlay paths as part of the network maintenance protocol to adapt to load in different parts of the keyspace.

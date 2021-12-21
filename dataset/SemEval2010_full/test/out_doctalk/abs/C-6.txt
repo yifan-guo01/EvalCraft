@@ -1,0 +1,8 @@
+New content types such as continuous multimedia streams have become commonplace due to the convergence of advances in storage , encoding , and networking technologies .
+This combination has allowed users to access and share multimedia content in both local and remote area networks with the network itself acting as a huge data repository .
+This scenario is increasingly common in network based content distribution systems and is likely to also become important in home networking scenarios .
+Addressing this distributed content management problem is difficult due to the number of requirements placed on the system .
+A application program interface ( API ) and associated network protocols are needed in order for the content management system to provide a uniform interface .
+Our layered architecture is flexible its API allows the layers to reside either on a single computer or on multiple networked heterogeneous computers .
+Spectrum allows for arbitrary policies to be realized by providing a fixed set of base policy templates that can easily be parameterized .
+For example , a carrier grade Spectrum manager might store all its policy and reference information in a high performance database system .

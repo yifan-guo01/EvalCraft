@@ -1,0 +1,9 @@
+adversary model
+same node
+MSG message
+network protocol General
+security permission
+network network protocol
+negligible function
+certain attack
+T conf

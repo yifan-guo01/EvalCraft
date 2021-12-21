@@ -1,0 +1,10 @@
+probability
+document
+term
+frequency
+poisson
+combination definition
+Pareto distribution
+use value
+occurrence containment
+large number

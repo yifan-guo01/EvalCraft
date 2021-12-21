@@ -1,0 +1,9 @@
+first pebble
+string with
+state q
+initial configuration
+pebble position l
+various model
+tree automata
+alphabet symbol
+expressiveness result

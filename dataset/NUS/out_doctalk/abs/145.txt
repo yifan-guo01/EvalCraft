@@ -1,0 +1,8 @@
+A INTRODUCTION A WIRELESS sensor network consists of a large amount of sensor nodes , which have wireless communication capability and some level of ability for signal processing .
+Much research effort has focused on this area which result in many new technologies and methods to address these problems in recent years .
+The LEACH allows only single hop clusters to be constructed .
+However , in these homogeneous sensor networks , the requirement that every node is capable of aggregating data leads to the extra hardware cost for all the nodes .
+The authors of [ 11 ] formulate an optimization problem to minimize the network cost which depends on the nodes ' densities and initial energies .
+However , it is complicated to implement a distributed scheme to achieve the upper bound of the WSN lifetime because it is required to know the distance between every two sensor nodes in their scheme .
+The differences between the 3 D space model and the 2 D space model lie in the deployment models and the connectivity models .
+CONCLUSION We investigated the optimal transmission range for a heterogeneous cluster based sensor network which consists of two types of nodes , the super cluster heads and the basic sensor nodes .

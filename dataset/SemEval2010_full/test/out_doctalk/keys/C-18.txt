@@ -1,0 +1,10 @@
+behavior
+password
+Generate list
+address
+worm model
+technique action
+worm instance
+choose method
+target time
+base scanning

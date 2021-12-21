@@ -1,0 +1,50 @@
+Both are based on the rates 
+of two kinds of errors a detection system can make: misses, in 
+which the system gives a no answer where the correct answer is 
+yes, and false alarms, in which the system gives a yes answer 
+where the correct answer is no.
+The native 
+language hypothesis for tracking predicts better performance if 
+incoming stories are compared in their original language with 
+topic models in that language, and worse performance if translated 
+stories are compared with English topic models.
+Total
+Topics receiving more stories
+Similarity  N
+t
+Topics English
+Arabic Mandarin
+2 36  24
+8
+11
+Cosine
+4 30  26
+7
+9
+2 36  36
+8
+7
+Relevance 
+Model
+4 30  30
+8
+5
+Fewer than a third of the topics received adapted stories.
+Although we see that the original threshold, .5, was not always the 
+optimal value, it is also clear that the pattern we saw at .5 (and in 
+Figure 6) does not change as the threshold is varied, that is tracking
+with native topic models is not better than tracking with 
+global models.
+In the previous two sections we showed that when native topic 
+models are initialized with language specific training stories that 
+are truly on topic, then topic tracking is indeed better with native 
+models than with global models.
+Smoothing was carried out in the native adapted condition according
+to Equation (11), setting =0.5, without tuning.
+We were surprised that translating the training stories into Arabic 
+to make Arabic topic models did not improve tracking, but again, 
+our dictionary based translations of the topic models were different
+from native Arabic stories.
+Larkey, Leah S. and Connell, Margaret E. (2003) Structured 
+Queries, Language Modeling, and Relevance Modeling in 
+Cross Language Information Retrieval.

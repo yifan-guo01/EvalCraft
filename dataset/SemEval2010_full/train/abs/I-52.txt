@@ -1,0 +1,36 @@
+A Unified and General Framework for
+Argumentation-based Negotiation
+Leila Amgoud
+IRIT - CNRS
+118, route de Narbonne
+31062, Toulouse, France
+amgoud@irit.fr
+Yannis Dimopoulos
+University of Cyprus
+75 Kallipoleos Str.
+PO Box 20537, Cyprus
+yannis@cs.ucy.ac.cy
+Pavlos Moraitis
+Paris-Descartes University
+45 rue des Saints-Pères
+75270 Paris Cedex 06, France
+
+pavlos@math-info.univparis5.fr
+ABSTRACT
+This paper proposes a unified and general framework for
+argumentation-based negotiation, in which the role of 
+argumentation is formally analyzed. The framework makes it
+possible to study the outcomes of an argumentation-based
+negotiation. It shows what an agreement is, how it is related
+to the theories of the agents, when it is possible, and how
+this can be attained by the negotiating agents in this case.
+It defines also the notion of concession, and shows in which
+situation an agent will make one, as well as how it influences
+the evolution of the dialogue.
+Categories and Subject Descriptors
+I.2.3 [Deduction and Theorem Proving]: 
+Nonmonotonic reasoning and belief revision
+; I.2.11 [Distributed Artificial Intelligence]: Intelligent
+agents
+General Terms
+Human Factors, Theory

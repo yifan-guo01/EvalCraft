@@ -1,0 +1,10 @@
+scheme
+information
+frame
+structure
+server
+client
+map
+variable
+linear
+value

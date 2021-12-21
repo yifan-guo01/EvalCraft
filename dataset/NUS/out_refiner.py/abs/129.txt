@@ -1,0 +1,25 @@
+Instead
+of making predictions from a single model fit on the observed data, bootstrap samples
+are taken of the data, the model is fit on each sample, and the predictions are averaged
+over all of the fitted models to get the bagged prediction.
+Such algorithms are also advantageous for extremely large data sets where reading through
+the data just once is time consuming, so batch algorithms which would require multiple
+passes through the data would be infeasible.
+Online bagging is not guaranteed to produce the same results as batch bagging.
+If the model is fit with an ordinary lossless online algorithm, as
+exists for classification trees (Utgoff et al., 1997), then the entire online Bayesian bagging
+procedure is completely lossless relative to batch Bayesian bagging.
+Furthermore, since
+batch Bayesian bagging gives the same mean results as ordinary batch bagging, online
+Bayesian bagging also has the same expected results as ordinary batch bagging.
+We compared Bayesian bagging to
+a single tree, ordinary batch bagging, and ordinary online bagging, all three of which were
+done using the minimum description length criterion (MDL), as implemented in the ITI
+code, to determine the optimal size for each tree.
+We use a generalized MDL to determine the optimal tree size at each stage, replacing all
+counts of observations with the sum of the weights of the observations at that node or leaf
+with the same response category.
+For each data set, we repeated 1000 times the following procedure
+: randomly choose a training/test partition; fit a single tree, a batch bagged tree, an
+online bagged tree, and a Bayesian bagged tree; compute the misclassification error rate for
+each fit.

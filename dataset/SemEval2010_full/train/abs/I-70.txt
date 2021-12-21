@@ -1,0 +1,33 @@
+A Multi-Agent System for Building Dynamic Ontologies
+Kévin Ottens
+∗
+IRIT, Université Paul Sabatier
+118 Route de Narbonne
+F-31062 TOULOUSE
+ottens@irit.fr
+Marie-Pierre Gleizes
+IRIT, Université Paul Sabatier
+118 Route de Narbonne
+F-31062 TOULOUSE
+gleizes@irit.fr
+Pierre Glize
+IRIT, Université Paul Sabatier
+118 Route de Narbonne
+F-31062 TOULOUSE
+glize@irit.fr
+ABSTRACT
+Ontologies building from text is still a time-consuming task which
+justifies the growth of Ontology Learning. Our system named 
+Dynamo is designed along this domain but following an original 
+approach based on an adaptive multi-agent architecture. In this paper
+we present a distributed hierarchical clustering algorithm, core of
+our approach. It is evaluated and compared to a more conventional
+centralized algorithm. We also present how it has been improved
+using a multi-criteria approach. With those results in mind, we
+discuss the limits of our system and add as perspectives the 
+modifications required to reach a complete ontology building solution.
+Categories and Subject Descriptors
+I.2.11 [Artificial Intelligence]: Distributed Artificial 
+IntelligenceMultiagent Systems
+General Terms
+Algorithms, Experimentation

@@ -1,0 +1,27 @@
+A Resilient Packet-Forwarding Scheme against Maliciously Packet-Dropping Nodes in Sensor Networks
+ABSTRACT
+This paper focuses on defending against compromised nodes'
+dropping of legitimate reports and investigates the misbehavior
+of a maliciously packet-dropping node in sensor networks
+. We present a resilient packet-forwarding scheme using
+Neighbor Watch System (NWS), specifically designed
+for hop-by-hop reliable delivery in face of malicious nodes
+that drop relaying packets, as well as faulty nodes that
+fail to relay packets. Unlike previous work with multipath
+data forwarding, our scheme basically employs single-path
+data forwarding, which consumes less power than multipath
+schemes. As the packet is forwarded along the single-path
+toward the base station, our scheme, however, converts into
+multipath data forwarding at the location where NWS detects
+relaying nodes' misbehavior. Simulation experiments
+show that, with the help of NWS, our forwarding scheme
+achieves a high success ratio in face of a large number of
+packet-dropping nodes, and effectively adjusts its forwarding
+style, depending on the number of packet-dropping nodes
+en-route to the base station.
+Categories and Subject Descriptors
+C.2.0 [Computer-Communication Networks]: General-Security
+and protection
+General Terms
+Security, Algorithm, Reliability
+

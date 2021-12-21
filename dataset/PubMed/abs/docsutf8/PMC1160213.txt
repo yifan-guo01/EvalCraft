@@ -1,7 +1,0 @@
-multipred is a web - based computational system for the prediction of peptide binding to multiple molecules ( proteins ) belonging to human leukocyte antigens ( hla ) class i a2 , a3 and class ii dr supertypes .
-it uses hidden markov models and artificial neural network methods as predictive engines .
-a novel data representation method enables multipred to predict peptides that promiscuously bind multiple hla alleles within one hla supertype .
-extensive testing was performed for validation of the prediction models .
-testing results show that multipred is both sensitive and specific and it has good predictive ability ( area under the receiver operating characteristic curve aroc > 0.80 ) .
-multipred can be used for the mapping of promiscuous t - cell epitopes as well as the regions of high concentration of these targets  termed t - cell epitope hotspots .
-multipred is available at .

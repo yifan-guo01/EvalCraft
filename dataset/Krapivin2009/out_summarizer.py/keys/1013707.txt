@@ -1,0 +1,10 @@
+channel d
+process q
+implementation process
+trace extr
+system q
+extraction pattern
+implementation relation scheme
+communication interface
+other action refinement
+implementation component process

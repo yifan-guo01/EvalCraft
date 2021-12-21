@@ -1,0 +1,8 @@
+As in the earlier manuscript , our desire here is to give a fairly concrete description of the structures involved and the constructions from them .
+Motivation The familiar categories Set and Top , consisting of sets and arbitrary mappings and of topological spaces and continuous mappings , have many well known closure properties .
+It was hoped that the idea of synthetic domain theory would be the natural solution - but that theory has been slowed by many technical problems .
+The related idea of axiomatic domain theory is likewise hampered by the need to overcome technical difficulties .
+Powerset lattices can be generalized to algebraic lattices , namely those complete lattices that can be represented isomorphically as complete sublattices of a powerset closed under arbitrary intersections and directed unions .
+The proof proceeds along standard lines making use of the corresponding properties of topological spaces .
+We make a point of describing the models in a so - called " split " way , so as to avoid problems with interpreting dependent type theory .
+This idea of totality generalizes the simple - minded connection between total and partial functions using flat domains .

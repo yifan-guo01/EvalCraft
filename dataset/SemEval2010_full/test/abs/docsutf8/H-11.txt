@@ -1,0 +1,51 @@
+Laplacian Optimal Design for Image Retrieval
+Xiaofei He
+Yahoo!
+Burbank, CA 91504
+hex@yahoo-inc.com
+Wanli Min
+IBM
+Yorktown Heights, NY 10598
+wanlimin@us.ibm.com
+Deng Cai
+CS Dept., UIUC
+Urbana, IL 61801
+dengcai2@cs.uiuc.edu
+Kun Zhou
+Microsoft Research Asia
+Beijing, China
+kunzhou@microsoft.com
+ABSTRACT
+Relevance feedback is a powerful technique to enhance 
+ContentBased Image Retrieval (CBIR) performance. It solicits the
+user"s relevance judgments on the retrieved images returned
+by the CBIR systems. The user"s labeling is then used to
+learn a classifier to distinguish between relevant and 
+irrelevant images. However, the top returned images may not be
+the most informative ones. The challenge is thus to 
+determine which unlabeled images would be the most informative
+(i.e., improve the classifier the most) if they were labeled
+and used as training samples. In this paper, we propose
+a novel active learning algorithm, called Laplacian 
+Optimal Design (LOD), for relevance feedback image retrieval.
+Our algorithm is based on a regression model which 
+minimizes the least square error on the measured (or, labeled)
+images and simultaneously preserves the local geometrical
+structure of the image space. Specifically, we assume that
+if two images are sufficiently close to each other, then their
+measurements (or, labels) are close as well. By constructing
+a nearest neighbor graph, the geometrical structure of the
+image space can be described by the graph Laplacian. We
+discuss how results from the field of optimal experimental
+design may be used to guide our selection of a subset of 
+images, which gives us the most amount of information. 
+Experimental results on Corel database suggest that the proposed
+approach achieves higher precision in relevance feedback 
+image retrieval.
+Categories and Subject Descriptors
+H.3.3 [Information storage and retrieval]: Information
+search and retrieval-Relevance feedback; G.3 [Mathematics
+of Computing]: Probability and Statistics-Experimental
+design
+General Terms
+Algorithms, Performance, Theory

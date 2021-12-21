@@ -1,0 +1,20 @@
+time
+sender
+game
+delay
+entity
+place export
+export path
+modify case
+real position
+probabilistic budget
+standard deviation
+place figure
+player trajectory
+reach value
+base approach
+End network
+schedule computation
+receiver dri
+use example
+send information

@@ -1,0 +1,8 @@
+In this paper we propose a framework , called StarDust , for wireless sensor network localization based on passive optical components .
+An aerial device projects light towards the deployed sensor network , and records an image of the reflected light .
+We propose and develop localization techniques based on four types of constraints : node color , neighbor information , deployment time for a node and deployment location for a node .
+One vision is to embed tiny sensor devices in outdoor environments , by aerial deployments from unmanned air vehicles .
+An aerial vehicle projects light onto the deployment area and records images containing retro reflected light beams ( they appear as luminous spots ) .
+We propose a novel framework for node localization in WSNs that is very promising and allows for many future extensions and more accurate results .
+StarDust is meant for localizing air dropped nodes where node passiveness , high accuracy , low cost , small form factor and rapid localization are all required .
+3.3.4 Relaxation with Space Constraints Spatial information related to sensor deployment can also be employed as another input to the label relaxation algorithm .

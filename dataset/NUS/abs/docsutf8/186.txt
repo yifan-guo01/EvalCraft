@@ -1,0 +1,26 @@
+TCP/IP Performance over 3G Wireless Links with Rate and Delay Variation
+ABSTRACT
+Wireless link losses result in poor TCP throughput since
+losses are perceived as congestion by TCP, resulting in source
+throttling. In order to mitigate this effect, 3G wireless link
+designers have augmented their system with extensive local
+retransmission mechanisms. In addition, in order to increase
+throughput, intelligent channel state based scheduling have
+also been introduced. While these mechanisms have reduced
+the impact of losses on TCP throughput and improved the
+channel utilization, these gains have come at the expense
+of increased delay and rate variability. In this paper, we
+comprehensively evaluate the impact of variable rate and
+variable delay on long-lived TCP performance. We propose
+a model to explain and predict TCP's throughput over a link
+with variable rate and/or delay. We also propose a network-based
+solution called Ack Regulator that mitigates the effect
+of variable rate and/or delay without significantly increasing
+the round trip time, while improving TCP performance by
+up to 40%.
+Categories and Subject Descriptors
+C.2.1 [Network Architecture and Design]: Wireless
+communication
+
+General Terms
+Algorithms, Performance, Design

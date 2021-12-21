@@ -1,0 +1,28 @@
+A Cross-Layer Approach to Resource Discovery
+and Distribution in Mobile ad-hoc Networks
+Chaiporn Jaikaeo
+Computer Engineering
+Kasetsart University, Thailand
+(+662) 942-8555 Ext 1424
+cpj@cpe.ku.ac.th
+Xiang Cao
+Computer and Information Sciences
+University of Delaware, USA
+(+1) 302-831-1131
+cao@cis.udel.edu
+Chien-Chung Shen
+Computer and Information Sciences
+University of Delaware, USA
+(+1) 302-831-1951
+cshen@cis.udel.edu
+ABSTRACT
+This paper describes a cross-layer approach to designing robust
+P2P system over mobile ad-hoc networks. The design is based on
+simple functional primitives that allow routing at both P2P and
+network layers to be integrated to reduce overhead. With these
+primitives, the paper addresses various load balancing techniques.
+Preliminary simulation results are also presented.
+Categories and Subject Descriptors
+C.2.4 [Distributed Systems]: Distributed Applications
+General Terms
+Algorithms and design

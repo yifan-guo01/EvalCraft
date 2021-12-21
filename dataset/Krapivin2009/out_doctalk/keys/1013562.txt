@@ -1,0 +1,10 @@
+string
+pebble
+language
+decision problem
+position
+configuration
+proof
+automaton
+symbol
+datum value

@@ -1,0 +1,52 @@
+Broad Expertise Retrieval in Sparse Data Environments
+Krisztian Balog
+ISLA, University of Amsterdam
+Kruislaan 403, 1098 SJ
+Amsterdam, The Netherlands
+kbalog@science.uva.nl
+Toine Bogers
+ILK, Tilburg University
+P.O. Box 90153, 5000 LE
+Tilburg, The Netherlands
+A.M.Bogers@uvt.nl
+Leif Azzopardi
+Dept. of Computing Science
+University of Glasgow,
+Glasgow, G12 8QQ
+leif@dcs.gla.ac.uk
+Maarten de Rijke
+ISLA, University of Amsterdam
+Kruislaan 403, 1098 SJ
+Amsterdam, The Netherlands
+mdr@science.uva.nl
+Antal van den Bosch
+ILK, Tilburg University
+P.O. Box 90153, 5000 LE
+Tilburg, The Netherlands
+Antal.vdnBosch@uvt.nl
+ABSTRACT
+Expertise retrieval has been largely unexplored on data other than
+the W3C collection. At the same time, many intranets of 
+universities and other knowledge-intensive organisations offer examples
+of relatively small but clean multilingual expertise data, covering
+broad ranges of expertise areas. We first present two main 
+expertise retrieval tasks, along with a set of baseline approaches based on
+generative language modeling, aimed at finding expertise relations
+between topics and people. For our experimental evaluation, we
+introduce (and release) a new test set based on a crawl of a 
+university site. Using this test set, we conduct two series of experiments.
+The first is aimed at determining the effectiveness of baseline 
+expertise retrieval methods applied to the new test set. The second
+is aimed at assessing refined models that exploit characteristic 
+features of the new test set, such as the organizational structure of the
+university, and the hierarchical structure of the topics in the test set.
+Expertise retrieval models are shown to be robust with respect to
+environments smaller than the W3C collection, and current 
+techniques appear to be generalizable to other settings.
+Categories and Subject Descriptors
+H.3 [Information Storage and Retrieval]: H.3.1 Content 
+Analysis and Indexing; H.3.3 Information Search and Retrieval; H.3.4
+Systems and Software; H.4 [Information Systems Applications]:
+H.4.2 Types of Systems; H.4.m Miscellaneous
+General Terms
+Algorithms, Measurement, Performance, Experimentation

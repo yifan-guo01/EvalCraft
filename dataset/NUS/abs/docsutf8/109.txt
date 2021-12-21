@@ -1,0 +1,19 @@
+Index Structures and Algorithms for Querying Distributed RDF Repositories
+ABSTRACT
+A technical infrastructure for storing, querying and managing RDF
+data is a key element in the current semantic web development.
+Systems like Jena, Sesame or the ICS-FORTH RDF Suite are widely
+used for building semantic web applications. Currently, none of
+these systems supports the integrated querying of distributed RDF
+repositories. We consider this a major shortcoming since the semantic
+web is distributed by nature. In this paper we present an architecture
+for querying distributed RDF repositories by extending
+the existing Sesame system. We discuss the implications of our architecture
+and propose an index structure as well as algorithms for
+query processing and optimization in such a distributed context.
+Categories and Subject Descriptors
+E.1 [Data]: DATA STRUCTURES--Distributed Data Structures;
+H.2.4 [Information Systems ]: DATABASE MANAGEMENT SYS-TEMS
+--Distributed Databases, Query Processing
+General Terms
+Algorithms, Performance, Design

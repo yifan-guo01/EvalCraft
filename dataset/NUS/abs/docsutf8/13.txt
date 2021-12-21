@@ -1,0 +1,36 @@
+A Machine Learning Based Approach for Table Detection on The Web
+ABSTRACT
+Table is a commonly used presentation scheme, especially
+for describing relational information. However, table understanding
+remains an open problem. In this paper, we consider
+the problem of table detection in web documents. Its
+potential applications include web mining, knowledge management
+, and web content summarization and delivery to
+narrow-bandwidth devices. We describe a machine learning
+based approach to classify each given table entity as either
+genuine
+or
+non-genuine
+. Various features re ecting the layout
+as well as content characteristics of tables are studied.
+In order to facilitate the training and evaluation of our
+table classi er, we designed a novel web document table
+ground truthing protocol and used it to build a large table
+ground truth database. The database consists of 1,393
+HTML les collected from hundreds of di erent web sites
+and contains 11,477 leaf
+&lt;TABLE&gt;
+elements, out of which
+1,740 are genuine tables. Experiments were conducted using
+the cross validation method and an F-measure of 95
+:
+89%
+was achieved.
+Categories and Subject Descriptors
+H.4.3
+Information Systems Applications
+]: Communications
+Applications|
+Information browsers
+General Terms
+Algorithms

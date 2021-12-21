@@ -1,0 +1,10 @@
+model
+query
+method
+document
+term
+distribution
+feedback language
+expansion approach
+call sampling
+feedback algorithm

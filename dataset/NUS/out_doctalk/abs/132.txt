@@ -1,0 +1,8 @@
+General Terms Design , Experimentation INTRODUCTION The GovStat Project is a joint effort of the University of North Carolina Interaction Design Lab and the University of Maryland Human Computer Interaction Lab 1 .
+To enable such models and interfaces , we propose a data driven approach , based on data mining and machine learning techniques .
+By analyzing the distribution of terms across documents , our goal is to supplement the agency 's pre existing information structures .
+The remainder of this paper describes the details of our concept discovery efforts and subsequent evaluation .
+In future work we will adopt a more rigorous method of deriving document topic weight thresholds .
+Comparing the proportion right and Table 3 : Keyword Based Clusters benefits costs international jobs plans compensation import employment benefits costs prices jobs employees benefits petroleum youth occupations price
+Empirical methods of knowledge discovery can aid in the organization and retrieval of information .
+Topic discovery and document classification have long been recognized as fundamental problems in information retrieval and other forms of text mining .

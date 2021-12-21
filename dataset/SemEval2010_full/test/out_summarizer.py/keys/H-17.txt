@@ -1,0 +1,8 @@
+index query
+index size
+k answer
+document pruning
+search result
+pruning policy
+keyword fraction
+example function

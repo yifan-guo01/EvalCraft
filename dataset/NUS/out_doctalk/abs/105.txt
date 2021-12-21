@@ -1,0 +1,8 @@
+A major deficiency of existing retrieval systems is that they generally lack user modeling and are not adaptive to individual users [ 17 ] .
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+In a traditional retrieval paradigm , the retrieval problem is to match a query with documents and rank documents according to their relevance values .
+825 We propose to optimize retrieval performance by adapting system responses based on every action that a user has taken , and cast the optimization problem as a decision task .
+Since our client side agent does not have access to server query logs , we make session boundary decisions based on textual similarity between two queries .
+The description field provides a slightly longer statement of the topic requirement , usually expressed as a single complete sentence or question .
+Finally the narrative supplies additional information necessary to fully specify the requirement , expressed in the form of a short paragraph .
+Dynamic web log session identification with statistical language models .

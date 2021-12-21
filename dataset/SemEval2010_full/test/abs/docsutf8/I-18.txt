@@ -1,0 +1,27 @@
+Collaboration Among a Satellite Swarm
+Grégory Bonnet
+∗
+ONERA - DCSD / CNES / Alcatel Space Alenia
+2 avenue Edouard Belin BP 4025
+31055 Toulouse, France
+gregory.bonnet@onera.fr
+Catherine Tessier
+ONERA - DCSD
+2 avenue Edouard Belin BP 4025
+31055 Toulouse, France
+catherine.tessier@onera.fr
+ABSTRACT
+The paper deals with on-board planning for a satellite swarm
+via communication and negotiation. We aim at defining 
+individual behaviours that result in a global behaviour that
+meets the mission requirements. We will present the 
+formalization of the problem, a communication protocol, a solving
+method based on reactive decision rules, and first results.
+Categories and Subject Descriptors
+H.4 [Information Systems Applications]: Miscellaneous;
+I.2.8 [Artificial Intelligence]: Problem Solving, Control
+Methods, and Search-Plan execution, formation, and 
+generation; I.2.11 [Artificial Intelligence]: Distributed 
+Artificial Intelligence-Coherence and coordination
+General Terms
+Algorithms

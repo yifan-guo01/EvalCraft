@@ -1,0 +1,8 @@
+INTRODUCTION Improvements in network connectivity erode the distinction between local and wide area computing and , increasingly , users expect their work environment to follow them wherever they go .
+The engineers use a collaborative CAD application to revise and update complex project design documents .
+We designed and implemented a BuddyCache prototype and studied its performance benefits and costs using analytical modeling and system measurements .
+This multicast transport level solution is geared to the single writer semantics of web objects .
+The protocol uses leases to provide fault tolerant call backs and takes advantage of nearby caches to reduce the cost of lease extensions .
+Thor supports high performance access to distributed objects and therefore provides a good test platform to investigate BuddyCache performance .
+The servers have a disk for storing persistent objects , a stable transaction log , and volatile memory .
+The overall time includes time spent performing client computation , direct fetch requests , peer fetches , and commit requests .

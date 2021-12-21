@@ -1,0 +1,10 @@
+-state agent
+output assignment
+transition function
+predicate computable
+input x
+state space
+computation model
+separate protocol
+stable computation model
+population protocol

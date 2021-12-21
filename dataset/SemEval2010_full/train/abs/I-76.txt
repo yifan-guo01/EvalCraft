@@ -1,0 +1,30 @@
+Negotiation by Abduction and Relaxation
+Chiaki Sakama
+Dept. Computer and Communication Sciences
+Wakayama University
+Sakaedani, Wakayama 640 8510, Japan
+sakama@sys.wakayama-u.ac.jp
+Katsumi Inoue
+National Institute of Informatics
+2-1-2 Hitotsubashi, Chiyoda-ku
+Tokyo 101 8430, Japan
+ki@nii.ac.jp
+ABSTRACT
+This paper studies a logical framework for automated 
+negotiation between two agents. We suppose an agent who has
+a knowledge base represented by a logic program. Then,
+we introduce methods of constructing counter-proposals in
+response to proposals made by an agent. To this end, we
+combine the techniques of extended abduction in artificial
+intelligence and relaxation in cooperative query answering
+for databases. These techniques are respectively used for
+producing conditional proposals and neighborhood proposals
+in the process of negotiation. We provide a negotiation 
+protocol based on the exchange of these proposals and develop
+procedures for computing new proposals.
+Categories and Subject Descriptors
+F.4.1 [Mathematical Logic]: Logic and constraint 
+programming;; I.2.11 [Distributed Artificial Intelligence]:
+Multiagent systems
+General Terms
+Theory

@@ -1,0 +1,19 @@
+High Performance Crawling System
+ABSTRACT
+In the present paper, we will describe the design and implementation
+of a real-time distributed system of Web crawling
+running on a cluster of machines.
+The system crawls
+several thousands of pages every second, includes a high-performance
+fault manager, is platform independent and is
+able to adapt transparently to a wide range of configurations
+without incurring additional hardware expenditure. We will
+then provide details of the system architecture and describe
+the technical choices for very high performance crawling.
+Finally, we will discuss the experimental results obtained,
+comparing them with other documented systems.
+Categories and Subject Descriptors
+D.1.3 [Concurrent Programming]: Distributed programming
+; C.4 [Performance of Systems]: Fault tolerance;
+H.3.7 [Digital Libraries]: Systems issues
+

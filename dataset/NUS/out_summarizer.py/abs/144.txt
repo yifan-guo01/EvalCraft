@@ -1,0 +1,52 @@
+The problem studied in this paper is motivated by market 
+share rules, a specific type of rule that cannot be represented as 
+association rules.
+The 
+discovered rules suggest that Expedia seems to be doing 
+particularly well among the single households in the North East 
+region (rule 2), while it cedes some market in the segment of 
+teenagers (rule 4).
+Prior
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that 
+copies bear this notice and the full citation on the first page.
+Hence 
+we can generate datasets in which all transactions represent purchases in 
+a single category, and this helps in the generation of market share rules 
+representing specific categories.
+Although 
+these metrics can be generalized to rules where the antecedent and 
+consequent are both conjunctions of the form value
+1
+&lt; Attribute &lt;
+value
+2
+for quantitative datasets, they are not applicable for rules
+whose consequent is a function, such as Mean(D
+X
+), or in general,
+f(D
+X
+).
+For quantitative rules in [2], the 
+authors use a standard Z test to determine the significance of 
+inequality of means between a subset D
+X
+and its complement D  
+D
+X
+. [33] defines a new measurement, impact, to evaluate
+quantitative rules, where impact can identify those groups that 
+contribute most to some outcome, such as profits or costs.
+Nonparametric methods are widely used on testing models that 
+are built from data: as earliest in [18], the author uses 
+randomization tests to tackle a model overfitting problem; [20] 
+compares bootstrap and cross validation for model accuracy 
+estimation; for decision trees, [14, 26] use permutation tests to 
+select attributes based on 2
+x2 contingency tables.
+Traditional methods cannot estimate how many 
+rules should be discovered, but with our technique, we can draw 
+the conclusion that, there is no rule to be discovered because none 
+of the rules is better than chance.

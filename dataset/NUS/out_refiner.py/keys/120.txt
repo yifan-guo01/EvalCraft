@@ -1,0 +1,10 @@
+physical sensor
+spot event
+leaf node
+hot spot event
+sensor network application
+attribute range
+binary tree
+total number
+spot size
+storage scheme

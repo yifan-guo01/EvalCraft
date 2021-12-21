@@ -1,0 +1,10 @@
+optimal size
+batch bagging
+relative weight
+bootstrap sample
+optimal tree size
+set class data
+bagging algorithm
+single model
+example datum set
+new observation

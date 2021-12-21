@@ -1,0 +1,29 @@
+Modelling Adversaries and Security Objectives for Routing Protocols in Wireless Sensor Networks
+ABSTRACT
+The literature is very broad considering routing protocols
+in wireless sensor networks (WSNs). However, security of
+these routing protocols has fallen beyond the scope so far.
+Routing is a fundamental functionality in wireless networks,
+thus hostile interventions aiming to disrupt and degrade the
+routing service have a serious impact on the overall operation
+of the entire network. In order to analyze the security of
+routing protocols in a precise and rigorous way, we propose
+a formal framework encompassing the definition of an adversary
+model as well as the "general" definition of secure routing
+in sensor networks. Both definitions take into account
+the feasible goals and capabilities of an adversary in sensor
+environments and the variety of sensor routing protocols. In
+spirit, our formal model is based on the simulation paradigm
+that is a successfully used technique to prove the security of
+various cryptographic protocols. However, we also highlight
+some differences between our model and other models that
+have been proposed for wired or wireless networks. Finally,
+we illustrate the practical usage of our model by presenting
+the formal description of a simple attack against an authenticated
+routing protocol, which is based on the well-known
+TinyOS routing.
+Categories and Subject Descriptors
+C.2.2 [Computer Systems Organization]: Computer-Communication
+Networks--Network Protocols
+General Terms
+Algorithms, Design, Security

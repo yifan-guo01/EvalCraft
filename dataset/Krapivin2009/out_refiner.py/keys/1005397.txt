@@ -1,0 +1,10 @@
+large animal
+position variable
+road segment
+speed limit
+end node
+=p. cause
+nonexecutable move
+animal mount
+action domain
+segment constant

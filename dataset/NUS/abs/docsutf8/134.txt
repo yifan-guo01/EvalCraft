@@ -1,0 +1,17 @@
+Machine Learning in Low-level Microarray Analysis
+ABSTRACT
+Machine learning and data mining have found a multitude
+of successful applications in microarray analysis, with gene
+clustering and classification of tissue samples being widely
+cited examples. Low-level microarray analysis - often associated
+with the pre-processing stage within the microarray
+life-cycle - has increasingly become an area of active
+research, traditionally involving techniques from classical
+statistics. This paper explores opportunities for the application
+of machine learning and data mining methods to several
+important low-level microarray analysis problems: monitoring
+gene expression, transcript discovery, genotyping and resequencing
+. Relevant methods and ideas from the machine
+learning community include semi-supervised learning, learning
+from heterogeneous data, and incremental learning.
+

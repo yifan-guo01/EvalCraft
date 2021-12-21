@@ -1,0 +1,33 @@
+Marginal Contribution Nets: A Compact Representation
+Scheme for Coalitional Games
+∗
+Samuel Ieong
+†
+Computer Science Department
+Stanford University
+Stanford, CA 94305
+sieong@stanford.edu
+Yoav Shoham
+Computer Science Department
+Stanford University
+Stanford, CA 94305
+shoham@stanford.edu
+ABSTRACT
+We present a new approach to representing coalitional games
+based on rules that describe the marginal contributions of
+the agents. This representation scheme captures 
+characteristics of the interactions among the agents in a natural and
+concise manner. We also develop efficient algorithms for two
+of the most important solution concepts, the Shapley value
+and the core, under this representation. The Shapley value
+can be computed in time linear in the size of the input. The
+emptiness of the core can be determined in time 
+exponential only in the treewidth of a graphical interpretation of our
+representation.
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence]: Multiagent
+systems; J.4 [Social and Behavioral Sciences]: 
+Economics; F.2 [Analysis of Algorithms and Problem 
+Complexity]
+General Terms
+Algorithms, Economics

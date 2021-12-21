@@ -1,0 +1,5 @@
+Our choice of name is a reference to the work of Hofmann and Puzicha [9], which conceives of clusters as explanatory latent variables underlying the observed data.
+(The \x" stands for \extended").
+Note that both algorithms, in contrast to our framework, depend on pseudo-feedback mechanisms to cope with the lack of true user feedback.
+-0.06 -0.020.020.06 Avg.
+prec.

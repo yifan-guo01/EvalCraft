@@ -1,0 +1,8 @@
+INTRODUCTION Millions of queries are submitted daily to Web search engines , and users have high expectations of the quality and speed of the answers .
+In such a setting , to achieve a fast response time and to increase the query throughput , using a cache is crucial .
+Such online decisions are based on a cache policy , and several different policies have been studied in the past .
+Broker Static caching posting lists Dynamic / Static cached answers Local query processor Disk Next caching level Local network access Remote network access Figure 1 : One caching level in a distributed search architecture .
+The intermediate level contains frequently occurring pairs of terms and stores the intersections of the corresponding inverted lists .
+The difference between the centralized architecture and the document partition architecture is the extra communication between the broker and the query processors .
+A document centric approach to static index pruning in text retrieval systems .
+Terrier : A High Performance and Scalable Information Retrieval Platform .

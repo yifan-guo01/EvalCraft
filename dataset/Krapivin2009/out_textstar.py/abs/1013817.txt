@@ -1,0 +1,8 @@
+We describe four space-e-cient planar convex hull algorithms.
+3 Two O(n log h) Time In-Situ Algorithms In this section, we show how to compute the upper (and symmetrically, lower) hull of S in O(n log h) time in situ, where h is the number of points of S that are on the upper (respectively, lower) hull of S. We discuss two algorithms, due to Kirkpatrick and Seidel [21], and Chan, Snoeyink and Yap [4].
+As in the original algorithm, we rst compute the median abscissa x 0 of S in situ and partition S into two roughly equal-sized subsets around x 0 .
+This enforces that jSj  3n=4 and jSj  3n=4.
+Let denote the elements of a group G and let < denote lexicographic comparison of (x; y) values.
+In order to facilitate comparisons with other convex hull implementations, our source code is available for download [25].
+Although we have assumed throughout the paper that all of the input points are distinct, the algorithms in this paper can be modied to handle the case in which the input is a multiset.
+These modications are technical, but relatively straightforward.

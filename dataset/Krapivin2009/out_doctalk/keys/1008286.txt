@@ -1,0 +1,10 @@
+system
+property
+transition
+logic
+formula
+combine approach
+finite set
+redefine trajectory
+dynamic framework
+introduce action

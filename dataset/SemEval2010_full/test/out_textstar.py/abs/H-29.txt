@@ -1,0 +1,7 @@
+Any opinions, findings, and conclusions or recommendations expressed in this material are the authors.
+and do not necessarily reflect those of the sponsors.
+The role of variance in term weighting for probabilistic information retrieval.
+In Proc.
+of the 11th Intl.
+Conf.
+In Proc.

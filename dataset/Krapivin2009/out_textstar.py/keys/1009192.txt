@@ -1,0 +1,10 @@
+vertex
+graph
+selected
+coloring
+row
+color
+node
+Theorem
+clique
+now

@@ -1,0 +1,10 @@
+share scheme
+client x
+information rate
+server index
+optimal information rate
+access structure
+client visit
+Gamma
+reconstruction property
+low bound

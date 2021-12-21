@@ -1,0 +1,10 @@
+datum
+Indexing method
+svm
+first page
+matrix
+support learning
+sample
+choose concept
+support vector
+large scale

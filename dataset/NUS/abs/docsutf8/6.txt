@@ -1,0 +1,32 @@
+A Distributed 3D Graphics Library
+Abstract
+We present Repo-3D, a general-purpose, object-oriented library for
+developing distributed, interactive 3D graphics applications across
+a range of heterogeneous workstations. Repo-3D is designed to
+make it easy for programmers to rapidly build prototypes using a
+familiar multi-threaded, object-oriented programming paradigm.
+All data sharing of both graphical and non-graphical data is done
+via general-purpose remote and replicated objects, presenting the
+illusion of a single distributed shared memory. Graphical objects
+are directly distributed, circumventing the "duplicate database"
+problem and allowing programmers to focus on the application
+details.
+Repo-3D is embedded in Repo, an interpreted, lexically-scoped,
+distributed programming language, allowing entire applications to
+be rapidly prototyped. We discuss Repo-3D's design, and introduce
+the notion of local variations to the graphical objects, which allow
+local changes to be applied to shared graphical structures. Local
+variations are needed to support transient local changes, such as
+highlighting, and responsive local editing operations. Finally, we
+discuss how our approach could be applied using other programming
+languages, such as Java.
+Categories and Subject Descriptors:
+D.1.3 [Programming
+Techniques
+]: Concurrent Programming--Distributed Programming
+; H.4.1 [Information Systems Applications]: Office
+Automation--Groupware; I.3.2 [Computer Graphics]: Graphics
+Systems--Distributed/network graphics; I.3.6 [Computer Graphics
+]: Methodology and Techniques--Graphics data structures and
+data types; I.3.7 [Computer Graphics]: Three-Dimensional
+Graphics and Realism--Virtual reality.

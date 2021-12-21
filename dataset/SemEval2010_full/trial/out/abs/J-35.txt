@@ -1,0 +1,8 @@
+Moreover , current trends seem to be leading to the elimination of the altruistic users on which these systems rely .
+These trends make developing a system that encourages a more equal distribution of the work critical for the continued viability of P2P networks and other distributed online systems .
+A significant amount of research has gone into designing reputation systems to give preferential treatment to users who are sharing files .
+This is in contrast with much previous work which uses random matching in a prisoner " s dilemma .
+This random matching model fails to capture some salient aspects of a number of important settings .
+Presumably , if the person matched with the requester could not satisfy the match , he would have to defect .
+Finally , the actions and payoffs in the prisoner " s dilemma game do not obviously correspond to actual choices that can be made .
+Each time an agent has a request satisfied he must pay the person who satisfied it some amount .

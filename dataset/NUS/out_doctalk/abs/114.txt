@@ -1,0 +1,8 @@
+Web pages are changing from static files to dynamic views generated from complex templates and backing semi structured databases .
+Macroscopic distillation algorithms treat whole pages as atomic , indivisible nodes with no internal structure .
+Even on a conventional Web browser , scrolling through search results for promising responses , then scrolling through those responses to satisfy a specific information need are tedious steps .
+The DOM can model reasonably clean HTML , support XML documents that adhere to rigid schema definitions , and embed free text in a natural way .
+Surprisingly , macroscopic distillation algorithms perform poorly in the fine grained setting ; we demonstrate this using analysis and anecdotes .
+1.2 Benefits and applications Apart from offering a more faithful model of Web content , our approach enables solutions to the following problems .
+Preliminaries We review the HITS family of algorithms and discuss how they were continually enhanced to address evolving Web content .
+4.1 Scoring internal micro hub nodes Macroscopic distillation algorithms rank and report complete hub pages , even if they are only partially relevant .

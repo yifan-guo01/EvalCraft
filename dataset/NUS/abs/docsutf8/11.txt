@@ -1,0 +1,37 @@
+A Functional Correspondence between Evaluators and Abstract Machines
+Abstract
+We bridge the gap between functional evaluators and abstract machines
+for the
+
+-calculus, using closure conversion, transformation
+into continuation-passing style, and defunctionalization.
+We illustrate this approach by deriving Krivine's abstract machine
+from an ordinary call-by-name evaluator and by deriving an ordinary
+call-by-value evaluator from Felleisen et al.'s CEK machine.
+The first derivation is strikingly simpler than what can be found in
+the literature. The second one is new. Together, they show that
+Krivine's abstract machine and the CEK machine correspond to the
+call-by-name and call-by-value facets of an ordinary evaluator for
+the
+
+-calculus.
+We then reveal the denotational content of Hannan and Miller's
+CLS machine and of Landin's SECD machine. We formally compare
+the corresponding evaluators and we illustrate some degrees of
+freedom in the design spaces of evaluators and of abstract machines
+for the
+
+-calculus with computational effects.
+Finally, we consider the Categorical Abstract Machine and the extent
+to which it is more of a virtual machine than an abstract machine
+Categories and Subject Descriptors
+D.1.1 [Software]: Programming Techniques--applicative (functional
+) programming; D.3.4 [Programming Languages]: Proces-sors
+--interpreters
+General Terms
+Design, Languages.
+
+Basic Research in Computer Science (
+www.brics.dk
+),
+funded by the Danish National Research Foundation.

@@ -1,0 +1,10 @@
+predicate
+method
+specification
+St
+object
+predomain
+uncountable
+store
+type
+record

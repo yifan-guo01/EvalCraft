@@ -1,0 +1,8 @@
+hk ABSTRACT While the PageRank algorithm has proven to be very effective for ranking Web pages , the rank scores of Web pages can be manipulated .
+To handle the manipulation problem and to cast a new insight on the Web structure , we propose a ranking algorithm called DiffusionRank .
+Experimental results show that the DiffusionRank algorithm achieves the above mentioned advantages as expected .
+In the next section , we give a brief literature review on various related ranking techniques .
+The first part is the seed selection algorithm , in which the inverse PageRank was proposed to help an expert of determining a good node .
+This input independent property makes it impossible to set a special initial input ( larger values for trusted pages and less values even negative values for spam pages ) to avoid web spam .
+5.1 Data Preparation Our input data consist of a toy graph , a middle size realworld graph , and a large size real world graph .
+This work is fully supported by two grants from the Research Grants Council of the Hong Kong Special administrative Region , China ( Project No .

@@ -1,0 +1,10 @@
+nugget
+sentence
+topic
+based
+answer
+term
+specific
+identify
+pattern
+document

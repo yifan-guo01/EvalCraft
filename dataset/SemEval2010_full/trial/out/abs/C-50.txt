@@ -1,0 +1,8 @@
+A key feature of CenWits is that it does not require a continuously connected sensor network for its operation .
+Instead , the main goal is to provide an approximate , small area where search and rescue efforts can be concentrated .
+When there is a heavy cloud cover , GPS users have experienced inaccuracy in the reported location as well .
+MEMORY AND POWER MANAGEMENT CenWits employs several important mechanisms to conserve power and memory .
+Our current design uses time division multiplexing to schedule wakeup and sleep modes in the sensor nodes .
+These advantages include a looselycoupled system that relies only on intermittent network connectivity , power and storage efficiency , and low cost .
+A large part of CenWits design focuses on addressing the power and memory limitations of current sensor nodes .
+An important goal of CenWits is build small chips that can be implanted in hiking boots or ski jackets .

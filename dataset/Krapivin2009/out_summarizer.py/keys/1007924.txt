@@ -1,0 +1,10 @@
+adjacent line
+child hierarchy
+file #.
+approximation algorithm
+placement problem
+internal node
+other cache
+down loop
+capacity blowup
+retrieval cost

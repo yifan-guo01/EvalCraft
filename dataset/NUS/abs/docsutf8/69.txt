@@ -1,0 +1,21 @@
+Digital Asset Management Using A Native XML Database Implementation
+ABSTRACT
+Digital Asset Management (DAM), the management of digital 
+content so that it can be cataloged, searched and re-purposed, is 
+extremely challenging for organizations that rely on image 
+handling and expect to gain business value from these assets. 
+Metadata plays a crucial role in their management, and XML, 
+with its inherent support for structural representation, is an ideal 
+technology for this. This paper analyzes the capabilities of a 
+native XML database solution via the development of a "proof of 
+concept" and describes implementation requirements, strategy, 
+and advantages and disadvantages of this solution.
+
+Categories and Subject Descriptors
+H.2.8 [Database Management]: Database Applications   image 
+databases; and D.3.2 [Programming Languages]: Language 
+Classifications   extensible languages, XML.
+
+General Terms
+Languages, Performance
+

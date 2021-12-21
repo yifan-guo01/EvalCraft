@@ -1,0 +1,9 @@
+confidence estimate
+more relevance judgment
+relevance judgment
+document b
+rank order
+expert probability
+accuracy confidence
+system pooling
+Aslam

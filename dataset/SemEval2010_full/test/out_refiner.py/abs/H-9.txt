@@ -1,0 +1,8 @@
+For example, the results in the first page returned from Google for the ambiguous query jaguar (as of Dec. 2nd, 2006) contain at least four different senses of jaguar (i.e., car, animal, software, and a sports team); even for a more refined query such as jaguar team picture, the results are still quite ambiguous, including at least four different jaguar teams   a wrestling team, a jaguar car team, Southwestern College Jaguar softball team, and Jacksonville Jaguar football team.
+Given a new query, we find its related past queries from the history collection and learn aspects through applying the star clustering algorithm [2] to these past queries and clickthroughs.
+For example, in the first test collection, the baseline method of MMR is 0.734, the cluster based method is 0.773 and our method is 0.783.
+Diversity Analysis: Intuitively, organizing search results into different aspects is more beneficial to those queries whose results are more diverse, as for such queries, the results tend to form two or more big clusters.
+But when 0 5 10 15 20 25 30 1 2 3 4 Bin number #Queries Improved Decreased Figure 3: The correlation between performance change and query difficulty.
+Given a query, we retrieve its related queries from past query history, learn the aspects by clustering the past queries and the associated clickthrough information, and categorize the search results into the aspects learned.
+Bringing order to the web: automatically categorizing search results.
+H. J. Zeng, Q. C. He, Z. Chen, W. Y. Ma, and J. Ma. Learning to cluster web search results.

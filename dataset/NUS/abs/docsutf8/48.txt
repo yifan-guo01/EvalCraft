@@ -1,0 +1,22 @@
+Building a Research Library for the History of the Web
+ABSTRACT
+This paper describes the building of a research library for studying 
+the Web, especially research on how the structure and content of the 
+Web change over time. The library is particularly aimed at 
+supporting social scientists for whom the Web is both a fascinating 
+social phenomenon and a mirror on society.
+The library is built on the collections of the Internet Archive, which 
+has been preserving a crawl of the Web every two months since 
+1996. The technical challenges in organizing this data for research 
+fall into two categories: high-performance computing to transfer and 
+manage the very large amounts of data, and human-computer 
+interfaces that empower research by non-computer specialists.
+
+Categories and Subject Descriptors
+H.3.7 [Information Storage and Retrieval]: Digital Libraries   
+collection, systems issues, user issues. J.4 [Social and Behavioral 
+Sciences]: sociology.
+
+General Terms
+Algorithms, Management, Measurement, Performance, Design, 
+Human Factors.

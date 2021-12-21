@@ -1,0 +1,18 @@
+Sparsha: A Comprehensive Indian Language Toolset for the Blind
+ABSTRACT
+Braille and audio feedback based systems have vastly improved the 
+lives of the visually impaired across a wide majority of the globe. 
+However, more than 13 million visually impaired people in the 
+Indian sub-continent could not benefit much from such systems. 
+This was primarily due to the difference in the technology required 
+for Indian languages compared to those corresponding to other 
+popular languages of the world. In this paper, we describe the 
+Sparsha toolset. The contribution made by this research has enabled 
+the visually impaired to read and write in Indian vernaculars with 
+the help of a computer.
+
+Categories and Subject Descriptors
+D.0 [Software] : General
+General Terms:
+Human Factors, Experimentation.
+

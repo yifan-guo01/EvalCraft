@@ -1,0 +1,34 @@
+Customers transact with government on line 
+by filling out forms and government responds by providing 
+confirmations, receipts, etc.
+Both the 
+desire to guarantee a certain level of privacy and the vulnerability 
+for misuse of data have been reasons for the legislator to limit 
+storage, reusing and sharing data between different agencies (not 
+to speak of passing data of citizens from the government to 
+private institutions).
+Bigne et al. [5] found that the scale used to determine the 
+perceived quality of the core services of hospitals, and 
+universities, is composed of five dimensions, as proposed by 
+Parasuraman et al. [28]: tangibility, reliability, responsiveness, 
+confidence and empathy.
+These measures focus mainly on components visible to users and 
+do not take into account back office components like integration.
+Aspects of service relevant in this context may, 
+according to Voss (2000) include: consumer perceptions of 
+security and levels of trust; response times (bearing in mind that 
+Internet consumers may well be accustomed to quick responses); 
+navigability of the Web site; download time; fulfillment of service 
+promised; timely updating of information; site effectiveness and 
+functionality.
+E government services must be permanently improved: even once 
+all government websites are fully functional, government should 
+still constantly aim to improve e government and consult target 
+groups about new services they might require, says the report.
+The
+nine service sectors researched were Human Services, Justice & 
+Public Safety, Revenue, Defence, Education, Transport & Motor 
+Vehicles, Regulation & Democracy, Procurement and Postal.
+Politicians do not always steer on rational grounds but suppose 
+they would then their control system (or policy making process 
+see figure 5) would include a comparison and control function.

@@ -1,0 +1,114 @@
+To copy otherwise, to
+republish, to post on servers or to redistribute to lists, requires prior specific
+permission and/or a fee.
+We can not use this idea because we would
+never be able to keep all machines busy (some machines can
+be very slow).
+It will be
+easier to deal with slowness, and so we shall use slowness
+instead of speed in the foregoing discussion.
+In other
+words, l
+k
+(t) is the highest value of l such that t
+M
+(j, l)  t.
+Observe that all machines of class l
+k
+(t) or less must be busy
+processing jobs of class at most c
+k
+(t) at time t, otherwise our
+algorithm should have dispatched j by time t.
+So the term
+c
+i
+(t)
+.
+m
+&lt;l
+i
+(t)
+is essentially saying that we charge 1/
+l
+amount to
+each machine of class l &lt; l
+i
+(t) during each time in (t
+i
+735
+x
+A
+(t), x
+O
+(t)
+Number of machines busy at time t in A, O.
+x
+A
+l
+(t), x
+O
+l
+(t)
+Number of machines of class l busy at time t in A, O.
+P
+A
+l
+(t
+1
+, t
+2
+), P
+O
+l
+(t
+1
+, t
+2
+)
+Total processing time incurred by machines of class l
+during (t
+1
+, t
+2
+) in
+A, O.
+m
+l
+, m
+l
+, m
+&lt;l
+Number of machines of class l, at most l, less than l.
+m
+(l
+1
+,l
+2
+)
+Number of machines of class between (and including) l
+1
+and l
+2
+.
+J(k, t)
+Set of jobs of class at most k which are waiting at time t in A.
+We would like to express our thanks to Gagan Goel, Vinayaka
+Pandit, Yogish Sabharwal and Raghavendra Udupa for useful
+discussions.
+Approximability and nonapproximability
+results for minimizing total flow time on a single
+machine.
+Since each job
+in J
+I
+is of size at most
+k
+, we see that at least (
+|M |) jobs
+are waiting at time t. Summing over all values of t in the
+range (t
+b
++ T /2, t
+e
+) implies the theorem.

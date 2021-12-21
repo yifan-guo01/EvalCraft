@@ -1,0 +1,6 @@
+IntString .
+This corresponds to the following goal for the inductive theorem prover, where A and B are variables of sort Term in the module META-LEVEL: meta-reduce( (mod'ARROW is including 'BOOL .
+subsort 'SentConstant < 'Formula .
+subsort 'Theorem < 'Formula .
+mb 'impl['A, 'impl['B, 'Theorem .
+subsort 'SentConstant < 'Formula .

@@ -1,8 +1,0 @@
-the rock - paper - scissors ( rps ) game is a widely used model system in game theory .
-evolutionary game theory predicts the existence of persistent cycles in the evolutionary trajectories of the rps game , but experimental evidence has remained to be rather weak . in this work
-we performed laboratory experiments on the rps game and analyzed the social - state evolutionary trajectories of twelve populations of @xmath0 players .
-we found strong evidence supporting the existence of persistent cycles .
-the mean cycling frequency was measured to be @xmath1 period per experimental round .
-our experimental observations can be quantitatively explained by a simple non - equilibrium model , namely the discrete - time logit dynamical process with a noise parameter .
-our work therefore favors the evolutionary game theory over the classical game theory for describing the dynamical behavior of the rps game .
-rock - paper - scissors game ; cycle ; social state ; population dynamics ; evolutionary trajectory

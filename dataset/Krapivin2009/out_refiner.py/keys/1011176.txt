@@ -1,0 +1,10 @@
+dynamic term
+type nat
+denotational rule
+dynamic semantics
+base case
+dynamic function
+denotational model
+correctness proof
+level language
+syntactic interpretation

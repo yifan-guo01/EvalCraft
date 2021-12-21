@@ -1,0 +1,18 @@
+FBRAM: A new Form of Memory Optimized for 3D Graphics
+ABSTRACT
+FBRAM, a new form of dynamic random access memory that
+greatly accelerates the rendering of Z-buffered primitives, is presented
+. Two key concepts make this acceleration possible. The first
+is to convert the read-modify-write Z-buffer compare and RGB
+
+blend into a single write only operation. The second is to support
+two levels of rectangularly shaped pixel caches internal to the memory
+chip. The result is a 10 megabit part that, for 3D graphics, performs
+read-modify-write cycles ten times faster than conventional
+60 ns VRAMs. A four-way interleaved 100 MHz FBRAM frame
+buffer can Z-buffer up to 400 million pixels per second. Working
+FBRAM prototypes have been fabricated.
+CR Categories and Subject Descriptors: I.3.1 [Computer Graphics
+]: Hardware Architecture; I.3.3 [Computer Graphics]: Picture/
+Image Generation Display algorithms; I.3.7 [Computer Graphics]:
+Three Dimensional Graphics and Realism.

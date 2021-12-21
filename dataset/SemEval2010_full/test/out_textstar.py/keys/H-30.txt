@@ -1,0 +1,10 @@
+Proc
+syntactic
+query
+document
+based
+set
+term
+model
+feature
+concept

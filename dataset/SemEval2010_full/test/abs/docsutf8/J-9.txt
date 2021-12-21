@@ -1,0 +1,52 @@
+Computation in a Distributed Information Market∗
+Joan Feigenbaum
+†
+Yale University
+Department of Computer Science
+New Haven, CT 06520
+feigenbaum@cs.yale.edu
+Lance Fortnow
+NEC Laboratories America
+4 Independence Way
+Princeton, NJ 08540
+fortnow@nec-labs.com
+David M. Pennock
+‡
+Overture Services, Inc.
+74 N. Pasadena Ave, 3rd floor
+Pasadena, CA 91103
+david.pennock@overture.com
+Rahul Sami
+§
+Yale University
+Department of Computer Science
+New Haven, CT 06520
+sami@cs.yale.edu
+ABSTRACT
+According to economic theory-supported by empirical and
+laboratory evidence-the equilibrium price of a financial 
+security reflects all of the information regarding the security"s
+value. We investigate the computational process on the path
+toward equilibrium, where information distributed among
+traders is revealed step-by-step over time and incorporated
+into the market price. We develop a simplified model of an
+information market, along with trading strategies, in order
+to formalize the computational properties of the process.
+We show that securities whose payoffs cannot be expressed
+as weighted threshold functions of distributed input bits are
+not guaranteed to converge to the proper equilibrium 
+predicted by economic theory. On the other hand, securities
+whose payoffs are threshold functions are guaranteed to 
+converge, for all prior probability distributions. Moreover, these
+threshold securities converge in at most n rounds, where n
+is the number of bits of distributed information. We also
+prove a lower bound, showing a type of threshold security
+that requires at least n/2 rounds to converge in the worst
+case.
+Categories and Subject Descriptors
+F.m [Theory of Computation]: Miscellaneous; J.4 
+[Computer Applications]: Social and Behavioral 
+SciencesEconomics; C.2.4 [Computer Systems Organization]:
+Computer-Communication Networks-Distributed Systems
+General Terms
+Economics, Theory

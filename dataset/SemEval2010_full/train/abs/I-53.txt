@@ -1,0 +1,39 @@
+A Randomized Method for the Shapley Value
+for the Voting Game
+Shaheen S. Fatima
+Department of
+Computer Science,
+University of Liverpool
+Liverpool L69 3BX, UK.
+shaheen@csc.liv.ac.uk
+Michael Wooldridge
+Department of
+Computer Science,
+University of Liverpool
+Liverpool L69 3BX, UK.
+mjw@csc.liv.ac.uk
+Nicholas R. Jennings
+School of Electronics and
+Computer Science
+University of Southampton
+Southampton SO17 1BJ, UK.
+nrj@ecs.soton.ac.uk
+ABSTRACT
+The Shapley value is one of the key solution concepts for 
+coalition games. Its main advantage is that it provides a unique and fair
+solution, but its main problem is that, for many coalition games,
+the Shapley value cannot be determined in polynomial time. In
+particular, the problem of finding this value for the voting game is
+known to be #P-complete in the general case. However, in this 
+paper, we show that there are some specific voting games for which
+the problem is computationally tractable. For other general voting
+games, we overcome the problem of computational complexity by
+presenting a new randomized method for determining the 
+approximate Shapley value. The time complexity of this method is linear
+in the number of players. We also show, through empirical studies,
+that the percentage error for the proposed method is always less
+than 20% and, in most cases, less than 5%.
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence]: Multiagent Systems
+General Terms
+Algorithms, Design, Theory

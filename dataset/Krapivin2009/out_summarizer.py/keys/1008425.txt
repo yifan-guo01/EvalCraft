@@ -1,0 +1,10 @@
+base algorithm
+time t
+job length
+other schedule
+first case
+firm deadline
+problem instance
+possible gain
+various notification model
+Delta

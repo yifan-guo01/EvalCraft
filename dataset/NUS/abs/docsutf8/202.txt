@@ -1,0 +1,21 @@
+TypeCase: A Design Pattern for Type-Indexed Functions
+Abstract
+A type-indexed function is a function that is defined for each
+member of some family of types. Haskell's type class mechanism
+provides collections of open type-indexed functions, in which
+the indexing family can be extended by defining a new type class
+instance but the collection of functions is fixed. The purpose of this
+paper is to present TypeCase: a design pattern that allows the definition
+of closed type-indexed functions, in which the index family
+is fixed but the collection of functions is extensible. It is inspired
+by Cheney and Hinze's work on lightweight approaches to generic
+programming. We generalise their techniques as a design pattern
+. Furthermore, we show that type-indexed functions with type-indexed
+types, and consequently generic functions with generic
+types, can also be encoded in a lightweight manner, thereby overcoming
+one of the main limitations of the lightweight approaches.
+Categories and Subject Descriptors
+D.3.3 [Programming Languages
+]: Language Constructs and Features
+General Terms
+Languages

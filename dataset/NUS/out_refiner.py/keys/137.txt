@@ -1,0 +1,10 @@
+time t
+machine busy
+class l
+line algorithm
+case class
+denote
+l process job
+p will
+charge machine
+web server

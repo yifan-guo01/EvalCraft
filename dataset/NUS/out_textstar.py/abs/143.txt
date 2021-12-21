@@ -1,0 +1,20 @@
+Actually, to keep things simple, we shall assume throughout
+the paper that ~
+y is empty, thereby dealing with universally
+quantified constraints.
+We assume that
+queries over
+RS = ,  are Unions of Conjunctive Queries
+(UCQs), i.e., formulas of the form
+{~x | ~y
+1
+.
+Indeed, we can guess in NP a source instance
+D, build in polynomial time a model B for P w.r.t.
+Actually, we can do much better.
+A
+logic programming approach to the integration,
+repairing and querying of inconsistent databases.
+In
+Proc.
+of ICLP'01, pages 348 364.

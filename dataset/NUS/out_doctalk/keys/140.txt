@@ -1,0 +1,10 @@
+sensor
+epidemic
+probability
+propose scheme
+infection
+simulation time
+smaller value
+key distribution
+network parameter
+wireless communication

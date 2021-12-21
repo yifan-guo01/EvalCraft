@@ -1,0 +1,4 @@
+The \Sigma-topology on the lattice is defined as the collection of all upward closed subsets U ' jLj such that The collection of all such subsets is denoted by \Sigma L .
+Thus, Equ is a cocomplete category.
+Consider a type-in-context (I; A; (X ).
+Discussion.

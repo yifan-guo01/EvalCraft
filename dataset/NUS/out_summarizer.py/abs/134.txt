@@ -1,0 +1,51 @@
+Research labs armed with microarrays have been able to
+partake in a range of studies, including finding gene function
+[35; 36; 37]; correcting mistaken database annotations
+[36; 7]; performing linkage analyses; determining specific
+genes involved in biological pathways; identifying genes that
+are important at certain times of development (or that are
+turned on/off over a course of treatment); elucidating gene
+regulatory networks [13]; diagnosing disease in tissue sam Figure
+1: The relationship between low level and high level
+microarray analysis.
+In contrast to these so called high level problems, low level
+microarray analysis [19] is concerned with the preceding step
+in the microarray assay cycle (Figure 1)   given raw data
+straight from a scanner which has no direct biological interpretation
+, clean and summarize this data to produce the
+biologically meaningful parameter estimates (such as expression
+level estimates) that are later used in high level analyses
+.
+In our view, classical statistics is generative
+, dealing with relatively low dimensional data and parameter
+spaces, while machine learning is often discriminative
+in nature and explicitly addresses computational issues
+in high dimensional data analysis.
+The story is not all good. [10] tells us that while unlabeled
+data may be useful, labeled examples are exponentially more
+valuable in a suitable sense. [43] tells us that unlabeled data
+may lead the transductive SVM to maximize the wrong margin
+, and in [42] it is shown that unlabeled data may in fact
+degrade classifier performance under certain conditions relating
+the risk and empirical risk.
+The ROC Convex Hull
+method, on the other hand, relates expected cost optimality
+to conditions on relative misclassification cost and class size,
+so that the typical case of semi dominance (as in Figure 3)
+can be handled in a principled way   rather than selecting
+p value thresholds by hand, end users are provided with the
+right classifier and thresholds by the method.
+A simple unsupervised approach to training a genotyper
+is to ignore available labels during training, instead using
+these labels to subsequently assess the trade off between accuracy
+and no call rate for the trained model.
+While Low level Problem 5 focuses on the determination of
+genotype at a position known in advance to be polymorphic,
+the problem described in this section concerns locating such
+polymorphic sites in the first place.
+It is often the case
+that, based on previous research, an investigator will be interested
+in detailed study of variation in a particular genomic
+region (say on the order of tens or hundreds of kilo bases
+) and wants to re sequence this region in a large number
+of individuals.

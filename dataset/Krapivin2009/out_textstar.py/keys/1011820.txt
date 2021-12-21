@@ -1,0 +1,10 @@
+server
+protocol
+ideal
+message
+key
+real
+ID
+system
+con
+value

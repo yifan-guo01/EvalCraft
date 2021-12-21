@@ -1,0 +1,38 @@
+Video-Streaming for Fast Moving Users in 3G Mobile Networks
+ABSTRACT
+The emergence of third-generation (
+3G) mobile networks offers
+new opportunities for the effective delivery of data with rich content
+including multimedia messaging and video-streaming. Provided
+that streaming services have proved highly successful over
+stationary networks in the past, we anticipate that the same trend
+will soon take place in
+3G networks. Although mobile operators
+currently make available pertinent services, the available resources
+of the underlying networks for the delivery of rich data remain in-herently
+constrained. At this stage and in light of large numbers
+of users moving fast across cells,
+3G networks may not be able
+to warrant the needed quality-of-service requirements. The support
+for streaming services necessitates the presence of content or media
+servers properly placed over the
+3G network; such servers essen-tially
+become the source for streaming applications. Evidently, a
+centralized approach in organizing streaming content might lead to
+highly congested media-nodes which in presence of moving users
+will certainly yield increased response times and jitter to user requests
+. In this paper, we propose a workaround that enables
+3G networks
+to offer uninterrupted video-streaming services in the presence
+of a large number of users moving in high-speed. At the same
+time, we offer a distributed organization for the network's media-servers
+to better handle over-utilization.
+Categories and Subject Descriptors
+H.3.4 [Systems and Software]: Information networks; H.3.5
+[Online Information Services]: Data sharing; C.2.4 [Distributed
+Systems
+]: Distributed applications
+
+General Terms
+Algorithms, Design, Performance
+

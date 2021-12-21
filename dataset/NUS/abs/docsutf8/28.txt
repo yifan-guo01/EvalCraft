@@ -1,0 +1,26 @@
+An Adaptive Information Retrieval System based on Associative Networks
+Abstract
+In this paper we present a multilingual information
+retrieval system that provides access to Tourism information
+by exploiting the intuitiveness of natural
+language. In particular, we describe the knowledge
+representation model underlying the information retrieval
+system.
+This knowledge representation approach
+is based on associative networks and allows the
+definition of semantic relationships between domain-intrinsic
+information items. The network structure
+is used to define weighted associations between information
+items and augments the system with a
+fuzzy search strategy. This particular search strategy
+is performed by a constrained spreading activation
+algorithm that implements information retrieval
+on associative networks. Strictly speaking, we take
+the relatedness of terms into account and show, how
+this fuzzy search strategy yields beneficial results and,
+moreover, determines highly associated matches to
+users' queries. Thus, the combination of the associative
+network and the constrained spreading activation
+approach constitutes a search algorithm that evaluates
+the relatedness of terms and, therefore, provides
+a means for implicit query expansion.

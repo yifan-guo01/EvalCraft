@@ -1,0 +1,8 @@
+Due to the 156 G A C G G A T T A G G A T C G G A A T A G +1 +1 −2 +1 +1 +1 +1 −1 +1 +1 +1 Σ = 6 Figure 1: Example of an alignment with score 6 current growth rate, these databases will soon achieve terabytes.
+Sensitivity is the rate at which the method fails to identify similar sequences whereas sensibility is the rate at which the method identifies sequences that are not similar [7].
+A(s, N, S) = max N 1 − 1 S s−1 S , 1 , s > 0 (8) 3.7 Factoring (FAC2) FAC2 allocates work units in cycles consisting of S allocation sequences.
+We opted to replicate the segmented database in every slave grid node to improve data accesses times and to provide a potential for fault tolerance.
+BLAST receives MASTER Strategies Allocation Work units Generate Work Units Distribute Reports Generate work units (to slaves)reports searches Figure 3: PackageBLAST architecture.
+Finally, the module Generate Reports obtains the intermediary outputs sent by the slave nodes through file transfer and merges them into a single BLAST output report.
+The slave processes τ database segments and notifies the master, which uses the last Ω notifications to compute the next allocation block size based on the selected allocation strategy and the weight provided by PSS.
+To evaluate PSS, we executed PackageBLAST with 16 grid nodes, introducing local workload in nodes L01, L02, P01 and P02.

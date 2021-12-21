@@ -1,0 +1,8 @@
+Typical solutions include expanding either document or query representation [19][35] by exploiting different resources [24][31], using word sense disambiguation [25], etc.
+Domain model specifies yet another type of useful information: it reflects a set of specific background terms for a domain, for example pollution, rain, greenhouse, etc. for the domain of Environment.
+The EM algorithm is used to extract the domain model Domθ that maximizes P(Dom| θ"Dom) (where Dom is the set of documents in the domain), that is: ( ) ( ) ( ) ( )[ ] ( ) ∏ ∏∈ ∈ +−= = DomD Dt Dtc CDom DomDom tPtP DomP Dom Dom ; ' ||1maxarg |maxarg θηθη θθ θ θ (6) This is the same process as the one used to extract feedback model in [35].
+The score depending on the domain model is then as follows: ∑∈ = Vt D Dom QDom tPtPDQScore )|(log)|(),( θθ (8) Although the above equation requires using all the terms in the vocabulary, in practice, only the strongest terms in the domain model are useful and the terms with low probabilities are often noise.
+The two terms in the condition should appear at least certain time together in the collection (10 in our case) and they should be related.
+The score according to the Knowledge model is then defined as follows: ∑ ∑∈ ∈ = Vt DiQkQjkj Qtt iK i kj tPtPtPtttPDQScore )|(log)|()|()|(),( 00 )( θθθ (11) Again, only the top 100 expansion terms are used.
+An analysis immediately shows the reason: a domain model (in the way we created) only captures term distribution in the domain.
+Looking at the mixture weights, which may reflect the importance of each model, we observed that the best settings in all the collections vary in the following ranges: 0.1≤α0 ≤0.2, 0.1≤αDom ≤0.2, 0.1≤αK ≤0.2 and 0.5≤αF ≤0.6.

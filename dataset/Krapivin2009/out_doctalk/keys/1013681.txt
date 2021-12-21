@@ -1,0 +1,10 @@
+time
+target
+adversary
+player
+strategy
+job
+line problem
+competitive ratio
+probability
+suppressor gene

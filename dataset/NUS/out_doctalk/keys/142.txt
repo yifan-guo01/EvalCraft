@@ -1,0 +1,10 @@
+database
+record
+policy
+privacy security
+function
+bit
+value
+retriever
+first page
+construction

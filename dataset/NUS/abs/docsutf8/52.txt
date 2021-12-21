@@ -1,0 +1,19 @@
+Catenaccio: Interactive Information Retrieval System through Drawing
+ABSTRACT
+The Catenaccio system integrates information retrieval with 
+sketch manipulations. The system is designed especially for pen-based
+computing and allows users to retrieve information by 
+simple pen manipulations such as drawing a picture. When a user 
+draws a circle and writes a keyword, information nodes related to 
+the keyword are collected automatically inside the circle. In 
+addition, the user can create a Venn diagram by repeatedly 
+drawing circles and keywords to form more complex queries. 
+Thus, the user can retrieve information both interactively and 
+visually without complex manipulations. Moreover, the sketch 
+interaction is so simple that it is possible to combine it with other 
+types of data such as images and real-world information for 
+information retrieval. In this paper, we describe our Catenaccio 
+system and how it can be effectively applied.
+CR Categories: I.3.6 [Computer Graphics]: Methodology and 
+Techniques   Interaction Techniques; I.3.4 [Computer Graphics]: 
+Graphics Utilities   Software support

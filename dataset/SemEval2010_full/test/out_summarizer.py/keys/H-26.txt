@@ -1,0 +1,10 @@
+rank function
+cost function
+relevant document
+map score
+TREC
+retrieval method
+map performance
+model map
+query x
+plane algorithm

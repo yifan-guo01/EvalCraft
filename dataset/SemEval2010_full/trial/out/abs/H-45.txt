@@ -1,0 +1,8 @@
+Results show that our prediction of web query performance is substantially more accurate than the current stateof the art prediction techniques .
+Despite these problems , the ability to handle this situation is a crucial step towards turning query performance prediction from an interesting research topic into a practical tool for web retrieval .
+This model is used to estimate the joint probability distribution over documents and queries , an important part of WIG .
+4.1 Experimental Setup Our evaluation focuses on the GOV2 collection which contains about 25 million documents crawled from web sites in the .
+We adopt the Pearson " s correlation test which reflects the degree of linear relationship between the predicted and the actual retrieval performance .
+For the clarity and robustness score , we have tried different parameter settings and report the highest correlation coefficients we have found .
+When combining WIG and QF , a simple linear combination is used and the combination weight is learned from the training data set .
+For example , our techniques can be incorporated to popular query modification techniques such as query expansion and query relaxation .

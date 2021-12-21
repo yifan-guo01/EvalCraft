@@ -1,0 +1,8 @@
+database record
+query attribute
+attribute value
+database access
+obfuscation algorithm
+database privacy
+jth share
+monotone circuit

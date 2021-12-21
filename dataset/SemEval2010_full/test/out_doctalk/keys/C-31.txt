@@ -1,0 +1,10 @@
+node
+file
+document
+peer
+system
+index
+indexing
+network user
+use jxta
+distribute process

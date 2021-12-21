@@ -1,0 +1,8 @@
+INTRODUCTION Context awareness is a key concept in pervasive computing .
+For example , different sensors report that the same person is in different places at the same time .
+Negotiator may find current offer and reward worth more than counter offer which will delay the agreement , and accepts current offer and reward .
+This pervasive negotiation is effective in repeated interaction because arguments can be constructed to directly impact future encounters .
+Because numerical distance values of different properties are combined , e.g. location precision in metres with refresh rate in Hz , thus a standard scale for all dimension is needed .
+EVALUATION In this section , we evaluate the effectiveness of our approach by simulated experiments .
+They characterize various types and sources of imperfect context information and present a set of novel context modelling constructs .
+The framework supports inconsistency detection based on a semantic matching and inconsistency triggering model , and inconsistency resolution with proactive actions to context sources .

@@ -1,0 +1,10 @@
+exposure
+target
+number
+weight path
+probability
+cost
+distribute detection
+equal weight
+specific region
+Systems application

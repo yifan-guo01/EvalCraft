@@ -1,0 +1,10 @@
+Remark
+Proof
+relation
+type
+equation
+Lemma
+example
+solution
+free
+powerset

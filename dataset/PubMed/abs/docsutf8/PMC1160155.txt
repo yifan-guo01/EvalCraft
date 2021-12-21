@@ -1,5 +1,0 @@
-orfpredictor is a web server designed for identifying protein - coding regions in expressed sequence tag ( est)-derived sequences . for query sequences with a hit in blastx ,
-the program predicts the coding regions based on the translation reading frames identified in blastx alignments , otherwise , it predicts the most probable coding region based on the intrinsic signals of the query sequences .
-the output is the predicted peptide sequences in the fasta format , and a definition line that includes the query i d , the translation reading frame and the nucleotide positions where the coding region begins and ends .
-orfpredictor facilitates the annotation of est - derived sequences , particularly , for large - scale est projects .
-orfpredictor is available at .

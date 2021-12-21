@@ -1,0 +1,8 @@
+INTRODUCTION Personalization is the future of the Web , and it has achieved great success in industrial applications .
+One major personalization topic studied in the information retrieval community is content based personal recommendation systems1 .
+These systems learn user specific profiles from user feedback so that they can recommend information tailored to each individual user " s interest without requiring the user to make an explicit query .
+There has been much research on improving classification accuracy when the amount of labeled training data is small .
+The effectiveness of these different approaches is mixed , due to how well the underlying model assumption fits the data .
+The organization of the remaining parts of this paper is as follows : Section 3 describes the Bayesian hierarchical linear regression modeling framework used for content based recommendations .
+Content based filtering studies the scenario where a recommendation system monitors a document stream and pushes documents that match a user profile to the corresponding user .
+CONCLUSION Content based user profile learning is an important problem and is the key to providing personal recommendations to a user , especially for recommending new items with a small number of ratings .

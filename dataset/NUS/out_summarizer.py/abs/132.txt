@@ -1,0 +1,77 @@
+Citing
+end user difficulty in finding governmental information
+(especially statistical data) online, the project seeks to create
+an integrated model of user access to US government
+statistical information that is rooted in realistic data models
+and innovative user interfaces.
+The starting point of this work is the notion that access
+to information in the BLS website could be improved by
+the addition of a dynamic interface such as the relation
+browser described by Marchionini and Brunk [13].
+Altogether, the link structure of this classificatory
+system contains 65 documents; that is, excluding
+navigational links, there are 65 documents linked from the
+BLS home page, where each hyperlink connects a document
+to a topic (pages can be linked to multiple topics).
+This metric stemmed
+from a desire to suppress the common result where one large
+cluster emerges from the k means algorithm, accompanied
+by several accordingly small clusters.
+Comparing the proportion right and
+Table 3: Keyword Based Clusters
+benefits
+costs
+international
+jobs
+plans
+compensation
+import
+employment
+benefits
+costs
+prices
+jobs
+employees
+benefits
+petroleum
+youth
+occupations
+prices
+productivity
+safety
+workers
+prices
+productivity
+safety
+earnings
+index
+output
+health
+operators
+inflation
+nonfarm
+occupational
+spending
+unemployment
+expenditures
+unemployment
+consumer
+mass
+spending
+jobless
+wrong achieved by keyword and title based clustering led to
+p
+0.001.
+The ten keyword based clusters
+are shown in Table 3, represented by the three terms most
+highly associated with each cluster, in terms of the log odds
+ratio.
+In particular
+, the augmented model is significantly inferior to the
+model trained solely on Editor's Desk documents if we concern
+ourselves only with documents selected by the majority
+of human reviewers  i.e. only first choice classes.
+Finally, then, in future work we will build
+on the user studies undertaken by Marchionini and Brunk
+in efforts to evaluate the utility of automatically populated
+dynamic interfaces for the users of digital libraries.

@@ -1,0 +1,18 @@
+Towards Reasonability Properties for Access-Control Policy Languages
+ABSTRACT
+The growing importance of access control has led to the definition
+of numerous languages for specifying policies. Since
+these languages are based on different foundations, language
+users and designers would benefit from formal means to compare
+them. We present a set of properties that examine the
+behavior of policies under enlarged requests, policy growth,
+and policy decomposition. They therefore suggest whether
+policies written in these languages are easier or harder to reason
+about under various circumstances. We then evaluate
+multiple policy languages, including XACML and Lithium,
+using these properties.
+Categories and Subject Descriptors
+D.4.6 [Operating Systems]: Security and Protection--Access
+Controls
+General Terms
+Languages, Security

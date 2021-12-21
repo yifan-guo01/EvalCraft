@@ -1,0 +1,7 @@
+For example, if the event type John-tie-his-shoelace were operated on by the progressive aspect, we would obtain the proposition Prog(John-tie-his-shoelace), meaning that en event of type 'John-tie-his-shoelace' is in progress.
+We would read this as 'John is tying his shoelace'.
+On the one hand it seems that l and a are dierent kinds of event, since a token of l might cause John's leg to become sti, whereas a token of a could not.
+However, on the other hand, it seems reasonable that a token of type la is also a token of l and a token of a, since these are just less specic descriptions of a particular occurrence described by la.
+Thus, fc; g refers to the class of individuals which is picked out by fc at time point  (on the actual history).
+(8fboy; 1960g; x)[fman; 1999g[x]].
+However, if we keep our cool and apply standard a Henkin- style approach the problem appears to present no insurmountable diculty.

@@ -1,0 +1,10 @@
+document
+engine
+pruning
+result
+size
+search algorithm
+relevant information
+policy
+indicator function
+sec user

@@ -1,0 +1,9 @@
+basis function
+advection equation
+source eld
+completion eld
+Gaussian basis
+function vector
+invariant computation
+new algorithm
+straight line completion

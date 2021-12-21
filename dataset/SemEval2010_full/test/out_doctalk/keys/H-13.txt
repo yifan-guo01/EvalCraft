@@ -1,0 +1,10 @@
+query
+feature
+page
+snippet
+user
+clickthrough
+term
+web
+termmatchtitle title
+queryphrasematch url

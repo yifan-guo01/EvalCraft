@@ -1,0 +1,10 @@
+application
+processor
+node
+adaptation
+cluster
+performance
+run
+overhead
+efficiency
+Emax

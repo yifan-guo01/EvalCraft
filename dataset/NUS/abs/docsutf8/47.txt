@@ -1,0 +1,26 @@
+Broadcasting Information via Display Names in Instant Messaging
+ABSTRACT
+Many instant messenger (IM) clients let a person specify  the 
+identifying  name that appears in another person's contact list. 
+We have noticed that many people add extra information to this 
+name as a way to broadcast information to their contacts. 
+Twelve IM contact lists  comprising 444 individuals  were 
+monitored over three weeks  to  observe  how  these individuals 
+used and altered  their  display names.  Almost half of them 
+changed their display names at varying frequencies, where the 
+new information fell into seventeen different categories  of 
+communication supplied to others. Three themes encompass 
+these categories:  Identification ("who am I"?),  Information 
+About Self ("this is what is going on with me") and Broadcast 
+Message ("I am directing information to the community").  The 
+design implication is that systems supporting person to person 
+casual interaction, such as IM, should explicitly include facilities 
+that allow people to broadcast these types of information to their 
+community of contacts.
+
+Categories and Subject Descriptors
+K.4.3 [Computers and Society]: Organizational Impacts - 
+Computer-supported collaborative work.
+
+General Terms
+Design, Experimentation, Human Factors.

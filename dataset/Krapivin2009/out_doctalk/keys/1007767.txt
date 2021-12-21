@@ -1,0 +1,10 @@
+point
+distance
+clustering problem
+result graph
+running time
+high probability
+proximity table
+naive approach
+problem mst
+set datum

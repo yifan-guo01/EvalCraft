@@ -1,0 +1,10 @@
+query frequent
+query answer
+query term frequency
+static cache
+posting list
+caching query
+cache size caching
+query distribution
+time approach
+term frequency

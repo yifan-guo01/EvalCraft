@@ -1,0 +1,10 @@
+type
+term
+static
+dynamic
+model
+semantics
+PCF
+CPO
+lift
+interpretation

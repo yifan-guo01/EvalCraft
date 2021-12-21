@@ -1,0 +1,10 @@
+available sensor
+minimum exposure
+agreement number
+weight path
+probability density
+target detection
+false target detection
+region coverage
+sensor deployment
+density function

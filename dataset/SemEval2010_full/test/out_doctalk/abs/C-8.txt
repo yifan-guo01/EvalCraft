@@ -1,0 +1,8 @@
+To effectively and efficiently support existing and new applications , we must continue to improve the capability and quality of OT in solving both old and new problems .
+The soundness of the theoretical foundation for OT is crucial in this process .
+To illustrate causal relations among operations , consider a real time group editing session with two sites in Figure 1 .
+Different OT systems may have different control algorithms , different transformation functions , and different divisions of responsibilities among these components .
+This new concept of operation context is independent of the underlying operation buffering strategy and is explicitly represented as an operation set .
+The ability to solve all known puzzles is a necessary condition and an important indicator of the soundness of an OT system .
+In real OT system design , however , a real implementation and comprehensive testing cases based on complex puzzle scenarios are crucial in validating a design .
+Acknowledgments The authors are grateful to Bo Begole and anonymous reviewers for their valuable comments and suggestions which have helped improve the presentation of the paper .

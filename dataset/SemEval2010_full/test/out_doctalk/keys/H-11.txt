@@ -1,0 +1,10 @@
+design
+algorithm
+learning
+loss function
+label information
+optimization problem
+covariance matrix
+user feedback
+select point
+retrieval system

@@ -1,0 +1,10 @@
+category
+space
+object
+relation
+ALat
+fg
+set
+fu
+Theorem
+function

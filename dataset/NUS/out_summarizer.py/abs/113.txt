@@ -1,0 +1,95 @@
+While boundaries are blurred, most online networking
+sites share a core of features: through the site an individual
+offers a "profile"   a representation of their sel[ves] (and,
+often, of their own social networks)   to others to peruse,
+with the intention of contacting or being contacted by others
+, to meet new friends or dates (Friendster,
+3
+Orkut
+4
+), find
+new jobs (LinkedIn
+5
+), receive or provide recommendations
+(Tribe
+6
+), and much more.
+Second, while the number of strong ties that a person
+may maintain on a social networking site may not be significantly
+increased by online networking technology, Donath
+and Boyd note that "the number of weak ties one can
+form and maintain may be able to increase substantially,
+because the type of communication that can be done more
+cheaply and easily with new technology is well suited for
+these ties" [9] (p. 80).
+We note that information revelation can
+work in two ways: by allowing another party to identify a
+pseudonymous profile through previous knowledge of a sub ject's
+characteristics or traits; or by allowing another party
+to infer previously unknown characteristics or traits about a
+subject identified on a certain site.
+In an interview,
+Tribe.net CEO Mark Pincus noted that "[s]ocial networking
+has the potential to create an intelligent order in the current
+chaos by letting you manage how public you make yourself
+and why and who can contact you." [4].
+At the time of writing, the geography feature which gen 17
+18 19 20 21 22 23 24 25 26 27 28 29 30 31
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+Age
+Percentage of Profiles
+Male
+Female
+Figure 1:
+Age distribution of Facebook profiles at CMU.
+Single male
+users tend to report their phone numbers in even higher frequencies
+, thereby possibly signalling their elevated interest
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Summer Job
+Favorite Movies
+Favorite Books
+Favorite Music
+Interests
+Political Preference
+Relationship Partner
+Relationship Status
+Dating Interests
+Highschool
+AIM Screenname
+Phone
+Address
+Home Town
+Birthday
+Profile Image
+Percentage of Profiles
+Figure 2:
+Percentages of CMU profiles revealing various
+types of personal information.
+However, in certain instances we observed friends
+posting birthday wishes in the comments section of the profile
+of a user on the day that had been reported by the user
+as her birthday.
+The next
+two digits are group identifiers, which are assigned according
+to a peculiar but predictable temporal order.

@@ -1,0 +1,31 @@
+Through Different Eyes - Assessing Multiple Conceptual Views for Querying Web Services
+ABSTRACT
+We present enhancements for UDDI / DAML-S registries allowing
+cooperative discovery and selection of Web services with a 
+focus on personalization. To find the most useful service in each 
+instance of a request, not only explicit parameters of the request 
+have to be matched against the service offers. Also user preferences
+or implicit assumptions of a user with respect to common 
+knowledge in a certain domain have to be considered to improve 
+the quality of service provisioning. In the area of Web services 
+the notion of service ontologies together with cooperative answering
+techniques can take a lot of this responsibility. However, 
+without quality assessments for the relaxation of service requests 
+and queries a personalized service discovery and selection is virtually
+impossible. This paper focuses on assessing the semantic 
+meaning of query relaxation plans over multiple conceptual views 
+of the service ontology, each one representing a soft query constraint
+of the user request. Our focus is on the question what constitutes
+a minimum amount of necessary relaxation to answer each 
+individual request in a cooperative manner. Incorporating such 
+assessments as early as possible we propose to integrate ontology-based
+discovery directly into UDDI directories or query facilities 
+in service provisioning portals. Using the quality assessments 
+presented here, this integration promises to propel today's Web 
+services towards an intuitive user-centered service provisioning.
+Categories and Subject Descriptors
+H.3.5 [Information Storage and Retrieval]: Online Information 
+Services- Web-based services.
+
+General Terms
+Algorithms, Human Factors, Design.

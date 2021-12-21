@@ -1,0 +1,8 @@
+8: if C(Ri ∪ fm) < C(Ri) then 9: Ri ← fm and HH = HH − fm.
+10: else 11: break while.
+First story detection in tdt is hard.
+In CIKM, pages 374 381, 2000.
+In VLDB, pages 181 192, 2005.
+In ER, pages 168 181, 2006.
+Text classification and named entities for new event detection.
+In SIGIR, pages 297 304, 2004.

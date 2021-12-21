@@ -1,0 +1,3 @@
+Below we outline the OCC protocol [3].
+The goal of the failover protocol is to reconfigure the BuddyCache in the case of a node failure, so that the failure of one node does not disrupt other clients from accessing shared objects.
+Moreover, the failure of the redirector should allow unaffected clients to keep their caches intact.

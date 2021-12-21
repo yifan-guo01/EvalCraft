@@ -1,0 +1,8 @@
+The resulting architecture was one that could service simultaneously multiple , potentially conflicting goals in a reactive fashion , giving precedence to high priority goals .
+Because of its realization in hardware , the architecture lacks declarativeness , making it difficult to implement higher - level reasoning and making its semantics unclear .
+Furthermore , the increasing hardware complexity with new layers introduces scaling problems .
+Then , we describe our representation for the first two layers of Brooks ' system and describe how subsumption and the general operation of the system can be implemented using theorem proving and negation - as - failure techniques .
+We give formal semantics to our approach using circum - scription , discuss implementation issues and conclude with comparisons to related work and a sketch of future directions .
+This focus on simplicity led to a design where each individual layer is composed of simple state machine modules operating asynchronously without any central control .
+The motivations for nonmonotonic reasoning vary from formalizing Common Sense reasoning through Elaboration Tolerance and representing uncertainty to Belief Revision .
+3.2 The architecture Behavioral decomposition The first important idea we borrow from Brooks ' architecture is that of decomposing the domain along behavioral lines rather than along the standard sequential functional lines .

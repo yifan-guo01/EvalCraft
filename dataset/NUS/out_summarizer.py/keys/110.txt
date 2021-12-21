@@ -1,0 +1,10 @@
+index performance
+query trajectory q.
+similarity estimate
+query trajectory
+size time ratio
+trajectory length
+time warping
+bounding envelope
+sequence a
+greedy split mbr

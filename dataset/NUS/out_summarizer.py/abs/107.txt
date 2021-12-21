@@ -1,0 +1,35 @@
+PLT
+Scheme [9] offers at least five such languages: one for formatting
+console output; two for regular expression matching; one for sending
+queries to a SQL server; and one for laying out HTML pages.
+As a result the analysis cannot predict certain categories of
+runtime errors, as shown in Figure 2.
+The application of
+format
+is
+not underlined as an error, even though its arguments appear in the
+wrong order and the analysis correctly computes the types of both
+c
+and
+n
+.
+Once flow sensitive analysis of
+if
+ expressions is added and
+pseudo type descriptions of the necessary primitives are provided
+to the analysis, partial evaluation makes all the false positives described
+in Section 3 disappear, as we illustrate in the next section.
+Danvy [7] and Hinze [14] suggest implementations of
+printf
+in
+ML and Haskell, respectively, that obviate the need for dependent
+types by recasting the library in terms of individual combinators.
+Hudak [15], Elliott et al [8], Backhouse [5], Christensen [6], and
+Veldhuizen [27] all discuss the use of partial evaluation to improve
+the efficiency of embedded languages, although none makes the
+connection between partial evaluation and static analysis.
+We thank Matthias Felleisen, Mitchell Wand, and Kenichi Asai for
+the discussions that led to this work and for their helpful feedback
+.
+Thanks to Dale Vaillancourt for proofreading
+the paper and to Ryan Culpepper for his macrological wizardry.

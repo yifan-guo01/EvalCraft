@@ -1,0 +1,10 @@
+algorithm
+weight
+set
+step
+denote
+cost
+input
+assignment
+probability
+time

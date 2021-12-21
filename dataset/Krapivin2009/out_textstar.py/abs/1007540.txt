@@ -1,0 +1,7 @@
+Our experiments (Section evaluate another domain: controllers for autonomous robots in a combat simulation.
+Routers.
+For instance, some vocoders work best in noiseless environments or for voices with low pitch; others lock onto a single voice, so they are poor for conference calls, music, and the like.
+A software radio may be able to match observations of its current state against reference observations made under known operating conditions to detect when it is operating in a new environment (e.g., a room containing heavy electrical machinery), being subject to a malicious attack (e.g., jam- ming), or encountering a program bug (e.g., caused by a supposedly benign software upgrade).
+A different implementation of program steering would not have required this refactoring step.
+We hypothesize that mode identification, and refactoring if necessary, would have been relatively easy for the original authors of the code.
+It was harder for us, but still no more than a few hours of work.

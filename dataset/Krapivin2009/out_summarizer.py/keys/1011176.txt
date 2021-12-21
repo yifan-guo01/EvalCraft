@@ -1,0 +1,10 @@
+dynamic term d
+type nat
+denotational rule
+particular case
+continuous function model
+operational semantics
+correctness proof
+function model
+syntactic interpretation
+level language

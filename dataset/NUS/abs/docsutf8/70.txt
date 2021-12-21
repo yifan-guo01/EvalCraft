@@ -1,0 +1,19 @@
+DirectoryRank: Ordering Pages in Web Directories
+ABSTRACT
+Web Directories are repositories of Web pages organized in a hierarchy
+of topics and sub-topics. In this paper, we present DirectoryRank
+, a ranking framework that orders the pages within a given
+topic according to how informative they are about the topic. Our
+method works in three steps: first, it processes Web pages within a
+topic in order to extract structures that are called lexical chains,
+which are then used for measuring how informative a page is for a
+particular topic. Then, it measures the relative semantic similarity of
+the pages within a topic. Finally, the two metrics are combined for
+ranking all the pages within a topic before presenting them to the
+users.
+Categories and Subject Descriptors
+H.3.3 [Information Search and Retrieval]: information filtering,
+retrieval models; H.3.m [Information Systems]: Miscellaneous
+
+General Terms
+Algorithms, Design, Experimentation, Measurement

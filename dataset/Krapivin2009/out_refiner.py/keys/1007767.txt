@@ -1,0 +1,10 @@
+minimum distance
+point x
+partition algorithm
+hierarchical cluster
+agglomerative clustering algorithm
+proximity table entry
+search cost
+table entry
+clustering problem
+ffl time

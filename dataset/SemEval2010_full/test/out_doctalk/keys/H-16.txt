@@ -1,0 +1,10 @@
+term
+list
+caching
+rate
+frequency
+time
+cache posting
+distance figure
+algorithm
+information search

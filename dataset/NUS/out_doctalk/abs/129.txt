@@ -1,0 +1,8 @@
+Lossless Online Bayesian Bagging Introduction In a typical prediction problem , there is a trade off between bias and variance , in that after a certain amount of fitting , any increase in the precision of the fit will cause an increase in the prediction variance on future observations .
+By updating sequentially , the update for a new observation is relatively quick compared to re fitting the entire database , making real time calculations more feasible .
+It also leads to a theoretical reduction in variance over the bootstrap for certain classes of estimators , and a significant reduction in observed variance and error rates for smaller data sets .
+To take a simple example , suppose one is bagging the fitted predictions for a point y from a least squares regression problem .
+This relationship is a common method for generating random draws from a Dirichlet distribution , and so is also used in the implementation of batch Bayesian bagging in practice .
+Table 1 shows the data sets we used for classification problems , the number of classes in each data set , and the sizes of their respective training and test partitions .
+It can also lead to increased accuracy and decreased prediction variance for smaller data sets .
+The authors would like to thank two anonymous referees for their helpful suggestions .

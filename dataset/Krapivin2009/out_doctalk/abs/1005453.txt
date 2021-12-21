@@ -1,0 +1,8 @@
+The main structure is a surface - like structure called an outgrowth .
+The partitions to be defined will break an outgrowth up into pieces called layers of bounded height .
+To assist in the proofs , some important relationships between tree - width and graph minors are needed .
+We define the height preserving decontraction of x through to obtain Remove x from H and add two new vertices x # and x # .
+It is routine to check that L # has the required properties and the lemma follows .
+Extensions and Clique Sums In this section we extend the partition results from outgrowths to minor - closed classes .
+Theorem 2.1 and Corollary 2.2 still hold with such a restriction imposed , and so we get a further corollary .
+The result follows from Corollary 2.2 modified with the above noted restriction on clique - joins .

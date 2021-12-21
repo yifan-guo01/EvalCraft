@@ -1,0 +1,10 @@
+tree x
+prelude function list
+function list
+relation R
+function theorem
+function roll
+spine tree
+iterative algorithm
+fold function
+second problem

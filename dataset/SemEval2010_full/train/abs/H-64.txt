@@ -1,0 +1,49 @@
+Machine Learning for Information Architecture in a Large
+Governmental Website ∗
+Miles Efron
+School of Information & Library Science
+CB#3360, 100 Manning Hall
+University of North Carolina
+Chapel Hill, NC 27599-3360
+efrom@ils.unc.edu
+Jonathan Elsas
+School of Information & Library Science
+CB#3360, 100 Manning Hall
+University of North Carolina
+Chapel Hill, NC 27599-3360
+jelsas@email.unc.edu
+Gary Marchionini
+School of Information & Library Science
+CB#3360, 100 Manning Hall
+University of North Carolina
+Chapel Hill, NC 27599-3360
+march@ils.unc.edu
+Junliang Zhang
+School of Information & Library Science
+CB#3360, 100 Manning Hall
+University of North Carolina
+Chapel Hill, NC 27599-3360
+junliang@email.unc.edu
+ABSTRACT
+This paper describes ongoing research into the application
+of machine learning techniques for improving access to 
+governmental information in complex digital libraries. Under
+the auspices of the GovStat Project, our goal is to identify a
+small number of semantically valid concepts that adequately
+spans the intellectual domain of a collection. The goal of this
+discovery is twofold. First we desire a practical aid for 
+information architects. Second, automatically derived 
+documentconcept relationships are a necessary precondition for 
+realworld deployment of many dynamic interfaces. The current
+study compares concept learning strategies based on three
+document representations: keywords, titles, and full-text. In
+statistical and user-based studies, human-created keywords
+provide significant improvements in concept learning over
+both title-only and full-text representations.
+Categories and Subject Descriptors
+H.3.7 [Information Storage and Retrieval]: Digital 
+Libraries-Systems Issues, User Issues; H.3.3 [Information
+Storage and Retrieval]: Information Search and 
+RetrievalClustering
+General Terms
+Design, Experimentation

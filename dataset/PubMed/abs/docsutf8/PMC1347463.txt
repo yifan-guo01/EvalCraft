@@ -1,7 +1,0 @@
-the imprinted gene and parent - of - origin effect database ( ) consists of two sections .
-one section catalogues the current literature on imprinted genes in humans and animals .
-the second , and new , section catalogues current reports of parental origin of de novo mutations in humans alone .
-the addition of a catalogue of de novo mutations that show a parent - of - origin effect expands the scope of the database and provides a useful tool for examining parental origin trends for different types of spontaneous mutations .
-this new section includes > 1700 mutations , found in 59 different disorders .
-the 85 imprinted genes are described in 152 entries from several mammalian species .
-in addition , > 300 other entries describe a range of reported parent - of - origin effects in animals .

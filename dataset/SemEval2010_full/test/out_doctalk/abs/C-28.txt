@@ -1,0 +1,8 @@
+SW [ 14 ] is an exact algorithm that finds the best local alignment between two sequences of size n in quadratic time and space .
+The popularity of the Internet made possible the interconnection of millions of powerful machines in a global scale .
+The choice of the best resources for a particular application is called task allocation , which is an NP Complete problem .
+Also , we propose an adaptive mechanism to assign weights to the grid nodes , taking into account their current workload .
+Section 2 presents the sequence comparison problem and the BLAST algorithm .
+Usually , one given biological sequence is compared against thousands or even millions of sequences that compose genetic data banks .
+In the seeding step , a query sequence is split in portions called words of size W .
+Finally , the module Generate Reports obtains the intermediary outputs sent by the slave nodes through file transfer and merges them into a single BLAST output report .

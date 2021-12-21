@@ -1,0 +1,10 @@
+Rel
+function
+set
+space
+object
+structure
+category
+relation
+product
+monoidal

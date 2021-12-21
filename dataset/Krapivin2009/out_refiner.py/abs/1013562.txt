@@ -1,0 +1,8 @@
+As we are often dealing with 2-way automata we delimit input strings by two special symbols, # for the left and the right end of the string, neither of which is in D. I.e., automata always work on strings of the form .
+That is, pebbles are numbered from 1 to k and pebble only be placed when pebble i is present on the string.
+If pebble i is removed, pebble becomes the current head.
+Intuitively, (i, s, P, V, p) # applies to a configuration if pebble i is the current head, p is the current state, V is the set of pebbles that see the same symbol as the top pebble, P is the set of pebbles that sit at the same position as the top pebble, and the current symbol seen by the top pebble is s.
+A run of A on w is a tree where nodes are labeled with configurations as follows: 1. the root is labeled with the initial configuration; 2. every inner node labeled with an existential configuration # has exactly one child # and # ; and, 3. every inner node labeled with a universal configuration # has children labeled with An accepting run is a run where every leaf node is labeled with a final configuration.
+A language is accepted by a protocol if for each string both parties can decide after execution of the protocol whether the string belongs to the language.
+These strings are of even length where the odd positions contain pair-wise distinct elements and the even positions carry symbols from a finite alphabet, say {a, b}.
+To this end, we set intended initial state of B 0 ) and obtain an automaton which ends up in a state (p 0 , S), where S is the set {(q, q # Q | [0, q, # >0 [0, q #]}.

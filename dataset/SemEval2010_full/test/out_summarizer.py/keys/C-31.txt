@@ -1,0 +1,8 @@
+index file
+indexing node
+local document
+peer file
+Apocrita
+entire network
+other system
+jxta socket

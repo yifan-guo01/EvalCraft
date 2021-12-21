@@ -1,0 +1,31 @@
+A Pseudo Random Coordinated Scheduling Algorithm for Bluetooth Scatternets
+ABSTRACT
+The emergence of Bluetooth as a default radio interface allows
+handheld devices to be rapidly interconnected into ad hoc networks.
+Bluetooth allows large numbers of piconets to form a scatternet using
+designated nodes that participate in multiple piconets. A unit
+that participates in multiple piconets can serve as a bridge and forwards
+traffic between neighbouring piconets. Since a Bluetooth
+unit can transmit or receive in only one piconet at a time, a bridging
+unit has to share its time among the different piconets. To schedule
+communication with bridging nodes one must take into account
+their availability in the different piconets, which represents a difficult
+, scatternet wide coordination problem and can be an important
+performance bottleneck in building scatternets. In this paper
+we propose the Pseudo-Random Coordinated Scatternet Scheduling
+(PCSS) algorithm to perform the scheduling of both intra and
+inter-piconet communication. In this algorithm Bluetooth nodes
+assign meeting points with their peers such that the sequence of
+meeting points follows a pseudo random process that is different
+for each pair of nodes. The uniqueness of the pseudo random sequence
+guarantees that the meeting points with different peers of
+the node will collide only occasionally. This removes the need
+for explicit information exchange between peer devices, which is
+a major advantage of the algorithm. The lack of explicit signaling
+between Bluetooth nodes makes it easy to deploy the PCSS algorithm
+in Bluetooth devices, while conformance to the current Bluetooth
+specification is also maintained. To assess the performance of
+the algorithm we define two reference case schedulers and perform
+simulations in a number of scenarios where we compare the performance
+of PCSS to the performance of the reference schedulers.
+

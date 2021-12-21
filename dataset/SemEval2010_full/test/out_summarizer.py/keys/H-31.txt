@@ -1,0 +1,9 @@
+IR model
+model smoothing
+query term
+document generation
+retrieval model
+term with
+information search
+smoothing method
+likelihood estimate

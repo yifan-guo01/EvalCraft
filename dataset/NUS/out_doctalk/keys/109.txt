@@ -1,0 +1,10 @@
+source
+information
+index
+algorithm
+path
+cost
+distribute architecture
+structure
+rdf
+distribute datum

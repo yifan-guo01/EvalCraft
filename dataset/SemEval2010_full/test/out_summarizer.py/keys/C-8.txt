@@ -1,0 +1,10 @@
+original operation
+context representation
+procedure transform
+database system
+prior work
+control algorithm
+it transformation
+core procedure transform
+pre condition
+system design

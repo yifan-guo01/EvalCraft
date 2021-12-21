@@ -1,0 +1,39 @@
+Theory, Management
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+Indeed, P2P systems offer transparent access
+to the data stored at (the sources of) each peer p, by
+means of the global schema equipped with p for modeling
+its domain of interest; moreover, pair of peers with the same
+domain of interest one peer and the system is in charge of
+accessing each peer containing relevant data separately, and
+combining local results into a global answer by suitably exploiting
+the mapping rules.
+P2P systems can be considered the natural evolution of
+traditional data integration systems, which have received
+considerable attention in the last few years, and which have
+already become a key technology for managing enormous
+amounts of information dispersed over many data sources.
+In this paper, we continue along this latter line of research,
+by investigating some important theoretical issues.
+Despite the wide interest in this field, none of the approaches
+in the literature considered the issue of modeling the autonomy
+of the peers in providing a semantics for the system,
+and therefore they implicitly assume that all the peers act
+cooperatively in the network.
+Notice that in the definition above we are considering
+sound mappings: data retrieved from the sources by the
+mapping views are assumed to be a subset of the data that
+satisfy the corresponding global relation.
+Thus, a P2P system may be unsatisfiable
+w.r.t. a source database
+D. In this section, we face the problem
+of solving inconsistencies in P2P systems.
+Nicola Leone, Thomas Eiter, Wolfgang Faber, Michael
+Fink, Georg Gottlob, Gianluigi Greco, Giovambattista
+Ianni, Edyta Kalka, Domenico Lembo, Maurizio
+Lenzerini, Vincenzino Lio, Bartosz Nowicki, Riccardo
+Rosati, Marco Ruzzi, Witold Staniszkis, and Giorgio
+Terracina.

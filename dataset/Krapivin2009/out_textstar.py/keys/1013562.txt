@@ -1,0 +1,10 @@
+string
+position
+pebble
+occurrence
+lmo
+automaton
+value
+configuration
+symbol
+current

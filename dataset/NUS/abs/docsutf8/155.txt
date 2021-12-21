@@ -1,0 +1,19 @@
+Psychologically Targeted Persuasive Advertising and Product Information in E-Commerce
+ABSTRACT
+In this paper, we describe a framework for a personalization 
+system to systematically induce desired emotion and attention 
+related states and promote information processing in viewers of 
+online advertising and e-commerce product information. 
+Psychological Customization entails personalization of the way of 
+presenting information (user interface, visual layouts, modalities, 
+structures) per user to create desired transient psychological 
+effects and states, such as emotion, attention, involvement, 
+presence, persuasion and learning. Conceptual foundations and 
+empiric evidence for the approach are presented.
+
+Categories and Subject Descriptors
+H.1.2 [User/machine systems]: Human factors, human 
+information processing, software psychology
+
+General Terms
+Performance, Design, Human Factors, Theory

@@ -1,0 +1,12 @@
+Accelerating 3D Convolution using Graphics Hardware
+Abstract
+Many volume filtering operations used for image enhancement,
+data processing or feature detection can be written in terms of three-dimensional
+convolutions. It is not possible to yield interactive
+frame rates on todays hardware when applying such convolutions
+on volume data using software filter routines. As modern graphics
+workstations have the ability to render two-dimensional convoluted
+images to the frame buffer, this feature can be used to accelerate
+the process significantly. This way generic 3D convolution
+can be added as a powerful tool in interactive volume visualization
+toolkits.

@@ -1,0 +1,44 @@
+This 
+paper appeared at First Asia Pacific Bioinformatics Conference, 
+Adelaide, Australia.
+Correlation coefficient r varies from  1 to 
++1, so that the data distributed near the line biased to (+) 
+direction will have positive coefficients, and the data near 
+the line biased to ( ) direction will have negative 
+coefficients.
+Suppose that we have a gene expression pattern g
+i
+(i = 1 ~
+7,129 in Leukemia data, i = 1 ~ 2,000 in Colon data, i = 1 
+~ 4,026 in Lymphoma data)
+.
+General process of classification in 
+machine learning is to train classifier to accurately 
+recognize patterns from given training samples and to 
+classify test samples with the trained classifier.
+Recognition rate with features and classifiers
+(%) in Lymphoma dataset
+SVM KNN
+MLP
+SASOM
+Linear
+RBF Cosine
+Pearson
+PC 64.0  48.0  56.0 60.0 60.0  76.0
+SC  60.0  68.0  44.0 44.0 60.0  60.0
+ED 56.0  52.0  56.0 56.0 56.0  68.0 
+CC 68.0  52.0  56.0 56.0 60.0  72.0
+IG  92.0  84.0  92.0 92.0 92.0  92.0
+MI 72.0  64.0  64.0 64.0 80.0  64.0
+SN  76.0  76.0  72.0 76.0 76.0  80.0
+Mean 69.7  63.4  62.9 63.4 69.1  73.1
+Fig. 6 shows the comparison of the average performance 
+of features.
+There are some overlapped genes 
+among them as shown in Table .
+Moreover, our method of combining classifiers is very 
+simple, and there are many methods of combining 
+classifiers in machine learning and data mining fields.
+Proc. of 
+4th IEEE Intl. Conf. on Automatic Face and Gesture 
+Recognition, 306 311.

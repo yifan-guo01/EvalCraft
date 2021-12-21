@@ -1,0 +1,8 @@
+operator converts a boolean-valued function to a coreflexive: (a, a) # p?
+# p a For convenience, we let (a, a) # p?
+There is a slight problem, however.
+unwrap .
+Still, the list of labels cannot be too short.
+The resulting code is shown in Figure 10.
+It can be made linear if we use an implementation of deques supporting constant-time addition and deletion [9,30] for both the input and output of revZip.
+For clarity, we will just leave it as it is.

@@ -1,0 +1,21 @@
+SensorBus: A Middleware Model for Wireless Sensor Networks
+ABSTRACT
+The use of middleware eases the development of distributed 
+applications by abstracting the intricacies (communication and 
+coordination among software components) of the distributed 
+network environment. In wireless sensor networks, this is even 
+trickier because of their specific issues such as addressing, 
+mobility, number of sensors and energy-limited nodes. This paper 
+describes SensorBus, a message-oriented middleware (MOM) 
+model for wireless sensor networks based on the publish-subscribe
+paradigm and that allows the free exchange of the 
+communication mechanism among sensor nodes allowing as 
+result the capability of using more than one communication 
+mechanism to address the requirements of larger number of 
+applications. We intend to provide a platform which addresses the 
+main characteristics of wireless sensor networks and also allows 
+the development of energy-efficient applications. SensorBus 
+incorporates constraint and query languages which will aid the 
+development of interactive applications. It intends with the 
+utilization of filters reduces data movement minimizing the 
+energy consumption of nodes.

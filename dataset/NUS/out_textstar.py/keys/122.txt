@@ -1,0 +1,10 @@
+resource
+website
+Excel
+PowerPoint
+number
+image
+Google
+recovered
+IA
+cached

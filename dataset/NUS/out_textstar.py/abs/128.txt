@@ -1,0 +1,40 @@
+1
+This research was supported by a grant from NSF IIS 0209170.
+This means that when m
+x
+maps to n
+y
+and all children of n
+y
+if m
+x
+
+can map to multiple granularity levels or m
+x
+maps only to n
+y
+if m
+x
+
+can map to a single granularity level.
+When we consider the member Traffic of IC space, only 
+PS(IC
+Traffic
+)
+
+
+PS
+city
+
+
+
+.
+This means one has to search for 
+ER unit of index in the major index.
+We can see that the tuning time tends to become stable as the 
+length of broadcast increases.
+In figure 6 we consider m= 4.
+Here 
+we can see that the exponential and the distributed perform almost 
+similarly, though the former seems to perform slightly better as 
+the broadcast length increases.

@@ -1,0 +1,20 @@
+Diagnosis of TCP Overlay Connection Failures using Bayesian Networks
+ABSTRACT
+When failures occur in Internet overlay connections today, it is difficult
+for users to determine the root cause of failure. An overlay
+connection may require TCP connections between a series of overlay
+nodes to succeed, but accurately determining which of these
+connections has failed is difficult for users without access to the
+internal workings of the overlay. Diagnosis using active probing
+is costly and may be inaccurate if probe packets are filtered or
+blocked. To address this problem, we develop a passive diagnosis
+approach that infers the most likely cause of failure using a
+Bayesian network modeling the conditional probability of TCP failures
+given the IP addresses of the hosts along the overlay path. We
+collect TCP failure data for 28.3 million TCP connections using
+data from the new Planetseer overlay monitoring system and train
+a Bayesian network for the diagnosis of overlay connection failures
+. We evaluate the accuracy of diagnosis using this Bayesian
+network on a set of overlay connections generated from observations
+of CoDeeN traffic patterns and find that our approach can
+accurately diagnose failures.

@@ -1,0 +1,8 @@
+In Section 2 we present an extension of the Sesame architecture to multiple , distributed repositories and discuss basic assumptions and implications of the architecture .
+In Section 4 we introduce a cost model for processing queries in the distributed architecture , and show its use in optimizing query execution as a basis for the two phase optimization heuristics for join ordering .
+This architecture limits the possible ways of accessing and processing data , and thereby provides a basis for defining some requirements for our approach .
+For this purpose , we introduce a new component between the query parser and the actual SAILs the mediator SAIL ( see Figure 1 ) .
+P is a project data base with information about industrial projects , topics , and organizations .
+A key issue connected with indexing information sources is the trade off between required storage space and computational properties of index based query processing .
+The straightforward recursion scheme does not take specific actions to prevent unnecessary work and it neither selects an optimal order for joining sub paths .
+Schema Awareness One of the limitations of the approach described in this paper concerns schema aware querying in a distributed setting .

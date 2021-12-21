@@ -1,0 +1,10 @@
+function
+method
+algorithm
+document
+language model
+performance Table
+information retrieval
+ranking
+svm approach
+select query

@@ -1,0 +1,10 @@
+event
+page
+tracking detection
+time
+word
+weekend news
+detect stopword
+duration period
+periodic figure
+identify burst

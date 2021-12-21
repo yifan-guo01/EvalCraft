@@ -1,0 +1,10 @@
+task
+strategy
+machine
+system
+max
+load
+ball
+bin
+ADV
+poll

@@ -1,0 +1,8 @@
+Furthermore , the Minimum Transversal problem is a natural generalization of the Vertex Cover problem for ordinary graphs .
+We will take a closer look at the applicability of this and other previous algorithms in Section 3 .
+Section 2 contains various definitions and minor results needed for the algorithm .
+Basic definitions A hypergraph is a generalization of a graph , where the edges E i are arbitrary sets called hyperedges .
+is an independent set of H if E 6 ' S for all edges complement of an independent set is a transversal .
+The first applicable case is used and the algorithm returns the smallest transversal .
+Every remaining case tries both vertex v , which is clearly an exhaustive search , and the last case catches all remaining situations .
+For case 4 , the case analysis is still valid and we need not repeat it here , but the branchings get new branching numbers .

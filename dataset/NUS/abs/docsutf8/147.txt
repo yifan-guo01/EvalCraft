@@ -1,0 +1,26 @@
+Performance Enhancing Proxy for Interactive 3G Network Gaming
+ABSTRACT
+Unlike non-time-critical applications like email and file transfer
+, network games demand timely data delivery to maintain
+the seemingly interactive presence of players in the virtual
+game world.
+Yet the inherently large transmission delay
+mean and variance of 3G cellular links make on-time game
+data delivery difficult. Further complicating the timely game
+data delivery problem is the frequent packet drops at these
+links due to inter-symbol interference, fading and shadowing
+at the physical layer. In this paper, we propose a proxy
+architecture that enhances the timeliness and reliability of
+data delivery of interactive games over 3G wireless networks.
+In particular, a performance enhancing proxy is designed to
+optimize a new time-critical data type -- variable-deadline
+data, where the utility of a datum is inversely proportional
+to the time required to deliver it. We show how a carefully
+designed and configured proxy can noticeably improve the
+delivery of network game data.
+Categories and Subject Descriptors
+C.2 [Computer-Communication Networks]: Network
+Architecture and Design--Wireless communication
+
+General Terms
+Algorithms, Performance, Design

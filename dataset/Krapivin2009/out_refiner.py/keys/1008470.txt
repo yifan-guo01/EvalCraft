@@ -1,0 +1,9 @@
+constant number
+basic algorithm
+n round
+host feedback
+feedback message
+back model
+n value
+reset bit
+population size

@@ -1,0 +1,10 @@
+document
+probability
+idf
+term
+noise
+Poisson
+frequency
+informative
+based
+collection

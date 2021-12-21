@@ -1,0 +1,8 @@
+Optimal Time Bounds for Approximate Clustering .
+Introduction Given a set of points and pairwise distances between the points , the goal of clustering problems is to partition the points into a number of sets such that points in each set are " close " with respect to some objective function .
+Clustering algorithms are widely used to organize large data sets in areas such as data mining and information retrieval .
+For example , we may wish to partition a set of web logs to infer certain usage patterns , or divide a corpus of documents into a small number of related groups .
+Given a set of points and associated interpoint distances , let the median of the set be the point in the set that minimizes the sum of distances to all other points in the set .
+We ask the following natural question : Does allowing inputs with arbitrary point weights incur a substantial time penalty ?
+We note that even for moderate weights , say O ( n 2 ) , the naive approach of viewing a weighted point as a collection of unit - weight points increases the input size dramatically .
+The algorithm succeeds with high probability , that is , for any positive constant , we can adjust constant factors in the definition of the algorithm to achieve a failure probability less than n .

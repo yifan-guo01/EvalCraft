@@ -1,0 +1,27 @@
+Formally Deriving an STG Machine
+ABSTRACT
+Starting from P. Sestoft semantics for lazy evaluation, we
+define a new semantics in which normal forms consist of variables
+pointing to lambdas or constructions. This is in accordance
+with the more recent changes in the Spineless Tagless
+G-machine (STG) machine, where constructions only appear
+in closures (lambdas only appeared in closures already
+in previous versions). We prove the equivalence between the
+new semantics and Sestoft's. Then, a sequence of STG machines
+are derived, formally proving the correctness of each
+derivation. The last machine consists of a few imperative
+instructions and its distance to a conventional language is
+minimal.
+The paper also discusses the differences between the final
+machine and the actual STG machine implemented in the
+Glasgow Haskell Compiler.
+Categories and Subject Descriptors
+D.3.1 [Programming Languages]: Formal Definitions and
+Theory--semantics, syntax ; D.3.2 [Programming Languages
+]: Language Classifications--applicative (functional)
+languages; D.3.4 [Programming Languages]: Processors-code
+generation, compilers; F.3.2 [Logics and meanings
+of programs]: Semantics of Programming Languages--operational
+semantics
+General Terms
+Theory, Languages, Verification

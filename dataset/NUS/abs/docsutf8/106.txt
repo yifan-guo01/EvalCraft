@@ -1,0 +1,24 @@
+Improvements of TLAESA Nearest Neighbour Search Algorithm and Extension to Approximation Search
+Abstract
+Nearest neighbour (NN) searches and k nearest neighbour
+(k-NN) searches are widely used in pattern
+recognition and image retrieval.
+An NN (k-NN)
+search finds the closest object (closest k objects) to a
+query object. Although the definition of the distance
+between objects depends on applications, its computation
+is generally complicated and time-consuming.
+It is therefore important to reduce the number of distance
+computations. TLAESA (Tree Linear Approximating
+and Eliminating Search Algorithm) is one of
+the fastest algorithms for NN searches. This method
+reduces distance computations by using a branch and
+bound algorithm. In this paper we improve both the
+data structure and the search algorithm of TLAESA.
+The proposed method greatly reduces the number of
+distance computations. Moreover, we extend the improved
+method to an approximation search algorithm
+which ensures the quality of solutions. Experimental
+results show that the proposed method is efficient and
+finds an approximate solution with a very low error
+rate.

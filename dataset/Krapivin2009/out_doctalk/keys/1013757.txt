@@ -1,0 +1,10 @@
+function
+recursive denition
+consider class
+polynomial time
+compute npmv
+base pmf
+straightforward proof
+recursive set
+bound recursion
+bound minimization

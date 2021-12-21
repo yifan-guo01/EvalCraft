@@ -1,0 +1,10 @@
+time
+target
+strategy
+ER
+ratio
+player
+job
+signal
+adversary
+probability

@@ -1,0 +1,8 @@
+The agent"s action upon plan failure depends on its nature: for example, the agent may declare the task to have failed if one plan has been tried and resulted in failure, or it may retry alternate plans and declare (indeed, must declare) task failure only if all possible alternate plans to perform the task have been tried and resulted in failure.
+Observe that, while task failure can follow from plan failure or a sequence of plan failures, plan failure need not lead to task failure provided the agent can successfully complete an alternate plan.
+In order to understand how the agent"s abort processing should function, we consider three situations where it is sensible for an agent to consider aborting some of its tasks and plans: 1. When a task succeeds or fails because of an external factor other than the agent itself, the plan currently executed to perform the task should be aborted.
+Joint Conf. on Autonomous Agents and Multi Agent Systems (AAMAS 07) • f(v)   the program of pap v has failed.
+Such plans, similar to our failure methods, are designed for the agent to effect state changes (act to undo its earlier actions) prior to possibly attempting another plan to achieve the failed goal g. Given Jason"s constructs for dropping a goal with an indication of whether or not to try an alternate plan for it, H¨ubner et al. [6] provide an informal description of how a Jason agent modifies its intention structure when a goal failure event occurs.
+J. F. H¨ubner, R. H. Bordini, and M. Wooldridge.
+In R. Bordini, M. Dastani, J. Dix, and A. E. F. Seghrouchni, editors, Multi Agent Programming.
+J. Thangarajah, M. Winikoff, L. Padgham, and K. Fischer.

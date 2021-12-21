@@ -1,0 +1,10 @@
+task
+goal
+construct
+action
+method
+aborting
+program
+intelligent system
+agent execution
+operational rule

@@ -1,0 +1,10 @@
+graph g
+edge partition
+edge coloring
+#j proof
+structural theorem
+many height
+vertex l-coloring
+adjacent vertice
+face other
+other superedge

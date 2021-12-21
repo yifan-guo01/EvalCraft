@@ -1,0 +1,42 @@
+Secure Access to IP Multimedia Services Using Generic Bootstrapping Architecture (GBA) for 3G & Beyond Mobile Networks
+Abstract
+The IP Multimedia Subsystem (IMS) defined by Third Generation 
+Partnership Projects (3GPP and 3GPP2) is a technology designed 
+to provide robust multimedia services across roaming boundaries 
+and over diverse access technologies with promising features like 
+quality-of-service (QoS), reliability and security. The IMS defines 
+an overlay service architecture that merges the paradigms and 
+technologies of the Internet with the cellular and fixed 
+telecommunication worlds. Its architecture enables the efficient 
+provision of an open set of potentially highly integrated 
+multimedia services, combining web browsing, email, instant 
+messaging, presence, VoIP, video conferencing, application 
+sharing, telephony, unified messaging, multimedia content 
+delivery, etc. on top of possibly different network technologies. 
+As such IMS enables various business models for providing 
+seamless business and consumer multimedia applications. In this 
+communication converged world, the challenging issues are 
+security, quality of service (QoS) and management & 
+administration. In this paper our focus is to manage secure access 
+to multimedia services and applications based on SIP and HTTP 
+on top of IP Multimedia Subsystem (IMS). These services include 
+presence, video conferencing, messaging, video broadcasting, and 
+push to talk etc. We will utilize Generic Bootstrapping 
+Architecture (GBA) model to authenticate multimedia 
+applications before accessing these multimedia services offered by 
+IMS operators. We will make enhancement in GBA model to 
+access these services securely by introducing Authentication 
+Proxy (AP) which is responsible to implement Transport Layer 
+Security (TLS) for HTTP and SIP communication. This research 
+work is part of Secure Service Provisioning (SSP) Framework for 
+IP Multimedia System at Fokus Fraunhofer IMS 3Gb Testbed.
+
+Categories and Subject Descriptors
+C.2 [Computer-Communication Networks]: C.2.0 General - 
+Security and protection; C.2.1 Network Architecture and Design; 
+C.2.3 Network Operation.
+
+
+General Terms
+Algorithms, Management, Design, Reliability, Experimentation, 
+Security, Standardization, Verification.

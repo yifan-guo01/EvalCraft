@@ -1,7 +1,0 @@
-the prosite database consists of a large collection of biologically meaningful signatures that are described as patterns or profiles .
-each signature is linked to a documentation that provides useful biological information on the protein family , domain or functional site identified by the signature .
-the prosite database is now complemented by a series of rules that can give more precise information about specific residues . during the last 2 years
-, the documentation and the scanprosite web pages were redesigned to add more functionalities .
-the latest version of prosite ( release 19.11 of september 27 , 2005 ) contains 1329 patterns and 552 profile entries . over the past 2 years more
-than 200 domains have been added , and now 52% of uniprotkb / swiss - prot entries ( release 48.1 of september 27 , 2005 ) have a cross - reference to a prosite entry .
-the database is accessible at .

@@ -1,0 +1,10 @@
+feedback image retrieval
+term algorithm
+image retrieval
+active learning algorithm
+order
+identity matrix
+Design
+loss function
+new point zn
+optimal design minute

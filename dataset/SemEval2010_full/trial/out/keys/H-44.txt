@@ -1,0 +1,20 @@
+organization technique
+document
+posting
+space
+approach
+solution
+temporal algorithm
+index performance
+reduce size
+invert list
+term
+text collection
+base value
+indexing method
+research problem
+temporal coalescing
+different dataset
+output sequence
+compute score
+processing cost

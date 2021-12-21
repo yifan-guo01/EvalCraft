@@ -1,0 +1,18 @@
+An empirical comparison of supervised machine learning techniques in bioinformatics
+Abstract
+Research in bioinformatics is driven by the experimental data. 
+Current biological databases are populated by vast amounts of 
+experimental data. Machine learning has been widely applied to 
+bioinformatics and has gained a lot of success in this research 
+area.  At present, with various learning algorithms available in the 
+literature, researchers are facing difficulties in choosing the best 
+method that can apply to their data. We performed an empirical 
+study on 7 individual learning systems and 9 different combined 
+methods on 4 different biological data sets, and provide some 
+suggested issues to be considered when answering the following 
+questions: (i) How does one choose which algorithm is best 
+suitable for their data set? (ii) Are combined methods better than 
+a single approach? (iii) How does one compare the effectiveness 
+of a particular algorithm to <A href="31.html#1">the others?
+
+

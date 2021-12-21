@@ -1,0 +1,9 @@
+Topic Modeling in Fringe Word Prediction for AAC
+ABSTRACT
+Word prediction can be used for enhancing the communication
+ability of persons with speech and language impair-ments
+. In this work, we explore two methods of adapting
+a language model to the topic of conversation, and apply
+these methods to the prediction of fringe words.
+Categories and Subject Descriptors
+I.7.m Document and Text Processing: Miscellaneous

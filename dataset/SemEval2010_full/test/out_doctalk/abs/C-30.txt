@@ -1,0 +1,8 @@
+INTRODUCTION In this paper , we consider the following general problem .
+More recently , overlays have emerged as a promising alternative to multicast for network efficient point to multipoint data delivery .
+However , we argue that a tree structure has fundamental limitations both for high bandwidth multicast and for high reliability .
+Compact takes multiple fixedsize subsets and the total population represented by each subset as input , and generates a new fixed size subset .
+By specifying ranges and matrix rows , a receiver is unlikely to receive duplicate data items , which would result in wasted bandwidth .
+4.3 Creating Disjoint Data Bullet " s ability to deliver high bandwidth levels to nodes depends on its disjoint transmission strategy .
+Lowering the tracker communication rate could hurt the overall system performance , as information might be out of date .
+Two techniques attempt to improve the scalability of this approach : probabilistic choice of retransmission timeouts , and organization of receivers into hierarchical local recovery groups .

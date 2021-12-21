@@ -1,0 +1,15 @@
+Furthermore, the shadows can be used
+to interact with the underlying information context or, as
+proposed in <A href="102.html#8">[10], with the shadowing 3D objects.
+Those annotations must be placed close to the
+described objects and should not occlude relevant parts of
+the presentation.
+The latter, however, cannot always be
+guaranteed.
+172
+(ISO) and International Electrotechnical Commission
+(IEC), December 1999.
+Draft.
+of Mensch & Computer (Hamburg, September
+2002), pages 363 372, Stuttgart .
+Leipzig .

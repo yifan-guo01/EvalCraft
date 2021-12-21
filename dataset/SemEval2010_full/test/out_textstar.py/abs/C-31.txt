@@ -1,0 +1,8 @@
+In this paper we present Apocrita, which is a cost effective distributed P2P file sharing system for such organizations.
+The rest of this paper is organized as follows.
+Apocrita Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.
+To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.
+COPYRIGHT 2007 ACM 978 1 59593 629 5/07/0003 …$5.00.
+This means that a minimum of one rendezvous peer per subnet is required.
+This also means that the time to return query results is very fast   much faster than protocols that rely on nodes in the network to pass the query throughout the network and then wait for results.
+As Figure 4 demonstrates, the number of nodes involved in the indexing process affects the time taken to complete the indexing processsometimes even drastically.

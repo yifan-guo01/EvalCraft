@@ -1,0 +1,25 @@
+2D Information Displays
+ABSTRACT
+Many exploration and manipulation tasks benefit from a coherent
+integration of multiple views onto complex information
+spaces. This paper proposes the concept of Illustrative
+Shadows for a tight integration of interactive 3D graphics
+and schematic depictions using the shadow metaphor. The
+shadow metaphor provides an intuitive visual link between
+3D and 2D visualizations integrating the different displays
+into one combined information display. Users interactively
+explore spatial relations in realistic shaded virtual models
+while functional correlations and additional textual information
+are presented on additional projection layers using a
+semantic network approach. Manipulations of one visualization
+immediately influence the others, resulting in an in-formationally
+and perceptibly coherent presentation.
+Categories and Subject Descriptors
+H.5.2 [Information Interface
+and Presentation]: User Interfaces--Screen design;
+I.2.4 [Artificial Intelligence]: Knowledge Representation
+Formalisms and Methods--Semantic networks; I.3.6 [Computer
+Graphics]: Methodology and Techniques--Interaction
+techniques
+General Terms
+Design, Human Factors

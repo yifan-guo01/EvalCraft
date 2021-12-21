@@ -1,0 +1,8 @@
+General Terms Performance , Design , Reliability Introduction Object oriented software development practices are being rapidly adopted within increasingly complex systems , including reactive , real time and concurrent system applications .
+Dynamic architectural models capturing the overall behavioral properties of the software system are often constructed using ad hoc techniques with little consideration given to the resulting performance or reliability implications until the project reaches implementation .
+Efforts to analyze behavioral issues of these architectures occur through opportunistic rather than systematic approaches and are inherently cumbersome , unreliable , and unrepeatable .
+One means of improving the behavioral modeling capabilities of object oriented architecture designs is to integrate formalisms with the object oriented specifications .
+The native object oriented design is then augmented by integrating an underlying formal representation capable of providing the necessary analytical tools .
+These behavioral stereotypes are generic across applications , so we also capture specific application information using the following tagged values : Execution Type .
+For example , one could choose to simply conduct black box testing by placing input tokens on actor places , executing the simulation , and then observing the resulting token values on output actor places .
+This tool can be used to analyze such things as queue backlogs , system throughput , and end to end timing characteristics .

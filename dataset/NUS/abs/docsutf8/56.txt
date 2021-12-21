@@ -1,0 +1,29 @@
+Context-Aware Web Information Systems
+Abstract
+Apart from completeness usability,
+performance
+and maintainability are the key quality aspects for
+Web information systems.
+Considering usability
+as key implies taking usage processes into account
+right from the beginning of systems development.
+Context-awareness appears as a promising idea for
+increasing usability of Web Information Systems.
+In the present paper we propose an approach to
+context-awareness
+of
+Web
+Information
+Systems
+that systematically distinguishes among the various
+important kinds of context. We show how parts of
+this context can be operationalized for increasing
+customers' usage comfort.
+Our approach permits
+designing Web information systems such that they
+meet high quality expectations concerning usability,
+performance and maintainability.
+We demonstrate
+the validity of our approach by discussing the part
+of a banking Web Information System dedicated to
+online home-loan application.

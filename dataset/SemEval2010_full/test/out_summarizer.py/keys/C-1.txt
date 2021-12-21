@@ -1,0 +1,10 @@
+grid service Discovery
+local registry
+UDDI
+service query
+service Discovery
+service information
+alphabetical order
+network service
+service name
+service discovery

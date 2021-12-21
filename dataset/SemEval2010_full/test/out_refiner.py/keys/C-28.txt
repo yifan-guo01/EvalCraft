@@ -1,0 +1,10 @@
+grid node execution
+allocation sequence
+work unit
+allocation policy
+computing time
+grid node
+blast search
+master strategy allocation
+database segment
+self scheduling

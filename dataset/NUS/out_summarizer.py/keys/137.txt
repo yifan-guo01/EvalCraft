@@ -1,0 +1,10 @@
+time t
+machine busy
+class l
+line algorithm
+other case
+to proof
+l process job
+part
+charge machine
+same speed

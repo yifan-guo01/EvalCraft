@@ -1,0 +1,8 @@
+one jiffy).
+After the Spotlight device receives the ACK, at its local time T4, the time synchronization can be achieved as follows: 2 )()( 4312 TTTT Offset −+− = (11) OffsetTTT spotlightnodeglobal +== We note that Equation 11 assumes that the one trip delays are the same in both directions.
+In practice this does not hold well enough.
+[2] P. Bahl, V.N.
+[12] T. He, S. Krishnamurthy, J.
+[20] R. Nagpal, H. Shrobe, J. Bachrach, Organizing a Global Coordinate System for Local Information on an Adhoc Sensor Network, in A.I Memo 1666.
+MIT A.I.
+Laboratory, 1999.

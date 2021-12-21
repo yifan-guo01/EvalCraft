@@ -1,0 +1,8 @@
+Introduction The software development process often involves refining a high - level specification into a lower - level or more concrete implementation .
+1 3 Extraction patterns In this section , we first explain the basic mechanism behind our modelling of behaviour abstraction , and then provide a formal definition of extraction patterns .
+We will now analyse the di #erences between the behavioural properties of the two processes and at the same time introduce informally some basic concepts used subsequently .
+Relating Communicating Processes 11 Uninterpreted channels and identity extraction patterns Not all channels will require an extraction pattern as such to interpret their behaviour .
+5.3 Unambiguous CTSs of implementation processes Extraction patterns and so extraction graphs are defined for channels in a base process P and channels in an implementation process Q .
+As the basis for mechanical verification , we render both processes and extraction patterns as graphs ( communicating transition systems and extraction graphs , respectively ) .
+Future work will explore possibilities for further optimisation , as well as including examples and a case study to evaluate the performance of the verification algorithms in practice .
+In contrast , our CSP model has finite traces and refusals , permitting asynchronous as well as synchronous communication , and enabling deadlock properties to be described .

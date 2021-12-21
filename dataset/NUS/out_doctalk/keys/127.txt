@@ -1,0 +1,10 @@
+chip
+system
+triangle
+Leo
+pixel
+performance
+computer Graphics
+hardware
+rendering
+algorithm

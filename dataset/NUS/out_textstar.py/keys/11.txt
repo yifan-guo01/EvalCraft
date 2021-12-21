@@ -1,0 +1,10 @@
+term
+eval
+value
+nil
+evaluator
+machine
+TERM
+list
+CLOSURE
+expval

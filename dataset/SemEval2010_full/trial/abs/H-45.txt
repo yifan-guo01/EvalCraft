@@ -1,0 +1,31 @@
+Query Performance Prediction in Web Search
+Environments
+Yun Zhou and W. Bruce Croft
+Department of Computer Science
+University of Massachusetts, Amherst
+{yzhou, croft}@cs.umass.edu
+ABSTRACT
+Current prediction techniques, which are generally designed for
+content-based queries and are typically evaluated on relatively
+homogenous test collections of small sizes, face serious
+challenges in web search environments where collections are
+significantly more heterogeneous and different types of retrieval
+tasks exist. In this paper, we present three techniques to address
+these challenges. We focus on performance prediction for two
+types of queries in web search environments: content-based and
+Named-Page finding. Our evaluation is mainly performed on the
+GOV2 collection. In addition to evaluating our models for the two
+types of queries separately, we consider a more challenging and
+realistic situation that the two types of queries are mixed together
+without prior information on query types. To assist prediction
+under the mixed-query situation, a novel query classifier is
+adopted. Results show that our prediction of web query
+performance is substantially more accurate than the current 
+stateof-the-art prediction techniques. Consequently, our paper
+provides a practical approach to performance prediction in 
+realworld web settings.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information Search
+and Retrieval -Query formulation
+General Terms
+Algorithms, Experimentation, Theory

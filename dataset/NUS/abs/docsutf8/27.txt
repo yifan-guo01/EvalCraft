@@ -1,0 +1,36 @@
+Agent Technology for Personalized Information Filtering: The PIA-System
+ABSTRACT
+As today the amount of accessible information is overwhelming, 
+the intelligent and personalized filtering of available information 
+is a main challenge. Additionally, there is a growing need for the 
+seamless mobile and multi-modal system usage throughout the 
+whole day to meet the requirements of the modern society 
+("anytime, anywhere, anyhow"). A personal information agent 
+that is delivering the right information at the right time by 
+accessing, filtering and presenting information in a situation-aware
+matter is needed. Applying Agent-technology is promising, 
+because the inherent capabilities of agents like autonomy, pro- 
+and reactiveness offer an adequate approach. We developed an 
+agent-based personal information system called PIA for 
+collecting, filtering, and integrating information at a common 
+point, offering access to the information by WWW, e-mail, SMS, 
+MMS, and J2ME clients. Push and pull techniques are combined 
+allowing the user to search explicitly for specific information on 
+the one hand and to be informed automatically about relevant 
+information divided in pre-, work and recreation slots on the 
+other hand. In the core of the PIA system advanced filtering 
+techniques are deployed through multiple filtering agent 
+communities for content-based and collaborative filtering. 
+Information-extracting agents are constantly gathering new 
+relevant information from a variety of selected sources (internet, 
+files, databases, web-services etc.). A personal agent for each 
+user is managing the individual information provisioning, 
+tailored to the needs of this specific user, knowing the profile, 
+the current situation and learning from feedback.
+Categories and Subject Descriptors
+[Information Systems]: Information Systems Applications   
+general, Communications Applications.
+
+General Terms
+Algorithms, Management
+

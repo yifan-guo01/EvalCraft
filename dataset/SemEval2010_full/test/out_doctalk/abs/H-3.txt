@@ -1,0 +1,8 @@
+Many relevant terms can be absent from queries and terms included may be ambiguous .
+These issues have been addressed in a large number of previous studies .
+For example , if a user working in computer science issues a query Java hotel , the documents on Java language will be incorrectly favored .
+A possible solution to this problem is to use query related profiles or models instead of user centric ones .
+The experiments clearly show that both types of context can result in significant improvements in retrieval effectiveness , and their effects are complementary .
+Query profile and other factors Many attempts have been made in IR to create query specific profiles .
+Each component contextual factor will determines a different ranking score , and the final document ranking combines all of them .
+This choice is also motivated by the possibility to compare between manual and automatic assignment of domain to a new query .

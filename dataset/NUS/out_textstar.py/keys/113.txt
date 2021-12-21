@@ -1,0 +1,10 @@
+user
+profile
+Facebook
+name
+information
+Granovetter
+network
+image
+CMU
+Male

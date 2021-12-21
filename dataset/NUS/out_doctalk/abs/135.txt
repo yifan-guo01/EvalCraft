@@ -1,0 +1,8 @@
+INTRODUCTION Cohesion is one of the most important software features during its development .
+The higher the cohesion of a module , the more understandable , modifiable and maintainable the module is .
+A software system should have high cohesion and low coupling .
+For example , when designing the trigonometric function lib class , we might set a global variable to record the temporal result .
+Section 3 discusses the basic definitions and properties for our measure .
+Conclusion remarks are given in the last section .
+To copy otherwise , or republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+As we have mentioned above , all these methods describe the object reference in a simple way and subprograms are connected by the objects referred .

@@ -1,0 +1,38 @@
+Dynamic architectural models capturing the overall 
+behavioral properties of the software system are often 
+constructed using ad hoc techniques with little consideration 
+given to the resulting performance or reliability implications 
+until the project reaches implementation.
+The main features that distinguish this approach 
+from other related works are a focus on the concurrent software
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that 
+copies bear this notice and the full citation on the first page.
+The 
+connections provided by each template are consistent across the 
+set of templates and allow concurrent objects to be connected to 
+passive objects (entities or message communication) in any 
+order.
+While this template models 
+relatively simple behavior (wait for input; process input; wait for 
+next input), it features characteristics found throughout the 
+concurrent object templates.
+Notice that, as with passive entity objects, the interface to 
+connector objects always occurs through a place rather than a 
+transition, thus allowing concurrent object interfaces to be 
+linked with connector interfaces while still enforcing the Petri 
+net connection rules of only allowing arcs to occur between 
+transitions and places.
+Based on the state of the CruiseControl object, 
+commands are given to a concurrent periodic <<algorithm>> object
+enabling it to compare speed values from two passive <<entity>> 
+objects and determine the correct throttle values, which are then 
+passed on to the periodic output interface, ThrottleInterface.
+The CPN model was then executed in the 
+simulator and observed at the desired points to determine if the 
+correct output was generated or if the correct logical paths were 
+chosen.
+Future research in this area will need to investigate approaches 
+to facilitate the automated translation from a UML model into a 
+CPN model that can be read by a tool such as DesignCPN.

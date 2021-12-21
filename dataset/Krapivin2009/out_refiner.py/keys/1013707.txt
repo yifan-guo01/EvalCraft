@@ -1,0 +1,10 @@
+uninterpreted channel
+process q
+trace extr
+implementation process
+system q
+extraction pattern
+other action refinement
+communication interface
+implementation component process
+implementation relation

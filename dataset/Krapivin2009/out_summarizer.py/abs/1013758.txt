@@ -1,0 +1,8 @@
+For deeper foundational purposes, we should mention Girard's Light Linear Logic (LLL) [4] as a major improvement of the syntax of BLL, in that it eliminates the explicit polynomial I/O size-bounds, but at the expense of introducing more subtle typing distinctions.
+In this paper, we give a direct, semantic proof of this main result which does not involve any notion of reduction, term rewriting, or cut-elimination.
+At the same time, our analysis gives a natural interpretation of the BLL syntax which justifies the fine points of its design and might suggest further extensions.
+Our proof is constructive, in the sense that it can be formalized in an extensional version of the Calculus of Inductive Constructions [2].
+Our interpretation bears an intriguing relationship to approaches based on finite model theory, such as [5].
+However, unlike Goerdt's system which is a finite model interpretation of G-odel's system T -hence the successor function is not injective- BLL supports the usual semantics, including Peano's axioms, thus can be seen as a meaning-preserving annotation to standard functional programming.
+Notice that this interpretation of types ignores the resource polynomials.
+We notice that for any realizability set A over X the unique function |A| #} is a morphism A # I of realizability sets witnessed by e(#y.#x.x.

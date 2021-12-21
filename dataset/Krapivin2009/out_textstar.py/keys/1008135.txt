@@ -1,0 +1,10 @@
+method
+bound
+relation
+computed
+using
+norm
+vector
+residual
+CGLS
+solution

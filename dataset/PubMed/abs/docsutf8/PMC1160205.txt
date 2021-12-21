@@ -1,5 +1,0 @@
-the serial analysis of gene expression ( sage ) is a powerful method to compare gene expression of mrna populations . to provide quantitative expression levels on a genome - wide scale , the cancer genome anatomy project ( cgap ) uses sage .
-over 7 million sage tags , from 171 human cell types have been assembled .
-the growing number of laboratories involved in sage research necessitates the use of software that provides statistical analysis of raw data , allowing the rapid visualization and interpretation of results .
-we have created the first simple tool that performs statistical analysis on sage data , identifies the tags differentially expressed and shows the results in a scatter plot .
-it is freely available and accessible at .

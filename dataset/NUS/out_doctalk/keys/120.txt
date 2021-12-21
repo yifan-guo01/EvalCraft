@@ -1,0 +1,10 @@
+sensor
+event
+network
+node
+number
+tree
+storage
+hot spot
+value
+algorithm

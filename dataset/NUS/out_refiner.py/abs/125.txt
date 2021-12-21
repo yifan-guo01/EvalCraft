@@ -1,0 +1,45 @@
+The most commonly used dissimilarity
+measure, namely the Euclidean metric, assumes that the dissimilarity
+measure is isotropic and spatially invariant, and
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+In this paper, we generalize the idea of the feature weighting
+approach to define a class of spatially varying dissimilarity
+measures and propose algorithms that learn the dissimilarity
+measure automatically from the given data while
+performing the clustering.
+It is worth mentioning here that,
+as in the case of any clustering algorithm, the underlying
+assumption in this paper is the existence of such a dissimilarity
+measure and clusters for a given data set.
+The problem of determining the optimal W and C is similar
+to the traditional clustering problem that is solved by
+the K Means Algorithm (KMA) except for the additional W
+matrix.
+Then, the weights in
+iteration (t + 1) are
+w(t + 1) = (1   (t))w(t) + (t)w
+n
+(t + 1),
+(13)
+where (t)  [0, 1] decreases with t.
+Therefore, this observation implies
+that when there are distinct clusters in the data set, KMA
+yields confusing clusters when the number of clusters is over Figure
+1: Accuracy results on Binary data.
+APPENDIX
+A.
+OTHER FEATURE WEIGHTING
+CLUSTERING TECHNIQUES
+A.1
+Diagonal Gustafson Kessel (DGK)
+Gustafson and Kessel [7] associate each cluster with a different
+norm matrix.
+In [5], a heuristic is used to estimate the
+value
+j
+in every iteration and set the negative values of w
+jl
+to zero before normalizing the weights.

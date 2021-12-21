@@ -1,0 +1,10 @@
+sequence
+pattern
+mining
+algorithm
+ism incspan
+frequent item
+large number
+sup figure
+frequent subsequence
+acm Int

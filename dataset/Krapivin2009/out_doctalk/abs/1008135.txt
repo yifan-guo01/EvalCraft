@@ -1,0 +1,8 @@
+Accurate conjugate gradient methods for families of shifted systems .
+Introduction In various scientific computations the problem arises to compute solutions to for various values of # .
+Krylov subspace methods are iterative solution methods for solving linear systems .
+This observation has led to many e #cient implementations of known Krylov subspace methods that can handle multiple shifts simultaneously .
+The multishift variants , in general , require the number of matrix - vector products and inner products of the original method applied to a single system and for the solution of each additional shifted system only a few extra vector updates are needed .
+In this paper we focus on the numerical solution of the system for several real values of # 0 .
+Confidence in the success of our method will be given by a partial rounding error analysis ( for the important situations that partially , by numerical experiments .
+Finally , a straightforward sequence of substitutions and multiplications with suitable matrices yields a perturbed relation which is summarized by the following lemma .

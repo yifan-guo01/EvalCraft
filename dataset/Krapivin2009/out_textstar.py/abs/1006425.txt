@@ -1,0 +1,7 @@
+Section 4 contains our algorithms and their analyses.
+Finally, Section 5 contains our conclusions.
+PRELIMINARIES 2.1.
+Lemma 1.
+First, we give the bound on the running time of MinTrNoNR(H), then we proceed to give the details of the modification to use exponential space.
+Lemma 2.
+Return 4.

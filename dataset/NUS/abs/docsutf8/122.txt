@@ -1,0 +1,27 @@
+Lazy Preservation: Reconstructing Websites by Crawling the Crawlers
+ABSTRACT
+Backup of websites is often not considered until after a
+catastrophic event has occurred to either the website or
+its webmaster.
+We introduce "lazy preservation" - digital
+preservation performed as a result of the normal operation
+of web crawlers and caches. Lazy preservation is
+especially suitable for third parties; for example, a teacher
+reconstructing a missing website used in previous classes.
+We evaluate the effectiveness of lazy preservation by reconstructing
+24 websites of varying sizes and composition using
+Warrick, a web-repository crawler. Because of varying levels
+of completeness in any one repository, our reconstructions
+sampled from four different web repositories: Google (44%),
+MSN (30%), Internet Archive (19%) and Yahoo (7%). We
+also measured the time required for web resources to be discovered
+and cached (10-103 days) as well as how long they
+remained in cache after deletion (7-61 days).
+Categories and Subject Descriptors
+H.3.5 [Information
+Storage and Retrieval] Online Information Services: Web-based
+services; H.3.7 [Information Storage and Retrieval]
+Digital Libraries: Collection
+General Terms
+Measurement, Experimentation, Design
+

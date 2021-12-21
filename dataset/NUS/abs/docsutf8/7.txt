@@ -1,0 +1,8 @@
+A Fair and Traffic Dependent Scheduling Algorithm for Bluetooth Scatternets
+Abstract
+mechanisms and algorithms necessary to set up and maintain them. The operation of a scatternet requires some Bluetooth units to be inter-piconet
+units (gateways), which need to time-division multiplex their presence among their piconets. This requires a scatternet-scheduling
+algorithm that can schedule the presence of these units in an efficient manner. In this paper, we propose a distributed scatternet-scheduling
+scheme that is implemented using the HOLD mode of Bluetooth and adapts to non-uniform and changing traffic. Another attribute of the
+scheme is that it results in fair allocation of bandwidth to each Bluetooth unit. This scheme provides an integrated solution for both intra-and
+inter-piconet scheduling, i.e., for polling of slaves and scheduling of gateways.

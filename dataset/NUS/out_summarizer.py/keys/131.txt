@@ -1,0 +1,10 @@
+single poll
+size task
+information case
+n machine
+size ball
+number be
+d group
+poll scheduler
+input sequence
+polling strategy

@@ -1,0 +1,8 @@
+Job requests arrive , with each request specifying the length of time for which the resource is needed as well as a deadline by which the job should be completed .
+Although these two views represent the extremes in modeling notification , it is possible to define various intermediate models by specifying at what point notification is required .
+For example , in an ATM network , the decision of whether to admit a request is not immediate , yet it is made during a specific connection setup period .
+Unfortunately there seems to be little existing research which explicitly studies the effect of the notification model on the performance of a scheduler .
+Scheduling a single resource is a special case of the more general problem of call control in larger communication networks , where both admission control and routing are issues .
+Randomness is used to pick one particular class a priori , and then the overall algorithm runs the base algorithm on the selected group , while rejecting all jobs from other groups .
+In addition , we will use an algorithm designed for equal length jobs as a base algorithm for the more general case with multiple job lengths .
+The modified starting times respect the individual jobs ' release times and deadlines , as witnessed by oe .

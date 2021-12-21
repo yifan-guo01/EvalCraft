@@ -1,0 +1,8 @@
+Subquadratic Approximation Algorithms for Clustering Problems in High Dimensional Spaces .
+Recently , the concept of clustering has taken on some added significance as researchers have begun to view " data mining " as a question of finding " hidden clusters " in large collections of data .
+In the agglomerative approach to hierarchical cluster - ing , clusters are joined to form larger clusters based on the distance between the clusters .
+A simple and common choice is to compute the distance between the centroids of the clusters .
+We therefore focus on approximate versions of the agglomerative and MST clustering problems .
+We also briefly indicate some other applications of our methods and algorithms to traditional computational geometry problems , for example a subquadratic algorithm for the Euclidean closest pair problem .
+The added difficulty is that because we have approximate distances only , proximity between points is no longer a symmetric property .
+By repeating the search several times and taking the best answer , we can reduce the error probability sufficiently .

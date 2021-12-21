@@ -1,0 +1,42 @@
+dBBlue: Low Diameter and Self-routing Bluetooth Scatternet
+ABSTRACT
+This paper addresses the problem of scatternet formation for single-hop
+Bluetooth based ad hoc networks, with minimal communication
+overhead. We adopt the well-known structure de Bruijn graph
+to form the backbone of Bluetooth scatternet, hereafter called dBBlue
+, such that every master node has at most seven slaves, every
+slave node is in at most two piconets, and no node assumes both
+master and slave roles. Our structure dBBlue also enjoys a nice
+routing property: the diameter of the graph is  
+ҵ
+and we can
+find a path with at most   
+ҵ
+hops for every pair of nodes without
+any routing table . Moreover, the congestion of every node is
+at most  
+ҵ
+, assuming that a unit of total traffic demand
+is equally distributed among all pair of nodes. We discuss in detail
+a vigorous method to locally update the structure dBBlue using
+at most    
+ҵ
+communications when a node joins or leaves the
+network. In most cases, the cost of updating the scatternet is actually
+ 
+   
+since a node can join or leave without affecting the
+remaining scatternet. The number of nodes affected when a node
+joins or leaves the network is always bounded from above by a constant
+. To facilitate self-routing and easy updating, we design a scalable
+MAC assigning mechanism for piconet, which guarantees the
+packet delivery during scatternet updating. The dBBlue scatternet
+can be constructed incrementally when the nodes join the network
+one by one. Previously no method can guarantee all these properties
+although some methods can achieve some of the properties.
+Categories and Subject Descriptors
+C.2.1 [Network Architecture and Design]: Wireless communication
+, Network topology; G.2.2 [Graph Theory]: Network problems
+, Graph algorithms
+General Terms
+Algorithms, Design, Theory

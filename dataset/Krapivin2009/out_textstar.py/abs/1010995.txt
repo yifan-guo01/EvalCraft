@@ -1,0 +1,6 @@
+We, however, assume that the frequency of access to the resources can be rather high and that the dierent clients may have overlapping demands for resources 1 .
+Therefore, we need to decide upon a solution to this problem.
+When, in the above example, client 2 is given access and client 1 requests both resources again, then by the time client 2 releases, client 1 will be granted access.
+Repeatedly having 1 and 2 requesting access will cause 3 to starve.
+In this way, the generic server principle implements synchronous communication on top of Erlang's asynchronous communication primitives.
+For a detailed operational semantics we refer to [2].

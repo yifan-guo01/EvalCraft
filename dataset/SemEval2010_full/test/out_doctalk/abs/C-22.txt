@@ -1,0 +1,8 @@
+INTRODUCTION The different capabilities of mobile devices , plus the varying speed , error rate and disconnection characteristics of mobile networks [ 1 ] , make it difficult to predict in advance the exact execution environment of mobile applications .
+Effective adaptation requires detailed and up to date information about both the system and the software itself .
+Section 4 describes some initial testing and results and section 5 closes with a summary , conclusions and discussion of future work .
+BACKGROUND In general , an object oriented application consists of objects collaborating to provide the functionality required by a given problem domain .
+The Java based system MobJeX , which is used as the implementation platform for the metrics collection solution described in this paper , adds a number of additional middleware components .
+Note that this containment captures the different granularity of measurement attributes and their corresponding metrics .
+A further incentive for treating propagation separately from delivery is due to the distinction between local and global adaptation [ 9 ] .
+Controlled lab studies were conducted to determine worst case performance , as well as show the reduction in collection overhead when applying simple collection criteria .

@@ -1,0 +1,32 @@
+Putting Integrated Information in Context: Superimposing Conceptual Models with SPARCE
+Abstract
+A person working with diverse information sources--with 
+possibly different formats and information models--may 
+recognize and wish to express conceptual structures that 
+are not explicitly present in those sources. Rather than 
+replicate the portions of interest and recast them into a 
+single, combined data source, we leave base information 
+where it is and superimpose a conceptual model that is 
+appropriate to the task at hand. This superimposed model 
+can be distinct from the model(s) employed by the 
+sources in the base layer.
+An application that superimposes a new conceptual model 
+over diverse sources, with varying capabilities, needs to 
+accommodate the various types of information and differing
+access protocols for the base information sources. 
+The  Superimposed Pluggable Architecture for Contexts 
+and Excerpts (SPARCE) defines a collection of architectural
+abstractions, placed between superimposed and base 
+applications, to demarcate and revisit information elements
+inside base sources and provide access to content 
+and context for elements inside these sources. SPARCE 
+accommodates new base information types without altering
+existing superimposed applications. In this paper, we 
+briefly introduce several superimposed applications that 
+we have built, and describe the conceptual model each 
+superimposes. We then focus on the use of context in 
+superimposed applications.  We describe how SPARCE 
+supports context and excerpts.  We demonstrate how 
+SPARCE facilitates building superimposed applications 
+by describing its use in building our two, quite diverse 
+applications.

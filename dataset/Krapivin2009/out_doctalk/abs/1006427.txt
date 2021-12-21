@@ -1,0 +1,8 @@
+Establishing wireless conference calls under delay constraints .
+Mobile telephony systems make it possible to talk with people even if they are not residing in predetermined locations ( as is the case with conventional phone systems ) .
+When information is stored on mobile devices and needs to be retrieved new challenges occur .
+An intrinsic feature of current mobile telephony systems is that location of the devices is uncertain .
+A challenge here is to design search algorithms that e-ciently retrieve information given limited knowledge about its location .
+Currently deployed wireless personal communication systems are composed of a set of base stations connected by a wired backbone network .
+1.2 Model and problem statement Assume a model with c cells and m mobile devices .
+Intuitively a good paging strategy rst pages cells that have large chances of nding all mobile devices in the cells .

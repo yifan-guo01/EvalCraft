@@ -1,0 +1,32 @@
+Ranking Target Objects of Navigational Queries
+ABSTRACT
+Web navigation plays an important role in exploring public
+interconnected data sources such as life science data. A
+navigational query in the life science graph produces a result
+graph which is a layered directed acyclic graph (DAG).
+Traversing the result paths in this graph reaches a target
+object set (TOS). The challenge for ranking the target objects
+is to provide recommendations that reflect the relative
+importance of the retrieved object, as well as its relevance to
+the specific query posed by the scientist. We present a metric
+layered graph PageRank (lgPR) to rank target objects
+based on the link structure of the result graph. LgPR is
+a modification of PageRank; it avoids random jumps to respect
+the path structure of the result graph. We also outline
+a metric layered graph ObjectRank (lgOR) which extends
+the metric ObjectRank to layered graphs. We then present
+an initial evaluation of lgPR. We perform experiments on
+a real-world graph of life sciences objects from NCBI and
+report on the ranking distribution produced by lgPR. We
+compare lgPR with PageRank. In order to understand the
+characteristics of lgPR, an expert compared the Top K target
+objects (publications in the PubMed source) produced
+by lgPR and a word-based ranking method that uses text
+features extracted from an external source (such as Entrez
+Gene) to rank publications.
+Categories and Subject Descriptors
+H.3.5 [Information Storage and Retrieval]: On-line Information
+Services - Web-based Services; H.2.8 [Database
+Management]: Database Applications - Data Mining
+General Terms
+Algorithms, Experimentation

@@ -1,0 +1,8 @@
+INTRODUCTION Security communication is an important requirement in many sensor network applications , so shared secret keys are used between communicating nodes to encrypt data .
+Several alternative approaches have been developed recently to perform pairwise key establishment on resource constrained sensor networks without involving the use of traditional cryptography [ 14 ] .
+The gridbased scheme associates polynomials with the rows and the columns of an artificial grid , assigns each sensor node to a unique coordinate in the grid , and gives the node the secrets generated from the corresponding row and column polynomials .
+For the basic probabilistic and the q composite key predistribution schemes , as the number of compromised nodes increases , the fraction of affected pairwise keys increases quickly .
+The analysis shows that hypercube based scheme keeps some attractive properties of the grid based scheme , including the guarantee of establishing pairwise keys and the resilience to node compromises .
+The main contributions of this paper are as follows : Combining the deployment knowledge of sensor networks and the polynomial pool based key pre distribution , we setup a clusterbased topology that is practical with the real deployment of sensor networks .
+The key contribution is that our scheme dose not require the assumption of all nodes can directly communicate with each other as the previous schemes do , and it still maintains high probability of key establishment , low memory overhead and good security performance .
+6.1 Generation of Polynomials Pool and Key Predistribution Supposing that , the sensor network includes N nodes , and is deployed through k different rounds .

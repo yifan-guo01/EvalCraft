@@ -1,0 +1,8 @@
+In this work , we address this shortcoming and propose an efficient solution for time travel text search by extending the inverted file index to make it ready for temporal search .
+We introduce approximate temporal coalescing as a tunable method to reduce the index size without significantly affecting the quality of results .
+Results unequivocally show that our methods make it possible to build an efficient time machine scalable to large versioned text collections .
+For a documentary about a past political scandal , a journalist needs to research early opinions and statements made by the involved politicians .
+Sending an appropriate query to a major web search engine , the majority of returned results contains only recent coverage , since many of the early web pages have disappeared and are only preserved in web archives .
+None of the approaches , however , considers time explicitly or provides the desired time travel text search functionality .
+As a remedy , we propose index organization techniques in Section 6 that aim to reduce the I / O overhead significantly .
+Method and Apparatus for Generating and Searching Range Based Index of Word Locations .

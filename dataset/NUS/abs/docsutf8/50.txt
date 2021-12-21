@@ -1,0 +1,21 @@
+Building Sustainable Community Information Systems: Lessons from a Digital Government Project
+ABSTRACT
+This paper introduces a rationale for and approach to the study of
+sustainability in computerized community information systems.  It
+begins by presenting a theoretical framework for posing questions
+about sustainability predicated upon assumptions from social
+construction of technology and adaptive structuration theories.
+Based in part on the literature and in part on our own experiences
+in developing a community information system, we introduce and
+consider three issues related to sustainability:  stakeholder
+involvement, commitment from key players, and the development
+of critical mass.
+
+Categories and Subject Descriptors
+H4.3 [Communication Applications]: Bulletin Boards, Computer
+Conferencing; H5.2 [Information Interfaces and Presentation]:
+User Interfaces   Us-r-centered design.
+
+General Terms
+Design, Human Factors.
+

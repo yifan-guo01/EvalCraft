@@ -1,0 +1,10 @@
+Quality-of-Service in IP Services over Bluetooth Ad-Hoc Networks
+Abstract
+Along with the development of multimedia and wireless networking technologies, mobile multimedia applications are playing
+more important roles in information access. Quality of Service (QoS) is a critical issue in providing guaranteed service in a low bandwidth
+wireless environment. To provide Bluetooth-IP services with differentiated quality requirements, a QoS-centric cascading mechanism is
+proposed in this paper. This innovative mechanism, composed of intra-piconet resource allocation, inter-piconet handoff and Bluetooth-IP
+access modules, is based on the Bluetooth Network Encapsulation Protocol (BNEP) operation scenario. From our simulations the handoff
+connection time for a Bluetooth device is up to 11.84 s and the maximum average transmission delay is up to 4e-05 s when seven devices
+join a piconet simultaneously. Increasing the queue length for the Bluetooth-IP access system will decrease the traffic loss rate by 0.02 per
+1000 IP packets at the expense of a small delay performance.

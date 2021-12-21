@@ -1,0 +1,10 @@
+segment
+document
+segmentation
+number
+term
+word
+MI
+weight
+clustering
+different

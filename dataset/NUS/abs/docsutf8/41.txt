@@ -1,0 +1,33 @@
+Autonomous and Distributed Node Recovery in Wireless Sensor Networks
+ABSTRACT
+Intrusion or misbehaviour detection systems are an important
+and widely accepted security tool in computer and wireless
+sensor networks. Their aim is to detect misbehaving or
+faulty nodes in order to take appropriate countermeasures,
+thus limiting the damage caused by adversaries as well as by
+hard or software faults. So far, however, once detected, misbehaving
+nodes have just been isolated from the rest of the
+sensor network and hence are no longer usable by running
+applications. In the presence of an adversary or software
+faults, this proceeding will inevitably lead to an early and
+complete loss of the whole network.
+For this reason, we propose to no longer expel misbehaving
+nodes, but to recover them into normal operation. In this
+paper, we address this problem and present a formal specification
+of what is considered a secure and correct node
+recovery algorithm together with a distributed algorithm
+that meets these properties. We discuss its requirements
+on the soft- and hardware of a node and show how they can
+be fulfilled with current and upcoming technologies. The
+algorithm is evaluated analytically as well as by means of
+extensive simulations, and the findings are compared to the
+outcome of a real implementation for the BTnode sensor
+platform. The results show that recovering sensor nodes is
+an expensive, though feasible and worthwhile task. Moreover
+, the proposed program code update algorithm is not
+only secure but also fair and robust.
+Categories and Subject Descriptors
+C.2.0 [Computer-communication networks]: General-Security
+and protection
+General Terms
+Algorithms, Reliability, Security

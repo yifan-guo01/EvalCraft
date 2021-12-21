@@ -1,0 +1,22 @@
+Minimizing Average Flow Time on Related Machines
+ABSTRACT
+We give the first on-line poly-logarithmic competitve algorithm
+for minimizing average flow time with preemption
+on related machines, i.e., when machines can have different
+speeds. This also yields the first poly-logarithmic polynomial
+time approximation algorithm for this problem.
+More specifically, we give an O(log
+2
+P . log S)-competitive
+algorithm, where P is the ratio of the biggest and the smallest
+processing time of a job, and S is the ratio of the highest
+and the smallest speed of a machine. Our algorithm also has
+the nice property that it is non-migratory. The scheduling
+algorithm is based on the concept of making jobs wait for a
+long enough time before scheduling them on slow machines.
+Categories and Subject Descriptors
+F.2.2 [Analysis of Algorithms and Problem Complexity
+]: Nonnumerical Algorithms and Problems--Sequencing
+and Scheduling
+General Terms
+Algorithms

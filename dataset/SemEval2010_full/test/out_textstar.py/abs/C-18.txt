@@ -1,0 +1,8 @@
+The presence of these attributes distinguishes swarm worms from otherwise regular worms, or other types of malware such as Zombies.
+In figure ?
+The work is conducted under the auspices of Grant ACG 2004 06 by the Acumen Consulting Group, Inc., Marlboro, Massachusetts.
+REFERENCES [1] C.C.
+[2] Liu, S., and Passino, K. Swarm intelligence: Literature overview.
+In Dept.
+[3] Moore, D., Paxson, V., Savage, S., Shannon, C., Staniford, S., and Weaver, N. The spread of the saphire/slammer worm.
+Tech.

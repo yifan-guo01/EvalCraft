@@ -1,0 +1,8 @@
+The tasks arrive sequentially , along with their associated weights ( positive reals ) and have to be assigned immediately and uniquely to the machines of the system .
+In case that a random ized scheduler is taken into account , then the cost of the scheduler is the expectation of the corresponding random variable .
+125 1.3 Related Work In the case of assigning unit size tasks to identical machines , there has been a lot of intensive research during the last decade .
+On the other hand , OBL was inspired by the slowfit approaches for the Related Machines Full Information problem and the fact that a greedy scheduler behaves badly in that case .
+CONCLUSIONS In this work we have studied the problem of exploiting limited online information for the assignment of a sequence of unit size tasks to related machines .
+As for further research , the issue of providing only limited information to online algorithms is critical in many problems for which an objective is also the minimization of the communication cost .
+ACKNOWLEDGMENTS The author wishes to thank Paul Spirakis for valuable discussions during the write up of the paper and also for suggesting an appropriate terminology on the categorization of polling strategies .
+Expected Length of the Longest Probe Sequence in Hash Code Searching .

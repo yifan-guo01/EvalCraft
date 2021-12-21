@@ -1,0 +1,10 @@
+peer p
+p2p system p
+global database b
+peer schema
+notice
+work
+first page
+constraint be
+source database
+repair d

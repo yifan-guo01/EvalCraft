@@ -1,0 +1,9 @@
+single tree
+function roll
+list op
+relation R
+parsing algorithm
+function theorem
+spine tree
+fold function
+general result

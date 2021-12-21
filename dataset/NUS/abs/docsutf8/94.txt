@@ -1,0 +1,21 @@
+Focused Named Entity Recognition Using Machine Learning
+ABSTRACT
+In this paper we study the problem of finding most topical
+named entities among all entities in a document, which we
+refer to as focused named entity recognition. We show that
+these focused named entities are useful for many natural
+language processing applications, such as document summarization
+, search result ranking, and entity detection and
+tracking. We propose a statistical model for focused named
+entity recognition by converting it into a classification problem
+. We then study the impact of various linguistic features
+and compare a number of classification algorithms.
+From experiments on an annotated Chinese news corpus,
+we demonstrate that the proposed method can achieve near
+human-level accuracy.
+Categories and Subject Descriptors
+I.2.7 [Artificial Intelligence]: Natural language Processing
+--Text Analysis; H.3.1 [Information Storage And Retrieval
+]: Content Analysis and Indexing--Linguistic processing
+General Terms
+Algorithms, Experimentation

@@ -1,0 +1,32 @@
+Attack-Resilient Hierarchical Data Aggregation in Sensor Networks
+ABSTRACT
+In a large sensor network, in-network data aggregation, i.e., combining
+partial results at intermediate nodes during message routing,
+significantly reduces the amount of communication and hence the
+energy consumed. Recently several researchers have proposed robust
+aggregation frameworks, which combine multi-path routing
+schemes with duplicate-insensitive algorithms, to accurately compute
+aggregates (e.g., Sum, Count, Average) in spite of message
+losses resulting from node and transmission failures. However,
+these aggregation frameworks have been designed without security
+in mind. Given the lack of hardware support for tamper-resistance
+and the unattended nature of sensor nodes, sensor networks are
+highly vulnerable to node compromises. We show that even if a
+few compromised nodes contribute false sub-aggregate values, this
+results in large errors in the aggregate computed at the root of the
+hierarchy. We present modifications to the aggregation algorithms
+that guard against such attacks, i.e., we present algorithms for resilient
+hierarchical data aggregation despite the presence of compromised
+nodes in the aggregation hierarchy. We evaluate the performance
+and costs of our approach via both analysis and simulation
+. Our results show that our approach is scalable and efficient.
+Categories and Subject Descriptors
+C.2.0 [Computer-Communication Networks]: General--Security
+and protection
+; C.2.1 [Computer-Communication Networks]:
+Network Architecture and Design--Wireless communication; D.4.6
+[Operating Systems]: Security and Protection--Cryptographic controls
+; K.6.5 [Management of Computing and Information Systems
+]: Security and Protection
+General Terms
+Algorithms, Design, Security

@@ -1,0 +1,10 @@
+model
+category
+structure
+space
+function
+product
+Rel
+obtain candidate
+glue construction
+identity relation

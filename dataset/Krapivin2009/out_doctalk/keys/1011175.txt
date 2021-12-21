@@ -1,0 +1,10 @@
+space
+set
+object
+relation
+theorem
+algebraic lattice
+type
+definition
+function
+define equivalence

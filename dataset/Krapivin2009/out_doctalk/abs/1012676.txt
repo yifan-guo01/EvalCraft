@@ -1,0 +1,8 @@
+Introduction The current trend on the Internet suggests that the majority of revenues of web sites come from the advertising potential of the World Wide Web .
+Like in every other advertising channel , web advertisers must have a way to measure the exposure of their ads by obtaining usage statistics about web sites which contain their ads .
+Indeed , the amount of money charged to display ads depends on the number of visits received by the web sites .
+Consequently , advertisers should prevent the web sites from inflating the count of their visits in order to demand more money .
+In particular , we consider a scenario where there are many servers and clients , and an audit agency whose task is to count the number of clients which have been served by each server during a certain number of time frames .
+Even though metering originated in the field of web advertisements , there are several other applications of secure metering schemes .
+The clients participating in the metering process receive some information from the audit agency and such information is used to compute the information passed to the servers when visiting them .
+Since such information distribution affects the overall communication complexity , a major goal is to construct metering schemes whose overhead to the overall communication is as small as possible .

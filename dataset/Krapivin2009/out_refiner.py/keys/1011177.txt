@@ -1,0 +1,10 @@
+monoidal category
+event structure
+relation such
+linear function space
+other model
+function space
+tensor product
+morphism R
+diagonal functor
+candidate t

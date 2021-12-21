@@ -1,0 +1,10 @@
+metric
+adaptation
+criterion
+example
+Proc
+based
+service
+application
+different
+data

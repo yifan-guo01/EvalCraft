@@ -1,0 +1,10 @@
+set
+polynomial
+term
+closed
+lists size
+theory
+formula
+write
+resource
+linear

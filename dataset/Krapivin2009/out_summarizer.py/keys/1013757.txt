@@ -1,0 +1,10 @@
+computable function
+nondeterministic state
+broad class
+primitive recursion
+weak minimization operator
+explicit bound
+third argument
+time function
+z code
+natural denition

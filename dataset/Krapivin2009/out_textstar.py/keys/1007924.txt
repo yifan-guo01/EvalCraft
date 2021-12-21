@@ -1,0 +1,10 @@
+cache
+node
+placement
+cost
+denote
+algorithm
+coloring
+because
+value
+set

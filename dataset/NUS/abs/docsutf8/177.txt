@@ -1,0 +1,17 @@
+Seven Cardinal Properties of Sensor Network Broadcast Authentication
+ABSTRACT
+We investigate the design space of sensor network broadcast authentication
+. We show that prior approaches can be organized based
+on a taxonomy of seven fundamental proprieties, such that each approach
+can satisfy at most six of the seven proprieties. An empirical
+study of the design space reveals possibilities of new approaches,
+which we present in the following two new authentication protocols
+: RPT and LEA. Based on this taxonomy, we offer guidance in
+selecting the most appropriate protocol based on an application's
+desired proprieties. Finally, we pose the open challenge for the research
+community to devise a protocol simultaneously providing
+all seven properties.
+Categories and Subject Descriptors
+C.2.0 [Computer-Communication Networks]: General- Security
+and protection; K.6.5 [Security and Protection]: Security and
+Protection - Authentication

@@ -1,0 +1,7 @@
+Where and when were they sighted?
+Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval, pages 335 336, 1998.
+[6] E. Efthimiadis.
+Query Expansion.
+A Mention synchronous Coreference Resolution Algorithm based on the Bell Tree.
+Proc.
+of ACL, 4:136 143, 2004.

@@ -1,0 +1,10 @@
+sharing scheme
+client
+visit server
+access structure
+Accounting web
+log metering
+choose secret
+qualified set
+vector access
+structure Gamma

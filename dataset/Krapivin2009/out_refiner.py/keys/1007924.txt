@@ -1,0 +1,10 @@
+adjacent line
+child hierarchy
+file #.
+HCC algorithm
+internal node
+placement p
+cache u
+retrieval cost
+down loop
+capacity blowup

@@ -1,0 +1,10 @@
+set
+method
+network
+interestingness
+rule
+algorithm
+frequent itemset
+distribution
+frequent pattern
+background knowledge

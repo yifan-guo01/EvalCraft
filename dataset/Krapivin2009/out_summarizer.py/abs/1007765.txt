@@ -1,0 +1,8 @@
+This problem formulation is motivated in part by some clustering problems at Whizbang Labs in which learning algorithms have been trained to help with various clustering tasks [8, 9, 10].
+For example, in k-median [7, 15] or min-sum clustering [20] or min-max clustering [14], one can always get a perfect score by putting each node into its own cluster - the question is how well one can do with only k clusters.
+In general, finding the optimal clustering is NP-hard, which can be seen via a tedious reduction from X3C (details can be found in [5]).
+Proof: Let the clustering on V be bound the number of mistakes made by this clustering by 8 times the number of edge-disjoint "erroneous triangles" in the graph, where an erroneous triangle is a triangle having two edges and one edge.
+For a cluster A i , let A 0 i be the set produced after the vertex removal phase such the cluster A i is obtained by applying the vertex addition phase to A 0 i .
+The idea is to bound the number of positive edges between every pair of subsets of C OPT using argument in the previous lemma and adding these up to get the result.
+The algorithm can fail in four situations: more than =2 do not have an  0 -good partition with probability at most =2, lemma 13 does not hold for some W i with probability at most 2ke  02 m=2 , lemma 15 does not hold for some i with probability at most 8k m=4 or lemma 14 does not hold for some pair with probability at most .
+Going back to our original motivation, if we imagine there is some true correct clustering OPT of our n items, and that the only reason this clustering does not appear perfect is that our function f(A; B) used to label the edges has some error, then it is natural to consider the case that the the errors are random.

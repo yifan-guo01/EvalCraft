@@ -1,0 +1,28 @@
+Discovering and Ranking Web Services with BASIL: A Personalized Approach with Biased Focus
+ABSTRACT
+In this paper we present a personalized web service discovery
+and ranking technique for discovering and ranking relevant
+data-intensive web services. Our first prototype   called BASIL
+  supports a personalized view of da-a-intensive web services
+through source-biased focus. BASIL provides service discovery
+and ranking through source-biased probing and source-biased
+relevance metrics. Concretely, the BASIL approach has three
+unique features: (1) It is able to determine in very few interactions
+whether a target service is relevant to the given source
+service by probing the target with very precise probes; (2) It
+can evaluate and rank the relevant services discovered based on
+a set of source-biased relevance metrics; and (3) It can identify
+interesting types of relationships for each source service
+with respect to other discovered services, which can be used
+as value-added metadata for each service. We also introduce a
+performance optimization technique called source-biased probing
+with focal terms to further improve the effectiveness of the
+basic source-biased service discovery algorithm. The paper concludes
+with a set of initial experiments showing the effectiveness
+of the BASIL system.
+Categories and Subject Descriptors
+H.3.5 [Online Information
+Services]: Web-based services
+General Terms
+Algorithms, Experimentation
+

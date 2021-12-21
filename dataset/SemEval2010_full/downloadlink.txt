@@ -1,0 +1,10 @@
+1. Average of 14 keyphrases per document (13 -17)
+2. paper 5 keywords, 10 keywords, 15 keywords
+3. Su Nam Kim, Olena Medelyan, Min-Yen Kan, and Timothy Baldwin. 2010. Semeval-2010 task 5: Automatic keyphrase extraction from scientific articles. In Proceedings of the 5th International Workshop on Semantic Evaluation. Association for Computational Linguistics, pages 21–26.
+4. Test the test set (100), training set (144), and trial set (40) separately.
+5. Use full documents for now
+6. Abstract-only version: https://github.com/epapagia/Datasets-Keyphrase-Extraction
+7. Run abstract-only version
+8. Run full text version
+9. Full dataset available at https://github.com/snkim/AutomaticKeyphraseExtraction (the semeval10 file)
+

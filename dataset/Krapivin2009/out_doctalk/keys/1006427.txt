@@ -1,0 +1,10 @@
+cell
+device
+problem
+strategy
+system
+paging
+report location
+expect number
+expect value
+search algorithm

@@ -1,0 +1,26 @@
+Hawking et al [17] made ten suggestions on how to conduct high 
+quality intranet search.
+Given a query, we used the following information to deduce the 
+underlying search need:
+the query itself 
+  the documents returned by the search engine 
+  the documents clicked on by the user
+For example, if a user typed a keyword of `.net' and clicked a 
+homepage of .net, then we judged that the user was looking for a 
+homepage of .net.
+However, it is difficult to find expert 
+searches from query log at a conventional search engine, because 
+users understand that such search is not supported and they do not 
+conduct the search.
+We thank Jin Jiang, Ming Zhou, Avi Shmueli, Kyle Peltonen, 
+Drew DeBruyne, Lauri Ellis, Mark Swenson, and Mark Davies for 
+their supports to the project.
+M. Chen, A. Hearst, A. Marti, J. Hong, and J. Lin, Cha Cha:
+A System for Organizing Intranet Results.
+C. L. A. Clarke, G. V. Cormack, T. R. Lynam, C. M. Li, and
+G. L. McLearn, Web Reinforced Question Answering 
+(MultiText Experiments for TREC 2001).
+B. Liu, C. W. Chin, and H. T. Ng. Mining Topic Specific
+Concepts and Definitions on the Web.
+H. Yang, H. Cui, M. Maslennikov, L. Qiu, M Y. Kan, and TS
+. Chua, QUALIFIER in TREC 12 QA Main Task.

@@ -1,0 +1,10 @@
+computable function
+state d
+broad class
+safe recursion
+total minimization operator
+explicit bound
+third argument
+time function
+z code
+natural denition

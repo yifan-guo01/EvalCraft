@@ -1,0 +1,10 @@
+context
+operation
+Proc
+transform
+Ox
+DS
+COT
+against
+transformed
+condition

@@ -1,0 +1,10 @@
+query model
+expansion term quality
+feedback model
+original query model
+relevant document model
+feedback method
+topic set
+trec topic
+model distribution
+expansion term

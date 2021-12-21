@@ -1,0 +1,10 @@
+node
+cluster head
+ieee cluster
+multi mode
+propose model
+wireless communication
+network lifetime
+average number
+transmission consumption
+author

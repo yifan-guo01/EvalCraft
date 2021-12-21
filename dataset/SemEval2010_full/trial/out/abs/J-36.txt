@@ -1,0 +1,8 @@
+In real life , however , people are often unaware of the utility of taking a particular action until they perform research into its consequences .
+Democratic Party strategists huddle around a map .
+How should the Kennedy campaign allocate its remaining advertising budget ?
+This tension between the risk arising from uncertainty and the cost of acquiring information is ubiquitous in economics , political science , and beyond .
+As a result , the standard linear programs for computing equilibria have an exponential number of variables and an exponential number of constraints .
+In this section , we briefly review some of these social science experiments and then discuss technical approaches related to Socratic game theory .
+Location of bank accounts to optimize float : An analytic study of exact and approximate algorithms .
+The complexity of two person zero sum games in extensive form .

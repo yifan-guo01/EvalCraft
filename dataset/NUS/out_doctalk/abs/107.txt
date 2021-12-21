@@ -1,0 +1,8 @@
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+If it finds one it can draw a flow graph from the source of the bad value to the faulty primitive operation .
+Three Embedded Languages We now turn to embedded languages , which are a useful technique for establishing abstraction layers for a particular design space .
+The example query consists of exactly three columns , and the code references the third element of the first row .
+This technology also provides a hook into the standard compiler tool chain by allowing programmers to implement additional program transformations before compilation .
+5.2 Lexical Scope Macros written with the standard Scheme syntax rules mechanism are both hygienic and referentially transparent .
+Hygienic macro expansion guarantees that binding forms inside the definition of the macro template do not capture free variables in macro arguments .
+Our macro system uses macro expansion time computation to specialize expressions so that the subsequent flow analysis can compute precise value flow results .

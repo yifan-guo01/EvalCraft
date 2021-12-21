@@ -1,0 +1,6 @@
+We call this property accessibility or realisability.
+Formally, .
+Formally, #(P\B) df Hiding is associative in that (P\B)\B Networks of processes Processes P 1 , .
+The following algorithm makes the above construction precise, generating an equivalent unambiguous CTS, from a given CTS and a set of extraction graphs.
+Algorithm 1.
+J.Burton, M.Koutny and G.Pappalardo Finally, in the present work we build on the preliminary results of [4] (which was based on older implementation relations), and develop e#cient algorithms for automatically verifying the present implementation relation.

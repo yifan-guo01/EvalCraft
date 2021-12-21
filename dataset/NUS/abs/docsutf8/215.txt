@@ -1,0 +1,35 @@
+What's There and What's Not? Focused Crawling for Missing Documents in Digital Libraries
+ABSTRACT
+Some large scale topical digital libraries, such as CiteSeer, harvest 
+online academic documents by crawling open-access archives, 
+university and author homepages, and authors' self-submissions. 
+While these approaches have so far built reasonable size libraries, 
+they can suffer from having only a portion of the documents from 
+specific publishing venues. We propose to use alternative online 
+resources and techniques that maximally exploit other resources to 
+build the complete document collection of any given publication 
+venue.
+We investigate the feasibility of using publication metadata to 
+guide the crawler towards authors' homepages to harvest what is 
+missing from a digital library collection. We collect a real-world 
+dataset from two Computer Science publishing venues, involving 
+a total of 593 unique authors over a time frame of 1998 to 2004. 
+We then identify the missing papers that are not indexed by 
+CiteSeer. Using a fully automatic heuristic-based system that has 
+the capability of locating authors' homepages and then using 
+focused crawling to download the desired papers, we demonstrate 
+that it is practical to harvest using a focused crawler academic 
+papers that are missing from our digital library. Our harvester 
+achieves a performance with an average recall level of 0.82 
+overall and 0.75 for those missing documents. Evaluation of the 
+crawler's performance based on the harvest rate shows definite 
+advantages over other crawling approaches and consistently 
+outperforms a defined baseline crawler on a number of measures.
+
+Categories and Subject Descriptors
+H.3.7 [Information Systems]: Information Storage and Retrieval 
+
+ Digital Libraries
+
+General Terms
+Algorithms, Performance, Design, Experimentation.

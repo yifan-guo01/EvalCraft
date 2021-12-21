@@ -1,0 +1,8 @@
+We hypothesize that searchers who use advanced query syntax demonstrate a degree of search expertise that the majority of the user population does not; an assertion supported by previous research [13].
+A relationship between the use of advanced syntax and any of these features could support the design of systems tailored to advanced search engine users, or use advanced users" interactions to help non advanced users be more successful in their searches.
+Belkin et al. [4] experimented with providing additional space for users to type a more verbose description of their information needs.
+A similar approach was attempted by Kelly et al. [18], who used clarification forms to elicit additional information about the search context from users.
+Relevance Feedback (RF) [22] and interactive query expansion [9] are popular techniques that have been used to improve the quality of information that users provide to IR systems regarding their information needs.
+The privacy of our volunteers was maintained throughout the entire course of the study: no personal information was elicited about them, participants were assigned a unique anonymous identifier that could not be traced back to them, and we made no attempt to identify a particular user or study individual behavior in any way.
+We address this problem in a manner similar to that used by the Text Retrieval Conference (TREC) [21], in that since we cannot determine perceived search success, we approximate search success based on assigned relevance scores of visited documents.
+Since this analysis involved many features, we use a Bonferroni correction to control the experiment wise error rate and set the alpha level (α) to .007, i.e., .05 divided by the number of features.

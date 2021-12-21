@@ -1,0 +1,10 @@
+term
+concept
+information
+document
+feature
+relevance lce
+use approach
+expansion technique
+bigram relevance
+Third page

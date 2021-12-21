@@ -1,0 +1,36 @@
+Efficiency and Nash Equilibria in a Scrip System for P2P
+Networks
+Eric J. Friedman
+School of Operations
+Research and Industrial
+Engineering
+Cornell University
+ejf27@cornell.edu
+Joseph Y. Halpern
+Computer Science Dept.
+Cornell University
+halpern@cs.cornell.edu
+Ian Kash
+Computer Science Dept.
+Cornell University
+kash@cs.cornell.edu
+ABSTRACT
+A model of providing service in a P2P network is analyzed.
+It is shown that by adding a scrip system, a mechanism that
+admits a reasonable Nash equilibrium that reduces free 
+riding can be obtained. The effect of varying the total amount
+of money (scrip) in the system on efficiency (i.e., social 
+welfare) is analyzed, and it is shown that by maintaining the
+appropriate ratio between the total amount of money and
+the number of agents, efficiency is maximized. The work
+has implications for many online systems, not only P2P 
+networks but also a wide variety of online forums for which scrip
+systems are popular, but formal analyses have been lacking.
+Categories and Subject Descriptors
+C.2.4 [Computer-Communication Networks]: Distributed
+Systems; I.2.11 [Artificial Intelligence]: Distributed 
+Artificial Intelligence-Multiagent systems; J.4 [Social and 
+Behavioral Sciences]: Economics; K.4.4 [Computers and
+Society]: Electronic Commerce
+General Terms
+Economics, Theory

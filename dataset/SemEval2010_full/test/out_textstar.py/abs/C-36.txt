@@ -1,0 +1,8 @@
+We also assume that the publisher and subscriber hosting brokers are always trusted to access the publication.
+and Raiciu et al.
+Springer Verlag.
+[7] T. Iwata and I.
+A. Iurosawa.
+In M. Endler and D. Schmidt, editors, Proc.
+of the 4th Int.
+Conf.

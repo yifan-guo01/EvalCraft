@@ -1,0 +1,24 @@
+Proportional Search Interface Usability Measures
+ABSTRACT
+Speed,  accuracy,  and  subjective  satisfaction  are  the  most
+common  measures  for  evaluating  the  usability  of  search
+user  interfaces.  However,  these  measures  do  not  facilitate
+comparisons  optimally  and  they  leave  some  important
+aspects  of  search  user  interfaces  uncovered.  We  propose
+new, proportional measures to supplement the current ones.
+Search  speed  is  a  normalized  measure  for  the  speed  of  a
+search  user  interface  expressed  in  answers  per  minute.
+Qualified search speed reveals the trade-off between speed
+and  accuracy  while  immediate  search  accuracy  addresses
+the need to measure success in typical web search behavior
+where  only  the  first  few  results  are  interesting.  The
+proposed measures are evaluated by applying them to raw
+data  from  two  studies  and  comparing  them  to  earlier
+measures. The evaluations indicate that they have desirable
+features.
+
+ACM Classification Keywords
+H5.2. Information interfaces and presentation (e.g., HCI):
+User Interfaces: Evaluation/methodology.
+H3.3. Information Storage and Retrieval: Information
+Search and Retrieval: Search Process.

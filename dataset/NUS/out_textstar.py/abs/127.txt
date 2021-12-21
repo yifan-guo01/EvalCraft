@@ -1,0 +1,14 @@
+But, beyond some limit, support of higher performance requires
+dedicated hardware for the entire pipeline.
+LeoFloat has a special
+instruction that takes the results of the last three comparisons and reorders
+part of the R register file to place vertices in sorted order.
+Miscellaneous.
+ACKNOWLEDGEMENTS
+The authors would like to thank the entire Leo team for their efforts
+in producing the system, and Mike Lavelle for help with the paper.
+REFERENCES
+1.
+Tessellation of Curved
+Surfaces under Highly Varying Transformations.
+Proc.

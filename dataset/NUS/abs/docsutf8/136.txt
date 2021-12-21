@@ -1,0 +1,31 @@
+
+ABSTRACT
+Public administrations of all over the world invest an enormous 
+amount of resources in e-government. How the success of e-government
+can be measured is often not clear. E-government 
+involves many aspects of public administration ranging from 
+introducing new technology to business process (re-)engineering. 
+The measurement of the effectiveness of e-government is a 
+complicated endeavor. 
+In this paper current practices of e-government measurement are 
+evaluated. A number of limitations of current measurement 
+instruments are identified. Measurement focuses predominantly 
+on the front (primarily counting the number of services offered) 
+and not on the back-office processes. Interpretation of measures 
+is difficult as all existing measurement instruments lack a 
+framework depicting the relationships between the indicators and 
+the use of resources. The different measures may fit the aim of the 
+owners of the e-governmental services, however, due to 
+conflicting aims and priorities little agreement exists on a uniform 
+set of measures, needed for comparison of e-government 
+development. Traditional methods of measuring e-government 
+impact and resource usage fall short of the richness of data 
+required for the effective evaluation of e-government strategies.
+Categories and Subject Descriptors
+J.1 [Administrative Data Processing]: Administrative Data 
+Processing - Government; K.4.4 [Computing Milieux]: 
+Computers and Society--Electronic Commerce
+
+
+General Terms
+Management, Measurement, Performance, Standardization

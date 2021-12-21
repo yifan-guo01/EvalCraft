@@ -1,0 +1,48 @@
+A bootstrap sample of the data is a
+sample with replacement, so that X
+m
+= (x
+m
+1
+, .
+, n} with
+repetitions allowed.
+To be more specific, a decision tree typically operates with a
+multinomial likelihood,
+leaves
+j
+classes
+k
+p
+n
+jk
+jk
+,
+where p
+jk
+is the true probability that an observation in leaf j will be in class k, and n
+jk
+is
+the count of data points in leaf j in class k. This is easily re written as the product over
+all observations,
+n
+i
+=1
+p
+
+i
+where if observation i is in leaf j and a member of class k then
+p
+
+i
+= p
+jk
+.
+For simplicity, we consider the case k = 2 as the generalization to larger k is
+straightforward.
+Now consider a single point, y, which takes values 0 or 1 depending on
+which class is it a member of.
+It can also lead to increased accuracy and decreased prediction variance for smaller data
+sets.
+P. E. Utgoff, N. C. Berkman, and J.
+A. Clouse.

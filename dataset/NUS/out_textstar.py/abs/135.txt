@@ -1,0 +1,12 @@
+(5) Chae's CO [6] introduces glue methods, and Xu Zhou's CO 
+[13] introduces cut set (glue edges) to analyze the interact pattern.
+These two measures are more rational than other measures.
+From the introductions above, we can see that
+.
+LCOM1  is non monotonous.
+Chae's  CO overcomes most limitations of previous
+measures.
+But it is non monotonous [13].
+On Revising Chae's Cohesion 
+Measure for Classes.
+Software.

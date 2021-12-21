@@ -1,0 +1,8 @@
+Secondly , its supporting hardware and software architecture should be optimized to crawl large quantities of documents per unit of time ( generally per second ) .
+terms of speed regulation , fault management by supervisors and the introduction / suppression of machine nodes without system restart during a crawl .
+Note that here , the quality and efficiency of disk access are crucial to maintaining high performance .
+A breadth first exploration is launched by following hypertext links leading to those pages directly connected with this initial set .
+Let us assume that uniform samples of Web pages may be taken and their membership of both sets tested .
+The workers are responsible for processing the URL flow coming from their supervisors and for executing crawling process tasks in the strict sense .
+A worker is a light process in the Erlang sense , acting as a fault tolerant and highly available HTTP client .
+Breadth first search crawling yields high quality pages .

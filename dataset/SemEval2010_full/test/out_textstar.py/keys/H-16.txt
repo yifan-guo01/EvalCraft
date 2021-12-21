@@ -1,0 +1,10 @@
+query
+term
+cache
+frequency
+list
+answer
+size
+caching
+Suel
+consider

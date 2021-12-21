@@ -1,0 +1,10 @@
+time client
+optimal resource usage
+incoming request
+process call
+locker algorithm
+order function
+pend list
+access pend
+Erlang
+program code

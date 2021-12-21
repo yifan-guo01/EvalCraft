@@ -1,0 +1,8 @@
+INTRODUCTION State of the art information retrieval systems commonly use machine learning techniques to learn ranking functions .
+As a result , finding good probabilities requires solving a more difficult problem than necessary , likely requiring more training data to achieve the same MAP performance .
+The second common approach is to learn a function that maximizes a surrogate measure .
+This approach simplifies the process of obtaining ranking functions with high MAP performance by avoiding additional intermediate steps and heuristics .
+One useful property of ∆ map is that it is invariant to swapping two documents with equal relevance .
+EXPERIMENT SETUP The main goal of our experiments is to evaluate whether directly optimizing MAP leads to improved MAP performance compared to conventional SVM methods that optimize a substitute loss such as accuracy or ROCArea .
+The first index was generated using default settings , the second used Porter stemming , and the last used Porter stemming and Indri " s default stopwords .
+This was simply an efficient means to normalize the outputs of different functions and allow for a more expressive model .

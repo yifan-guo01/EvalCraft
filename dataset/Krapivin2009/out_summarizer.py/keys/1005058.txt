@@ -1,0 +1,9 @@
+rule base
+recommender system
+mining model
+product other
+Bayesian network
+customer service
+similarity method
+customer profile
+transaction number

@@ -1,0 +1,8 @@
+This can be encoded as a function where P fne denotes the (nite, non-empty) powerset functor: X maps a - nite subset a of jXj to i i a is a singleton, and to _ i it is an element of (X).
+We take the nite powerset functor on the category of sets and relations Rel to be dened on morphisms by a (P fne i there is a (nite) subset E of R with  1 b.
+Then R being a morphism of hypercoherences is equivalent to the condition a (P fne implying X (a)   Y (b).
+These observations suggest a pattern.
+Again we have a useful fact making the connections for us.
+RS 0 .
+on Rel we start.)
+Obviously, Girard's denition satises the rst two of those inequalities, but not the third.

@@ -1,0 +1,33 @@
+Evolutionary Learning with Kernels: A Generic Solution for Large Margin Problems
+ABSTRACT
+In this paper we embed evolutionary computation into statistical
+learning theory. First, we outline the connection between
+large margin optimization and statistical learning and
+see why this paradigm is successful for many pattern recognition
+problems. We then embed evolutionary computation
+into the most prominent representative of this class of learning
+methods, namely into Support Vector Machines (SVM).
+In contrast to former applications of evolutionary algorithms
+to SVMs we do not only optimize the method or kernel parameters
+. We rather use both evolution strategies and particle
+swarm optimization in order to directly solve the posed
+constrained optimization problem. Transforming the problem
+into the Wolfe dual reduces the total runtime and allows
+the usage of kernel functions. Exploiting the knowledge
+about this optimization problem leads to a hybrid mutation
+which further decreases convergence time while classification
+accuracy is preserved. We will show that evolutionary
+SVMs are at least as accurate as their quadratic programming
+counterparts on six real-world benchmark data sets.
+The evolutionary SVM variants frequently outperform their
+quadratic programming competitors. Additionally, the proposed
+algorithm is more generic than existing traditional
+solutions since it will also work for non-positive semidefinite
+kernel functions and for several, possibly competing, performance
+criteria.
+Track: Learning Classifier Systems and other Genetics-Based
+Machine Learning
+Categories and Subject Descriptors
+Learning
+General Terms
+Algorithms, Theory, Experimentation

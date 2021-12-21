@@ -1,0 +1,24 @@
+A Taxonomy of Ambient Information Systems: Four Patterns of Design
+ABSTRACT
+Researchers  have  explored  the  design  of  ambient  information 
+systems across  a wide range of physical and screen-based media. 
+This work has yielded rich examples of design approaches to the 
+problem of presenting information about a user's world in a way 
+that is not distracting, but is aesthetically pleasing, and tangible to 
+varying degrees. Despite these successes, accumulating theoretical 
+and  craft  knowledge  has  been  stymied  by  the  lack  of  a  unified 
+vocabulary  to  describe  these  systems  and  a  consequent  lack  of  a 
+framework for understanding their design attributes. We argue that 
+this  area  would  significantly  benefit  from  consensus  about  the 
+design  space  of  ambient  information  systems  and  the  design 
+attributes  that  define  and  distinguish  existing  approaches.  We 
+present  a  definition  of  ambient  information  systems  and  a 
+taxonomy  across  four  design  dimensions:  Information  Capacity, 
+Notification  Level,  Representational  Fidelity,  and  Aesthetic 
+Emphasis.  Our  analysis  has  uncovered  four  patterns  of  system 
+design  and  points  to  unexplored  regions  of  the  design  space, 
+which may motivate future work in the field.
+
+Categories and Subject Descriptors
+Visual Interface Design, Tangible Interfaces
+

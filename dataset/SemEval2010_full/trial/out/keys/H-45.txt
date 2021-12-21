@@ -1,0 +1,20 @@
+technique
+document
+retrieval
+performance
+wig
+collection
+score
+prediction accuracy
+web search
+web content
+prior information
+surprising correlation
+table
+Online proceedings
+query classifier
+fix parameter
+rank list
+prediction task
+search environment
+paper

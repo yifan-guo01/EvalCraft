@@ -1,0 +1,10 @@
+edge indexing method
+object entity node
+update complexity
+entity object entity
+cell evaluation
+update time cost
+indexing method user
+indexing structure
+entity node indexing
+table edge

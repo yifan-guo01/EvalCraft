@@ -1,0 +1,15 @@
+Computing Consistent Query Answers using Conflict Hypergraphs
+Abstract
+A consistent query answer in a possibly inconsistent database
+is an answer which is true in every (minimal) repair of the
+database. We present here a practical framework for computing
+consistent query answers for large, possibly inconsistent relational
+databases. We consider relational algebra queries without projection
+, and denial constraints. Because our framework handles
+union queries, we can effectively (and efficiently) extract indefinite
+disjunctive information from an inconsistent database. We
+describe a number of novel optimization techniques applicable in
+this context and summarize experimental results that validate our
+approach.
+Categories: H.2.3, H.2.4, F.4.1.
+General Terms: Algorithms, Languages, Theory.

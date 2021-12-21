@@ -1,0 +1,10 @@
+document
+query
+engine
+sentence
+search
+sub system
+term
+page
+word
+collection

@@ -1,0 +1,33 @@
+Evaluation and Evolution of a Browse and Search Interface: Relation Browser++
+ABSTRACT
+We present in this paper the design and an evaluation of a novel 
+interface called the Relation Browser++ (RB++) for searching 
+and browsing large information collections. RB++ provides 
+visualized category overviews of an information space and 
+allows dynamic filtering and exploration of the result set by 
+tightly coupling the browsing and searching functions. A user 
+study was conducted to compare the effectiveness, efficiency 
+and user satisfaction of completing various types of searching 
+and browsing using the RB++ interface and a traditional form-fillin
+interface for a video library. An exploration set of tasks 
+was also included to examine the effectiveness of and user 
+satisfaction with the RB++ when applied to a large federal 
+statistics website. The comparison study strongly supported that 
+RB++ was more effective, efficient, and satisfying for 
+completing data exploration tasks.  Based on the results, efforts 
+to automatically populate the underlying database using machine 
+learning techniques are underway.  Preliminary implementations 
+for two large-scale federal statistical websites have been 
+installed on government servers for internal evaluation.
+Categories and Subject Descriptors
+:H.5.2 [Information Interfaces and presentation (e.g. HCI)]: 
+User Interface - interaction style, graphical user interfaces 
+(GUI);H.3.3 [Information Storage and Retrieval]: 
+Information Search and Retrieval - query formulation, 
+search process, selection process;H.3.7 [Information Storage 
+and Retrieval]: Digital Libraries   User issues, Systems 
+issues
+General Terms:
+Design, Human Factors, Experimentation, Performance
+
+

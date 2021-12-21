@@ -1,0 +1,35 @@
+A Hierarchical Process Execution Support for Grid
+Computing
+Fábio R. L. Cicerre
+Institute of Computing
+State University of Campinas
+Campinas, Brazil
+fcicerre@ic.unicamp.br
+Edmundo R. M. Madeira
+Institute of Computing
+State University of Campinas
+Campinas, Brazil
+edmundo@ic.unicamp.br
+Luiz E. Buzato
+Institute of Computing
+State University of Campinas
+Campinas, Brazil
+buzato@ic.unicamp.br
+ABSTRACT
+Grid is an emerging infrastructure used to share resources
+among virtual organizations in a seamless manner and to
+provide breakthrough computing power at low cost. 
+Nowadays there are dozens of academic and commercial products
+that allow execution of isolated tasks on grids, but few 
+products support the enactment of long-running processes in a
+distributed fashion. In order to address such subject, this
+paper presents a programming model and an infrastructure
+that hierarchically schedules process activities using 
+available nodes in a wide grid environment. Their advantages
+are automatic and structured distribution of activities and
+easy process monitoring and steering.
+Categories and Subject Descriptors
+C.2.4 [Computer-Communication Networks]: Distributed
+Systems-distributed applications
+General Terms
+Design, Performance, Management, Algorithms

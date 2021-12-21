@@ -1,0 +1,10 @@
+query
+page
+result
+location
+classifier
+global
+classification
+local
+different
+locality

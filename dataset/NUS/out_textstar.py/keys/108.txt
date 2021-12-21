@@ -1,0 +1,10 @@
+database
+EXAMPLE
+pattern
+sequence
+algorithm
+infrequent
+SF
+support
+number
+frequent

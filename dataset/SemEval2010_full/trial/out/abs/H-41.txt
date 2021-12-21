@@ -1,0 +1,8 @@
+We quantified their effectiveness using three common performance measures : the mean reciprocal rank , the mean average precision , and the normalized discounted cumulative gain measurements .
+Finally , we studied the relationship between query specificity and the effectiveness of selected features , and found that link based features perform better for general queries , whereas BM25F performs better for specific queries .
+The remainder of this paper is structured as follows : Section 2 surveys related work .
+The popularity of these two algorithms and the phenomenal success of the Google search engine , which uses PageRank , have spawned a large amount of subsequent research .
+Our web graph is based on a web crawl that was conducted in a breadth first search fashion , and successfully retrieved 463,685,607 HTML pages .
+For this reason , Kleinberg suggests sampling a fixed size random subset of the pages linking to any high indegree page in the result set .
+The horizontal axis of each graph represents the number of sampled back links , the vertical axis represents performance under the appropriate measure , and each curve depicts a link selection scheme .
+We believe that the measurements presented in this paper provide a solid evaluation of the best well known link based ranking schemes .

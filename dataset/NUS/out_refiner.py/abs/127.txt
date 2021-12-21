@@ -1,0 +1,123 @@
+For low end accelerators, only portions of the pixel drawing stages
+of the pipeline are in hardware; the floating point intensive parts of
+the pipe are processed by the host in software.
+Restart corresponds to a "move" operation in
+polylines, and allows multiple unconnected variable length triangle
+strips to be described by a single data structure passed in by the user,
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+21
+1 Restart
+  2 RO
+  3 RO
+  4 RO
+  5 RO
+  6 RO
+  7 Restart
+  8 RO
+  9 RO
+10 RM
+11 RM
+12 RM
+13 RM
+14 RM
+15 Restart
+16 RO
+17 RO
+18 Restart
+19 RO
+20 RO
+21 RO
+22 Restart
+23 RO
+24 RO
+25 RO
+26 RO
+27 RO
+28 RO
+29 RM
+30 RM
+31 RM
+32 RM
+33 RO
+Triangle Strip
+Triangle Star
+Independent
+Triangle
+Independent
+Quad
+Mixed Strip
+Figure 3: A Generalized Triangle Strip
+Vertex Codes
+RO = Replace Oldest
+RM = Replace Middle
+103
+reducing the overhead.
+I0  I31
+I0' I31'
+*
+*
++
++
++
+IALU
+1/X
+FALU
+FMULT
+Input from off chip
+Off chip output
+P0  P31
+P32 P63
+P64 P91
+R0  R31
+R32 R63
+O0  O31
+O0' O31'
+104
+illusion that individual instructions are executed in one shot.
+Mathematically, each chip thinks it is rasterizing the triangle
+into an image memory with valid pixel centers only every five original
+pixels horizontally, with each chip starting off biased one more
+pixel to the right.
+Therefore, when rendering 3D lines, Leo
+employs a high accuracy DDA algorithm, using 32 bits internally
+for sufficient subpixel precision.
+Triangles need
+single pixel cycle edge walking hardware in parallel with RGBZ
+span interpolation hardware.
+Isolated 10 pixel antialiased, constant color, Z buffered, depth cued
+lines (which are actually 12 pixels long due to endpoint ramps, and
+three pixels wide) render at a 422K per second rate.
+Complete
+images of simulated rendering were generated throughout the
+course of the project, from within weeks of its start.

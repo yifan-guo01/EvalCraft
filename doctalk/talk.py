@@ -156,7 +156,8 @@ def digest(text) :
   sent_data=[]
   # calls server here
   global client
-  client = NLPclient()  
+  if not client:
+    client = NLPclient()  
   for i,xss in enumerate(client.extract(text)) :
     lexs,deps,ies=xss
     sent,lemma,tag,ner=[],[],[],[]

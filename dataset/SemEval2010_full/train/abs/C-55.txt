@@ -1,0 +1,25 @@
+Context Awareness for Group Interaction Support
+Alois Ferscha, Clemens Holzmann, Stefan Oppl
+Institut für Pervasive Computing, Johannes Kepler Universität Linz
+Altenbergerstraße 69, A-4040 Linz
+{ferscha,holzmann,oppl}@soft.uni-linz.ac.at
+ABSTRACT
+In this paper, we present an implemented system for supporting
+group interaction in mobile distributed computing environments.
+First, an introduction to context computing and a motivation for
+using contextual information to facilitate group interaction is
+given. We then present the architecture of our system, which
+consists of two parts: a subsystem for location sensing that
+acquires information about the location of users as well as spatial
+proximities between them, and one for the actual context-aware
+application, which provides services for group interaction.
+Categories and Subject Descriptors
+C.2.4 [Computer-Communication Networks]: Distributed
+Systems - distributed applications.
+H.1.2 [Models and Principles]: User/Machine Systems - human
+factors.
+H.5.3 [Information Interfaces and Presentation]: Group and
+Organization Interfaces - asynchronous interaction, collaborative
+computing, theory and models, synchronous interaction.
+General Terms
+Design, Experimentation

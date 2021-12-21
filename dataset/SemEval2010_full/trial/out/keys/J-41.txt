@@ -1,0 +1,20 @@
+slot
+value
+agent
+allocation
+rbr
+rule
+model
+incomplete information
+incomplete case
+bidder relevance
+merchant
+differ price
+expect payment
+follow lemma
+rank mechanism
+clickthrough rate
+pure strategy
+follow theorem
+Google estimate
+bid example

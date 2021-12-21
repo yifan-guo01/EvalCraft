@@ -1,0 +1,10 @@
+model
+language
+tracking
+link detection
+cosine similarity
+Indexing
+det curve
+machine translation
+table figure
+total table

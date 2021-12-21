@@ -1,0 +1,8 @@
+Introduction 1.1 Motivation Many different kinds of networked data centric sensor applications have emerged in recent years .
+To achieve its goals , a typical sensor application needs access to both live and past sensor data .
+Order preserving structures such as the well known B Tree maintain relationships between indexed values and thus allow natural access to ranges , as well as predecessor and successor operations on their key values .
+Sensors produce time series data streams , and therefore , temporal ordering of data is a natural and simple way of storing archived sensor data .
+While we anticipate local storage capacity to be large , eventually there might be a need to overwrite older data , especially in high data rate applications .
+The coarser and less frequent the summary information , the less energy required , while false query hits in turn waste energy on requests for non existent data .
+Failure handling is an important issue in a multi tier sensor architecture since it relies on many components proxies , sensor nodes and routing nodes can fail , and wireless links can fade .
+For the search sizes examined , amortization of overhead when searching multiple flash pages and archival records , as well as within the flash chip and its associated driver , results in the appearance of sub linear increase in latency with search size .

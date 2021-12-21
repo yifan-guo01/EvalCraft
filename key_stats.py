@@ -2,6 +2,7 @@ from nltk.metrics.scores import recall,precision,f_measure
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer 
 import nltk
+nltk.download('punkt')
 
 ps=PorterStemmer()
 lm=WordNetLemmatizer() 

@@ -1,0 +1,9 @@
+domain model
+user query
+occurrence relation
+trec8 p@10
+domain table
+strong term
+document model
+query context
+sensitive information retrieval

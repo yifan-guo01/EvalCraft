@@ -1,0 +1,11 @@
+A
+Abstract
+Many methods for classification and gene selection with microarray data have been developed. These methods usually
+give a ranking of genes. Evaluating the statistical significance of the gene ranking is important for understanding the results and for
+further biological investigations, but this question has not been well addressed for machine learning methods in existing works. Here,
+we address this problem by formulating it in the framework of hypothesis testing and propose a solution based on resampling. The
+proposed r-test methods convert gene ranking results into position p-values to evaluate the significance of genes. The methods are
+tested on three real microarray data sets and three simulation data sets with support vector machines as the method of classification
+and gene selection. The obtained position p-values help to determine the number of genes to be selected and enable scientists to
+analyze selection results by sophisticated multivariate methods under the same statistical inference paradigm as for simple hypothesis
+testing methods.

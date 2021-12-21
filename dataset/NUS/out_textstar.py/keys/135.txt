@@ -1,0 +1,10 @@
+PW
+Com
+object
+cohesion
+measure
+monotonous
+previous measures
+Chae CO
+package
+subprogram

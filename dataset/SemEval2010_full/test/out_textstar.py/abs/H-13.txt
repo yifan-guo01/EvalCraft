@@ -1,0 +1,7 @@
+[5] compared an interface typical of those used by major Web search engines with one that groups results by category, finding that users perform search tasks faster with the category interface.
+Paek et al.
+White et al.
+Lee et al.
+Agichtein et al.
+This work was originally motivated by our desire to validate some simple guidelines for the generation of captionssummarizing opinions that we formulated while working on related issues.
+What are you looking for?

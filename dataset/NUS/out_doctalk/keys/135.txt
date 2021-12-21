@@ -1,0 +1,10 @@
+subprogram
+remaining section
+cohesion type
+attribute method
+propose approach
+object graph
+Property definition
+orient class
+fee permission
+software Engineering

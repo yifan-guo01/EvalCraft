@@ -1,0 +1,10 @@
+system
+user
+passage
+query
+feedback
+retrieval
+document
+entity detection
+relevance
+information Organization

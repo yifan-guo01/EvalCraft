@@ -1,0 +1,38 @@
+A lost
+website may be restored if care was taken to create a backup
+beforehand, but sometimes webmasters are negligent in backing
+up their websites, and in cases such as fire, flooding, or
+death of the website owner, backups are frequently unavailable
+.
+Systems
+like LOCKSS [24] have been developed to ensure libraries
+have long term access to publishers' web content,
+and commercial systems like Spurl.net and HanzoWeb.com
+have been developed to allow users to archive selected web
+resources that they deem important.
+In
+many cases these services can be of some value for recovering
+a lost website, but they are largely useless when backups
+are inaccessible or destroyed or when a third party wants to
+reconstruct a website.
+Lewandowski et al.
+[17] studied how frequently Google,
+MSN and Yahoo updated their cached versions of web pages,
+but we are unaware of any research that attempts to measure
+how quickly new resources are added to and removed
+from commercial SE caches, or research that explores the
+use of SE caches for reconstructing websites.
+As Figure 2 illustrates, both Google and MSN were quick
+to make resources available in their cache soon after they
+were crawled, and they were quick to purge resources from
+their cache when a crawl revealed the resources were no
+longer available on the web server.
+Shingling (as proposed by Broder et al. [3]) is a popular
+method for quantifying similarity of text documents when
+word order is important [2, 11, 21].
+The amount of time and the number of queries required
+to reconstruct all 24 websites (using all 4 repositories) is
+shown in Figure 6.
+Spam, damn
+spam, and statistics: using statistical analysis to
+locate spam web pages.

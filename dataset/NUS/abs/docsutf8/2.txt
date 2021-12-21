@@ -1,0 +1,33 @@
+This paper shows the importance that management plays in the 
+protection of information and in the planning to handle a security 
+breach when a theft of information happens.  Recent thefts of 
+information that have hit major companies have caused concern.   
+These thefts were caused by companies' inability to determine 
+risks associated with the protection of their data and these 
+companies lack of planning to properly manage a security breach 
+when it occurs.  It is becoming necessary, if not mandatory, for 
+organizations to perform ongoing risk analysis to protect their 
+systems.  Organizations need to realize that the theft of 
+information is a management issue as well as a technology one, 
+and that these recent security breaches were mainly caused by 
+business decisions by management and not a lack of technology.
+
+Categories and Subject Descriptors
+C.2.0  [Computer-Communication Networks] General
+Security and protection.
+K.3.2  [Computers And Education] Computer and Information 
+Science Education Curriculum, Information systems education.
+K.4.1, .2, & .4 [Computers and Society] - .1 Public Policy Issues 
+  Abuse and crime involving computers, Computer-related health 
+issues, Ethics, Intellectual property right, Privacy.  .2 Social 
+Issues   Abuse and crime involving computers.  .4  Electronic 
+Commerce   Security.
+K.6.5 [Management of Computing and Information Systems] 
+  Security and Protection   Authentication, Invasive software, 
+unauthorized access.
+
+General Terms
+Management, Security, Human Factors, Standardization, Legal 
+Aspects.
+
+

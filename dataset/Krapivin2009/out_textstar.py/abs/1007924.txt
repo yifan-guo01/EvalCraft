@@ -1,0 +1,5 @@
+Hence, line 15 preserves I1 .
+Lemma 4.1.
+Proof.
+The claim holds initially because #.
+We define #, a potential as: #.anc#=root #.parent .diam - #.x #.parent .diam - (#.x - #.y For convenience of exposition, we account for the cost of moving from the empty placement to the first placement separately.

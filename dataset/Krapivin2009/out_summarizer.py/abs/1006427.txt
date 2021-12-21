@@ -1,0 +1,8 @@
+For example if the device is uniformly distributed across all c cells, c even, and we have at most 2 units of time for paging then the best paging strategy is to page half of the cells in the rst round and when the device is not found in these cells then page the other half in the second round.
+This problem is NP-complete by a simple reduction from a Partition problem presented by Garey and Johnson [12] on page 223.
+Lines 07 through 14 calculate the probabilities that all devices are found by round r, for Lines 15 through 25 evaluate the recursive formula given in Lemma 5.4.
+One can easily extend the heuristic presented in Section 5 to form an adaptive strategy where, in each round, we calculate conditional probabilities and based on their values we determine the group of cells to page in the next round using the algorithm presented in Figure 1.
+A problem that generalizes the two problems is the Signature problem where we are looking for any k devices out of the m devices.
+Here we observe that our approximation result generalizes to yield results in this model: we can use Lemma 5.3 to show the existence of an approximate strategy, and in Lemma 5.4 we can limit the range for x accordingly to nd an appropriate strategy.
+Awduche et al. [3] consider a model where xed groups of cells are paged and a probability is given that paging a cell does not detect a device even though it is located at the cell.
+The authors would like to thank David Johnson, Je Lagarias, and S. Muthukrishnan for discussion, and the anonymous PODC reviewers for comments that improved the presentation of the paper.

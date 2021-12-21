@@ -1,0 +1,10 @@
+agent
+protocol
+state
+model
+function
+computation
+output
+input
+sensor value
+predicate

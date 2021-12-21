@@ -1,0 +1,3 @@
+In Section 3 we show how to incorporate implicit restarts, introduced in [35], that permit Lanczos bidiagonalization to maintain limited storage and computational requirements per restart.
+In Section 4 we study the use of Ritz and harmonic Ritz values as implicit shifts.
+Proposition 3.1 It is not possible, in general, to apply implicit QR steps on the Lanczos factorization (9) of the augmented matrix C, and obtain a Lanczos factorization that can be computed by LBD.

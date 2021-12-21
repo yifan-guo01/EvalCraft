@@ -1,0 +1,10 @@
+iteration
+example
+pivot
+row
+column
+follows
+bound
+variable
+value
+condition

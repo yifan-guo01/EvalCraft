@@ -1,0 +1,18 @@
+The Forest and the Trees: Using Oracle and SQL Server Together to Teach ANSI-Standard SQL
+ABSTRACT
+Students in a sophomore-level database fundamentals course were 
+taught SQL and database concepts using both Oracle and SQL 
+Server. Previous offerings of the class had used one or the other 
+database. Classroom experiences suggest that students were able 
+to handle learning SQL in the dual environment, and, in fact, 
+benefited from this approach by better understanding ANSI-standard
+versus database-specific SQL and implementation 
+differences in the two database systems.
+Categories and Subject Descriptors
+H.2 [Database Management]: Query languages 
+H.2.3 [SQL] 
+H.2.4 [Microsoft SQL Server] 
+H.2.4 [Oracle]
+
+General Terms
+Languages

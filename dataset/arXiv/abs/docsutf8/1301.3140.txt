@@ -1,9 +1,0 @@
-we present the first dynamical mass measurements for lyman-@xmath0  galaxies at high redshift , based on velocity dispersion measurements from rest - frame optical emission lines and size measurements from hst imaging , for a sample of nine galaxies drawn from four surveys .
-these measurements enable us to study the nature of lyman-@xmath0  galaxies in the context of galaxy scaling relations .
-the resulting dynamical masses range from @xmath1 to @xmath2 .
-we also fit stellar population models to our sample , and use them to plot the lyman-@xmath0  sample on a stellar mass vs. line width relation .
-overall , the lyman-@xmath0  galaxies follow well the scaling relation established by observing star forming galaxies at lower redshift ( and without regard for lyman-@xmath0  emission ) , though in @xmath3 of the lyman-@xmath0  galaxies , lower - mass fits are also acceptable . in all cases ,
-the _ dynamical _ masses agree with established _ stellar _ mass - linewidth relation . using the dynamical masses as an upper limit on gas mass
-, we show that lyman-@xmath0  galaxies resemble starbursts ( rather than `` normal '' galaxies ) in the relation between gas mass surface density and star formation activity , in spite of relatively modest star formation rates .
-finally , we examine the mass densities of these galaxies , and show that their future evolution likely requires dissipational ( `` wet '' ) merging . in short , we find that lyman-@xmath0  galaxies are low mass cousins of larger starbursts .
-17f_17    2s @xmath4 43l_43

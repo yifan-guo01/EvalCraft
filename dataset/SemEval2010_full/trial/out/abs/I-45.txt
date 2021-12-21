@@ -1,0 +1,8 @@
+In this paper we consider one approach for modelling agent interactions : the commitment machines framework .
+This framework supports modelling interactions at a higher level ( using social commitments ) , resulting in more flexible interactions .
+It has been argued that this message centric approach to interaction design is not a good match for intelligent agents .
+Intelligent agents should exhibit the ability to persist in achieving their goals in the face of failure ( robustness ) by trying different approaches ( flexibility ) .
+BACKGROUND 2.1 Commitment Machines The aim of the commitment machine framework is to allow for the definition of interactions that are more flexible than traditional message centric approaches .
+One way of visualising the interactions that are possible with a given commitment machine is to generate the finite state machine corresponding to the CM .
+We begin by considering the simple case of two interacting agents , and 5 The + operator is used to denote sequence concatenation .
+Using a performative subsumption lattice to support commitment based conversations .

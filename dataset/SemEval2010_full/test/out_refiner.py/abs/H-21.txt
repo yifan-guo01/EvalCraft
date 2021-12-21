@@ -1,0 +1,8 @@
+Knowing which taxonomy nodes are most relevant to the given query will aid us to provide the same type of support for rare queries as for frequent queries.
+In the second phase, we develop a query classifier that invokes the document classifier on search results, and uses the latter to perform query classification.
+Query classification by search Having developed a document classifier for the query taxonomy, we now turn to the problem of obtaining a classification for a given query based on the initial search results it yields.
+Table 2: Varying the number of search results our case, judged categories for each query), and computes for each query q: DCGk(q) = k i=1 g(Ci(q))/ log2(i + 1), where Ci(q) is the i th category for query q ranked by the system, and g(Ci) is the grade of Ci: we assign grade of 10, 5, 1, 0 to the 4 point judgment scale described earlier to compute DCG.
+The KDD task specification provided a small taxonomy (67 nodes) along with a set of labeled queries, and posed a challenge to use this training data to build a query classifier.
+To this end, we send the query to a search engine, and assume that a plurality of the highestranking search results are relevant to the query.
+Our findings, however, are different from those reported by Shen et al. [19], who found summaries to yield better results.
+Y. Li, Z. Zheng, and H. Dai. KDD CUP 2005 report: Facing a great challenge.

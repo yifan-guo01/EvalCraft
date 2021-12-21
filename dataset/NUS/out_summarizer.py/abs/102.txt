@@ -1,0 +1,50 @@
+Using interactive 3D
+graphics, available to more and more people due to recent
+advances in consumer graphics hardware, the user may actively
+explore the spatial correlations of structures within a
+photorealistic virtual model (see upper left of <A href="102.html#1">Figure 1).
+M. tibialis anterior
+M. extensor hallucis longus
+M. extensor digitorum longus
+M. tibialis posterior
+M. flexor digitorum longus
+M. flexor hallucis longus
+M. fibularis brevis
+M. fibularis longus
+interactive 3d graphic
+2d information display
+shadow
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+Additional
+views, whether as insets <A href="102.html#8">[20], separate objects like mirrors
+<A href="102.html#8">[8], or in form of lenses and volumetric cursors changing
+the rendition of embedded structures <A href="102.html#8">[7, 21, 23], are either
+not close enough to the manipulated structures to be fully
+recognized without dividing the users attention between
+different views <A href="102.html#8">[13] or require sometimes tedious manipulations
+to be placed or moved within the scene.
+Interactions are
+tracked and ranked within an interaction history to
+communicate the current interaction context via a client
+interface to an external knowledge based component.
+.
+A simple but effective solution places the annotation
+on a semi transparent background face that increases
+the contrast between text annotation and illustration and
+still does not block vision (see <A href="102.html#4">Figure 5).
+The has Part* relation represents the transitive hull over
+several spatial part of relations <A href="102.html#7">[1] (e.g. the has Basis relation
+between Bones and Bone Volumes and the has Area relation
+between Areas or Volumes and Areas).
+Nowadays,
+this term subsumes breadth first search algorithms for paths
+connecting the nodes of a start and a destination set in directed
+graphs satisfying an evaluation criterion.
+The layer management (see <A href="102.html#6">Figure 8) employs the
+OpenGL polygon offset feature to allow graphics to overlap
+specifically whereas visibility tests of individual structures
+are accomplished by offscreen rendering and analyzing
+OpenGL p buffers.

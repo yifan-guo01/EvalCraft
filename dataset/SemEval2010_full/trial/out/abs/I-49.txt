@@ -1,0 +1,8 @@
+We consider complex dependencies between multiple issues by modelling the preferences of the agents with a multi criteria decision aid tool , also enabling us to extract relevant information on a proposal assessment .
+INTRODUCTION Multi issue negotiation protocols represent an important field of study since negotiation problems in the real world are often complex ones involving multiple issues .
+Crisis management is a relatively new field of management and is composed of three types of activities : crisis prevention , operational preparedness and management of declared crisis .
+The crisis prevention aims to bring the risk of crisis to an acceptable level and , when possible , avoid that the crisis actually happens .
+The operational preparedness includes strategic advanced planning , training and simulation to ensure availability , rapid mobilisation and deployment of resources to deal with possible emergencies .
+When a crisis is declared , the plans defined during the operational preparedness activity are executed .
+Another motivation for using MAS lies in the fact that MAS is well known for facilitating automated negotiation at the operative decision making level in various applications .
+Therefore , in this section , we describe the elements and constraints taken into account during the modelling phase and for the model itself .

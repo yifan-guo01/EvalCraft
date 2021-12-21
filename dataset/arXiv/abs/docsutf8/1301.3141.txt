@@ -1,9 +1,0 @@
-the heating of the sun s chromosphere remains poorly understood .
-while progress has been made on understanding what drives the quiet sun internetwork chromosphere , chromospheric heating in strong magnetic field regions continues to present a difficult challenge , mostly because of a lack of observational constraints .
-we use high - resolution spectropolarimetric data from the swedish 1-m solar telescope to identify the location and spatio - temporal properties of heating in the magnetic chromosphere .
-in particular , we report the existence of raised - core spectral line profiles in the  @xmath0 line .
-these profiles are characterized by the absence of an absorption line core , showing a quasi - flat profile between @xmath1   , and are abundant close to magnetic bright - points and plage .
-comparison with 3d mhd simulations indicates that such profiles occur when the line - of - sight goes through an `` elevated temperature canopy '' associated with the expansion with height of the magnetic field of flux concentrations .
-this temperature canopy in the simulations is caused by ohmic dissipation where there are strong magnetic field gradients .
-the raised - core profiles are thus indicators of locations of increased chromospheric heating .
-we characterize the location and temporal and spatial properties of such profiles in our observations , thus providing much stricter constraints on theoretical models of chromospheric heating mechanisms than before .

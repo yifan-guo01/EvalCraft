@@ -1,7 +1,0 @@
-we have developed a web tool , pupasview , for the selection of single nucleotide polymorphisms ( snps ) with potential phenotypic effect .
-pupasview constitutes an interactive environment in which functional information and population frequency data can be used as sequential filters over linkage disequilibrium parameters to obtain a final list of snps optimal for genotyping purposes .
-pupasview is the first resource that integrates phenotypic effects caused by snps at both the translational and the transcriptional level .
-pupasview retrieves snps that could affect conserved regions that the cellular machinery uses for the correct processing of genes ( intron / exon boundaries or exonic splicing enhancers ) , predicted transcription factor binding sites and changes in amino acids in the proteins for which a putative pathological effect is calculated .
-the program uses the mapping of snps in the genome provided by ensembl .
-pupasview will be of much help in studies of multifactorial disorders , where the use of functional snps will increase the sensitivity of the identification of the genes responsible for the disease .
-the pupasview web interface is accessible through   and through .

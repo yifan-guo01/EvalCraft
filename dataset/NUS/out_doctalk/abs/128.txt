@@ -1,0 +1,8 @@
+General Terms Algorithms , Performance , Experimentation INTRODUCTION Wireless data dissemination is an economical and efficient way to make desired data available to a large number of mobile or static users .
+The effectiveness of a data dissemination system is judged by its ability to provide user the required data at anywhere and at anytime .
+One of the best ways to accomplish this is through the dissemination of highly personalized Location Based Services ( LBS ) which allows users to access personalized location dependent data .
+Access efficiency and energy conservation are the two issues which are significant for data broadcast systems .
+In addition to providing low latency , they lack properties which are used to address LDD issues .
+PREVIOUS WORK Several disk based indexing techniques have been used for air indexing .
+The local broadcast space consists of a broadcast tower , mobile units and a network of data staging machines called the surrogates .
+The clustering of LDD helps the user to locate information efficiently and supports containment property .

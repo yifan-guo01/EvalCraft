@@ -1,0 +1,8 @@
+INTRODUCTION Document clustering has been receiving more and more attentions as an important and fundamental technique for unsupervised document organization , automatic topic extraction , and fast information retrieval or filtering .
+A good document clustering approach can assist the computers to automatically organize the document corpus into a meaningful cluster hierarchy for efficient browsing and navigation , which is very valuable for complementing the deficiencies of traditional information retrieval technologies .
+Generally , document clustering methods can be mainly categorized into two classes : hierarchical methods and partitioning methods .
+The hierarchical methods group the data points into a hierarchical tree structure using bottom up or top down approaches .
+For instance , K means [ 13 ] is a typical partitioning method which aims to minimize the sum of the squared distance between the data points and their corresponding cluster centers .
+Recently , another type of partitioning methods based on clustering on data graphs have aroused considerable interests in the machine learning and data mining community .
+After some relaxations , these criterions can usually be optimized via eigen decompositions , which is guaranteed to be global optimal .
+Spectral K way Ratio Cut Partitioning and Clustering .

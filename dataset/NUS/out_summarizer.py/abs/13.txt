@@ -1,0 +1,47 @@
+Since
+tables are inherently concise as well as information rich, the
+automatic understanding of tables has many applications including
+knowledge management, information retrieval, web
+Copyright is held by the author/owner(s).
+Yoshida
+et al.
+proposed
+a method to integrate WWW tables according to the
+category of objects presented in each table 14].
+It is inspired
+by the fact that most genuine tables demonstrate certain
+consistency either along the row or the column direction,
+but usually not both, while non genuine tables often show
+no consistency in either direction.
+Based on the vector
+space model, we de ne the similarity between weight vectors
+representing genuine and non genuine tables and the
+frequency vector representing the incoming table as the corresponding
+dot products.
+Three directories
+on Google were searched: the business directory and
+news directory using key words:
+ftable,
+stock,
+bonds,
+figure,
+schedule,
+weather,
+score,
+service,
+results,
+valueg
+, and the science directory using key words
+ftable,
+results,
+valueg
+.
+Not every genuine table has its title and only 1,308 genuine
+tables have table titles.
+Our future work includes handling more di erent HTML
+styles in pseudo rendering, detecting table titles of the rec ognized
+genuine tables and developing a machine learning
+based table interpretation algorithm.
+We would like to thank Kathie Shipley for her help in
+collecting the web pages, and Amit Bagga for discussions on
+vector space models.

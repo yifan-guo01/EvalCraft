@@ -1,0 +1,9 @@
+Bluetooth Dynamic Scheduling and Interference Mitigation
+Abstract
+Bluetooth is a cable replacement technology for Wireless Personal Area Networks. It is designed to support a wide variety of
+applications such as voice, streamed audio and video, web browsing, printing, and file sharing, each imposing a number of quality of service
+constraints including packet loss, latency, delay variation, and throughput. In addition to QOS support, another challenge for Bluetooth stems
+from having to share the 2.4 GHz ISM band with other wireless devices such as IEEE 802.11. The main goal of this paper is to investigate
+the use of a dynamic scheduling algorithm that guarantees QoS while reducing the impact of interference. We propose a mapping between
+some common QoS parameters such as latency and bit rate and the parameters used in the algorithm. We study the algorithm's performance
+and obtain simulation results for selected scenarios and configurations of interest.

@@ -1,0 +1,19 @@
+The present research is an exploration of the native language hypothesis
+for multilingual topic tracking.
+We first present results on 
+story link detection, to support the native language hypothesis in a 
+simple, understandable task.
+Then we present experiments that 
+test the hypothesis in the topic tracking task.
+Permission to make digital or hard copies of all or part of this work for 
+personal or classroom use is granted without fee provided that copies are 
+not made or distributed for profit or commercial advantage and that 
+copies bear this notice and the full citation on the first page.
+To copy 
+otherwise, or republish, to post on servers or to redistribute to lists, 
+requires prior specific permission and/or a fee.
+Although we see that the original threshold, .5, was not always the 
+optimal value, it is also clear that the pattern we saw at .5 (and in 
+Figure 6) does not change as the threshold is varied, that is tracking
+with native topic models is not better than tracking with 
+global models.

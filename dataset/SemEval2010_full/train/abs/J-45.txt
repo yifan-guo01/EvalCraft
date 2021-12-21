@@ -1,0 +1,26 @@
+Empirical Mechanism Design: Methods, with Application
+to a Supply-Chain Scenario
+Yevgeniy Vorobeychik, Christopher Kiekintveld, and Michael P. Wellman
+University of Michigan
+Computer Science & Engineering
+Ann Arbor, MI 48109-2121 USA
+{ yvorobey, ckiekint, wellman }@umich.edu
+ABSTRACT
+Our proposed methods employ learning and search techniques to
+estimate outcome features of interest as a function of mechanism
+parameter settings. We illustrate our approach with a design task
+from a supply-chain trading competition. Designers adopted 
+several rule changes in order to deter particular procurement behavior,
+but the measures proved insufficient. Our empirical mechanism
+analysis models the relation between a key design parameter and
+outcomes, confirming the observed behavior and indicating that no
+reasonable parameter settings would have been likely to achieve the
+desired effect. More generally, we show that under certain 
+conditions, the estimator of optimal mechanism parameter setting based
+on empirical data is consistent.
+Categories and Subject Descriptors
+I.6 [Computing Methodologies]: Simulation and Modeling; J.4
+[Computer Applications]: Social and Behavioral 
+Sciences-Economics
+General Terms
+Algorithms, Economics, Design

@@ -1,0 +1,38 @@
+A Multilateral Multi-issue Negotiation Protocol
+Miniar Hemaissia
+THALES Research &
+Technology France
+RD 128
+F-91767 Palaiseau Cedex,
+France
+miniar.hemaissia@lip6.fr
+Amal El Fallah
+Seghrouchni
+LIP6, University of Paris 6
+8 rue du Capitaine Scott
+F-75015 Paris, France
+amal.elfallah@lip6.fr
+Christophe Labreuche
+and Juliette Mattioli
+THALES Research &
+Technology France
+RD 128
+F-91767 Palaiseau Cedex,
+France
+ABSTRACT
+In this paper, we present a new protocol to address 
+multilateral multi-issue negotiation in a cooperative context. We
+consider complex dependencies between multiple issues by
+modelling the preferences of the agents with a multi-criteria
+decision aid tool, also enabling us to extract relevant 
+information on a proposal assessment. This information is
+used in the protocol to help in accelerating the search for
+a consensus between the cooperative agents. In addition,
+the negotiation procedure is defined in a crisis management
+context where the common objective of our agents is also
+considered in the preferences of a mediator agent.
+Categories and Subject Descriptors
+I.2.11 [Distributed Artificial Intelligence]: Intelligent
+agents, Multiagent systems
+General Terms
+Theory, Design, Experimentation

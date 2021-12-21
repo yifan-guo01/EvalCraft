@@ -1,0 +1,40 @@
+Data Mining in Metric Space: An Empirical Analysis of Supervised Learning Performance Criteria
+ABSTRACT
+Many criteria can be used to evaluate the performance of
+supervised learning. Different criteria are appropriate in
+different settings, and it is not always clear which criteria
+to use. A further complication is that learning methods
+that perform well on one criterion may not perform well
+on other criteria. For example, SVMs and boosting are designed
+to optimize accuracy, whereas neural nets typically
+optimize squared error or cross entropy. We conducted an
+empirical study using a variety of learning methods (SVMs,
+neural nets, k-nearest neighbor, bagged and boosted trees,
+and boosted stumps) to compare nine boolean classification
+performance metrics: Accuracy, Lift, F-Score, Area
+under the ROC Curve, Average Precision, Precision/Recall
+Break-Even Point, Squared Error, Cross Entropy, and Probability
+Calibration. Multidimensional scaling (MDS) shows
+that these metrics span a low dimensional manifold. The
+three metrics that are appropriate when predictions are interpreted
+as probabilities: squared error, cross entropy, and
+calibration, lay in one part of metric space far away from
+metrics that depend on the relative order of the predicted
+values: ROC area, average precision, break-even point, and
+lift. In between them fall two metrics that depend on comparing
+predictions to a threshold: accuracy and F-score.
+As expected, maximum margin methods such as SVMs and
+boosted trees have excellent performance on metrics like accuracy
+, but perform poorly on probability metrics such as
+squared error. What was not expected was that the margin
+methods have excellent performance on ordering metrics
+such as ROC area and average precision. We introduce a
+new metric, SAR, that combines squared error, accuracy,
+and ROC area into one metric. MDS and correlation analysis
+shows that SAR is centrally located and correlates well
+with other metrics, suggesting that it is a good general purpose
+metric to use when more specific criteria are not known.
+Categories & Subject Descriptors: I.5.2 [Pattern Recognition
+]: Design Methodology - classifier design & evaluation.
+General Terms: Algorithms, Measurement, Performance,
+Experimentation.

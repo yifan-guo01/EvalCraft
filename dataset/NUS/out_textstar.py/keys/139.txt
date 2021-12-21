@@ -1,0 +1,10 @@
+object
+template
+model
+interface
+message
+architecture
+periodic
+level
+asynchronous
+CPN

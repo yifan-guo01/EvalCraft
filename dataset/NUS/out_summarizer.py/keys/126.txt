@@ -1,0 +1,10 @@
+kernel matrix
+kernel learning method
+spectral coefficient
+kernel machine
+order constraint
+dimension reduction
+learning framework
+learning method
+classification performance
+datum example

@@ -1,0 +1,10 @@
+trigger page p
+match ad
+important term
+ad strategy
+ad keyword
+ad content
+Conference
+Figure
+information retrieval
+advertisement collection

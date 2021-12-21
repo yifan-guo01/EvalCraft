@@ -1,0 +1,7 @@
+Besides, we prove some properties about the relationship between metering schemes and secret sharing schemes.
+We consider the worst possible case, in which the corrupt servers have collected the maximum possible information in time frames that is, we assume that each server S j in the coalition has been visited by all clients C Therefore, we have to prove that for any subset B of corrupt servers, with cardinality at most s. We need the following result.
+Let us consider two linear mappings, us suppose that a vector x is chosen uniformly at random and let us consider the random variables X 0 and X 1 corresponding, 1.
+Proof.
+If we know the value of x we know that x is any vector with ' 1 are equiprobable.
+Then, x 0 can be uniquely determined from x 1 if and only if ' 0 (ker only if .
+Besides, there exists a linear secret sharing scheme \Sigma with information rate ae = 2=3.

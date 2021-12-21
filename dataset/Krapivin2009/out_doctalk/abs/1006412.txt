@@ -1,0 +1,8 @@
+The search topics should represent the range of information - needs over which it is desired to draw conclusions 9 .
+rst section displayed alternative search terms , the second section included the paid listings from Overture , and the third section presented tools and services .
+They performed the judgment task using a CGI based user interface using their Web browsers .
+The CGI programs lists the combined search results and saves the user relevance judgments .
+During this process stemming is employed and a stop word list is used to eliminate frequent words .
+rst 20 documents to observe the recall performance of search engines in a typical Web search session .
+The human participants of our experiments represent a small portion of the search engine user community at large .
+Currently we are using it with TREC data and performing various sensitivity analysis experiments in that environment .

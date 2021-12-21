@@ -1,0 +1,9 @@
+story story
+term type
+detection system
+term weight
+system4 topic
+Semantic class
+event detection system
+story cluster one
+time t

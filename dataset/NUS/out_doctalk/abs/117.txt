@@ -1,0 +1,8 @@
+Unfortunately , the practical usefulness of the approach is limited by huge number of patterns usually discovered .
+sorting rules based on some interestingness measure , and pruning aiming at removing redundant rules .
+Full review of such methods is beyond the scope of this paper .
+Many interestingness measures are based on the divergence between true probability distributions and distributions obtained under the independence assumption .
+We believe that the proper way to address the problem is to include users background knowledge in the process .
+An itemset is called frequent if its support is greater than or equal to some user defined threshold minsupp .
+We thus finished the interactive network structure improvement process with the final result given in Figure 4b .
+Local and global methods in data mining : Basic techniques and open problems .

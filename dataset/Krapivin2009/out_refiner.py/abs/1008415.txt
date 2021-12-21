@@ -1,0 +1,8 @@
+The ticketing system must assign a passenger a single seat when that passenger purchases a ticket, without knowing what future requests there will be for seats.
+Denition 1.1 Let A(I) denote how much an on-line algorithm A earns with the request sequence I, and let OPT(I) denote how much is earned by an optimal o-line algorithm when given the sequence I.
+Since we are only considering the unit price problem, the seat reservation problem is similar to the problem of coloring an interval graph on-line.
+The competitive ratio on accommodating sequences for the fair unit price seat reservation problem with 3 seats is at most 1+ 3 , where Proof First we give intervals of length four with a spacing of two, except that the rst interval only has length three, and the last has length one.
+When the ratio of the number of requests accepted by the on-line algorithm to the number of requests accepted by an optimal o-line algorithm is 5n 9k 9(k mod where the last inequality holds because in general a d < 1 and a < c imply that e+ax+cy e+bx+dy  e+a(x+y) .
+It may be the case that there is a Seat 1 request from the previous group overlapping I. Call that request L. Similarly, the interval K may overlap a Seat 2 request from the next group (the I interval from the next group), which we call J here.
+Each interval in this last part of the sequence overlaps exactly two intervals from earlier and can therefore be accommodated if and only if these two intervals are placed on the same seat.
+Joan Boyar, Lene M. Favrholdt, and Kim S. Larsen were supported in part by the IST Programme of the EU under contract number IST-1999-14186 (alcom-ft).

@@ -1,0 +1,25 @@
+GraalBench: A 3D Graphics Benchmark Suite for Mobile Phones
+ABSTRACT
+In this paper we consider implementations of embedded 3D graphics
+and provide evidence indicating that 3D benchmarks employed
+for desktop computers are not suitable for mobile environments.
+Consequently, we present GraalBench, a set of 3D graphics workloads
+representative for contemporary and emerging mobile devices
+. In addition, we present detailed simulation results for a
+typical rasterization pipeline. The results show that the proposed
+benchmarks use only a part of the resources offered by current 3D
+graphics libraries. For instance, while each benchmark uses the
+texturing unit for more than 70% of the generated fragments, the
+alpha unit is employed for less than 13% of the fragments. The
+Fog unit was used for 84% of the fragments by one benchmark, but
+the other benchmarks did not use it at all. Our experiments on the
+proposed suite suggest that the texturing, depth and blending units
+should be implemented in hardware, while, for instance, the dithering
+unit may be omitted from a hardware implementation. Finally,
+we discuss the architectural implications of the obtained results for
+hardware implementations.
+Categories and Subject Descriptors
+C.3 [Special-Purpose and Application-Based Systems]: Real-time
+and embedded systems
+General Terms
+Performance, Measurement

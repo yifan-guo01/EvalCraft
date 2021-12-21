@@ -1,0 +1,26 @@
+Tuzhilin et. al. [23, 22, 29] worked on applying background
+knowledge to finding interesting rules.
+Even though applying the above definition and sorting
+attribute sets on their interestingness works well in practice,
+there might still be a large number of patterns retained,
+especially if the background knowledge is not well developed
+and large number of attribute sets have high interestingness
+values.
+An attribute set I is topologically
+ interesting if it is  interesting, and there is no attribute
+set J such that
+1.
+The algorithm for selecting the marginal distribution to
+compute is motivated by the algorithm from [9] for computing
+views that should be materialized for OLAP query
+processing.
+We used the UCI datasets and Bayesian networks
+learned from data using B Course [26].
+Deal: A
+package for learning bayesian networks.
+Probabilistic Reasoning in Intelligent
+Systems.
+In Proceedinmgs of the 6th ACM SIGKDD
+International Conference on Knowledge Discovery and
+Data Mining (KDD 00), pages 34 43, N. Y.,
+August 20 23 2000.

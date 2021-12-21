@@ -1,6 +1,0 @@
-the impact of a sessile droplet with a moving meniscus , as encountered in processes such as dip - coating , generically leads to the entrapment of small air bubbles . here
-we experimentally study this process of bubble formation by looking through the liquid using high - speed imaging .
-our central finding is that the size of the entrapped bubble crucially depends on the location where coalescence between the drop and the moving meniscus is initiated : ( i ) at a finite height above the substrate , or ( ii ) exactly at the contact line . in the first case
-, we typically find bubble sizes of the order of a few microns , independent of the size and speed of the impacting drop .
-by contrast , the bubbles that are formed when coalescence starts at the contact line become increasingly large , as the size or the velocity of the impacting drop is increased .
-we show how these observations can be explained from a balance between the lubrication pressure in the air layer and the capillary pressure of the drop .

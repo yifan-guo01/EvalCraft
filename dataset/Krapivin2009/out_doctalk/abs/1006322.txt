@@ -1,0 +1,8 @@
+Account Amount Location Previous Unusual Number record transaction Table 2 .
+Cost of data communication between the distributed databases is a signicant factor in an increasingly mobile and connected world with a large number of distributed data sources .
+The upper table contains weather - related data and the lower one contains demographic data .
+However , these assumptions are not overly restrictive , and are required for a reasonable solution to the distributed Bayesian learning problem .
+In this section we discuss examples of such scenario and explain how the proposed collective Bayesian learning algorithm can be useful in practice .
+Advances in computing and communication over wired and wireless networks have resulted in many pervasive distributed computing environments .
+Performance Analysis In the following , we present a brief theoretical analysis of the performance of the proposed collective learning method .
+Webserver Log Data In the second set of experiments , we used data from a real world domain | a web server log data .

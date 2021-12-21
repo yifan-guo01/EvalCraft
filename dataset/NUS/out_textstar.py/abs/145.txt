@@ -1,0 +1,50 @@
+(12), we can simplify the objective
+function as "min
+{E
+max
+}" and remove the constraint given
+by Eq.
+(22) by letting
+E
+init2
+= E
+0
+.
+So far, given the communication range (
+R), we obtain the
+minimum
+E
+max
+(
+
+) for the basic sensor nodes in order to
+derive the solutions for objective function of Eq.
+(24) as
+follows:
+E
+max
+(
+
+) = [R
+n
+(1 +
+
+X
+n
+
+) +  + ]l
+(29)
+Next, we want to identify the optimal
+R
+
+to minimize
+E
+max
+(
+
+) when constraint given by Eq.
+(20) applies.
+[19] T. Shepard, "Decentralized channel management in scalable multihop spread
+spectrum packet radio networks," Massachusetts Inst.
+of Technol., Lab.
+for Comput.

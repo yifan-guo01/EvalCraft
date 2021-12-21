@@ -1,0 +1,9 @@
+event type
+world state
+v relation
+time structure
+axiom set
+time point
+individual concept
+type expression
+such operator

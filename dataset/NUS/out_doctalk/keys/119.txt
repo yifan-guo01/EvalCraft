@@ -1,0 +1,10 @@
+participant
+infocanvas
+item
+portal Web
+Web portal
+peripheral system
+value
+display study
+site time
+answer question

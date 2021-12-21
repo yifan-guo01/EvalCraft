@@ -1,0 +1,27 @@
+Using Web Helper Agent Profiles in Query Generation
+ABSTRACT
+Personalized information agents can help overcome some of
+the limitations of communal Web information sources such
+as portals and search engines. Two important components
+of these agents are: user profiles and information filtering
+or gathering services. Ideally, these components can be sep-arated
+so that a single user profile can be leveraged for a
+variety of information services. Toward that end, we are
+building an information agent called SurfAgent;in previous
+studies, we have developed and tested methods for automatically
+learning a user profile [20]. In this paper, we evaluate
+alternative methods for recommending new documents to a
+user by generating queries from the user profile and submitting
+them to a popular search engine. Our study focuses on
+three questions: How do different algorithms for query generation
+perform relative to each other? Is positive relevance
+feedback adequate to support the task? Can a user profile
+be learned independent of the service? We found that three
+algorithms appear to excel and that using only positive feedback
+does degrade the results somewhat. We conclude with
+the results of a pilot user study for assessing interaction of
+the profile and the query generation mechanisms.
+Categories and Subject Descriptors
+H.3.3 [Information storage and retrieval]: Information
+Search and Retrieval--Query formulation, Search process,
+Information filtering

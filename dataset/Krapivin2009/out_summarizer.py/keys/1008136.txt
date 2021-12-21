@@ -1,0 +1,10 @@
+singular value
+matrix c
+basis vector
+straightforward shift strategy
+large eigenvalue value
+previous case
+reorthogonalization step
+sparse matrice
+maximum number
+fast algorithm

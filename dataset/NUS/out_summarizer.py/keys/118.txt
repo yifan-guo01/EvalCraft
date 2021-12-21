@@ -1,0 +1,9 @@
+acl packet
+interference environment
+Bluetooth
+intricate effect
+packet loss
+detailed model
+wlan performance
+bad case
+transmission power

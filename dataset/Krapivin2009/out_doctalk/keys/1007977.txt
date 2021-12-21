@@ -1,0 +1,10 @@
+tree
+function
+theorem
+list
+problem
+relation
+define algorithm
+preorder traversal
+first step
+inverse

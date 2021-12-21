@@ -1,0 +1,8 @@
+In the work described here, we put forth the hypothesis that next generation worms will be different, and therefore such techniques may have some significant limitations.
+In the case of a simple worm which does not first check to see if the host is available or susceptible (such as Slammer), the scan method is dropped: propagate() { host := acquire_target() infect(host) } Each of these actions may have an associated cost to its inclusion and execution, such as increased worm size and CPU or network load.
+For example, they speculate on new worms which employ direct worm to worm communication, and employ programmable updates.
+The passwords messages inform instances of newly discovered passwords, and by informing all instances, the swarm as whole collects this information, which allows it to infect new instances more effectively.
+In order to verify our hypothesis that Swarm Worms are more capable, and therefore dangerous than other well known 327 worms, a network testbed was created, and a simulator, capable of simulating large scale Internet like topologies (IPV4 space), was developed.
+The simple swarm worm described in section 2.6 was used to infect patient zero, and then the swarm worm was allowed to propagate via its own mechanisms of propagation, distributed control, and swarm behaviors.
+Preliminary results showed that such worms is capable of compromising hosts a rates up to 2 orders of magnitude faster than its generic counterpart while retaining stealth capabilities.
+This work was conducted as part of a larger effort in the development of next generation Intrusion Detection & CounterMeasure Systems at WSSRL.

@@ -1,0 +1,8 @@
+INTRODUCTION Considering that a real time flow may experience some packet loss , the impact of loss may vary significantly dependent on which packets are lost within a flow .
+Sensitivity due to ADU heterogeneity : Certain ADUs might contain parts of the encoded signal which are ‘ Application Data Unit : the unit of data emitted by a source coder such as a video or voice frame .
+Let us consider a flow with two frame types of largely different perceptual importance ( we assume same size , frequency and no interdependence between the frames ) .
+To reduce this cost the feedback interval would need to be increased , then leading to a higher probability of wrong adaptation decisions .
+We employ actual codecs and measure their utility in the presence of packet loss using objective speech quality measurement .
+Figure 7 presents the perceptual distortion as in the previous figure but also give the standard deviation as error bars for the respective loss condition .
+The pattern is not tied to particular packets , therefore a per flow characterization with the introduced metrics is applicable .
+Then we developed a new packet marking scheme called Speech Property Based Selective Differential Packet Marking for an efficient protection of frame based codecs .

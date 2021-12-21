@@ -1,0 +1,20 @@
+page
+pagerank
+iteration number
+ranking value
+node
+result
+define model
+web link
+web structure
+heat difference
+heat distribution
+vector matrix
+web manipulation
+model diffusion
+algorithm input
+unknown manifold
+large amount
+rank method
+heat kernel
+group

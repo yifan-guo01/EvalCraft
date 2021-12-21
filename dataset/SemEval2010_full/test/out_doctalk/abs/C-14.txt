@@ -1,0 +1,8 @@
+INTRODUCTION Recent advances in computing hardware and software are responsible for the emergence of sensor networks capable of observing the environment , processing the data and making decisions based on the observations .
+Such a network can be used to monitor the environment , detect , classify and locate specific events , and track targets over a specific region .
+It can be predetermined when the environment is sufficiently known and under control , in which case the sensors can be strategically hand placed .
+In section 2 , a definition for path exposure is proposed and a method to evaluate the exposure of a given path is developed .
+This discrepancy can be analyzed to avoid false alarms or misses and therefore improve the detection performance .
+For this cost analysis , the region parameters and signal model are the same as specified in section 5 .
+A mechanism for sensor collaboration to perform target detection is proposed and analyzed to evaluate the exposure of paths through the region .
+The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright annotation thereon .

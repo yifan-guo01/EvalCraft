@@ -1,0 +1,10 @@
+file
+Stockinger
+transfer
+server
+allocation
+time
+data
+replica
+using
+Co

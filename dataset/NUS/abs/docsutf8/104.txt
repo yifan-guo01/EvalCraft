@@ -1,0 +1,31 @@
+Implementing the IT Fundamentals Knowledge Area
+ABSTRACT
+The recently promulgated IT model curriculum contains IT 
+fundamentals as one of its knowledge areas. It is intended to give 
+students a broad understanding of (1) the IT profession and the 
+skills that students must develop to become successful IT 
+professionals and (2) the academic discipline of IT and its 
+relationship to other disciplines. As currently defined, the IT 
+fundamentals knowledge area requires 33 lecture hours to 
+complete. 
+The model curriculum recommends that the material relevant to 
+the IT fundamentals knowledge area be offered early in the 
+curriculum, for example in an introduction to IT course; however, 
+many institutions will have to include additional material in an 
+introductory IT course. For example, the Introduction of IT course 
+at Georgia Southern University is used to introduce students to 
+the available second disciplines (an important part of the Georgia 
+Southern IT curriculum aimed at providing students with in-depth 
+knowledge of an IT application domain), some productivity tools, 
+and SQL. 
+For many programs there may be too much material in an 
+introductory IT course. This paper describes how Georgia 
+Southern University resolved this dilemma.
+
+Categories and Subject Descriptors
+K.3.3 [Computer and Information Science Education]: 
+Curriculum
+
+General Terms
+: Human Factors
+

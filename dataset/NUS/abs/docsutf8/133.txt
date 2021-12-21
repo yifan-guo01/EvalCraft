@@ -1,0 +1,24 @@
+Machine Learning in DNA Microarray Analysis for Cancer Classification
+Abstract
+The development of microarray technology has supplied a large 
+volume of data to many fields. In particular, it has been applied 
+to prediction and diagnosis of cancer, so that it expectedly helps 
+us to exactly predict and diagnose cancer. To precisely classify 
+cancer we have to select genes related to cancer because 
+extracted genes from microarray have many noises. In this paper, 
+we attempt to explore many features and classifiers using three 
+benchmark datasets to systematically evaluate the performances 
+of the feature selection methods and machine learning classifiers. 
+Three benchmark datasets are Leukemia cancer dataset, Colon 
+cancer dataset and Lymphoma cancer data set. Pearson's and 
+Spearman's correlation coefficients, Euclidean distance, cosine 
+coefficient, information gain, mutual information and signal to 
+noise ratio have been used for feature selection. Multi-layer 
+perceptron, k-nearest neighbour, support vector machine and 
+structure adaptive self organizing map have been used for 
+classification. Also, we have combined the classifiers to improve 
+the performance of classification. Experimental results show that 
+the ensemble with several basis classifiers produces the best 
+recognition rate on the benchmark dataset.
+
+

@@ -1,0 +1,17 @@
+SmartCrawl: A New Strategy for the Exploration of the Hidden Web
+ABSTRACT
+The way current search engines work leaves a large amount
+of information available in the World Wide Web outside
+their catalogues. This is due to the fact that crawlers work
+by following hyperlinks and a few other references and ignore
+HTML forms. In this paper, we propose a search engine
+prototype that can retrieve information behind HTML
+forms by automatically generating queries for them. We describe
+the architecture, some implementation details and an
+experiment that proves that the information is not in fact
+indexed by current search engines.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information
+Search and Retrieval--Retrieval models, Search process;
+H.5.4 [Information Interfaces and Presentation]: Hy-pertext/Hypermedia
+--Navigation

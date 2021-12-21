@@ -1,0 +1,8 @@
+Given this need for deliberation about failed tasks or plans , failure deliberation is commonly built into the agent " s execution cycle .
+The potential for concurrently executing sub plans introduces different complexities for aborting and failure .
+Accordingly , a central technical challenge is to manage the orderly execution of the appropriate clean up code .
+The belief base contains ground belief atoms in the form of first order relations but could be orthogonally extended to other logics .
+All three allow meta level methods that are cued by meta events such as goal adoption or plan failure , and offer introspective capabilities over goal and intention states .
+We leverage the existing execution structures and self reflective ability of a BDI agent to accomplish both aborting and failure handling without additional overhead .
+The resulting architecture embeds their failure handling approach within a pair processing architecture for agent crash recovery .
+Using domain independent exception handling services to enable robust open multi agent systems : The case of agent death .

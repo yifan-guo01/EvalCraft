@@ -1,0 +1,10 @@
+datum clustering
+kernel matrix
+active learning
+large scale
+semantic concept
+vector sample
+positive example
+active method
+first page
+same cluster

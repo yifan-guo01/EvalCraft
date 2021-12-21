@@ -1,0 +1,29 @@
+Lewandowski et al.
+[17] studied how frequently Google,
+MSN and Yahoo updated their cached versions of web pages,
+but we are unaware of any research that attempts to measure
+how quickly new resources are added to and removed
+from commercial SE caches, or research that explores the
+use of SE caches for reconstructing websites.
+We could have queried the SEs using the URL for
+each resource, but this might have led to our resources being
+cached prematurely; it is possible that if a SE is queried
+for a URL it did not index that it would add the URL to a
+list of URLs to be crawled at a later date.
+As Figure 2 illustrates, both Google and MSN were quick
+to make resources available in their cache soon after they
+were crawled, and they were quick to purge resources from
+their cache when a crawl revealed the resources were no
+longer available on the web server.
+We have also observed that cached resources are
+often purged from all three caches as soon as a crawl reveals
+the resources are missing, but in the case of Google,
+many HTML resources have reappeared weeks after being
+removed.
+Shingling (as proposed by Broder et al. [3]) is a popular
+method for quantifying similarity of text documents when
+word order is important [2, 11, 21].
+A. Z. Broder, S. C. Glassman, M. S. Manasse, and
+G. Zweig.
+D. Fetterly, M. Manasse, and M. Najork.
+Reconstructing websites for the lazy webmaster.

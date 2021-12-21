@@ -1,0 +1,16 @@
+Aspect Oriented Programming for a component-based real life application: A case study
+ABSTRACT
+Aspect Oriented Programming, a relatively new programming
+paradigm, earned the scientific community's attention
+. The paradigm is already evaluated for traditional OOP
+and component-based software development with remarkable
+results. However, most of the published work, while
+of excellent quality, is mostly theoretical or involves evaluation
+of AOP for research oriented and experimental software
+. Unlike the previous work, this study considers the
+AOP paradigm for solving real-life problems, which can be
+faced in any commercial software. We evaluate AOP in the
+development of a high-performance component-based web-crawling
+system, and compare the process with the development
+of the same system without AOP. The results of the
+case study mostly favor the aspect oriented paradigm.

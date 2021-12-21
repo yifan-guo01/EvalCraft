@@ -1,0 +1,36 @@
+Every practical programming language contains small programming
+languages.
+PLT
+Scheme [9] offers at least five such languages: one for formatting
+console output; two for regular expression matching; one for sending
+queries to a SQL server; and one for laying out HTML pages.
+The application of
+format
+is
+not underlined as an error, even though its arguments appear in the
+wrong order and the analysis correctly computes the types of both
+c
+and
+n
+.
+While Lisp's compiler macros are different from regular Lisp
+macros, Scheme's macro system is powerful enough that the equivalent
+of Lisp's compiler macros can be implemented as regular
+Scheme macros.
+A syntax transformer procedure accepts as its argument a syntax
+object representing the expression that invoked the macro,
+and produces a new syntax object, which the macro expansion
+algorithm uses to replace the original expression.
+Once flow sensitive analysis of
+if
+ expressions is added and
+pseudo type descriptions of the necessary primitives are provided
+to the analysis, partial evaluation makes all the false positives described
+in Section 3 disappear, as we illustrate in the next section.
+Hudak [15], Elliott et al [8], Backhouse [5], Christensen [6], and
+Veldhuizen [27] all discuss the use of partial evaluation to improve
+the efficiency of embedded languages, although none makes the
+connection between partial evaluation and static analysis.
+Lisp also has support for inlining functions, which might
+help monovariant analyses by duplicating the code of a function at
+all its call sites, thereby simulating polyvariant analyses.

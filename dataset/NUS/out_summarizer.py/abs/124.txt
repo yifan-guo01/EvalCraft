@@ -1,0 +1,58 @@
+SAC '04, March 14 17, 2004, Nicosia, Cyprus
+Copyright 2004 ACM 1 58113 812 1/03/04 ...
+$
+5.00.
+of such directories are InvisibleWeb[1] and BrightPlanet[2]
+whose gateway site, CompletePlanet[3], is a directory as
+well as a meta search engine.
+For each database incorporated
+into its search, the meta search engine is provided with
+a manually written "wrapper", a software component that
+specifies how to submit queries and extract query answers
+embedded into HTML formatted result pages.
+Operators that are actually supported
+by an engine may not be mentioned in the help pages, and
+conversely, help pages might mention operators that are not
+supported by the engine.
+New technologies surrounding the XML syntax standard,
+in particular Web Services [18], establish a new basis for automatic
+discovery and information exchange and are becoming
+widely employed in corporate applications.
+Instead, the query probing approach
+for acquiring supported operators does not assume any cooperation
+of Web providers; its only requirement is that they
+1114
+2004 ACM Symposium on Applied Computing
+provide an accessible interface and allow queries to be run.
+A
+method based on downloading answer documents and verifying
+the query against their content often fails, either for legal
+reasons, when the content of documents is unavailable or
+password protected, or for technical reasons, when a query
+matches millions of documents and downloading even a part
+of them requires prohibitive time and network resources.
+Indeed,
+when querying the oracle with terms A and B and syntaxes
+from S, the disjunction is distinguishable from other operators
+by the fact that it constrains bigger subsets in a collection
+than any of terms does:
+|A  B|  |A|, |A  B|  |B|
+(1)
+Furthermore, among three other operators, the conjunction
+is recognized by its commutativity:
+|A  B| = |B  A|
+(2)
+Finally, the difference between negation and phrases is detected
+by the basic equation linking three Boolean operators:
+|A  B| = |A B| + |A  B| + |B A|
+(3)
+Sizes of subsets constrained by the Boolean operators satisfy
+the disequation (1) and equations (2), (3) for any pair of
+A and B, so one can easily design a learning system that
+exactly identifies an unambiguous mapping M after only a
+few probing queries.
+Once query language interfaces are understood, meaningful
+query transformation becomes possible. [11] describes
+one way of transforming a front end query into subsuming
+queries that are supported by the sources and a way to filter
+out incorrectly returned documents.

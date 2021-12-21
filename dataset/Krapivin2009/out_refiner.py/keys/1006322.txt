@@ -1,0 +1,10 @@
+local site
+datum scenario
+Bayesian network
+conditional probability
+parent node
+variable local
+parameter learning
+transmission structure learning
+observation x
+datum mining

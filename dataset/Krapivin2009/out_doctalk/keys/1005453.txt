@@ -1,0 +1,10 @@
+edge
+vertex
+perimeter proof
+tree width
+use coloring
+graph tree
+consider height
+layer partition
+outgrowth
+important result

@@ -1,0 +1,38 @@
+An Analytical Model Based on G/M/1 with Self-Similar Input to Provide End-to-End QoS in 3G Networks
+ABSTRACT
+The dramatic increase in demand for wireless Internet access has 
+lead to the introduction of new wireless architectures and systems 
+including 3G, Wi-Fi and WiMAX.  3G systems such as UMTS and 
+CDMA2000 are leaning towards an all-IP architecture for 
+transporting IP multimedia services, mainly due to its scalability 
+and promising capability of inter-working heterogeneous wireless 
+access networks. During the last ten years, substantial work has 
+been done to understand the nature of wired IP traffic and it has 
+been proven that IP traffic exhibits self-similar properties and 
+burstiness over a large range of time scales. Recently, because of 
+the large deployment of new wireless architectures, researchers 
+have focused their attention towards understanding the nature of 
+traffic carried by different wireless architecture and early studies 
+have shown that wireless data traffic also exhibits strong long-range
+dependency. Thus, the classical tele-traffic theory based on a 
+simple Markovian process cannot be used to evaluate the 
+performance of wireless networks. Unfortunately, the area of 
+understanding and modeling of different kinds of wireless traffic is 
+still immature which constitutes a problem since it is crucial to 
+guarantee tight bound QoS parameters to heterogeneous end users 
+of the mobile Internet. In this paper, we make several contributions 
+to the accurate modeling of wireless IP traffic by presenting a 
+novel analytical model that takes into account four different 
+classes of self-similar traffic. The model consists of four queues 
+and is based on a G/M/1 queueing system. We analyze it on the 
+basis of priority with no preemption and find exact packet delays. 
+To date, no closed form expressions have been presented for 
+G/M/1 with priority.
+Categories and Subject Descriptors
+C.2.3. [Computer Communication Networks]: Network 
+Management G.3. [Mathematics of Computing]: Queueing 
+Theory, Markov Processes
+
+
+General Terms
+Theory,  Design,  Performance,  Reliability

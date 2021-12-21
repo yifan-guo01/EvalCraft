@@ -1,0 +1,7 @@
+input generation
+execution tree
+input structure
+method precondition
+sequential code
+test input
+coverage number

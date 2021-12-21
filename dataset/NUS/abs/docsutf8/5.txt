@@ -1,0 +1,27 @@
+A Dependability Perspective on Emerging Technologies
+ABSTRACT
+Emerging technologies are set to provide further provisions for 
+computing in times when the limits of current technology of 
+microelectronics become an ever closer presence. A technology 
+roadmap document lists biologically-inspired computing and 
+quantum computing as two emerging technology vectors for novel 
+computing architectures <A href="5.html#12">[43]. But the potential benefits that will 
+come from entering the nanoelectronics era and from exploring 
+novel nanotechnologies are foreseen to come at the cost of 
+increased sensitivity to influences from the surrounding 
+environment. This paper elaborates on a dependability perspective 
+over these two emerging technology vectors from a designer's 
+standpoint. Maintaining or increasing the dependability of 
+unconventional computational processes is discussed in two 
+different contexts: one of a bio-inspired computing architecture 
+(the Embryonics project) and another of a quantum computational 
+architecture (the QUERIST project).
+
+Categories and Subject Descriptors
+B.8.1 [Performance and Reliability]: Reliability, Testing, and 
+Fault-Tolerance. 
+C.4 [Performance of Systems]: Fault-Tolerance, Reliability, 
+Availability, and Serviceability.
+
+General Terms
+Design, Reliability, Theory.

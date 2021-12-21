@@ -1,0 +1,10 @@
+window system application
+triangle rendering
+length triangle strip
+chip output
+pixel triangle
+system performance
+only support chip
+rendering algorithm
+dot hardware implementation
+z buffer rendering

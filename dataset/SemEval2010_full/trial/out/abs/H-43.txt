@@ -1,0 +1,8 @@
+This huge database violates the assumption held by most of conventional statistical methods that each web page is considered as an independent and identical sample .
+It is thus difficult to apply traditional mining or learning methods for solving web mining problems , e.g. , web page classification , by exploiting both the content and the link structure .
+INTRODUCTION With the advance of the World Wide Web , more and more hypertext documents become available on the Web .
+Performing information management tasks on such structured data raises many new research challenges .
+Traditional factor analysis models the variables associated with entities through the factors .
+The commonly used singular value decomposition ( SVD ) method ensures that the data points in the latent space can optimally reconstruct the original documents .
+The directed links are generated from the linear combination of linkage of between source and destination factors .
+The missing link a probabilistic model of document content and hypertext connectivity .

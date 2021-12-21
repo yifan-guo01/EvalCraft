@@ -1,0 +1,10 @@
+feature
+page
+event
+HH
+set
+Ri
+fm
+SW
+stopwords
+periodicity

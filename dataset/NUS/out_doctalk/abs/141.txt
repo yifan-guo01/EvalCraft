@@ -1,0 +1,8 @@
+INTRODUCTION Routing is a fundamental function in every network that is based on multi hop communications , and wireless sensor networks are no exceptions .
+It is not surprising that when having such a vague idea about what to achieve , one can not develop the necessary design principles .
+In the former case , the adversary may deploy some corrupted sensor class devices or may capture some honest sensor nodes .
+Message deletion may be achieved by employing various selective jamming techniques against either the sender node or the receiver node .
+We model the operation of the protocol participants by interactive and probabilistic Turing machines .
+3.2 Formalization of a simple attack A simple security objective is to guarantee the correctness of all routing entries in the network .
+A modular approach to the design and analysis of authentication 57 and key exchange protocols .
+An Analysis of the Secure Routing Protocol for mobile ad hoc network route discovery : using intuitive reasoning and formal verification to identify flaws .

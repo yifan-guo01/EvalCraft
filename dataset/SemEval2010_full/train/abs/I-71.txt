@@ -1,0 +1,30 @@
+A Formal Model for Situated Semantic Alignment
+Manuel Atencia Marco Schorlemmer
+IIIA, Artificial Intelligence Research Institute
+CSIC, Spanish National Research Council
+Bellaterra (Barcelona), Catalonia, Spain
+{manu, marco}@iiia.csic.es
+ABSTRACT
+Ontology matching is currently a key technology to achieve
+the semantic alignment of ontological entities used by
+knowledge-based applications, and therefore to enable their
+interoperability in distributed environments such as 
+multiagent systems. Most ontology matching mechanisms, 
+however, assume matching prior integration and rely on 
+semantics that has been coded a priori in concept hierarchies or 
+external sources. In this paper, we present a formal model for
+a semantic alignment procedure that incrementally aligns
+differing conceptualisations of two or more agents relative
+to their respective perception of the environment or domain
+they are acting in. It hence makes the situation in which
+the alignment occurs explicit in the model. We resort to
+Channel Theory to carry out the formalisation.
+Categories and Subject Descriptors
+I.2.11 [Artificial Intelligence]: Distributed Artificial 
+Intelligence-coherence and coordination, multiagent systems;
+D.2.12 [Software Engineering]: Interoperability-data
+mapping; I.2.4 [Artificial Intelligence]: Knowledge 
+Representation Formalisms and Methods-semantic networks,
+relation systems.
+General Terms
+Theory

@@ -1,0 +1,13 @@
+An Index System for Quality Synthesis Evaluation of BtoC Business Website
+ABSTRACT
+It is important for successful electronic business to have a 
+hi-quality business website. So we need an accurate and 
+effective index system to evaluate and analyses the quality of 
+the business website. In this paper, the evaluation index system 
+following the `grey box' principle is proposed which considers 
+both efficiency of business website and performance of 
+electronic business system. Using R-Hierarchical clustering 
+method to extract the typical indexes from sub-indexes is 
+theoretically proved to have a rationality and effectiveness. 
+Finally, the evaluation method is briefly discussed.
+

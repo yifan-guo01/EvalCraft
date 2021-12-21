@@ -1,0 +1,8 @@
+INTRODUCTION Continuous testing uses excess cycles on a developer 's workstation to continuously run regression tests in the background as the developer edits code .
+This paper experimentally evaluates whether the extra feedback from continuous testing assists developers in a programming task without producing harmful side effects .
+The assignments supplied partial program implementations and tests for the missing functionality , simulating a test - first development methodology .
+It supports assertions for checking expected results , organizing test cases into hierarchical suites , running a suite , and presenting results textually or graphically .
+EXPERIMENTAL DESIGN This section describes the experimental questions , subjects , tasks , and treatments in our evaluation of continuous testing .
+We chose a control group randomly from the participants , and we measured and statistically tested various demographic factors such as programming experience .
+The remainder of this section summarizes feedback about changes in work habits , positive and negative impressions , and suggestions for improvement .
+In fact , 70 % of continuous testing and continuous compilation participants reported leaving the continuous testing window open as they edited and tests were run .

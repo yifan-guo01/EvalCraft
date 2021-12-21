@@ -1,0 +1,10 @@
+A Unified Approach for Improving QoS and Provider Revenue in 3G Mobile Networks
+Abstract
+In this paper, we introduce a unified approach for the adaptive control of 3G mobile networks in order to improve both quality
+of service (QoS) for mobile subscribers and to increase revenue for service providers. The introduced approach constantly monitors QoS
+measures as packet loss probability and the current number of active mobile users during operation of the network. Based on the values
+of the QoS measures just observed, the system parameters of the admission controller and packet scheduler are controlled by the adaptive
+performance management entity. Considering UMTS, we present performance curves showing that handover failure probability is improved
+by more than one order of magnitude. Moreover, the packet loss probability can be effectively regulated to a predefined level and provider
+revenue is significantly increased for all pricing policies.
+

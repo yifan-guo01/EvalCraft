@@ -1,0 +1,5 @@
+Moreover, the existence of a key that can be used to link together observations across sites is crucial to our approach.
+In this case, when we learn a local BN at site B, we would expect a (false) edge from node L to node D, because of the edges in the overall BN and the fact that node E is \hidden" (unobserved) at site B.
+This was veried experimentally for the three examples in Section 4.
+Currently, we are working towards obtaining bounds for the performance of our collective BN as compared to that obtained from a centralized approach, as a function of the data communication involved.
+Acknowledgements  .

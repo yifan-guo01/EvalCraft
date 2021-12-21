@@ -1,0 +1,10 @@
+adjacent agent
+output assignment
+transition function
+predicate p
+input x
+state swap
+computation model
+population protocol
+stable computation model
+interaction graph

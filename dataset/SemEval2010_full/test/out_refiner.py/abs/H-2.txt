@@ -1,0 +1,8 @@
+Our algorithms expand Web queries with keywords extracted from user"s PIR, thus implicitly personalizing the search output.
+Only two other approaches enhanced Web search using Desktop data, yet both used different core ideas: (1) Teevan et al. [34] modified the query term weights from the BM25 weighting scheme to incorporate user interests as captured by their Desktop indexes; (2) In Chirita et al. [6], we focused on re ranking the Web search output according to the cosine distance between each URL and a set of Desktop terms describing user"s interests.
+For each term, we can easily compute off line those terms co occurring with it most frequently in a given collection (i.e., PIR in our case), and then exploit this information at run time in order to infer keywords highly correlated with the user query.
+Interactive query expansion has a high potential for enhancing search [29].
+In this paper we proposed to expand Web search queries by exploiting the user"s Personal Information Repository in order to automatically extract additional keywords related both to the query itself and to user"s interests, personalizing the search output.
+H. Cui, J. R. Wen, J. Y. Nie, and W. Y. Ma. Probabilistic query expansion using query logs.
+The PageRank citation ranking: Bringing order to the web.
+T. Sarlos, A. A. Benczur, K. Csalogany, D. Fogaras, and B. Racz.

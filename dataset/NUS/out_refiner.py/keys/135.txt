@@ -1,0 +1,9 @@
+package cohesion
+object b
+cohesion measure
+cohesion subprogram object
+type T
+Proceedings
+call dependency
+glue method
+basic definition

@@ -1,0 +1,8 @@
+To this end , we need to introduce a significance constraint for pruning the huge number of trivial cells in the answer set .
+Using such constraint , one is focused only on these cells and their relationships with corresponding siblings , ancestors , and descendants .
+The algorithm first computes the set of significant probe cells , and then processes the potential gradient cells from low dimensional cells to high dimensional ones .
+Problem Definition and Assumptions Let D be a relational table , called the base table , of a given cube .
+One important issue for realizing this e #ciency is how much data is to be copied around and how much computation is to be shared .
+From this point of view , one can see that the ( constrained ) transaction gradient problem shares a lot of similarities with the ( constrained ) cube gradient problem discussed above .
+The evaluation strategy proposed in that paper uses multiple loops : for each probe cell , search through the entire space for potential gradient cells .
+We believe that our method can serve as an e #cient preprocessing step for subsequent statistical studies on mined interesting gradients or rules .

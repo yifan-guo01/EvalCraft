@@ -1,0 +1,10 @@
+unknown peer
+active parent
+available bandwidth
+peer overlay
+receiver peer
+maintenance mechanism
+local image
+peer network
+same bottleneck
+low utility

@@ -1,0 +1,10 @@
+specialized
+link
+page
+hub
+root
+frontier
+site
+DOMtree
+segment
+node

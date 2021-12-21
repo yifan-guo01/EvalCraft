@@ -1,0 +1,21 @@
+Transactional Agent Model for Fault-Tolerant Object Systems
+ABSTRACT
+A transactional agent is a mobile agent which manipulates
+objects in multiple computers by autonomously finding a
+way to visit the computers. The transactional agent commits
+only if its commitment condition like atomicity is satisfied
+in presence of faults of computers. On leaving a computer
+, an agent creates a surrogate agent which holds objects
+manipulated. A surrogate can recreate a new incarnation
+of the agent if the agent itself is faulty. If a destination
+computer is faulty, the transactional agent finds another
+operational computer to visit. After visiting computers, a
+transactional agent makes a destination on commitment according
+to its commitment condition. We discuss design and
+implementation of the transactional agent which is tolerant
+of computer faults.
+Categories and Subject Descriptors
+H.2.4 [Systems]: Transaction processing
+
+General Terms
+Algorithms, Reliability

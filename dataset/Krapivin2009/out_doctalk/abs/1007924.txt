@@ -1,0 +1,8 @@
+Given a cache and a sequence of requests for files of uniform sizes , a system has to satisfy the requests one by one .
+The paging problem is also known as caching if the files have nonuniform size and retrieval cost .
+Hence , many results for tree metrics imply corresponding results for arbitrary metric spaces with an additional logarithmic factor .
+Most existing work on these problems focuses on upper bound results , and lower bound results only apply to algorithms without a capacity blowup .
+As an example , consider a simple two - level hierarchy associated with equal - sized departments within a university .
+Suppose the down loop takes the second branch of the outer if state - ment .
+We initialize POFF to an arbitrary consistent placement with associated coloring COFF .
+DISCUSSION Cooperative caching has in fact found its application in areas other than distributed systems .

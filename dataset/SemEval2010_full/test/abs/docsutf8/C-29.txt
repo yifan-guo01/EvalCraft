@@ -1,0 +1,56 @@
+Implementation and Performance Evaluation of
+CONFLEX-G: Grid-enabled Molecular Conformational
+Space Search Program with OmniRPC
+Yoshihiro Nakajima
+Graduate School of Systems & Information
+Engineering, University of Tsukuba
+Tsukuba, 305-8577, Japan
+yoshihiro@hpcs.is.tsukuba.ac.jp
+Mitsuhisa Sato
+Institute of Information Sciences and Electronics,
+University of Tsukuba
+Tsukuba, 305-8577, Japan
+msato@is.tsukuba.ac.jp
+Hitoshi Goto
+Knowledge-based Information Engineering,
+Toyohashi University of Technology
+Toyohashi, 441-8580, Japan
+gotoh@cochem2.tutkie.tut.ac.jp
+Taisuke Boku, Daisuke Takahashi
+Institute of Information Sciences and Electronics,
+University of Tsukuba
+Tsukuba, 305-8577, Japan
+{taisuke,daisuke}@hpcs.is.tsukuba.ac.jp
+ABSTRACT
+CONFLEX-G is the grid-enabled version of a molecular 
+conformational space search program called CONFLEX. We
+have implemented CONFLEX-G using a grid RPC system
+called OmniRPC. In this paper, we report the performance
+of CONFLEX-G in a grid testbed of several geographically
+distributed PC clusters. In order to explore many 
+conformation of large bio-molecules, CONFLEX-G generates
+trial structures of the molecules and allocates jobs to 
+optimize a trial structure with a reliable molecular mechanics
+method in the grid. OmniRPC provides a restricted 
+persistence model to support the parametric search applications.
+In this model, when the initialization procedure is defined
+in the RPC module, the module is automatically 
+initialized at the time of invocation by calling the initialization
+procedure. This can eliminate unnecessary communication
+and initialization at each call in CONFLEX-G. 
+CONFLEXG can achieve performance comparable to CONFLEX MPI
+and can exploit more computing resources by allowing the
+use of a cluster of multiple clusters in the grid. The 
+experimental result shows that CONFLEX-G achieved a speedup
+of 56.5 times in the case of the 1BL1 molecule, where the
+molecule consists of a large number of atoms, and each trial
+structure optimization requires significant time. The load
+imbalance of the optimization time of the trial structure
+may also cause performance degradation.
+Categories and Subject Descriptors
+C.2.4 [Computer Systems Organization]: 
+COMPUTERCOMMUNICATION NETWORK-Distributed Systems;
+J.2.4 [Computer Applications]: PHYSICAL SCIENCES
+AND ENGINEERING
+General Terms
+Design,Performance

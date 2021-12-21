@@ -1,0 +1,20 @@
+Coverage Directed Test Generation for Functional Verification using Bayesian Networks
+ABSTRACT
+Functional verification is widely acknowledged as the bottleneck
+in the hardware design cycle. This paper addresses one of the
+main challenges of simulation based verification (or dynamic verification
+), by providing a new approach for Coverage Directed Test
+Generation (CDG). This approach is based on Bayesian networks
+and computer learning techniques. It provides an efficient way for
+closing a feedback loop from the coverage domain back to a generator
+that produces new stimuli to the tested design. In this paper, we
+show how to apply Bayesian networks to the CDG problem. Applying
+Bayesian networks to the CDG framework has been tested in
+several experiments, exhibiting encouraging results and indicating
+that the suggested approach can be used to achieve CDG goals.
+Categories and Subject Descriptors
+B.6.3 [Logic Design]: Design Aids--Verification
+
+General Terms
+Verification, Measurement, Algorithms, Experimentation
+

@@ -1,0 +1,3896 @@
+dBBlue: Low Diameter and Self-routing Bluetooth Scatternet
+ABSTRACT
+This paper addresses the problem of scatternet formation for single-hop
+Bluetooth based ad hoc networks, with minimal communication
+overhead. We adopt the well-known structure de Bruijn graph
+to form the backbone of Bluetooth scatternet, hereafter called dBBlue
+, such that every master node has at most seven slaves, every
+slave node is in at most two piconets, and no node assumes both
+master and slave roles. Our structure dBBlue also enjoys a nice
+routing property: the diameter of the graph is
+ 
+   
+ҵ
+and we can
+find a path with at most
+ 
+   
+ҵ
+hops for every pair of nodes without
+any routing table . Moreover, the congestion of every node is
+at most
+ 
+   
+ 
+ҵ
+, assuming that a unit of total traffic demand
+is equally distributed among all pair of nodes. We discuss in detail
+a vigorous method to locally update the structure dBBlue using
+at most
+ 
+   
+ҵ
+communications when a node joins or leaves the
+network. In most cases, the cost of updating the scatternet is actually
+ 
+   
+since a node can join or leave without affecting the
+remaining scatternet. The number of nodes affected when a node
+joins or leaves the network is always bounded from above by a constant
+. To facilitate self-routing and easy updating, we design a scalable
+MAC assigning mechanism for piconet, which guarantees the
+packet delivery during scatternet updating. The dBBlue scatternet
+can be constructed incrementally when the nodes join the network
+one by one. Previously no method can guarantee all these properties
+although some methods can achieve some of the properties.
+Categories and Subject Descriptors
+C.2.1 [Network Architecture and Design]: Wireless communication
+, Network topology; G.2.2 [Graph Theory]: Network problems
+, Graph algorithms
+General Terms
+Algorithms, Design, Theory
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise, to
+republish, to post on servers or to redistribute to lists, requires prior specific
+permission and/or a fee.
+DIALM POMC'03, September 19, 2003, San Diego, California, USA.
+Copyright 2003 ACM 1-58113-765-6/03/0009 ...
+$
+5.00.
+
+INTRODUCTION
+Bluetooth [8] is a promising new wireless technology, which enables
+portable devices to form short-range wireless ad hoc networks
+based on a frequency hopping physical layer. Bluetooth ad-hoc
+networking presents some technical challenges, such as scheduling
+, network forming and routing. User mobility poses additional
+challenges for connection rerouting and QoS services. It has been
+widely predicted that Bluetooth will be the major technology for
+short range wireless networks and wireless personal area networks.
+This paper deals with the problem of building ad hoc networks using
+Bluetooth technology.
+According to the Bluetooth standard, when two Bluetooth devices
+come into each other's communication range, one of them
+assumes the role of master of the communication and the other becomes
+the slave. This simple one hop network is called a piconet,
+and may include more slaves. The network topology resulted by the
+connection of piconets is called a scatternet. There is no limit on
+the maximum number of slaves connected to one master, although
+the number of active slaves at one time cannot exceed . If a master
+node has more than
+slaves, some slaves must be parked. To
+communicate with a parked slave, a master has to unpark it, thus
+possibly parking another active slave instead. The standard also
+allows multiple roles for the same device. A node can be master
+in one piconet and a slave in one or more other piconets. However,
+one node can be active only in one piconet. To operate as a member
+of another piconet, a node has to switch to the hopping frequency
+sequence of the other piconet. Since each switch causes delay (e.g.,
+scheduling and synchronization time), an efficient scatternet formation
+protocol can be one that minimizes the roles assigned to the
+nodes, without losing network connectivity.
+While several solutions and commercial products have been in-troduced
+for one-hop Bluetooth communication, the Bluetooth specification
+does not indicate any method for scatternet formation. The
+problem of scatternet formation has not been dealt with until very
+recently. The solutions proposed in literature can be divided into
+single-hop and multi-hop solutions. Several criteria could be set
+as the objectives in forming scatternet. First of all, the protocol
+should create degree limited scatternets, to avoid parking any node.
+Secondly, the number of piconets should be minimized to provide
+faster routing. Thirdly, the formation and maintenance of scatternet
+should have small communication overhead. Fourthly, the diameter
+of the scatternet should be small, i.e., the maximum number of hops
+between any two devices must be small. In this paper, we focus on
+scatternet formation for single-hop ad hoc networks. In a single-hop
+ad hoc network, all wireless devices are in the radio vicinity
+of each other, e.g., electronic devices in a laboratory, or laptops in
+a conference room. A single-hop network can be modeled by a
+complete graph.
+22
+Previous literature on scatternet formation assumed that devices
+are not able to communicate unless they have previously discovered
+each other by synchronizing their frequency hopping patterns.
+Thus, even if all nodes are within direct communication range of
+each other, only those nodes, which are synchronized with the transmitter
+, can hear the transmission. Synchronizing the frequency
+hopping patterns is apparently a time consuming and pseudo-random
+process [13]. In this paper we assume that the problem of discovering
+all neighbors within transmission radius of a device is resolved
+by separate Bluetooth protocol. One such protocol for discovering
+all one hop networks is described in [13, 3], while a protocol that
+provides two-hop information to every node is described in [12].
+These protocols are applicable as the pre-phase of our scheme.
+This paper addresses the problem of scatternet formation for
+single-hop Bluetooth based ad hoc networks, with minimal communication
+overhead. We adopt the well-known structure de Bruijn
+graph to form the backbone of Bluetooth scatternet, hereafter called
+dBBlue, such that every master node has at most seven slaves, every
+slave node is in at most two piconets, and no node assumes
+both master and slave roles. Our structure dBBlue also enjoys a
+nice routing property: the diameter of the graph is
+ 
+   
+ҵ
+and
+we can find a path with at most
+ 
+   
+ҵ
+hops between every pair
+of nodes without any routing table. Moreover, the congestion of
+every node is at most
+ 
+   
+ 
+ҵ
+, assuming that a unit of total
+traffic demand is evenly distributed among all pair of nodes. We
+discuss in detail a vigorous method to locally update the structure
+dBBlue using at most
+ 
+   
+ҵ
+communications when a node joins
+or leaves the network. In most cases, the cost of updating the scatternet
+is actually
+ 
+   
+since a node can join or leave without affecting
+the remaining scatternet. The number of nodes affected when
+a node joins or leaves the network is always bounded from above
+by a constant. To facilitate self-routing and easy updating, we design
+a scalable MAC assigning mechanism for piconet, which can
+guarantee the packet delivery even during updating. Our method
+can construct the structure dBBlue incrementally when the nodes
+join the network one by one. In addition, the structure formed by
+our method can sustain the faults of
+ 
+nodes and the network is
+still guaranteed to be connected. If a node detects a fault of some
+neighboring master node or bridge slave node, it can dynamically
+re-route the packets and the path traveled by the packet is still at
+most
+ 
+   
+ҵ
+. Previously no method can guarantee all these properties
+although some methods can achieve some of the properties.
+The rest of the paper is organized as follows. Section 2 presents
+our new Bluetooth formation algorithms for single-hop ad hoc networks
+. We describe how to build a static scatternet of
+ 
+nodes based
+on de Bruijn graph and assign roles and labels to them. Section 3
+proposes a vigorous method to locally and dynamically update the
+scatternet topology when node joins or leaves the network. Section
+4 describes the routing method for our de Bruijn based scatternet
+which efficiently finds the next node need to go without any routing
+table. The related works is discussed in section 5. We conclude our
+paper in Section 6 by pointing out some possible future research
+directions.
+DBBLUE SCATTERNET CONSTRUCTION
+Our dBBlue scatternet first builds a backbone based on the well-known
+de Bruijn graph [5]. The de Bruijn graph, denoted by
+ 
+ 
+,
+is a directed graph with
+nodes. Assume that each node is assigned
+a unique label of length
+on the alphabet
+ 
+ 
+ 
+ 
+
+ 
+.
+There is an edge in
+ 
+ 
+from a node with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to
+any node with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, where
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+. Figure
+1 illustrates
+  
+  
+. It is well-known that the de Bruijn graph
+enables self-routing intrinsically. The self-routing path from the
+source with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to the target with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+is
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. Observe that, we could find a shorter route by looking
+for the longest sequence that is both a suffix of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and a
+prefix of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. Suppose that
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+is
+such longest sequence. The shortest path between the source and
+the target is
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. Clearly, the
+route between any two nodes is at most
+hops, i.e.,
+ 
+ 
+has
+diameter
+  
+ 
+, where
+ 
+is the number of nodes of the
+graph.
+111
+001
+011
+010
+100
+110
+000
+101
+Figure 1: The de Bruijn graph
+  
+  
+.
+The classical de Bruijn graph is balanced in the sense that the
+labels of all nodes have the same length. The de Bruijn graph can
+be generalized to any set of vertices whose labels form a universal
+prefix set. In [7], Fraigniaud and Gauron proposed a novel
+method to construct an efficient topology for P2P network based
+on the generalized de Bruijn graph defined on a universal prefix
+set. "A universal prefix set is a set
+ 
+of labels on an alphabet
+ 
+such that, for any infinite word
+ 
+ 
+ 
+, there is a unique
+word in
+ 
+, which is a prefix of
+ 
+. The empty set is also a universal
+prefix set."[7] For instance,
+  
+  
+   
+   
+   
+   
+is
+a universal prefix set on alphabet
+ 
+ 
+ 
+, but
+  
+  
+  
+and
+  
+  
+   
+    
+   
+   
+   
+are not. There is a directed
+edge from node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to another node
+ 
+in the generalized
+de Bruijn graph if
+ 
+ 
+ 
+ 
+ 
+ 
+is the prefix of the label of node
+ 
+. A generalized de Bruijn graph is pseudo-balanced if the lengths
+of the labels are different by at most one. For simplicity, we still
+denote a pseudo-balanced de Bruijn graph on alphabet
+ 
+ 
+by
+  
+ 
+if the node labels have length at least
+bits and at most
+ 
+ 
+bits. We also say that a node from
+  
+ 
+is at level
+if its
+label has
+bits.
+In this paper, we only consider the balanced or pseudo-balanced
+binary de Bruin graph
+  
+ѵ
+. Node labels in a pseudo-balanced
+de Bruijn graph correspond to all the leaf nodes in a full binary tree,
+in which the depth difference between any two leaf nodes is at most
+one and each internal node has two children, Figure 2 illustrates the
+correspondence between them. In the figure, the pseudo-balanced
+de Bruijn graph is defined on the leaf nodes and directed edges.
+In a pseudo-balanced de Bruijn graph
+  
+ 
+, each node has at
+most
+out-neighbors and
+ 
+in-neighbors. To route a packet from
+a node
+ 
+with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+to another node
+ 
+with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+, where
+ 
+ 
+ 
+ 
+ 
+. Node
+ 
+will forward
+the packet to its neighbor node with label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+, or
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+, or
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+. Notice that since the labels
+of the nodes are a universal prefix set, we know that exactly
+one of these three labels does exist. The following nodes keep forwarding
+the packet similarly until it reaches node
+ 
+. Consequently,
+the diameter of pseudo-balanced de Bruijn graph is still
+ 
+   
+ҵ
+.
+In this paper, we propose a scalable scatternet structure based on
+pseudo-balanced de Bruijn graph
+  
+ 
+.
+23
+root
+0000 0001 0010 0011
+001
+000
+011
+010
+100 101 110 111
+10
+11
+01
+00
+1
+0
+Figure 2: The correspondence between full binary tree and
+pseudo-balanced de Bruijn graph.
+In a pseudo-balanced de Bruijn graph
+  
+ѵ
+, two nodes are
+called critical pair if they only differ in the least significant bit of
+their labels. Let
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+be the sequence of nodes visited
+by a traversal of all leaf nodes in the corresponding binary tree of
+  
+ѵ
+. A node
+ 
+is called the successor of another node
+ 
+ 
+and
+ 
+ 
+is called the predecessor of another node
+ 
+. Here
+
+ 
+takes value
+
+ 
+  
+ 
+ 
+ 
+. For example, in Figure 2, nodes
+    
+and
+    
+is a critical pair; node
+   
+is the successor of the
+node
+    
+.
+2.2
+MAC Address Assignment for Piconet
+Our method will construct a balanced (or pseudo-balanced) de
+Bruijn graph
+  
+ѵ
+as the backbone of the network. Here the
+choosing of the integer
+ 
+is discussed later. We will ignore the
+direction of the edges in the de Bruijn graph
+  
+ѵ
+. Thus, every
+node will have at most
+(or
+for pseudo-balanced de Bruijn graph
+  
+ѵ
+) edges incident.
+Every node in the backbone of dBBlue scatternet will be assigned
+a master role. We will add a bridge slave node for every
+pair of master nodes that are connected in the backbone. Thus, every
+master node will have at most six bridge slave nodes so far. We
+then add some free slave nodes to each master node, and call them
+pure slave nodes.
+Before we discuss in detail our scatternet construction methods,
+we present our novel rule of assigning the MAC address in a piconet
+. In our dBBlue scatternet, when we route a packet to a
+destination node
+ 
+, we only know the piconet ID of node
+ 
+, say
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, which is same as the label of its master node, and the
+MAC address, say
+ 
+ 
+ 
+ 
+ 
+ 
+, of this node in that piconet. The detail
+routing mechanism will be discussed in Section 4. When some
+node joins or leaves the scatternet, we often have to reorganize
+some piconets and thus re-assign the MACs of some nodes. Our
+method of assigning MAC addresses in a piconet and reorganizing
+the piconets guarantees that the new piconet (even the new MAC
+address) can be found by a simple appending or deleting the least
+significant bit, which keeps the label prefix of updating nodes un-changed
+so that even the delivery of the packets on the way to those
+updating nodes will not be interrupted.
+In a piconet, MAC
+   
+is always reserved by the master node.
+For simplicity, we omit the MAC address of a master node hereafter
+while representing its label, i.e., the master node with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+actually has a label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+    
+if
+consistent labels with slave nodes are needed. Remember that, in a
+pseudo-balanced de Bruijn graph, any node has
+ 
+in-neighbors (except
+ 
+ 
+and
+ 
+ 
+) and at most
+out-neighbors, so MAC addresses
+   
+and
+   
+are always reserved for the two bridge slaves to in-neighbors
+, MAC
+   
+,
+   
+,
+   
+and
+   
+are reserved for bridge
+slaves to out-neighbors if they exist, and
+   
+is reserved for the
+th slave (it must be a pure slave) if it exists. Figure 3 illustrates
+all four possibilities for the piconet MAC address assignment according
+to the number of out-neighbors in scatternet backbone.
+In the figure, for simplicity, we use
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+  
+ 
+to denote
+a node with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+or
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+,
+whichever exists in the network. Notice that a master node in
+the constructed scatternet based on a pseudo-balanced de Bruijn
+graph
+  
+ѵ
+always has two incoming neighbors. For example,
+a master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+in level
+ 
+can have incoming neighbor
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+or
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, but not both since the de
+Bruijn graph is built upon a universal prefix set; similarly another
+incoming neighbor is
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+. Analogously, a master
+node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ѷ 
+in level
+ 
+ 
+ 
+has incoming neighbors
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+and
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+. On the other
+hand, the number of out-neighbors of a node in the pseudo-balanced
+de Bruijn graph
+  
+ѵ
+could be
+ 
+ 
+ 
+. Only the node at level
+ 
+could have
+ 
+or
+out-neighbors and only the node at level
+ 
+ 
+ 
+could have
+ 
+out-neighbor (except nodes
+ 
+ 
+and
+ 
+ 
+if they exist).
+... x
+m-1
+1 x
+1
+0
+... x
+m-1
+x
+1
+m
+(x  )
+m
+(x  )
+001
+010
+100
+101
+110
+011
+111
+... x
+m+1
+... x
+x
+m+1
+2
+x
+1
+x
+2
+(a) One out-neighbor
+m
+m
+(x  )
+(x  )
+1
+...
+x
+1
+x
+2
+x
+m
+...
+...
+x
+1
+x
+m-1
+...
+x
+1
+x
+m-1
+001
+010
+100
+101
+110
+011
+111
+1
+x
+0
+2
+x
+m
+0
+...
+x
+2
+x
+m
+(b) Two out-neighbors
+(x  )
+m
+m
+(x  )
+x
+m
+...
+...
+x
+1
+x
+m-1
+...
+x
+1
+x
+m-1
+x
+2
+x
+m
+0 0
+...
+x
+2
+x
+m
+0
+...
+1
+001
+010
+100
+101
+110
+011
+111
+1
+x
+0
+2
+x
+m
+1
+...
+x
+1
+x
+2
+(c) Three out-neighbors
+m
+(x  )
+(x  )
+m
+x
+m-1
+...
+x
+1
+x
+m-1
+x
+2
+x
+m
+0 0
+...
+x
+2
+x
+m
+0
+...
+1
+x
+2
+x
+m
+...
+1 0
+x
+2
+x
+m
+...
+1
+1
+001
+010
+100
+101
+110
+011
+111
+1
+x
+0
+1
+x
+2
+x
+m
+...
+...
+x
+1
+(d) Four out-neighbors
+Figure 3: MAC address assignment for a piconet.
+24
+Table 1 summarizes the rule of assigning the MAC address to the
+bridge slave nodes in a piconet. Their MAC addresses can be decided
+uniquely according to the label bit difference between current
+piconet and neighbor piconet IDs. For example, if the master
+ 
+is
+labeled
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and its out-neighbor
+ 
+is labeled
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+,
+then the MAC addresses of their bridge slave is
+ 
+ 
+ 
+ 
+ 
+ 
+assigned by
+ 
+, and
+ 
+ 
+  
+assigned by
+ 
+. Remember that every bridge slave has
+one MAC address in each of the two piconets it resides.
+Table 1: The rule to assign MAC address to bridge slave nodes.
+In-Neighbor
+Out-Neighbor
+Node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Notice that, in bluetooth scatternet, the bridge slave nodes have
+two independent piconet IDs and MAC addresses in two piconets
+respectively. However, since the routing mechanism in de Bruijn
+is directional, only their piconet ID and MAC address assigned by
+their in-master is public and meaningful for routing, saying label
+in the remaining paper, and the other one is only used for inter-communication
+in a piconet. Figure 4 illustrates one piconet in
+the scatternet. Here nodes
+ 
+,
+ 
+ 
+,
+ 
+ 
+,
+ 
+ 
+and
+ 
+ 
+assume master
+role and form the backbone for scatternet. These master nodes are
+connected in the de Bruijn graph by bridge slaves
+ 
+ 
+,
+ 
+,
+ 
+ 
+and
+ 
+respectively. Assume that node
+ 
+has label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+.
+Nodes
+ 
+ 
+,
+ 
+ 
+denote the two incoming neighbors of node
+ 
+, which
+has label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+and
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+respectively. Nodes
+ 
+ 
+,
+ 
+ 
+denote the two outgoing neighbors of node
+ 
+, which has label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+and
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+respectively. Nodes
+ 
+ 
+,
+ 
+, and
+ 
+are the pure slave nodes of
+ 
+in the scatternet. The label
+of node
+ 
+(
+ 
+ 
+ 
+) is
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+where is
+the MAC address of node
+ 
+in this piconet, and
+ 
+ 
+and
+ 
+has public
+label
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+,
+respectively, which is consistent with the prefix of
+ 
+ 
+and
+ 
+ 
+respectively
+. Notice that the MACs of
+ 
+ 
+and
+ 
+in the piconet mastered
+by node
+ 
+are
+ 
+and
+respectively, which are used only by nodes
+in this piconet and not broadcasted to the network.
+2
+v
+5
+v
+1
+v
+6
+v
+4
+v
+3
+v
+7
+u
+I
+1
+I
+2
+2
+O
+O
+v
+1
+Figure 4: An example of a static piconet (with nodes inside the
+shaded region) formed by our method. Here a master node is
+denoted by a square, a pure slave is denoted by a circle, and a
+bridge slave is denoted by a triangle.
+As will see later, our labeling rule makes the updating of the
+scatternet topology and nodes' labels much easier when new nodes
+join the network or some existing nodes leave the network. For incremental
+updating of the scatternet, there are two scenarios when
+a new node joins the network. The first case is that there is a master
+node who has free slot for a pure slave. We then directly assign
+the newly joined node as the pure slave of that master node. The
+second case is that no master node has free slot for a pure slave. We
+then have to split some piconet and in turn create some free slots
+for pure slaves. The splitting of a piconet is performed such that
+the resulting backbone (formed by master nodes and bridge slaves)
+is still a pseudo-balanced de Bruijn graph. When a piconet is aplit-ted
+, the labels of some nodes have to be updated. While updating
+the topology, it is possible that some packets are already on their
+way to the destinations (via or toward this splitting piconet). Our
+labeling rule makes sure that the packets can still be routed without
+any interruption, only the local nodes are assigned new labels, and
+the re-labeling are also conducted locally.
+2.3
+Static Scatternet Construction
+Given
+ 
+nodes currently distributed in the network, the section
+gives an efficient algorithm to construct our de Bruijn based scatternet
+dBBlue, which has low diameter and bounded node degree
+property. In other words, we first study the construction of the scatternet
+for a static
+ 
+-nodes network, which will serve the base for
+our dynamic construction.
+Our method will construct a balanced de Bruijn graph
+  
+ѵ
+as the initial backbone of the network. We will choose integer
+ 
+such that
+ 
+   
+ 
+ 
+ 
+. The choosing of
+ 
+guarantees that
+there are enough bridge slave nodes, which implies that no master
+node serves as bridge slave.
+Our method does not consider the detail of the neighbor discovering
+process. We assume that every node already knows the existence
+of the other nodes.
+A
+LGORITHM
+1.
+Static DeBruijn-Based Scatternet
+1. Assume that there is a leader already among these
+ 
+nodes
+ 
+. The leader could be the node with smallest ID. We give
+the token to the leader and call it token node. Token node
+randomly selects
+ 
+ 
+nodes (including itself) into the master
+set
+ 
+which assumes the master role in final scatternet
+topology, where
+ 
+   
+ 
+ 
+ 
+and
+ 
+is the number of
+nodes in
+ 
+. Let
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+, which is the total number
+of nodes that can be assigned as pure slaves.
+2. Token node assigns itself with label
+ 
+ 
+, and each node in
+ 
+with a unique
+ 
+bits label in the range from
+ 
+ 
+ 
+ 
+  
+to
+ 
+ 
+ 
+ 
+  
+. The set of nodes
+ 
+forms a de Bruijn graph
+  
+ѵ
+as the scatternet backbone.
+3. Token node, with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, selects
+ 
+nodes
+1
+from
+the remaining as its bridge slaves, and assigns them labels
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+and
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+respectively. Here
+   
+,
+   
+will also serve as the Medium Access Code (MAC) for
+these two slaves in the piconet mastered by this token node.
+Token node uses its bridge slave node
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+to
+connect with its out-neighbor
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and the bridge
+slave node
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+to connect the out-neighbor node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.
+4. Assume that the current token node has label with value .
+The token node selects
+ 
+ 
+ 
+ 
+ 
+ 
+nodes
+2
+from the
+remaining as its slaves and assigns them with labels
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+,
+1
+There are two special nodes
+ 
+ 
+and
+ 
+ 
+, which only have 1 out-neighbor
+, we then just use one bridge slave node to connect with its
+out-neighbor.
+2
+Node
+ 
+ 
+and
+ 
+ 
+may choose
+nodes as its pure slaves since they
+only have one in-neighbor and one out-neighbor.
+25
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+and
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+in the order if they exist
+. Let
+ 
+ 
+ 
+
+ 
+.
+Then the token is passed to its successor.
+5. Repeat the above steps (3) and (4) until all nodes in
+ 
+are
+processed. After all nodes have been processed, the current
+token node passes the token back to node
+ 
+ 
+again.
+Once the initial topology construction is finished, the token node
+ 
+will be responsible for the following node joining and leaving
+issues. Master nodes form the backbone of bluetooth scatternet,
+and a piconet works like a node in de Bruijn graph.
+111
+001
+011
+010
+100
+110
+000
+101
+Figure 5: dBBlue Bluetooth Scatternet.
+Figure 5 illustrates a dBBlue scatternet containing
+nodes based
+on
+  
+  
+graph.
+T
+HEOREM
+1. In dBBlue scatternet, each master has no more
+than
+slaves and each slave assumes as bridge for at most
+ 
+piconets
+. And the number of piconets is at most
+ 
+ 
+and at least
+ 
+.
+Moreover, the computation cost is
+ 
+ ҵ
+for static construction.
+P
+ROOF
+. From the topology construction, each master carries at
+most
+same prefix slaves, and at most
+ 
+different prefix slaves from
+its in-neighbors since each node in
+  
+ѵ
+graph has at most
+ 
+in-neighbors
+, so each master has no more than
+slaves. And, each
+slave exists as a free slave or as the bridge between its same prefix
+master
+ 
+and one of
+ 
+'s out-neighbors, so the degree of a slave node
+is at most 2.
+Let
+ 
+
+, where
+ 
+ 
+and
+ 
+ 
+is the number of
+masters. Then
+ 
+   
+ 
+ 
+ 
+implies
+ 
+   
+ 
+ 
+ 
+ 
+.
+Thus,
+ 
+
+  
+   
+ 
+  
+
+and
+ 
+
+ 
+ 
+ 
+
+.
+Consequently,
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+, which implies
+ 
+ 
+ 
+ 
+ 
+.
+It is obvious that the total computation cost of constructing static
+dBBlue scatternet is
+ 
+ ҵ
+.
+In this paper we always assume a bluetooth piconet consists of at
+most
+slaves and
+ 
+master. If future bluetooth technology allows
+a master to bring more slaves, say
+ 
+, our scatternet construction
+method can adapt easily as follows. The scatternet backbone will be
+still based on
+  
+ѵ
+de Bruijn graph. However,
+ 
+is chosen such
+that
+ 
+   
+ 
+   
+ 
+ 
+. In other words, every master node will
+carry
+ 
+
+pure slaves and
+bridge slaves to connect to its two out-neighbors
+and two in-neighbors in the de Bruijn graph
+  
+ѵ
+.
+It is not difficult to show that using de Bruijn graph
+  
+ѵ
+will
+create a scatternet with less piconets than using
+ 
+ 
+ 
+ 
+for
+ 
+since each master node will carry less pure slaves in the later case.
+On the other hand, the scatternet based on
+ 
+ 
+ 
+ 
+for
+ 
+does
+provide a better fault tolerance since the degree of each master node
+is increased to
+ 
+.
+DYNAMIC SCATTERNET UPDATING
+In this section we describe a vigorous method to locally update
+the scatternet topology dynamically when node joins or leaves the
+network. Considering each piconet as an abstract node in the de
+Bruijn graph, our goal is to maintain a scalable pseudo-balanced de
+Bruijn graph.
+3.1
+Token Based Updating
+First consider the case when a node wants to join the network.
+We have to assign a role for this newly joined node. There are several
+possible scenarios about the existing scatternet. (1) the existing
+scatternet has a master node that has free slave slots, then we can
+simply assign this newly joined node as the pure slave of this master
+node. (2) all master nodes in the existing scatternet already have
+slaves, we then have to expand the backbone of the scatternet to
+incorporate this newly joined node. In other words, we have to split
+some piconet to two such that the two new piconets will have some
+free pure slave slots to hold this newly joined node.
+Several methods can be used to implement the above scheme. To
+make the updating efficient, we should be able to quickly find the
+master node with empty slot for pure slave if there is any. One approach
+is to keep the current scatternet compact and assign a special
+node the token in a way such that all master nodes with label less
+than the token node do not have empty slot, and all master nodes
+with label larger than the token node do have empty slot. When
+a new node joins the network, we can simply assign it the empty
+pure slave slot and then update the token node if necessary. This approach
+is efficient for node joining but suffers more cost for node
+leaving. When a node leaves the network, we have to update the
+scatternet to keep the scatternet compact. Thus, we possibly have
+to move some nodes to fill the slot emptied by this left node.
+The other approach is not to compact the scatternet. When a
+node leaves, we do nothing if the backbone of the scatternet is untouched
+. However, this approach suffers a large cost when node
+joins the network since we have to find where to put the newly
+joined node. One method is to use the broadcast method to travel
+the whole scatternet to find the master node with free pure slave
+slot. This may perform better if only a few of the existing piconets
+have free slots. The other method is to randomly select a master
+node and check if it has free slot. If it does not, we then select
+another random master node until one such master node is found.
+This approach performs better if the majority of the piconets have
+free slots. We omit the detail of performance analysis here, which
+will be presented in the full version of the paper.
+In this paper, we will adopt the compact approach. Before we
+present the detail of our methods of updating the scatternet, we first
+study the possible status of the scatternet, which will be recorded
+in the token node.
+When a new node requests joining the network, there are three
+possible scenarios to be discussed.
+1. Current backbone is a balanced de Bruijn graph. Figure 6
+illustrates an example. The token is held by the master node
+with the smallest label among all master nodes that have less
+than
+same-prefix slaves. In this status, the master node with
+the token has some free slot for newly joined node and so do
+all master nodes with larger labels.
+2. Current backbone is pseudo-balanced de Bruijn graph
+  
+ѵ
+under expanding status, i.e., many nodes join the scatternet.
+Figure 7 illustrates an example. The token is held by the
+first master node with less than
+same-prefix slaves in level
+ 
+ 
+ 
+if it exists, otherwise the first master node in level
+ 
+holds the token. In this status, all master nodes in level
+ 
+26
+token
+i-1
+i
+i+1
+Figure 6: Token in balanced de Bruijn graph.
+and
+ 
+ 
+ 
+do not have free slots except the last two master
+nodes in level
+ 
+ 
+ 
+. In other words, at most two master
+nodes have free slots.
+level m
+token
+i
+i-1
+i+1
+level m+1
+Figure 7: Token in pseudo-balanced de Bruijn graph under expanding
+status.
+3. Current backbone is a pseudo-balanced de Bruijn graph
+  
+ѵ
+under shrinking status, i.e., many nodes leave the scatternet.
+Figure 8 illustrates an example. The token is held by the
+master node in level
+ 
+with the smallest label. In this status,
+each master node in level
+ 
+ 
+ 
+and level
+ 
+has
+and
+ 
+same-prefix slave nodes respectively.
+level m+1
+i+1
+i-1
+i
+token
+level  m
+Figure 8: Token in pseudo-balanced de Bruijn graph under
+shrinking status.
+Those statuses balanced, expanding, shrinking will be recorded
+in the token data structure.
+3.2
+Node Joining
+When a new node joins the network, there are three cases.
+1. Token status is balanced, that is to say, current backbone is a
+balanced de Bruijn graph. See Figure 6 for an illustration.
+(a) The token node
+ 
+ 
+ 
+ 
+has less than
+slaves. Then
+it simply adds the joining node into its slave set and
+assigns it a label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, where
+ 
+ 
+ 
+ 
+ 
+ 
+is
+one of the un-assigned MAC address in
+   
+   
+   
+.
+If the token node now has
+slaves, then it passes the token
+to its successor.
+(b) The token node is fully occupied by slaves. This could
+happen only when all master nodes in the scatternet
+have
+slaves. Then the token is passed back to node
+ 
+ 
+if it is not at node
+ 
+ 
+. Change the token status
+to expanding and call Method 1 to split the current piconet
+mastered by the token node into two parts and
+add the joining node as a new pure slave with label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+.
+2. Token status is expanding, that is to say, current backbone is
+a pseudo-balanced de Bruijn graph under expanding status.
+See Figure 7 for an illustration.
+(a) If the token node is in level
+  
+ 
+  
+, i.e., with
+  
+ 
+  
+bits
+label
+ 
+ 
+ 
+ѷ 
+, the it must has less than
+slaves.
+It simply adds the joining node into its slave set and
+assigns it a label
+  
+ 
+ 
+ 
+ 
+ 
+ѷ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, where
+ 
+ 
+ 
+ 
+ 
+ 
+is one of the un-assigned labels in
+   
+   
+   
+. If
+the token node now has
+slaves, then passes the token
+to its successor.
+(b) If the token node is in level
+ 
+, i.e., with
+ 
+-bits label
+ 
+ 
+ 
+ 
+. This could happen only when all master
+nodes in the scatternet has been fully occupied by
+slaves. Call Method 1 to split the current piconet mastered
+by this token node into two piconets, and add the
+joining node as a new slave with label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+.
+3. Token status is shrinking, that is to say, current backbone
+is a pseudo-balanced de Bruijn graph under shrinking status
+. See Figure 8 for an illustration. In this case, token node
+surely has exactly four slaves (see node leaving for more details
+). We first add the joining node as the slave of the token
+node and assign it one of the un-assigned MAC addresses
+in
+   
+   
+   
+. Call Method 1 to split current piconet
+into two piconets, and pass token to the successor in level
+ 
+. If the current token node is
+ 
+ 
+, then set token status to
+balanced and pass the token to master node
+ 
+ѷ 
+. In other
+words, we basically undo the updating (piconets merging)
+caused by the previous node leaving event.
+We then present our algorithm that split one piconet mastered by
+node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to two new piconets mastered by nodes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+respectively.
+M
+ETHOD
+1.
+Piconet split due to node joining
+1. Token node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+promotes its slave node
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+as the master for a new piconet. We change
+the label
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of a pure slave node or a out-neighbor
+bridge slave node by simply appending
+ 
+ 
+in the
+MAC address, i.e., the new label is
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.
+Two new piconets have master node with labels
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+respectively. The detail of labeling and role
+updating is as follows:
+(a)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+master role in first piconet.
+(b)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+a bridge slave role in first piconet.
+(c)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+a bridge slave role in first piconet.
+(d)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+master role in second piconet.
+(e)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+a bridge slave role in second piconet.
+(f)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which assumes
+a bridge slave role in second piconet.
+27
+Notice this label extension still preserves their prefix. Thus,
+after the piconet splitting, the message delivery will not be
+interrupted at all because old addresses are still reachable
+since the new label has same prefix. In addition, the nodes
+with new labels with the corresponding MAC addresses will
+serve the bridge slave role in the two newly created piconets.
+Figure 9 illustrates the change while piconet splitting.
+m
+...
+0,101
+x
+1
+x
+m
+...
+1,010
+x
+1
+x
+m
+...
+0,010
+x
+1
+x
+m
+...
+1,101
+x
+1
+x
+m
+...
+0,001
+x
+1
+x
+m
+...
+0
+x
+1
+x
+m
+...
+1
+x
+1
+x
+m
+...
+x
+1
+x
+m
+...
+,001
+x
+1
+x
+m
+...
+,010
+x
+1
+x
+m
+...
+,100
+x
+1
+x
+m
+...
+,101
+x
+1
+x
+m
+...
+,110
+Joining
+v
+v
+u
+x
+u
+1
+x
+Figure 9: Piconet splits due to node joining.
+2. Then, both
+ 
+and
+ 
+need reselect the bridge slaves to connect
+with its in-neighbors and out-neighbors if needed. Simultaneously
+, both
+ 
+and
+ 
+'s neighbors need reselect its same-prefix
+bridge slaves to connect with
+ 
+and
+ 
+. The selection
+still follows the rule described in Section 2.2, Figure 3 illustrates
+all possible scenarios. Since the master nodes in
+the new piconets are in level
+ 
+ 
+ 
+, each of them has at
+most
+ 
+out-neighbors in the pseudo-balanced de Bruijn graph
+  
+ѵ
+. Thus, we have enough bridge slave nodes for each
+new piconet. The in-neighbor master nodes
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+,
+where
+ 
+ 
+or
+ 
+, of node
+ 
+and
+ 
+in the de Bruijn graph
+have to change one of its pure slave to bridge slave to connect
+with node
+ 
+or
+ 
+. Notice this update is only restricted to
+local regions, so the update is totally localized.
+3. Finally, the token is still kept by the master node
+ 
+ 
+ 
+ 
+ 
+,
+whose previous label is
+ 
+ 
+ 
+ 
+.
+3.3
+Node Leaving
+If a node leaves elegantly, it should first notify the token node
+before leaving. If a master/slave node leaves because unexpected
+reason such as power off, all of its neighborhood will detect it soon
+and notify the token node. Our method does not consider the detail
+of the exception detection process, we assume the token node can
+detect the node leaving in short time.
+When the token node detects the node leaving, then there are
+three cases to be addressed again:
+1. Token status is balanced, that is to say, current backbone is a
+balanced de Bruijn graph. Here two cases need be discussed:
+(a) If the token node does have pure slave node, then the
+token node requests one pure slave to replace the position
+of the leaving node, including the label;
+(b) If the token node
+ 
+has no pure slave nodes, then it
+passes the token to its predecessor, say node
+ 
+. There
+are two scenarios also, which as discussed as follows.
+i. If node
+ 
+has pure slaves, then it requests one pure
+slave to replace the position of the leaving node.
+ii. If node
+ 
+also has no pure slaves. This could happen
+only when
+ 
+ 
+ 
+, and all master nodes have
+only
+ 
+slaves serving bridge slave role. Token node
+ 
+changes the token status to shrinking, and call
+Method 2 to merge its corresponding critical pair,
+then ask one pure slave to replace the position of
+the leaving node.
+2. Token status is expanding, that is to say, current backbone is
+a pseudo-balanced de Bruijn graph under expanding status.
+(a) If the token node is in level
+ 
+, i.e., with
+ 
+-bits label
+ 
+ 
+ 
+ 
+. This could happen only when all master
+nodes in the scatternet has been fully occupied by
+slaves. The token need be passed the predecessor,
+which will ask one pure slave node to replace the position
+of the leaving node.
+(b) If the token node is in level
+  
+ 
+  
+, i.e., with
+  
+ 
+  
+bits
+label
+ 
+ 
+ 
+ѷ 
+. If the token node does have pure
+slave node, then the token node requests one pure slave
+to replace the position of the leaving node, otherwise
+two cases need be discussed here:
+i. The least significant bit of the token node's label
+is
+ 
+. The token will be passed to be passed the
+predecessor, which will ask one pure slave node to
+replace the position of the leaving node.
+ii. The least significant bit of the token node's label
+is
+ 
+. It first merges its corresponding critical pair
+by calling Method 2, then requests one pure slave
+to replace the position of the leaving node. Now
+if the current token node is
+ 
+ 
+ 
+ 
+ 
+, then it changes
+the token status to balanced and passes the token
+to its predecessor
+ 
+ 
+ 
+ 
+ 
+.
+3. Token status is shrinking, that is to say, current backbone is
+a pseudo-balanced de Bruijn graph under shrinking status.
+(a) If the token node is not
+ 
+ 
+ 
+ 
+ 
+, then it passes the token
+to its second predecessor with least significant bit
+ 
+in
+level
+  
+ 
+  
+, which will call Method 2 to merge its
+critical pair piconet and ask one pure slave to replace
+the position of the leaving node.
+(b) If the token node is
+ 
+ 
+ 
+ 
+ 
+, then it changes the token
+status to balanced and passes the token to node
+ 
+ 
+ 
+ 
+ 
+,
+which will ask one pure slave to replace the position of
+leaving node.
+One special case is that token node leaves. In this case, the token
+node will promote one of its pure slaves to replace it, i.e., be the
+master node and the new token node. If no new pure slave exits,
+similarly, we have to ask some pure slave node from its predecessor
+to replace its role. When the token node did not leave elegantly, it
+is more complicated and we need fault tolerance about the token
+node, which is out of the scope of this paper.
+We then describe our method to merge two piconets that are mastered
+by a critical pair.
+M
+ETHOD
+2.
+Piconet merge due to node leaving
+1. Assume that token node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+requests merging
+with its sibling master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. The new piconet
+has master node with label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. Notice that node
+ 
+and node
+ 
+each has at most
+ 
+out-neighbors in the de
+Bruijn graph. The label change will be achieved by simply
+deleting the least significant bit as follows:
+(a)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which is the
+master node in the new piconet.
+28
+(b)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which is a pure
+slave node or the bridge slave node to connect master
+node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+if it exists.
+(c)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which is the
+bridge slave node to connect master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+,
+whichever exists.
+(d)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+moves to replace the leaving node
+position.
+(e)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which is the
+bridge slave node to connect master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+,
+whichever exists.
+(f)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+, which is a pure
+slave node or the bridge slave node to connect master
+node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+if it exists.
+Notice this label shrink still preserves the label prefix. Thus,
+after the piconets merging, the message delivery will not
+be affected at all because de Bruijn graph uses prefix based
+routing, old addresses are still reachable by the same prefix
+. The piconets mergence will not cause any routing problem
+although the node label shrink is not acknowledged by
+other nodes. At the same time, the sibling master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+leaves to replace the position of leaving node. To
+continue the message delivery for node
+ 
+, the new master
+node
+ 
+will keep the new label of
+ 
+for a period of time and
+forwards the message targeted to
+ 
+accordingly. More detail
+is discussed in Section 4. Figure 10 illustrates the change of
+labels by merging piconets.
+m
+...
+x
+1
+x
+m
+...
+,001
+x
+1
+x
+m
+...
+,101
+x
+1
+x
+m
+...
+,110
+x
+1
+x
+m
+...
+0,101
+x
+1
+x
+m
+...
+1,010
+x
+1
+x
+m
+...
+0,010
+x
+1
+x
+m
+...
+1,101
+x
+1
+x
+m
+...
+0
+x
+1
+x
+m
+...
+1
+x
+1
+x
+m
+...
+,010
+x
+1
+x
+m
+...
+1
+u
+v
+u
+v
+x
+replace leaving node
+1
+x
+Figure 10: Piconets merge due to node leaving.
+2. Then, node
+ 
+need reselect the bridge slaves to connect with
+in-neighbors and out-neighbors if needed. Simultaneously,
+the neighboring master nodes of
+ 
+and
+ 
+need reselect their
+same-prefix bridge slaves to connect with
+ 
+. The selection
+still follows the same rule described in Section 2.2, please see
+Figure 3 for an illustration for all possible scenarios. Notice
+this update is totally localized.
+3. The token is now kept by the master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.
+It is not difficult to prove the following theorem.
+T
+HEOREM
+2. Our method locally updates the dBBlue scatternet
+using at most
+ 
+   
+ҵ
+communications when a node joins or
+leaves the network. In most cases, the cost of updating the scatternet
+is actually
+ 
+   
+since the node can leave and join without
+affecting the remaining scatternet. The number of nodes affected
+when a node leaves or joins the network is always bounded from
+above by a constant. Our method can construct the structure incrementally
+when the nodes join the network one by one.
+3.4
+Bounded Network Size
+The method described so far can incrementally construct the scatternet
+when the nodes join the network one by one and can update
+the scatternet structure efficiently when nodes leave or join the network
+even frequently without affecting the worst case properties of
+the scatternet. This method is efficient in most cases, however, it
+could generate lots of merging and splitting of piconets in the worst
+case: a node joins the scatternet which causes the splitting of a piconet
+, then a node leaves which in turn causes the merging of two
+piconets, and repeat joining, leaving.
+In most applications, the size of the bluetooth network is often
+stable, for example, within
+ 
+ 
+ 
+for a small constant
+ 
+. If
+this is the case, we can apply the following approach to build the
+scatternet. First, we use Algorithm 1 to build a scatternet with
+ 
+nodes. When a new node joins the network, we first tries to find
+an empty pure slave slot for this node from the current token node.
+If no empty slot, we then pass the token to the successor of the
+current token node. When all master nodes in the scatternet have
+slaves, we will start to create another piconet to connect to the
+current backbone. In other words, instead of having
+ 
+pure slave
+nodes, a master node from the scatternet backbone will replace the
+pure slave nodes by
+ 
+piconets (at maximum). We call such piconets
+associated with the master node of the backbone. Clearly,
+a backbone based on a balanced de Bruijn graph
+  
+ѵ
+could
+support from
+ 
+ 
+ 
+ 
+nodes to
+ 
+ 
+ 
+nodes without associating piconets
+. By associating piconets to the master nodes of backbone,
+the number of nodes it can support is increased to
+ 
+ 
+ 
+ 
+since we
+can replace each pure slave node by a piconet of
+nodes.
+One disadvantage of associating piconets to master nodes is that
+every master node in the backbone will have to forward more messages
+than the scatternet created by the method described previously
+. The other disadvantage is that when the network size goes
+beyond its supported scope, the updating of the scatternet is more
+costly than before. See the full version of the paper for more detail.
+ROUTING IN SCATTERNET
+We first describe the routing in the dBBlue scatternet with balanced
+backbone. If both source and target nodes are masters, we
+assume the source master node
+ 
+has label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and the
+target master node
+ 
+has label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+. According to the routing
+mechanism described in Section 2.1, node
+ 
+simply forwards the
+message to its neighbor master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+, relayed
+by their common bridge node
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+if
+ 
+ 
+ 
+or by
+  
+ 
+ 
+ 
+ 
+ 
+ 
+    
+if
+ 
+ 
+ 
+. Then
+ 
+ 
+forwards the message again
+to its neighbor master node accordingly. Clearly, the message is
+guaranteed to reach the target in at most
+  
+steps. If the source
+node is a slave, it first sends the messages to its master node. Notice
+that pure slave node has only one master node and the bridge
+slave node has two master nodes. Then bridge slave node just randomly
+picks one master node. Similarly if the target node is a slave,
+the message will be first forwarded to its master node. The procedure
+of routing message between these two master nodes is same as
+the previous description. Clearly, the routing path from one master
+node to another master node is at most
+  
+hops. The longest
+path between two nodes happens from a slave node to another slave
+node, which is at most
+  
+ 
+ 
+hops. From
+ 
+   
+ 
+, we have
+ 
+ 
+ 
+  
+ 
+. Thus, the diameter of the de Bruijn-based scatternet
+is
+ 
+ 
+  
+ 
+.
+T
+HEOREM
+3. For any two nodes in dBBlue scatternet, there is
+a path with at most
+ 
+ 
+  
+ 
+hops and such path can be found
+locally based only on the labels of the source and target.
+29
+Notice that, two assumptions are made in our routing scheme
+described above: (1) the source node knows the label of the target
+node, and (2) the backbone of the scatternet is based on a balanced
+de Bruijn graph. We will not try to resolve the first assumption in
+this paper, but discuss it briefly here. The labels of a node can be
+broadcasted to the whole network if the nodes leaving and joining
+is not frequent, i.e., the labels of nodes do not change frequently.
+Or we can adopt a mechanism similar to the Domain Name Service
+(DNS): the labels are stored in a hierarchical manner and a node
+can query the label servers to get the labels of the target nodes and
+then cache them locally. Here, we discuss briefly how to perform
+broadcast in de Bruijn graph such that it guarantees to reach each
+node exactly once. We initiate the broadcast from node
+ 
+ 
+. Each
+node with label
+  
+ 
+ 
+ 
+ 
+ 
+   
+continues forwarding the message
+to its out-neighbors. The nodes whose most significant bit is
+ 
+will not forward the message. The broadcast basically works same
+as the breadth first search (BFS) in a binary tree. Clearly, a node
+will only forward the message to nodes with larger labels. Thus, a
+node receives the message exactly once. The communication cost
+of such broadcasting is exactly
+ 
+messages.
+We then discuss in detail how to route the packets when the scatternet
+backbone is pseudo-balanced. Assume the source master
+node
+ 
+has label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+and the target master node
+ 
+has label
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+, where
+ 
+ 
+ 
+ 
+ 
+. Node
+ 
+will
+forward the packet to its out-neighbor master node
+ 
+with label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+, or
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+, or
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+. Notice
+that since the labels of all nodes are a universal prefix set, we know
+that exactly one of these three labels does exist. Consequently, the
+diameter of pseudo-balanced de Bruijn graph is still
+ 
+   
+ҵ
+. The
+bridge slave node from
+ 
+to
+ 
+has MAC (1)
+   
+if a master node
+with label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+exists; or (2)
+ 
+ 
+ 
+ 
+ 
+ 
+if a master node with
+label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+exists; or (3)
+ 
+ 
+ 
+ 
+ 
+ 
+if a master node with
+label
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+exists. Review Section 2.2 for more detail
+about the rules of labeling nodes and assigning MAC addresses in
+a piconet. A shorter route is obtained by looking for the longest
+sequence that is suffix of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and prefix of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.
+For the purpose of illustration, let's see how we route packets
+from master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+to master node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+in the scatternet based on the de Bruijn graph illustrated in
+Figure 2. First, the master node
+    
+checks the labels of all
+out-neighbor master nodes and finds that master node with label
+ 
+ 
+ 
+ 
+ 
+   
+exists. Then it forwards the packet to master node
+   
+via the bridge slave node with MAC
+   
+. Similarly, master
+node
+ 
+ 
+ 
+ 
+ 
+   
+forwards the packet to master node with
+label
+ 
+ 
+ 
+ 
+ 
+   
+via the bridge slave with MAC
+   
+. Finally
+, the master node
+ 
+ 
+ 
+ 
+ 
+   
+forwards the packet to node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+via the bridge slave with MAC
+   
+. Notice that
+the last step it takes a shorter path other than via another master
+node
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+.
+At last, we discuss how to route the messages while the scatternet
+is on updating due to nodes leaving or joining the network. When a
+node joins the network, the piconet mastered by the token node may
+be split into two piconets. Clearly, the message still can be routed
+since the labels of the two newly created piconets are the children
+of this token node. Similarly, when two piconets are merged to create
+a new piconet, the label-based routing still successfully route
+the packets. The remaining case is that when a node leaves, we
+may need find a pure slave node
+ 
+from the current token node
+ 
+to
+fill the space emptied by this left node. When a message targeted
+to node
+ 
+reaches the piconet mastered by the token node
+ 
+, node
+ 
+has already been moved. To remedy this, we apply a mechanism
+similar to the mail-forwarding service provided by the post-office:
+the master node
+ 
+will keep a record of the nodes moved to other
+piconets and its new label within a time window. When a message
+targeted for
+ 
+reaches, the master node forwards the message to the
+new destination and also acknowledges the source node of the new
+label of
+ 
+. The source node will then cache the label of node
+ 
+if
+it is frequently used. To decrease messages forwarding, every master
+node could record the frequency that a slave node receives messages
+from other node. When a pure slave node is visited frequently
+by other nodes, then we switch its role with one of the bridge slaves
+with same prefix and broadcast the new labels of these two nodes
+to the network. When we have to move a pure slave node to other
+piconet to make the scatternet compact, the pure slave node is the
+least frequently visited nodes among the current piconet.
+RELATED WORK
+Zaruba, Basagni and Chlamtac [15] proposed two protocols for
+forming connected scatternet. In both cases, the resulting topology
+is termed a bluetree. The number of roles each node can assume
+is limited to two or three. The first protocol is initiated by a single
+node, called the blueroot, which will be the root of the bluetree. A
+rooted spanning tree is built as follows. The root will be assigned
+the role of master. Every one hop neighbor of the root will be its
+slave. The children of the root will be now assigned an additional
+master role, and all their neighbors that are not assigned any roles
+yet will become slaves of these newly created masters. This procedure
+is repeated recursively till all nodes are assigned. Each node is
+slave for only one master, the one that paged it first. Each internal
+node of the tree is a master on one piconet, and slave of another
+master (its parent in the initial tree). In order to limit the number of
+slaves, they [15] observed that if a node in unit disk graph has more
+than five neighbors, then at least two of them must be connected.
+This observation is used to re-configure the tree so that each master
+node has no more than
+slaves. If a master node has more
+than
+slaves, it selects its two slaves
+ 
+ 
+and
+ 
+ 
+that are connected
+and instructs
+ 
+ 
+to be master of
+ 
+ 
+, and then disconnects
+ 
+ 
+from
+itself. Such branch reorganization is carried throughout the network
+. However, whether this approach will terminate is not proved
+in [15]. Tan et al. [14] proposed a similar method for single-hop
+network. In the second protocol [15], several roots are initially selected
+. Each of them then creates its own scatternet as in the first
+protocol. In the second phase, sub-tree scatternets are connected
+into one scatternet spanning the entire network. Notice that the tree
+topology suffers from a major drawback: the root is a communication
+bottleneck as it will be overloaded by communications between
+the different parts of the tree. Obviously, the root node in the
+tree-based scatternet is the bottleneck of the network and its congestion
+is
+ 
+   
+, assuming that total traffic demand is a unit and is
+uniformly distributed. In addition, dynamic updating that preserves
+correct routing is not discussed in these protocols.
+Law, Mehta and Siu [9] described an algorithm that creates connected
+degree bounded scatternet in single-hop networks. The final
+structure is a tree like scatternet, which limits efficiency and robust-ness
+. A single-hop Bluetooth scatternet formation scheme based on
+1-factors is described in [1]. However, piconets are not degree limited
+in that scheme.
+Salonidis et al. [13] proposed another topology construction algorithm
+recently. It first collects neighborhood information using
+an inquiry procedure, where senders search for receivers on randomly
+chosen frequencies, and the detected receivers reply after
+random backoff delay. Leader is elected in the process, one for
+each connected component. Leader then collects the information
+about the whole network, decides the roles for each node, and distributes
+back the roles. In other words, basically, it is a centralized
+approach. Thus, the solution is not scalable, and not localized.
+30
+Moreover, how to assign the roles is not elaborated in [13]. They
+also assume up to
+ 
+nodes in the network. Another centralized solution
+for single-hop networks, where the traffic between any pair
+of nodes is known a priori, is described in [10].
+Sun, Chang and Lai [11] described a self-routing topology for
+single-hop Bluetooth networks. Nodes are organized and maintained
+in a search tree structure, with Bluetooth ID's as keys (these
+keys are also used for routing). It relies on a sophisticated scatternet
+merge procedure with significant communication overhead for
+creation and maintenance. Bluerings as scatternets are proposed in
+[4]. Ring structure for Bluetooth has simplicity and easy creation as
+advantage, but it suffers large diameter (i.e., the maximum number
+of hops between any two devices) and large number of piconets.
+The works are most related to our dBBlue scatternet construction
+method is [2] and [7].
+Barriere, Fraigniaud, Narajanan, and Opatrny [2] described a
+connected degree limited and distributed scatternet formation solution
+based on projective geometry for single-hop networks. They
+assume that only slave nodes can act as bridges. They described
+procedures for adding and deleting nodes from the networks and
+claimed that its communication cost is
+ 
+   
+ 
+  
+  
+ҵ
+and
+the computation cost is
+ 
+   
+ 
+ 
+  
+ 
+  
+ҵ
+, where
+ 
+is the number
+of nodes in the network. The degree of the scatternet can be
+fixed to any
+ 
+ 
+ 
+, where
+ 
+is a power of a prime number. However,
+in their method, every node need hold information of the projective
+plane and the master node who has the "token" needs to know
+the information of the projective scatternet (which label should be
+used for the new coming master and which existing nodes need to
+be connected to it). However, the authors did not discuss in detail
+how to compute the labels for the new master and its slaves, and
+what will happen when the number of nodes reaches the number of
+nodes of a complete projective scatternets.
+Notice that our dBBlue scatternet can be easily transformed to
+support a Bluetooth network in which a piconet has any number
+ 
+of slaves, while the method in [2] can only support the piconet
+with
+ 
+   
+slaves where
+ 
+is a power of a prime number. Moreover
+, the dynamic updating cost of dBBlue is at most
+ 
+   
+ҵ
+.
+The construction of dBBlue scatternet is inspired by the method
+proposed by Fraigniaud and Gauron [7] for constructing a network
+topology for P2P environment based on de Bruijn graph. When a
+node
+ 
+joins the P2P network, it [7] randomly selects a node
+ 
+in the
+de Bruijn graph and then creates two children nodes of
+ 
+: one for
+ 
+and one for
+ 
+. This random selection of node
+ 
+cannot be applied
+to Bluetooth scatternet since it may create a de Bruijn graph with
+node whose degree is large than . It is not difficult to show that for
+Bluetooth scatternet, we can only afford the de Bruijn graph whose
+node label lengths differ by at most
+ 
+. In this paper, we proposed
+a novel method for assigning MAC addresses to nodes such that a
+self-routing is still possible during the updating procedures when
+node leaves or joins the network. The de Bruijn graph is used as
+backbone of the scatternet in our dBBlue structure.
+CONCLUSION
+In this paper, we addressed the problem of scatternet formation
+for single-hop Bluetooth based ad hoc networks, with minimal
+communication overhead. We adopted the well-known structure de
+Bruijn graph to form the backbone of the dBBlue scatternet. The diameter
+of the scatternet dBBlue is
+ 
+   
+ҵ
+and we can find a path
+with at most
+ 
+   
+ҵ
+hops between every pair of nodes without
+using any routing table. Moreover, the congestion of every node is
+at most
+ 
+   
+ 
+ҵ
+. We discussed in detail the method to locally
+update the structure dBBlue using at most
+ 
+   
+ҵ
+communications
+when a node joins or leaves the network. In most cases, the
+cost of updating the scatternet is actually
+ 
+   
+. Our method can
+construct the structure dBBlue incrementally when the nodes join
+the network one by one. Previously no method can guarantee all
+these properties although some methods can achieve some of the
+properties. The dBBlue scatternet has lower dynamic updating cost
+than the structure proposed in [2].
+Notice that, instead of having three statuses for the token, we
+can require that the scatternet is always in the status of expanding
+. Then the scenarios for updating the scatternet become simpler
+when nodes join or leave the network, but with a possible high cost
+of updating: more merging and splitting of piconets will occur. We
+are currently investigating the tradeoffs of the three approaches described
+in this paper by conducting simulations on different models
+of node joining and leaving the network. We are also investigating
+the scatternet formed based on butterfly structure [6] and compare
+their performance with the one described here. Notice that the butterfly
+structure has node degree at most , which maps exactly to
+the degree requirement by bluetooth piconet.
+REFERENCES
+[1] S. Baatz, S. Bieschke, M. Frank, P. Martini, C. Scholz, and C. Kuhl.
+Building efficient bluetooth scatternet topologies from 1-factors. In
+Proc. IASTED Wireless and Optical Communications WOC, 2002.
+[2] L. Barriere, P Fraigniaud, L. Narajanan, and J. Opatrny. Dynamic
+construction of bluetooth scatternets of fixed degree and low
+diameter. In 14th ACM-SIAM Symp. on Discrete Algorithms (SODA),
+pages 781 790, 2003.
+[3] S. Basagni, R. Bruno, and C. Petrioli. Device discovery in bluetooth
+networks: A scatternet perspective. In Proc. IFIP-TC6 Networking
+Conference, Networking 2002, 2002.
+[4] F. Cgun-Choong and C. Kee-Chaing. Bluerings - bluetooth
+scatternets with ring structure. In Proc. IASTED Wireless and Optical
+Communications WOC, 2002.
+[5] N. de Bruijn. A combinatorial problem. In Koninklijke Nederlandse
+Academie van Wetenschappen, 49, pages 758 764, 1946.
+[6] D.Malkhi, M.Naor, and D.Ratajczak. Viceroy: a scalable and
+dynamic lookup network. In Proceedings of the 21st ACM
+Symposium on Principles of Distributed Computing(PODC), 2002.
+[7] Pierre Fraigniaud and Philippe Gauron. The content-addressable
+network d2b. Technical Report Technical Report TR-LRI-1349 (also
+appeared in 22nd ACM Symp. on Principles of Distributed
+Computing (PODC)), 2003.
+[8] Jaap C. Haartsen. The bluetooth radio system. IEEE Personal
+Communications, 7:28 36, 2000.
+[9] C. Law, A.K. Mehta, and K.Y. Siu. Performance of a new bluetooth
+scatternet formation protocol. In Proc. ACM Symposium on Mobile
+Ad Hoc Networking and Computing MobiHoc, pages 183 192, 2001.
+[10] D. Miorandi and A. Zanella. On the optimal topology of bluetooth
+piconets: Roles swapping algorithms. In Proc. Mediterranean
+Conference on Ad Hoc Networks MedHoc, 2002.
+[11] C.K. Chang M.T. Sun and T.H. Lai. A self-routing topology for
+bluetooth scatternets. In 2002 International Symposium on Parallel
+Architectures, Algorithms and Networks (ISPAN '02), 2002.
+[12] C. Petrioli and S. Basagni. Degree-constrained multihop scatternet
+formation for bluetooth networks. In Proc. IEEE GLOBECOM, 2002.
+[13] T. Salonidis, P. Bhagwat, L. Tassiulas, and R. LaMaire. Distributed
+topology construction of bluetooth personal area networks. In Proc.
+IEEE INFOCOM, 2001.
+[14] G. Tan, A. Miu, J. Guttag, and H. Balakrishnan. Forming scatternets
+from bluetooth personal area networks. Technical Report
+MIT-LCS-TR-826, MIT, 2001.
+[15] G.V. Zaruba, S. Basagni, and I. Chlamtac. Bluetrees - scatternet
+formation to enable bluetooth based ad hoc networks. In Proc. IEEE
+International Conference on Communications(ICC), 2001.
+31
+

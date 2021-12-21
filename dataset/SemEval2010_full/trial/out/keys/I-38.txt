@@ -1,0 +1,20 @@
+auction
+item
+combinatorial problem
+combinatorial bidder
+distribute solution
+utility
+bigger revenue
+number
+win bidset
+run time
+calculate payment
+bid value
+winner determination
+pause
+true valuation
+multiple winner
+problem size
+solution case
+bid price
+cachedpausebid line

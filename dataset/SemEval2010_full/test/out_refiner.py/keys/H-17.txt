@@ -1,0 +1,9 @@
+full index
+index query
+k answer
+index size
+search result
+keyword pruning
+document pruning
+pruning policy
+Fagin

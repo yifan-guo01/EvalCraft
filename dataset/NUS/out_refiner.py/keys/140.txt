@@ -1,0 +1,10 @@
+particular node
+node compromise
+entire network
+compromise spread
+cluster size
+key scheme
+key distribution scheme
+infection probability
+node degree
+time unit

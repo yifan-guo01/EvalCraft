@@ -1,0 +1,10 @@
+cache
+file
+line
+cost
+lemma
+internal node
+caching problem
+main loop
+online caching
+algorithm adv

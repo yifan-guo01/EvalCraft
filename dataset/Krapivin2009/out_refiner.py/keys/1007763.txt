@@ -1,0 +1,10 @@
+weight algorithm
+point x
+uniform weight algorithm
+c time
+problem instance
+input point
+success probability
+configuration x
+least cost
+first step

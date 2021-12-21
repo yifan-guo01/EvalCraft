@@ -1,5 +1,0 @@
-the nuclear receptor corepressors ncor and smrt repress gene transcription by recruiting a histone deacetylase complex .
-their roles in ppar action have been controversial .
-recent evidence , however , suggests that ncor and smrt repress ppar-mediated transcriptional activity on specific promoters in the adipocyte .
-in addition , by repressing ppar action , these corepressors inhibit the ability of adipocyte differentiation to proceed
-.   a further understanding of corepressor action in the adipocyte will provide insight into the balance of forces regulating adipogenesis , insulin sensitivity , and type 2 diabetes mellitus .

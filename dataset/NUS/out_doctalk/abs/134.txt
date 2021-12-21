@@ -1,0 +1,8 @@
+, where the raw data used are estimates of biologically meaningful parameters ( such as the expression level estimates for thousands of genes ) .
+In this paper we argue that low level microarray analysis poses a number of interesting problems for the data mining and machine learning community , distinct to the traditional high level microarray problems .
+It is our hope that this position paper motivates and enables further machine learning research in the area .
+Finally , median polish estimates the model parameters and produces the log scale expression level summary .
+Biologists could augment the limited labeled probe level data available with relatively abundant unlabeled data .
+Beyond probe intensities , other data sources could include probe sequences and probe affinity information derived from probe models .
+Further complicating the picture is the fact that humans are diploid organisms each person possesses two complete but different copies of the human genome , one inherited from the mother and one from the father .
+Analysis of high density expression microarrays with signed rank call algorithms .

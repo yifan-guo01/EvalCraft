@@ -1,0 +1,7 @@
+However, you have at your disposal a classifier f(A; B) that given two documents A and B, outputs Department of Computer Science, Carnegie Mellon University.
+fnikhil,avrim,shuchig@cs.cmu.edu.
+Finally, we show (Theorem 3 and Lemma 7) that we can algorithmically produce a clustering of the entire graph containing only clean clusters and singleton clusters, such that mistakes that have an endpoint in singleton clusters are bounded by OPT 0 , and mistakes with both endpoints in clean clusters are bounded using Lemma 1.
+Proof: Firstly if v is 3-good wrt some arbitrary set X , then Suppose that v 1 and v 2 are both 3-good with respect to which implies that jN Also, since v 1 lies in a -clean cluster C 0 i in OPT 0 , ;.
+It follows that jN Now notice that jC 0 j. j.
+The same holds for C 0 However, since - < 1=9, and we have a contradiction.
+Now implies that jC 0 j.

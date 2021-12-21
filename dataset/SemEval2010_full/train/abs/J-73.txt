@@ -1,0 +1,30 @@
+Competitive Algorithms for VWAP
+and Limit Order Trading
+Sham M. Kakade
+Computer and Information Science
+University of Pennsylvania
+kakade@linc.cis.upenn.edu
+Michael Kearns
+Computer and Information Science
+University of Pennsylvania
+mkearns@cis.upenn.edu
+Yishay Mansour
+Computer Science
+Tel Aviv University
+mansour@post.tau.ac.il
+Luis E. Ortiz
+Computer and Information Science
+University of Pennsylvania
+leortiz@linc.cis.upenn.edu
+ABSTRACT
+We introduce new online models for two important aspects
+of modern financial markets: Volume Weighted Average Price
+trading and limit order books. We provide an extensive
+study of competitive algorithms in these models and relate
+them to earlier online algorithms for stock trading.
+Categories and Subject Descriptors
+F.2 [Analysis of Algorithms and Problem 
+Complexity]: Miscellaneous; J.4 [Social and Behavioral Sciences]:
+Economics
+General Terms
+Algorithms, Economics

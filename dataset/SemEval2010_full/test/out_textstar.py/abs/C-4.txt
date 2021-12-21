@@ -1,0 +1,8 @@
+METRICS 2.1 Packet level metrics A general Markov model ([19, S]) which describes the loss process is defined as follows: Let P( Z(s) ] Z(s   m),... ,Z(s   2),Z(s   1) ) be the state transition probability of a general Markov model of order m, where Z(s) is the loss indicator function for the packet with the sequence number s. All combinations for the values (0 and 1) of the sequence Z(s m), .
+, Z(s 2),Z(s 1) appear in the state space.
+We can also approximate the state probabilities of the model by the cumulative loss rate p~,~,,~(k) = CrSkp~,,, (0 < k < m) and p~,~ = Cr.p=, (n  mzl)ot (k = m).
+Then the probability of being in state m can be seen BS the uncow ditional loss probability ulp and approximated by the mean loss (pr.
+= pi,,,,).
+Thus, considering a given ulp, a worst case loss pattern of alternating losses (I(s mod 2) = l,l([s + l] mod 2) = 0) would enable a considerable performance improvement (with ok = OVk > 1: p~,cond = 0, Eq.
+Then, with a+, = a 1 = a,~, and considering that the resulting service has to be best effort in the long term, we have: aopo + a+lp+l + LIP 1 A ape Qlll@+l fP 1) = (a  oo)m P   l = zpo p+1 (5) Due to this relationship between the drop probability for +l and  1 packets, we designate this queue management algorithm as Differential RED (DiERED).
+Thus, considering voice with temporal loss sensitivity as the foreground traffic of interest, with DifFRED a large number of short annoying bursts can be traded against a larger number of isolated losses and few long loss bursts (which occur when the queue is under temporary overload, i.e., awg > maxth, Fig.

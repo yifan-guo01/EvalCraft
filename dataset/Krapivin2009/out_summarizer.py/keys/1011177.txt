@@ -1,0 +1,10 @@
+underlying category
+event structure
+nitary relation
+linear function space
+other model
+phase space
+tensor product
+such morphism
+powerset functor
+object set

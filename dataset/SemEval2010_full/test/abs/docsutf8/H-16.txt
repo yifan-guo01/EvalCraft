@@ -1,0 +1,43 @@
+The Impact of Caching on Search Engines
+Ricardo Baeza-Yates1
+rbaeza@acm.org
+Aristides Gionis1
+gionis@yahoo-inc.com
+Flavio Junqueira1
+fpj@yahoo-inc.com
+Vanessa Murdock1
+vmurdock@yahoo-inc.com
+Vassilis Plachouras1
+vassilis@yahoo-inc.com
+Fabrizio Silvestri2
+f.silvestri@isti.cnr.it
+1
+Yahoo! Research Barcelona 2
+ISTI - CNR
+Barcelona, SPAIN Pisa, ITALY
+ABSTRACT
+In this paper we study the trade-offs in designing efficient
+caching systems for Web search engines. We explore the
+impact of different approaches, such as static vs. dynamic
+caching, and caching query results vs. caching posting lists.
+Using a query log spanning a whole year we explore the 
+limitations of caching and we demonstrate that caching posting
+lists can achieve higher hit rates than caching query 
+answers. We propose a new algorithm for static caching of
+posting lists, which outperforms previous methods. We also
+study the problem of finding the optimal way to split the
+static cache between answers and posting lists. Finally, we
+measure how the changes in the query log affect the 
+effectiveness of static caching, given our observation that the
+distribution of the queries changes slowly over time. Our
+results and observations are applicable to different levels of
+the data-access hierarchy, for instance, for a memory/disk
+layer or a broker/remote server layer.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information
+Search and Retrieval - Search process; H.3.4 [Information
+Storage and Retrieval]: Systems and Software - 
+Distributed systems, Performance evaluation (efficiency and 
+effectiveness)
+General Terms
+Algorithms, Experimentation

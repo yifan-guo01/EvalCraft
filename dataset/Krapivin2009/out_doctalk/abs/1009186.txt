@@ -1,0 +1,8 @@
+Introduction Suppose we are allowed to see only a view on a database B , computed by a relational algebra expression e .
+For example , consider the problem of checking on a given database whether some fixed sparse relational algebra equation has a solution .
+Interest in fragments of powerful query languages for which the natural evaluation strategy is polynomial - space is not new to database theory research .
+One can also write a nested relational algebra expression e min that selects , out of a set of binary relations , the minimal ones w.r.t. set inclusion .
+There clearly are only a linear ( and thus at most polynomial ) number of possible solutions .
+6 Time complexity of equation nonemptiness The time complexity of solving sparse equations is closely linked to an open question from computational complexity theory .
+Related questions are also typically undecidable , for example , testing whether a given expression is equivalent to a sparse one .
+Hence , the expression is a sparse equation expression equivalent to The construction for general nesting operations is analogous .

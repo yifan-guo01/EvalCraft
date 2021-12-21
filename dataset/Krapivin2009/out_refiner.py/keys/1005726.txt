@@ -1,0 +1,10 @@
+route available
+router id
+configuration change
+router configuration file
+route table
+accurate emulator
+route selection process
+path length
+decision process
+practical model

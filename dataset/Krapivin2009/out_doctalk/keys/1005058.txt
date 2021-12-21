@@ -1,0 +1,10 @@
+system
+customer
+product
+method
+number
+mining recommender
+dependency network
+association rule
+datum
+association model

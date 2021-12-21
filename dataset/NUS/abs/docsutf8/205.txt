@@ -1,0 +1,27 @@
+Unwanted Traffic in 3G Networks
+ABSTRACT
+The presence of "unwanted" (or background) traffic in the
+Internet is a well-known fact.
+In principle any network
+that has been engineered without taking its presence into
+account might experience troubles during periods of massive
+exposure to unwanted traffic, e.g. during large-scale
+infections. A concrete example was provided by the spreading
+of Code-Red-II in 2001, which caused several routers
+crashes worldwide. Similar events might take place in 3G
+networks as well, with further potential complications arising
+from their high functional complexity and the scarcity
+of radio resources. For example, under certain hypothetical
+network configuration settings unwanted traffic, and specifically
+scanning traffic from infected Mobile Stations, can
+cause large-scale wastage of logical resources, and in extreme
+cases even starvation. Unwanted traffic is present nowdays
+also in GPRS/UMTS, mainly due to the widespread use of
+3G connect cards for laptops. We urge the research community
+and network operators to consider the issue of 3G
+robustness to unwanted traffic as a prominent research area.
+Categories and Subject Descriptors:
+C.2.3 [Network
+Operations]: Public networks, Network monitoring.
+General Terms:
+Security, Reliability, Measurement.

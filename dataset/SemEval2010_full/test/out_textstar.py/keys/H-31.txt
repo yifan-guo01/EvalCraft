@@ -1,0 +1,10 @@
+model
+term
+query
+smoothing
+Poisson
+Nat
+Hiemstra
+document
+δ
+retrieval

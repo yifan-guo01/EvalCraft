@@ -1,0 +1,35 @@
+Regularized Clustering for Documents ∗
+Fei Wang, Changshui Zhang
+State Key Lab of Intelligent Tech. and Systems
+Department of Automation, Tsinghua University
+Beijing, China, 100084
+feiwang03@gmail.com
+Tao Li
+School of Computer Science
+Florida International University
+Miami, FL 33199, U.S.A.
+taoli@cs.fiu.edu
+ABSTRACT
+In recent years, document clustering has been receiving more
+and more attentions as an important and fundamental 
+technique for unsupervised document organization, automatic
+topic extraction, and fast information retrieval or filtering.
+In this paper, we propose a novel method for clustering 
+documents using regularization. Unlike traditional globally 
+regularized clustering methods, our method first construct a
+local regularized linear label predictor for each document
+vector, and then combine all those local regularizers with
+a global smoothness regularizer. So we call our algorithm
+Clustering with Local and Global Regularization (CLGR).
+We will show that the cluster memberships of the 
+documents can be achieved by eigenvalue decomposition of a
+sparse symmetric matrix, which can be efficiently solved by
+iterative methods. Finally our experimental evaluations on
+several datasets are presented to show the superiorities of
+CLGR over traditional document clustering methods.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information
+Search and Retrieval-Clustering; I.2.6 [Artificial 
+Intelligence]: Learning-Concept Learning
+General Terms
+Algorithms

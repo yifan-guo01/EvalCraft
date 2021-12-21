@@ -1,0 +1,10 @@
+rule
+statistic
+perm
+attribute
+number
+discovery
+example
+method
+based
+interval

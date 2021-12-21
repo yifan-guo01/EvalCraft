@@ -1,0 +1,4 @@
+total 204 articles
+https://github.com/snkim/AutomaticKeyphraseExtraction
+Nguyen and Kan, 2007
+

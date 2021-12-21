@@ -1,0 +1,28 @@
+Providing the Basis for Human-Robot-Interaction: A Multi-Modal Attention System for a Mobile Robot
+ABSTRACT
+In order to enable the widespread use of robots in home and office
+environments, systems with natural interaction capabilities have to
+be developed. A prerequisite for natural interaction is the robot's
+ability to automatically recognize when and how long a person's
+attention is directed towards it for communication. As in open environments
+several persons can be present simultaneously, the detection
+of the communication partner is of particular importance.
+In this paper we present an attention system for a mobile robot
+which enables the robot to shift its attention to the person of interest
+and to maintain attention during interaction. Our approach
+is based on a method for multi-modal person tracking which uses
+a pan-tilt camera for face recognition, two microphones for sound
+source localization, and a laser range finder for leg detection. Shifting
+of attention is realized by turning the camera into the direction
+of the person which is currently speaking. From the orientation
+of the head it is decided whether the speaker addresses the robot.
+The performance of the proposed approach is demonstrated with an
+evaluation. In addition, qualitative results from the performance of
+the robot at the exhibition part of the ICVS'03 are provided.
+Categories and Subject Descriptors
+I.4.8 [Image Processing and Computer Vision]: Scene Analysis
+--Sensor fusion, Tracking; H.1.2 [Models and Principles]:
+User/Machine Systems; I.5.5 [Pattern Recognition]: Implemen-tation
+--Interactive systems
+General Terms
+Algorithms, Performance, Experimentation

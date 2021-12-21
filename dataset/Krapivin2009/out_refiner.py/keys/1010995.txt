@@ -1,0 +1,10 @@
+other client
+several resource
+request resource
+process call
+locker process
+access pend
+loop function
+list resource
+safety property
+high order function

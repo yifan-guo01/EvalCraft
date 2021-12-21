@@ -1,0 +1,7 @@
+They performed the judgment task using a CGI based user interface using their Web browsers.
+?the total number of relevant documents in the database?
+?, is replaced by ?
+Tukeys HSD at DCV 10 using average precision values (P@10) for human-based evaluation clustered the search engines into two di?erent subsets distinguishing between only the best performing search engine (AltaVista) and the worst performing search engine (Netscape)?
+?see Table 5.
+Tukeys HSD at DCV 20 using average precision values (P@20) for human-based evaluation clustered the search engines into two di?erent subsets distinguishing between the best performing search engines (Yahoo, AltaVista) and the worst performing search engine (Netscape)?
+?see Table 8.

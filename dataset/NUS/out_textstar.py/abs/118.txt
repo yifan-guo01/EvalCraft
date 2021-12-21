@@ -1,0 +1,15 @@
+Also note that the probability of loss for the 30% WLAN of 208
+GOLMIE ET AL.
+However, this difference is statistically insignificant.
+At the 1 Mbit/s
+rate, WLAN packets of the same bit lengths take considerably
+longer to transmit, and the effect of packet size is somewhat
+more pronounced.
+For a further discussion of the 1 Mbit/s
+case, please see [7].
+The first one has the WLAN
+device, in the midst of the Bluetooth piconets, acting at the
+source, while the second one has the WLAN access point acting
+as the source.
+Topology 2
+We first look at the topology illustrated in figure 8.

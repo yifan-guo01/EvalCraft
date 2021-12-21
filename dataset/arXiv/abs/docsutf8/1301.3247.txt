@@ -1,2 +1,0 @@
-the quantum numbers and mass hierarchy of the glueballs observed in @xmath0-dimensional lattice qcd with gauge group su(@xmath1 ) are shown to be in agreement with a constituent picture .
-the agreement is maintained when going from glueballs to gluelumps , and when the gauge group so(@xmath2 ) is taken instead of su(@xmath1 ) .

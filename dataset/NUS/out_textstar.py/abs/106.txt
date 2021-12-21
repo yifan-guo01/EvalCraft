@@ -1,0 +1,31 @@
+For the NN and k NN searches in metric spaces,
+some methods that can manage a large set of objects
+efficiently have been introduced(Hjaltason &
+Samet 2003).
+They are categorized into two groups.
+The pivot p
+r
+of the right child node
+is set to p
+t
+.
+S
+t
+is partitioned into S
+r
+and S
+l
+by Eq.
+These operations are recursively repeated until
+|S
+t
+| = 1.
+Since g
+p
+t
+d(q, p
+t
+), Eq.
+If our method misses a and give a as
+the answer, the equation
+g(q, a)   .

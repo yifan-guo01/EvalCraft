@@ -1,0 +1,19 @@
+Handling Locations in Search Engine Queries
+Bruno Martins, Mário J. Silva, Sérgio Freitas and Ana Paula Afonso
+Faculdade de Ciências da Universidade de Lisboa
+1749-016 Lisboa, Portugal
+{bmartins,mjs,sfreitas,apa}@xldb.di.fc.ul.pt
+ABSTRACT
+This paper proposes simple techniques for handling place 
+references in search engine queries, an important aspect of geographical
+information retrieval. We address not only the detection, but also
+the disambiguation of place references, by matching them 
+explicitly with concepts at an ontology. Moreover, when a query does not
+reference any locations, we propose to use information from 
+documents matching the query, exploiting geographic scopes previously
+assigned to these documents. Evaluation experiments, using topics
+from CLEF campaigns and logs from real search engine queries,
+show the effectiveness of the proposed approaches.
+Categories and Subject Descriptors
+H.3.3 [Information Storage and Retrieval]: Information Search
+and Retrieval

@@ -1,0 +1,8 @@
+Interference Evaluation of Bluetooth and IEEE 802.11b Systems
+Abstract
+Abstract. The emergence of several radio technologies, such as Bluetooth and IEEE 802.11, operating in the 2.4 GHz unlicensed ISM
+frequency band, may lead to signal interference and result in significant performance degradation when devices are colocated in the same
+environment. The main goal of this paper is to evaluate the effect of mutual interference on the performance of Bluetooth and IEEE 802.11b
+systems. We develop a simulation framework for modeling interference based on detailed MAC and PHY models. First, we use a simple
+simulation scenario to highlight the effects of parameters, such as transmission power, offered load, and traffic type. We then turn to more
+complex scenarios involving multiple Bluetooth piconets and WLAN devices.

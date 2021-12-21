@@ -1,0 +1,8 @@
+In fact , the topic detection and tracking ( TDT ) community has for many years been trying to come up with a practical solution to help people monitor news effectively .
+Thus in this paper , we look at news stories and feature trends from the perspective of analyzing a time series word signal .
+• We propose a simple and effective mixture densitybased approach to model and detect feature bursts .
+Their focus was on detecting multiple periodicities from the power spectrum graph , which were then used to index words for query by burst search .
+One advantage of our UG Algorithm for discovering less reported aperiodic events is that we are able to precisely detect the true event period .
+CONCLUSIONS This paper took a whole new perspective of analyzing feature trajectories as time domain signals .
+For the first time in the area of TDT , we applied a systematic approach to automatically detect important and less reported , periodic and aperiodic events .
+To address the real event detection problem , a simple and effective mixture density based approach was used to identify feature bursts and their associated bursty periods .

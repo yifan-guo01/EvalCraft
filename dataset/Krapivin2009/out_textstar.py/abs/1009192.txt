@@ -1,0 +1,7 @@
+In each case it is interesting to see if a reverse connection to PCPs exists or if PCPs are only an artifact of the current proof techniques.
+Notation.
+The edges between the T i 's are such that no 4-coloring is feasible if two vertices that are adjacent in G are selected from two different trees (Section 2.3).
+The other part, viz.
+We start with the PCP theorem [2, 1] which gives a PCP construction for NP that uses a logarithmic number of random bits, f free bits for some constant f , has perfect completeness and soundness 1=2, i.e we use NP  FPCP 1;1=2 [ log n; f ].
+This, together with [3][cf.
+First, if and hence if !

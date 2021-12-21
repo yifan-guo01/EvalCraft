@@ -1,0 +1,34 @@
+However, we added additional
+formatting and iconic graphics/images as found 
+in awareness displays such as Sideshow [3] to differentiate
+this display from the Text based display.
+The Web Portal display used an area of 968 pixels 
+wide by 386 pixels high on the display.
+A recall questionnaire
+was placed text side down in front of the participant
+and then an information display was shown for 
+eight seconds.
+Table 2.  Means and standard deviations of correct 
+responses for weighted scores for three trials of each 
+display
+123
+seven of the ten items.
+This study, however, confirms our intuition 
+that the InfoCanvas, and displays like it, has potential to 
+be an effective peripheral display where people seek to 
+obtain information at a glance.
+The mappings between information and graphical elements
+used in this study were designed by the authors, 
+and as such, did not always feel instinctive to participants
+.
+Pilot studies 
+and the final study data both indicated that despite not 
+being able to define their own mappings for the information
+, participants were able to recall more information
+when presented on the InfoCanvas.
+We present results indicating that 
+participants comprehended and recalled more awareness
+information when it was represented in graphical 
+manners; participants recalled more information from 
+the InfoCanvas display than the Web Portal and Text based
+displays.

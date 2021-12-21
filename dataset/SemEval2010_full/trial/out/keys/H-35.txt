@@ -1,0 +1,20 @@
+adarank
+method
+model
+algorithm
+query
+page
+loss function
+rank performance
+datum
+rank result
+learning
+information retrieval
+map number
+accuracy pair
+trial figure
+optimize map
+rank accuracy
+learn ranking
+weak ranker
+rankboost experiment

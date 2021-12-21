@@ -1,0 +1,9 @@
+security notion
+adversary a
+success probability
+oracle query
+bad event
+related problem
+encryption algorithm e
+ciphertext attack
+Gaussian reduction algorithm

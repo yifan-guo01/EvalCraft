@@ -1,0 +1,8 @@
+same color
+colorable graph
+hardness result
+side node
+ground vertice
+chromatic number
+graph coloring
+case proof

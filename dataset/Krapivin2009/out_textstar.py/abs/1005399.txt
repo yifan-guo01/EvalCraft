@@ -1,0 +1,7 @@
+In (Brooks 1986), Brooks describes in detail the first three layers of one particular robot control system he implemented using the Subsumption Architecture con- cept.
+The first two are shown in Figure 1.
+In the description that follows we assume that the architecture is used to control a cylindrical robot that has sonar sensors on its perimeter and wheels that control its motion.
+To implement the idea of subsumption, we let each layer have "assumptions" about the inputs that may later be adjusted by other (higher-level) layers.
+Semantics If we ignore the mechanism that runs behind the scenes for a moment (e.g., ignore the time difference between the theorem provers in different layers) and consider the entire system of layers as one logical theory, we can formalize the logical theory as follows.
+We divide our theory to conceptually correspond to the layers and the modules mentioned in figure 1.
+For simplicity, we omit some parts of the description, and refer the reader to appendix A.

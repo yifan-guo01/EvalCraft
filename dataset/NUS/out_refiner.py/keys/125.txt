@@ -1,0 +1,10 @@
+gini measure
+clustering algorithm
+distinct cluster
+equal weight
+accuracy result
+datum set
+value j
+document x
+with jl
+j gram l

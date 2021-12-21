@@ -1,0 +1,10 @@
+hypergraph
+case
+edge
+running time
+number
+find transversal
+dominate vertex
+transversal problem
+independent set
+worst branching

@@ -1,0 +1,10 @@
+animal
+action
+car
+segment
+world
+node
+human
+ccalc
+closing gate
+input language

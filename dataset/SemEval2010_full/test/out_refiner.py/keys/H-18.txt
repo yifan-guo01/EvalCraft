@@ -1,0 +1,10 @@
+document segmentation
+multi document segmentation
+similar segment
+document number
+topic segmentation
+clustering algorithm
+term cluster
+term weight
+adjacent sentence
+stop word

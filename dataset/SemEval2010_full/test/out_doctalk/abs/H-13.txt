@@ -1,0 +1,8 @@
+The experiments reported in later sections are based on Windows Live query logs , result pages and relevance judgments collected as part of ongoing research into search engine performance [ 1,2 ] .
+Most research on the display of Web results has proposed substantial interface changes , rather than addressing details of the existing interfaces .
+Many researchers have explored alternative methods for displaying Web search results .
+A considerable fraction of later work may be viewed as extending and tuning this basic approach , developing improved methods for identifying significant words and selecting sentences .
+The majority of participating systems use extractive summarization , but a number attempt natural language generation and other approaches .
+These findings form the basis of the clickthrough inversion methodology we use to interpret user interactions with search results .
+The next three features concern the URLs , capturing aspects of their length and complexity , and the last four features concern caption content .
+We define our own metric , since the Flesch Kincaid readability score and similar measures are intended for entire documents not text fragments .

@@ -1,0 +1,11 @@
+A Flexible 3D Slicer for Voxelization Using Graphics Hardware
+Abstract
+In this paper we present a simple but general 3D slicer for voxelizing
+polygonal model. Instead of voxelizing a model by projecting
+and rasterizing triangles with clipping planes, the distance field is
+used for more accurate and stable voxelization. Distance transform
+is used with triangles on voxels of each slice. A voxel is marked
+with opacity only when the shortest distance between it and triangles
+is judged as intersection. With advanced programmable graphics
+hardware assistance, surface and solid voxelization are feasible
+and more efficient than on a CPU.

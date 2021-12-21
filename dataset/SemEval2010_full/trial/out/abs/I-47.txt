@@ -1,0 +1,8 @@
+Still , these tools and frameworks are designed to support a limited range of interaction capabilities that constrain developers to a fixed set of particular , pre defined abstractions .
+The main hypothesis motivating this paper is that the variety of multi agent interaction mechanisms both , organizational and communicative , share a common semantic core .
+The proposed model is intended as the abstract machine of an organizational programming language which allows programmers to accommodate an open set of interaction mechanisms .
+The present specification abstracts away the particular formalism used to specify these rules , and focuses instead on several requirements concerning the structure and interface of protocols .
+The intended effects of some actions may directly be achieved in a single step , while others will required an indirect approach and possibly several execution steps .
+DISCUSSION This paper has attempted to expose a possible semantic core underlying the wide spectrum of interaction types between autonomous , social and situated software components .
+ACKNOWLEDGMENTS The authors thank anonymous reviewers for their comments and suggestions .
+Specifying and analysing agent based social institutions using answer set programming .

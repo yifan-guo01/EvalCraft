@@ -1,0 +1,10 @@
+node
+grid
+algorithm blast
+tss allocation
+define policy
+sequence database
+run packageblast
+execution time
+sequence alignment
+worker application

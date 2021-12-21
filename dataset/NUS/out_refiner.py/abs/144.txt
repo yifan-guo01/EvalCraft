@@ -1,0 +1,55 @@
+We 
+term such rules as statistical quantitative rules (SQ rules).
+With respect to learning SQ rules from data, we formulate the 
+problem as learning significant SQ rules that have adequate 
+support.
+To address this we 
+present an intuitive resampling technique that can determine the 
+number of false rules, and argue that this number can be used to 
+determine a &quot;false discovery rate&quot; for the learning procedure.
+X
+f(D
+X
+) = statistic, support = sup
+1
+(2.1)
+where  X is an itemset involving attributes in A only, D
+X
+is the
+subset of D satisfying X, the function f computes some statistic 
+from the values of the B attributes in the subset D
+X
+, and support is
+the number of transactions in D satisfying X.
+Quantitative association rules [2]:
+population subset
+mean or variance values for the subset (2.2)
+Quantitative association rules are a popular representation for 
+rules in the data mining literature in which the RHS of a rule 
+represents the mean or variance of some attribute.
+R. Such a permutation would create a dataset in
+which  R
+i
+is independent of (R     R
+i
+), but would maintain the
+distributions of R
+i
+and (R   R
+i
+) in the permutation dataset to be the
+same as the distributions of these attributes in the original dataset.
+Nonparametric methods are widely used on testing models that 
+are built from data: as earliest in [18], the author uses 
+randomization tests to tackle a model overfitting problem; [20] 
+compares bootstrap and cross validation for model accuracy 
+estimation; for decision trees, [14, 26] use permutation tests to 
+select attributes based on 2
+x2 contingency tables.
+We presented 
+experiments in which we discovered market share rules, a specific
+381
+Research Track Paper
+type of SQ rules, in real online purchase datasets and 
+demonstrated that our approach can be used to learn interesting 
+rules from data.

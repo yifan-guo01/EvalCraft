@@ -1,0 +1,29 @@
+Topic Transition Detection Using Hierarchical Hidden Markov and Semi-Markov Models
+ABSTRACT
+In this paper we introduce a probabilistic framework to exploit
+hierarchy, structure sharing and duration information
+for topic transition detection in videos. Our probabilistic detection
+framework is a combination of a shot classification
+step and a detection phase using hierarchical probabilistic
+models. We consider two models in this paper: the extended
+Hierarchical Hidden Markov Model (HHMM) and the Coxian
+Switching Hidden semi-Markov Model (S-HSMM) because
+they allow the natural decomposition of semantics in
+videos, including shared structures, to be modeled directly,
+and thus enabling efficient inference and reducing the sample
+complexity in learning. Additionally, the S-HSMM allows
+the duration information to be incorporated, consequently
+the modeling of long-term dependencies in videos
+is enriched through both hierarchical and duration modeling
+. Furthermore, the use of the Coxian distribution in the
+S-HSMM makes it tractable to deal with long sequences in
+video. Our experimentation of the proposed framework on
+twelve educational and training videos shows that both models
+outperform the baseline cases (flat HMM and HSMM)
+and performances reported in earlier work in topic detection
+. The superior performance of the S-HSMM over the
+HHMM verifies our belief that duration information is an
+important factor in video content modeling.
+Categories and Subject Descriptors
+H.3.1 [Information
+Storage and Retrieval]: Content Analysis and Indexing.

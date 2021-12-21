@@ -1,0 +1,22 @@
+A Programming Languages Course for Freshmen
+ABSTRACT
+Programming languages are a part of the core of computer 
+science. Courses on programming languages are typically offered 
+to junior or senior students, and textbooks are based on this 
+assumption. However, our computer science curriculum offers the 
+programming languages course in the first year. This unusual 
+situation led us to design it from an untypical approach. In this 
+paper, we first analyze and classify proposals for the 
+programming languages course into different pure and hybrid 
+approaches. Then, we describe a course for freshmen based on 
+four pure approaches, and justify the main choices made. Finally, 
+we identify the software used for laboratories and outline our 
+experience after teaching it for seven years.
+
+Categories and Subject Descriptors
+K.3.2 [Computers and education]: Computer and information 
+science education - computer science education.
+
+General Terms
+Languages, Theory.
+

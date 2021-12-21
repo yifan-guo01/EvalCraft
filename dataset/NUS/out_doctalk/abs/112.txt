@@ -1,0 +1,8 @@
+We then introduce several alternatives for automatically and efficiently classifying queries according to their locality , using a variety of state of the art machine learning tools .
+We report a thorough evaluation of our classifiers using a large sample of queries from a real web search engine query log .
+Preliminary query reformulation and page re ranking strategies that exploit our query classification techniques to improve query result quality ( Section 6 ) .
+In a way the approach is similar in spirit to query expansion techniques that rely on pseudo relevance feedback [ 5 ] .
+We chose Google because it represents state of the art web search technology and offers a published interface for submitting large numbers of queries .
+An alternative approach that would detect and disambiguate location names would be to use a named entity tagger .
+The bulk of the paper discussed methods for classifying queries according to locality , and empirically established that this is desirable and feasible for many queries .
+Automatic resource compilation by analyzing hyperlink structure and associated text .

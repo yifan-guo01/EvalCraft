@@ -1,0 +1,8 @@
+INTRODUCTION Typical Web search engines are designed to run short queries against a huge collection of hyperlinked documents quickly and cheaply , and are often tuned for the types of queries people submit most often [ 2 ] .
+Many other types of applications exist for which large , open collections like the Web would be a valuable resource .
+However , these applications may require much more advanced support from information retrieval technology than is currently available .
+In particular , an application may have to describe more complex information needs , with a varied set of properties and data models , including aspects of the user 's context and goals .
+SYSTEM DESCRIPTION Here we describe the high level design of the REAP information retrieval system , including document database requirements and construction , annotations , and a brief description of the retrieval model .
+This includes part of speech tags for individual words as well as higher level parse structures , up to sentence level .
+The text should use both passive and active voice sentence constructions and should introduce about 10 % new vocabulary relative to the student 's known vocabulary model .
+The work also has direct application to other areas of language learning , such as English as a Second Language training .

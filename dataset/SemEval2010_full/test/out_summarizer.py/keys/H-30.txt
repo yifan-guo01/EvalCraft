@@ -1,0 +1,10 @@
+field model
+term concept
+query expansion
+multi term concept
+concept expansion
+document dependent
+retrieval General
+feature function
+relevance feedback
+semantic dependency

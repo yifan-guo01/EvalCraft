@@ -1,0 +1,5 @@
+From the semantics of types one might have expected  to be valid and invalid, because looks like in lazy -calculus.
+Now we reconsider the rules introduced in the equational theory section, and show that they are valid in the model.
+This is a crucial result, because it shows that the operational distinction between static and dynamic evaluation is respected in the model; in particular, the way how the two relations !
+d are combined is re ected.
+dn !

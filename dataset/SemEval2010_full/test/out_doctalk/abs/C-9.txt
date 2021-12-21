@@ -1,0 +1,8 @@
+The following section describes the used features of AspectIX followed by a brief overview of the core components and concepts of EDAS .
+Section 4 explains the self managing and rededication concepts of distributed adaptive resource management .
+This turns Article 5 Host FHost D Host E Host A Host C Service Environment Service B Service A Home Env .
+Group members frequently exchange load information and balance the load by migration .
+This is achieved by generating special client side stubs that communicate with one of the replicas .
+The IDL extension consists of additional modifiers that affect code generation for client and server side .
+Apart form methods that are usual static this is useful to implement client side contribution and interaction .
+The anatomy of the Grid : Enabling scalable virtual organizations .

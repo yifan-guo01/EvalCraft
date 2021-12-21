@@ -1,0 +1,15 @@
+ACKNOWLEDGMENTS
+We thank our collaborators Maxine Eskenazi, Charles Perfetti
+and Jonathan Brown; John Cho and Alexandros Ntoulas of
+UCLA for their crawler code; and the anonymous reviewers.
+This work was supported by U.S. Dept.
+In 
+Proceedings of the 5th Conference on Applied Natural 
+Language Processing, 194   201, 1997.
+[2] Broder, A.
+In Proc.
+[6] Foltz, P. W., Kintsch, W., Landauer, T. K.  Analysis of text
+coherence using Latent Semantic Analysis.
+Discourse 
+Processes 25(2 3), 285   307, 1998.
+In Proc.

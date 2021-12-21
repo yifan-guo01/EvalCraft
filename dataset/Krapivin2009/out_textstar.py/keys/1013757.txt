@@ -1,0 +1,10 @@
+function
+time
+NP
+RM
+minimization
+sequence
+computation
+code
+bound
+length

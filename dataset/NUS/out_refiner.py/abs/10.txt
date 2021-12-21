@@ -1,0 +1,59 @@
+Also, it is well
+known that the combination of a document specific term
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page.
+The probability of being informative
+defined in our paper can be viewed as the probability
+of the disjoint terms in the term space of [12].
+[8] address entropy and bibliometric distributions.
+The Pareto distribution compares to the Poisson distribution
+in the sense that Pareto is "fat tailed", i. e. Pareto assigns
+larger probabilities to large numbers of events than
+Poisson distributions do.
+We restrict in this paper to the discussion of Poisson, however
+, our results show that indeed a smoother distribution
+than Poisson promises to be a good candidate for improving
+the estimation of probabilities in information retrieval.
+[1] establishes a theoretical link between tf idf and information
+theory and the theoretical research on the meaning
+of tf idf "clarifies the statistical model on which the different
+measures are commonly based".
+If the occurrence probability
+P (t|d) of term t over documents d is binary, and
+the containment probability P (d|c) of documents d is constant
+, and document containments are disjoint events, then
+the noise probability for disjoint documents is equal to the
+frequency based noise probability.
+For a collection with infinite many documents, the upper
+bound of the noise probability for terms t
+N
+that occur in all
+documents becomes:
+lim
+N
+P
+in
+(t
+N
+is noisy)
+=
+lim
+N
+1
+  1 N
+N
+=
+1
+  e
+By
+applying an independence rather a disjointness assumption
+, we obtain the probability e
+ 1
+that a term is not noisy
+even if the term does occur in all documents.
+We define the Poisson based probability of being informative
+analogously to the frequency based probability of being
+informative (see definition 5).
+G. Amati and C. J. Rijsbergen.

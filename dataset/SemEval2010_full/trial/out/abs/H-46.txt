@@ -1,0 +1,8 @@
+We first present two main expertise retrieval tasks , along with a set of baseline approaches based on generative language modeling , aimed at finding expertise relations between topics and people .
+For our experimental evaluation , we introduce ( and release ) a new test set based on a crawl of a university site .
+The first is aimed at determining the effectiveness of baseline expertise retrieval methods applied to the new test set .
+To efficiently and effectively achieve this , it is necessary to provide search facilities that enable employees not only to access documents , but also to identify expert colleagues .
+Apart from the research questions and data set that we contribute , our main contributions are as follows .
+In the reported experiments the second method performs significantly better when there are sufficiently many associated documents per candidate .
+This hierarchy has an average topic chain length of 2.65 and a maximum length of 7 topics .
+The following model builds on a kind of independence assumption : there is no spill over of expertise / profiles across language boundaries .

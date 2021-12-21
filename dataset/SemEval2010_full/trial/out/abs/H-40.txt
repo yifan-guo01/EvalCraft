@@ -1,0 +1,8 @@
+Important monolingual and cross lingual information such as word translation relations and word co occurrence statistics , etc. are used to estimate the cross lingual query similarity with a discriminative model .
+By suggesting the related and frequently used formulations , it is hoped that the new query can cover more relevant documents .
+It has wide applications on World Wide Web : for cross language search or for suggesting relevant bidding terms in a different language .
+Dictionaries , large size of parallel corpora and existing commercial machine translation systems can be used for translation .
+However , these kinds of approaches usually rely on static knowledge and data .
+Another advantage is that it is fairly easy to make use of arbitrary information sources within a discriminative modeling framework to achieve optimal performance .
+The reason to use bidirectional translation probability is to deal with the fact that common words can be considered as possible translations of many words .
+The key solution to this problem is to learn a crosslingual query similarity measure by a discriminative model exploiting multiple monolingual and bilingual resources .

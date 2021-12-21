@@ -1,0 +1,9 @@
+term selection
+cluster feedback
+feedback document
+user term
+retrieval model
+cluster model
+term relevance measure
+relevance judgment
+information retrieval

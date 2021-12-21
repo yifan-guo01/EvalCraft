@@ -1,0 +1,17 @@
+A WEIGHTED RANKING ALGORITHM FOR FACET-BASED COMPONENT RETRIEVAL SYSTEM
+ABSTRACT
+Facet-based component retrieval techniques have been 
+proved to be an effective way for retrieving. These 
+Techniques are widely adopted by component library 
+systems, but they usually simply list out all the retrieval 
+results without any kind of ranking. In our work, we focus 
+on the problem that how to determine the ranks of the 
+components retrieved by user. Factors which can 
+influence the ranking are extracted and identified through 
+the analysis of ER-Diagram of facet-based component 
+library system. In this paper, a mathematical model of 
+weighted ranking algorithm is proposed and the timing of 
+ranks calculation is discussed. Experiment results show 
+that this algorithm greatly improves the efficiency of 
+component retrieval system.
+

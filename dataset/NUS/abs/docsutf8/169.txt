@@ -1,0 +1,15 @@
+Robustness Analysis of Cognitive Information Complexity Measure using Weyuker Properties
+Abstract
+Cognitive information complexity measure is based on cognitive 
+informatics, which helps in comprehending the software 
+characteristics. For any complexity measure to be robust, Weyuker 
+properties must be satisfied to qualify as good and comprehensive 
+one. In this paper, an attempt has also been made to evaluate 
+cognitive information complexity measure in terms of nine 
+Weyuker properties, through examples. It has been found that all 
+the nine properties have been satisfied by cognitive information 
+complexity measure and hence establishes cognitive information 
+complexity measure based on information contained in the 
+software as a robust and well-structured one. 
+ 
+

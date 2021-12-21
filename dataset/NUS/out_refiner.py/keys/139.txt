@@ -1,0 +1,10 @@
+concurrent object template
+architecture model
+object template
+ready place
+object interface
+process time
+Figure
+object behavior
+space analysis cruise
+software architecture model

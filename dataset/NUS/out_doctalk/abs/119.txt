@@ -1,0 +1,8 @@
+Introduction The Peripheral awareness displays are systems that reside in a user 's environment within the periphery of the user 's attention .
+We use the term peripheral display to describe peripheral awareness systems that may present multiple information items .
+117 systems in promoting greater flexibility of information monitored and its subsequent visual representation , as well as allowing for greater user control in specifying those mappings .
+In a companion study , the issues of aesthetics and longer term use of the InfoCanvas system are currently being explored .
+A pilot study of four InfoCanvas users revealed a wide variety of mapping styles , both natural and abstract .
+Again , iterative development and pilot testing helped determine this size was best to create a balanced and ordered layout and be an effective presenter of information .
+The actual trials followed the practice task and consisted of three exposure and recall activities involving different data sets and hence data displays .
+Upon completion of the three different display conditions , participants were given several concluding surveys that captured subjective feedback from the participants regarding perceived performance and display preferences .

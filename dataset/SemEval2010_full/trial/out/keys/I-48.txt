@@ -1,0 +1,20 @@
+agent
+Kripke structure
+normative game
+normative Systems
+initial state
+system transition
+model ctl
+goal hierarchy
+computation path
+game property
+use logic
+model problem
+property complexity
+objective formula
+social norm
+use law
+run example
+forbid action
+game theory
+arc

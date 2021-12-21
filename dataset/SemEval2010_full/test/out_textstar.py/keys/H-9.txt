@@ -1,0 +1,10 @@
+result
+query
+cluster
+based
+method
+document
+aspect
+label
+information
+user

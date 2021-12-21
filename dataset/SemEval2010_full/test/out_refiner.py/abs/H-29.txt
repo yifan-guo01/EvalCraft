@@ -1,0 +1,8 @@
+In theory, the scoring function can vary from query to query, although in this study for simplicity we keep the scoring function the same for all queries.
+This method first selects terms using a log odds calculation described by Ponte [14], but assigns final term weights using Lavrenko"s relevance model[10].
+We used the methods described in Section 2 to estimate an enhanced feedback model from the Dirichlet posterior distribution for each query variant, and to combine the feedback models from all the query variants.
+The effect of resampling on expansion term quality Ideally, a retrieval model should not require a stopword list when estimating a model of relevance: a robust statistical model should down weight stopwords automatically depending on context.
+Greiff, Morgan and Ponte [8] explored the role of variance in term weighting.
+Ando and Zhang proposed a method that they call structural feedback [3] and showed how to apply it to query expansion for the TREC Genomics Track.
+W. R. Greiff, W. T. Morgan, and J. M. Ponte.
+The role of variance in term weighting for probabilistic information retrieval.

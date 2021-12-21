@@ -1,0 +1,8 @@
+To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
+Such a session key can later be used to achieve cryptographic goals like for example multicast message confidentiality , or multicast data integrity .
+This makes such protocols specifically vulnerable to denial of service attacks , as the execution time of the protocol is determined by the slowest member of the group .
+In the latter case , our approach yields a modular solution for GKE in the same model as the GCS - based protocol mentioned above .
+One can classify previous work on GKE along two dimensions : The assumptions made on the communication links , and the framework used for proving security .
+The group key has to be updated whenever the underlying GCS detects a change in the group structure .
+2.2 The Ideal System for Group Key Ex - change Our ideal system Sys ideal ; gke n for group key exchange models how n servers repeatedly establish a session key .
+THESTRONGCORRUPTIONMODEL In this section , we investigate GKE in the presence of a stronger adversary that may also break into the servers and observe their internal state .
