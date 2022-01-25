@@ -13,15 +13,14 @@ class Textstar(BaseSystem):
         self.trim = trim
         self.stanza_path = stanza_path
         sys.path.append(stanza_path)
-
-        import textstar.textstar as textstar
-        self.textstar = textstar
     
     def __str__(self):
         return "Textstar System at " + self.stanza_path
 
     def process_text(self, text, summarize=True, key_words=True, sum_len=5, kwds_len=5):
-        sentids, kwds = self.textstar.process_text(
+        from textstar.textstar import process_text
+
+        sentids, kwds = process_text(
             text,
             self.ranker,
             sum_len,

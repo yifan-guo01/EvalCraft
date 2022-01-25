@@ -11,7 +11,8 @@ import textcrafts
 from textcrafts import deepRank as dr
 from textcrafts.sim import *
 
-from Systems.Textstar import Textstar
+from systems.textstar import Textstar
+from systems.stanzagraphs import StanzaGraphs
 
 
 
@@ -24,7 +25,7 @@ trace_mode=False
 #SYSTEM = "TEXTCRAFT"
 #SYSTEM = "TEXTRANK"
 # SYSTEM = "STANZAGRAPHS"
-SYSTEM = Textstar(
+SYSTEM = StanzaGraphs(
   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
 )
 
@@ -60,7 +61,7 @@ with_full_text = False
 match_sizes = False
 
 # sets max number of documents to be processed, all if None or 0
-max_docs = 30
+max_docs = 1
 
 show_errors=True
 
