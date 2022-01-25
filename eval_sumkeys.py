@@ -11,6 +11,8 @@ import textcrafts
 from textcrafts import deepRank as dr
 from textcrafts.sim import *
 
+from Systems.Textstar import Textstar
+
 
 
 
@@ -21,8 +23,10 @@ trace_mode=False
 #SYSTEM = "DOCTALK"
 #SYSTEM = "TEXTCRAFT"
 #SYSTEM = "TEXTRANK"
-SYSTEM = "STANZAGRAPHS"
-
+# SYSTEM = "STANZAGRAPHS"
+SYSTEM = Textstar(
+  stanza_path="/Users/brockfamily/Documents/UNT/EvalCraft/StanzaGraphs/"
+)
 
 
 if SYSTEM == "DOCTALK":
@@ -30,9 +34,9 @@ if SYSTEM == "DOCTALK":
   from doctalk.params import talk_params
 
 if SYSTEM == "STANZAGRAPHS":
-  from StanzaGraphs.summarizer import *
+  # from StanzaGraphs.summarizer import *
   #from StanzaGraphs.refiner import *
-  # from StanzaGraphs.textstar.textstar import *
+  from StanzaGraphs.textstar.textstar import *
 
 
 if SYSTEM == "TEXTRANK":
@@ -226,19 +230,19 @@ def runWithTextAlt(fname,wk,sk, filter) :
 def runWithText_StanzaGraphs(fname, wk, sk):  
   fname = fname[:-4]
   print('runWithText_StanzaGraphs:',fname)
-  
+  '''
   # summarizer.py  
   nlp = Summarizer() #new
   nlp.from_file(fname)
   kws, _, sents, _ = nlp.info(wk, sk)
-  
+  '''
   '''
   #refiner.py
   
   nlp = process_file_with_sims(fname=fname)
   kws, _, sents, _ = nlp.info(wk, sk)
   '''
-  '''
+  
   #textstar/textstar.py
   with open(fname + ".txt", 'r') as f:
     text = f.read()
@@ -250,7 +254,7 @@ def runWithText_StanzaGraphs(fname, wk, sk):
   sents = [s for _,s in sentids]
   print('runWithText_StanzaGraphs, kws:\n', kws)
   print('runWithText_StanzaGraphs, sents:\n', sents) 
-  '''
+  
   return (kws,sents)
 
 def runWithPyTR(text,wk,sk,filter) :
@@ -360,25 +364,34 @@ def process_file(i,path_file,full,wk,sk) :
     else:
       text = ''.join(title + [' '] + body)
 
-  if SYSTEM == "TEXTRANK":
-    (keys,exabs) = keys_and_abs(text,wk,sk)
-    print(i, ':', doc_file)
 
-  else :
-    temp_file = temp_dir + doc_file
-    string2file(temp_file, text)
-    if SYSTEM == "DOCTALK" :
-      (keys, xss, nk, ek) = runWithTextAlt(temp_file, wk, sk, dr.isWord)
-    elif SYSTEM == "STANZAGRAPHS" :
-      (keys, xss) = runWithText_StanzaGraphs(temp_file, wk, sk)
-      exabs = xss
-      print('keys:\n', keys)
-      print('abs:\n', xss)
-    elif SYSTEM == "TEXTCRAFT" :
-      (keys, xss, nk, ek) = runWithText(text, wk, sk, dr.isWord)
-    if SYSTEM != "STANZAGRAPHS" :
-      print(i,':',doc_file, 'nodes:', nk, 'edges:', ek)  # ,title)
-      exabs = map(lambda x: interleave(' ', x), xss)
+  # if SYSTEM == "TEXTRANK":
+  #   (keys,exabs) = keys_and_abs(text,wk,sk)
+  #   print(i, ':', doc_file)
+
+  # else :
+  #   temp_file = temp_dir + doc_file
+  #   string2file(temp_file, text)
+  #   if SYSTEM == "DOCTALK" :
+  #     (keys, xss, nk, ek) = runWithTextAlt(temp_file, wk, sk, dr.isWord)
+  #   elif SYSTEM == "STANZAGRAPHS" :
+  #     (keys, xss) = runWithText_StanzaGraphs(temp_file, wk, sk)
+  #     exabs = xss
+  #     print('keys:\n', keys)
+  #     print('abs:\n', xss)
+  #   elif SYSTEM == "TEXTCRAFT" :
+  #     (keys, xss, nk, ek) = runWithText(text, wk, sk, dr.isWord)
+  #   if SYSTEM != "STANZAGRAPHS" :
+  #     print(i,':',doc_file, 'nodes:', nk, 'edges:', ek)  # ,title)
+  #     exabs = map(lambda x: interleave(' ', x), xss)
+
+  exabs, keys = SYSTEM.process_text(
+    text,
+    summarize=True,
+    key_words=True,
+    sum_len=sk,
+    kwds_len=wk
+  )
 
   seq2file(kf, keys)
   seq2file(af, exabs)

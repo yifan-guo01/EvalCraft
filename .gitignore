@@ -1,2 +1,3 @@
 dataset/**/out
 dataset/**/temp_docs
+**.pyc
