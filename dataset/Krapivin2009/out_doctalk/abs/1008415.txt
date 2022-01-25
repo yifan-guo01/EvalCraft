@@ -1,8 +1,0 @@
-Tight bounds on the competitive ratio on accommodating sequences for the seat reservation problem .
-Introduction In many train transportation systems , passengers are required to buy seat reservations with their train tickets .
-The ticketing system must assign a passenger a single seat when that passenger purchases a ticket , without knowing what future requests there will be for seats .
-Assume that a train with n seats travels from a start station to an end station , stopping at k 2 stations , including the rst and the last .
-The route the train travels from station 1 through station k is the section of the real line considered .
-So the bounds obtained here are probably irrelevant for this application , but they could be relevant for others such as assigning vacation bungalows .
-Thus , all requests from the rst part of the sequence , and expected about half of the requests for the last part , are accepted .
-Joan Boyar would like to thank Faith Fich for interesting discussions regarding the seat reservation problem with seats .

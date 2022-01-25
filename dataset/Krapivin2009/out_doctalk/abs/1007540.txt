@@ -1,8 +1,0 @@
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-Compilers select which optimizations to perform based on the estimated run - time costs and benefits of the transformation .
-We illustrate the four steps in applying program steering - training , modeling , creating a mode selector , and integrating it with the original program - and show how the augmented program performs .
-Use of load and traffic patterns , queue lengths , and similar properties may help to refine the system 's mode selector .
-Robot abilities include sensing nearby terrain and robots , sending and receiving radio messages , carrying and unloading raw materials and other robots , attacking other robots , repairing damage , constructing new robots , traveling , and rebooting in order to load a different control program .
-The assignment objective was to program simulated fish that could self - organize into a school without any communication and while avoiding rocks .
-We hypothesize that mode identification , and refactoring if necessary , would have been relatively easy for the original authors of the code .
-The mode - change times are carefully crafted and over-fit to the tournament rules which specify 5000 clock ticks per match .

@@ -1,6 +1,0 @@
-Scheduling against randomized adversaries is also addressed in [11], but the execution times are random variables, while the objective functions are the classical ones there.
-Thus there is no overlap with our work.
-Note that The minimum over all x is a worst-case lower bound on ER=Q.
-We derive some further properties that an optimal solution w.l.o.g.
-enjoys.
-First of all we can suppose x by an obvious argument: If some x k < x k+1 , then exchanging these two values decreases S k and does not increase other S i .

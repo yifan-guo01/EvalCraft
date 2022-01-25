@@ -1,8 +1,0 @@
-All of these PUIs require machine learning and computer vision techniques to create some sort of a classifier .
-This classification component of the UI often demands great effort and expense .
-Because most developers have little knowledge on how to implement recognition in their UIs this becomes problematic .
-The simple solution is to using behind the scenes machine learning and image processing .
-Many machine learning algorithms are very sensitive to feature selection and suffer greatly if there are very many features .
-The current approach requires too much technical knowledge on the part of the interface designer .
-This interactive training allows the classifier to be coached along until the desired results are met .
-The remainder of the paper is as follows .

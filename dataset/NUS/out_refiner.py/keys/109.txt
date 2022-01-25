@@ -1,9 +1,0 @@
-path p
-processing cost
-path join
-source index
-single model
-query path
-right order
-information source
-return result

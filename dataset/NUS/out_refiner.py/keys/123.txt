@@ -1,9 +1,0 @@
-datum clustering
-kernel matrix
-ith sample
-c=1 link
-semantic concept
-active learning
-negative class
-positive example
-large scale datum

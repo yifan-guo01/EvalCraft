@@ -1,8 +1,0 @@
-minor index
-datum bucket
-location information
-indexing scheme
-wireless broadcast datum
-large number
-access datum
-index tree

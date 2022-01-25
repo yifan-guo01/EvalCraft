@@ -1,9 +1,0 @@
-sub path
-source index
-semi join reduction
-query answer
-processing cost
-cost model
-optimal order
-information source
-solution solution

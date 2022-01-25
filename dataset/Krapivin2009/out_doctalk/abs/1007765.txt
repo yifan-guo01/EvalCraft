@@ -1,8 +1,0 @@
-Introduction Suppose that you are given a set of n documents to cluster into topics .
-In this case , a natural approach to clustering is to apply f to every pair of documents in your set , and then to find the clustering that agrees as much as possible with the results .
-In this paper we give a constant factor approximation to the problem of minimizing disagreements , and a PTAS for maximizing agreements .
-In our clustering formulation , there is just a single objective , An example of one such problem is clustering entity names .
-We denote the total number of mistakes made by a clustering use mOPT to denote the number of mistakes made by OPT .
-Proof : Consider the following procedure applied to the clustering of OPT and call the resulting clustering OPT 0 .
-4.2 A singly - exponential PTAS We will now describe an algorithm that is based on the same basic idea of random sampling used by the General Partitioning algorithm .
-Here the number of disagreements could be defined as the total weight of positive edges between clusters and negative edges inside clusters , and agreements defined analogously .

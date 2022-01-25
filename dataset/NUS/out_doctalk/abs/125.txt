@@ -1,8 +1,0 @@
-Object clustering algorithms operate on a feature vector representation of the data and find clusters that are compact with respect to an assumed ( dis ) similarity measure between the data points in feature space .
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-The problem of finding non spherical clusters is often addressed by utilizing a feature weighting technique .
-These techniques discover a single set of weights such that relevant features are given more importance than irrelevant features .
-In the next section , we define a general class of dissimilarity measures 611 Research Track Poster and formulate two objective functions based on them .
-We consider standard labeled document collections and test the proposed algorithms for their ability to discover dissimilarity measures that distinguish one class from another without actually considering the class labels of the documents .
-4.2 Evaluation of Algorithms We use the accuracy measure to compare the performance of various algorithms .
-Concept decompositions for large sparse text data using clustering .

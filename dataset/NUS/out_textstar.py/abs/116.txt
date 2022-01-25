@@ -1,8 +1,0 @@
-Fayyad, U.M.
-Vailaya, A., Zhong, Y., and Jain, A. K.  "A hierarchical
-system for efficient image retrieval."
-In Proc.
-Int.
-Conf.
-on Patt.
-Recog.

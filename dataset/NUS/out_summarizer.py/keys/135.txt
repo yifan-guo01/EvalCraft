@@ -1,9 +1,0 @@
-package cohesion
-object node
-cohesion measure
-other subprogram
-super type
-similar method
-Briand
-call dependency
-Proceedings

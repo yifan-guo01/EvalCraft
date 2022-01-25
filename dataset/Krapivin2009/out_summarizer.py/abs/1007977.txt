@@ -1,8 +1,0 @@
-The function roll converts a spine back into a single tree, and is in fact an isomorphism between Spine A and Tree A. roll :: Spine A # Tree A where join u (a, The advantage of this representation is that we can trace the spine upward from the left-most leaf, rather than downwards from the root.
-We therefore conclude that (inorder - roll) 4.2 Enforcing a Preorder Having inverted inorder - roll , we can start the derivation: rebuild x {roll is an isomorphism} {converse is contravariant} {inverting inorder - roll as in the last section} let hasPreorder Except for the introduction of roll , the derivation so far is mostly mechanical.
-It is not possible to maintain this invariant within the fold before and after each application of add - obviously, after adding a new element to a tree, the new tree will certainly have a di#erent preorder traversal.
-The reader might complain: the derivation works because, by luck, we choose the correct order.
-Building Trees with Minimum Height Next we consider the second problem of building a tree with minimum height.
-The notion of F-well-foundedness is defined in [13, page 102] as relation R is F-well-founded if and only if, for all relations T , the equation has a unique solution for X .
-The authors believe that it is possible, although a tiresome task, to derive a shift-reduce parsing algorithm by generalising the reasoning in Section 4.
-Thanks are due to members of the Algebra of Programming group in Oxford University Computing Laboratory, to Oege de Moor, for his interest, encouragement and comments throughout the development of this paper, and to Roland Backhouse, who kindly pointed out the relation with Henk Doorn- bos's work and the advantage of basing the theorem on F-reductivity.

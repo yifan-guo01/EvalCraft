@@ -1,7 +1,0 @@
-In Section 6, we obtain the model of conjugating automata by adding a uniform sampling condition on interactions to the assumption that interactions are enabled between all pairs of agents.
-If #(p, transition, and we define #1 (p, As a simple illustration, we formalize a version of the count-to-five protocol from Section 1.
-The six states are q0 , .
-Though it is not immediately obvious, parity and majority are also stably computable by population protocols.
-Parity.
-Using a standard construction due to Minsky [15], we can now simulate randomized log-space Turing machines with high probability.
-Corollary 8.

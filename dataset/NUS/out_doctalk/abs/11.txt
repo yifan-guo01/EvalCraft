@@ -1,8 +1,0 @@
-dk Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page .
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-This two way derivation lets us connect each of the machines above with an evaluator , and makes it possible to echo variations in the evaluator into variations in the abstract machine , and vice versa .
-The abstract machine makes the evaluation steps explicit in a transition system .
-8 Some machines operate on terms directly whereas others operate on compiled terms expressed with an instruction set .
-The warnings could be avoided with an option type or with an explicit exception , at the price of readability and direct relation to the usual mathematical specifications of abstract machines .
-Closure converting expressible and denotable values makes the evaluator first order .
-It seems to us that this correspondence between functional evaluators and abstract machines builds a reliable bridge between denotational definitions and definitions of abstract machines .

@@ -1,8 +1,0 @@
-cycle example
-variable value
-odd iteration
-pivot column
-simplex method
-expand method
-x variable column
-show

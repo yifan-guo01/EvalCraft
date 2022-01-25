@@ -1,9 +1,0 @@
-classifier generation
-training example f
-generation time
-feature selection
-classification algorithm
-classifier training time
-selection train
-CWSS
-problem time

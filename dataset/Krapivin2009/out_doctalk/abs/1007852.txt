@@ -1,8 +1,0 @@
-The need for untangling meshes also exists when a mesh generation procedure is unable to create all valid elements in a mesh .
-The methods described here focus only on ensuring that all elements of the mesh meet at least bare minimum validity criteria as dened by the simulation procedures that will use them .
-The next section discusses the denition of element validity and the denition of the feasible set for a vertex .
-Section 3 describes the untangling of a mesh by the feasible set method and untangling by optimization of an objective function is discussed in Section 4 .
-Section 5 describes the multi-step untangling procedure that has achieved a greater success in untangling meshes than each of the two untangling methods by themselves .
-An element corner is valid if the Jacobian determinant of its mapping to a right angle corner with unit sides is positive .
-2 is non-smooth due to the presence of an absolute value term in a linear form and minimization of such functions requires special and expensive methods of non-linear optimization .
-The formulation of the procedures allows easy extension to 3D problems and preliminary results are promising .

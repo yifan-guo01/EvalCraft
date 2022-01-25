@@ -1,9 +1,0 @@
-transition system
-state transition
-response property
-trajectory ae
-first position
-link rule
-denote
-state variable
-time unit

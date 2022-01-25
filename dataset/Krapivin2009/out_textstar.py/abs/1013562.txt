@@ -1,5 +1,0 @@
-We first introduce some notation.
-We show that there is a 2D-RA A that accepts u#v i# n there is no such MSO # sentence.
-We first introduce some notation.
-Indeed, ordinary reachability is complete for both nlogspace and nlogspace# and the following is a logspace reduction from ordinary reachability to ordered reachability.
-Given a graph G with n nodes, a source s and a sink t, we construct the graph G # with vertices {(i, graphically, where there is an edge from (i, j) to (i # , is an edge in G. The source and sink are (1, s) and (n, t), respectively.

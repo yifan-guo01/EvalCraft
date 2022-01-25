@@ -1,8 +1,0 @@
-INTRODUCTION In many distributed applications there is a need to distributively elect a small group of hosts out of a potentially large population .
-The elected group needs to be maintained under dynamic network conditions that include new members joining and leaving and network temporary partition A typical application for this problem appears in multicast protocols .
-We present in this work several distributed randomized algorithms and analyze their performance .
-RELATED WORK Our problem is similar to the collision resolution problem in multiple access ( MA ) networks .
-In this type of net - work hosts try to transmit packets via a shared medium .
-If multiple transmissions overlap , usually the packet collides and the targeted receiver can not decode the signal .
-The relation for reflects the fact that the election ends when the active host number reaches its target range .
-The number of local maxima in the aggressive algorithm graphs corresponds to the maximal number of steps .

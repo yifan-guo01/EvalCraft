@@ -1,9 +1,0 @@
-sensor node
-more energy
-cluster head
-sensor network
-system model
-rdrd
-hop mode
-network lifetime
-energy consumption e

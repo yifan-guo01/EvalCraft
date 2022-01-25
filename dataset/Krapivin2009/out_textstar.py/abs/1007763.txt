@@ -1,6 +1,0 @@
-For an assignment  and a set of points X , we let c (; The input to the k-median problem is (U; d; w) and an integer k, 0 < k  n. Since our goal is to obtain a (k, O(1))-configuration, we can assume without loss of generality that all input points have nonzero weight.
-We note that for all m, 0 < m  n, removing zero weight points from an m-configuration at most doubles its cost.
-To see this, consider an m-configuration X; we can obtain an m-configuration X 0 by replacing each zero weight point with its closest nonzero weight point.
-Fortunately, it is straightforward to verify that the following variation of the Guha et al.
-[5] technique is also valid.
-Given an (m, O(1))-assignment, we can redistribute the weight of each point x to (x) and then run an O(1)-approximate k-median algorithm on the modified problem instance.

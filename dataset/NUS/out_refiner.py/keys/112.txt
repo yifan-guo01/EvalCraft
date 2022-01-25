@@ -1,9 +1,0 @@
-query result
-SVM classifier
-local page
-optimal proportion
-unique location word
-query classification technique
-query number
-Proceedings
-error cost

@@ -1,8 +1,0 @@
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-These algorithms work in a one time fashion : mine the entire database and obtain the set of results .
-For example , customer shopping transaction database is growing daily due to the appending of newly purchased items for existing customers for their subsequent purchases and / or insertion of new shopping sequences for new customers .
-Section 3 presents the idea of buffering patterns , several properties of this technique and the associated method .
-The curves show that the time increases as the incremental portion of the database increases .
-This experiment shows that IncSpan can really handle multiple database updates without significant performance degrading .
-We proposed an algorithm IncSpan by exploring several novel techniques to balance efficiency and reusability .
-There are many interesting research problems related to IncSpan that should be pursued further .

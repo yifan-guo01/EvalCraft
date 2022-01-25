@@ -1,8 +1,0 @@
-The following lemma gives some useful relations.
-Lemma 5.1.
-We have that where in the last inequality we have used (2.3).
-For the second quantity that appears in w (1) Proposition 2.2 shows that Furthermore, by combining Lemma 5.1 and (4.9), it is not di#cult to see that #x CGLS All together we get the following upper bound: #w (1) In order to estimate the size of the vector w (3) , the problem is reduced to bounding: For this purpose, the following lemma is of use.
-Lemma 5.2.
-The results for various test problems from [15] are given in Table 1.
-Alg.
-Acknowledgment  .

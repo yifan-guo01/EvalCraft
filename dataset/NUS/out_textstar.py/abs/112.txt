@@ -1,5 +1,0 @@
-[3] A. Bradley.
-[8] W. W. Cohen.
-[11] M. A. Hearst.
-[17] R. J. Quinlan.
-[18] G. Salton.

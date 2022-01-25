@@ -1,9 +1,0 @@
-quantitative rule
-adequate support
-certain number
-significance level
-form value
-z test
-quantitative dataset
-rule discovery
-attribute selection

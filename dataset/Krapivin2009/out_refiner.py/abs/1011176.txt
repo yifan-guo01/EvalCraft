@@ -1,8 +1,0 @@
-Both [11] and [4] give a partial evaluator for a 2-level language but leave a correctness proof for further work, while [18] gives a dynamic semantics parametrised on a xed static semantics, but does not consider partial evaluation.
-For the base case, there is no reason to allow dynamic functions to take static naturals as inputs, because there is a construct - lift - that embeds terms of type nat in dynamic terms.
-The discussion above suggests that a term can be reduced dynamically only if it can be compiled; in other words terms that do not have a terminating static reduction should not be reduced dynamically.
-The  rule does not aect the static behaviour of the term, and purely dynamic terms behave in a call-by-name fashion.
-A logical relation is given to relate the operational semantics and the denotational model in a way that ignores the denotational semantics of dynamic terms.
-By denition for each i 2 !, c i (a) . t 2 induction hypothesis ( F F The following lemma is valid in general for open terms, but in the particular case of closed terms it states that the interpretation of a term is related with the term itself.
-We have shown that, for each i 2 !, F Lemma 14 Static soundness Given a closed term M , if Proof.
-Note that considering global elements, i.e. morphisms from 1 to A, the interpretations of base types and of dynamic types in CPO ! are order- isomorphic to the interpretations in CPO, hence the interpretation of dynamic terms and of most of the static constructs is given essentially in the same way.

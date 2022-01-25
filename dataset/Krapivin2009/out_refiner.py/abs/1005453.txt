@@ -1,8 +1,0 @@
-This author's research was partially supported by National Science Foundation under Grant DMS-9400946.
-For every graph K, there are integers k such that every graph with no K-minor has a vertex partition into two graphs with tree-width at most k V , and an edge partition into two graphs with tree-width at most kE .
-For every graph K and integer j # 1, there are integers j), such that every graph with no K-minor has a vertex partition into i V graphs such that any j # j parts form a graph with tree-width at most and an edge partition into i E graphs such that any j # j parts form a graph with tree-width at most j # .
-Given two graphs G and H, a graph J is a clique-join of G and H if G # H is a clique, and J is a subgraph of G # H. 1.4. Lemma.
-This special case of Theorem 2.1 (or Corollary 2.2) that, for every planar graph P , a graph with no P-minor has low tree-width, appears in [5] (see also [8]).
-We call the vertices in W the extra vertices of G. w be the set of graphs G for which there exists W such that (G, W ) # is the set of all graphs that are (# w)-vertex extensions of graphs in #. inductively as follows: G is a clique-join of G 1 and G 2 on a clique Q with The only restriction from taking arbitrary clique-joins is that V (Q) # W .
-Thus, we will color both edges and vertices of G such that every edge satisfies the endpoint rule.
-Then there exist numbers # and # such that every graph in # has a balanced edge and a vertex l-coloring, such that any j < l colors form a graph with tree-width at most #j Proof.

@@ -1,8 +1,0 @@
-Learning Query Languages of Web Interfaces INTRODUCTION Searching for relevant information is a primary activity on the Web .
-However , there exists an important part of the Web that remains unavailable for centralized indexing .
-The manual acquisition of Web search interfaces has important drawbacks .
-QUERYING WEB RESOURCES Web resources vary considerably in the ways they retrieve relevant documents .
-CGI or JavaScript code linked to the query form interprets the query strings according to certain rules .
-Most violations happen because converting query strings into queries on collections hides the stop word removal and term stemming .
-As the figure shows , the pair wise comparison F 2 performs best with respect to the raw and normalized match numbers .
-Considerable research effort has been devoted to minimizing the possible overheads of query translation when the meta search and search resource differ in supporting basic query features [ 11 ] .

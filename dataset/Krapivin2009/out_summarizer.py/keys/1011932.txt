@@ -1,9 +1,0 @@
-basis function
-dening equation
-source eld
-completion eld
-function vector
-Gaussian basis
-completion algorithm
-invariant computation
-straight line completion

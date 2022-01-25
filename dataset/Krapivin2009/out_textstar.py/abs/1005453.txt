@@ -1,8 +1,0 @@
-(3) For every x # V (G), the subgraph of T induced by {t # V connected.
-The width of (T , X) is Date: May 1, 2001.
-Primary: 05C15; Secondary: 05C55.
-Now each 2-edge is associated with four entries (each with a corresponding bag) in the vertex-list of the face F .
-Let Y e and Z e be the two bags at one end of e. For any x, if e # H 2 |T x , then x # Y e #Z e .
-Let G-D. Now G # is obtained from G by the deletion of at most (2 - #))(2s - 1) vertices so by Lemma 1.4, A tree-decomposition of G # of width 3s-2 (that is, with bag size at most 3s-1) is obtained as follows, using tree T .
-Arbitrarily choose a root z of T .
-This topic was examined in [3], but we need a new formulation here.

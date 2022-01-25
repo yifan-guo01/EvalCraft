@@ -1,9 +1,0 @@
-block source
-enough entropy
-source extractor
-good subsource
-random output
-explicit construction
-source disperser
-previous work
-right order

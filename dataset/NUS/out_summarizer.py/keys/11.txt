@@ -1,9 +1,0 @@
-term &gt
-standard call
-value evaluator
-abstract machine
-name evaluator
-fun eval
-closure f
-expval list &gt
-ml program

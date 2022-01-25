@@ -1,8 +1,0 @@
-The historical approach to achieving low cost in 3D graphics systems has been to compromise both performance and image quality .
-The challenge is to drive these memory chips at their maximum rate with a minimum of supporting rendering chips , keeping the total system cost and physical size to an absolute minimum .
-How this RAM is organized is an important defining feature of any high performance rendering system .
-The LeoDraw chips handle all screen space pixel rendering and are directly connected to the frame buffer RAM chips .
-Throughput bottlenecks in input geometry format conversion , floating point processing , and pixel rendering were identified and overcome by adding reinforcing hardware to the appropriate chips .
-We found users desired algorithms that displayed no roping , angle sensitivities , short vector artifacts , or end point artifacts .
-Triangles need single pixel cycle edge walking hardware in parallel with RGBZ span interpolation hardware .
-The Triangle Processor and Normal Vector Shader : A VLSI system for High Performance Graphics .

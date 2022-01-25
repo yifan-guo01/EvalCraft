@@ -1,8 +1,0 @@
-A natural choice for this smaller class is the primitive recursive sets ( or functions ) .
-This approach to characterizing complexity classes without any explicit mention of resources or bounds is typically referred to as implicit computational complexity .
-This especially becomes clear if we insist upon some notion of time - bounded machines which may not halt on some inputs .
-With the ( essentially ) unrestricted computational resources of recursive functions , collapsing many values into one is not a problem .
-Another view of this sharply bounded quantier is that instead of having multiple output values , we should instead choose one of the values .
-This leads directly to the idea of a nondeterministic choice in the computation , and in fact such function classes have been considered .
-The main results of this paper are that when we add minimization as above to the various primitive recursive denitions of FP , we obtain exactly the class NPMV .
-By this proposition , we may assume that the bounding functions used in bounded recursion on notation and bounded pseudo-minimization are in fact polynomials .

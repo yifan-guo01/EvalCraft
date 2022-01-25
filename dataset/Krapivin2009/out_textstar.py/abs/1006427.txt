@@ -1,8 +1,0 @@
-Observe that the cardinality of P must be 2 3 c because otherwise by Lemma 3.1 the expected paging of the strategy would be strictly grater than LB.
-For the same reasons must be 1=2.
-The goal is to decide which cells and when to look up to maximize chances of nding the object under constraints on the total cost of search.
-Awduche et al.
-Thus the search may need to continue recursively by repag- ing smaller and smaller sets in order to locate the single cell where the mobile device exists (is located).
-In the model that we study in this paper we assume that a paging of any subset of cells returns all the devices that are located in one of the cells that have been paged and for each of the devices that have been found the cell where the device is located.
-Hence no recursive repaging is needed.
-Acknowledgements  .

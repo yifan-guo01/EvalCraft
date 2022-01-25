@@ -1,9 +1,0 @@
-text document
-cluster benefit
-statistical model
-multiple topic
-document collection
-SVM approach
-document clustering
-home page
-document class

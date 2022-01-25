@@ -1,8 +1,0 @@
-event type
-world state
-ordering relation
-time point
-axiom set
-individual argument
-type expression
-tense operator

@@ -1,8 +1,0 @@
-Machine Learning in DNA Microarray Analysis for Cancer Classification Introduction The need to study whole genome such as Human Genomic Project ( HGP ) is recently increasing because fragmentary knowledge about life phenomenon with complex control functions of molecular level is limited .
-Reproduction for academic , not for profit purposes permitted provided this text is included .
-Some produce better results than others , but there have been still no comprehensive work to compare the possible feature selection methods and classifiers .
-We need a thorough effort to give the evaluation of the possible methods to solve the problems of analyzing gene expression data .
-Colon Partial least square Quadratic discriminant analysis 91.9 investigate the genome wide information in short time .
-Using the statistical correlation analysis , we can see the linear relationship and the direction of relation between two variables .
-But features that have overlapped feature spaces may cause the redundancy of irrelevant information and result in the counter effect such as overfitting .
-Acknowledgements This paper was supported by Brain Science and Engineering Research Program sponsored by Korean Ministry of Science and Technology .

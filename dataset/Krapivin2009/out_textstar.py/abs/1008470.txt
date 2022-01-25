@@ -1,7 +1,0 @@
-[BTW94] but achieves superior performance.
-II.
-Tsybakov et al.
-Another important parameter we would like to minimize is the election overhead, which is the number of messages sent by the hosts through the en- 3basic algorithm 1.
-Init: 2.
-Init: 2.
-Init: 2.

@@ -1,3 +1,0 @@
-Because memory-based approaches make predictions based on the local neighborhood of the active user and the model-based approach bases its predictions on the similarities between items (products), recommender systems can be grouped into user-based and item-based systems [Sarwar et al., 2001, Sarwar et al., 2000].
-Cluster 5, on the other hand, has a very small number of customers with highly dense profiles containing numerous products.
-This point deserves greater investigation to determine if clustering algorithms perform less e#ectively on data with a large number of dimensions.

@@ -1,7 +1,0 @@
-We also dene a polynomial-time function result so that if z is the code of a computation sequence, result(z) is the contents of  0 in the last conguration of z.
-We shall consistently con ate state, etc.
-The constant 0 (nullary) function.
-Projections:  n;m 3.
-Binary successors: s 0 4.
-Predecessor: pred(; 5.
-y mod w , '(x;  a) 7!

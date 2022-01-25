@@ -1,8 +1,0 @@
-Unifying proof methodologies of duration calculus and timed linear temporal logic .
-For instance , properties that relate states across several transitions have to be expressed using auxiliary state variables - clock variables are a good example .
-Overview Section 2 presents a syntax , a semantics and an proof system of a combined logic .
-This case study formulates the safety requirement of a gas burner in terms of a variable Leak denoting an undesirable but unavoidable state which represents the presence of unlit gas .
-Qualitative fairness requirements for transitions are replaced by quantitative lower - bound and upper - bound real - time requirements .
-The main idea is to use the DC for the specification of the system requirements and initial design , and use the TTS for implementation and refinement .
-This has allowed us to drop the notation for the step - counter variable , and to treat a state predicate naturally as a special action .
-Another application would be to apply the linking techniques to the TLA - framework [ Lam94 ] ; ideally by putting the combined logic and its rules into one of the existing Duration Calculus Verification assistants .

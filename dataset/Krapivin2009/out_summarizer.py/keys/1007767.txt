@@ -1,9 +1,0 @@
-minimum distance
-point x
-partition algorithm
-hierarchical cluster
-clustering problem
-search cost
-proximity table
-ffl time
-table entry

@@ -1,8 +1,0 @@
-search algorithm
-p minute
-distance computation
-optimal number
-close object
-node t
-Figure
-approximate solution distance

@@ -1,8 +1,0 @@
-The problem studied in this paper is motivated by market share rules , a specific type of rule that can not be represented as association rules .
-The results we report in this paper are from real user level Web browsing data provided to us by comScore Networks .
-Prior Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page .
-This is an important range to identify if the rules discovered are to be interpreted as suggesting fundamental relationships between the LHS and the market share .
-We present detailed experimental results on real web browsing data in Section 6 followed by a literature review and conclusions .
-First , it is not limited to mean and variance statistics and assumes a much broader class of statistics , including the market share statistics .
-Most conventional approaches in statistics that deals with the multiple hypotheses testing problem use different methods to control FWER by lowering significance level for individual rule , ind .
-However , rule discovery on quantitative data faces much more complicated challenges , and conventional p value adjustment methods can not be directly applied .

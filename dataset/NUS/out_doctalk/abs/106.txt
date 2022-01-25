@@ -1,8 +1,0 @@
-Although the definition of the distance depends on applications , its calculation is generally complicated and time consuming .
-Reproduction for academic , not for profit purposes permitted provided this text is included .
-The former aims at reducing the com putational tasks in the search process by managing objects effectively .
-Let P be the set of all objects and B be a subset consisting of selected objects called base prototypes .
-There is a trade off between the search efficiency and the size of distance matrix , i.e. the memory capacity .
-We propose the use of a multiway tree and the best first order search instead of a binary tree and the depth first search .
-During the best first search process , we can traverse preferentially a node whose subset may contain the closest object .
-We tested on an artificial set of random points in the 8 dimensional euclidean space .

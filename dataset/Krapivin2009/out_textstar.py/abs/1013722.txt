@@ -1,7 +1,0 @@
-The following standard result shows that deterministic processing cannot increase the relative entropy between two distributions.
-Lemma 1.
-Theorem 3.
-The one-bit message stegosystem described above isln 2 secure against passive adversaries.
-Proof.
-As already mentioned in the Introduction, the assumption of a fixed covertext distribution seems to render our model somewhat unrealistic for the practical purposes of steganography.
-But what are the alternatives?

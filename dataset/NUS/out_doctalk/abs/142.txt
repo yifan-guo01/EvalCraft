@@ -1,8 +1,0 @@
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-Search on encrypted data and private information retrieval enable the user to retrieve data from an untrusted server without revealing the query .
-Note that it may be possible to efficiently enumerate all name address pairs because these fields have less entropy than regular cryptographic keys , and thus learn the entire database through the permitted queries .
-Exact characterization of non vacuous , yet realizable privacy policies is a challenging task , and a topic of future research .
-We use the standard approach in secure multi party computation , and formally define this privacy policy in terms of an ideal functionality .
-As a result , many proposed schemes are either too inefficient , or too insecure for practical use .
-A possible compromise might be to start with a provably secure but inefficient construction and employ heuristic techniques to improve its efficiency .
-Protecting data privacy in private information retrieval schemes .

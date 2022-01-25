@@ -1,8 +1,0 @@
-The reason is that many problems in computation can be specified in terms of computing the inverse of an easily constructed function .
-Functional programmers make use of a handful of laws and theorems to transform specifications to optimising code .
-Its joint use with the fold fusion theorem turns out to be a recurring pattern in program derivation .
-We divide the left spine of x in two parts , move down the lower part for one level , and attach a to the end .
-The use of boldface font here indicates that it is an infix operator ( and binds looser than function application ) .
-The notions of well - foundedness and admitting induction are of great importance in computing science .
-The non-deterministic loop body move then try to recover what the last command might be by trying all possible commands .
-The authors would also like to thank the anonymous referees for detailed and useful advices .

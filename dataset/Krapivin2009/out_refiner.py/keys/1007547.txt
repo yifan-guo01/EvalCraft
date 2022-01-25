@@ -1,9 +1,0 @@
-type expression
-root node
-type tree
-location path be
-macro tree
-function call
-type value
-xpath step
-type gram

@@ -1,8 +1,0 @@
-That is , the aim was not merely to express polynomial time computability in terms of provability of certain restricted formulas , but rather to provide a typed logical system in which computation via cut - elimination or proof normalization is inherently polytime .
-Moreover , while capturing the same extensional class of polytime functions , it appears to be less flexible than BLL in terms of expressing concrete algorithms .
-The proof of this result used sophisticated techniques from the proof theory of linear logic , notably a very detailed analysis of normalization of proof nets with boxes .
-In this paper , we give a direct , semantic proof of this main result which does not involve any notion of reduction , term rewriting , or cut - elimination .
-All this is presented in the form of a concrete categorical model of BLL which interprets BLL - formulas as sets with some additional structure and proofs as functions witnessed by polytime algorithms operating on this additional structure .
-At the same time , our analysis gives a natural interpretation of the BLL syntax which justifies the fine points of its design and might suggest further extensions .
-x < p A. Positive and negative occurrences of resource terms in formulae are defined by induction as usual : in !
-Note that they can be subsumed under the following generalization of Our semantics validates these rules , so as a result their addition does not increase the computational strength of BLL .

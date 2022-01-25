@@ -1,9 +1,0 @@
-vertex cluster
-clustering problem
-edge mistake
-total number
-learning algorithm
-vertice x
-graph partitioning
-second case
-good partition

@@ -1,8 +1,0 @@
-Supported by an IBM faculty development award and a travel grant from the Max Plank Society .
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-But it is very natural to expect that in a heterogenous processing environment different machines will have different processing power , and hence different speeds .
-This is a desirable feature in many applications because moving jobs across machines may have many overheads .
-One of the merits of their algorithm was a much simpler analysis of the competitive ratio .
-But converting this idea into a proof requires several technical steps .
-PRELIMINARIES We consider the on line problem of minimizing total flow time for related machines .
-Let and be suitable chosen large enough constants .

@@ -1,5 +1,0 @@
-We remark that MST can be used as a subroutine for a variety of clustering methods.
-For every ffl ?
-For every ffl ?
-For every list L marked 0 we compute dist(y; z), for all z 2 L. If any point in L is further from y than (1 ffl)r, we leave L marked by 0.
-In particular, x is placed in F , and so are all the other points in F j+1 .

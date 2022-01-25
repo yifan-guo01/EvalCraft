@@ -1,8 +1,0 @@
-On the other hand , compiled code is comparatively hard to understand , and prove correct .
-The aim of partial evaluation is to take a program as input and produce a new program that gives the same output as the original one .
-But constant evaluations are performed just once , during the program generation process .
-The purpose of lift is to insert a static value into the residual program .
-as a notational convenience to denote the inner ?
-The proof is a simple case analysis , involving the Substitution Lemma .
-Then we show the limits of the new model and outline what an ideal model would be .
-I want to thank Peter O'Hearn for the many fruitful discussions .

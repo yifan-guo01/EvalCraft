@@ -1,8 +1,0 @@
-Compared to Huch 's approach we focus much more on the data part and do not abstract case statements by non-deterministic choices , but really check the data involved .
-For that reason we can check mutual exclusion and absence of deadlock for a small locker program that will be the leading example of this paper .
-We show in Section 3 how this locker is implemented in Erlang , using the generic server and supervision tree design principles .
-These call - back functions return a new state and a possible reply message , which is by the standard module part send to the caller .
-The supervisor processes are taken away and the new initialization function only creates the processes of locker and clients .
-Currently we can deal with basic data types and the compound data types lists , tuples , records and mixtures of these .
-We translate case statements and pattern matching by using the if - then - else construct and calls to newly introduced process functions .
-Another approach to verication of Erlang programs which diers from model checking is the use of a theorem prover for checking properties .

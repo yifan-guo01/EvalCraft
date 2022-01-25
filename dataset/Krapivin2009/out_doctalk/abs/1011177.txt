@@ -1,8 +1,0 @@
-Introduction Models for ( fragments of ) Linear Logic can hardly be called scarce | we know the categorical properties required , and a number of examples can be found in the literature .
-This is achieved by making specic choices for the two parameters in our construction .
-Finally we consider remaining questions and future work .
-These observations suggest a pattern .
-Such a negation is not of much interest in isolation , and the desired connection is created by the following proposition .
-An obvious exception to this is choosing F to be the identity functor on Rel , in which case binary products coincide with binary coproducts .
-Note that if the general aim is to model larger fragments of Intuitionistic Linear Logic , the construction presented here is capable of coping with that as well .
-The referees made useful suggestions regarding additions to the original draft .

@@ -1,8 +1,0 @@
-Providing low latency , high throughput , and high reliability requires network operators to adjust routing protocol configuration when performance problems arise or network conditions change .
-For example , an operator might adjust the configuration to respond to network congestion or equipment failures or to prepare for planned maintenance .
-To avoid costly debugging time and catastrophic mistakes , operators must be able to make predictions quickly based on an accurate model of the routing protocols .
-Tuning these link weights gives operators a way to modify the paths inside the AS to satisfy network and user performance goals [ 2 ] .
-In contrast to link state protocols that flood complete information throughout the network , a BGP - speaking router sends incremental reachability information only to its immediate neighbors .
-While most IGPs advertise a single integer metric for each link and select routes based on shortest R a b routers Neighboring AS routes eBGP routes eBGP router ingress egress Figure 1 : Network engineering terminology .
-In practice , a router may receive numerous route advertisements and select ( and propagate ) a best route multiple times before settling on a final choice .
-We believe that our model and BGP emulation tool present several immediate possibilities for future work .

@@ -1,8 +1,0 @@
-The ticketing system must assign a passenger a single seat when that passenger purchases a ticket, without knowing what future requests there will be for seats.
-The o-line version of the seat reservation problem can be used to solve the following problems [8]: minimizing spill in local register allocation, job scheduling with start and end times, and routing of two point nets in VLSI design.
-The competitive ratio on accommodating sequences for the fair unit price seat reservation problem with 3 seats is at most 1+ 3 , where Proof First we give intervals of length four with a spacing of two, except that the rst interval only has length three, and the last has length one.
-The ratio becomes which dominates :The technique of Corollary 2.1 which converts an upper bound for m seats to an upper bound for n seats (n > m) by adding some large requests in the beginning of the sequence, can be applied to any sequence.
-So the bounds obtained here are probably irrelevant for this application, but they could be relevant for others such as assigning vacation bungalows.
-When the ratio of the number of requests accepted by the on-line algorithm to the number of requests accepted by an optimal o-line algorithm is 5n 9k 9(k mod where the last inequality holds because in general a d < 1 and a < c imply that e+ax+cy e+bx+dy  e+a(x+y) .
-Joan Boyar and Kim S. Larsen carried out part of this work while visiting the Department of Computer Sciences, University of Wisconsin { Madison.
-Joan Boyar, Lene M. Favrholdt, and Kim S. Larsen were supported in part by the IST Programme of the EU under contract number IST-1999-14186 (alcom-ft).

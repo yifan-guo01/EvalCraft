@@ -1,9 +1,0 @@
-c=4.3 number
-basic algorithm
-additional round
-host feedback
-feedback message
-back model
-group size
-n value
-reset notification

@@ -1,8 +1,0 @@
-As a compact and e cient way to present relational information , tables are used frequently in web documents .
-The web provides users with great possibilities to use their own style of communication and expressions .
-Experiments on this database using the cross validation method demonstrate signi cant performance improvements over previous methods .
-FEATURES FOR WEB TABLE DETECTION Feature selection is a crucial step in any machine learning based methods .
-Past research has clearly indicated that layout and content are two important aspects in table understanding 6 ] .
-The maximum impurity reduction , the maximum depth of the tree , and minimum number of samples are used as stopping conditions .
-The idea of structural risk minimization is to nd a hypothesis h for which the lowest true error is guaranteed .
-CONCLUSION AND FUTURE WORK Table detection in web documents is an interesting and challenging problem with many applications .

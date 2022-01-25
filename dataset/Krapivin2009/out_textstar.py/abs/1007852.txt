@@ -1,6 +1,0 @@
-Knupp [12] performs a global optimization of the dierence between the absolute and signed values of element volumes in order to untangle the mesh.
-Kovalev et.al.
-Therefore, Knupp suggested the addition of a user controlled parameter  to the function, modifying it to be (j  i The role of  is to force the function to reach a minimum when the elements have a small positive volume instead of zero volume.
-For more complex element types the local function includes the cross product (triple product in 3D) of the edge vectors in each connected element computed at the vertex itself and its edge connected neighbors.
-Computing the local objective function this way ensures that global objective function is still minimized at each local iteration.
-Iteration No.

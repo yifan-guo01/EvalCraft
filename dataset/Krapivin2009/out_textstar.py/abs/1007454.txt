@@ -1,8 +1,0 @@
-In the 2=6-cycle examples A 12 and A 21 must have different signs, so it follows from Table 1 that the even and odd iterations cannot be the same.
-It therefore follows that the 2=6-cycle examples are the simplest possible cycling examples.
-A 120.0 A 11 < A 11 A Fig.
-s A i)A in x x x x x x Expanded Normal \Gamma-S \Gamma-A21s \Gamma(A11 \GammaA120 \Gamma(A11 -( )\Gamma-S \Gamma- s \Gamma(1+ -( \Gamma(1+ s s \Gamma-A21s \Gamma-S The expressions in Table 4 allow condition (19) to be expressed as G k - 0, where G k for k - 0 is defined by A 11 A 11 A necessary and sufficient condition on A 11 for G k - 0 is established by considering A 11 A k+1 2: It follows that \DeltaG k - 0 () s k+2 - 2.
-If to a limit s 1 , where s 1 - 2.
-0 These conditions have been established in Proposition 4 for the case of expand row selection, so it follows that (16) and (17) still hold.
-From (17) and the fact that A 11 - 1 it follows that A 12 !
-3 which is tighter that A 12 !

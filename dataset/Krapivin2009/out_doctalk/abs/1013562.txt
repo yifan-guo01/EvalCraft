@@ -1,8 +1,0 @@
-The connection to logic and automata proved very fruitful in understanding such languages and in the development of optimization algorithms and static analysis techniques .
-However , these abstractions ignore an important aspect of XML , namely the presence of data values attached to leaves of trees , and comparison tests performed on them by XML queries .
-It is therefore important to extend the automata and logic formalisms to trees with data values .
-Strings are also relevant in the tree case , as most formalisms allow reasoning along paths in the tree .
-Although limited to strings , we believe that our results provide a useful starting point in investigating the more general problem .
-Our results concern the expressive power of the various models , provide lower and upper complexity bounds , and consider standard decision problems .
-It is immediate to show that for usual complexity 2.6 Terminology In the sequel we present several expressiveness and complexity results .
-One main goal was to identify a natural notion of regular language and corresponding automata models .

@@ -1,9 +1,0 @@
-old database
-frequent sequence
-pattern p
-pattern mining
-mining algorithm
-database update
-frequent item
-minimum support threshold
-IncSpan

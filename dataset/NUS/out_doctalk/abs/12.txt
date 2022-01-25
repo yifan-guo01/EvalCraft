@@ -1,8 +1,0 @@
-A Geometric Constraint Library for 3D Graphical Applications INTRODUCTION Recent advances in commodity hardware have enabled fast high quality 3D graphics on personal computers .
-However , most of such technologies mainly focus on rendering aspects of 3D graphics , and do not sufficiently support layout and behavior aspects .
-Also , many specialized 3D graphics packages enable the specification of object layouts and behaviors by using constraints or similar functions .
-The novel feature of Chorus3D is to handle scene graphs by processing coordinate transformations in geometric constraint satisfaction .
-It determines solutions so that they satisfy as many strong constraints as possible , leaving weaker inconsistent constraints unsatisfied .
-For example , it allows putting objects parallel or perpendicular to others without requiring predetermined positioning parameters .
-These weights were determined according to the precision of the actual numerical algorithm ( described in the next subsection ) .
-Viewpoint Mouse cursor which is on the screen Screen Object which is on the sphere surface Collinearity constraint Distance constraint Sphere Figure 3 : Implementation of constrained dragging .

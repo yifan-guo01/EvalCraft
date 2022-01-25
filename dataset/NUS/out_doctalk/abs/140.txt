@@ -1,8 +1,0 @@
-Modeling Node Compromise Spread in Wireless Sensor Networks Using Epidemic Theory Introduction As wireless sensor networks are unfolding their vast potential in a plethora of application environments [ 1 ] , security still remains one of the most critical challenges yet to be fully addressed .
-In particular , a vital problem in the highly distributed and resource constrained environment is node compromise , where a sensor node can be completely captured and manipulated by the adversary .
-While extensive work has focused on designing schemes that can either defend and delay node capture or timely identify and revoke compromised nodes themselves [ 5 ] , little attention has been paid to the node compromise process itself .
-A. Motivation Due to its scarce resources and hence low defense capabilities , node compromises can be expected to be common phenomena for wireless sensor networks in unattended and hostile environments .
-With recent advancements on sensor design empowering nodes such as MICA2 motes with over the air programmability , the network becomes vulnerable to the above described attack .
-Furthermore , we analyze the effect of node recovery in an active infection scenario and obtain critical values for these parameters that result in an outbreak .
-Due to the severe resource constraint of wireless sensor networks and limited networking bandwidth , proposed pairwise key schemes have commonly adopted the predistribution approach instead of online key management schemes with prohibitive resource consumption .
-More sophisticated methods may include immunizing a node with an appropriate antivirus patch that might render the node immune from the same virus attack .

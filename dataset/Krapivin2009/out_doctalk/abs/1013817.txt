@@ -1,8 +1,0 @@
-Introduction be a set of n distinct points in the Euclidean plane .
-The convex hull of S is the minimal convex region that contains every point of S .
-Because of the importance of planar convex hulls , it is natural to try and improve the running time and storage requirements of planar convex hull algorithms .
-Any algorithm that uses separate input and output arrays will , by necessity , require enough memory to store 2n points .
-Related to this is the fact that space - e-cient algorithms usually exhibit greater locality of reference , which makes them very practical for implementation on modern computer architectures with memory hierarchies .
-The addition of each new point involves removing zero or more points from the top of the stack and then pushing the new point onto the top of the stack .
-Since the algorithm is stable , the original sorted order of the input is preserved and no additional sorting step is necessary .
-At this point , the convex hull of the rst group and the group containing the newly found convex hull vertex have changed .

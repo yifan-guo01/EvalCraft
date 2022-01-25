@@ -1,6 +1,0 @@
-Besides conceptual adequacy a technical advantage of such a modelling is that Rec Loc (N) is a countable flat predomain whereas the traditional choice Loc!N?
-is uncountable and highly non-flat.
-Definition 2.2 Given an environment ae 2 and an object expression a its interpretation St*Loc\ThetaSt is defined in Table 2.2 (page 4).
-For the admissible predicate it follows P (-e:F (e; e)) again by fixpoint induction.
-Obvi- ously, we have P (?).
-Assume that P (e).

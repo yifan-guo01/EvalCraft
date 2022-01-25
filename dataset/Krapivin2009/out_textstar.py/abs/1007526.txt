@@ -1,7 +1,0 @@
-Ammann and Black [3, 4] combine model checking and mutation analysis to generate test cases from a specication.
-Rayadurgam et al.
-use a structural coverage based approach to generate test cases from specications given in RSMLe by using a model checker [26].
-Lee et al.
-We would also like to not handle complex preconditions.
-thank the reviewers for their detailed comments that allowed us to greatly improve the paper.
-CONCLUSION 8.

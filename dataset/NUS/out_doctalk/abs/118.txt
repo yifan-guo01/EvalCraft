@@ -1,8 +1,0 @@
-A key challenge in the design of WPANs is adapting to a hostile radio environment that includes noise , time varying channels , and abundant electromagnetic interference .
-Their simulation models are based on a link budget analysis and a theoretical calculation of the BER ( Q function calculation ) .
-A channel is defined as a unique pseudo random frequency hopping sequence derived from the master device 's 48 bit address and its Bluetooth clock value .
-The PHY layer samples the received energy over the medium transmitting data and uses a clear channel assessment ( CCA ) algorithm to determine if the channel is clear .
-Its simplicity and relatively low cost should make it the most common type for many consumer applications .
-Her research in traffic management and flow control led to several papers presented at professional conferences , journals and numerous contributions to international standard organizations and industry led consor tia .
-Her research interests include modeling and performance analysis of network protocols , media access control , and Quality of Service for IP and wireless network technologies .
-His present research interests are in self organization of sensor networks , multimedia communications and networking , and source and channel coding for wireless communications .

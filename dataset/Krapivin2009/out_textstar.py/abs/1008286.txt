@@ -1,4 +1,0 @@
-The exposition uses the terminology of [HMP94].
-(T 3 ) is established from (T 2 ) by applying U - CSS for - 2 with l - 2 An implementation with ignition detection After the initial implementation, GB 1 can be refined in the traditional TTS framework.
-The advantage of the combined approach becomes obvious if we compare with the solution in the single DC framework in [RRH93], and the solution in the single TLTL framework in [Lam93]: specifications of the system at different levels are simpler and better structured; the proofs of the correctness of the systems at different levels are easier as they directly reflect the structural induction of each step in the refinement/implementation, and concrete states (e.g., at a lower level are reasoned about in the same way as the corresponding abstract state (e.g., Leak in GB 1 ) at a higher level.
-Again, we do not see major technical problems in such a consolidation effort.

@@ -1,9 +1,0 @@
-packet loss
-interference packet
-transmission power
-little effect
-wlan performance
-channel model
-Bluetooth
-bad case
-sink device

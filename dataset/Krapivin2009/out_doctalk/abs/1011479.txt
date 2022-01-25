@@ -1,8 +1,0 @@
-The resulting implicit definition of a specification neither guarantees existence nor uniqueness unless \ Phi is of a certain form 1 .
-The outline of this paper is as follows .
-Moreover , the proposed technique is expected to be applicable to various other object - oriented languages and programming logics .
-Denotational model of the object calculus In this section we describe a most simple denotational semantics for functional and imperative object calculi within the category PreDom of predomains and partial continuous functions .
-2.1 Preliminaries When specifying the recursive types needed for the interpretation of object calculi we often have to employ record type formation in the following sense .
-Conclusions We have shown that a denotational approach to programming logics for object calculi leads to a better understanding of the implicit recursion of object specifications and their reasoning principles .
-Recursive methods can be programmed in the object calculus without explicit recursion due to the recursive higher - order definition of the underlying store .
-Such a rather liberal usage of higher - order store needs to be modelled by different domain equations and thus needs different treatment altogether .

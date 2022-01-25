@@ -1,7 +1,0 @@
-More precisely, the following exact security result holds.
-Theorem 1.
-On query to the decryption oracle, decryption oracle simulation DS looks at each query-answer G-List and (ffi; H H-List.
-For each pair taken from both lists, it defines and checks whether As soon as both equalities hold, DS outputs [-] n .
-If no such pair is found, "Reject" is returned.
-5.1.4 Remarks.
-Theorem 8.

@@ -1,8 +1,0 @@
-Introduction A logical framework is a formal logic with an associated methodology that is employed for representing and using other logics , theories , and , more generally , formal systems .
-For exam - ple , that the representation preserves appropriate kinds of structure and that there is a small conceptual distance between the object logic and its representation and use in the framework logic .
-To compare logical frameworks and analyze their eectiveness , it is helpful to make further distinctions concerning their intended application .
-An alternative approach is to formalize theories directly using inductive denitions in a frame - work logic or framework theory that is strong enough to formalize the corresponding induction principles .
-They are user - denable as an algebraic data type satisfying equational axioms , so that rewriting deduction takes place modulo such axioms .
-Conditional membership equations then directly support the representation of rules as schemas , which is typically used in presenting logics and formal systems .
-This entry point is the predened module META - LEVEL , which provides the user with the functionality necessary to exploit the universal theory for rewriting logic .
-To begin with , it is a central metatheorem that holds for many Hilbert systems and justies proof under temporary assumption in the manner of a natural deduction proof system .

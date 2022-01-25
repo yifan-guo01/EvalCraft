@@ -1,8 +1,0 @@
-All their communication is observed by the adversary (the warden), who will thwart their plan by transferring them to a high-security prison as soon as he detects any sign of a hidden message.
-If later an illegal copy is found, the copyright owner can identify the buyer by decoding the hidden information ("traitor tracing") [NFC94, PS96, PW97].
-A common model and terminology for information hiding has been established at the 1996 Information Hiding Workshop [Pfi96].
-We hope that it can serve also as a starting point for further work to formalize active adversaries or computational security.
-Alice can use the techniques described below for embedding information; however, to achieve robustness against active adversaries who modify the image, more sophisticated coding methods are necessary (see e.g. [CKLS96]).
-The above model tells us that we obtain a secure stegosystem whenever the stegotext distribution is close to the covertext distribution without knowledge of the key.
-The stegosystem based on Willems' algorithm exploits the fact that the average repetition time of a block Y yields an estimate of its probability since it will converge to P Y (y) \Gamma1 .
-However, it seems that the information-theoretic model and other statistical approaches will ultimately be more useful for deriving statements about the security of information hiding schemes-and a formal security notion is one of the main reasons for introducing a mathematical model of steganography.

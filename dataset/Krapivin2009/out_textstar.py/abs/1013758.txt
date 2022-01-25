@@ -1,3 +1,0 @@
-Proof.
-# We notice that the forgetful functor B(X) # Set is also monoidal closed, i.e.
-sends# to - and -# to #.

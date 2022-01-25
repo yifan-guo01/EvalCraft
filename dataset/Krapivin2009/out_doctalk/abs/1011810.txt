@@ -1,8 +1,0 @@
-A WIDER VIEW Most work in distributed algorithms assumes that agents in a system are computationally powerful , capable of storing non-trivial amounts of data and carrying out complex calculations .
-Each sensing unit is a self - contained physical package including its own power supply , processor and memory , wireless communication capability , and one or more sensors capable of recording information about the local environment of the unit .
-Sensing units are designed to be deployed in large groups , using local low - power wireless communication between units to transmit information from the sensors back to a base station or central monitoring site .
-Research in sensor networks has begun to explore the possibilities for using distributed computation capabilities of networks of sensors in novel ways to reduce communication costs .
-Putting together the base functions and closure results , we can define an expression language such that the expressible predicates are stably computable by population protocols .
-A population protocol step can be simulated by drawing two elements of the multiset , applying the transition function and returning the resulting two elements to the multiset .
-A concept of enforced locality using membranes to confine subsolutions allows the machines to implement classical process calculi or concurrent generalizations of the lambda calculus .
-ACKNOWLEDGMENTS The authors wish to thank Richard Yang for valuable advice regarding these ideas , David Eisenstat for the parity construction and other discussions , and the anonymous reviewers for their thoughtful comments and suggestions .

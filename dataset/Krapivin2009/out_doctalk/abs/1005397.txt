@@ -1,8 +1,0 @@
-Representing the zoo world and the traffic world in the language of the causal calculator .
-Introduction The work described in this report is motivated by the desire to test the expressive possibilities of action language C + introduced in the companion paper .
-The two test domains discussed in this paper , the Zoo World and the Tra - c World , have been proposed by Erik Sandewall in his Logic Modelling Workshop environment for communicating axiomatizations of action domains of nontrivial size .
-Actions in this domain include moving within and between cages , opening and closing gates , and mounting and riding animals .
-The Tra - c World includes vehicles moving continuously between road crossings subject to a number of restrictions , such as speed limits and keeping a xed safety distance away from other vehicles on the road .
-Actions in the world may include movement within and between cages , opening and closing gates , feeding the animals , one animal killing and eating another , riding animals , etc. area consists of a large number of positions .
-structure in the TRAFFIC world uses only one sort : Cars , which are intuitively thought of as driving along the arcs in the TRAFFIC landscape structure .
-Such action preconditions are accompanied by corresponding state constraints when needed , prohibiting , for instance , states in which several humans are mounted on a single animal .

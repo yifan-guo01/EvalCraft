@@ -1,8 +1,0 @@
-The simplest examples where the simplex method cycles and conditions where expand fails to prevent cycling .
-The simple proof of finiteness of the simplex algorithm relies on a strict improvement in the objective function at each iteration and the fact that the simplex method visits only basic solu - tions , of which there are a finite number .
-A related issue is the behaviour of the simplex algorithm in the presence of roundoff error .
-At a degenerate vertex there is a serious danger of selecting pivots which are small and have a high relative error .
-Lexicographic ordering : These methods are guaranteed to terminate in exact arithmetic but are often prohibitively expensive to implement for the revised simplex method and do not address the problem of inexact arithmetic .
-Constraint perturbation methods and feasible set enlargement methods : These method attempt to reduce the likelyhood of cycling and also attempt to improve the numerical behaviour and reduce the number of iterations .
-However the method seems to be effective in practice in reducing the number of iterations taken , and variants of it are used in some commercial codes .
-This second tie break rule therefore breaks the 2/6 - cycle pattern if the pivot size criterion does not determine the pivot row .

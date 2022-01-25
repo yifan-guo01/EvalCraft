@@ -1,8 +1,0 @@
-rule base
-recommender system
-product other
-mining model
-customer profile
-small number
-dependency network system
-simple method

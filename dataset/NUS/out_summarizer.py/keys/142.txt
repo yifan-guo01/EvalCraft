@@ -1,9 +1,0 @@
-database indistinguishable
-particular record
-query attribute
-access obfuscation
-correct value
-database privacy
-joint function
-algorithm a
-guess

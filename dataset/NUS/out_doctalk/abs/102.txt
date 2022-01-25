@@ -1,8 +1,0 @@
-Medical students need to imagine the wealth of spatial and functional correlations within the human body to master anatomy .
-Here , the visual realism of the model facilitates recognition on real encounters .
-Here , occludings by annotations and metagraphical symbols are annoying and may even interrupt the current manipulation for the user .
-Realization issues are subject of the subsequent section , whereas application examples and the summary conclude the paper .
-Fully rendered shadows of certain objects resemble real world mirrors and may be used to stres
-The event control allows the user to modify the parameters of a virtual camera and to select and manipulate geometric objects within the scene .
-This analysis reveals important concepts , their hierarchical classification , and the instance attribute values forming a complex semantic network .
-These initial activa tions also take the content presented on textual labels and inspected by the user into account .

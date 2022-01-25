@@ -1,7 +1,0 @@
-Operators need to be able to predict the effects of a configuration change before deployment in the live network.
-Consider X: The locally-best route is c, which has a higher MED value and the same next-hop AS as d, so eliminate c from the candidates at router X .
-Consider Y : The locally-best route is d. No other router has a locally-best route with smaller MED value and the same next-hop AS, so mark d as the best route and eliminate b.
-Consider X: The locally-best route among the remaining candidates is a, and no other routers have routes left, so mark a as a best route.
-Finally, we describe how the emulator can quickly predict the effects of incremental configuration changes.
-Router # Predictions Case 1 Case 2 Case 3 Total Errors  Table  5: Summary of errors for end-to-end validation.
-ulator.

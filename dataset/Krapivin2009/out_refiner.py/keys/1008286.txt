@@ -1,9 +1,0 @@
-transition system
-response property
-state predicate
-trajectory ae
-position p
-state variable
-link rule
-denote
-time unit

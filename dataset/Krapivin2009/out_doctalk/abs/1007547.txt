@@ -1,8 +1,0 @@
-INTRODUCTION Web based software systems ( e.g. web services ) are becoming increasingly important partly due to the wide use of the Web in electronic commerce .
-Static analysis techniques and especially model checking can be very valuable in ensuring the correctness and robustness of such systems before they are deployed .
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-However , SPIN is an explicit - state model checker , and may not scale to large data domains due to state - space explosion .
-The techniques presented in this paper apply to bounded XML data only , where the number of children of an XML node is always bounded .
-While the unranked tree automata model overcomes the problem of boundedness , the data semantics of leaf value nodes are lost in the modeling .
-XML documents can be modeled as trees where each internal node corresponds to a tag and leaf nodes correspond to basic type values .
-We implemented the algorithms in our WSAT tool , and verified several example systems including conversation protocols and BPEL4WS web services .

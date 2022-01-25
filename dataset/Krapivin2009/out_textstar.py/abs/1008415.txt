@@ -1,6 +1,0 @@
-e b) Next interval with e. e e ext.
-c) Next interval with previous.
-ext.
-Note that this e interval as well as other e intervals to be given later may be extended during the processing of the next original interval.
-In the gure, this is marked with an asterisk.
-The proof is a lengthy case analysis based on where the relevant intervals occur in the request sequence.

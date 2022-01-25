@@ -1,8 +1,0 @@
-Hiding information from active adversaries is a different problem since the existence of a hidden message is publicly known, such as in copyright protection schemes.
-If later an illegal copy is found, the copyright owner can identify the buyer by decoding the hidden information ("traitor tracing") [NFC94, PS96, PW97].
-Similar to cryptography, it is assumed that the adversary Eve has complete information about the system except for a secret shared by Alice and Bob that guarantees the security.
-The entropy of a random variable X with probability distribution PX and alphabet X is defined as The conditional entropy of X conditioned on a random variable Y is denotes the entropy of the conditional probability distribution P XjY =y .
-The above model tells us that we obtain a secure stegosystem whenever the stegotext distribution is close to the covertext distribution without knowledge of the key.
-The embedding function (if Alice is active) consists of the bitwise XOR of the particular n-bit message e and K, thus and Bob can decode by computing K.
-The stegosystem based on Willems' algorithm exploits the fact that the average repetition time of a block Y yields an estimate of its probability since it will converge to P Y (y) \Gamma1 .
-However, it seems that the information-theoretic model and other statistical approaches will ultimately be more useful for deriving statements about the security of information hiding schemes-and a formal security notion is one of the main reasons for introducing a mathematical model of steganography.

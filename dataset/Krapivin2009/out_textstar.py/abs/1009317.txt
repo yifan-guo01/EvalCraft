@@ -1,8 +1,0 @@
-We now give an example to illustrate the notion of "matchability."
-# Property 3.2 (correctness of dimension analysis) c p is matchable with c g i# c p is c g , an ancestor of c g , a descendant of c g , or it is a sibling of c g or of some descendant of c g .
-Rationale.
-For the "only if ": Suppose c p is matchable with c g .
-Two cases arise: (a) c g and c p have no solid-mismatch.
-, Am , M , the H-tree is defined as follows.
-, D i d be d dimensions randomly picked from D 1 , .
-, Dm , where (2) let a i 1 , .

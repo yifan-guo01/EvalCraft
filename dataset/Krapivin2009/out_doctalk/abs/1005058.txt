@@ -1,8 +1,0 @@
-Introduction Customers on the web are often overwhelmed with options and flooded with promotional messages for products or services they neither need nor want .
-Employing a recommender system as part of a site 's Customer Relationship Management ( CRM ) activities can overcome the problems associated with providing users with too little information , or too much of the wrong information .
-Our solutions are purposely for the current customers and current products - recommendations for new customers and new products are out of the scope of this paper .
-The deregulation of previously protected industries has also led to increased competition for many companies , who now seek to improve their service quality and customer loyalty .
-High volume , standardized products or highly recognized brands are the most likely to see significant benefits from using a simple search utility as a recommender system .
-On the other hand , the sparseness may result in shortened recommendation times with the implementation of the sparse matrix operations for calculating similarities .
-Association mining is best used to perform traditional market basket analysis where the rule discovery is conducted to uncover the associations between various products .
-As indicated in previous sections , association mining has been used successfully as a recommender system and experimental results for the traditional association mining recommender system are reported .

@@ -1,4 +1,0 @@
-Algorithms
-for large scale genotyping microarrays.
-Bioinformatics,
-2003.

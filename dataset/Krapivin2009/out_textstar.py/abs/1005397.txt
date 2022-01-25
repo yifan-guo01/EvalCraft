@@ -1,6 +1,0 @@
-For instance, grounding turns G=G1 in the schema constraint into > when G and G1 are instantiated by the same object, and into ?
-otherwise  9.
-Transitive closure can be characterized by a causal theory that is not denite in the sense of [ Giunchiglia et al., 2003, Section 2.6 ] , or by a denite causal theory using some auxiliary constants.
-An animal can't move to a position it's already in.
-We also added a number of action preconditions that might conceivably be relaxed, among them are the following.
-This restriction may seem reasonable enough in itself, but we in particular wanted to rule out the possibility that two humans could attempt to mount one another, simultaneously, with the result that they would wind up switching positions.

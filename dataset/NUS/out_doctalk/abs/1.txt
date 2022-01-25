@@ -1,8 +1,0 @@
-Subtleties arise since the success of this mechanism depends on restricting the given sources , and so recursion constantly changes the original sources .
-These are resolved via a new construct , in between a disperser and an extractor , which behaves like an extractor on sufficiently large subsources of the given ones .
-The extraction task is to design efficient algorithms ( called extractors ) to convert this entropy into useful form , namely a sequence of independent unbiased bits .
-We then move to the context of extractors and disperser , describing the relevant background and stating our result in this language .
-A standard transformation of these graphs also yields polynomial time computable ordinary Ramsey Graphs with the same parameters .
-This fixing keeps the restricted sources independent and loses only O ( m ) entropy .
-OPEN PROBLEMS Better Independent Source Extractors A bottleneck to improving our disperser is the block versus general source extractor of Theorem 2.7 .
-Randomness conductors and constant degree lossless expanders .

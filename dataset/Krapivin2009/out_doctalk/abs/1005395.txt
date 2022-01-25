@@ -1,8 +1,0 @@
-Of central importance to such a representation is a precise analysis of the semantics of actions , events and temporal relations .
-Representations of time within formal languages can be readily divided into three main approaches : Explicit reference to time points and a temporal ordering relation .
-Explicit reference to temporal intervals and the temporal relationships between them ( which implicitly constrain the ordering of the end - points of the intervals ) .
-The transition account of events can be handled very nicely within the general framework of modal logics , where a class of state transitions can be regarded as an accessibility relation .
-The ability to refer directly to indivindual event instances is undoubtably useful for representing certain kinds of knowledge .
-SconfP gives strict con uence in the past : every two distinct histories agree up to and including some time point and after that point they never coincide .
-5.2 The Semantic Denotation Function We now specify the semantic denotation for all meaningful expressions of VEL using standard set theory and quantication as a meta - language .
-We believe that our analysis accords well with many natural language con - structs , where tenses attach to the main verb and do not usually depend on temporal relative clauses .

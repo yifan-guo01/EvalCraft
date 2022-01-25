@@ -1,5 +1,0 @@
-This makes such protocols specifically vulnerable to denial of service attacks, as the execution time of the protocol is determined by the slowest member of the group.
-One way to solve this problem, explored by Amir et al.
-Recently, Amir et al.
-Furthermore, as GCSs rely on timeouts to detect crashes, this approach is not purely asynchronous and subject to timing attacks.
-fs derived from !.

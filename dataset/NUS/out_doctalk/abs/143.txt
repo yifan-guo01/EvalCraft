@@ -1,8 +1,0 @@
-To copy otherwise , to republish , to post on servers or to redistribute to lists , requires prior specific permission and / or a fee .
-P2P systems can be considered the natural evolution of traditional data integration systems , which have received considerable attention in the last few years , and which have already become a key technology for managing enormous amounts of information dispersed over many data sources .
-In this paper , we continue along this latter line of research , by investigating some important theoretical issues .
-Indeed , the first and almost isolated attempt is in [ 5 ] , where the authors considered trust relationships among peers in a simplified setting in which the system does not transitively propagate information through peers .
-In this paper , we face the above issues by introducing a formal framework for reasoning about autonomous peers that exploit individual preference criteria in repairing data .
-This analysis is a fundamental premise to devise effective and optimized implementations .
-We conclude by noticing that an avenue of further research is to consider more sophisticated peer agreement semantics , besides the Pareto like approach described here .
-The INFOMIX system for advanced integration of incomplete and inconsistent data .

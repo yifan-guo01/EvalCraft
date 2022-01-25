@@ -1,9 +1,0 @@
-cycle example
-first iteration
-variable value
-large pivot
-x column
-simplex method
-expand method
-show
-basic variable value

@@ -1,8 +1,0 @@
-A single VEL formula can contain time point and interval variables as well as tenses (though it truns out, unsurprisingly, that all of these constructs are in fact reducible to logically equivalent expressions involving just time points and the temporal ordering relation).
-In speciying the semantics for events we shall neet to refer to the interval in which an event occurs; however, an interval [s:::f ] alone is not enough to locate the event within the branches of the structure: we must also take into account the history on which it occurs.
-Syntactic R^oles of Event Types: Expressions of the category of event type can combine with other expressions in various dierent ways.
-In order that the logic of count nouns and events interacts exibly with the logic of the Holds-at predicate we also need constructs for shifting the point of evaluation of these expressions to a given time point.
-As well as the event type tense operators, which turn event types into (tensed) propositions, we also specify expressions operating on event types to produce compound event types.
-In some cases we want to refer to compound events which are concatenations of simpler events.
-The Situation Calculus is based on an assumption that when an action is performed in a given state then a unique state will result; but within our model of states and events there may be many dierent 'situations' which could be the result of a given action because any given event type can occur in a various dierent ways.
-We have given a precise formal semantics for a very expressive temporal language (VEL), which is capably of describing events in a variety of dierent ways.

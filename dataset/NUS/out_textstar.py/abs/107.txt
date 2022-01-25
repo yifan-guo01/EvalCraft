@@ -1,3 +1,0 @@
-The C programming language
-.
-[19] X. Leroy.

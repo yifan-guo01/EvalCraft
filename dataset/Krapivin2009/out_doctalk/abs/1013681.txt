@@ -1,8 +1,0 @@
-In many cells from a certain type of tumor , small end segments of chromosome 1 of varying lengths are deleted .
-This suggests the conjecture of a tumor suppressor gene located in the shortest missing segment .
-This putative suppressor gene is knocked out only if it is absent or damaged on the partner chromosome , too .
-Therefore one wishes to identify a gene in that region which exhibits fatal mutations on the partner chromosome in the available examples of tumor cells but works properly in healthy control cells .
-Under the conjecture of a single suppressor gene , this target gene must be to the right of all observed breakpoints .
-Since this is a vague description of an optimization problem , let us formulate the problem in a more abstract way that also allows several generalizations .
-In practice one has to approximate such continuous schedules by ne - grained allocation of time slots according to the prescribed fractions .
-Note that parameter estimation in statistics and typical machine learning problems are of similar nature .
