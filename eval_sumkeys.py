@@ -30,9 +30,9 @@ if SYSTEM == "DOCTALK":
   from doctalk.params import talk_params
 
 if SYSTEM == "STANZAGRAPHS":
-  #from StanzaGraphs.summarizer import *
+  from StanzaGraphs.summarizer import *
   #from StanzaGraphs.refiner import *
-  from StanzaGraphs.textstar.textstar import *
+  # from StanzaGraphs.textstar.textstar import *
 
 
 if SYSTEM == "TEXTRANK":
@@ -56,7 +56,7 @@ with_full_text = False
 match_sizes = False
 
 # sets max number of documents to be processed, all if None or 0
-max_docs = 50
+max_docs = 30
 
 show_errors=True
 
@@ -72,7 +72,7 @@ DIRECT=False
 
 #cnn_big
 
-data_dir = 'dataset/cnn_big/' 
+data_dir = 'dataset/Krapivin2009/' 
 doc_dir=data_dir+'docsutf8/'
 DIRECT=True
 
@@ -144,15 +144,15 @@ def clean_all() :
   os.makedirs(temp_dir,exist_ok=True)
   if not force : return
   if sys.platform != 'win32':
-  	#linux
-  	clean_path(out_abs_dir)
-  	clean_path(out_keys_dir)
-  	if force>1 : clean_path(temp_dir)
+    #linux
+    clean_path(out_abs_dir)
+    clean_path(out_keys_dir)
+    if force>1 : clean_path(temp_dir)
   else:
-  	#windows
-  	clean_path(out_abs_dir + '/docsutf8/')
-  	clean_path(out_keys_dir + '/docsutf8/')
-  	if force>1 : clean_path(temp_dir + '/docsutf8/')
+    #windows
+    clean_path(out_abs_dir + '/docsutf8/')
+    clean_path(out_keys_dir + '/docsutf8/')
+    if force>1 : clean_path(temp_dir + '/docsutf8/')
 
 def clean_temp() :
   if not force : return
@@ -226,17 +226,18 @@ def runWithTextAlt(fname,wk,sk, filter) :
 def runWithText_StanzaGraphs(fname, wk, sk):  
   fname = fname[:-4]
   print('runWithText_StanzaGraphs:',fname)
-  '''
+  
   # summarizer.py  
   nlp = Summarizer() #new
   nlp.from_file(fname)
   kws, _, sents, _ = nlp.info(wk, sk)
-  '''
+  
   '''
   #refiner.py
   
   nlp = process_file_with_sims(fname=fname)
   kws, _, sents, _ = nlp.info(wk, sk)
+  '''
   '''
   #textstar/textstar.py
   with open(fname + ".txt", 'r') as f:
@@ -249,7 +250,7 @@ def runWithText_StanzaGraphs(fname, wk, sk):
   sents = [s for _,s in sentids]
   print('runWithText_StanzaGraphs, kws:\n', kws)
   print('runWithText_StanzaGraphs, sents:\n', sents) 
-
+  '''
   return (kws,sents)
 
 def runWithPyTR(text,wk,sk,filter) :
@@ -640,6 +641,6 @@ def go() :
   
 
 if __name__ == '__main__' :
-  pass
-  #go()
+  # pass
+  go()
 

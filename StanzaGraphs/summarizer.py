@@ -5,7 +5,7 @@ from collections import defaultdict
 import networkx as nx
 
 import stanza
-
+import sys;sys.path.append("/Users/brockfamily/Documents/UNT/EvalCraft/StanzaGraphs/")
 from logic.visualizer import gshow
 from params import *
 from rankers import ranker_dict
