@@ -1,4 +1,4 @@
-## Project Description
+## Project Description (David's Branch)
 
 ** The system uses doctalk to build Text Graphs, extract relevant keyphrases, summaries from text documents
 Developed with Python 3.6, on Linux centos 7
