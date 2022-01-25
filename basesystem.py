@@ -2,6 +2,10 @@ import abc
 
 class BaseSystem(abc.ABC):
     @abc.abstractmethod
+    def __str__(self):
+        pass
+    
+    @abc.abstractmethod
     def process_text(self, text, summarize=True, key_words=True, sum_len=5, kwds_len=5):
         """
         Note: You must overwrite this method in your subclass!
@@ -29,8 +33,8 @@ class BaseSystem(abc.ABC):
           kwds_len: max number of key words/phrases
         
         Returns:
-          summary: The generated summary, or None
           key_words: The generated key words, or None
+          summary: The generated summary, or None
         
         Note: If not overwritten, this just calls process_text
         """

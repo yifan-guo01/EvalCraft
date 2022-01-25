@@ -25,7 +25,7 @@ trace_mode=False
 #SYSTEM = "TEXTRANK"
 # SYSTEM = "STANZAGRAPHS"
 SYSTEM = Textstar(
-  stanza_path="/Users/brockfamily/Documents/UNT/EvalCraft/StanzaGraphs/"
+  stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
 )
 
 
@@ -385,7 +385,8 @@ def process_file(i,path_file,full,wk,sk) :
   #     print(i,':',doc_file, 'nodes:', nk, 'edges:', ek)  # ,title)
   #     exabs = map(lambda x: interleave(' ', x), xss)
 
-  exabs, keys = SYSTEM.process_text(
+
+  keys, exabs = SYSTEM.process_text(
     text,
     summarize=True,
     key_words=True,
