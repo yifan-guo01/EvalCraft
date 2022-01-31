@@ -1,4 +1,5 @@
 import glob
+from pydoc import doc
 import sys
 import os
 import random
@@ -13,6 +14,7 @@ from textcrafts.sim import *
 
 from systems.textstar import Textstar
 from systems.stanzagraphs import StanzaGraphs
+from dataset.Krapivin2009 import Karpivin2009
 
 
 
@@ -25,8 +27,14 @@ trace_mode=False
 #SYSTEM = "TEXTCRAFT"
 #SYSTEM = "TEXTRANK"
 # SYSTEM = "STANZAGRAPHS"
-SYSTEM = StanzaGraphs(
+SYSTEM = Textstar(
   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
+)
+
+DATASET = Karpivin2009(
+  docs="dataset/Krapivin2009/docsutf8/*.txt",
+  sums="dataset/Krapivin2009/abs/docsutf8/*.txt",
+  kwds="dataset/Krapivin2009/keys/docsutf8/*.key"
 )
 
 
@@ -50,7 +58,7 @@ force=2
 # number of keyphrases and summary sentences
 #wk,sk=6,6
 #wk,sk=10,9
-wk,sk=10,8 #best
+wk,sk=14,9 #best
 
 
 
@@ -61,7 +69,7 @@ with_full_text = False
 match_sizes = False
 
 # sets max number of documents to be processed, all if None or 0
-max_docs = 1
+max_docs = 10
 
 show_errors=True
 
@@ -133,10 +141,26 @@ if max_docs :
 else :
   doc_files=all_doc_files
 
+
+
+print(doc_files)
+doc_files = [doc.doc_path for i, doc in zip(range(max_docs), DATASET)]
+print(doc_files)
+
+
+
 if sys.platform == 'win32' :
   key_files = glob.glob(keys_dir+"docsutf8/*.key") #windows
 else : 
   key_files = glob.glob(keys_dir+"/*.key") #linux
+
+
+
+print(key_files[:10])
+key_files = [doc.kwd_path for i, doc in zip(range(max_docs), DATASET)]
+print(key_files)
+
+
 
 keyfiles_count = len(key_files)
 print('keyfiles_count: ', keyfiles_count)
@@ -197,92 +221,92 @@ def disect_doc(doc_file) :
   return {'TITLE':title,'ABSTRACT':abstract,'BODY':body}
 
 # process string text give word count,sentence count and filter
-def runWithText(text,wk,sk,filter) :
-  gm=customGraphMaker()
-  gm.digest(text)
-  keys= gm.bestWords(wk)
-  sents=[s for (_,s) in gm.bestSentences(sk)]
-  #keys_text=interleave_with('\n','\n',keys)
-  #sents_text=interleave_with('\n','\n',sents)
-  #return (keys_text,sents_text)
-  nk=gm.nxgraph.number_of_nodes()
-  vk=gm.nxgraph.number_of_edges()
-  return (keys,sents,nk,vk)
+# def runWithText(text,wk,sk,filter) :
+#   gm=customGraphMaker()
+#   gm.digest(text)
+#   keys= gm.bestWords(wk)
+#   sents=[s for (_,s) in gm.bestSentences(sk)]
+#   #keys_text=interleave_with('\n','\n',keys)
+#   #sents_text=interleave_with('\n','\n',sents)
+#   #return (keys_text,sents_text)
+#   nk=gm.nxgraph.number_of_nodes()
+#   vk=gm.nxgraph.number_of_edges()
+#   return (keys,sents,nk,vk)
 
-def runWithTextAlt(fname,wk,sk, filter) :
-  params = talk_params()
-  params.top_sum=sk
-  params.max_sum = params.top_sum*(params.top_sum-1)/2
-  params.top_keys=wk  
-  params.max_keys = 1+2*params.top_keys
-  talker=Talker(from_file=fname,params=params)
-  ranked_sents=talker.get_summary()
-  keys=talker.get_keys()
-  def clean_sents():
-    for r, s, ws in ranked_sents:
-      yield ws
+# def runWithTextAlt(fname,wk,sk, filter) :
+#   params = talk_params()
+#   params.top_sum=sk
+#   params.max_sum = params.top_sum*(params.top_sum-1)/2
+#   params.top_keys=wk  
+#   params.max_keys = 1+2*params.top_keys
+#   talker=Talker(from_file=fname,params=params)
+#   ranked_sents=talker.get_summary()
+#   keys=talker.get_keys()
+#   def clean_sents():
+#     for r, s, ws in ranked_sents:
+#       yield ws
 
-  #print('!!!KEYS',keys)
-  #print('!!!SENT',list(clean_sents()))
-  keys=nice_keys(keys)
-  return (keys,clean_sents(),talker.g.number_of_nodes(),talker.g.number_of_edges())
+#   #print('!!!KEYS',keys)
+#   #print('!!!SENT',list(clean_sents()))
+#   keys=nice_keys(keys)
+#   return (keys,clean_sents(),talker.g.number_of_nodes(),talker.g.number_of_edges())
 
 
-def runWithText_StanzaGraphs(fname, wk, sk):  
-  fname = fname[:-4]
-  print('runWithText_StanzaGraphs:',fname)
-  '''
-  # summarizer.py  
-  nlp = Summarizer() #new
-  nlp.from_file(fname)
-  kws, _, sents, _ = nlp.info(wk, sk)
-  '''
-  '''
-  #refiner.py
+# def runWithText_StanzaGraphs(fname, wk, sk):  
+#   fname = fname[:-4]
+#   print('runWithText_StanzaGraphs:',fname)
+#   '''
+#   # summarizer.py  
+#   nlp = Summarizer() #new
+#   nlp.from_file(fname)
+#   kws, _, sents, _ = nlp.info(wk, sk)
+#   '''
+#   '''
+#   #refiner.py
   
-  nlp = process_file_with_sims(fname=fname)
-  kws, _, sents, _ = nlp.info(wk, sk)
-  '''
+#   nlp = process_file_with_sims(fname=fname)
+#   kws, _, sents, _ = nlp.info(wk, sk)
+#   '''
   
-  #textstar/textstar.py
-  with open(fname + ".txt", 'r') as f:
-    text = f.read()
-  sentids, kws = process_text(
-        text=text,
-        ranker=nx.pagerank,
-        kwsize=wk,
-        sumsize=sk)
-  sents = [s for _,s in sentids]
-  print('runWithText_StanzaGraphs, kws:\n', kws)
-  print('runWithText_StanzaGraphs, sents:\n', sents) 
+#   #textstar/textstar.py
+#   with open(fname + ".txt", 'r') as f:
+#     text = f.read()
+#   sentids, kws = process_text(
+#         text=text,
+#         ranker=nx.pagerank,
+#         kwsize=wk,
+#         sumsize=sk)
+#   sents = [s for _,s in sentids]
+#   print('runWithText_StanzaGraphs, kws:\n', kws)
+#   print('runWithText_StanzaGraphs, sents:\n', sents) 
   
-  return (kws,sents)
+#   return (kws,sents)
 
-def runWithPyTR(text,wk,sk,filter) :
+# def runWithPyTR(text,wk,sk,filter) :
 
-  talker=Talker(from_file=fname)
-  ranked_sents,keys=talker.extract_content(sk,wk)
+#   talker=Talker(from_file=fname)
+#   ranked_sents,keys=talker.extract_content(sk,wk)
 
-  def clean_sents():
-    for r, s, ws in ranked_sents:
-      yield ws
+#   def clean_sents():
+#     for r, s, ws in ranked_sents:
+#       yield ws
 
-  #print('!!!KEYS',keys)
-  #print('!!!SENT',list(clean_sents()))
-  keys=nice_keys(keys)
-  return (keys,clean_sents(),talker.g.number_of_nodes(),talker.g.number_of_edges())
+#   #print('!!!KEYS',keys)
+#   #print('!!!SENT',list(clean_sents()))
+#   keys=nice_keys(keys)
+#   return (keys,clean_sents(),talker.g.number_of_nodes(),talker.g.number_of_edges())
 
 
 
 #  extract the gold standard abstracts from dataset  
-def fill_out_abs() :
-   for doc_file in doc_files :
-     d=disect_doc(doc_file)
-     abstract=d['ABSTRACT']
-     text=''.join(abstract)
-     abs_file=abs_dir+dr.path2fname(doc_file)
-     print('abstract extraced to: ',abs_file)
-     string2file(abs_file,text)
+# def fill_out_abs() :
+#    for doc_file in doc_files :
+#      d=disect_doc(doc_file)
+#      abstract=d['ABSTRACT']
+#      text=''.join(abstract)
+#      abs_file=abs_dir+dr.path2fname(doc_file)
+#      print('abstract extraced to: ',abs_file)
+#      string2file(abs_file,text)
 
      
 # turns a sequence/generator into a file, one line per item yield     
@@ -328,42 +352,42 @@ def interleave_with(sep,end,xs) :
       
   return ''.join(gen())
 
-def process_file(i,path_file,full,wk,sk) :
-  doc_file = dr.path2fname(path_file)
+def process_file(i,document,full,wk,sk):
+  doc_file = document.name + ".txt"
   kf = out_keys_dir + doc_file
   af = out_abs_dir + doc_file
 
-  if keyfiles_count > 0:
-    gold_kf = keys_dir + doc_file.replace('.txt','.key')
-  gold_af = abs_dir + doc_file
+  # if keyfiles_count > 0:
+  #   gold_kf = keys_dir + doc_file.replace('.txt','.key')
+  # gold_af = abs_dir + doc_file
 
-  if match_sizes:
-    if keyfiles_count > 0:
-      gold_k=file2string(gold_kf).count('\n')
-      if gold_k>1: wk=gold_k+0 #max(wk,gold_k)
-    gold_a=file2string(gold_af).count('.')
-    if gold_a > 1: sk = gold_a+0 # min(sk,gold_a)
-    #print('!!!', wk, sk)
+  # if match_sizes:
+  #   if keyfiles_count > 0:
+  #     gold_k=file2string(gold_kf).count('\n')
+  #     if gold_k>1: wk=gold_k+0 #max(wk,gold_k)
+  #   gold_a=file2string(gold_af).count('.')
+  #   if gold_a > 1: sk = gold_a+0 # min(sk,gold_a)
+  #   #print('!!!', wk, sk)
 
-  if not force and exists_file(kf) and exists_file(af) :
-    print('SKIPPING ALREADY PROCESSED:',doc_file)
-    return
+  # if not force and exists_file(kf) and exists_file(af) :
+  #   print('SKIPPING ALREADY PROCESSED:',doc_file)
+  #   return
 
-  if DIRECT :
-    text = file2string(path_file)
-    #print('path_file:', path_file)
-    if(text == None): return
-  else :
-    d = disect_doc(path_file)
-    title = d['TITLE']
-    abstract = d['ABSTRACT']
-    body = d['BODY']
-    text_no_abs = ''.join(title + [' '] + body)
+  # if DIRECT :
+  #   text = file2string(path_file)
+  #   #print('path_file:', path_file)
+  #   if(text == None): return
+  # else :
+  #   d = disect_doc(path_file)
+  #   title = d['TITLE']
+  #   abstract = d['ABSTRACT']
+  #   body = d['BODY']
+  #   text_no_abs = ''.join(title + [' '] + body)
 
-    if full:
-      text = ''.join(title + [' '] + abstract + [' '] + body)
-    else:
-      text = ''.join(title + [' '] + body)
+  #   if full:
+  #     text = ''.join(title + [' '] + abstract + [' '] + body)
+  #   else:
+  #     text = ''.join(title + [' '] + body)
 
 
   # if SYSTEM == "TEXTRANK":
@@ -386,9 +410,8 @@ def process_file(i,path_file,full,wk,sk) :
   #     print(i,':',doc_file, 'nodes:', nk, 'edges:', ek)  # ,title)
   #     exabs = map(lambda x: interleave(' ', x), xss)
 
-
   keys, exabs = SYSTEM.process_text(
-    text,
+    document.as_text(),
     summarize=True,
     key_words=True,
     sum_len=sk,
@@ -403,14 +426,14 @@ def process_file(i,path_file,full,wk,sk) :
 def extract_keys_and_abs(full,wk,sk,show_errors=show_errors) :
   clean_all()
   
-  for i,path_file in enumerate(doc_files) :
+  for i, document in zip(range(max_docs), DATASET):
     if show_errors:
-      process_file(i,path_file, full, wk, sk)
+      process_file(i, document, full, wk, sk)
     else:
       try :
-        process_file(i,path_file, full, wk, sk)
+        process_file(i, document, full, wk, sk)
       except :
-        print('*** FAILING on:',path_file,'ERROR:',sys.exc_info()[0])
+        print('*** FAILING on:', document, 'ERROR:', sys.exc_info()[0])
   
 # apply Python base rouge to abstracts from given directory
 def eval_with_rouge(i) :

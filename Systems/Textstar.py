@@ -1,9 +1,9 @@
-from basesystem import BaseSystem
+from base_classes import NLPSystem
 import sys
 import networkx as nx
 
 
-class Textstar(BaseSystem):
+class Textstar(NLPSystem):
     def __init__(self, stanza_path, ranker=nx.pagerank, trim=80):
         """
         Args:

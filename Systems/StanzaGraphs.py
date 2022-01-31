@@ -1,8 +1,8 @@
 import sys
-from basesystem import BaseSystem
+from base_classes import NLPSystem
 import os
 
-class StanzaGraphs(BaseSystem):
+class StanzaGraphs(NLPSystem):
     def __init__(self, stanza_path):
         """
         Args:
