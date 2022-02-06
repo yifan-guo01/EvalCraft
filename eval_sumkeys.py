@@ -23,10 +23,9 @@ from dataset.Krapivin2009 import Karpivin2009
 trace_mode=False
 
 # choice of processor
-#SYSTEM = "DOCTALK"
-#SYSTEM = "TEXTCRAFT"
-#SYSTEM = "TEXTRANK"
-# SYSTEM = "STANZAGRAPHS"
+# SYSTEM = StanzaGraphs(
+#   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
+# )
 SYSTEM = Textstar(
   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
 )
@@ -45,21 +44,6 @@ DATASET = Karpivin2009(
   include_abs=True
 )
 
-
-# if SYSTEM == "DOCTALK":
-#   from doctalk.talk import Talker, nice_keys
-#   from doctalk.params import talk_params
-
-# if SYSTEM == "STANZAGRAPHS":
-#   # from StanzaGraphs.summarizer import *
-#   #from StanzaGraphs.refiner import *
-#   from StanzaGraphs.textstar.textstar import *
-
-
-# if SYSTEM == "TEXTRANK":
-#    from tr import keys_and_abs
-
-
 # 2 forces deletion of json in temp_dir, 1=forces deletion of keys+abs
 force=2
 
@@ -69,32 +53,11 @@ force=2
 # wk,sk=14,9 #best
 wk, sk = 10, 8
 
-
-# if true abstracts are not trimmed out from documents
-# with_full_text = False
-
 # sizes of silver abs and keys will match sizes in gold
 # match_sizes = False
 
-# sets max number of documents to be processed, all if None or 0
-max_docs = DATASET.count
-
 show_errors=True
 
-'''
-#Krapivin2009
-data_dir = 'dataset/Krapivin2009/'
-doc_dir=data_dir+'docsutf8/'
-# True, parse text file in doc_dir directory
-# False, collect special sections from doc_dir directory into temp_dir
-DIRECT=False
-'''
-
-
-#cnn_big
-
-# data_dir = 'dataset/Krapivin2009/' 
-# doc_dir=data_dir+'docsutf8/'
 DIRECT=True
 
 
@@ -125,38 +88,9 @@ data_dir = 'dataset/PubMed/'
 doc_dir=data_dir+'docsutf8/'
 DIRECT=True
 '''
-# keys_dir=''
-# abs_dir=''
-# print('sys.platform:', sys.platform )
-# if sys.platform == 'win32' : #windows
-#   keys_dir=data_dir+'keys/'
-#   abs_dir=data_dir+'abs/'
-# else : #linux
-#   keys_dir=data_dir+'keys/docsutf8/'
-#   abs_dir=data_dir+'abs/docsutf8/'
-# print('keys_dir:', keys_dir)
-# print('abs_dir:', abs_dir)
-# out_dir =  data_dir + "out/"
-# out_abs_dir  = out_dir + "abs/"
-# out_keys_dir = out_dir + "keys/"
-# temp_dir = data_dir + 'temp_docs/'
-# all_doc_files = sorted(glob.glob(doc_dir+"*.txt"))
-# print('doc_dir:', doc_dir)
-# print('total articles:', len(all_doc_files))
 
-# if max_docs :
-#   doc_files=list(islice(all_doc_files,max_docs))
-# else :
-#   doc_files=all_doc_files
-
-
-# if sys.platform == 'win32' :
-#   key_files = glob.glob(keys_dir+"docsutf8/*.key") #windows
-# else : 
-#   key_files = glob.glob(keys_dir+"/*.key") #linux
-
-keyfiles_count = DATASET.count
-print('keyfiles_count: ', keyfiles_count)
+if DATASET.has_kwds:
+  print('keyfiles_count: ', DATASET.count)
 
 # clean output directories
 def clean_all() :
@@ -345,64 +279,10 @@ def interleave_with(sep,end,xs) :
       
   return ''.join(gen())
 
-# def process_file(i,document,full,wk,sk):
 def process_file(document,wk,sk):
   doc_file = document.fname
   kf = out_keys_dir + doc_file
   af = out_abs_dir + doc_file
-
-  # if keyfiles_count > 0:
-  #   gold_kf = keys_dir + doc_file.replace('.txt','.key')
-  # gold_af = abs_dir + doc_file
-
-  # if match_sizes:
-  #   if keyfiles_count > 0:
-  #     gold_k=file2string(gold_kf).count('\n')
-  #     if gold_k>1: wk=gold_k+0 #max(wk,gold_k)
-  #   gold_a=file2string(gold_af).count('.')
-  #   if gold_a > 1: sk = gold_a+0 # min(sk,gold_a)
-  #   #print('!!!', wk, sk)
-
-  # if not force and exists_file(kf) and exists_file(af) :
-  #   print('SKIPPING ALREADY PROCESSED:',doc_file)
-  #   return
-
-  # if DIRECT :
-  #   text = file2string(path_file)
-  #   #print('path_file:', path_file)
-  #   if(text == None): return
-  # else :
-  #   d = disect_doc(path_file)
-  #   title = d['TITLE']
-  #   abstract = d['ABSTRACT']
-  #   body = d['BODY']
-  #   text_no_abs = ''.join(title + [' '] + body)
-
-  #   if full:
-  #     text = ''.join(title + [' '] + abstract + [' '] + body)
-  #   else:
-  #     text = ''.join(title + [' '] + body)
-
-
-  # if SYSTEM == "TEXTRANK":
-  #   (keys,exabs) = keys_and_abs(text,wk,sk)
-  #   print(i, ':', doc_file)
-
-  # else :
-  #   temp_file = temp_dir + doc_file
-  #   string2file(temp_file, text)
-  #   if SYSTEM == "DOCTALK" :
-  #     (keys, xss, nk, ek) = runWithTextAlt(temp_file, wk, sk, dr.isWord)
-  #   elif SYSTEM == "STANZAGRAPHS" :
-  #     (keys, xss) = runWithText_StanzaGraphs(temp_file, wk, sk)
-  #     exabs = xss
-  #     print('keys:\n', keys)
-  #     print('abs:\n', xss)
-  #   elif SYSTEM == "TEXTCRAFT" :
-  #     (keys, xss, nk, ek) = runWithText(text, wk, sk, dr.isWord)
-  #   if SYSTEM != "STANZAGRAPHS" :
-  #     print(i,':',doc_file, 'nodes:', nk, 'edges:', ek)  # ,title)
-  #     exabs = map(lambda x: interleave(' ', x), xss)
 
   keys, exabs = SYSTEM.process_text(
     document.as_text(),
@@ -417,17 +297,14 @@ def process_file(document,wk,sk):
 
 
 # extracts keys and abstacts from resource directory  
-# def extract_keys_and_abs(full,wk,sk,show_errors=show_errors) :
 def extract_keys_and_abs(wk,sk,show_errors=show_errors) :
   clean_all()
   
   for i, document in enumerate(DATASET):
     if show_errors:
-      # process_file(i, document, full, wk, sk)
       process_file(document, wk, sk)
     else:
       try :
-        # process_file(i, document, full, wk, sk)
         process_file(document, wk, sk)
       except :
         print('*** FAILING on:', document, 'ERROR:', sys.exc_info()[0])
@@ -438,18 +315,13 @@ def eval_with_rouge(i) :
   f=[]
   p=[]
   r=[]  
-  for document in DATASET: 
-    # fname=dr.path2fname(doc_file)
+  for document in DATASET:
     fname = document.fname
-    # ref_name=abs_dir+fname
     abs_name=out_abs_dir+fname
     #if trace_mode : print(fname)
-    # gold=file2string(ref_name)
     gold = document.summary()   
     silver=file2string(abs_name)
-    # if not gold:
-    #   print('gold file missing:', ref_name)
-    #   continue
+    
     if not silver:
       print('silver file missing:', abs_name)
       continue
@@ -488,18 +360,12 @@ def keys_with_rouge(i):
   p = []
   r = []
   for document in DATASET:
-    # fname = dr.path2fname(doc_file)
     fname = document.fname
-    # ref_name = keys_dir + fname
-    # ref_name=ref_name.replace('.txt','.key')
     abs_name = out_keys_dir + fname
     #if trace_mode : print(fname)
-    # gold = file2string(ref_name)
     gold = document.key_words()
     silver = file2string(abs_name)
-    # if not gold:
-    #   print('gold file missing:', ref_name)
-    #   continue
+    
     if not silver:
       print('silver file missing:', abs_name)
       continue
@@ -537,17 +403,12 @@ def eval_abs() :
   f=[]
   p=[]
   r=[]  
-  for document in DATASET : 
-    # fname=dr.path2fname(doc_file)
+  for document in DATASET :
     fname = document.fname
-    # ref_name=abs_dir+fname
     abs_name=out_abs_dir+fname
-    # gold=file2string(ref_name)
     gold = document.summary()
     silver=file2string(abs_name)
-    # if not gold:
-    #   print('gold file missing:', ref_name)
-    #   continue
+    
     if not silver:
       print('silver file missing:', abs_name)
       continue
@@ -582,18 +443,13 @@ def eval_keys() :
   f=[]
   p=[]
   r=[]  
-  for document in DATASET: 
-    # fname=dr.path2fname(doc_file)
+  for document in DATASET:
     fname = document.fname
-    # ref_name=keys_dir+fname
     keys_name=out_keys_dir+fname
-    #if trace_mode : print(fname)
-    # gold=file2string(txt2key(ref_name))   
+    #if trace_mode : print(fname) 
     gold = document.key_words()
     silver=file2string(keys_name)
-    # if not gold:
-    #   print('gold file missing:', ref_name)
-    #   continue
+    
     if not silver:
       print('silver file missing:', keys_name)
       continue
@@ -659,7 +515,7 @@ def go() :
     print(
           'wk',wk,'sk',sk,'\n'
           # 'with_full_text = ',with_full_text,'\n',
-          'max_docs = ',max_docs,'\n',
+          'docs = ', DATASET.count,'\n',
           'force = ', force, '\n'
           )
 
@@ -671,7 +527,7 @@ def go() :
 
   print('                Precision,          Recall,           F-Measure')
   
-  if keyfiles_count > 0:
+  if DATASET.has_kwds:
     eval_keys()
     keys_with_rouge(0)
 
