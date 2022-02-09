@@ -15,37 +15,10 @@ from textcrafts.sim import *
 from systems.textstar import Textstar
 from systems.stanzagraphs import StanzaGraphs
 from dataset.Krapivin2009 import Karpivin2009
+from dataset.cnn_big import CnnBig
 
 
 
-
-# shows moving averages if on
-trace_mode=False
-
-# choice of processor
-# SYSTEM = StanzaGraphs(
-#   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
-# )
-SYSTEM = Textstar(
-  stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
-)
-
-data_dir = 'dataset/Krapivin2009/'
-out_dir =  data_dir + "out/"
-out_abs_dir  = out_dir + "abs/"
-out_keys_dir = out_dir + "keys/"
-temp_dir = data_dir + 'temp_docs/'
-
-DATASET = Karpivin2009(
-  docs=data_dir + "docsutf8/*.txt",
-  sums=data_dir + "abs/docsutf8/*.txt",
-  kwds=data_dir + "keys/docsutf8/*.key",
-  count=30,
-  include_abs=True
-)
-
-# 2 forces deletion of json in temp_dir, 1=forces deletion of keys+abs
-force=2
 
 # number of keyphrases and summary sentences
 #wk,sk=6,6
@@ -53,12 +26,47 @@ force=2
 # wk,sk=14,9 #best
 wk, sk = 10, 8
 
-# sizes of silver abs and keys will match sizes in gold
-# match_sizes = False
+# max number of documents to process (None to process all)
+max_docs = 30
 
+# 2 forces deletion of json in temp_dir, 1=forces deletion of keys+abs
+force=2
+
+#Stop running on errors
 show_errors=True
 
-DIRECT=True
+# shows moving averages if on
+trace_mode=False
+
+# choice of NLP summarizer and key-word extractor
+# SYSTEM = StanzaGraphs(
+#   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
+# )
+SYSTEM = Textstar(
+  stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
+)
+
+# choice of dataset
+# DATASET = Karpivin2009(
+#   path="dataset/Krapivin2009/",
+#   count=max_docs,
+#   include_abs=True,
+#   direct=True
+# )
+DATASET = CnnBig(
+  path="dataset/cnn_big/",
+  count=max_docs
+)
+
+
+out_dir =  DATASET.path + "out/"
+out_abs_dir  = out_dir + "abs/"
+out_keys_dir = out_dir + "keys/"
+temp_dir = DATASET.path + 'temp_docs/'
+
+
+# sizes of silver abs and keys will match sizes in gold
+# match_sizes = False
 
 
 '''
@@ -129,23 +137,23 @@ def customGraphMaker():  # CHOICE OF PARSER TOOLKIT
   # return dr.GraphMaker(api_classname=CoreNLP_API)
 
 # extract triple (title,abstract,body) with refs trimmed out
-def disect_doc(doc_file) :
-  title=[]
-  abstract=[]
-  body=[]
-  mode=None
-  with open(doc_file) as f:
-    for line in f:
-      if line.startswith('--T')   : mode='TITLE'
-      elif line.startswith('--A') : mode ='ABS'
-      elif line.startswith('--B') : mode = 'BODY'
-      elif line.startswith('--R'): mode = 'DONE'
-      else :
-        if   mode=='TITLE': title.append(line.strip()+' ')
-        elif mode=='ABS'  : abstract.append(line.strip()+' ')
-        elif mode=='BODY' : body.append(line.strip()+' ')
-        elif mode=='DONE' : break
-  return {'TITLE':title,'ABSTRACT':abstract,'BODY':body}
+# def disect_doc(doc_file) :
+#   title=[]
+#   abstract=[]
+#   body=[]
+#   mode=None
+#   with open(doc_file) as f:
+#     for line in f:
+#       if line.startswith('--T')   : mode='TITLE'
+#       elif line.startswith('--A') : mode ='ABS'
+#       elif line.startswith('--B') : mode = 'BODY'
+#       elif line.startswith('--R'): mode = 'DONE'
+#       else :
+#         if   mode=='TITLE': title.append(line.strip()+' ')
+#         elif mode=='ABS'  : abstract.append(line.strip()+' ')
+#         elif mode=='BODY' : body.append(line.strip()+' ')
+#         elif mode=='DONE' : break
+#   return {'TITLE':title,'ABSTRACT':abstract,'BODY':body}
 
 # process string text give word count,sentence count and filter
 # def runWithText(text,wk,sk,filter) :
@@ -222,18 +230,6 @@ def disect_doc(doc_file) :
 #   #print('!!!SENT',list(clean_sents()))
 #   keys=nice_keys(keys)
 #   return (keys,clean_sents(),talker.g.number_of_nodes(),talker.g.number_of_edges())
-
-
-
-#  extract the gold standard abstracts from dataset  
-# def fill_out_abs() :
-#    for doc_file in doc_files :
-#      d=disect_doc(doc_file)
-#      abstract=d['ABSTRACT']
-#      text=''.join(abstract)
-#      abs_file=abs_dir+dr.path2fname(doc_file)
-#      print('abstract extraced to: ',abs_file)
-#      string2file(abs_file,text)
 
      
 # turns a sequence/generator into a file, one line per item yield     

@@ -1,3 +1,5 @@
 dataset/**/out
 dataset/**/temp_docs
 **.pyc
+.DS_Store
+**/.DS_Store

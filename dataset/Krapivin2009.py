@@ -8,18 +8,23 @@ class Karpivin2009(Dataset):
     has_sums = True
     has_kwds = True
 
-    def __init__(self, docs, sums, kwds, include_abs=False, count=None, order=Dataset.SORTED):
-        self.docs_path = docs
-        self.sums_path = sums
-        self.kwds_path = kwds
+    def __init__(self, path, include_abs=False,
+                 count=None, order=Dataset.SORTED, direct=False):
+        self.path = path
+        self.docs_path = path + "docsutf8/*.txt"
+        self.sums_path = path + "abs/docsutf8/*.txt"
+        self.kwds_path = path + "keys/docsutf8/*.key"
         self.include_abs = include_abs
         self.order = order
+        self.direct = direct
 
         fileCount = len(glob.glob(self.docs_path))
         if count is None:
             self.count = fileCount
         else:
             self.count = min(count, fileCount)
+        
+        assert not direct or include_abs, "If direct=True, include_abs must be True"
 
     def __str__(self):
         if self.include_abs:
@@ -44,31 +49,57 @@ class Karpivin2009(Dataset):
                 doc_path,
                 sum_path,
                 kwd_path,
-                include_abs=self.include_abs
+                include_abs=self.include_abs,
+                direct=self.direct
             )
 
 
 class Krapivin2009Doc(Document):
-    def __init__(self, doc_path, sum_path, kwd_path, include_abs=False):
+    has_summary = True
+    has_key_words = True
+    
+    def __init__(self, doc_path, sum_path, kwd_path, include_abs=False, direct=False):
         self.doc_path = doc_path
         self.sum_path = sum_path
         self.kwd_path = kwd_path
         self.include_abs = include_abs
+        self.direct = direct
 
         self.name = Path(doc_path).stem
         self.fname = Path(doc_path).name
     
     def __str__(self) -> str:
         if self.include_abs:
-            return "Krapivin2009 Document (with abstract) at " + self.doc_path
+            return "Krapivin2009 document (with abstract) at " + self.doc_path
         else:
-            return "Krapivin2009 Document (without abstract) at " + self.doc_path
+            return "Krapivin2009 document (without abstract) at " + self.doc_path
+    
+    @staticmethod
+    def disect_doc(text) :
+        title_start = text.find('--T') + 3
+        abstract_start = text.find('--A', title_start) + 3
+        body_start = text.find('--B', abstract_start) + 3
+        body_end = text.find('--R')
+        
+        return {
+            'TITLE': text[title_start:abstract_start-3].strip(),
+            'ABSTRACT': text[abstract_start:body_start-3].strip(),
+            'BODY': text[body_start:body_end].strip()
+        }
     
     def as_text(self):
-        #TODO: Check include_abs
         with open(self.doc_path, 'r', encoding='utf8') as f:
             s = f.read()
-        return s.replace('-',' ')
+
+        if self.direct:
+            return s.replace('-',' ')
+        else:
+            parts = self.disect_doc(s)
+
+            if self.include_abs:
+                return parts['TITLE'] + ' ' + parts['ABSTRACT'] + ' ' + parts['BODY']
+            else:
+                return parts['TITLE'] + ' ' + parts['BODY']
     
     def summary(self):
         with open(self.sum_path, 'r', encoding='utf8') as f:
@@ -76,7 +107,6 @@ class Krapivin2009Doc(Document):
         return summary.replace('-', ' ')
     
     def key_words(self):
-        #TODO: Check include_abs
         with open(self.kwd_path, 'r', encoding='utf8') as f:
             kwds = f.read()
         return kwds.replace('-', ' ')
@@ -85,4 +115,4 @@ class Krapivin2009Doc(Document):
         raise NotImplementedError()
 
     def key_word_count(self):
-        return len(self.key_words())
+        return len(self.key_words().splitlines())

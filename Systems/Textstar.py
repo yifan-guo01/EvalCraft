@@ -19,15 +19,19 @@ class Textstar(NLPSystem):
 
     def process_text(self, text, summarize=True, key_words=True, sum_len=5, kwds_len=5):
         from textstar.textstar import process_text
-
-        sentids, kwds = process_text(
-            text,
-            self.ranker,
-            sum_len,
-            kwds_len,
-            self.trim,
-            False
-        )
+        try:
+            sentids, kwds = process_text(
+                text,
+                self.ranker,
+                sum_len,
+                kwds_len,
+                self.trim,
+                False
+            )
+        except:
+            print(sum_len, kwds_len)
+            print(text)
+            raise
 
         sents = [s for _,s in sentids]
 
