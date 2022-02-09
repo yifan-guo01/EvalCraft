@@ -1,4 +1,5 @@
 import abc
+import nltk
 
 class NLPSystem(abc.ABC):
     @abc.abstractmethod
@@ -90,6 +91,10 @@ class Dataset(abc.ABC):
 
 class Document(abc.ABC):
     @abc.abstractmethod
+    def __str__(self):
+        pass
+    
+    @abc.abstractmethod
     def as_text(self):
         pass
 
@@ -100,6 +105,12 @@ class Document(abc.ABC):
     @abc.abstractmethod
     def key_words(self):
         pass
+    
+    def summary_count(self):
+        return len(nltk.sent_tokenize(self.summary()))
+
+    def key_word_count(self):
+        return len(self.key_words().splitlines())
 
 
 class Metric(abc.ABC):

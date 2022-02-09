@@ -14,11 +14,12 @@ from textcrafts.sim import *
 
 from systems.textstar import Textstar
 from systems.stanzagraphs import StanzaGraphs
+
 from dataset.Krapivin2009 import Karpivin2009
 from dataset.cnn_big import CnnBig
+from dataset.nus import NUS
 
-
-
+# SETTINGS ------------------------------------------------
 
 # number of keyphrases and summary sentences
 #wk,sk=6,6
@@ -53,10 +54,18 @@ SYSTEM = Textstar(
 #   include_abs=True,
 #   direct=True
 # )
-DATASET = CnnBig(
-  path="dataset/cnn_big/",
-  count=max_docs
+# DATASET = CnnBig(
+#   path="dataset/cnn_big/",
+#   count=max_docs
+# )
+DATASET = NUS(
+  path="dataset/NUS/",
+  count=max_docs,
+  include_abs=False
 )
+
+# SETTINGS ------------------------------------------------
+
 
 
 out_dir =  DATASET.path + "out/"
@@ -281,7 +290,7 @@ def process_file(document,wk,sk):
   af = out_abs_dir + doc_file
 
   keys, exabs = SYSTEM.process_text(
-    document.as_text(),
+    document,
     summarize=True,
     key_words=True,
     sum_len=sk,

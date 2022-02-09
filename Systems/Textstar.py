@@ -1,6 +1,7 @@
 from base_classes import NLPSystem
 import sys
 import networkx as nx
+import nltk
 
 
 class Textstar(NLPSystem):
@@ -17,8 +18,15 @@ class Textstar(NLPSystem):
     def __str__(self):
         return "Textstar System at " + self.stanza_path
 
-    def process_text(self, text, summarize=True, key_words=True, sum_len=5, kwds_len=5):
+    def process_text(self, document, summarize=True, key_words=True, sum_len=5, kwds_len=5):
         from textstar.textstar import process_text
+
+        text = document.as_text()
+        sentence_len = len(nltk.sent_tokenize(text))
+        if sum_len > sentence_len:
+            print("The document has only", sentence_len, "sentences. sum_len reduced")
+            sum_len = sentence_len
+
         try:
             sentids, kwds = process_text(
                 text,
@@ -30,7 +38,7 @@ class Textstar(NLPSystem):
             )
         except:
             print(sum_len, kwds_len)
-            print(text)
+            print(document)
             raise
 
         sents = [s for _,s in sentids]

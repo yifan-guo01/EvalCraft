@@ -76,9 +76,3 @@ class CnnBigDoc(Document):
         with open(self.kwd_path, 'r', encoding='utf8') as f:
             kwds = f.read()
         return kwds.replace('-', ' ')
-    
-    def summary_count(self):
-        raise NotImplementedError()
-
-    def key_word_count(self):
-        return len(self.key_words().splitlines())
