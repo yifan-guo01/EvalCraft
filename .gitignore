@@ -3,3 +3,8 @@ dataset/**/temp_docs
 **.pyc
 .DS_Store
 **/.DS_Store
+
+dataset/arxiv-dataset/test.txt
+dataset/arxiv-dataset/train.txt
+dataset/arxiv-dataset/val.txt
+dataset/arxiv-dataset/vocab
