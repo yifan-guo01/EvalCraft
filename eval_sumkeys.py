@@ -1,8 +1,8 @@
 import glob
-from pydoc import doc
 import sys
 import os
 import random
+import datetime
 
 import rouge_stats as rs
 import key_stats as ks
@@ -18,23 +18,27 @@ from systems.stanzagraphs import StanzaGraphs
 from dataset.Krapivin2009 import Karpivin2009
 from dataset.cnn_big import CnnBig
 from dataset.nus import NUS
+from dataset.arxiv import Arxiv
 
 # SETTINGS ------------------------------------------------
 
 # number of keyphrases and summary sentences
 #wk,sk=6,6
 #wk,sk=10,9
-# wk,sk=14,9 #best
-wk, sk = 10, 8
+wk,sk=14,9 #best
+# wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
-max_docs = 30
+max_docs = None
 
 # 2 forces deletion of json in temp_dir, 1=forces deletion of keys+abs
 force=2
 
 #Stop running on errors
-show_errors=True
+show_errors=False
+
+#Save generated summaries and kwds
+save_out = True
 
 # shows moving averages if on
 trace_mode=False
@@ -58,10 +62,14 @@ SYSTEM = Textstar(
 #   path="dataset/cnn_big/",
 #   count=max_docs
 # )
-DATASET = NUS(
-  path="dataset/NUS/",
-  count=max_docs,
-  include_abs=False
+# DATASET = NUS(
+#   path="dataset/NUS/",
+#   count=max_docs,
+#   include_abs=False
+# )
+DATASET = Arxiv(
+  path="dataset/arxiv-dataset/",
+  count=max_docs
 )
 
 # SETTINGS ------------------------------------------------
@@ -72,6 +80,149 @@ out_dir =  DATASET.path + "out/"
 out_abs_dir  = out_dir + "abs/"
 out_keys_dir = out_dir + "keys/"
 temp_dir = DATASET.path + 'temp_docs/'
+
+
+def printProgress(progress, width=100):
+  count = round(progress * width)
+  print("|" + "="*count + " "*(width-count) + "| %.1f%%" % (progress * 100))
+
+
+def evaluate(system, dataset, stop_on_error=True, save_out=True):
+  def showParams() :
+    print("TIME :", datetime.datetime.now())
+    print("SYSTEM :", system)
+    print("DATASET :", dataset)
+    print(
+          'wk',wk,'sk',sk,'\n'
+          'docs = ', dataset.count,'\n'
+          'force = ', force, '\n'
+          'save_out = ', save_out, '\n'
+          )
+  
+  print()
+  showParams()
+  input("Press enter to start: ")
+
+  random.seed(42)
+
+  clean_all()
+  
+  keys_scores = ([], [], [])
+  keys_rouge1 = ([], [], [])
+  abs_scores = ([], [], [])
+  abs_rouge1 = ([], [], [])
+  abs_rouge2 = ([], [], [])
+  abs_rougel = ([], [], [])
+  abs_rougew = ([], [], [])
+  bad_files = 0
+  
+  for i, document in enumerate(dataset):
+    try :
+      #Try to summarize the document
+      keys, exabs = system.process_text(
+        document,
+        summarize=True,
+        key_words=True,
+        sum_len=sk,
+        kwds_len=wk
+      )
+      key_words_str = "\n".join(keys).replace('-', ' ')
+      summary_str = "\n".join(exabs).replace('-', ' ')
+
+    except KeyboardInterrupt as e:
+      print("Keyboard Interrupt, stopping...")
+      return
+
+    except Exception as e:
+      print('*** FAILING on:', document, 'ERROR:', sys.exc_info()[0])
+      bad_files += 1
+      if stop_on_error:
+        raise
+      else:
+        continue
+    
+    if save_out:
+      #Write key words and summaries to files
+      doc_file = document.name + '.txt'
+      kf = out_keys_dir + doc_file
+      af = out_abs_dir + doc_file
+      string2file(kf, key_words_str)
+      string2file(af, summary_str)
+    
+    #Evaluate on different metrics
+    if dataset.has_kwds:
+      gold_kwds = document.key_words()
+
+      #Keys Scores
+      d = ks.kstat(key_words_str, gold_kwds)
+      assert d
+      keys_scores[0].append(d['p'])
+      keys_scores[1].append(d['r'])
+      keys_scores[2].append(d['f'])
+
+      #Keys Rouge 1
+      scores_iter = rs.rstat(key_words_str, gold_kwds)
+      d = next(scores_iter)[0]
+      keys_rouge1[0].append(d['p'][0])
+      keys_rouge1[1].append(d['r'][0])
+      keys_rouge1[2].append(d['f'][0])
+ 
+    gold_summary = document.summary()
+
+    #Abs Scores
+    d=ks.kstat(summary_str, gold_summary)
+    assert d
+    abs_scores[0].append(d['p'])
+    abs_scores[1].append(d['r'])
+    abs_scores[2].append(d['f'])
+
+    scores_iter = rs.rstat(summary_str, gold_summary)
+    #Abs Rouge 1
+    d = next(scores_iter)[0]
+    abs_rouge1[0].append(d['p'][0])
+    abs_rouge1[1].append(d['r'][0])
+    abs_rouge1[2].append(d['f'][0])
+
+    #Abs Rouge 2
+    d = next(scores_iter)[0]
+    abs_rouge2[0].append(d['p'][0])
+    abs_rouge2[1].append(d['r'][0])
+    abs_rouge2[2].append(d['f'][0])
+
+    #Abs Rouge L
+    d = next(scores_iter)[0]
+    abs_rougel[0].append(d['p'][0])
+    abs_rougel[1].append(d['r'][0])
+    abs_rougel[2].append(d['f'][0])
+
+    #Abs Rouge W
+    d = next(scores_iter)[0]
+    abs_rougew[0].append(d['p'][0])
+    abs_rougew[1].append(d['r'][0])
+    abs_rougew[2].append(d['f'][0])
+
+    printProgress((i + 1) / dataset.count)
+  
+  
+  print("\n\n")
+  showParams()
+  print("Failed on %i files\n" % bad_files)
+
+  print("                  Precision,          Recall,             F-Measure")
+  
+  if dataset.has_kwds:
+    print("KEYS SCORES : %.16f  %.16f  %.16f" % (avg(keys_scores[0]), avg(keys_scores[1]), avg(keys_scores[2])))
+    print("KEYS ROUGE 1: %.16f  %.16f  %.16f" % (avg(keys_rouge1[0]), avg(keys_rouge1[1]), avg(keys_rouge1[2])))
+  
+  else:
+    print("KEYS SCORES : --                  --                  --")
+    print("KEYS SCORES : --                  --                  --")
+
+  print("ABS SCORES  : %.16f  %.16f  %.16f" % (avg(abs_scores[0]), avg(abs_scores[1]), avg(abs_scores[2])))
+  print("ABS ROUGE 1 : %.16f  %.16f  %.16f" % (avg(abs_rouge1[0]), avg(abs_rouge1[1]), avg(abs_rouge1[2])))
+  print("ABS ROUGE 2 : %.16f  %.16f  %.16f" % (avg(abs_rouge2[0]), avg(abs_rouge2[1]), avg(abs_rouge2[2])))
+  print("ABS ROUGE l : %.16f  %.16f  %.16f" % (avg(abs_rougel[0]), avg(abs_rougel[1]), avg(abs_rougel[2])))
+  print("ABS ROUGE w : %.16f  %.16f  %.16f" % (avg(abs_rougew[0]), avg(abs_rougew[1]), avg(abs_rougew[2])))
 
 
 # sizes of silver abs and keys will match sizes in gold
@@ -547,5 +698,9 @@ def go() :
 
 if __name__ == '__main__' :
   # pass
-  go()
-
+  # go()
+  evaluate(
+    SYSTEM, DATASET,
+    stop_on_error=show_errors,
+    save_out=save_out
+  )

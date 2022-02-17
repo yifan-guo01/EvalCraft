@@ -37,8 +37,8 @@ class Textstar(NLPSystem):
                 False
             )
         except:
-            print(sum_len, kwds_len)
-            print(document)
+            # print(sum_len, kwds_len)
+            # print(document)
             raise
 
         sents = [s for _,s in sentids]
