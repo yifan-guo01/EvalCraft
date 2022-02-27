@@ -8,3 +8,8 @@ dataset/arxiv-dataset/test.txt
 dataset/arxiv-dataset/train.txt
 dataset/arxiv-dataset/val.txt
 dataset/arxiv-dataset/vocab
+
+dataset/pubmed-dataset/test.txt
+dataset/pubmed-dataset/train.txt
+dataset/pubmed-dataset/val.txt
+dataset/pubmed-dataset/vocab

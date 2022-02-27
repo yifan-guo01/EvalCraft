@@ -3,14 +3,10 @@ import sys
 import os
 import random
 import datetime
+import time
 
 import rouge_stats as rs
 import key_stats as ks
-from itertools import islice
-
-import textcrafts
-from textcrafts import deepRank as dr
-from textcrafts.sim import *
 
 from systems.textstar import Textstar
 from systems.stanzagraphs import StanzaGraphs
@@ -19,6 +15,7 @@ from dataset.Krapivin2009 import Karpivin2009
 from dataset.cnn_big import CnnBig
 from dataset.nus import NUS
 from dataset.arxiv import Arxiv
+from dataset.pubmed import Pubmed
 
 # SETTINGS ------------------------------------------------
 
@@ -67,8 +64,10 @@ SYSTEM = Textstar(
 #   count=max_docs,
 #   include_abs=False
 # )
-DATASET = Arxiv(
-  path="dataset/arxiv-dataset/",
+# DATASET = Arxiv(
+#   count=max_docs
+# )
+DATASET = Pubmed(
   count=max_docs
 )
 
@@ -79,7 +78,7 @@ DATASET = Arxiv(
 out_dir =  DATASET.path + "out/"
 out_abs_dir  = out_dir + "abs/"
 out_keys_dir = out_dir + "keys/"
-temp_dir = DATASET.path + 'temp_docs/'
+# temp_dir = DATASET.path + 'temp_docs/'
 
 
 def printProgress(progress, width=100):
@@ -115,6 +114,8 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
   abs_rougel = ([], [], [])
   abs_rougew = ([], [], [])
   bad_files = 0
+
+  startTime = time.time()
   
   for i, document in enumerate(dataset):
     try :
@@ -128,10 +129,72 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
       )
       key_words_str = "\n".join(keys).replace('-', ' ')
       summary_str = "\n".join(exabs).replace('-', ' ')
+    
+      if save_out:
+        #Write key words and summaries to files
+        doc_file = document.name + '.txt'
+        kf = out_keys_dir + doc_file
+        af = out_abs_dir + doc_file
+        string2file(kf, key_words_str)
+        string2file(af, summary_str)
+      
+      #Evaluate on different metrics
+      if dataset.has_kwds:
+        gold_kwds = document.key_words()
+
+        #Keys Scores
+        d = ks.kstat(key_words_str, gold_kwds)
+        assert d
+        keys_scores[0].append(d['p'])
+        keys_scores[1].append(d['r'])
+        keys_scores[2].append(d['f'])
+
+        #Keys Rouge 1
+        scores_iter = rs.rstat(key_words_str, gold_kwds)
+        d = next(scores_iter)[0]
+        keys_rouge1[0].append(d['p'][0])
+        keys_rouge1[1].append(d['r'][0])
+        keys_rouge1[2].append(d['f'][0])
+  
+      gold_summary = document.summary()
+
+      #Abs Scores
+      d=ks.kstat(summary_str, gold_summary)
+      assert d
+      abs_scores[0].append(d['p'])
+      abs_scores[1].append(d['r'])
+      abs_scores[2].append(d['f'])
+
+      scores_iter = rs.rstat(summary_str, gold_summary)
+      #Abs Rouge 1
+      d = next(scores_iter)[0]
+      abs_rouge1[0].append(d['p'][0])
+      abs_rouge1[1].append(d['r'][0])
+      abs_rouge1[2].append(d['f'][0])
+
+      #Abs Rouge 2
+      d = next(scores_iter)[0]
+      abs_rouge2[0].append(d['p'][0])
+      abs_rouge2[1].append(d['r'][0])
+      abs_rouge2[2].append(d['f'][0])
+
+      #Abs Rouge L
+      d = next(scores_iter)[0]
+      abs_rougel[0].append(d['p'][0])
+      abs_rougel[1].append(d['r'][0])
+      abs_rougel[2].append(d['f'][0])
+
+      #Abs Rouge W
+      d = next(scores_iter)[0]
+      abs_rougew[0].append(d['p'][0])
+      abs_rougew[1].append(d['r'][0])
+      abs_rougew[2].append(d['f'][0])
+
+      printProgress((i + 1) / dataset.count)
 
     except KeyboardInterrupt as e:
       print("Keyboard Interrupt, stopping...")
-      return
+      break
 
     except Exception as e:
       print('*** FAILING on:', document, 'ERROR:', sys.exc_info()[0])
@@ -140,73 +203,14 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
         raise
       else:
         continue
-    
-    if save_out:
-      #Write key words and summaries to files
-      doc_file = document.name + '.txt'
-      kf = out_keys_dir + doc_file
-      af = out_abs_dir + doc_file
-      string2file(kf, key_words_str)
-      string2file(af, summary_str)
-    
-    #Evaluate on different metrics
-    if dataset.has_kwds:
-      gold_kwds = document.key_words()
-
-      #Keys Scores
-      d = ks.kstat(key_words_str, gold_kwds)
-      assert d
-      keys_scores[0].append(d['p'])
-      keys_scores[1].append(d['r'])
-      keys_scores[2].append(d['f'])
-
-      #Keys Rouge 1
-      scores_iter = rs.rstat(key_words_str, gold_kwds)
-      d = next(scores_iter)[0]
-      keys_rouge1[0].append(d['p'][0])
-      keys_rouge1[1].append(d['r'][0])
-      keys_rouge1[2].append(d['f'][0])
- 
-    gold_summary = document.summary()
-
-    #Abs Scores
-    d=ks.kstat(summary_str, gold_summary)
-    assert d
-    abs_scores[0].append(d['p'])
-    abs_scores[1].append(d['r'])
-    abs_scores[2].append(d['f'])
-
-    scores_iter = rs.rstat(summary_str, gold_summary)
-    #Abs Rouge 1
-    d = next(scores_iter)[0]
-    abs_rouge1[0].append(d['p'][0])
-    abs_rouge1[1].append(d['r'][0])
-    abs_rouge1[2].append(d['f'][0])
-
-    #Abs Rouge 2
-    d = next(scores_iter)[0]
-    abs_rouge2[0].append(d['p'][0])
-    abs_rouge2[1].append(d['r'][0])
-    abs_rouge2[2].append(d['f'][0])
-
-    #Abs Rouge L
-    d = next(scores_iter)[0]
-    abs_rougel[0].append(d['p'][0])
-    abs_rougel[1].append(d['r'][0])
-    abs_rougel[2].append(d['f'][0])
-
-    #Abs Rouge W
-    d = next(scores_iter)[0]
-    abs_rougew[0].append(d['p'][0])
-    abs_rougew[1].append(d['r'][0])
-    abs_rougew[2].append(d['f'][0])
-
-    printProgress((i + 1) / dataset.count)
   
   
+  endTime = time.time()
+
   print("\n\n")
   showParams()
-  print("Failed on %i files\n" % bad_files)
+  print("Failed on %i files, succeeded on %i files\n" % (bad_files, len(abs_scores[0])))
+  print("Run time: %.1fS (%.2fS per file)" % (endTime - startTime, (endTime - startTime) / len(abs_scores[0])))
 
   print("                  Precision,          Recall,             F-Measure")
   
@@ -265,18 +269,18 @@ def clean_all() :
   os.makedirs(out_dir,exist_ok=True)
   os.makedirs(out_abs_dir,exist_ok=True)
   os.makedirs(out_keys_dir,exist_ok=True)
-  os.makedirs(temp_dir,exist_ok=True)
+  # os.makedirs(temp_dir,exist_ok=True)
   if not force : return
   if sys.platform != 'win32':
     #linux
     clean_path(out_abs_dir)
     clean_path(out_keys_dir)
-    if force>1 : clean_path(temp_dir)
+    # if force>1 : clean_path(temp_dir)
   else:
     #windows
     clean_path(out_abs_dir + '/docsutf8/')
     clean_path(out_keys_dir + '/docsutf8/')
-    if force>1 : clean_path(temp_dir + '/docsutf8/')
+    # if force>1 : clean_path(temp_dir + '/docsutf8/')
 
 def clean_temp() :
   if not force : return
