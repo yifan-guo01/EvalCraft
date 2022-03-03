@@ -8,7 +8,7 @@ class CnnBig(Dataset):
     has_sums = True
     has_kwds = False
 
-    def __init__(self, path,
+    def __init__(self, path="dataset/cnn_big/",
                  count=None, order=Dataset.SORTED):
         self.path= path
         self.docs_path = path + "docsutf8/*.txt"

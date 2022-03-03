@@ -8,7 +8,7 @@ class Karpivin2009(Dataset):
     has_sums = True
     has_kwds = True
 
-    def __init__(self, path, include_abs=False,
+    def __init__(self, path="dataset/Krapivin2009/", include_abs=False,
                  count=None, order=Dataset.SORTED, direct=False):
         self.path = path
         self.docs_path = path + "docsutf8/*.txt"

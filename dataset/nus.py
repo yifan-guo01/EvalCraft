@@ -8,7 +8,7 @@ class NUS(Dataset):
     has_sums = True
     has_kwds = True
 
-    def __init__(self, path, include_abs=False,
+    def __init__(self, path="dataset/NUS/", include_abs=False,
                  count=None, order=Dataset.SORTED):
         self.path= path
         self.docs_path = path + ("docsutf8_full/*.txt" if include_abs else "docsutf8_noAbstract/*.txt")

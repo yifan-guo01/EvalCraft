@@ -49,24 +49,21 @@ SYSTEM = Textstar(
 )
 
 # choice of dataset
-# DATASET = Karpivin2009(
-#   path="dataset/Krapivin2009/",
-#   count=max_docs,
-#   include_abs=True,
-#   direct=True
-# )
+DATASET = Karpivin2009(
+  count=max_docs,
+  include_abs=True,
+  direct=True
+)
 # DATASET = CnnBig(
-#   path="dataset/cnn_big/",
 #   count=max_docs
 # )
 # DATASET = NUS(
-#   path="dataset/NUS/",
 #   count=max_docs,
 #   include_abs=False
 # )
-DATASET = Arxiv(
-    count=max_docs
-)
+# DATASET = Arxiv(
+#     count=max_docs
+# )
 # DATASET = Pubmed(
 #   count=max_docs
 # )
@@ -128,10 +125,11 @@ def string2file(fname, text):
         f.write(text)
 
 
-def printProgress(progress, width=100, end=""):
+def printProgress(progress, width=100, end="", same_line=True):
     count = round(progress * width)
+    line_end = '\r' if same_line else '\n'
     print("|" + "="*count + " "*(width-count) +
-          "| %.1f%%" % (progress * 100), end)
+          "| %.1f%%" % (progress * 100), end, end=line_end)
 
 
 class Quiet():
@@ -266,7 +264,7 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
             abs_rougew[1].append(d['r'][0])
             abs_rougew[2].append(d['f'][0])
 
-            printProgress((i + 1) / dataset.count, end="(%i files)" % i)
+            printProgress((i + 1) / dataset.count, end="(%i files)" % i, same_line=quiet)
 
         except KeyboardInterrupt as e:
             print("Keyboard Interrupt, stopping...")
