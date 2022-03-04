@@ -4,6 +4,7 @@ import os
 import random
 import datetime
 import time
+import networkx as nx
 
 import rouge_stats as rs
 import key_stats as ks
@@ -22,11 +23,11 @@ from dataset.pubmed import Pubmed
 # number of keyphrases and summary sentences
 # wk,sk=6,6
 # wk,sk=10,9
-wk, sk = 14, 9  # best
+wk, sk = 14, 6  # best
 # wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
-max_docs = None
+max_docs = 100
 
 # delete previously generated keys+abs
 delete_old = True
@@ -45,15 +46,17 @@ save_out = True
 #   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
 # )
 SYSTEM = Textstar(
-    stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
+    stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/",
+    ranker=nx.degree_centrality,
+    trim=70
 )
 
 # choice of dataset
-DATASET = Karpivin2009(
-  count=max_docs,
-  include_abs=True,
-  direct=True
-)
+# DATASET = Karpivin2009(
+#   count=max_docs,
+#   include_abs=True,
+#   direct=True
+# )
 # DATASET = CnnBig(
 #   count=max_docs
 # )
@@ -61,11 +64,13 @@ DATASET = Karpivin2009(
 #   count=max_docs,
 #   include_abs=False
 # )
-# DATASET = Arxiv(
-#     count=max_docs
-# )
+DATASET = Arxiv(
+    count=max_docs,
+    dataset="val"
+)
 # DATASET = Pubmed(
-#   count=max_docs
+#   count=max_docs,
+#   dataset="val"
 # )
 
 # SETTINGS ------------------------------------------------
@@ -162,7 +167,7 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
 
     print()
     showParams()
-    input("Press enter to start: ")
+    # input("Press enter to start: ")
 
     random.seed(42)
 
@@ -264,7 +269,7 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
             abs_rougew[1].append(d['r'][0])
             abs_rougew[2].append(d['f'][0])
 
-            printProgress((i + 1) / dataset.count, end="(%i files)" % i, same_line=quiet)
+            printProgress((i + 1) / dataset.count, end="(%i files)" % (i + 1), same_line=quiet)
 
         except KeyboardInterrupt as e:
             print("Keyboard Interrupt, stopping...")
