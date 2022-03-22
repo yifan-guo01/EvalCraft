@@ -11,6 +11,7 @@ import key_stats as ks
 
 from systems.textstar import Textstar
 from systems.stanzagraphs import StanzaGraphs
+from systems.doctalk import DocTalk
 
 from dataset.Krapivin2009 import Karpivin2009
 from dataset.cnn_big import CnnBig
@@ -27,16 +28,17 @@ wk, sk = 14, 6  # best
 # wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
-max_docs = 100
+max_docs = 25
+docs_to_skip = 0
 
 # delete previously generated keys+abs
 delete_old = True
 
 # Stop running on errors
-show_errors = False
+show_errors = True
 
 # Prevent printing from summarization code
-quiet = True
+quiet = False
 
 # Save generated summaries and kwds
 save_out = True
@@ -45,32 +47,35 @@ save_out = True
 # SYSTEM = StanzaGraphs(
 #   stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/"
 # )
-SYSTEM = Textstar(
-    stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/",
-    ranker=nx.degree_centrality,
-    trim=70
+# SYSTEM = Textstar(
+#     stanza_path="/Users/brockfamily/Documents/UNT/StanzaGraphs/",
+#     ranker=nx.degree_centrality,
+#     trim=70
+# )
+SYSTEM = DocTalk(
+  doctalk_path="/Users/brockfamily/Documents/UNT/DocTalk/"
 )
 
 # choice of dataset
 # DATASET = Karpivin2009(
 #   count=max_docs,
-#   include_abs=True,
-#   direct=True
+#   include_abs=False,
+#   direct=False
 # )
-# DATASET = CnnBig(
-#   count=max_docs
-# )
+DATASET = CnnBig(
+  count=max_docs
+)
 # DATASET = NUS(
 #   count=max_docs,
 #   include_abs=False
 # )
-DATASET = Arxiv(
-    count=max_docs,
-    dataset="val"
-)
+# DATASET = Arxiv(
+#     count=max_docs,
+#     dataset="test"
+# )
 # DATASET = Pubmed(
 #   count=max_docs,
-#   dataset="val"
+#   dataset="test"
 # )
 
 # SETTINGS ------------------------------------------------
@@ -185,6 +190,8 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
     startTime = time.time()
 
     for i, document in enumerate(dataset):
+        if i < docs_to_skip:
+            continue
         try:
             # Try to summarize the document
             if quiet:
