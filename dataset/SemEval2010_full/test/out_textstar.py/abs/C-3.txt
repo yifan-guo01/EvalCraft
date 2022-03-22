@@ -1,6 +1,0 @@
-Processors run the benchmark at such frequency so as not to exceed the specified overhead.
-The first scenario is an ideal situation: the application runs on a reasonable set of nodes (i.e., such that the efficiency is around 50%) and no problems such as overloaded networks and processors, crashing processors etc.
-occur.
-In ParCo 2005, Sept. 2005.
-Brewer.
-http://www.cs.vu.nl/das2/.

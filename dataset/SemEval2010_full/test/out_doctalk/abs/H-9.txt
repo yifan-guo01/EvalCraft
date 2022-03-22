@@ -1,8 +1,0 @@
-But the clusters discovered by the current methods may partition the results into local codes and international codes .
-In this work , a text classifier is trained using a Web directory and search results are then classified into the predefined categories .
-The authors designed and studied different category interfaces and they found that category interfaces are more effective than list interfaces .
-Improving web search ranking by incorporating user behavior information .
-The star clustering algorithm for static and dynamic information organization .
-A hierarchical monothetic document clustering algorithm for summarization and browsing search results .
-Scatter / gather browsing communicates the topic structure of a very large text collection .
-Learning to estimate query difficulty : including applications to missing content detection and distributed information retrieval .

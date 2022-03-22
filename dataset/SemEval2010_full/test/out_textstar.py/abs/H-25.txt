@@ -1,8 +1,0 @@
-The cluster models can be efficiently estimated using the Expectation Maximization (EM) algorithm.
-For its details, we refer the reader to [26].
-K): The unigram language model of cluster Ci, as estimated using the theme discovery algorithm.
-• T = {ti,j} (i = 1 .
-Therefore, we try to combine the two methods, hoping to get the best out of both.
-This supports our speculation that TCFB overcomes the drawbacks of TFB (paying attention only to checked terms) and CFB (not distinguishing checked and unchecked terms in a cluster).
-Except for TCFB6C v.s.
-We try to compare the quality of automatically inserted terms in relevance feedback with that of manually selected terms in term feedback.

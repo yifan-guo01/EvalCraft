@@ -1,9 +1,0 @@
-user profile
-regression model
-learning algorithm
-profile parameter
-first iteration
-document relevant
-information filter
-recommendation system performance
-small datum set

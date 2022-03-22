@@ -1,8 +1,0 @@
-Suppose n points have been selected, denoted by a matrix Zn = (z1, · · · , zn).
-As can be seen, our LOD algorithm achieves 6.8% performance improvement for top 10 results, 5.2% for top 20 results, and 4.1% for top 30 results, comparing to the second best algorithm (LRR) after the first two rounds of relevance feedbacks.
-6.4 Discussion Several experiments on Corel database have been systematically performed.
-We would like to highlight several interesting points: 1.
-Journal of Machine Learning Research, 7:2399 2434, 2006.
-[3] F. R. K. Chung.
-Spectral Graph Theory, volume 92 of Regional Conference Series in Mathematics.
-AMS, 1997.

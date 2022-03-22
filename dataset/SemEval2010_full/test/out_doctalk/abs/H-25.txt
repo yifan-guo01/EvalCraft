@@ -1,8 +1,0 @@
-It has the disadvantage that irrelevant terms , which occur along with relevant ones in the judged content , may be erroneously used for query expansion , causing undesired effects .
-We can consider a more direct way to involve a user in query model improvement , without an intermediary step of document feedback that can introduce noise .
-Compared to traditional relevance feedback , this term based approach to interactive query model refinement has several advantages .
-This avoids the risk of bringing unwanted terms into the query model , although sometimes the user introduces low quality terms .
-We imposed a secondary cluster structure on terms and found that a cluster view sheds additional insight into the user " s information need , and provides a good way of utilizing term feedback .
-The expanded query usually represents the user " s information need better than the original one , which is often just a short keyword query .
-In this study we only deal with binary judgment : a presented term is by default unchecked , and a user may check it to indicate relevance .
-Our initinal queries are constructed only using the topic title descriptions , which are on average 2.7 words in length .

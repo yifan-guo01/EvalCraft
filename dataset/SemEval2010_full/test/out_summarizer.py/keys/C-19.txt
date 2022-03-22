@@ -1,8 +1,0 @@
-protocol module
-send event
-service interface
-protocol stack
-protocol framework
-same order
-module interaction
-natural model

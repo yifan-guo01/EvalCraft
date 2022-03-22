@@ -1,8 +1,0 @@
-DEFINITIONAL QUESTION ANSWERING Definitional Question Answering was first introduced to the TExt Retrieval Conference Question Answering Track main task in 2003 .
-Depending on the topic type and domain , this can include topic properties , relationships the topic has with some closely related entity , or events that happened to the topic .
-1.2 Identifying Interesting Nuggets Since the original official description for definitions comprise of identifying informative nuggets , most research has focused entirely on identifying informative nuggets .
-What " s more , many such articles are centrally located on several prominent websites , making them an easily accessible source of world knowledge .
-The AQUAINT Retrieval module shown in Figure 1 reuses a document retrieval module of a current Factoid and List Question Answering system we have implemented .
-Both systems exhibit consistent behavior across entity types , with the best performance coming from PERSON and ORGANIZATION topics and the worst performance from THING and EVENT topics .
-5.1 Weighting Interesting Terms The word trivia refer to tidbits of unimportant or uncommon information .
-For PERSON and EVENT topics , NewsLibrary articles are the main source of interesting nuggets with Google snippets and miscellaneous articles offering additional supporting evidence .

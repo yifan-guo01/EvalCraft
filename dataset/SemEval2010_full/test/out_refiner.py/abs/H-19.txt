@@ -1,8 +1,0 @@
-Swan and Allan [18] first attempted using co occuring terms to construct an event.
-Kleinberg"s seminal work described how bursty features can be extracted from text streams using an infinite automaton model [12], which inspired a whole series of applications such as Kumar"s identification of bursty communities from Weblog graphs [13], Mei"s summarization of evolutionary themes in text streams [15], He"s clustering of text streams using bursty features [11], etc.
-Within T, there may exist certain events that occur only once, e.g., Tony Blair elected as Prime Minister of U.K., and other recurring events of various periodicities, e.g., weekly soccer matches.
-If events of a certain event genre occur regularly with a fixed periodicity P ≤ T/2 , we say that this particular event genre is periodic, with each member event qualified as a periodic event.
-Figure 6: Feature beenb with relative low Sf and short term Pf . Stop Words (SW) Feature Set Based on the above analysis, we realize that there must be another feature set between HL and LL that corresponds to the set of stopwords.
-We use features from HH to detect important aperiodic events, features from LH to detect less reported/unimportant aperiodic events, and features from HL to detect periodic events.
-Among the 17 events, other than the overlaps between e3 and e4 (both describes the same hostage event), e11 and e16 (both about company reports), the 14 identified events are extremely accurate and correspond very well to the major events of the period.
-We also designed an unsupervised greedy algorithm to detect both aperiodic and periodic events, which was successful in detecting real events as shown in the evaluation on a real news stream.

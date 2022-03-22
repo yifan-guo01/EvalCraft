@@ -1,9 +1,0 @@
-coordinate migration management
-server management
-datum center
-application state
-management system
-communication network
-storage replication technology
-storage system
-migration service

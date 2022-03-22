@@ -1,8 +1,0 @@
-A user profile is usually a classifier that can identify whether a document is relevant to the user or not, or a regression model that tells how relevant a document is to the user.
-Assume there are M users in the system.
-Second, the parameters estimated at the modified M step (Equations 12   13) are more accurate than the standard M step described in Section 4.1 because the exact analytical solutions ¯wm,k = µk and σm,k = σk for the unrelated (m, k) pairs were used in the new algorithm instead of an approximate solution as in the standard algorithm.
-Norm 2 regularized linear models are equivalent to the Bayesian hierarchical models learned at the first iteration, and are statistical significantly worse than the Bayesian hierarchical models.
-EM algorithm is a commonly used machine learning technique.
-Empirical analysis of predictive algorithms for collaborative filtering.
-J. L. Herlocker, J. A. Konstan, A. Borchers, and J. Riedl.
-J. Wang, A. P. de Vries, and M. J. T. Reinders.

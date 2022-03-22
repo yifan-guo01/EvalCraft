@@ -1,8 +1,0 @@
-Brants et al.
-Stokes et al.
-Yen.
-In J. D. H. Fisher, editor, The Fourteenth International Conference on Machine Learning (ICML'97), Morgan Kaufmann, 1997, 412 420.
-[17] T. M. Cover, and J.A.
-Thomas.
-[19] The 2001 TDT task definition and evaluation plan, http://www.nist.gov/speech/tests/tdt/tdt2001/evalplan.htm.
-[20] R. E. Schapire and Y.

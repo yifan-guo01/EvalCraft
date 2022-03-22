@@ -1,9 +1,0 @@
-task failure
-abort method
-agent failure
-goal failure
-plan failure
-goal program
-goal construct
-failure condition
-failure method

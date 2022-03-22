@@ -1,8 +1,0 @@
-replica server
-time transfer rate
-file size
-real time transfer
-transfer performance
-datum transfer
-co allocation server
-grid environment

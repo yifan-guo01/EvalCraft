@@ -1,8 +1,0 @@
-Certain data intensive scientific applications , such as high energy physics , bioinformatics applications and virtual astrophysical observatories , entail huge amounts of data that require data file management systems to replicate files and manage data transfers and distributed data access .
-An idle time drawback remains since faster servers must wait for the slowest server to deliver its final block .
-Related background review and studies are presented in Section 2 and the co allocation architecture and related work are introduced in Section 3 .
-In other words , the role of a replica manager is to create or delete replicas , within specified storage systems .
-In order to solve the appearing problems , the Data Grid community tries to develop a secure , efficient data transport mechanism and replica management services .
-It also provides Brute Force , History Base , and Dynamic Load Balancing for allocating data block .
-4.3 Our Replica Selection Cost Model The target function of a cost model for distributed and replicated data storage is the information score from the information service .
-It allows easier and more rapid application development by encouraging collaborative code reuse and avoiding duplication of effort among problem solving environments , science portals , Grid middleware , and collaborative pilots .

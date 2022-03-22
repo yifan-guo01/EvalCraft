@@ -1,8 +1,0 @@
-A relationship between the use of advanced syntax and any of these features could support the design of systems tailored to advanced search engine users, or use advanced users" interactions to help non advanced users be more successful in their searches.
-In our study we conjecture that given the difficulty in locating advanced search features within the typical search interface, and the potential problems in understanding the syntax, those users that do use advanced syntax regularly represent a distinct class of searchers who will exhibit other common search behaviors.
-This provided us with sufficient data on querying behavior (from interaction with search engines), and browsing behavior (from interaction with the pages that follow a search) to more broadly investigate search behavior.
-The table shows values for users that do not use query operators (0%), users who submitted at least one query with operators (≥ 0%), through to users whose queries contained operators at least threequarters of the time (≥ 75%).
-We compared the query and result click features of users who did not use any advanced syntax (padvanced = 0%) in any of their queries with those who used advanced syntax in at least one query (padvanced > 0%).
-It seems that advanced users use a more directed searching style than non advanced users.
-Although their search sessions are longer, advanced users follow fewer search trails during their sessions, (i.e., submit fewer queries), their search trails are shorter, and their trails exhibit fewer deviations or regressions to previously encountered pages.
-Feature padvanced > 0% ≥ 25% ≥ 50% ≥ 75% Quotes () 71.08 77.09 70.33 70.00 Plus (+) 6.84 13.31 19.21 33.90 Minus (−) 6.62 2.88 1.96 2.42 Site: 21.55 12.72 13.04 9.86 Avg. num.

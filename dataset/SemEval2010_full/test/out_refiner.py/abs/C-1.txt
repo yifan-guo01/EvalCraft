@@ -1,8 +1,0 @@
-Scalable Grid Service Discovery Based on UDDI* * Authors are listed in alphabetical order.
-Grid discovery services provide the ability to monitor and discover resources and services on grids.
-This paper tackles the scalability issue and a way to find services across multiple registries in UDDI by developing a distributed web services discovery architecture.
-In the grid computing scenario, an overlay network of multiple UDDI registries seems to an interesting alternative to the UDDI public Article 2 registries currently maintained by Microsoft, IBM, SAP and NTT.
-When a new service is added to a registry, all potential search terms are hashed by the proxy and used as DHT keys to publish the service in the DHT.
-Note that a proxy does not need to know all DHT nodes; it needs to know just one DHT node (this is done as part of the bootstrapping process) and as described in Section 2.3, this DHT node can route the query as necessary to the other nodes on the DHT overlay.
-The Physiology of the Grid: An Open Grid Services Architecture for Distributed Systems Integration, I. Foster, C. Kesselman, J. M. Nick and S. Tuecke.
-Kee Hyun Choi, Ho Jin Shin, Dong Ryeol Shin, Service Discovery Supporting Open Scalability Using FIPACompliant Agent Platform for Ubiquitous Networks, Lecture Notes in Computer Science, Volume 3482, Jan 2005.

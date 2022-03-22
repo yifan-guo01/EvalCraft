@@ -1,6 +1,0 @@
-[3] J. Callan.
-In ACM SIGIR"99 Workshop on Recommender Systems, 1999.
-[9] GroupLens.
-Movielens.
-In Proc.
-[26] X. Zhu.

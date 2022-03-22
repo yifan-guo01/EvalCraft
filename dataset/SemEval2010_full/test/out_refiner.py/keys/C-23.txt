@@ -1,9 +1,0 @@
-slow server
-datum transfer performance
-file size
-idle time
-transfer performance
-datum transfer
-replica server
-co allocation scheme
-transfer application

@@ -1,8 +1,0 @@
-This framework allows us to model diverse economic interactions by picking the right attributes .
-We study the computational complexity of two coalitional solution concepts for these gamesthe Shapley value and the core .
-They have mines for various types of ores , and also mills capable of processing and producing different kinds of metal .
-We provide an explicit bound on the maximum error of the estimate , and show that the bound is asymptotically tight .
-PRELIMINARIES In this section , we will review the relevant concepts of coalitional game theory and its two most important solution concepts
-We believe the problems of updating games and representing multiple games are interesting future directions to explore .
-Given the natural probabilistic interpretation of the Shapley value , we believe that a random sampling approach may have significantly better theoretical guarantees .
-A value for n person games .

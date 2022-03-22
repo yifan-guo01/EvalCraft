@@ -1,8 +1,0 @@
-INTRODUCTION Elucidation of the stable conformations and the folding process of proteins is one of the most fundamental and challenging goals in life science .
-Recently , the concept of the computational grid has begun to attract significant interest in the field of high performance network computing .
-Rapid advances in wide area networking technology and infrastructure have made it possible to construct large scale , high performance distributed computing environments , or computational grids , that provide dependable , consistent and pervasive access to enormous computational resources .
-The performance of the parallelized CONFLEX enables exploration of the lower energy region of the conformational space of small peptides within an available elapsed time using a local PC cluster .
-The RPCstyle system provides an easy to use , intuitive programming interface , allowing users of the grid system to easily create grid enabled applications .
-The first strategy involves both corner flapping and edge flipping for the ring atoms and stepwise rotation for side chains or backbone chains .
-We used an improvement version of MM2 force field to assign a potential energy function to various geometric properties of a group of atoms .
-Nimrod incorporates a distributed scheduling component that can manage the scheduling of individual experiments to idle computers in a local area network .

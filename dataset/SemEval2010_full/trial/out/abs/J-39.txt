@@ -1,8 +1,0 @@
-These misqueues in strategic behavior hamper the efficiency of the system , and in so doing limit the revenue potential for sellers .
-This paper proposes a novel options based extension to eBay " s proxy bidding system that resolves this strategic issue for buyers in commoditized markets .
-INTRODUCTION Electronic markets represent an application of information systems that has generated significant new trading opportunities while allowing for the dynamic pricing of goods .
-We are interested in creating modifications to eBay style markets that simplify the bidder problem , leading to simple equilibrium strategies , and preferably better efficiency and revenue properties .
-Our super proxy extension will take advantage of a new , real options based , market infrastructure that enables simple , yet optimal , bidding strategies .
-The extensions are computationally simple , handle temporal issues , and retain seller autonomy in deciding when to enter the market and conduct individual auctions .
-Therefore , not only is the expected revenue stream higher , but the lower variance provides sellers a greater likelihood of realizing that higher revenue .
-A robust open ascending price multi unit auction protocol against false name bids .

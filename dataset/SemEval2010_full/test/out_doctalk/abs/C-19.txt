@@ -1,8 +1,0 @@
-They allow complex protocols to be implemented by decomposing them into several modules cooperating together .
-The framework allowed us to compare the service and event based implementations of an adaptive group communication middleware .
-However , they introduce an unnecessary burden on the protocol programmers and the stack composer .
-However , the protocol programmer must take channels into account when implementing protocols .
-In service based frameworks , requests , replies and notifications are issued to a service interface .
-Both stacks allow the Consensus and Atomic Broadcast protocols to be dynamically updated .
-Towards flexible finite state machine based protocol composition .
-The architecture and performance of security protocols in the Ensemble group communication system .

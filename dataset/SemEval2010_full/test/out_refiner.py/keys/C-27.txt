@@ -1,8 +1,0 @@
-event size
-localization system
-localization error
-sensor node
-exact location
-code placement
-time localization
-spotlight device

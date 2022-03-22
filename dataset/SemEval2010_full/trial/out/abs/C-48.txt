@@ -1,8 +1,0 @@
-RELATED WORK The basic problem that this paper addresses multidimensional range queries is typically solved in database systems using indexing techniques .
-In order to deal with this problem , we add an extra operation in event forwarding , called efficient neighbor discovery .
-3.3.4 Summary and Pseudo code In summary , our event insertion procedure is designed to nicely interact with the zone discovery mechanism , and the event hashing mechanism .
-The key challenge in routing zone queries is brought out by the following strawman design .
-Packet losses can affect query and event insertion , and node failures can result in lost data , while node arrivals and departur
-If the sibling is within radio range , the absence of GPSR beaconing messages can detect this .
-DIMS : SIMULATION RESULTS Our analysis gives us some insight into the asymptotic behavior of various approaches for multi dimensional range queries .
-Our design of DIMs relies upon a novel locality preserving hash inspired by early work in database indexing , and is built upon GPSR .

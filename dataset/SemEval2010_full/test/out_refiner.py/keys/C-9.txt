@@ -1,8 +1,0 @@
-service environment
-resource usage
-level support
-node limit
-first case service
-resource management
-resource demand
-object service

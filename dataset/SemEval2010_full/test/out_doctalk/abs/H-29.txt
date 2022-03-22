@@ -1,8 +1,0 @@
-We also perform model combination using several improved feedback language models obtained by a small number of new queries sampled from the original query .
-2.3 Justification for a sampling approach The rationale for our sampling approach has two parts .
-3.4 Retrieval robustness We use the term robustness to mean the worst case average precision performance of a feedback algorithm .
-Much beyond this level , the additional benefits of more samples decrease as the initial score distribution is more closely fit and the processing time increases .
-Stopwords can harm feedback if selected as feedback terms , because they are typically poor discriminators and waste valuable term slots .
-RELATED WORK Our approach is related to previous work from several areas of information retrieval and machine learning .
-A high performance semi supervised learning method for text chunking .
-Improving retrieval feedback with multiple term ranking function combination .

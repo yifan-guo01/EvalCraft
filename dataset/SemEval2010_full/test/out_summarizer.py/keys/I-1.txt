@@ -1,9 +1,0 @@
-task failure
-sensible abort method
-plan failure
-goal failure
-abstract agent language
-goal construct
-failure method
-agent execution cycle
-failure condition

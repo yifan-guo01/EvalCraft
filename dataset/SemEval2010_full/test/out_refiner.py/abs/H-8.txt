@@ -1,8 +1,0 @@
-The solution used by NIST at TREC (Text REtrieval Conference) is the pooling method [19, 20]: all competing systems contribute N documents to a pool, and every document in that pool is judged.
-ΔMAP = MAP1 − MAP2 Confidence can then be estimated by calculating the expectation and variance and using the normal density function to find P(ΔMAP < 0).
-We could train a separate predicting model for each topic, but that does not take advantage of all of the information we have: we may only have a handful of judgments for a topic, not enough to train a model to any confidence.
-Since q∗ ij is based on the rank at which a document is retrieved rather than the identity of the document itself, the probabilities are identical from expert to expert, e.g. if expert E put document A at rank 1, and expert D put document B at rank 1, we will have q∗ AE = q∗ BD.
-This gives us pi = p(Xi = 1|qi), the probability of relevance of document i given calibrated expert probabilities qij .
-The first, and most important, is that using our expert aggregation model to predict relevance produces test collections that are robust enough to be reusable; that is, we can trust the estimates of confidence when we evaluate systems that did not contribute any judgments to the pool.
-If confidence is greater than accuracy, we lose money; we win if accuracy is greater than confidence.
-Overfitting is difficult to quantify exactly, because making more relevance judgments does not always cause it: at higher confidence levels, more relevance judgments are made, and as Table 2 shows, accuracy is greater at those higher confidences.

@@ -1,8 +1,0 @@
-We consider both the short run incomplete information setting and the long run complete information setting .
-may bid to to have their listings featured alongside the standard algorithmic search listings .
-Sponsored search results are displayed in a format similar to algorithmic results : as a list of items each containing a title , a text description , and a hyperlink to a corresponding web page .
-In principle , the allocation decision can be altered with each new incoming search query , so in effect new auctions clear continuously over time as search queries arrive .
-First , a single bid per merchant is used to allocate multiple non identical slots .
-They also take a design approach and show how the auctioneer should assign relevance scores to optimize its revenue .
-Because of this revenue equivalence principle , we can choose whichever payment rule is most convenient for the purpose of making revenue comparisons .
-A formal analysis of search auctions including predictions on click fraud and bidding tactics .

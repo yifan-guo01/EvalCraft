@@ -1,8 +1,0 @@
-This paper presents a simple framework for architecting Peer to peer Receiver driven Overlay , called PRO .
-PRO incorporates 42 several damping functions to ensure stability of the overlay despite uncoordinated actions by different peers .
-In our earlier work , we developed a mechanism called PALS [ 18 ] that enables a receiver to stream layered structured content from a given set of congestion controlled senders .
-This division of functionality provides a great deal of flexibility because it decouples overlay construction from delivery mechanism .
-We illustrate the differences between PRO and previous solutions , and justify our design choices .
-CONCLUSIONS AND FUTURE WORK In this paper , we presented a simple receiver driven framework for architecting peer to pee overlay structures called PRO .
-We described the basic framework and its key components , and sketched our strawman solutions .
-Reliable Multicast Framework for Light Weight Sessions and Application Level Framing .

@@ -1,5 +1,0 @@
-We use RTC or MTC to set the odds O = P (ΔMAP <0) 1−P (ΔMAP <0) .
-If it turns out that ΔMAP < 0, we win the dollar.
-Otherwise, we pay out O.
-Bayesian Data Analysis.
-Chapman & Hall/CRC, 2004.

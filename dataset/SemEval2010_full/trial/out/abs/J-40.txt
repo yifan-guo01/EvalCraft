@@ -1,8 +1,0 @@
-Networks Preserving Evolutionary Equilibria and the Power of Randomization Michael Kearns mkearns@cis.upenn.edu Siddharth Suri ssuri@cis.upenn.edu Department of Computer and Information Science University of Pennsylvania Philadelphia , PA 19104 ABSTRACT We study a natural extension of classical evolutionary game theory to a setting in which pairwise interactions are restricted to the edges of an undirected graph or network .
-The work described here is part of recent efforts examining the relationship between graph topology or structure and properties of equilibrium outcomes .
-The standard model of evolutionary game theory considers an infinite population of organisms , each of which plays a strategy in a fixed , 2 player , symmetric game .
-Before giving formal definitions , some comments are in order on what to expect in moving from the classical to the graph theoretic setting .
-For example , at the group level , in the standard ESS definition , one need not discuss any particular set of mutants of population fraction .
-These observations imply that in examining ESS on networks we face definitional choices that were obscured in the classical model .
-In these papers the authors specify a simple , local dynamic for players to improve their payoffs by changing strategies , and analyze what type of strategies will grow to dominate the population .
-NETWORKS PRESERVING ESS We now proceed to state and prove two complementary results in the network ESS model defined in Section 3 .

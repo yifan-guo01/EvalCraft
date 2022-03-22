@@ -1,8 +1,0 @@
-Our idea of using search engine logs is to treat these logs as past history, learn users" interests using this history data automatically, and represent their interests by representative queries.
-A vector space model for automatic indexing.
-Commun.
-Context sensitive information retrieval using implicit feedback.
-In SIGIR, pages 43 50, 2005.
-[20] C. J. van Rijsbergen.
-Butterworths, London, 1979.
-[21] V. N. Vapnik.

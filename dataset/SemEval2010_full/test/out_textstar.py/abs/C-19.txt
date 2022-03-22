@@ -1,6 +1,0 @@
-Events.
-Documentation available electronically at http://appia.di.fc.ul.pt/.
-[5] The Cactus project.
-Documentation available electronically at http://www.cs.arizona.edu/ cactus/.
-Documentation available electronically at http://lsrwww.epfl.ch/neko/.
-Documentation available electronically at http://lsrwww.epfl.ch/samoa/.

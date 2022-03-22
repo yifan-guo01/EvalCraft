@@ -1,8 +1,0 @@
-Potential benefits of this approach , observations and lessons learned will be discussed .
-Its importance stems from the fact that ground breaking research in strategic application areas such as bioscience and medicine , energy exploration and environmental modeling involve strong interdisciplinary components and often require intercampus collaborations and computational capabilities beyond institutional limitations .
-The purpose of choosing a minimal software stack is to support applications at hand , and to simplify installation and distribution of client / server stacks across TIGRE sites .
-The tools for handling Grid proxy generation , Grid enabled file transfer and Grid enabled remote login are supported .
-For up to date information on securing user and resource certificates and their installation instructions see ref [ 2 ] .
-The high bandwidth file transfer protocols such as GridFTP are utilized for staging files in and out of the target machine .
-There are two main scenarios for comparing Grid and cluster computing approaches .
-CONCLUSIONS AND FUTURE WORK TIGRE is a higher education Grid development project and its purpose is to sustain and extend research and educational opportunities across Texas .

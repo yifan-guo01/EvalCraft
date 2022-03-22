@@ -1,8 +1,0 @@
-One important problem is resource selection selecting a set of compute nodes such that the application achieves good performance .
-Even in traditional , homogeneous parallel environments , finding the optimal number of nodes is a hard problem and is often solved in a trial and error fashion .
-We introduce a new application performance metric : weighted average efficiency which describes the application performance on a heterogeneous set of resources .
-There is a trade off between the accuracy of speed measurements and the overhead it incurs .
-Removing processors located in a single cluster is desirable since it decreases the amount of wide area communication .
-Implementation We incorporated our adaptation mechanism into Satin a Java framework for creating grid enabled divide and conquer applications .
-Finally , performance degradation detection is suitable only for iterative applications and can not be used for irregular computations such as search and optimization problems .
-A performance analysis of transposition table driven work scheduling in distributed search .

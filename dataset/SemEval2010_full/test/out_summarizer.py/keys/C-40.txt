@@ -1,8 +1,0 @@
-node indexing
-object entity
-frequent update
-day time
-cell evaluation
-indexing structure
-user entity
-table edge

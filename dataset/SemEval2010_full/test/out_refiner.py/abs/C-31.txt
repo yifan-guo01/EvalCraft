@@ -1,8 +1,0 @@
-Once the initiating node is finished sending the set of documents to be indexed, it will then send a SEND COMPLETE command indicating to the indexing node that there are no more files and the node can proceed with indexing the files.
-In the case of the initiating node sending the index files, the indexing node will complete the transfer with the SEND COMPLETE command indicating to the initiating node that there are no more index files to be sent and the initiating node can then assemble those index files into the main index.
-The NodeIndexer is responsible for receiving documents sent to it by the initiating node and then indexing them using the Lucene engine [7].
-Once the indexing is complete the resulting index is streamed back to the initiating node as well as compiled in the indexer nodes own local index.
-This also means that the time to return query results is very fast   much faster than protocols that rely on nodes in the network to pass the query throughout the network and then wait for results.
-For example, a node attempting to find an idle node to participate in indexing will query nodes via the message facility.
-In the case of index transfer, a socket must be created between all nodes in the network in order to pass the index, which allows for all nodes to have a full and complete index of the entire network.
-For future work, Apocrita will have a smart content distribution model in which a single instance of a file can intelligently and transparently replicate throughout the network to ensure a copy of every important file will always be available regardless of the availability of specific nodes in the network.

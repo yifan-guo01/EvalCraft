@@ -1,8 +1,0 @@
-Network flow models we develop for computing global allocations facilitate classification of the problem space by computational complexity , and provide guidance for developing solution algorithms .
-Experimental trials help distinguish tractable problem classes for proposed solution techniques .
-Such mechanisms provide traders with the ability to negotiate over a multidimensional space of potential deals , delaying commitment to specific configurations until the most promising candidates are identified .
-The goal of the present work is to develop a general framework for multiattribute call markets , to enable investigation of design issues and possibilities .
-In particular , we use the framework to explore tradeoffs between expressive power of agent bids and computational properties of auction clearing .
-Experimental trials provide preliminary confirmation that the network formulations provide useful structure for implementing clearing algorithms .
-Enumeration based representations , even when enhanced with indifference ranges , are ultimately limited by the exponential size of attribute space .
-CONCLUSIONS The implementation and deployment of market exchanges requires the development of bidding languages , information feedback policies , and clearing algorithms that are suitable for the target domain , while paying heed to the incentive properties of the resulting mechanisms .

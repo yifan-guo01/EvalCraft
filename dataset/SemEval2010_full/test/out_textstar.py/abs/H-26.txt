@@ -1,2 +1,0 @@
-The goal is to find a function h such that the risk (i.e., expected loss), R∆ P (h) = Z X×Y ∆(y, h(x))dP(x, y), is minimized.
-Of course, P(x, y) is unknown.

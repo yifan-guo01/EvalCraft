@@ -1,8 +1,0 @@
-INTRODUCTION Tracking new and relevant information from temporal data streams for users with long lasting needs has been a challenging research topic in information retrieval .
-Despite substantial achievements in recent adaptive filtering research , significant problems remain unsolved regarding how to leverage user feedback effectively and efficiently .
-We have conducted our experiments on this extended TDT4 corpus and have made the additionally generated data publicly available for future comparative evaluations 1 .
-We use a simplified version of the Maximal Marginal Relevance method [ 5 ] , originally developed for combining relevance and novelty in text retrieval and summarization .
-4.1.1 Automating Evaluation based on Answer Keys Automatic evaluation methods would allow for faster system building and tuning , as well as provide an objective and affordable way of comparing various systems .
-Human involvement in the rule creation process ensures high quality generic rules which can then be used to evaluate arbitrary system responses reliably .
-Our experiments on the newly annotated TDT4 benchmark corpus show encouraging utility enhancement over Indri , and also over our own system with incremental learning and novelty detection turned off .
-Any opinions , findings , conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the sponsors .

@@ -1,7 +1,0 @@
-Using this relation, one would be able to expand the query program with the term computer.
-Domain Coll.
-Measure Man.
-dom.
-id.
-(U1) Auto.
-dom.

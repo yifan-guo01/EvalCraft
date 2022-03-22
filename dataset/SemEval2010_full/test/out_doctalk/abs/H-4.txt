@@ -1,8 +1,0 @@
-INTRODUCTION Personal Information Management ( PIM ) is a rapidly growing area of research concerned with how people store , manage and re find information .
-This means that the collections people generate are unique to them alone and the information within a collection is intrinsically linked with the owner " s personal experiences .
-In the second part , we propose a task based evaluation methodology based on our findings and examine the feasibility of the approach using different methods of task creation .
-As the tasks performed are real and not simulated , the participants can utilise their own experiences , previous knowledge and information collections to complete the tasks .
-This approach makes use of logging software that captures a broad sampling of user activities in the context of natural use of a system .
-In [ 9 ] a novel PIM search tool was deployed to 234 users and the log data provided detailed information about the nature of user queries , interactions with the query interface and about properties of the items retrieved .
-The usefulness of this approach depends on how easy it is to transfer the collection or gain remote access .
-Limitations of the technique include difficulties in maintaining participant dedication levels and convincing participants that seemingly mundane information is useful and should be reported [ 19 ] .

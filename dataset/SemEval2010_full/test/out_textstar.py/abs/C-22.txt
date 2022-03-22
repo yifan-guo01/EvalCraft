@@ -1,7 +1,0 @@
-REFERENCES 1.
-Noble, B.D., et al.
-in Proc.
-Rossi, P. and Ryan, C. An Empirical Evaluation of Dynamic Local Adaptation for Distributed Mobile Applications.
-in Proc.
-in Proc.6th Intl.
-Orlando.

@@ -1,8 +1,0 @@
-Existing methods , however , are only able to train ranking models by minimizing loss functions loosely related to the performance measures .
-INTRODUCTION Recently ‘ learning to rank " has gained increasing attention in both the fields of information retrieval and machine learning .
-In training , a ranking model is constructed with data consisting of queries , their corresponding retrieved documents , and relevance levels given by humans .
-In learning , it repeats the process of re weighting the training sample , creating a weak ranker , and calculating a weight for the ranker .
-Recently methods of ‘ learning to rank " have been applied to ranking model construction and some promising results have been obtained .
-Recently , a number of authors have proposed conducting direct optimization of multivariate performance measures in learning .
-3.6 Construction of Weak Ranker We consider an efficient implementation for weak ranker construction , which is also used in our experiments .
-The ground truths for the queries are provided by the TREC committee with binary judgment : relevant or irrelevant .

@@ -1,8 +1,0 @@
-Our overall research aim is to develop Internet scale publish / subscribe networks that provide secure , efficient delivery of events , fault tolerance and self healing in the delivery infrastructure , and a convenient event interface .
-It is based on the United Kingdom Police Forces , and we show three particular sub domains : Metropolitan Police Domain .
-However encrypting whole events means unauthorised brokers can not make efficient routing decisions .
-A useful side effect of secure event types are their globally unique event type and attribute names .
-There are viable approaches to preventing traffic analysis by inserting random events into the event stream in order to produce a uniform traffic pattern .
-Therefore the choice between event and attribute encryption is a trade off between expressiveness and performance , and depends on the requirements of the distributed application .
-While the work concentrated on using scopes as mechanism for structuring large scale event based systems , the notion of event visibility does resonate with access control to some extent .
-Design and evaluation of a wide area event notification service .

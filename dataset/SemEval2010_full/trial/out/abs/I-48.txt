@@ -1,8 +1,0 @@
-In the underlying model of normative systems , we use Kripke structures to represent the possible transitions of a multiagent system .
-We thus provide a very natural bridge between logical structures and languages and the techniques and concepts of game theory , which have proved to be very powerful for analysing social contract style scenarios such as normative systems [ 3 , 4 ] .
-straints may be more appropriate than simple totality .
-An obvious potential property of goal hierarchies is monotonicity : where goals at higher levels in the hierarchy logically imply those at lower levels in the hierarchy .
-Note that this is an ordinal utility measure : it tells us , for any given agent , the relative utility of different Kripke structures , but utility values are not on some standard system wide scale .
-Game theory is a very natural tool to analyse and answer these questions , which involve strategic considerations , and we have proposed a way to translate key questions concerning logic based normative systems to game theoretical questions .
-We have proposed a logical framework to reason about such scenarios , and we have given some computational costs for settling some of the main questions about them .
-On obligations and normative ability .

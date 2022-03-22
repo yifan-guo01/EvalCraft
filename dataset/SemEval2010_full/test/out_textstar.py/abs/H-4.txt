@@ -1,3 +1,0 @@
-[20] M. Ringel, E. Cutrell, S. Dumais, and E. Horvitz, Milestones in time: The value of landmarks in retrieving information from personal stores., Proc.
-INTERACT 2003, 2003.
-UIST "98:, 1998.

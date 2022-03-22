@@ -1,8 +1,0 @@
-INTRODUCTION A significant concern for Internet based service providers is the continued operation and availability of services in the face of outages , whether planned or unplanned .
-These concerns are exacerbated by the increased use of the Internet for mission critical business and real time entertainment applications .
-Our design makes use of existing server virtualization technologies and propose network and storage mechanisms to facilitate migration across a WAN .
-Finally , most applications require disk storage for storing data and the amount of disk space and the frequency of access varies greatly between different services / applications .
-For example , data centers typically have multiple network connections and redundant LAN devices to ensure redundancy at the networking level .
-Slower time scale network changes then phase out this local network connectivity change for a more optimal network wide path to the new data center .
-This has the consequence of both incurring processing and network overhead under normal operation as well as impacting application performance ( latency and throughput ) throughout .
-RELATED WORK Prior work on this topic falls into several categories : virtual machine migration , storage replication and network support .

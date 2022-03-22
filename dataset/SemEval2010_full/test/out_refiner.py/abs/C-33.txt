@@ -1,8 +1,0 @@
-Rewards confirmed in this negotiation process will be fulfilled in the next negotiation process.
-When negotiation is completed, the chosen provider will provide the context information to Context Manager, and then Context Manager delivers such information to the application and also stores it in Context Knowledge Base where current and historical context information is stored.
-Context Knowledge Base Reputation of Context Providers Context provider A Context Manager Negotiate Application"s QoC requirements and feedback Provide QoC requirements and proceeds Manage Context Provide Context Getreputation Getreputation Update reputation information according to feedback Context provider B Figure 1: Negotiate to provide appropriate context information.
-When the context provider finds the utility of an offer and a reward is lower than its reserved utility, it will reject this proposal and terminate the negotiation process.
-During the negotiation process, we assume that at time t A proposes offer ot and reward ept to B, at time t + 1, B proposes counter offer ot+1 and reward ept+1 to A.
-If |UA c (ct)−(UA c (ct)− 1 3 Cu δA(t+2) )| ≤ |UA c (ct+1)−(UA c (ct)− 1 3 Cu δA(t+2) )| i.e. the expected utility of c at time t+2 is UA c (ct)− 1 3 Cu δA(t+2) and it is closer to the utility of A"s proposal ct at time t, then at time t + 2, ct+2 = ct, else the utility is closer to B"proposal ct+1 and ct+2 = ct+1.
-Henricksen and Indulska propose an approach to modelling and using imperfect information in [3].
-In the future work, this negotiation model will be extended, and more than two context providers can negotiate with each other to decide who is the most appropriate context provider.

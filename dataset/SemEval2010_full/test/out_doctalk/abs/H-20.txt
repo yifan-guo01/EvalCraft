@@ -1,8 +1,0 @@
-Therefore , NED systems are very useful for people who need to detect novel information from real time news stream .
-These real life needs often occur in domains like financial markets , news analysis , and intelligence gathering .
-Further more , it is not acceptable in real applications because of the large amount of computation required in the NED process .
-In another words , term election and term storm are not helpful in differentiate two election campaigns and two storm disasters .
-In addition , Legal / Criminal Cases and Finance topics have higher correlation with money terms , while Science and Discovery have higher correlation with percentage terms .
-BoosTexter is a boosting based machine learning program , which creates a series of simple rules for building a classifier for text or attribute value data .
-Since topic is a relative coarse grained news cluster , we also want to refine cluster granularity to event level , and identify different events and their relations within a topic .
-Any opinions , findings and conclusions or recommendations expressed in this material are the author ( s ) and do not necessarily reflect those of the sponsor .

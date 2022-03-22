@@ -1,6 +1,0 @@
-or What is extraordinary about X?.
-BlairGoldensohn et al.
-[5] T. G. Dietterich.
-In TREC "05: Proceedings of the 14th Text REtrieval Conference, Gaithersburg, Maryland, 2005.
-[12] E. M. Voorhees.
-[13] E. M. Voorhees.

@@ -1,8 +1,0 @@
-Recent popularity of Web search engines has enabled query suggestions that draw upon the query reformulation behavior of many users to make query recommendations based on previous user interactions [ 10 ] .
-In recent years , applying such techniques has become possible at a much larger scale and in a different context than what was proposed in early work .
-Browser plugins and proxy server logs provide access to the browsing patterns of users that transcend search engine interactions .
-However , this approach only considers page visitation statistics independently of each other , not taking into account the pages " relative positions on post query browsing paths .
-The conducted user study investigates the effectiveness of including links to popular destinations as an additional interface feature on search engine result pages .
-Extracting search trails using this methodology also goes some way toward handling multi tasking , where users run multiple searches concurrently .
-They were recruited through an email announcement within our organization where they hold a range of positions in different divisions .
-Exploiting query repetition and regularity in an adaptive community based Web search engine .

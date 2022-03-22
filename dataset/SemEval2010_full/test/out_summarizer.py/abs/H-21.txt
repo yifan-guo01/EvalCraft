@@ -1,8 +1,0 @@
-For instance, in the example above, SD450 brings pages about Canon cameras, while nc4200 brings pages about Compaq laptops, hence to a human the intent is quite clear.
-The volume of queries in today"s search engines follows the familiar power law, where a few queries appear very often while most queries appear only a few times.
-This result is in contrast with prior findings in query classification [20], but is supported by research in mainstream text classification [5].
-This is because using too few search results provides too little external knowledge, while using too many results introduces extra noise.
-Set 1 Method DCG 1 DCG 5 Oracle 7.58 ± 0.19 14.52 ± 0.40 Voting 5.28 ± 0.15 11.80 ± 0.31 Method A 5.48 ± 0.16 12.22 ± 0.34 Method B 5.36 ± 0.18 12.15 ± 0.35 Set 2 Method DCG 1 DCG 5 Oracle 5.69 ± 0.18 9.94 ± 0.32 Voting 3.50 ± 0.17 7.80 ± 0.28 Method A 3.63 ± 0.23 8.11 ± 0.33 Method B 3.55 ± 0.18 7.99 ± 0.31 Table 3: Voting and alternative methods Results from our experiments are given in Table 3.
-The KDD task specification provided a small taxonomy (67 nodes) along with a set of labeled queries, and posed a challenge to use this training data to build a query classifier.
-Our findings, however, are different from those reported by Shen et al. [19], who found summaries to yield better results.
-Y. Li, Z. Zheng, and H. Dai. KDD CUP 2005 report: Facing a great challenge.

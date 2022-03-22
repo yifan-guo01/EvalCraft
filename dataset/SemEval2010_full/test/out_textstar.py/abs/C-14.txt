@@ -1,8 +1,0 @@
-Assign l a weight equal to | log ml| 5.
-Endfor 6.
-In Proceedings of Fourth International Conference on Information Fusion, Aug. 2001.
-[4] M. Hata.
-In Proceedings of MOBICOM, pages 139 150, July 2001.
-[6] Sensor Information Technology Website,.
-http://www.darpa.mil/ito/research/sensit/index.html.
-[7] P. Varshney.

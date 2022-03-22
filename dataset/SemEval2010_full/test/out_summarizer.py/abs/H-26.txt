@@ -1,8 +1,0 @@
-This approach simplifies the process of obtaining ranking functions with high MAP performance by avoiding additional intermediate steps and heuristics.
-In contrast, MAP assigns greater penalties to misorderings higher up in the predicted ranking.
-We focus on functions which are parametrized by a weight vector w, and thus wish to find w to minimize the empirical risk, R∆ S (w) ≡ R∆ S (h(·; w)).
-This is primarily because ROCArea decomposes nicely into a sum of scores computed independently on each relative ordering of a relevant/non relevant document pair.
-In other words, the algorithm maximizes H for each non relevant document, d¯x j , Algorithm 2 Finding the Most Violated Constraint (argmax H) for Algorithm 1 with ∆map 1: Input: w, Cx , C¯x 2: sort Cx and C¯x in descending order of wT φ(x, d) 3: sx i ← wT φ(x, dx i ), i = 1, . . . , |Cx | 4: s¯x i ← wT φ(x, d¯x i ), i = 1, . . . , |C¯x | 5: for j = 1, . . . , |C¯x | do 6: optj ← argmaxk δj(k, |Cx | + 1) 7: end for 8: encode ˆy according to (7) 9: return ˆy without considering the positions of the other non relevant documents, and thus ignores the constraints of (9).
-For both TREC 9 and TREC 10, we used the description portion of each query and scored the documents using five of Indri"s built in retrieval methods, which are Cosine Similarity, TFIDF, Okapi, Language Model with Dirichlet Prior, and Language Model with Jelinek Mercer Prior.
-We computed the scores of these five retrieval methods over the three indices, giving 15 base functions in total.
-C. J. C. Burges, R. Ragno, and Q. Le. Learning to rank with non smooth cost functions.

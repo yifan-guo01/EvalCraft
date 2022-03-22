@@ -1,9 +1,0 @@
-worker program
-structure optimization
-optimization cluster
-worker time
-CONFLEX
-first call
-Dennis
-initialization function
-several system

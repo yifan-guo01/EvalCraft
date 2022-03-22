@@ -1,8 +1,0 @@
-Service Interface: A New Abstraction for Implementing and Composing Protocols∗ Olivier R¨utti Paweł T. Wojciechowski Andr´e Schiper Ecole Polytechnique F´ed´erale de Lausanne (EPFL) 1015 Lausanne, Switzerland {Olivier.
-Note that, despite its name, a stack is not strictly layered, 691 i.e. a protocol module can interact with all other protocol modules in the same stack, not only with the protocol modules directly above and below.
-For example, a request by Pi generates replies that concern only protocol modules Pj. • Notifications can be used by a protocol module to inform (possibly many) protocol modules in the same stack about the occurrence of a specific event.
-With events, the communication is indirect, i.e. a protocol module that triggers an event is not aware of the module(s) that handle the event.
-A natural model of protocol interactions (as presented in Section 2) facilitates the implementation of protocol modules.
-In this section, we describe the main two classes of our implementation: Service (encoding the Service Interface) and 694 service based event based Protocol Interaction an adequate an inadequate representation representation Protocol Composition clear and safe complex and error prone Dynamic Replacement an integrated ad hoc solutions mechanism Table 1: Service based vs. event based Protocol (encoding protocol modules).
-In practice, if a protocol module Pi can issue a request to a protocol UDP, then it may also issue a request to TCP (compatible with UDP) due to the subtyping relation on parameters of communicating modules.
-The FD module implements a failure detector; we assume that it ensures the Stack 1 UDP1RP2P1 Repl CT1 1ABc.

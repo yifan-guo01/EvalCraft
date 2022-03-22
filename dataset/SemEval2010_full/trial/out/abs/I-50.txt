@@ -1,8 +1,0 @@
-tu clausthal.de ABSTRACT Logics of knowledge and belief are often too static and inflexible to be used on real world problems .
-We also show that model checking CTLKP is PTIME complete and can be done in time linear with respect to the size of models and formulae .
-INTRODUCTION Notions like time , knowledge , and beliefs are very important for analyzing the behavior of agents and multi agent systems .
-The main intuition is that beliefs are facts that an agent would know if he assumed that only plausible things could happen .
-Our ultimate goal is to come up with a logic that allows the study of strategies , time , knowledge , and plausible / rational behavior under both perfect and imperfect information .
-An actual notion of plausibility ( that is , a particular set of plausible paths ) can emerge in many different ways .
-VERIFICATION OF PLAUSIBILITY , TIME AND BELIEFS In this section we report preliminary results on model checking CTLKP formulae .
-Human agents use a similar concept of plausibility and practical beliefs in their everyday reasoning in order to reduce the search space and make the reasoning feasible .

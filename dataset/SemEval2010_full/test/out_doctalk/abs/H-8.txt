@@ -1,8 +1,0 @@
-INTRODUCTION Consider an information retrieval researcher who has invented a new retrieval task .
-The pooling method gives thousands of relevance judgments , but it requires many hours of ( paid ) annotator time .
-This has found a wide array of uses in computer science and information retrieval .
-The following theorem shows the utility of a maximum entropy distribution for relevance when estimating confidence .
-The theorem and its proof say nothing whatsoever about the evaluation metric .
-4.4.1 Hypothesis Testing Running multiple trials allows the use of statistical hypothesis testing to compare algorithms .
-An easy derivation of logistic regression from the bayesian and maximum entropy perspective .
-Probabilistic outputs for support vector machines and comparison to regularized likelihood methods .

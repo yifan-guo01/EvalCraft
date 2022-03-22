@@ -1,8 +1,0 @@
-Accurate snippets allow the searcher to make good decisions about which results are worth accessing and which can be ignored .
-In the best case , snippets may obviate the need to open any documents by directly providing the answer to the searcher " s real information need , such as the contact details of a person or an organization .
-Even storing ten billion files and the corresponding hundreds of terabytes of data is beyond the reach of traditional filesystems .
-We present a new algorithm and compact single file structure designed for rapid generation of high quality snippets and compare its space / time performance against an obvious baseline based on the zlib compressor on various data sets .
-Early Web search engines presented query independent snippets consisting of the first k bytes of the result document .
-The search is optimized for our specific task , which is restricted to matching whole words and the sentence terminating token , rather than general pattern matching .
-The final two rows of Table 1 show the size of the resulting document sets after compression with the baseline and CTS schemes .
-All of this is due to the operating system caching disk blocks and perhaps pre fetching data ahead of specific read requests .

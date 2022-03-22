@@ -1,7 +1,0 @@
-Long and Suel propose a caching system structured according to three different levels [9].
-Of course TR2 > TR1.
-Cost aware WWW proxy caching algorithms.
-In USITS, 1997.
-Inf.
-Long and T. Suel.
-[17] N. E. Young.

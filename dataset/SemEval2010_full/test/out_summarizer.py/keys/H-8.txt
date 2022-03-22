@@ -1,8 +1,0 @@
-confidence estimate
-relevance judgment
-document b
-reciprocal rank nature
-relevance probability
-accuracy confidence
-retrieval system
-new topic

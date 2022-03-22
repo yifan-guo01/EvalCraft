@@ -1,9 +1,0 @@
-document segmentation
-multi document segmentation
-segment number
-topic segmentation
-clustering algorithm
-General term algorithm
-term weight
-document sentence
-cue word

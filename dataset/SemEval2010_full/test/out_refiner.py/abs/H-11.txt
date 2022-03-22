@@ -1,8 +1,0 @@
-Based on the observation that the closer to the SVM boundary an image is, the less reliable its classification is, SVM active learning selects those unlabeled images closest to the boundary to solicit user feedback so as to achieve maximal refinement on the hyperplane between the two classes.
-Unlike traditional experimental design methods whose loss functions are only defined on the measured points, the loss function of our proposed LOD algorithm is defined on both measured and unmeasured points.
-The following proposition states the bias and variance properties of the estimator for the coefficient vector w. Proposition 3.1. E( ˆw − w) = −H−1 Λw, Cov( ˆw) = σ2 (H−1 − H−1 ΛH−1 ) Proof.
-The expected squared prediction error is E(y − ˆy)2 = E( + wT x − ˆwT x)2 = σ2 + xT [E(w − ˆw)(w − ˆw)T ]x = σ2 + xT [H−1 ΛwwT ΛH−1 + σ2 H−1 − σ2 H−1 ΛH−1 ]x Clearly the expected square prediction error depends on the explanatory variable x, therefore average expected square predictive error over the complete data set A is 1 m m i=1 E(yi − ˆwT xi)2 = 1 m m i=1 xT i [H−1 ΛwwT ΛH−1 + σ2 H−1 − σ2 H−1 ΛH−1 ]xi +σ2 = 1 m Tr(XT [σ2 H−1 + H−1 ΛwwT ΛH−1 − σ2 H−1 ΛH−1 ]X) +σ2 Since Tr(XT [H−1 ΛwwT ΛH−1 − σ2 H−1 ΛH−1 ]X) Tr(σ2 XT H−1 X), Our Laplacian optimality criterion is thus formulated by minimizing the trace of XT H−1 X. Definition 1. Laplacian Optimal Design min Z=(z1,··· ,zk) Tr XT ZZT + λ1XLXT + λ2I −1 X (11) where z1, · · · , zk are selected from {x1, · · · , xm}.
-H⊥ be the orthogonal complement of H, i.e. HK = H ⊕ H⊥ .
-If the kernel function is chosen as inner product K(x, y) = x, y , then HK is a linear functional space and the algorithm reduces to LOD.
-A semi supervised active learning framework for image retrieval.
-H. Yu, M. Li, H. J. Zhang, and J. Feng.

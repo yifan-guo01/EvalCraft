@@ -1,7 +1,0 @@
-Some of our prior work is in [24].
-Topic based document segmentation with probabilistic latent semantic analysis.
-[6] F. Choi.
-[12] T. K. Ho.
-[13] T. Hofmann.
-[21] J. C. Reynar.
-[26] C. Wayne.

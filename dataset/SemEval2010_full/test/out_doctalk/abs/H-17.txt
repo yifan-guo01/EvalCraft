@@ -1,8 +1,0 @@
-Due to this immense amount of available information , the users are becoming more and more dependent on the Web search engines for locating relevant information on the Web .
-Typically , the Web search engines , similar to other information retrieval applications , utilize a data structure called inverted index .
-In most cases , a query that the user issues may have thousands or even millions of matching documents .
-These enhanced pruning techniques and answer computation algorithms are explored in the context of the cluster architecture commonly employed by today " s search engines .
-Finally , we study and present how search engines can minimize the operational cost of answering queries while providing high quality search results .
-Given the fierce competition in the online search market , search engine operators desperately try to avoid any reduction in search quality in order to maximize user satisfaction .
-In general , we can assume that the final ranking score of a document is a function of its query dependent and query independent relevance scores .
-It is our hope that our work will help search engines develop better , faster and more efficient indexes and thus provide for a better user search experience on the Web .

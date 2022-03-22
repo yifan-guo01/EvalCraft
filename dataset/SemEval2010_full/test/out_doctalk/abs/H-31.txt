@@ -1,8 +1,0 @@
-This new background model is shown to outperform the standard background model and reduce the sensitivity of retrieval performance to the smoothing parameter .
-In Section 2 , we introduce the new family of query generation models with Poisson distribution , and present various smoothing methods which lead to different retrieval functions .
-In the other extreme , we may focus on the terms in the query and ignore other terms , but some useful information may be lost by ignoring the nonquery t
-As in existing language modeling approaches , the main challenge of constructing a reasonable retrieval model is to find a smoothed language model for p ( · | d ) .
-We adopt their method to the Poisson two stage smoothing , and also estimate a per query coefficient for all the terms .
-This material is based in part upon work supported by the National Science Foundation under award numbers IIS 0347933 and 0425852 .
-Distribution of content words and phrases in text and language modelling .
-Empirical development of an exponential probabilistic model for text retrieval : using textual analysis to build a better model .

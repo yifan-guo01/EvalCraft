@@ -1,8 +1,0 @@
-To address this , we introduce the ordered game isomorphism and the related ordered game isomorphic abstraction transformation .
-Chess and Go are examples of the former , and , until recently , most game playing work has been on games of this type .
-To compute an optimal strategy in a perfect information game , an agent traverses the game tree and evaluates individual nodes .
-More recently , AI researchers have been applying the computational power of modern hardware to computing game theory based strategies for larger games .
-The only uncertainty players face stems from private signals the other players have received and from the unknown future signals .
-GameShrink finds all ordered game isomorphisms and applies the associated ordered game isomorphic abstraction transformations .
-4.1 Efficiency enhancements We designed several speed enhancement techniques for GameShrink , and all of them are incorporated into our implementation .
-Evolutionary stability in extensive two person games correction and further development .

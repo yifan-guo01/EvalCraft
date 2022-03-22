@@ -1,8 +1,0 @@
-Rather than on Blundo's scheme their approach is based on Blom's scheme [6].
-In some cases, it is essentially equivalent to the one in [4].
-Obviously, from the supposing condition of The whole sensor network forms a connected graph, there is a route among those nodes.
-Next, we will prove that m(u 1) ≥ x(v 1): m(u 1)= m(vt  1), x(v 1)= tm(v 1).
-Construct a function as f(t)= vt  1  t(v 1), where t ≥ 2.
-ACM Wireless Networks.
-[13] Manjeshwar,A.
-; Agrawal,D.P.

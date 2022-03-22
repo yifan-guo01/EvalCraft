@@ -1,8 +1,0 @@
-Then we develop an algorithm for scheduling the sending of dead reckoning vectors at a sender that strives to make this error equal at different receivers over time .
-To mitigate this effect , we propose a budget based algorithm that provides improved fairness without increasing the mean error thereby maintaining the accuracy of game playing .
-In this paper we consider the problem of different and varying network delays between each sender receiver pair of a DR vector , and consequently , the different and varying export errors at the receivers .
-There have been a few papers which have studied the problem of fairness in a distributed game by more sophisticated message delivery mechanisms .
-Players can introduce objects into the game or delete objects that are already part of the game ( for example , in a first person shooter game , by shooting down the object ) .
-It is a first person shooter game where the players in teams drive tanks and move within a battle field .
-We have modified the implementation of BZFlag to incorporate synchronized clocks among the players and the server and exchange time stamps with the DR vector .
-CONCLUSIONS AND FUTURE WORK In distributed multi player games played across the Internet , object and player trajectory within the game space are exchanged in terms of DR vectors .

@@ -1,8 +1,0 @@
-INTRODUCTION In many machine learning and information retrieval tasks , there is no shortage of unlabeled data but labels are expensive .
-It is motivated by the fast growth of digital image databases which , in turn , require efficient search schemes .
-Specifically , we introduce a locality preserving regularizer into the standard least square error based loss function .
-5.1 Low Level Image Representation Low level image representation is a crucial problem in CBIR .
-Then CTM calculates the first and second moment of these maps as a representation of the natural color image pixel distribution .
-The precision scope curve describes the precision with various scopes and thus gives an overall performance evaluation of the algorithms .
-In many real world applications like relevance feedback image retrieval , there are generally two ways of reducing labor intensive manual labeling task .
-In this paper , we consider the image retrieval problem on a small , static , and closed domain image data .

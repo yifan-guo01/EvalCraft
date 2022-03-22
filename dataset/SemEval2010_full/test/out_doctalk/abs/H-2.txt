@@ -1,8 +1,0 @@
-INTRODUCTION The booming popularity of search engines has determined simple keyword search to become the only widely accepted user interface for seeking information over the Web .
-Second , as all profile information is stored and exploited locally , on the personal machine , another very important benefit is privacy .
-We propose several keyword , expression , and summary based techniques for determining expansion terms from those personal documents matching the Web query best .
-In Section 3.1.2 we move our analysis to the global Desktop collection and investigate expansions based on co occurrence metrics and external thesauri .
-User profiling based on browsing history has the advantage of being rather easy to obtain and process .
-Nevertheless , a very good outcome was also obtained for Desktop based sentence selection and all term co occurrence metrics .
-The interest for analyzing query difficulty has increased only recently , and there are not many papers addressing this topic .
-Automatic query wefinement using lexical affinities with maximal information gain .

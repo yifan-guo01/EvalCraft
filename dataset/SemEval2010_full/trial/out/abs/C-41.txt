@@ -1,8 +1,0 @@
-Overutilization of these system resources can yield unpredictable and unstable behavior , whereas under utilization can yield excessive system cost .
-Two classes of applications QoS enabled and best effort use the multimedia system infrastructure described above to transmit video to their respective receivers .
-In our study , emergency response applications belong to QoS enabled and surveillance applications belong to best effort class .
-HyARM ensures efficient and predictable system performance by providing adaptive resource management , including monitoring of system resources and enforcing bounds on application resource utilization .
-PERFORMANCE RESULTS AND ANALYSIS This section first describes the testbed that provides the infrastructu
-These techniques aid in overcoming limitations with traditional scheduling approaches that handle dynamic changes in resource availability poorly and result in a rigidly scheduled system that adapts poorly to change .
-HyARM employs hybrid control techniques to provide the adaptive middleware capabilities , such as resource monitoring and application adaptation that are key to providing the dynamic resource management capabilities for open DRE systems .
-Comparing and Contrasting Adaptive Middleware Support in Wide Area and Embedded Distributed Object Applications .

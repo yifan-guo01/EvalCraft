@@ -1,8 +1,0 @@
-obvious document representation
-generation process
-different query
-significant sentence
-snippet engine
-term order
-spam score
-result page term#s

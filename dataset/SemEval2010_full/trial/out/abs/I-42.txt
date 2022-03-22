@@ -1,8 +1,0 @@
-We compare our algorithm with DPOP using several metrics including the induced width of the pseudotrees , the maximum dimensionality of messages and computation , and the maximum sequential path cost through the algorithm .
-We use multiple heuristics to generate pseudotrees and choose the best pseudotree in linear space time complexity .
-Recent approaches to solving problems in these domains rely on optimization techniques that map constraints into multi valued utility functions .
-We found that these heuristics often produced little parallelism as the pseudotrees tended to have high depth and low branching factors .
-The utility functions represent soft constraints but can also represent hard constraints by using arbitrarily large negative values .
-The second phase joins utility hypercubes from children and the local node and propagates them towards the root .
-3.1 Utility Propagation Agents located at leaf nodes in the pseudotree begin the process by calculating a local utility hypercube .
-Instead , we use a polynomial time method for calculating the maximum computation and utility message size for a given cross edged pseudotree .

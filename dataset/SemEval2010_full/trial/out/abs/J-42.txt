@@ -1,8 +1,0 @@
-INTRODUCTION With consumers showing increasing resistance to traditional forms of advertising such as TV or newspaper ads , marketers have turned to alternate strategies , including viral marketing .
-Viral marketing exploits existing social networks by encouraging customers to share product information with their friends .
-But until recently it has been difficult to measure how influential person to person recommendations actually are over a wide range of products .
-We were able to directly measure and model the effectiveness of recommendations by studying one online retailer " s incentivised viral marketing program .
-The website gave discounts to customers recommending any of its products to others , and then tracked the resulting purchases and additional recommendations .
-Therefore using more targeted marketing approaches is advantageous both to the merchant and the consumer , who would benefit from learning about new products .
-Consumer surplus in the digital economy : Estimating the value of increased product variety at online booksellers .
-Diffusion in organizations and social movements : From hybrid corn to poison pills .

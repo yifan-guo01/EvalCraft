@@ -4,6 +4,11 @@ dataset/**/temp_docs
 .DS_Store
 **/.DS_Store
 
+dataset/SemEval2010_full/test/out*/**
+dataset/SemEval2010_full/test_answer/out*/**
+dataset/SemEval2010_full/train/out*/**
+dataset/SemEval2010_full/trial/out*/**
+
 dataset/arxiv-dataset/test.txt
 dataset/arxiv-dataset/train.txt
 dataset/arxiv-dataset/val.txt
@@ -13,3 +18,5 @@ dataset/pubmed-dataset/test.txt
 dataset/pubmed-dataset/train.txt
 dataset/pubmed-dataset/val.txt
 dataset/pubmed-dataset/vocab
+
+dataset/cnn/**

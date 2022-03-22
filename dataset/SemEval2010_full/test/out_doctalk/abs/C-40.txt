@@ -1,8 +1,0 @@
-Many MMOG applications , however , still limit themselves to a traditional design approach where their 3D scene complexity is carefully controlled in advance to meet real time rendering constraints at the client console side .
-This is a powerful concept , but unfortunately , user created content tends to create imbalances among the existing scene complexity , causing system wide performance problems .
-As a result , this extensible gaming environment has accelerated the deployment of usercreated content and provides users with unlimited freedom to pursue a navigational experience in its space .
-The organization of this paper is as follows .
-Section 5 reports on the quantitative analysis and Section 6 presents preliminary results of our simulation based experiments .
-A bottom up update strategy proposed for R trees [ 9 ] optimizes update operations of the index while maintaining a top down query processing mechanism .
-It is designed to allow a game participant to see from a third person viewpoint .
-Its omnidirectional nature allows rapid directional changes without any display disruptions at the periphery of the viewable area .

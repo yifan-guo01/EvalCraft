@@ -1,8 +1,0 @@
-Section 5 reports on the quantitative analysis and Section 6 presents preliminary results of our simulation based experiments.
-Finally, we conclude and address future research directions in Section 7.
-However, these algorithms assume that all the candidate visible objects have been stored locally.
-If the target objects are stored on remote servers, the clients receive the geometry items that are necessary for rendering from the server databases.
-Teller et al.
-404 Tokens: IT(E1) IT(E2) IT(A) IT(S) Tokens: AT(E1) DT(E1) AT(E2) DT(E2) AT(A) DT(A) IT(S) (a) node indexing (b) edge indexing (c) edge indexing with row wise cell evaluation Figure 3: Illustration of different data structures for node indexing and edge indexing for the sample space in Figure 2.
-[5] Eyal Teler and Dani Lischinski, Streaming of complex 3d scenes for remote walkthroughs., Comput.
-Graph.

@@ -1,8 +1,0 @@
-We strive to make the process of sharing documents within an Intranet easier .
-Many organizations are required to author documents for various purposes , and such documents may need to be accessible by all members of the organization .
-The distributed indexing mechanism and protocol are presented in Section 3 .
-It provides a simple interface for searching and accessing files that may exist either locally or remotely .
-Local and remote files should be easily accessible through a virtual mountable file system , providing transparency for users .
-PEER TO PEER DISTRIBUTION Apocrita uses a peer to peer distribution model in order to distribute files .
-However , Apocrita also has unique novel searching and indexing features that make this system unique .
-The distributed indexing aspect of this project most closely relates Apocrita goals .

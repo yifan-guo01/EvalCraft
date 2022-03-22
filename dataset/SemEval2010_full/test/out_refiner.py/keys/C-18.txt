@@ -1,8 +1,0 @@
-swarm worm
-infect( host
-share password
-swarm Worm
-book learning
-swarm behavior
-password list
-existent address

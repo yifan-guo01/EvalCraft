@@ -1,8 +1,0 @@
-While many middleware services , to support these applications , have been designed and implemented successfully , localization finding the position of sensor nodes remains one of the most difficult research challenges to be solved practically .
-In addition , the radio propagation characteristics vary over time and are environment dependent , thus imposing high calibration costs for the range free localizations schemes .
-The Spotlight device uses a steerable laser light source , illuminating the sensor nodes placed within a known terrain .
-A more precise ranging technique uses the time difference between a radio signal and an acoustic wave , to obtain pair wise distances between sensor nodes .
-The hardware cost , the energy expenditure , the form factor , the small range , all are difficult compromises , and it is hard to envision cheap , unreliable and resource constraint devices make use of range based localization solutions .
-It can be implemented through either a simple threshold based detection algorithm or other advanced digital signal processing techniques .
-Golay codes have been used in satellite and spacecraft data transmission and are most suitable in cases where short codeword lengths are desirable .
-CONCLUSIONS AND FUTURE WORK In this paper we presented the design , implementation and evaluation of a localization system for wireless sensor networks , called Spotlight .

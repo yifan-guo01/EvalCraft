@@ -1,8 +1,0 @@
-Therefore , using additional external knowledge to augment the queries can go a long way in improving the search results and the user experience .
-Search engines index colossal amounts of information , and as such can be viewed as very comprehensive repositories of knowledge .
-To this end , we employ the pseudo relevance feedback paradigm , and assume the top search results to be relevant to the query .
-However , the tail queries simply do not have enough occurrences to allow statistical learning on a per query basis .
-Human editors populated the taxonomy nodes with labeled examples that we used as training instances to learn a document classifier in phase 1 .
-Few machine learning algorithms can efficiently handle so many different classes , each having hundreds of training examples .
-3.2 Digression : the basics of sponsored search To discuss our set of evaluation queries , we need a brief introduction to some basic concepts of Web advertising .
-As advertisers tend to cover high volume and high revenue queries , broad match queries fall into the tail of the distribution with respect to both volume and revenue .

@@ -1,6 +1,0 @@
-Figure 10 shows the resulting bandwidth over time for the non disjoint strategy in which a node (and more importantly, the root of the tree) attempts to send all data to each of its children (subject to independent losses at individual child links).
-Because the children transports throttle the sending rate at each parent, some data is inherently sent disjointly (by chance).
-ACM Transaction on Computer Systems, 17(2), May 1999.
-[3] Bittorrent.
-[22] Kazaa media desktop.
-In ACM/IEEE NOSSDAV, 2002.

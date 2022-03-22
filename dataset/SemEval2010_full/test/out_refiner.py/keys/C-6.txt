@@ -1,9 +1,0 @@
-content manager
-policy manager
-policy reference
-information system
-policy store
-external storage manager
-content management system
-modular design
-api function

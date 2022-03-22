@@ -1,8 +1,0 @@
-Like other distributed applications , CDMG also suffer from the consistency problem caused by network transmission delay .
-In order to maintain consistency for distributed systems , many different approaches have been proposed , among which local lag and Dead Reckoning ( DR ) are two representative approaches .
-In order to tackle the inconsistency caused by exceptional network transmission delay , a time warp based mechanism is proposed to repair the state .
-By employing physical clock synchronization , GS DR can accurately calculate the states of shared entities after receiving state updates , and it can eliminate after inconsistency .
-Traditional local lag requests that the lag value must be larger than typical network transmission delay , otherwise state repairs would flood the system .
-Spaceship is a very simple networked computer game , in which players can control their spaceships to accelerate , decelerate , turn , and shoot spaceships controlled by remote players with laser beams .
-The main purpose of performance evaluation is to study the effects of GS DR LL on decreasing before inconsistency in a particular game system under different thresholds , lags , and network transmission delays .
-An Experimental Study on the Effects of Network Delay in Cooperative Shared Haptic Virtual Environment .

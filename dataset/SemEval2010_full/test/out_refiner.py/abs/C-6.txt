@@ -1,8 +1,0 @@
-The final case shows a content manager combined with a policy manager controlling a remote storage manager.
-As such the content manager layer provides an API for the application to manipulate all aspects of the Spectrum architecture at different levels of granularity.
-The Spectrum architecture has policies that are normally associated with storage that aim to optimize disk usage.
-For layers that reside on remote systems (e.g. a remote store) only the meta information needed to contact the remote 7 Content Manager Policy Manager Storage Manager Storage Fetcher Program Listings Graphical User Interface Network Enabled DVR Program Information Content DVR Application Figure 2: Spectrum in a Network Enabled DVR node is stored locally.
-The modular/layered design of the Spectrum architecture simplifies the objective of distribution of functionality.
-If the policy manager is using an external storage manager (e.g. a storage appliance), then the media files are stored remotely and are only remotely referenced by the policy manager.
-Unlike the Spectrum architecture which allows edge devices to operate in a largely autonomous fashion, the vendor solutions typically are more tightly coupled to a centralized controller and do not have the sophisticated time based operations offered by Spectrum.
-Finally, the modular design of the Spectrum architecture allows both stand alone and distributed realizations so that the system can be deployed in a variety of applications.

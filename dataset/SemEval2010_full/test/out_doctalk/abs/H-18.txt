@@ -1,8 +1,0 @@
-Topic segmentation intends to identify the boundaries in a document with the goal to capture the latent topical structure .
-Topic segmentation tasks usually fall into two categories [ 15 ] : text stream segmentation where topic transition is identified , and coherent document segmentation in which documents are split into sub topics .
-The former category has applications in automatic speech recognition , while the latter one has more applications such as partial text query of long documents in information retrieval , text summary , and quality measurement of multiple documents .
-Usually , human readers can identify topic transition based on cue words , and can ignore stop words .
-However , often getting large training sets with manual labels on document sentences is prohibitively expensive , so unsupervised approaches are desired .
-Text classification and clustering is a related research area which categorizes documents into groups using supervised or unsupervised methods .
-MIl and WMIl views each sentence as a bag of words and tag it with a topic label .
-Conditional random fields : Probabilistic models for segmenting and labeling sequence data .

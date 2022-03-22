@@ -1,8 +1,0 @@
-Since Slammer , researchers have explored the behaviors of fast spreading worms , and have designed countermeasures strategies based primarily on rate detection and limiting algorithms .
-Other researchers have proposed the use of detectors where rates of Destination Unreachable messages are monitored by firewalls , and a significant increase beyond normal , alerts the organization to the potential presence of a worm .
-In such studies , early researchers discovered a variety of interesting insect or animal behaviors in the wild .
-Biologists , and computer scientists in the field of artificial intelligence have studied such biological swarms , and 323 attempted to create models that explain how the elements of a swarm interact , achieve goals , and evolve .
-For example , a bird in a flock senses the position of adjacent bird and applies a simple rule of avoidance and follow .
-Emergent Intelligence : Aggregate behavior of autonomous agents results in complex intelligent behaviors ; including self organization .
-For example , they speculate on new worms which employ direct worm to worm communication , and employ programmable updates .
-Then the targeting of local addresses assists in discovering the susceptible hosts , while the swarm members need to waste time rediscovering passwords ; and 4 .

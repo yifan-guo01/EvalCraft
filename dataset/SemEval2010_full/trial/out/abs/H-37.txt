@@ -1,8 +1,0 @@
-Content based filtering is one reliable method of combating this threat in its various forms , but some academic researchers and industrial practitioners disagree on how best to filter spam .
-INTRODUCTION Electronic communication is increasingly plagued by unwanted or harmful content known as spam .
-1.1 An Anti Spam Controversy The anti spam community has been divided on the choice of the best machine learning method for content based spam detection .
-This Bayesian method requires only linear training time , and is easily implemented in an online setting with incremental updates .
-Following standard machine learning practice , we tuned C on separate tuning data not used for later testing .
-Because these values were not hand tuned , both generalization performance and runtime results are meaningful in these experiments .
-Note the blog and splog data sets are relatively small , and results on these data sets must be considered preliminary .
-CONCLUSIONS In the past , academic researchers and industrial practitioners have disagreed on the best method for online contentbased detection of spam on the web .

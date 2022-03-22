@@ -1,8 +1,0 @@
-Since high reputation could help providers get more opportunities to provide context and get more proceeds in the future, providers try to get the right to provide good context to enhance their reputation.
-Rewards confirmed in this negotiation process will be fulfilled in the next negotiation process.
-This pervasive negotiation is effective in repeated interaction because arguments can be constructed to directly impact future encounters.
-Rewards mean some extra proceeds in the next negotiation process.
-When negotiation is completed, the chosen provider will provide the context information to Context Manager, and then Context Manager delivers such information to the application and also stores it in Context Knowledge Base where current and historical context information is stored.
-According to the three situations above, we make three experiments as follows: Experiment 1 : In this experiment, A and B negotiate with each other for 50 times, and at each time, we assign different values to dA, dB, repA, repB (satisfying dA dB and repA repB) and the reserved utilities of A and B.
-Judd and Steenkiste in [5] describe a generic interface to query context services allowing clients to specify their quality requirements as bounds on accuracy, confidence, update time and sample interval.
-The work is funded by 973 Project of China(2002CB312002, 2006CB303000), NSFC(60403014) and NSFJ(BK2006712).

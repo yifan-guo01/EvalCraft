@@ -1,9 +1,0 @@
-caption a
-caption feature
-rank result
-few query term
-query term
-long snippet
-result page
-clickthrough inversion
-caption pair

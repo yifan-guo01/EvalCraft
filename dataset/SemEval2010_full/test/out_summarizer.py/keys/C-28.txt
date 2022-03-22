@@ -1,8 +1,0 @@
-grid node
-allocation sequence
-work unit
-multi policy grid
-blast search
-τ database segment
-access time
-master strategy allocation

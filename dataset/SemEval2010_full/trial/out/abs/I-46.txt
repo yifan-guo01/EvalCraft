@@ -1,8 +1,0 @@
-We also mention preliminary results on model checking alternating time temporal logic for this natural class of models .
-INTRODUCTION The logical foundations of multi agent systems have received much attention in recent years .
-Lately , an increasing amount of research has focused on higher level representation languages for models of such logics , motivated mainly by the need for compact representations , and for representations that correspond more closely to the actual systems which are modeled .
-Multi agent systems are open systems , in the sense that agents interact with an environment only partially known in advance .
-Moreover , they allow for representing explicit interaction between local transitions of reactive processes , like willful communication , and synchronization .
-To sum up , RML define a powerful framework for modeling distributed systems with various kinds of synchrony and asynchrony .
-The next proposition stems from the fact that explicit models ( and interpreted systems ) allow for intensive interaction between agents .
-Automatic verification of finite state concurrent systems using temporal logic specifications .

@@ -1,8 +1,0 @@
-We exploit this efficiency in a set of experiments that applied multitarget EMT to a class of area sweeping problems ( searching for moving targets ) .
-Section 6 provides a short discussion of the overall approach , and Section 7 gives some concluding remarks and directions for future work .
-Cunning thieves will attempt to track these sweeps , and time their operation to key points of the guards " motion .
-In the museum guard scenario above , these would correspond to a stochastic sweep schedule , and a measure of relative surprise between the specified and actual sweeping .
-In this case , feasibility and system response data from the Agent Level would provide key information for an environment model update .
-As a result , DBC has a greater ability to express state sequencing properties , which are grounded in the environment model and its state space definition .
-On the other hand , the tactical target expression of variations and correlations between position and speed of motion is now grounded in the state space representation .
-The tag game experiment data also revealed the different emphasis DBC and POMDPs place on the formulation of an environment state space .

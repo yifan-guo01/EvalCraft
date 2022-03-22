@@ -1,8 +1,0 @@
-Since the problem is NP Hard , run time remains exponential on the number of items , but it is remarkably better than an exhaustive search .
-In a combinatorial auction bidders can place bids on combinations of items , called packages or bidsets , rather than just individual items .
-Nevertheless , several algorithms that have a satisfactory performance for problem sizes and structures occurring in practice have been developed .
-Our algorithms implement a myopic utility maximizing strategy and are guaranteed to find the bidset that maximizes the agent " s utility given the outstanding best bids at a given time .
-Stage 1 consists of having simultaneous ascending price open cry auctions and during this stage the bidders can only place bids on individual items .
-This general idea , which they call the redundancy principle , could also be applied to our problem but it requires the existence of a secure center agent that everyone trusts .
-Finally , in the computation procuring clock auction [ 1 ] the agents are given an everincreasing percentage of the surplus achieved by their proposed solution over the current best .
-Towards a universal test suite for combinatorial auction algorithms .

@@ -1,8 +1,0 @@
-We ask whether such mechanisms are susceptible to butterfly effects the infliction of large changes on common measures of market activity by only small perturbations of the order sequence .
-Our theoretical results are supported by large scale experiments using limit order data from INET , a large electronic exchange for NASDAQ stocks .
-With this revelation has come the opportunity and increasingly , the needfor modeling and exploiting limit order data and dynamics .
-The opportunities and needs span the range from the optimized execution of large trades to the creation of stand alone proprietary strategies that attempt to profit from high frequency microstructure signals .
-After giving specific ( worst case ) relative price sequences in which small perturbations generate large changes in ba
-Our results and the fact that in the real markets there is a large and increasing amount of relative behavior such as penny jumping would seem to cast doubts on such beliefs .
-These works model traders and market makers ( who provide liquidity by offering both buy and sell quotes , and profit on the difference ) by utility functions incorporating tolerance for risks of price movement , large positions and other factors , and examine the resulting equilibrium prices and behaviors .
-We run the absolute and relative model simulations on both the raw INET data and on a cleaned version of this data .
