@@ -23,13 +23,15 @@ class DocTalk(NLPSystem):
         os.chdir(self.doctalk_path)
 
         from doctalk.talk import Talker, nice
+        from doctalk.params import talk_params
         
-        talker = Talker(from_text=text)
+        params = talk_params()
+        # params.top_sum = sum_len
+        # params.top_keys = kwds_len
+        talker = Talker(from_text=text, params=params)
         
         summary = [nice(x[2]) for x in talker.get_summary()]
         key_words = list(talker.get_keys())
-
-        print("\n\n".join(summary))
 
         os.chdir(this_dir)
 

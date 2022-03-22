@@ -19,4 +19,8 @@ dataset/pubmed-dataset/train.txt
 dataset/pubmed-dataset/val.txt
 dataset/pubmed-dataset/vocab
 
+dataset/kp20k/test.json
+dataset/kp20k/train.json
+dataset/kp20k/val.json
+
 dataset/cnn/**

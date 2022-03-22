@@ -18,6 +18,7 @@ from dataset.cnn_big import CnnBig
 from dataset.nus import NUS
 from dataset.arxiv import Arxiv
 from dataset.pubmed import Pubmed
+from dataset.kp20k import KP20K
 
 # SETTINGS ------------------------------------------------
 
@@ -28,17 +29,17 @@ wk, sk = 14, 6  # best
 # wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
-max_docs = 25
+max_docs = 100
 docs_to_skip = 0
 
 # delete previously generated keys+abs
 delete_old = True
 
 # Stop running on errors
-show_errors = True
+show_errors = False
 
 # Prevent printing from summarization code
-quiet = False
+quiet = True
 
 # Save generated summaries and kwds
 save_out = True
@@ -62,9 +63,9 @@ SYSTEM = DocTalk(
 #   include_abs=False,
 #   direct=False
 # )
-DATASET = CnnBig(
-  count=max_docs
-)
+# DATASET = CnnBig(
+#   count=max_docs
+# )
 # DATASET = NUS(
 #   count=max_docs,
 #   include_abs=False
@@ -77,6 +78,10 @@ DATASET = CnnBig(
 #   count=max_docs,
 #   dataset="test"
 # )
+DATASET = KP20K(
+  count=max_docs,
+  dataset="test"
+)
 
 # SETTINGS ------------------------------------------------
 
@@ -186,6 +191,7 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
     abs_rougel = ([], [], [])
     abs_rougew = ([], [], [])
     bad_files = 0
+    good_files = 0
 
     startTime = time.time()
 
@@ -242,40 +248,42 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
                 keys_rouge1[1].append(d['r'][0])
                 keys_rouge1[2].append(d['f'][0])
 
-            gold_summary = document.summary()
+            if dataset.has_sums:
+                gold_summary = document.summary()
 
-            # Abs Scores
-            d = ks.kstat(summary_str, gold_summary)
-            assert d
-            abs_scores[0].append(d['p'])
-            abs_scores[1].append(d['r'])
-            abs_scores[2].append(d['f'])
+                # Abs Scores
+                d = ks.kstat(summary_str, gold_summary)
+                assert d
+                abs_scores[0].append(d['p'])
+                abs_scores[1].append(d['r'])
+                abs_scores[2].append(d['f'])
 
-            scores_iter = rs.rstat(summary_str, gold_summary)
-            # Abs Rouge 1
-            d = next(scores_iter)[0]
-            abs_rouge1[0].append(d['p'][0])
-            abs_rouge1[1].append(d['r'][0])
-            abs_rouge1[2].append(d['f'][0])
+                scores_iter = rs.rstat(summary_str, gold_summary)
+                # Abs Rouge 1
+                d = next(scores_iter)[0]
+                abs_rouge1[0].append(d['p'][0])
+                abs_rouge1[1].append(d['r'][0])
+                abs_rouge1[2].append(d['f'][0])
 
-            # Abs Rouge 2
-            d = next(scores_iter)[0]
-            abs_rouge2[0].append(d['p'][0])
-            abs_rouge2[1].append(d['r'][0])
-            abs_rouge2[2].append(d['f'][0])
+                # Abs Rouge 2
+                d = next(scores_iter)[0]
+                abs_rouge2[0].append(d['p'][0])
+                abs_rouge2[1].append(d['r'][0])
+                abs_rouge2[2].append(d['f'][0])
 
-            # Abs Rouge L
-            d = next(scores_iter)[0]
-            abs_rougel[0].append(d['p'][0])
-            abs_rougel[1].append(d['r'][0])
-            abs_rougel[2].append(d['f'][0])
+                # Abs Rouge L
+                d = next(scores_iter)[0]
+                abs_rougel[0].append(d['p'][0])
+                abs_rougel[1].append(d['r'][0])
+                abs_rougel[2].append(d['f'][0])
 
-            # Abs Rouge W
-            d = next(scores_iter)[0]
-            abs_rougew[0].append(d['p'][0])
-            abs_rougew[1].append(d['r'][0])
-            abs_rougew[2].append(d['f'][0])
+                # Abs Rouge W
+                d = next(scores_iter)[0]
+                abs_rougew[0].append(d['p'][0])
+                abs_rougew[1].append(d['r'][0])
+                abs_rougew[2].append(d['f'][0])
 
+            good_files += 1
             printProgress((i + 1) / dataset.count, end="(%i files)" % (i + 1), same_line=quiet)
 
         except KeyboardInterrupt as e:
@@ -295,9 +303,9 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
     print("\n\n")
     showParams()
     print("Failed on %i files, succeeded on %i files" %
-          (bad_files, len(abs_scores[0])))
+          (bad_files, good_files))
     print("Run time: %.1fS (%.2fS per file)\n" %
-          (endTime - startTime, (endTime - startTime) / len(abs_scores[0])))
+          (endTime - startTime, (endTime - startTime) / good_files))
 
     print("                  Precision,          Recall,             F-Measure")
 
@@ -311,16 +319,24 @@ def evaluate(system, dataset, stop_on_error=True, save_out=True):
         print("KEYS SCORES : --                  --                  --")
         print("KEYS SCORES : --                  --                  --")
 
-    print("ABS SCORES  : %.16f  %.16f  %.16f" %
-          (avg(abs_scores[0]), avg(abs_scores[1]), avg(abs_scores[2])))
-    print("ABS ROUGE 1 : %.16f  %.16f  %.16f" %
-          (avg(abs_rouge1[0]), avg(abs_rouge1[1]), avg(abs_rouge1[2])))
-    print("ABS ROUGE 2 : %.16f  %.16f  %.16f" %
-          (avg(abs_rouge2[0]), avg(abs_rouge2[1]), avg(abs_rouge2[2])))
-    print("ABS ROUGE l : %.16f  %.16f  %.16f" %
-          (avg(abs_rougel[0]), avg(abs_rougel[1]), avg(abs_rougel[2])))
-    print("ABS ROUGE w : %.16f  %.16f  %.16f" %
-          (avg(abs_rougew[0]), avg(abs_rougew[1]), avg(abs_rougew[2])))
+    if dataset.has_sums:
+        print("ABS SCORES  : %.16f  %.16f  %.16f" %
+            (avg(abs_scores[0]), avg(abs_scores[1]), avg(abs_scores[2])))
+        print("ABS ROUGE 1 : %.16f  %.16f  %.16f" %
+            (avg(abs_rouge1[0]), avg(abs_rouge1[1]), avg(abs_rouge1[2])))
+        print("ABS ROUGE 2 : %.16f  %.16f  %.16f" %
+            (avg(abs_rouge2[0]), avg(abs_rouge2[1]), avg(abs_rouge2[2])))
+        print("ABS ROUGE l : %.16f  %.16f  %.16f" %
+            (avg(abs_rougel[0]), avg(abs_rougel[1]), avg(abs_rougel[2])))
+        print("ABS ROUGE w : %.16f  %.16f  %.16f" %
+            (avg(abs_rougew[0]), avg(abs_rougew[1]), avg(abs_rougew[2])))
+    
+    else:
+        print("ABS SCORES  : --                  --                  --")
+        print("ABS ROUGE 1 : --                  --                  --")
+        print("ABS ROUGE 2 : --                  --                  --")
+        print("ABS ROUGE l : --                  --                  --")
+        print("ABS ROUGE w : --                  --                  --")
 
 
 if __name__ == '__main__':
