@@ -29,7 +29,7 @@ wk, sk = 10, 6  # best
 # wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
-max_docs = 100
+max_docs = 4000 #Final document to end on (docs_to_skip + number of docs to run)
 docs_to_skip = 0
 
 # delete previously generated keys+abs
