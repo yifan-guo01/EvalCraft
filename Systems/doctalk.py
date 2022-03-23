@@ -26,8 +26,8 @@ class DocTalk(NLPSystem):
         from doctalk.params import talk_params
         
         params = talk_params()
-        # params.top_sum = sum_len
-        # params.top_keys = kwds_len
+        params.top_sum = sum_len
+        params.top_keys = kwds_len
         talker = Talker(from_text=text, params=params)
         
         summary = [nice(x[2]) for x in talker.get_summary()]

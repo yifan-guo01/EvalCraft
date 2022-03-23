@@ -25,7 +25,7 @@ from dataset.kp20k import KP20K
 # number of keyphrases and summary sentences
 # wk,sk=6,6
 # wk,sk=10,9
-wk, sk = 14, 6  # best
+wk, sk = 10, 6  # best
 # wk, sk = 10, 8
 
 # max number of documents to process (None to process all)
